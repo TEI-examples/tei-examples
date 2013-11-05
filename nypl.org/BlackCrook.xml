@@ -1,0 +1,3374 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="drama.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_drama.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>The Black Crook</title>
+</titleStmt>
+<publicationStmt>
+ <publisher>New York Public Library for the Performing Arts</publisher>
+ <pubPlace>New York City</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>The Black Crook:  An Original Magical and Spectacular Drama in Four Acts</title>
+<author>Charles M. Barras</author>
+<date>1866</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<front>
+<titlePage>
+<titlePart>
+<title>
+THE BLACK CROOK,<lb/>
+<lb/>
+AN<lb/>
+ORIGINAL MAGICAL and SPECTACULAR DRAMA<lb/>
+IN FOUR ACTS<lb/>
+</title>
+</titlePart>
+<lb/>
+<docAuthor>
+By Charles M. Barras,<lb/>
+<lb/>
+<note>
+Author of &quot;The Hypochondriac,&quot; &quot;Modern Saint,&quot; &quot;Fairy of 
+Home,&quot; &quot;Woman in White,&quot; &quot;Bibio,&quot; &quot;Injured Orphan,&quot; 
+&quot;The Great Goose Case,&quot; etc., etc., etc.<lb/>
+</note>
+
+<lb/>
+-------<lb/>
+<lb/>
+</docAuthor>
+<docImprint>
+BUFFALO:<lb/>
+ROCKWELL, BAKER &amp; HILL, PRINTERS.<lb/>
+196 and 198 Washington Street.<lb/>
+1866.<lb/>
+<lb/>
+----------------------------------------<lb/>
+Entered according to Act of Congress, in the year eighteen hundred and sixty-three,
+by CHARLES M. BARRAS, in the Clerk&#39;s Office of the District Court 
+of the United States, for the Southern District of New York.<lb/>
+----------------------------------------<lb/>
+<lb/>
+NOTICE.--This Drama, in the fabrication of its legend, the application of the 
+language, and in it&#39;s Dramatical construction, is strictly original, and as such the 
+author cautions all persons against infringement of his right, as defined by the 
+law of copyright.
+<lb/><lb/>
+</docImprint>
+<pb/>
+</titlePage>
+<castList>
+<head>DRAMATIS PERSONAE</head>
+<castGroup>
+<castItem>COUNT WOLFENSTEIN</castItem><lb/>
+<castItem>RODOLPHE (a Poor Artist)</castItem><lb/>
+<castItem>VON PUFFENGRUNTZ, (the Count&#39;s Steward)</castItem><lb/>
+<castItem>HERTZOG-Surnamed the Black Crook, (an Alchymist and Sorcerer)</castItem><lb/>
+<castItem>GREPPO, (his Drudge)</castItem><lb/>
+<castItem>WULFGAR, (a Gypsey Ruffian)</castItem><lb/>
+<castItem>BRUNO, (his Companion)</castItem><lb/>
+<castItem>CASPER</castItem><lb/>
+<castItem>JAN</castItem><lb/>
+<castItem>AMINA, (bethrothed to Rodolphe)</castItem><lb/>
+<castItem>DAME BARBARA, (her Foster-Mother)</castItem><lb/>
+<castItem>CARLINE</castItem><lb/>
+<castItem>ROSETTA</castItem><lb/><lb/>
+</castGroup>
+<castGroup>
+<castItem>Villagers, </castItem><castItem>Peasants,</castItem><castItem> Choresters, </castItem><castItem>Guards, </castItem><castItem>Attendants, </castItem><castItem>etc., etc.</castItem>
+</castGroup>
+<lb/><lb/>
+<castGroup>
+<head>IMMORTALS</head>
+<castItem>Stalacta, (Queen of the Golden Realm)<lb/></castItem>
+<castItem>(Her Attendants)<lb/>
+Crystaline, / Rubyblossom, / Sapphira, / Emeraldine, Scintilla, / Amethysta, / Coralbud, / Garnet<lb/>
+<lb/>
+Fairies, Sprites, Naiads, Submarine Monsters, etc., etc.<lb/></castItem>
+</castGroup>
+<castGroup>
+<head>AMPHIBEA</head>
+<lb/>
+<castItem>Dragonfin,</castItem>		<castItem>Stickleback,</castItem><lb/>
+<castItem>Hackletooth,</castItem>	<castItem>Mulletmug,</castItem><lb/>
+<castItem>Sharskin,</castItem>		<castItem>Eeleye,</castItem><lb/>
+<castItem>Splayfoot,</castItem>		<castItem>Cuttlekonk,</castItem><lb/>
+</castGroup><lb/>
+<castGroup>
+<head>GNOMES</head>
+<castItem>Golddust,</castItem>		<castItem>Spangleneck,</castItem>	<lb/>
+<castItem>Nuggetnose,</castItem>	<castItem>Smelterface,</castItem><lb/>
+<castItem>Yellowscale,</castItem>	<castItem>Pinchback.</castItem><lb/>
+</castGroup><lb/>
+<castGroup>
+<lb/>
+<head>INFERNALS</head>
+<castItem>Zamiel, (the Arch-Fiend)</castItem><lb/>
+<castItem>Skuldawelp, (Familiar to Hertzog,)</castItem><lb/>
+<castItem>Redglare (the Recording Demon,)</castItem><lb/>
+<lb/>
+<castItem>Skeletons, </castItem><castItem>Apparitions, </castItem><castItem>Demons, </castItem><castItem>Monsters, etc., etc.</castItem>
+</castGroup>
+</castList>
+<note>
+<lb/>
+<stage>
+The scene is laid in and around the Hartz Mountains.--Time 1600.
+</stage>
+<lb/><lb/>
+<stage>
+Note.--Hertzog is a hideous deformity, with leaden complexion,
+humped-back, knotted limbs, crooked body and lame.
+</stage>
+<lb/><lb/>
+<stage>
+Von Puffengruntz is corpulent and rubicund.
+</stage>
+<lb/>
+</note>
+</front>
+<body>
+<div type="Act" n="1">
+<div type="scene" n="1">
+<head>Act 1st</head>
+<stage>
+Scene 1st--	A quiet valley at the foot of
+the Hartz Mountains.  Cottage of Dame Barbara
+R. H.  3rd Ent. with practicable upper window 
+and balcony.  Set tree beside cottages, at back 
+Set arbor L.H.  3rd ent. Broken water and 
+ rustic stone bridge or long rocky trail
+piece with platform from R to L backed 
+by an extended range of hills or mountain spurs
+above which light clouds appear, 
+illuminated by the reflected light 
+of the moon.  Shortly after rise of curtain the moonbeams grow faint and the ruddy 
+glow of the rising sun diffuses itself over the clouds and horizon. 
+</stage>
+<stage>
+MUSIC at rise of curtain--enter 
+Rodolphe, at back, R. H.  He descends, comes 
+forward and after looking cautiously 
+around claps his hands three times beneath 
+the window.  The upper window opens 
+and Amina appears on balcony.
+</stage>
+<sp><speaker>Amina</speaker>
+<p>
+Surely I heard his well-known signal.  
+Hist, who&#39;s there?
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Tis I, Rodolphe!
+</p></sp>
+<sp><speaker>Amina</speaker><p>
+Rodolphe!  Hush speak low, if my foster
+mother still sleeps, I will join you. <stage>(retires.)</stage>  
+</p></sp>
+<stage>
+(Music.  Rodolphe goes upstage and 
+looks cautiously off, then comes down --
+Amina enters from cottage.)
+</stage>
+<sp>
+<speaker>Amina</speaker>
+<stage>
+(Throwing herself into his arms)</stage><p>Rodolphe!</p></sp> 
+<sp><speaker>Rodolphe</speaker><p>
+My own!
+</p></sp>
+<pb/>
+<sp><speaker>Amina</speaker><p>
+When did you return?
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+&#39;Twas past midnight:  although wearied and 
+footsore I could not sleep until I had seen 
+you.
+</p></sp>
+<sp><speaker>Amina</speaker><p>
+Oh, how wearily the days and nights have 
+passed since you left me!  What kept you 
+so long?
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Ill fortune, Amina.  After reaching Gottingen
+and finding no purchaser for my picture 
+I heard that there was a wealthy traveller 
+at Cassel, collecting works of art.  
+I had but four silver florins in my 
+pocket yet I hopefully set out to meet 
+him.  After journeying five whole days 
+I arrived at Cassel only to find that the 
+traveller had departed two days before.
+</p></sp>
+<sp><speaker>Amina</speaker><p>
+And your beautiful picture -- upon which 
+so much of our future was built -- you 
+have brought it back?</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+No.  Crushed in my last hope to obtain 
+the means necessary to our union I 
+left it with a remorseless agent for a 
+pittance barely sufficient for subsistence 
+during my journey homeward, and here 
+I am without a single guilder in my pocket! And what is worse if I fail to redeem 
+my pledge at the end of two months it 
+is lost to me forever.</p></sp>
+<sp><speaker>Amina</speaker><p>
+<stage>(Aside)</stage> Poor, dear Rodolphe, he knows not 
+the worst--the heaviest blow is yet to come, How shall I break it to him? <stage>(Aloud)</stage> Dear 
+Rodolphe, my great joy at seeing you 
+made me forget for a moment that which 
+I fear to tell you.</p></sp>
+<stage>
+(The moonlight begins to fade and the horizon 
+grow ruddy with the rising sun.)</stage>
+<sp><speaker>Rodolphe</speaker><p>
+Fear to tell me!  Speak, what has happened?</p></sp>
+<sp><speaker>Amina</speaker><p>
+Be calm and listen.  Last week I attended 
+the festival of St. John, in company 
+with the other members of the village 
+choir.  Upon raising my eyes after we 
+had finished the anthem I found a 
+dark, strange man gazing upon me.  
+A moment after he quitted the spot 
+I enquired who he was and learned that 
+it was the Count Wolfenstein, the all
+powerful lord of this wide domain.</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Well.</p></sp>
+<sp><speaker>Amina</speaker><p>
+Although I met his gaze but for a moment, 
+I felt that it boded evil to me--to <emph rend="underline"> us</emph>.</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Evil!  Evil to <emph rend="underline"> us</emph>?</p></sp>
+<sp><speaker>Amina</speaker><p>
+Yes, evil, Rodolphe, nor were my fears 
+idle, the next day brought him here to 
+our humble abode--he told my foster-
+mother that he loved me.</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+<stage>(Starting)</stage> Loved!--You?</p></sp>
+<sp><speaker>Amina</speaker><p>
+Yes, and that we should no longer dwell in 
+obscurity--that we should be removed to the 
+castle--that masters should be provided for 
+my suitable education, and in a year 
+I should take the place of the late Countess 
+of Wolfenstein.</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+And dame Barbara?----</p></sp>
+<sp><speaker>Amina</speaker><p>
+Joyfully consented.  This very day is set 
+apart for our removal.  The escort will 
+be here at sunrise.</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+And you, Amina, You?---</p></sp>
+<sp><speaker>Amina</speaker><p>
+I supplicated, wept, remonstrated, but you 
+know, dear Rodolphe, I am powerless.</p></sp>
+<sp><speaker>Rodolphe</speaker><p><stage>
+(Vehemently)</stage> By Heaven, you shall not go.</p></sp>
+<sp><speaker>Amina</speaker><p>
+Hush, be calm, dear Rodolphe.</p></sp>
+<stage>
+(Dame Barbara appears on the balcony)</stage>
+<sp><speaker>Rodolphe</speaker><p>
+I say you shall not!  Were he twenty 
+times more potent I would oppose his 
+power to the last.</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Eh, what, varlet, hussey, only wait till 
+I get down! <stage>(MUSIC she disappears 
+from balcony and enters from door--)</stage>
+What, jade, ingrate!  how dare you?  
+Is this your gratitude?  Where is your 
+pride?  Now, the most noble Countess 
+of Wolfenstein that is to be meeting 
+young men in secret and on the very 
+day of your bethrothal.  Oh, if his high
+mightiness the Count should find it out!</p></sp>
+<sp><speaker>Amina</speaker><p>
+
+But mother --</p></sp>
+<pb/>
+<sp><speaker>Barbara</speaker><p>
+Not a word-- how dare you?  In with you, 
+into the house, I say! <stage>(Forces her into the 
+cottage, closes the door, then turns to 
+Rodolphe)</stage> So, beggar, you&#39;ve come back
+have you?  How dare you show your 
+unlucky face here at such a time as 
+this!  I had hoped you had fallen into 
+the hands of the conscript officers and
+gone for a soldier, or better still, been 
+carried off by the demons of the Brocken.</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+ And yet you see I&#39;ve escaped both.  
+Hark ye, dame.  I love Amina, she 
+loves me, you yourself promised that 
+she should be mine as soon as I could 
+command a hundred silver crowns.</p></sp>
+<sp><speaker>
+Barbara
+</speaker><p>
+ Pah, that was before I knew her value, but 
+now that I <emph rend="underline"> do</emph> know it and others know it 
+too, I&#39;ve changed my mind.  But where 
+are the hundred crowns?--Where&#39;s the for-
+tune you were to get for your great pain-
+ting?  I warrant me you haven&#39;t got a 
+single groschen of it.  Come, let me see the 
+hundred crowns.</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+My picture is not yet sold.</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Ha, ha!  Didn&#39;t I say so,  not yet sold
+eh?  Here&#39;s a pretty fellow, that would 
+take a young girl from her comfortable
+home, a good bed, sweet milk and 
+egg-pudding, to lodge her on pea-straw, 
+and feed her at best on black bread and 
+sour cheese.  Oh, was there ever such villainy?
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Nay, but listen to me.
+</p></sp>
+
+<sp><speaker>
+Barbara</speaker><p>
+Not a word; begone, do you think people of 
+quality have nothing to do but listen to 
+beggars complaints, and above all at such 
+a time as this?  Begone, I say, this is 
+to be a festival day, the maidens of the 
+village will be here anon; the grand escort 
+will be here, headed by the Count&#39;s chamberlain,  
+Aye, and his Lordship the Count 
+himself will be here, to bear the Countess 
+that <emph rend="underline"> is</emph> to be and her right honorable 
+foster-mother that <emph rend="underline"> is</emph> to be to the Castle.
+<stage>(Music)</stage> Hark, here come the villagers 
+already:  Out of the way I say.</p></sp>
+<stage>
+(Pushes him rudely aside, goes up and 
+looks off RH--Rodolphe retires into 
+the arbor.)</stage>
+<stage>
+(Enter lively from RH at back, female 
+villagers with garlands, followed by males, 
+two of whom bear a rustic chair, festooned 
+with flowers.  They descend and come 
+forward, greeting the Dame.  Females LH 
+males RH at back.  The sun appears 
+above one of the spurs of the Mountains.)
+</stage>
+<sp><speaker>Barbara</speaker><p>
+<stage>(Down RH)</stage> Ah, you are early, friends.</p></sp>
+
+<sp><speaker>Carline</speaker><p>
+Yes, but not earlier than the sun, for see, 
+it is already peeping over the great toe 
+of the Brocken.  But where&#39;s Amina?</p></sp>
+
+<sp>
+<speaker>
+Barbara
+</speaker><p>
+<stage>(Drawing herself up)</stage>
+ The Countess that <emph rend="underline"> is</emph> to 
+be is preparing to receive his lordship the 
+Count.  But never mind her ladyship, 
+enjoy yourselves until she is ready.  Here, 
+Casper, here I am, come with me and bring 
+some refreshments while I help to prepare 
+her ladyship <stage>(Goes into the cottage 
+followed by Casper and Jan. The two latter 
+re-enter with white cloth, wine, fruits,
+etc.  which they arrange on the table 
+beneath the tree)</stage>
+</p></sp>
+<sp><speaker>Carline</speaker><p>
+Bless me, how grand Dame Barbara has 
+grown, to be sure.  If she goes on at this 
+rate the wide halls of the grand old
+Castle of Wolfenstein will be a world 
+too small to hold her.  I hope this 
+piece of good fortune will not make 
+such a fool of dear &#39;Mina
+</p></sp>
+
+<sp><speaker>
+Rosetta
+</speaker><p>
+I don&#39;t understand this, I thought &#39;Mina 
+was bethrothed to the handsome young 
+painter Rodolphe,  what ever could 
+have become of him?</p></sp>
+<sp><speaker>Carline</speaker><p>
+Oh, &#39;tis said he has gone for a soldier-- 
+But come, while &#39;Mina is making 
+ready let us rehearse our Festival Dance.</p></sp>
+<stage>
+(Music: Grand Garland Dance 
+by principals and full Ballet, during 
+which the Males gather around the table 
+and eat and drink.  After dance, Barbara
+re-enters extravagantly dressed, wearing a 
+monstrous cap ridiculously trimmed)</stage>
+<sp><speaker>Barbara</speaker><p>
+There!  Having completed her ladyships 
+toilet I have attended to my own, and, 
+if I know anything about dress, I flatter 
+myself that my appearance would do 
+honor to any occasion. <stage> (Displays herself)</stage>
+</p></sp>
+<sp>
+<speaker>Carline</speaker>
+<stage>(Aside to Rosetta)</stage><p>Mercy on us, was there 
+ever such a fright!  Why she looks for 
+all the world like a great horned owl 
+dressed up in the cast-off finery of 
+a peacock.  Ha, ha, ha,  Did you ever? 
+Observe me tickle the old buzzard.
+<stage>(Aloud and with affected admiration)</stage>
+Why! Dame Barbara, is that you?</p></sp> 
+<sp><speaker>Barbara</speaker><p>
+<stage>(Drawing herself up)</stage>Of course it is, child.  
+Who else should it be?<stage>(Aside)</stage> I knew 
+I should make them open their eyes.</p></sp>
+<sp>
+<speaker>Carline</speaker><p>
+Why you&#39;ve almost taken away my 
+breath.  I declare, Dame, you&#39;re looking 
+gorgeous--so young and girlish too.  
+Indeed, if I were &#39;Mina--I beg pardon 
+I mean her ladyship, I wouldn&#39;t 
+care to have you in the way when 
+his lordship, the Count, arrives.</p></sp>
+<sp><speaker>Barbara</speaker><p>
+And why not, pray?</p></sp>
+<sp><speaker>Carline</speaker><p>
+ Because I should consider you a 
+dangerous rival.</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Nonesense, girl, you don&#39;t think so?</p></sp>
+<sp><speaker>Carline</speaker><p>
+Indeed, Dame Barbara, I was never more 
+serious in my life. <stage>(Laughingly confers 
+with Rosetta and villagers)</stage></p></sp>
+<sp><speaker>Barbara</speaker><p>
+
+It&#39;s strange I never noticed it before, but 
+that girl Carline&#39;s a very sensible person.
+<stage>(Music)</stage> Ah, here comes the escort!
+</p></sp>
+<stage>
+(All go up and look off RH.  RODOLPHE glides 
+from the arbor into the cottage unobserved.)</stage>
+<stage>
+	ENTER from RH at back, and descending 
+Von Puffengruntz, bearing the wand of office, 
+He is preceeded by two servants of the 
+Count&#39;s household, as he comes down the 
+Male Villagers take off their caps and the 
+females curtsey</stage>
+<sp><speaker>Von Puff</speaker><p>
+
+<stage>(LH, With pompous condescension)</stage> Be 
+covered, good people, be covered; the air of 
+the valley is yet damp.  We never insist 
+upon ceremony at the expense of health.
+<stage>(Aside)</stage> Ahem It is the true policy of 
+greatness to occasionally waive a point 
+of etiquette in dealing with inferiors.</p></sp>
+<sp><speaker>Barbara</speaker><p>
+What a courtly gentleman!</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+What an imposing female!
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+<stage>(Curtseying)</stage> Your Excellency is welcome.
+Von Puff <stage>(Bowing)</stage> I cannot be mistaken, I was just 
+about to inquire, but that stately presence 
+and graceful dignity tell me that I am 
+addressing Madam Barbara.</p></sp>
+<sp><speaker>Barbara</speaker><p>
+<stage>(Curtseying)</stage> Oh, sir. <stage>(Aside)</stage> How one&#39;s 
+manner will betray one, I always said I 
+belonged to a higher sphere.</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+I come, Madam, by the Count&#39;s order to announce 
+that the cavalcade has arrived and is now 
+resting on the plateau, beyond the ravine.
+His lordship will be here presently and in 
+person conduct your fair foster daughter
+to her palfrey, that waits without, impatient 
+for the honor to be mounted by her.</p></sp>
+<sp><speaker>Barbara</speaker><p>
+<stage>(Curtseying)</stage> Oh, sir, his lordship is so considerate.  
+But may I inquire if <emph rend="underline"> I</emph> have 
+been thought of?  And I <emph rend="underline"> also</emph> to be provided 
+with a becoming escort?  Is there any palfrey 
+without impatient for the honor to be ridden 
+by me?</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+That shall be my privilege
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+<stage>(Astonished)</stage> Eh!</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+That is I have charged myself with the 
+especial honor of being your escort.</p></sp>
+<sp><speaker>Barbara</speaker><p>
+<stage>(Curtseying very low)</stage> Oh! <stage>Music</stage></p></sp>
+<sp><speaker>Von Puff</speaker><p>
+He comes!  Room there for his lordship.</p></sp>
+<stage>
+(Villagers range themselves to receive 
+the COUNT who enters RH at back, 
+crosses and comes down LH preceeded by 
+guards and followed by Wulfgar and 
+Bruno.  When down Villagers shout 
+and wave their caps)</stage>
+<sp><speaker>Wolfenstein</speaker><p>Salutation to the good dame Barbara.</p></sp>
+<sp><speaker>Barbara</speaker><p>
+<stage>(Curtesying very low)</stage> Oh, your lordship!</p></sp>
+<sp><speaker>Wolfenstein</speaker><p>And how fares your lovely charge?</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Well, may it please your lordship, quite 
+well, a little nervous from over-anxiety to 
+see your lordship, but that is quite natural 
+with us poor silly things.  I suffered 
+<emph rend="underline"> dreadfully</emph> in that way when my poor 
+dear, dead and gone Christopher courted me.  
+Many and many a time---</p></sp>
+<sp><speaker>Wolfenstein</speaker><p><stage>(Impatiently interrupting her)</stage> But the fair Amina,</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Is quite ready and dying to see you--I will present her to 
+your lordship at once.</p></sp>
+<stage>	She is going into the cottage when 
+Rodolphe appears and comes forward, leading 
+Amina by the hand (CHORD)</stage>
+<sp><speaker>Rodolphe</speaker><p>
+Allow <emph rend="underline">me</emph> dame Barbara, to do the honors.</p></sp>
+<sp>
+<speaker>
+All the Villagers
+</speaker><p>
+Rodolphe! <stage>(Picture of astonishment)</stage></p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+My lord Count Wolfenstein, permit me, 
+Rodolphe Werner, a poor artist, to present 
+to you Amina, foster-daughter to dame 
+Barbara, a free maiden of the valley and 
+my affianced bride.</p></sp>
+<sp><speaker>Wolfenstein</speaker><p>
+Who is this madman?</p></sp>
+<sp><speaker>Barbara</speaker><p>
+N-n-n-n-n-n-nobody, your Lordship, that is
+a poor, weak simpleton who imagines he 
+is betrothed to every girl in the village.  
+As your lordship <emph rend="underline"> truly</emph> says, a madman.</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+A madman!  Mercy on us, we shall all 
+be murdered.  Seize him, secure him, somebody, 
+everybody.</p></sp>
+	<stage>(MUSIC  Wulfgar and 
+Bruno seize Rodolphe and after a struggle 
+overpower him.  Amina screams, clings to 
+him for a moment then throws herself at 
+the Counts feet, he raises and passes her 
+to Barbara, then turns to guards)</stage>
+<sp><speaker>Wolfenstein</speaker><p>
+Release him, <stage>(They release him)</stage> His misfortune 
+claims our pity.  Let some of his fellows conduct 
+him hence and see that no harm come 
+to him. </p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+<stage>(Defiantly)</stage> My Lord Count---</p></sp>
+<sp><speaker>Wolfenstein</speaker><p>
+Begone, Sirrah!</p></sp>
+
+<sp><speaker>Casper</speaker><p>Come, Rodolphe, come with me. <stage>(aside)</stage> Are 
+you indeed mad to brave the tiger in his 
+lair--<stage>(Leads him RH)</stage> Come I say, this is 
+neither time nor place to right your wrong.  
+Be calm, I say, be calm.</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+<stage>(Shaking him by the hand)</stage> You are right, 
+Casper, you are right. <stage> (Looks scornfully 
+at Wolfenstein)</stage> Come, my friend, come.
+<stage>(Exit RH 1st Ent. with Casper)</stage>
+</p></sp>
+<sp>
+<speaker>Wolfenstein</speaker>
+<stage>(Aside)</stage><p> &#39;Tis he, the lover.  He braves me, too.</p>
+<stage>(Aloud)</stage> <p>Wulgar!</p> <stage>(Wulfgar advances)</stage>
+<stage>(Apart to Wulfgar)</stage><p> Track younder knave, take 
+Bruno with you.  Seize him, but let no 
+eye see you,  Place him in the secret vault 
+beneath the eastern wing.  Once there--you 
+know the rest.
+</p></sp>
+<sp><speaker>Wulfgar</speaker><p><stage>(Nods meaningly)</stage> I understand.  <stage>(Gives sign 
+to Bruno and is going RH 1st Ent)</stage></p></sp>
+<sp><speaker>Wolfenstein</speaker><p>
+Stay, not now, it will be noted.  When the procession 
+moves then steal away by the upper path</p></sp>
+<stage>
+(Wulfgar nods, turns upstage and 
+confers with Bruno.  Wolfenstein confers
+with Von Puffengruntz at back.)</stage>
+<sp><speaker>Barbara</speaker><p>
+<stage>
+(Leading Amina forward and aside to her)
+</stage>
+Silence, on your life, not a word that you 
+have ever seen him before.  If the Count were 
+to know---Mercy on me, I tremble to think 
+of it, there wouldn&#39;t be a head left on 
+any of our shoulders.</p></sp>
+	<stage>(Birds heard singing till scene 
+closes)</stage>
+<sp><speaker>Von Puff</speaker><p>
+<stage>(Waving his wand)</stage> Let the procession move.</p></sp>
+							<stage>(Music 
+Wolfenstein joins Amina, Villagers bring 
+foward the festooned chair from LHUE.  
+Wolfenstein assists Amina into the seat.  
+The chair is borne by four villagers.  The 
+others form in procession.  Wolfenstein 
+beside the chair, Von Puffengruntz pompously 
+leading Barbara by the hand.  
+Wulfgar + Bruno loiter behind and when 
+unobserved steal off R.H.U.E.  The procession 
+after making the circuit of 
+the stage ascends the rocks LH and crosses
+RH, the VILLAGERS singing the following</stage>
+
+<sp>
+<speaker>
+Chorus
+</speaker>
+<lg>
+	<l>		Hark, hark, hark!</l>
+<l>Hark, the birds with tuneful voices,</l>
+<l>Vocal for our lady fair,</l>
+<l>And the lips of op&#39;ning flowers</l>
+<l>Breathe their incense on the air,</l>
+<l>Breathe their incense on the air.</l>
+</lg>
+<lg>
+<l>			See, see, see,</l>
+<l>See the sun in orient splendor</l>
+<l>Gilding every glittering spray ,</l>
+<l>Busy weaving jewelled chaplets</l>
+<l>For our lovely Queen of May,</l>
+<l>For our lovely Queen of May.</l>
+</lg>
+<lg>
+<l>			Mark, mark, mark!</l>
+<l>Mark the plumes of mighty Brocken</l>
+<l>Waving in the fragrant air,</l>
+<l>Proudly nodding salutation</l>
+<l>To our charming lady fair,</l>
+<l>To our charming lady fair. </l></lg>
+</sp>
+<stage>
+Closed in when procession clears 1st grooves
+</stage>
+</div>
+<div type="scene" n="2">
+<head>
+Scene 2nd
+</head>
+<stage>A dark woody or rocky pass (in 1) Lights 1/2 down.</stage>  
+<stage>(Music  Enter Wulfgar + Bruno RH)</stage>
+<sp><speaker>Wulfgar</speaker><p>So, we&#39;ve reached the pass a good five 
+minutes before him.</p></sp>
+<sp><speaker>
+Bruno
+</speaker><p>But if he should cross the bridge?</p></sp>
+<sp><speaker>Wulfgar</speaker><p>Aye, <emph rend="underline"> if</emph>, but he&#39;ll not.  I watched him 
+from behind &quot;The Devil&#39;s Hump&quot; and saw 
+him part company with that lout at the 
+foot of the old cross.  I tell you his path 
+lies this way. <stage>(Crosses to LH)</stage> Hark some 
+one comes. <stage>(Looks cautiously off)</stage> Ha, I was 
+right, &#39;tis he, quick conceal yourself 
+and when I hood the hawk stand ready 
+to clip his claws.</p></sp>
+<stage>
+(Music  WULFGAR conceals himself LH
+Bruno RH)</stage>
+<stage>(Music Enter Rodoplhe LH)</stage>	
+<sp><speaker>Rodolphe</speaker><p>
+Deeper, let me plunge, deeper still into the 
+heart of the mountains: the light of the sun 
+falls like molten lead on my aching eyeballs. 
+My heart&#39;s on fire, my brain is in a 
+whirl,  I strive to think, but thought becomes a chaos,
+Am I awake or is this some horrible dream?  
+Water, water, my throat is flaming.  Ha, yonder&#39;s 
+a rill trickling from the rock.</p></sp>
+<stage>	(Music. He is going R when Wulfgar 
+who has stolen from his concealment 
+throws a cloak over his head, while Bruno 
+at the same moment pinions his arms,
+Rodolphe struggling violently</stage>
+<sp><speaker>Wulfgar</speaker><p>Quick, quick, the cord, the cord: he has the 
+strength of a lion.</p>
+<stage>(Bruno draws a cord tightly over his 
+arms.)</stage><p>So, away, away!</p></sp>  <stage>(Music.  They 
+force Rodolphe off RH.)</stage>
+</div>
+<div type="scene" n="3">
+<head>
+Scene 3rd
+</head>
+<stage>
+(Study and laboratory of the Black Crook.
+(in 2) Hertzog discovered LH, seated at 
+table poring over a large cabalistic book.  
+Greppo, pinched and starved asleep on stool
+RC before a retort furnace in RH flat.
+An antique lamp illuminates the characters
+of the book upon the table, upon which
+is a skull and hour-glass.  Door on LH 
+flat.  Transparent window in RH flat.  </stage>	
+<stage>	
+		(Music at opening of scene.</stage>
+<sp>
+<speaker>Hertzog</speaker>
+<stage>
+(Rising in pain and with difficulty, he closes 
+the book and comes forward)</stage>
+<p>Vain, vain, some subtile spell is 
+hovering in the air that mocks my power 
+and makes the charms that once were potent 
+a jabbering idle sound.  And shall I yield 
+to this Invisible?  I, Hertzog, the Crook, whom 
+men call sorcerer.  I, at whose name the 
+strong man trembles and the weak grows 
+faint.  I whose life of long, laborious 
+years hath well nigh run its course, gleaning 
+dark knowledge in forbidden paths,  
+shall I now seek the light?  My eyes 
+are old and dim and could not brave the 
+glare.  No, no, I&#39;ll work new mines--new 
+mines, and plumb the depths of darker 
+mysteries still.</p></sp>
+<sp><speaker>Greppo</speaker><p>
+<stage>
+(Snores loudly)</stage>
+</p></sp>
+<sp><speaker>Hertzog</speaker><p><stage>(Turning)</stage> How now, knave?</p></sp>
+<sp><speaker>Greppo</speaker><p>
+<stage>(Starts from his sleep and uses the bellows 
+rapidly at the mouth of the furnace)</stage></p></sp>
+<sp><speaker>Hertzog</speaker><p>Come hither, varlet.</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Yes, master. <stage>(Rises from stool, puts down 
+bellows and comes forward, yawning)</stage></p></sp>
+<sp><speaker>Hertzog</speaker><p>
+What, drone, sluggard, snoring again?
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+N-n-n-no good master, no.
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>
+Out, lying knave; Did I not hear thee 
+snore?</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Snore?  Aye, granted, but &#39;twas in <emph rend="underline"> thy</emph> service, 
+master, much fasting and long 
+watching caused this left rebellious eye 
+to wink, and so I snored to wake it up 
+again.  </p></sp><sp>
+<speaker>Hertzog</speaker><p>
+Bah! shuffling loon, thy drowsing comes of overfeeding.</p></sp>
+<sp><speaker>Greppo</speaker><p>
+<stage>(Viewing himself)</stage> Overfeeding?  Look I if I were 
+overfed?  A scanty chopin of weak sour beer 
+with one poor groschen&#39;s worth of musty beans 
+is all the banquet this shrunk belly knows
+from week to week.
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>What, rogue, dost grumble?</p></sp>
+
+<sp><speaker>Greppo</speaker><p>No, good master, no.</p></sp>
+ <stage>(Rumbling thunder)
+		Music. Tremolo piano </stage>
+
+<sp><speaker>Hertzog</speaker><p>
+Ha, the night grows foul.  &#39;Tis all the better,
+Bring me my cloak and staff <stage>(Thunder)</stage>
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+<stage>
+(Bringing forward crutch stick and short,
+black hooded cloak from nail on flat</stage>
+They are here.  <stage>(Places cloak on Hertzog&#39;s 
+shoulders</stage>
+</p></sp>
+<sp>
+<speaker>Hertzog</speaker>
+<stage>
+(Drawing the hood over his head) </stage><p> So, now 
+thine own.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+My cloak:  I have none, Master.
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>
+Thy cap.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Mine?
+</p></sp>
+<sp><speaker>Herzog</speaker><p>Thine.  <stage>(Thunder)</stage></p></sp>
+
+<sp><speaker>Greppo</speaker><p>
+Oh, Lord, what a night, <stage>(Brings his cap 
+from peg beside the furnace)</stage>
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>
+Bring with thee yonder brazen casket.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Th-the-the brazen casket?
+</p></sp>
+<sp><speaker>Hertzog</speaker><p> Aye, echoing fool! <stage>(Thunder)</stage></p></sp>
+
+<sp><speaker>Greppo</speaker><p>
+<stage>(Tremblingly goes to table and takes casket)</stage>
+<stage>(Aside)</stage> The devil&#39;s tool-chest <stage>(Aloud)</stage> Whither 
+go we, dread master?</p></sp>
+
+<sp><speaker>Hertzog</speaker><p>To the Serpents&#39; Glen.  <stage>(Loud thunder)</stage></p></sp>
+
+<sp><speaker>Greppo</speaker><p>
+<stage>(Starting)</stage>  Oh Lord, the Serpents Glen! 
+Beelzebub&#39;s favorite chapel, surely, good 
+master, you would not, and above all
+on such a night as this?
+<stage>
+(Thunder and lightning, the latter show-
+ing itself in transparent window in 
+R.H. flat)</stage>
+Hark how the tempest howls;  Strong 
+pines are toppling down the mountain 
+sides.  &#39;Twere certain death to go abroad 
+to night.
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>Silence, and follow. <stage> (Goes toward door.
+lightning and loud thunder)</stage>
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+<stage>
+(Has made a movement to follow,
+starts back trembling violently.)
+</stage>
+Master, I cannot!
+</p></sp>
+<sp>
+<speaker>Hertzog</speaker><p>
+<stage> (Turning fiercely)</stage> What, ingrate, do you 
+rebel?
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+No, master, no, my spirit&#39;s willing, but 
+my legs are weak.
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>
+Wretch, did I not snatch thee drowning 
+from the whirling gulf, bind thy torn 
+limbs with rare medicaments and stanch 
+the current of thy ebbing life that fast
+was running out?
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+
+You did, good master, you did.
+<stage>(Aside)</stage>
+Out of the water into the fire.
+</p></sp><sp>
+<speaker>Herzog</speaker><p>
+Begone!
+<stage>
+(MUSIC forte.  Throws upon the door in LH flat.  LOUD
+THUNDER &amp; WIND.  LIGHTNING.  GREPPO starts back)</stage>
+Fool, begone, I say.
+<stage>(Seizes and hurls him toward the open door.  HEAVY THUNDER
+&amp; LIGHTNING.  GREPPO in doorway entreats.  HERTZOG raises 
+his staff)</stage>
+Away, away!</p></sp>
+<stage>
+(THUNDER &amp; LIGHTNING.  HERTZOG &amp; GREPPO exit )
+</stage>
+<stage>
+Curtain
+</stage>
+</div>
+<div type="scene" n="4">
+<head>
+Act One - Scene Four
+</head>
+<stage>
+Scene:				An apartment in the castle of Wolfenstein.
+					LOW THUNDER.  Lights up.
+</stage>	
+<sp>				
+<speaker>Carline</speaker>
+<stage>(Enters RH)</stage><p>
+Bless me, what a night to welcome her ladyship that is to be 
+to her new home.  I declare the old castele trembles and 
+shakes like a great ship at sea.<stage>
+(LOUD THUNDER)</stage>
+Mercy on us, what a crash!  But pshaw, why hsould I care how 
+the tempest rages without.  Am I not safe within, and in rare 
+good luck too?  Only to think that I should be chosen from 
+among all the girls in the village to become Amina&#39;s companion 
+and own particular waiting maid.  Old Hagar, the gypsy fortune 
+teller whose palm I crossed with a new quarter florin 
+last week told me that good fortune awaited me, and sure enough, 
+here it is.  Only to think of it, that I, Carline 
+Brenner , who for ten long years have been chained to a stupid 
+spinning wheel day an night should become confidential 
+companion to the future mistress of Wolfenstein.  Was there 
+ever such good fortune?  I declare, I am so happy I could 
+sing for a month. 
+</p></sp>
+<stage>
+(Introduced song and exit LH)
+</stage>
+<stage>
+Curtain
+</stage>
+
+</div>
+<div type="scene" n="5">
+<head>
+Act One - Scene Five
+</head>
+<stage>
+Scene:		A wild glen in the heart of the Brocken.  Perilous
+			rocky pathway leading from above at back,
+			LH to R.  Returning crosses over a rock 5 feet
+			high RH 3 exit, with set blasted tree back of it.  
+			Large working Raven on limb and vampire doors 
+			in trunk.  Set rock-piece in center of stage, 
+			opposite 2nd grooves, bearing a general resemblance
+			to a rude altar.  Set trick plants with 
+			serrated leaves R&amp;L.  The whole stage is much 
+			broken up with rocky sets, leaving the center 
+			back of the altar generally open--Lights down.  
+			Music at opening.  HERZOG appears above LH, followed
+			by GREPPO, making several efforts to turn 
+			back is checked by HERZOG.
+</stage>			
+<sp><speaker>Greppo</speaker><p>
+<stage>(Coming forward LH when down)</stage>
+Oh Lord, what a place.
+<stage>(MUSIC.  THE RAVEN croaks, flaps its wings and shows red 
+illuminated eyes.  Greppo starts)</stage>
+What&#39;s that?
+<stage>(Turns)</stage>
+&#39;Twas the croaking of yonder mock-raven, did&#39;st he ar, master?
+&#39;Tis an evil sign, let&#39;s begone.
+</p></sp>
+<sp><speaker>Herzog</speaker><p>Silence, fool.  Set down the casket.
+<stage>(Goes up stage)</stage>
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+I will.
+<stage>(Sets the casket on ground LC)</stage>
+Thank St. Michael, I&#39;m rid of that pleasant companion.  As I 
+have an empty belly and hope some day to have it filled, I 
+could swear before the Burgomaster that when we passed over 
+the bridge of Beelzebub&#39;s Nose I heard voices laughing inside 
+that very casket,-saw blue blazes come out of the keyhole 
+and smelt a strong smell of brimstone.
+<stage>(MUSIC.  RAVEN croaks as before)</stage>
+<stage>(Looking around fearfully)</stage>
+Oh Lord, Oh Lord, what a pleasant place for an uninterrupted 
+funeral.  Ugh!</p></sp>
+
+<sp><speaker>Herzog</speaker><p>Knave.</p></sp>
+
+<sp><speaker>Greppo</speaker><p>
+Master.
+</p></sp>
+<sp><speaker>Herzog</speaker><p>Bring hither full.</p></sp>
+
+<sp><speaker>Greppo</speaker><p>
+I obey.
+<stage>(Aside)</stage>
+Here&#39;s a chance, if I can only get out of this, may the Fiend 
+singe me if he catches me back.  I&#39;d rather be on the raging 
+flood than serve him an hour longer.
+<stage>(Is about to ascend the rocks)</stage>
+</p></sp>
+<sp><speaker>Herzog</speaker><p>Whither go now, varlet?
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+For fuel, master.  This around us is wet with the storm and
+will not burn.  As we came along I noted beneath the shelter 
+of a carg, hard by, many dry faggots.  I will fetch them.
+<stage>(Going)</stage>
+</p></sp>
+<sp><speaker>Herzog</speaker><p>Come back.
+<stage>
+(GREPPO groans &amp; returns)
+</stage><stage>
+(Pointing RH2)
+</stage>
+The dead branches of yon blasted larch will serve.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+But, master--
+</p></sp>
+<sp><speaker>Herzog</speaker><p>Dolt, obey me.</p></sp>
+
+<sp><speaker>Greppo</speaker><p>
+I&#39;m gone.<stage>
+(Groans and exits RH2)</stage>
+<stage>(MUSIC.  HERZOG goes slowly up 
+to set altar and smites it three times with his stick.  
+Blue flame issues from the top of the altar and continues 
+through the scene.)</stage><stage>
+(Re-enters with armload of faggots)</stage>
+Here are the faggots, master.
+</p></sp>
+<sp><speaker>Herzog</speaker><p>&#39;Tis well.  Feed yonder flame.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+A flame!  How came we by a flame?  I&#39;ll swear I brought no 
+tinder-box.  More brimstone, I suppose.  Oh Lord, oh Lord!
+</p></sp>
+<sp><speaker>Herzog</speaker><p>Fool, do as I command.</p></sp>
+
+<sp><speaker>Greppo</speaker><p>
+I fly.
+<stage>
+(MUSIC.  He goes slowly &amp; timidly up to and behind altar 
+with faggots)</stage>
+Now for some devil&#39;s cookery.
+</p></sp>
+<sp><speaker>Herzog</speaker><p>So.  Pluck me an inner leaf from yonder adder plant.  
+<stage>
+(Points to trick plant LH)</stage>
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+I knew it.  Vegetable broth.</p></sp>
+<stage>
+(MUSIC.  He approaches the plant LH and is about to 
+pluck it when it opens suddenly and discovers a 
+dwarf demon, around whose body in twined a huge green 
+serpent with flaming eyes, dostended jaws &amp; forked
+tounge.  As the leaves open the head darts at Greppo 
+visciously.  He starts back, uttering a cry of alarm-
+the leaves closes)
+</stage>
+<sp><speaker>Herzog</speaker><p>Ha!
+<stage>(Stamps his foot angrily and points to the plant.  Same business
+as above with Greppo, demon serpent and plant.)</stage>
+<stage>(Chafing)</stage>
+So, so.  Bring me the green flagon from yonder casket.
+<stage>(MUSIC.  GREPPO goes to casket LH and raises the lid 
+when fire flashes from the box.  He starts back in an 
+agony of fear and crossing site upon the small set rock-piecs, 
+RH2, when flames shoot from the stone and springs 
+into the air, uttering a sharp cry of pain)</stage>
+<stage>(Enraged)</stage>
+Baffled at every turn!  Begone, knave, thy presence mars my 
+work. 
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Most willingly.
+<stage>(Is about to ascend the rocks)</stage>
+</p></sp>
+<sp><speaker>Herzog</speaker><p>Not there.
+<stage>(GREPPO groans &amp; returns)</stage>
+Keep watch without from yonger crag that overhangs the gorge.
+<stage>(Points RH1)</stage>
+Should straggingly footsteps wend this way, give timely warning.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+<stage>
+(Aside)</stage>
+Straggling footsteps!  Straggling indeed to be abroad on such 
+a night, and least of all in such a place as this.
+</p></sp>
+<sp>
+<speaker>Herzog</speaker><p>
+Did&#39;st hear me?
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+I vanish
+<stage>
+(Exit RH1) MUSIC.  HERZOG describes a circle and figures 
+on the ground C with his stick, after which the end of 
+the stick ignites and burns with a faint blue flame. 
+He then describes figures in the air, during which  latter
+action he speaks)</stage>
+</p></sp>
+<sp><speaker>Herzog</speaker><p>Skuldawelp, familiar, slave of my power, I invoke thee.</p></sp>
+<stage>(MUSIC.  A spectre in filmy draper with death&#39;s head, 
+luminous eyes, movable jaw and skeleton hands works on 
+from RHUE to C.  Illuminated by light from calcium)</stage>
+
+<sp><speaker>Skuldawelp</speaker><p>Your will.</p></sp>
+<sp>
+<speaker>Herzog</speaker><p>
+Break the malignant spells that thwart and mock me.  Bind 
+fast my hidden enemies.  Restore to me my lost power.
+</p></sp>
+<sp><speaker>Skuldawelp</speaker><p>I cannot.  An adverse spell has crossed me.  My power is 
+spent.  All that was mine is thine.  Zamiel alone can serve 
+thee.
+</p></sp>
+<sp><speaker>Herzog</speaker><p>
+<stage>(Thinking)</stage>
+Zamiel
+</p></sp>
+
+<sp><speaker>Skuldaewelp</speaker><p>Zamiel!--dismiss me.
+</p></sp>
+<sp><speaker>Herzog</speaker><p>
+<stage>
+(Waving his staff)</stage>
+Begone!<stage>
+(MUSIC.  SKULDAWELP glides off LH)</stage>
+Zamiel!  No, no.  I dare not invoke his fearful aid.
+<stage>
+(MUSIC tremolo piano)</stage>
+I-I.  Ha, what tremor&#39;s this?  My blood grows very cold, my 
+limbs are failing, a film is gathering over my eyes.
+<stage>
+(Falls C)
+</stage>
+Can this be death?  Death!  No, no.  I cannot, I will not 
+die.  Save me, save, Zamiel, Zamiel!
+<stage>
+(MUSIC forte.  He drags himself toward the casket, seizes 
+it, rises with difficulty and totters to the altar, at 
+the foot of which he places the casket, opens it and 
+brings forth a packet containing four lesser packets 
+and begins the following incantation:)
+</stage>
+By a bloody murder done 
+&#39;Gainst a mother by her son! 
+<stage>
+(Casts red ingredient into the fire.  Wild burst of 
+demoniacal Music.  A huge green serpent with movable 
+jaw rises from flame behind the altar and strikes viciously 
+at Herzog.  The Raven croaks, flaps its wings, 
+and shows its illuminated eyes.  The leaves of the adder 
+plant open and disclose demons and serpents as before.  
+Skeleton forms appear above on rocks, pointing to Herzog.  
+MUSIC changes to tremolo piano.  The adder plant 
+remains open during the remainder of the scene)</stage>
+By the venomed tounge that &#39;stills
+Poisoned slander till it kills.
+<stage>(Casts green ingredient into the fire.  WILD BLAST of 
+demoniacal MUSIC and same action as before.  MUSIC changing 
+to tremolo piano)</stage>
+By the thief with skulking tread,
+Who breaks the grave and robs the dead.
+<stage>(Casts blue ingredient into flame.  WILD BLAST &amp; SAME 
+BUSINESS AS BEFORE)</stage>
+BY all the crimes men hate and fear,
+Zamiel, master, now appear.
+<stage>(Casts red ingredient into the fire)</stage>
+Zamiel, appear, appear!</p></sp>
+<stage>
+(WILD BLAST &amp; SAME BUSINESS AS BEFORE, in addition to 
+which LOUD CRASHING THUNDER &amp; VIVID LIGHTNING, the latter 
+showing in luminous forks in backing.  Huge serpents 
+writhe to and fro across the stage.  ZAMIEL, bearing a 
+sceptre around which is twined a green serpent, suddenly 
+appears from stump of blasted tree, with strong light 
+from calcium thrown upon him.  He holds the picture a 
+moment before speaking.  HERZOG kneeling down LH. MUSIC 
+stops)
+</stage>
+<sp><speaker>Zamiel</speaker><p>Arise!
+<stage>(HERZOG rises)</stage>
+Why am I summoned?
+</p></sp>
+<sp><speaker>Herzog</speaker><p>
+My life is waining.  Give me to live, feed the still currents 
+of my sluggish veins, give me fresh charms and potencies.
+</p></sp><sp>
+<speaker>Zamiel</speaker><p>
+Wherefore?
+</p></sp><sp>
+<speaker>Herzog</speaker><p>
+Men hate and did they not fear--would despise me.  I would 
+repay their hate with hate.  I would live on, on, and in that 
+life rival thy dread power of evil.
+</p></sp><sp>
+<speaker>Zamiel</speaker><p>
+What wilt thou give for such a boon?
+</p></sp><sp>
+<speaker>Herzog</speaker><p>
+Whate&#39;er thou wilt; give me but life and all I have is thine.
+</p></sp><sp>
+<speaker>Zamiel</speaker><p>
+&#39;tis not enough.  What&#39;s thine is mine already.
+</p></sp><sp>
+<speaker>Herzog</speaker><p>
+What else?
+</p></sp><sp>
+<speaker>Zamiel</speaker><p>
+Listen.  A soul younger, fresher, whiter than thine, must 
+on each recurring year be, by your arts, turned to my account.
+</p></sp><sp>
+<speaker>Herzog</speaker><p>
+I hear, dread master, and will pay the price.
+</p></sp>
+<sp><speaker>Zamiel</speaker><p>For every soul thus lost to good and gained to me a year&#39;s
+new life is thine.  A single soul, a single year, a hundred 
+souls, a hundred years.  &#39;Tis with thyself to live forever.
+</p></sp>
+<sp><speaker>Herzog</speaker><p>Forever?</p></sp>
+
+<sp><speaker>Zamiel</speaker><p>
+Forever!  But should the stroke of midnight fall a twelve-month
+hence and no lost soul, by you betrayed within that 
+time, come wailing at my gates-- perdition closes on your dark 
+career.  Is&#39;t a compact?
+</p></sp>
+<sp><speaker>Herzog</speaker><p>It is.</p></sp>
+<stage>
+(MUSIC.  ZAMIEL waves his sceptre.  THUNDER &amp; LIGHTNING 
+A FIEND (red glare) rises through trap LH2, bearing a 
+large red book, pen and inkhorn.)
+</stage>
+<sp>
+<speaker>Zamiel</speaker><p><stage>
+(Pointing to book)</stage>
+Sign!</p></sp>
+<stage>(MUSIC.  THUNDER &amp; LIGHTNING. SHEETED SPECTRES rises 
+through trap at back and appear at L&amp;R from behind rocks.
+SKULDAWELPP reappears LH3, demons and skeletons appear 
+from R &amp; L, all pointing at Herzog who takes the pen 
+and dips it in the horn.  The pen ignites and flames 
+blue.  He writes in the book, during which the raven croaks 
+flaps its wings, etc.  Serpents writhe and demoniacal 
+laughter is heard outside and above.  After he has signed 
+ZAMIEL waves his sceptre, gong sounds and Redglare 
+descends with book, etc., amid red fire.  Music stops)</stage>
+<sp><p>
+&#39;Tis well.  Listen, slave.  Within a dungeon of the eastern 
+wing of gray and gloomy Wolfenstein there lies in chains a 
+youth called Rodolphe.  His fortunes desperate, and desperate 
+souls, like drowning men, wil catch at straws.  Begin with 
+him.</p></sp>
+<sp>
+<speaker>Herzog</speaker><p>
+Dread power, I hear thy mandate and thy will obey.
+<stage>
+(Bows low before Zamiel)
+</stage>
+</p></sp>
+<stage>
+MUSIC.  THUNDER &amp; LIGHTNING and all the action as before. 
+Red fire from behind altar and at the wings.  REDGLARE 
+REAPPEARS RH2, pointing to Herzog.  Winged serpents 
+appear above and firey dragon enters LH2, simultaneously
+with which GREPPO very white with hair on 
+end rushes on RH1 as if to communicate something)
+</stage>
+<sp><speaker>Greppo</speaker><p>
+Master, I--
+</p></sp>
+<stage>
+(Is appalled at the sight before him, utters a loud cry, 
+falls upon his knees, clasping his hands and moving his 
+lips as if in prayer)
+</stage>
+<stage>
+Quick Curtain
+</stage>
+</div></div>
+<div type="Act" n="2">
+<div type="Scene" n="1">
+<head>
+Act Two - Scene One</head>
+<stage>
+Scene:  A subterranean vault beneath the castle of Wolfenstein.  
+Set floor RH2.  Movable in upper part of 
+RH flat.  Sliding stone panel in lower part of 
+LH flat.  WULFGAR discovered chaining RODOLPHE 
+to wall of RH flat.  MUSIC at rise of curtain.  
+Lights 1/2 down.
+</stage>
+<sp><speaker>Wulfgar</speaker><p>There my fine fellow.  I think you&#39;re both safe and comfortable.  
+No entreaties; neither light nor sound ever comes 
+here.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Wretch.
+</p></sp>
+<sp><speaker>Wulfgar</speaker><p>When you want exercise or change of air and you can manage 
+to get out of yonder little incumbrances-
+<stage>(Pointing to chains)</stage>
+- you can take it in the vault beneath.  Yonder trap leads 
+to it.  You may find it a little mouldy, and may stumble 
+over the skeleton of the last lodger, but that&#39;s nothing.  
+Any change is better than no change at all. 
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Monster, begone.
+</p></sp>
+<sp><speaker>Wulfgar</speaker><p>(Taking up lamp)
+Oh certainly, anything to oblige.  In the meantime, if your 
+exercise should give you an appetite and you should want 
+food, cry out for it.  Cry loud and I won&#39;t come.  Ha, ha ha.  
+Goodnight.</p></sp>
+<stage>
+(Exits RH door.  Lights down)
+</stage>
+<sp><speaker>Rodolphe</speaker><p>
+Alone.  So ends in darkness and in death all my bright dreams 
+of the future and must I perish thus--I who have but entered 
+the portal of life?  No, no, it cannot be!  I must, I will 
+burst these bonds.
+<stage>(MUSIC.  He makes an effort to break the chains)</stage>
+&#39;Tis vain, they defy even the strength of despair.
+<stage>(Shuddering)</stage>
+How awful is the chill of this noxious vault.  Its very vapors 
+press upon my brow like the hand of death and freeze my very 
+marrow.<stage>
+(MUSIC.  HERTZOG enters with dark lantern through 
+sliding panel on LH flat)</stage>
+<stage>(STARTING)</stage>
+Who&#39;s there?
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>Thy friend.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Who are you?
+</p></sp>
+
+<sp><speaker>Hertzog</speaker><p>(Turning light upon himself)
+Behold!
+<stage>
+(CHORD)
+</stage>
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+<stage>(Starting)</stage>
+Hertzog, the Crook!
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>Aye, so men call me.
+<stage>(Puts lantern off LH2)</stage>
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Ill-omened bird, what brings <emph rend="underline"> you</emph> here?  Yet why should I ask?
+You come the minister of death?  &#39;tis well, &#39;tis merciful.
+Begin your work.
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>Out, foolish boy.  I serve no human master.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Then why are you here?
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>I come to give thee liberty.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Liberty!
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>Aye.  Listen.  I hate thine enemy.  Thou lov&#39;st a maid of whom 
+thou hast been robbed; would&#39;st win her back?  I have the 
+power to serve thee.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Begone, tempter.  I know your power and can gues sfrom whence it 
+comes.  Men say you deal in dark and necromantic spells 
+that warp the senses and enthrall the soul.
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>Pah!  Art thou, too, tainted with the vulgar fear that calls 
+philosophy-the natural working of great Nature&#39;s laws- a spell 
+of darkness?  It is the light, weak boy, the light, which we 
+sage men, who waste our lives oe&#39;r midnight lamps, glean from 
+dull vapors for the sluggards&#39; use.  Fools sneer the most 
+when least they understand and brand as foul what Nature stamps 
+as fair.  Thy gains gall theee, let me loose them.
+<stage>(He touches them with his staff; they fall to ground)</stage>
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+<stage>(Coming forward)</stage>
+What is your purpose?
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>Again I say to serve thee.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+How?
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>Listen, I will tell thee a seceret.  She whom thou lovest is 
+of noble birth.
+</p></sp><sp>
+<speaker>Rodolphe</speaker><p>
+Amina?
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>Aye, yet not Amina, but the only child and heiress of the 
+noble house of Wellenstein, stolen when but an infant by a 
+revengeful gypsy whom her father scourged and given to gabbling 
+Barbara.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Amina noble?
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>Aye, and thou of humble birth, but gold can buy nobility--
+nay more, can give thee power to cross thine enemy.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Why talk to me of gold-to me, the poorest of the poor, whose 
+purse contains not half so much as one poor silver mark.
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>Thou&#39;rt poor indeed, but thou art poor because thou <emph rend="underline"> wilt</emph> be 
+poor.  &#39;Tis with thyself to shame the wealth of the mighty Croesus.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+How?
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>Hast thou not heard of glittering gold in massive piles fast 
+locked within these mountains?
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+An idle tale, a senseless fable told by croning gossips. 
+A treasure often sought but never found and some do say &#39;tis
+death to seek it. 
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>I tell thee, boy, the story&#39;s true, this gold is palpable to 
+sight and touch, and mayt be garnered too, if thou art bold 
+enough.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+I&#39;ll hear no more!  Thou&#39;dst take advantage of my desperate 
+strait to work some juggle to entrap my soul.  Begone I say, 
+begone!
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>And leave thee to thy doom?
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Aye.
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>And thy affianced bride--would&#39;st thou so like a graven yield 
+her up onto thine enemy?
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Oh, agony!
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>&#39;tis true she loves thee, but bethink thee, boy, she is but 
+woman and she may be won.  Her noble birth is known to Wolfenstein 
+who means to wed her, and with her fortune to prop his 
+falling house.  Already flattered by his serpent tounge, she 
+dries her tears and listens to his suit.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+&#39;Tis false!
+</p></sp><sp>
+<speaker>Hertzog</speaker><p>
+&#39;Tis true!
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+The proof?
+</p></sp>
+<sp>
+<speaker>Hertzog</speaker><p>
+Behold.
+</p></sp>
+<stage>
+(MUSIC.  He waves his staff; panel in upper part of RH 
+flat slides open, showing through gauze WOLFENSTEIN &amp; 
+AMINA, the former clasping the hand and kneeling at the 
+feet of the latter whose face is averted.  Picture strongly
+lighted)
+</stage>
+<sp><speaker>Rodolphe</speaker><p><stage>
+(Starting forward)</stage>
+By Heaven, he shall not!
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>
+<stage>
+(Interposing; waves his staff; panel closes)</stage>
+Bravely said!  Bravely said!
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p><stage>
+(Turning quickly)</stage>
+What dev&#39;lish compact would you have me sign?  Propose it 
+while my reason whirls and desperation aids your dam&#39;d design. 
+If by the act I snatch her from his grasp, I&#39;ll pay the ransom 
+though it reach my soul.<stage>
+(HERTZOG with face averted chuckles sardonically)</stage>
+Come, philosopher or fiend, whate&#39;er thou art; the price, I 
+say, the price. 
+</p></sp>
+<sp>
+<speaker>Hertzog</speaker><p>
+Pah!  I ask no compact.  I would serve thee gratis.  I but 
+demand that thou shalt serve thyself.  Be rich and thou&#39;lt be 
+powerful.  In thy revenge upon thine enemy and <emph rend="underline"> mine</emph>, thou&#39;lt
+pay thy debt to me with interest.
+</p></sp>
+<sp>
+<speaker>Rodolphe</speaker><p> 
+Where lies this wondrous treasure?
+</p></sp>
+<sp>
+<speaker>Hertzog</speaker><p>
+Listen.  Amid the fastnesses of the Hartz beyond the outlet 
+of the Black Gorge lies a small lake whose waters few have 
+ever gazen upon, for vulgare fear and superstitious dread have 
+long since marked it for enchanted ground.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+I&#39;ve heard the story.
+</p></sp>
+<sp>
+<speaker>Hertzog</speaker><p>
+Trace carefully its northern shore until a rock rising like 
+a wall bars further passage beneath a fringe of tangled vines 
+you&#39;ll find a boat concealed.  Behold this talisman ring!
+<stage>
+(Takes a large ring from his finger)
+</stage>
+&#39;Tis a magnet of wondrous power.  When thou hast found the 
+boat step boldly in.  This ring will guide thee safely to the 
+entrance of the goldern cavern within the compass of whose 
+glittering walls thy wondering eyes may feast on wealth far 
+greater than the coffers of the world can boast.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Give me the ring.
+</p></sp>
+<sp>
+<speaker>Hertzog</speaker><p>
+&#39;Tis thine.
+<stage> (Gives ring)</stage>
+Stay, thou&#39;lt need a henchman.
+<stage> (Stamps his foot)</stage>
+Varlet, come forth.
+<stage> (MUSIC.  Panel on LH flat opens as before &amp; GREPPO enters)</stage>
+<stage>(Aside)</stage>
+He too shall perish.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Your will, Master?
+</p></sp>
+<sp>
+<speaker>Hertzog</speaker><p>
+To part with three.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+<stage>(Aside)</stage>
+Oh, if this should be true.
+<stage>(Aloud)</stage>
+With me?
+</p></sp>
+<sp>
+<speaker>Hertzog</speaker><p>
+With thee, knave.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Wherefore?
+</p></sp>
+<sp>
+<speaker>Hertzog</speaker><p>
+I weary with thine appetite.
+</p></sp>
+<sp><speaker>Greppo</speaker><p><stage>
+(Aside)</stage>
+Here&#39;s a chance.  Oh here <emph rend="underline"> is</emph> a chance if he but stick to it.
+I must seem unwilling lest he repent.
+<stage>(Aloud)</stage>
+Dear master, I will reform, believe me, I will reform.  Allowance 
+me to what would starve a mouse.  Nay more, to pleasure 
+you, I will not eat at all.  I&#39;ll live on air, but do not cast 
+me off.
+</p></sp>
+<sp>
+<speaker>Hertzog</speaker><p>
+I am resolved.  Behold thy future master.
+<stage>(To Rodolphe)</stage>
+Thou&#39;lt find him faithful but he breeds a famine.  Take for 
+the present need this purse of gold.
+<stage>(Offers purse; RODOLPHE by a gesture refuses it)></stage>
+Nay, when thou&#39;rt rich thou canst repay it.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p><stage>
+(Taking purse)</stage>
+Nay, more, if what you say be true, eternal gratitude---
+</p></sp>
+<sp>
+<speaker>Hertzog</speaker><p>
+Pah, you trifle time.
+<stage>(Moves staff; panel opens)</stage>
+Yonder lies your path; it is a glorious one.  Begone.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Farewell.  Come, boy, come.
+<stage> (MUSIC)</stage>  <stage>(Exits at panel.  GREPPO, following turns to 
+entreat HERTZOG, who raises his staff threateningly. 
+GREPPO exits hurriedly at panel)</stage>
+</p></sp><sp>
+<speaker>Hertzog</speaker><p>
+<stage>
+(Stands in opening and chuckling gazes after them)</stage>
+The thought of vegeance stirs within his heart; the lust of 
+gold is rising in his soul, the path that leads to where &#39;tis 
+hoarded ends in death.  He&#39;s mine, ha, ha!  He&#39;s mine.
+</p></sp>
+<stage>
+Curtain
+</stage>
+</div>
+<div type="Scene" n="2">
+<head>
+Scene Two - Act Two
+</head>
+<stage>
+Scene:		A lobby in the castle of Wolfenstein.  Enter
+			BARBARA RH, followed by CARLINE.
+</stage>
+<sp><speaker>Barbara</speaker><p>
+Don&#39;t talk to me, girl.  Remember your station and consider 
+mine.  Who Am I and what am I that I should be lodged in a 
+wing of the castle overlooking the dog kennels.
+</p></sp>
+<sp>
+<speaker>Carline</speaker><p>
+Your ladyship is quite right to revel and when I advised your 
+ladyship to calm yourself it was out of consideration for 
+your ladyship&#39;s eyes.  Any little flurry does so spoil the 
+natural beauty of their expression.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Carline, you&#39;re a good girl, you&#39;re a considerate girl and I 
+forgive you, but eyes or no eyes, I&#39;ll not be imposed upon.
+Where&#39;s Mynheer Von Puffengruntz?  Where&#39;s his lordship&#39;s 
+chamberlain?
+</p></sp>
+<sp>
+<speaker>Carline</speaker><p>
+<stage>(Looking LH)</stage>
+Here he comes down the great stairway as full of flesh and 
+scant of breath as ever.
+<stage> 
+(Aside)</stage>
+And as the waddling old porpoise appears to have a liquorice 
+tooth for this silly old buzzard I&#39;ll leave them to bill and 
+coo while I run off to comfort dear &#39;Mina who has passed the 
+whole night in tears for poor Rodolphe.</p></sp>
+<stage>
+(VON PUFF enters LH.  CARLINE curtseys and exits LH)
+</stage>
+<sp><speaker>Von Puff</speaker><p>
+Eh, what!  Madam Barbara, stirring so early!  Why, bless my 
+soul, the mist of the mountain is yet hanging upon the turrets 
+of the castle.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Then let it hang and be hanged to it.  Stirring indeed!  Haven&#39;t 
+I been stirring all night and wouldn&#39;t the seven sleepers have 
+been stirring all night too, if they had lodged where I did?
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Surely nothing has had the audacity to disturb the quiet of 
+your chamber?
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Nothing?  To begin with, do you call such a storm as that of 
+last night nothing?  Why the thunder creashed over the castle 
+loud enough to wake the dead.  That was bad enough, but only 
+to think that I, the right honorable foster mother that <emph rend="underline"> is</emph> 
+to be to her right honorable ladyship that <emph rend="underline"> is</emph> to be passing 
+the night in apartments overlooking a dog-kennel.
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+A dog-kennel?
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Aye, a kennel of great, savage hounds, fed late at night on 
+raw meat on purpose to give them the nightmare and make them 
+dream all night long of chasing wild boars in the forest.  
+Ugh!  I shall never get their terrible yelping out of my head.
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Believe me, my dear Madam Barbara, it is the first time the 
+brutes ever were known to have been unruly.  I promise that 
+they shall be soundly punished and instantly removed.  But 
+I too am criminal.  The apartments were selected by me because 
+they command the best view of the mountains.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+But I don&#39;t want to look at the mountains.  I got a glimpse 
+of it from one of the north windows last night during th e
+storm and it looked for all the world like Beelzebub and his 
+imps were holding a jubileee there.
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Enough, my dear Madam Barbara, enough.  If the mountain is 
+unpleasant, it shall be removed.  No, no!  I mean <emph rend="underline"> you</emph> shall 
+be removed.
+<stage>(Approaching her in a wheedling manner)</stage>
+Will it please you to accompany me and choose for yourself?
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+<stage>
+(Simperingly)</stage>
+Really, Mynheer Von Puffengruntz, you have such mollifying 
+ways that--that--
+</p></sp>
+<sp><speaker>Von Puff</speaker><p><stage>
+(Taking her hand)</stage>
+Oh-o-o.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Would it be prudent?  Dare I trust myself?  We poor silly 
+things are so weak and you mean so naughty that--that--
+<stage>(Leans her head upon his shoulder, looks up into his 
+face and sighs)</stage>
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Confiding innocence, rely upon the honor of a Von Puffengruntz.
+<stage>(Looks around, sighs, kisses her)</stage>
+<stage>(BARBARA utters a faint scream and hiding her face 
+in her fan is led off LH by VON PUFF chuckling)</stage>
+</p></sp>
+<stage> 
+Curtain
+</stage>
+</div>
+<div type="Scene" n="3">
+<head>
+Act Two - Scene Three
+</head>
+<stage>
+Scene:	A wild pass in the Hartz mountains.  MUSIC.  Lights
+		down.  Enter RH RODOLPHE &amp; GREPPO, each bearing 
+		an Alpine staff, GREPPO in improved condition.
+</stage>		
+<sp><speaker>Rodolphe</speaker><p>
+A strange weird place and one it seems not often tred by human 
+footsteps.  I fear we&#39;ve missed the way.  What think you, 
+Master Greppo?
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+<emph rend="underline"> Master</emph> Greppo!  <emph rend="underline"> Master</emph> Greppo!  He calls be <emph rend="underline"> Master</emph> Greppo!  
+Here&#39;s an honor and here&#39;s a master.  Oh <emph rend="underline"> such</emph> a master, such 
+a liberal master as this stuffed belly, tight as any drum 
+with goodly provender and generous wine will testify.
+<stage>(To Rodolphe)</stage>
+What think I, princely master?
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>Aye.</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Why since you honor me with consultation and give me leave to 
+think at all- a privilege grown rusty from great lack of use-
+I say we&#39;re right and that the lake we seek is near at hand.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Why think you so?
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Because just now I heard a bittern cry and twice ere that I 
+heard a marsh-frog croak, and as they&#39;re both accounted water-fowl,
+&#39;twere safe to say that we&#39;re near the water.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Then ley us on.
+<stage>(Crossing to LH)</stage>
+Ere long the rising moon will pierce this veil of mist and 
+light us to our golden haven.  Come.
+<stage>(Exit LH)</stage>
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+I follow <stage>(Exit LH)</stage>
+</p></sp>
+<stage>(Change very slowly--no whistle)</stage>
+<stage>Curtian</stage>
+</div>
+<div type="Scene" n="4">
+<head>
+Act Two - Scene Four
+</head>
+<stage>
+Scene:	The grotto of golden stalactites.  A grand an
+comprehensive water cavern of gold, deeply perspective, 
+with stalactiform arched roof.  Cut 
+wings, representing vistas, running parallel 
+and harmonizing with that of the main grotto, 
+the mouth of which (5 feet high by 5 feet wide) 
+discloses an open lake and distant shore at 
+back.  Set transparent silver waters, in which 
+are seen sporting fishes and nondescript amphibea; 
+diminutive fairies asleep on the waters 
+of the grotto in golden shells.  Set ground or 
+shore-piece, richly studded with gold and jewels.  
+Set masses of emerald and gold R, L, &amp; C., upon 
+and at the foot of which are reclining gnomes 
+and amphibea.  Fairies asleep in poses R &amp; L.
+The Moon, seen through the opening at the back and 
+over the distant shore of the lake, shows red 
+upon its face at the opening of the scene.  MUSIC.  Shortly 
+afterward, DRAGONFIN, who has been asleep 
+on a jewelled mass on the shore C, slowly awakens, 
+rises and stretches himself.  Upon turning 
+he sees the red upon the face of the moon.  MUSIC.
+</stage>
+<sp><speaker>Dragonfin</speaker><stage>(Uttering a cry of alarm)</stage>
+<p>Awake, awake!</p>
+<stage>
+(Music hurried.  Gnomes and amphibea spring to their 
+feet; fairies and water nymphs enter hurriedly r &amp; L;
+diminutive fairies in shells and fairies poses 
+awaken)</stage><p>
+Behold there&#39;s blood upon the face of the moon.  Our queen&#39;s
+in danger.  To arms!  To arms!</p>
+<stage>
+(MUSIC hurried.  The sprites in the shells disappear 
+R &amp; L.  The gnomes , amphibea and fairies rush off R &amp; L 
+and immediately re-enter armed.  The first named with 
+knotted clubs and tridents, the fairies with javelins.  
+During the action the red disappears from the face of 
+the moon and it resumes its natural color.)</stage>
+<stage>(Seeing the change)</stage>
+<p>Stay, &#39;tis past.  Hark.</p>
+<stage> 
+(STALACTA is heard singing beneath the waters.  ALL 
+bend forward and listen)</stage>
+<stage>
+(After song)
+</stage>
+<p>
+&#39;Tis she, our queen.</p></sp>
+<stage>
+(ALL kneel.  MUSIC.  STALACTA rises C from the water 
+and steps on shore, assisted by DRAGONFIN)
+</stage>
+<sp><speaker>Stalacta</speaker><p>Arise, my loving subjects.</p></sp>
+<stage>
+(ALL rise)
+</stage>
+<sp><speaker>Dragonfin</speaker><p>Mistress, but now the light in yon great sapphire died out 
+and stains of blood flushed in the face of the pale moon.  
+You have scaped some deadly peril.
+</p></sp>
+<sp><speaker>Stalacta</speaker><p>You are right.  Listen all.  Tonight while wandering in the 
+fastnesses of the Hartz without my protecting talisman, I 
+heedlessly trod within one of the charmed circles of our 
+enemy, the arch fiend Zamiel.
+</p></sp>
+<sp>
+<speaker>
+All</speaker>
+<p>Ha!</p></sp>
+<sp><speaker>Stalacta</speaker><p>On the instant I was transformed into a white dove with 
+shorn pinions.  From beneath the rank leaves of an adder-plant
+glided a huge serpent.  Its eyes were burning coals,
+its tongue a living flame.  I was paralyzed with fear and 
+powerless to move.  Nearer and nearer it came.  I felt its 
+stifling breath displace the purer air.  I saw its venomed 
+fangs glist&#39;ning in the pale moonlight.  Rising from out 
+its deadly coil itself, when suddenly a youth, a 
+mortal, strangely present in that wildwood spot, seeing the 
+danger of the trembling bird seized a dead bough, which 
+chance had fashioned like a holy cross, and smote the foul 
+thing dead.  Then bore me safely from the charmed spot and 
+gave me life and liberty.</p></sp>
+<sp><speaker>Dragonfin</speaker><p>Revenge, revenge on the minions of Zamiel.
+<stage>(Goes quickly off RHUE)</stage>
+</p></sp>
+<sp>
+<speaker>
+All</speaker>
+<p>Revenge, revenge!</p></sp>
+<sp><speaker>Stalacta</speaker><p>Nay, let no thought other than of joy mingle with this happy 
+time.  Remember, &#39;tis my natal hour, and I would have it, as 
+in the past, a festal one.  Let the invisible harmonies of 
+this our realm breathe sweetest concord only.  And you, bright 
+Crystalline, with your four sisters, chase with flying feet 
+the silver hours.</p>
+<stage>
+(Seats herself on bank C) 
+</stage>
+<stage>(MUSIC.  The fairies form for 
+dance.  After the first pose a loud prolonged warning note, 
+as if from a shell is heard outside at back.  
+all start in alarm and those hold tyhe attitude of listening.  
+The sound is repeated.  Music hurried.  The 
+pose is broken and the fairies, gnomes, and amphibea 
+the latter seizing their arms form an alarm on either 
+side.  DRAGONFIN appears quickly through trap behind 
+1st set water and lands in front of ground piece.  STALACTA 
+at the first sound springs to her feet)</stage>
+<p>
+Speak, what danger threatens?
+</p></sp>
+<sp><speaker>Dragonfin</speaker><p>
+The sentinel shells, played upon by the watchful winds, give 
+alarm.  Two daring mortals, armed with the enchanted magnet 
+of the Black Crook approach the secret entrance.  Already 
+they have passed the white whirlpool in safety.  They come 
+to despoil our realm of its glittering wealth.  
+</p></sp>
+<sp><speaker>Stalacta</speaker><p>Fear not the talisman they bear is powerless against the 
+spells that guard the portal.
+</p></sp>
+<sp>
+<speaker>
+All
+</speaker>
+<p>
+Ho, ho, ho!</p></sp>
+<stage>
+(Echoed without and above)</stage>
+<stage>(MUSIC.  Chorus by gnomes, 
+amphibea &amp; fairies)</stage>
+<sp>
+<lg>
+<l>Rejoice, rejoice, rejoice!</l>
+<l>Sprites of the golden realm, rejoice.</l>
+<l>Daring mortals mock our power,</l>
+<l>Flushed with the drink that the heart makes bold,</l>
+<l>Drunk with the thirst for the glittering gold,</l>
+<l>They madly rush on the fatal hour.</l>
+<l>Darks spells arise; smite their longing eyes</l>
+<l>That they never may gaze on the glittering prize.</l>
+<l>Rejoice, rejoice, rejoice!</l>
+<l>Sprites of the golden realms rejoice!</l>
+</lg>
+</sp>
+<sp><speaker>Stalacta</speaker><p>My faithful subjects, your Queen commends the zeal with which 
+you would guard from mortal light our beautiful realm.  But 
+ere these rash intruders perish I would gratify a strange desire.  
+Speed hence good Dragonfin.  Catch me their shadows from 
+the bosom of the moon-lighted lake and cast them upon my faithful 
+mirror.  I would look upon them ere they fade forever.</p>
+<stage>(MUSIC.  DRAGONFIN prostrates himself before Stalacta,
+springs into the water and disappears)</stage>
+<p>Begin the spell.</p></sp>
+<stage>(MUSIC)</stage>
+<stage>
+Chorus by fairies
+</stage>
+<sp>
+<lg>
+<l>Mortal shadows dimly cast</l>
+<l>By the moonbeam&#39;s mystic ray</l>
+<l>In the bosom of the lake</l>
+<l>Hither, hither fly away,</l>
+<l>Flitting through the silver sheen</l>
+<l>Come at summons of our Queen.</l>
+<l>Guardian spirits let them pass;</l>
+<l>Cast their shadows on the glass.</l>
+</lg>
+</sp>
+<stage>
+(MUSIC.  DRAGONFIN springs from the water, and after 
+prostrating himself before the Queen, rises and points 
+to the water.  Fairies wave their wands.  A small arched 
+headed frame of gold and coral stalactites rises center 
+at the distant entrance of the grotto, showing small 
+figures of Rodolphe &amp; Greppo in boat, the former at 
+the prow gazing anxiously forward, the latter aft in 
+the attitude of paddling)</stage>
+<stage>
+(STALACTA who had crossed down RH turns when the picture 
+is fully shown.  CHORD.)  (Starting)</stage>
+<sp><p>
+Ha, &#39;tis he!  He must not perish.  Invisible spirits, avert 
+this peril. </p>
+<lg>
+<l>Shades of mortals hovering near, </l>
+<l>Join your masters; disappear.</l>
+</lg>
+</sp>
+<stage>
+(MUSIC.  HURRY.  The mirror &amp; figures quickly sink)
+Dragonfin, come hither.  Fly with swiftest speed to the rock 
+beneath the waters of the guarded entramce.  When the frail 
+bark which now approaches shall be rent assunder by the relentless 
+spells that guard our realm, be at your task to 
+snatch from death these daring mortals and bear them safely 
+hither. </stage>
+<sp>
+<speaker> 
+ALL</speaker><p>
+<stage>(Starting forward inquiringly)</stage>
+Mistress!
+</p></sp>
+<sp><speaker>Stalacta</speaker>
+<lg>
+<l>Nay, question me not, away, away.</l>
+<l>Slaves of my power, obey, obey.</l>
+</lg>
+<stage>
+(MUSIC.  HURRY.  DRAGONFIN bows low, springs into
+the water and disappears.  MUSIC.  A small boat with 
+two mechanical figures or small doubles of Rodolphe &amp; 
+Greppo, as they appeared in the mirror, appears from 
+LH outside at the distance entrance of the cavern and 
+moves very slowly across.  When it reaches the centre 
+of the opening it sinks at the sound of the gong and 
+flash of lightning at back.  MUSIC.  HURRY.  All the 
+gnomes, amphibea, etc. utter exclaminations of delight 
+and indulge in extravagant antics, until checked by a 
+gesture from STALACTA.  SOFT MUSIC.  DRAGONFIN rises slowly 
+from water C, supporting on either side RODOLPHE 
+&amp; GREPPO, the latter gasping violently for breath as 
+his head appears.  They step on shore, RODOLPHE &amp; GREPPO
+lost in bewilderment.  DRAGONFIN bows low before STALACTA.  
+The other amphibea &amp; gnomes make a demonstration of 
+attack.  STALACTA steps between)</stage>
+<p>
+Forbear!  Who moves again &#39;till I alone command shall perish.</p>
+</sp>
+<stage>
+(They retire)
+</stage>
+<sp><speaker>Rodolphe</speaker><p>
+<stage>
+(Rubbing his eyes)</stage>
+Is this a phantasm--this glittering gold, yon flashing gems, 
+these strange fantastic shapes?  Have I then passed the portal 
+of an unknown world or am I dreaming?
+</p></sp><sp>
+<speaker>Stalacta</speaker><p>
+Welcome, brave mortal, to our bright domain.  And you my subjects, 
+know and greet your Queen&#39;s preserver.</p></sp>
+<stage>
+(MUSIC.  Gnomes and amphibea cluster around Rodolphe 
+&amp; Greppo, rolling at their feet and indulging in various 
+grateful antics, after which the fairies surround 
+them and evince their delight)
+</stage>
+<sp><speaker>Rodolphe</speaker><p>
+<stage>(Still bewildered)</stage>
+If this indeed be not a dream, tell me, bright being--you 
+whose simple motion seems to sway the moods and passions of 
+this elfin band, who art thou and where am I?
+</p></sp>
+<sp><speaker>Stalacta</speaker><p>I am called Stalacta, queen of this dazzling realm.  The glittering 
+wonders that assail thine eyes are not creations of 
+fantastic dreams but Nature&#39;s handiwork wrought with cunning 
+fingers in a bounteous mood.  
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+<stage>(Who has picked up a large mass of gold at back comes 
+forward)</stage>
+&#39;Tis true, master, &#39;tis true.  Behold this shining nugget.
+</p></sp>
+<sp><speaker>Stalacta</speaker><p>Who is thy droll companion?
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+My simple henchman, a faithful guide and servitor.
+</p></sp>
+<sp><speaker>Stalacta</speaker><p>I bid him welcome for his master&#39;s sake.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Thanks, thanks, your resplendent majesty, thanks.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+You speak of service done; have we then met before?
+</p></sp><sp>
+<speaker>Stalacta</speaker><p>
+Yes, once.</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Indeed!  When?
+</p></sp>
+<sp><speaker>Stalacta</speaker><p>This very night.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Tonight?
+</p></sp><sp>
+<speaker>Stalacta</speaker><p>
+Tonight, in the glen of fire, but not as now.  Then a poor 
+weak, fluttering, charm-encompassed bird, you snatched me 
+from the jaws of death, broke the dark spell of transformation 
+and gave to me the priceless boon of liberty.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+I do remember--
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+And so do I.  Phew, how the sparks flew when master smashed 
+the head of the scaly monster.  And such a smell of brimstone.  
+I do believe it was one of the Beelzebub&#39;s own imps in disguise.  
+</p></sp>
+<sp><speaker>Stalacta</speaker><p>Again thou art welcome.  This is my natal hour.  Wilt view the 
+sports of this our carnival?
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Most willingly.
+</p></sp>
+<sp><speaker>Stalacta</speaker><p>And while the revels proceed thou shalt tell me thy story.
+</p></sp>
+<stage> 
+(MUSIC.  Seats are brought forward by Amphibea RH1.  
+STALACTA &amp; RODOLPHE sit.  GREPPO disposes himself LH1, 
+amusing himself with DRAGONFIN, gnomes and amphibea, 
+who present him from time to time with nuggets of gold 
+and jewels which he thrusts into his pockets until they 
+become greatly distended, during which action the diminutive 
+sprites re-appear in shells on water floating 
+to and from fishing.  The fairies form for dance.  Grand 
+ballet action by principals and full corps de ballet, 
+during which the fishers in the shells are seen to catch 
+some small silver fish)
+</stage>
+<sp><speaker>Greppo</speaker><p>
+<stage> 
+(after the dance terminates)</stage>
+Ha, ha, dancing; all very well in its way, but there&#39;s the 
+sport for me, fishing!  Look, master, look; see the little 
+rougues hook the silly shiners.  Oh, if there&#39;s one thing in 
+the world I love more than another its fishing--such fun to 
+feel the greedy rascals snap and see them wiggle.  There&#39;s 
+another.  Oh I can&#39;t stand it any longer; fishing&#39;s like 
+the measles, it&#39;s catching.
+<stage>(Turning to amphibea &amp; gnomes)</stage>
+Would any of you handsome gentlemen oblige me with a spare 
+hook and line?
+</p></sp>
+<sp><speaker>Dragonfin</speaker><p><stage>(Nods assent and brings him rod and line)</stage>
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Well, upon my word, I&#39;m very much obliged to your scaly 
+magnificence.  I&#39;ll do as much for you someday.  By the way, 
+is your amphibious majesty fond of fish?</p>
+<stage>
+(DRAGONFIN nods affirmatively)</stage>
+<p>What kind?</p><stage>
+(DRAGONFIN indicates that he likes large ones)</stage>
+<p>Like large ones, eh?  All right, I&#39;ll make you a present of 
+the first ten-pounder I catch.</p><stage>
+(MUSIC.  He fishes from the shore RC and catches two 
+small fishes, the last quite dimunitive.  The amphibea 
+gnomes and fairies laugh boisterously as each fist is 
+drawn forth) </stage>
+<stage> (GREPPO coming down crestfallen)</stage>
+<p>Pshaw, mere sprats and sardines.  Not my kind at all.  This 
+is too much like taking advantage of confiding innocence.</p>
+<stage>
+(To Dragonfin)</stage>
+<p>Couldn&#39;t your finny excellency oblige me with a more tempting 
+bait, something that would seduce some big, greedy, wiggly-waggly 
+fellow into taking a nibble?</p>
+<stage>
+(DRAGONFIN nods affirmatively.  MUSIC.  DRAGONFIN goes to 
+the margin of the water and draws out a large crab which 
+he places in the hand of Greppo.  It seizes him by the 
+finger to the great delight of the amphibea, gnomes &amp; 
+fairies.  He struggles frantically to extricate himself 
+&amp; is finally released by Dragonfin who baits the hook 
+with the crab and gives him the rod &amp; line)</stage>
+<stage>(GREPPO takes 
+DRAGONFIN apart confidentially)</stage>
+<p>
+I don&#39;t know about this.  Excuse me for asking the question,
+but, as an unprejudiced observer, don&#39;t you think this 
+style of bait more likely to bite the fish than the fish to 
+bite the bait?
+</p>
+<stage>
+(DRAGONFIN shakes his head and indicates a large fish 
+will take it)</stage>
+<p>All right, here goes then.</p>
+<stage>
+(MUSIC.  He casts the line into the water.  A moment 
+after it is violently seized and a frantic struggle 
+ensures, during which he is nearly drawn overboard 
+two or three times.  Suddenly an amphibeous monster 
+spring from the water and pursues Greppo around, 
+off and on the stage to the great delight of the 
+amphibea, gnomes &amp; fairies who indulge in boisterous 
+laughter.  GREPPO in his terror throws himself at the 
+feet of STALACTA for protection.  She rises and waves 
+her hand.  The monster retires and is pacified by 
+DRAGONFIN)</stage><stage>(GREPPO comes forward)</stage>
+<p>
+Really, my fishy-fleshy friend, you must excuse me.  I beg 
+ten thousand pardons.  I hadn&#39;t the remotest idea in the world 
+that any of you bottle green gentlemen were lying around loose 
+in the bottom watching for a supper of raw crabs.  Indeed I 
+hadn&#39;t.
+</p>
+<stage>
+(The monster growls and makes a start at him.  MUSIC.  
+DRAGONFIN interposes and pacifies the monster by putting 
+him on the back, the taking his hand passes it into 
+that of Greppo.)</stage><stage>(GREPPO shakes monster&#39;s hand cordially)</stage>
+<p>All right, I accept your apology.</p>
+<stage>
+(Turning to Dragonfin)</stage>
+<p>Now you&#39;re what I call a true friend--a friend in need.  You 
+stick by a fellow when he hasn&#39;t the courage to stick by himself.  
+This is the second time you&#39;ve done me a service.  Once 
+in saving me from too much water and now in saving me from 
+too much luck, and I&#39;ll let you see that I can be grateful.
+You like fish?</p>
+<stage>
+(DRAGONFIN nods affirmatively)</stage>
+<stage>
+(Passing the monster over to him)</stage>
+<p>Consider him yours.</p>
+<stage>
+(All the amphibea, gnomes &amp; fairies laugh and go up)</stage>
+</sp>
+<sp><speaker>Stalacta</speaker><p><stage>(Rising &amp; leading Rodolphe forward)</stage>
+Thy story claims for thee my pity and my aid.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+And Hertzog, the Black Crook--
+</p></sp>
+<sp><speaker>Stalacta</speaker><p>Is a vile sorcerer whose dark unhallowed spells were wrought 
+for thy destruction.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+How!
+</p></sp>
+<sp><speaker>Stalacta</speaker><p>
+Beneath the entrance to this charmed spot lie intertwined 
+among the branches of the coraline whole hecatombs of human 
+bones, the whitened relics of adventurous mortals who like 
+thyself have sought this realm.  Until tonight no human eye 
+has ever seen the dazzling splendor of this wondrous dome.  
+No human footsteps save thine own and his who follows thee 
+have ever pressed these sands of gold. Had not thy coming 
+been to me forshadowed and all my power been interposed to 
+snatch thee from the impending doom, thou too had&#39;st joined 
+the hapless throng that mouldering lies beneath yon depths.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Then is thy debt to me already paid.
+</p></sp>
+<sp><speaker>Stalacta</speaker><p>Not so.  I am still thy debtor and must ever be.  Thou art 
+environed by danger and need the power of my protection.  Return 
+into the outer world again; thy happiness is there.  She 
+whom thou lov&#39;st is worthy of thy love; therefore return.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Amina, dear Amina!
+</p></sp>
+<sp>
+<speaker>Stalacta</speaker><p>In the secret cells of this cavern whose walls are solid gold 
+lie counteless hoards of richest treasure, gleaned for ages 
+by the tireless gnomes.  In the crystal depths of these 
+waters sparkle gems richer by far than human eyes have ever 
+gazed upon.  Of these thou shalt bear with thee the choicest.
+Behold my gift.</p>
+<stage>
+(MUSIC.  A jewelled stalactiform etagere with strong light 
+from calcium on it rises C in front of ground-piece
+bearing upon its different shelves rich vases 
+filled with gold and various colored jewels which DRAGONFIN, 
+gnomes &amp; amphibea remove, performing a series of 
+grotesque evolutions to marked Music.  Etagere sinks--
+after which MUSIC.  STALACTA waves her hand; a golden 
+boat studded with jewels glides on from RH to RC)</stage>
+<p>This bark, protected by a potent spell shall bear thee safely 
+to yon neighboring shore.  My faithful gnomes shall be the 
+treasure bearers.  But ere we part, take thou this jewelled 
+circlet.</p>
+<stage>
+(Gives him a ring from her finger)
+</stage>
+<p>Should danger threaten as perchance it will, for baffled 
+malice has a thousand stings--press but thy lips upon the gem 
+and thou wilt find me by thy side.</p>
+<stage>
+(MUSIC.  RODOLPHE kneels and kisses her hand)
+</stage>
+<stage>
+(Raising him)
+</stage>
+<p>
+Farewell.
+</p></sp>
+<stage>
+(MUSIC.  RODOLPHE steps into the boat.  GREPPO, bearing 
+a large mass of gold affectionately embraces Dragonfin,
+shakes hands with the gnomes and amphibea, kisses the 
+fairies, bows low to Stalacta and gets into the boat.
+A dolphin, glittering in green &amp; gold, rises from behind
+2nd or 3rd set waters with principal danseuse 
+bearing vase of treasure.  Other dolphins float on 
+R &amp; L with diminutive sprites bearing treasure.  Copious 
+shower of gold, the other sprites on the water catching 
+the flakes in silver shells.  Roses by gnomes, amphibea 
+&amp; fairies.  The whole scene brilliantly lighted.)
+</stage>
+<stage>
+Slow Curtain
+</stage>
+</div>
+</div>
+<div type="Act" n="3">
+<div type="Scene" n="1">
+<head>
+Act Three-Scene One
+</head>
+<stage>
+Scene:	Six Months later.  Illuminated gardens of
+		Wolfenstein by moonlight with terrace and illuminated 
+		castle at back.  This scene, standing
+		as it does, the entire act, should be 
+		elaborate and beautiful.  MUSIC AT RISE.  Masqueraders 
+		in ball costume discovered promending.  
+		Grand Ballet divertissement, after which 
+		the masquers gradually disappear at different
+		entrances.  Enter from the terrace BARBARA, 
+		masked, flauntingly dressed and carrying a 
+		huge fan, followed by CARLINE.
+</stage>	
+<sp><speaker>Barbara</speaker><p>
+<stage>
+(Unmasking and coming forward)</stage>
+Phew, what a relief.  Thank the saints his Countship&#39;s birthday 
+comes but once a year.  Another such festival would be 
+the death of me.  Ah!  I&#39;m stewed, fried, boiled and roasted.
+<stage>
+(Fans herself vigorously)</stage></p></sp>
+<sp>
+<speaker>Carline</speaker><p><stage>
+(Aside)</stage>
+And still as tough as Dame Gretchen&#39;s gander that was twenty-one
+last Easter.<stage>
+(Aloud)</stage>
+Why, Madame Barbara, I thought you enjoyed it.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+So I do, child, so I do, particularly the masquerading.  One 
+has so many pleasant things whispered in one&#39;s ear, but I 
+can&#39;t say much for the waltzing.  It&#39;s such a terrible 
+thing to take the starch out of one&#39;s linen.
+</p></sp>
+<sp><speaker>Carline</speaker><p>La, Madame Barbara, what&#39;s a little starch?  Nothing.  If I 
+waltzed as gracefully as you--
+<stage>
+(BARBARA makes a gesture of satisfaction)</stage>
+--and has such an inviting waist--
+<stage>
+(BARBARA pinches her waist)</stage>
+--I&#39;d keep at it until I was as limp as a boiled cabbage leaf.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Then you--you think me graceful, eh?
+</p></sp>
+<sp><speaker>Carline</speaker><p><stage>(Aside)</stage>
+As a hippopotamus.
+<stage>(Aloud)</stage>
+As a sylph.  You were the envy of all the ladies and the admiration 
+of all the other sex.  Did you notice the courtly 
+gentleman in the blue mask?
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+He who danced so often with the lady Amina?
+</p></sp>
+<sp><speaker>Carline</speaker><p>Yes, madame.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+And what of <emph rend="underline"> him</emph>?
+</p></sp>
+<sp><speaker>Carline</speaker><p>Nothing, only he was frantic to get an introduction to you.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+No was he?
+</p></sp>
+<sp><speaker>Carline</speaker><p>Yes indeed, Madame.  And when his lordship the count engaged 
+the lady Amina for a moment, he turned to me, and slipping 
+a golden crown into my palm with one hand, pressing his heart 
+with the other, asked with a sweet sighing silvery voice, 
+trembling with emotion, &quot;Who is that lovely being?&quot;
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+No!  Did he?
+</p></sp>
+<sp><speaker>Carline</speaker><p>Yes indeed, Madame.
+<stage>
+(Aside)</stage>
+The saints forgive me for lying.<stage>
+(Aloud)</stage>
+And Mynheer Von Puffengruntz, who overheard him, turned pea-green 
+with jealousy.
+</p></sp>
+<sp><speaker>Barbara</speaker><p><stage>
+(Fanning herself &amp; pressing her hand upon her heart)</stage>
+Be still, little trembler, be still.  I declare, my silly 
+heart is fluttering like a poor little starling in a gold 
+cage.
+</p></sp>
+<sp><speaker>Carline</speaker><p><stage>(Aside)</stage>
+More like a big buzzard in a steel trap.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Carline, take my fan, child.
+<stage>
+(Gives it)</stage>
+The exertion will make my complexion too ruddy.
+</p></sp>
+<sp><speaker>Carline</speaker><p>So it will, Madame, and ruddy complexions are not genteel.
+Allow <emph rend="underline"> me</emph>.
+<stage>(Fans her vigorously)</stage>
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Not so violent, girl.  You&#39;ll disarrange my hair.  Gently, 
+very gently, a sort of sportive zephyr.
+</p></sp>
+<sp><speaker>Carline</speaker><p>I understand, Madame.  You want a mild sort of tickling sensation--
+something like one feels on one&#39;s neck when a gentleman 
+whispers in one&#39;s ear.</p></sp>
+
+<sp><speaker>Barbara</speaker><p><stage>
+(Languidly)</stage>
+Ye-es.
+<stage>(Sighs)</stage>
+And he called me a-a-what did he call me?
+</p></sp>
+<sp><speaker>Carline</speaker><p>A swan-like creature. 
+<stage>
+(Aside)</stage>
+A goose.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Oh.<stage>
+(Sighs)</stage>
+Who can he be, I wonder.
+</p></sp>
+<sp><speaker>Carline</speaker><p>Nobody appears to know exactly, I heard his lordship the 
+Count whisper to the Baron von Puffengruntz that he suspected 
+the mysterious blue mask to be no other than the young prince 
+Leopold.  Once, while dancing, his domino came open at the 
+breast and I saw a collar of jewels fit for an Emperor.  However, 
+as everybody is to unmask at the grand banuqet, we will 
+then know all about him.  
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Eh, what, the Prince Leopold?
+</p></sp>
+<sp><speaker>Carline</speaker><p>So his lordship the Count thinks.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Why he&#39;s already affianced as everybody knows, to the young 
+Princess Frederica.
+</p></sp>
+<sp><speaker>Carline</speaker><p>Dear me, so he is.  How unfortunate!
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Poor young man, how I pity him.  What a terrible thing it is 
+to be of royal blood and not have the liberty to choose for 
+one&#39;s self.  Heigho!  I know it is a sad, cruel, wicked thing 
+to blight a young and budding affection, but as the right 
+honorable foster-mother that <emph rend="underline"> is</emph> to be of her right honorable 
+ladyship that is to be, I musn&#39;t encourage his highness in 
+a hopeless passion.<stage>
+(Displays herself)</stage>
+</p></sp>
+<sp><speaker>Von Puff</speaker><p><stage>
+(Entering from terrace LH)</stage><stage>(At back, admiringly)</stage>
+There she is!  What a grace.  What a dignity.  What a walk.
+<stage>(Coming foward LH)</stage>
+Ah-a-a!</p></sp>
+
+<sp><speaker>Barbara</speaker><p><stage>
+(Sighing)</stage>
+There&#39;s another victim to love&#39;s cruel dart.  My fan, child.
+</p></sp>
+<sp><speaker>Carline</speaker><p><stage>(Giving it)</stage>
+Be careful, use it gently Madame; remember your complexion.
+<stage>(Aside)</stage>
+What a lovely couple--powder and puff.
+</p></sp>
+<sp><speaker>Von Puff</speaker><p><stage>
+(Aside)</stage>
+What a golden opportunity.<stage>
+(Aloud)</stage>
+Young woman, as I left the grand hall I heard your mistress 
+asking for you.
+</p></sp>
+<sp><speaker>Carline</speaker><p><stage>(Aside)</stage>
+Of course, I understand, cunning old walrus.  May I reture, 
+Madame?
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Yes, certainly child, that is if her ladyship requires you.
+<stage>
+(Coquettes with her dress, etc.)
+</stage>
+</p></sp>
+<sp><speaker>Carline</speaker><p><stage>(Aside)</stage>
+I thought so, willing old pelican.  She&#39;s beginning to preen 
+her feathers already.  Never mind, I shall have another flirtation 
+with the prince&#39;s equerry, the drollest and most agreeable 
+fellow in the world, and <emph rend="underline"> such</emph> a rogue.
+<stage>
+(Exit terrace LH)</stage><stage>
+(VON P FF LH gazes admiringly at Barbara and sighs)
+</stage>
+</p></sp>
+<sp><speaker>Barbara</speaker><p><stage>
+(RH casting sidelong glances at him)</stage>
+Heigho!  There he is.  My charms tonight have completed the 
+conquest.  He&#39;s fast bound in the bonds of rosy cupid.  I see 
+a proposal in one eye and a marriage settlement in the other, 
+But I mustn&#39;t draw him in too suddenly.  These men are like 
+trout, they must be played with a little.</p></sp>
+
+<sp><speaker>Von Puff</speaker><p>
+Full moon of the festival, why have you so cruelly robbed 
+the grand hall of your light, and left us to grope about in 
+the dull glimmer of the sickly stars.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Don&#39;t talk to me about moonship and sickly stars, you heartless, 
+gay deceiver.
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Deceiver!
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Deceiver.  Didn&#39;t I see you gallivanting with the fraulein 
+Von Skragneck, the new Burgonmaster&#39;s daughter?
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Politeness, my dear Madame Barbara, merely politeness, on my 
+honor.  The fact is I-I had the misfortune to tread on the 
+lady&#39;s favorite bunion, and what you mistook for tenderness 
+was only an apology-an apology, believe me, my dear Madame 
+Barbara, only an apology.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Oh, you men, you deceiving men, you are always ready with an 
+excuse.
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+On the honor of a Von Puffengruntz, I swear I speak the truth.
+The fraulein Von Skragneck indeed!  Haven&#39;t I got eyes?  Ah, 
+cruel fair one, compared with her and all others, you are 
+the stately sunflower in a meadow of dandelions.  As-as-as the 
+queen hollyhock in a garden of chickweed.
+</p></sp>
+<stage>
+(MUSIC.  Tremelo piano.  DRAGONFIN ascends quickly 
+through trap behind low set plant RH2.  He steps forward 
+&amp; listens)
+</stage>
+<sp><speaker>Barbara</speaker><p>
+It&#39;s coming at last, I know it&#39;s coming.<stage>
+(Pressing her heart)</stage>
+What a strange flutter.  I hope I&#39;m not going to faint.  Dear 
+me, what weak silly creatures we are.  I must nerve myself 
+for the trying occasion.  How fortunate it is that I happen 
+to have my smelling salts about me.<stage>
+(Draws flask from his pocket, turns back to Von Puff 
+and drinks)</stage>
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+She&#39;s moved.  She&#39;s overcome with emotion, she turns to hide 
+her blushes.  She yields, and now, like a conqueror, I&#39;ll 
+gather in the fruits of victory.
+<stage>(He kneels with difficulty at the feet of Barbara, his 
+face half-averted, and is about to take her hand when
+DRAGONFIN glides quietly back of and between them, extends 
+his left hand to Von Puff and takes Barbara&#39;s 
+in the other.  Both sigh)</stage><stage>
+(Squeezing the hand of DRAGONFIN who shakes with suppressed 
+laughter)</stage>
+Poor, frightened thing, how she trembles.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Dear me, how strangely the tender passion affects him.  He&#39;s 
+shaking like an aspen and his hand is as cold as ice.
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Bewitching siren, listen to the voice of love.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Oh, Mynheer Von Puffengruntz, how can you--
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Don&#39;t call me Von Puffengruntz, call be Maximillian, call me 
+<emph rend="underline"> your</emph> Maximillian.
+<stage>(Squeezes Dragonfin&#39;s hand; DRAGONFIN squeezes Barbara&#39;s)</stage>
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Oh, don&#39;t, you naughty man, you--you hurt my hand.
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+No, did I?  Queen of love and beauty, then let me heal the 
+bruise.
+<stage>(Kisses the hand of Dragonfin rapturously who, at the 
+same time, kisses Barbara&#39;s)</stage>
+And now that I&#39;ve healed it let me call it mine.  
+<stage>(Looks for the first time attentively at the hand, 
+continues inspection up the arm until he encounters 
+the grinning face of Dragonfin, when in speechless 
+terror he drops the hand, makes various floundering 
+attempts to regain his feet and exits hurriedly LH1)</stage>
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+<stage>(Aside)</stage>
+Shall I keep him a little longer with Cupid&#39;s dart sticking 
+in his bosom, or shall I end his misery.
+<stage>(Aloud)</stage>
+Ahem, you&#39;ll-you&#39;ll never be a haughty boy again?
+<stage>
+(DRAGONFIN squeezes her hand)</stage>
+And you&#39;ll promise never to tread on the froulein von Skragneck&#39;s bunion?
+<stage>(DRAGONFIN SQUEEZES her hand)</stage>
+<stage>(Aside)</stage>
+Poor fellow, joy has made him speechless; he can only answer 
+with a squeeze of the hand.
+<stage>(Aloud)</stage>
+Well then, Maximillian, I&#39;m yours.
+<stage>(Falls into Dragonfins&#39;s arms, looks up into his face.  
+MUSIC.  She uttrers a piercing scream and rushes off RH1)</stage>
+<stage>(DRAGONFIN imitates &amp; indulges in extravagant antics 
+until Music changes, when he starts, inclines his ear 
+to the ground &amp; listens--rises, moves cautioously to RH1 
+starts, pointings off RH, shakes his clenched hand threateningly 
+&amp; quickly disappears through trap RH)</stage>
+</p></sp><sp>
+<speaker>Hertzog</speaker><p>
+<stage>(Entering RH1 hurriedly &amp; disturbed)</stage>
+Foiled, tricked, crossed in the hour of my victory.  A life 
+desperately played for and fairly won snatched from the jaws 
+of death.  He lives, my chosen victim lives, and flushed with 
+triumph and vast hoards of gold, stalks boldly forth to mock 
+mock.  Oh curse the interposing power the stepped between us.  
+A withering palsy light upon her arm and blight and pestilence infect 
+the air she breathes!  Oh impotent, on, driveling 
+fool.  To work, to work.  A soul once tampered with must 
+be pursued, not cast aside to tempt another.  So runs the bond 
+to which I&#39;ve sealed.  &#39;Tis well, &#39;tis well.  I&#39;ll track him 
+as the sleuth hound tracks the stag.  He must be, shall be 
+mine.</p></sp>
+<stage>
+(MUSIC.  Exit hurriedly RH1.  MUSIC.  Re-enter masquers
+RH back; they cross &amp; disappear)</stage>
+<stage>
+(Enter LH from terrace CARLINE, laughing immoderately, 
+followed by GREPPO, who is dressed in a smart but 
+outre livery)
+</stage>
+<sp><speaker>Carline</speaker><p>No, no, Master Equerry, that won&#39;t do.  You are very clever, 
+very droll and you tell very funny stories, but that last 
+joke is a trifle too much.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+But my dear Susetta--
+</p></sp>
+<sp><speaker>Carline</speaker><p>But my dear Susetta--
+</p></sp>
+<sp><speaker>Carline</speaker><p><stage>(Laughing)</stage>
+There, there.  I knew you were not in earnest.  My name&#39;s 
+not Susetta.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Of course it isn&#39;t.  It&#39;s- it&#39;s- what is it?
+</p></sp>
+
+<sp><speaker>Carline</speaker><p>No it isn&#39;t &quot;What-is-it&quot;- -it&#39;s Carline.</p></sp>
+
+<sp><speaker>Greppo</speaker><p>
+Of course it is, but you see I always mean Carline when I 
+say Suesetta.  Therefore Susetta--that is my dear Carline, when
+I tell you I love you--
+</p></sp>
+<sp><speaker>Carline</speaker><p>(laughing)
+I don&#39;t believe a word you say.  Why you arrived here scarely 
+three hours ago, and you&#39;ve already been making love to half 
+the girls in the castle.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+It&#39;s a mistake, my dear Susetta--I mean Carline, altogether 
+a mistake.  I had my eye on you from the first, and any little 
+outside pleasantry you may have happened to notice was only 
+to get my hand in.  
+</p></sp>
+<sp><speaker>Carline</speaker><p>And this is only to keep it in, I suppose.  No, no.  I&#39;m not 
+as simple as I look, and I tell you, clever master Equerry, 
+it won&#39;t do.  
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+But my dear Carline, allow me to tell you that I&#39;m not an 
+equerry.
+</p></sp>
+<sp><speaker>Carline</speaker><p>NO?
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+<stage>
+(Drawing himself up)</stage>
+I&#39;m consulting secretary, confidential adviser, portable 
+treasury, and principal disbursing officer to his highness 
+the Prince.
+<stage>
+(Aside)
+</stage>
+Everybody takes matter for a Prince and it&#39;s no part of my 
+business to undeceive them.  Besides if he isn&#39;t a Prince 
+he deserves to be and I ought to be his Prime Minister.
+</p></sp>
+<sp><speaker>Carline</speaker><p>Dear me!  Consulting Secretary?
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Consulting Secretary!
+</p></sp>
+<sp><speaker>Carline</speaker><p>Confidential Adviser?
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Confidential Adviser!
+</p></sp>
+<sp><speaker>Carline</speaker><p>Portable Treasury!
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Portable Treasury.  Behold!
+<stage>
+(Showing two glittering purses)</stage>
+Here are two purses, my master&#39;s and my own.  From this--
+<stage>(Showing one nearly empty)</stage>
+by the Prince&#39;s order came the gold I scattered among the 
+servants in the courtyard.  With this 
+<stage>
+(Showing full one)</stage>
+I intend to endow the maiden of my choice.
+</p></sp>
+<sp><speaker>Carline</speaker><p>And you really mean--</p></sp>
+
+<sp><speaker>Greppo</speaker><p>
+That you are she.
+</p></sp>
+<sp><speaker>Carline</speaker><p>No.</p></sp>
+
+<sp><speaker>Greppo</speaker><p>
+Yes.
+</p></sp>
+<sp><speaker>Carline</speaker><p>I&#39;m afraid to trust you.</p></sp>
+
+<sp><speaker>Greppo</speaker><p>
+Allow me to make a deposit.
+<stage>(Gives purse)</stage>
+</p></sp>
+<sp><speaker>Carline</speaker><p><stage>(Opening &amp; admiring purse)</stage>
+Oh, dear, you&#39;ve taken my breath away.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+No, have I?  Permit me to return it to you.
+<stage>(Kisses her)</stage>
+Now listen, my dear little Carline, I have a secret and as 
+there should be no secrets between man and wife--that is, 
+man and wife that are to be, I&#39;m going to share it with you.
+</p></sp>
+<sp><speaker>Carline</speaker><p>A secret, dear Greppo?
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+<emph rend="underline"> Dear</emph> Greppo!  Oh, say that again.
+</p></sp>
+<sp><speaker>Carline</speaker><p><stage>(With increased tenderness)</stage>
+Well then, dear Greppo.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Oh, thank you.  You needn&#39;t repeat it again at present.  That&#39;s 
+as much as I can stand &#39;till I get used to it.
+</p></sp>
+<sp><speaker>Carline</speaker><p>Well, then, the secret.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Yes.  In the first place, do you love your mistress, Carline?
+</p></sp>
+<sp><speaker>Carline</speaker><p>Love her?  I&#39;d die for her.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+No, no, no, no.  I don&#39;t want you to go quite that far.  I&#39;m 
+not ambitious to be a widower before I&#39;ve had my honeymoon.
+</p></sp>
+<sp><speaker>Carline</speaker><p>Well, then, I love her dearly.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+That&#39;s better.  And she loves my mas--  that is, young Rodolphe 
+the painter?
+</p></sp>
+<sp><speaker>Carline</speaker><p>Better than her own life, poor lady.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+And would marry him but for this ruffianly Count Wolfenstein?
+</p></sp>
+<sp><speaker>Carline</speaker><p>Yes--but the secret.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+<stage> 
+(With caution)</stage>
+Well, then, you must know--
+<stage>
+(MUSIC)</stage>
+Hark, somebody&#39;s coming.
+<stage>(Enter from terrace LH RODOLPHE &amp; AMINA.  He is brilliantly 
+dressed, wearing a collar and other ornaments 
+of glittering jewels-blue mask &amp; domino.  AMINA also 
+wears mask &amp; domino.)</stage>
+</p></sp>
+<sp><speaker>Amina</speaker><p>
+Some one is here.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Fear not; they are our own people.
+<stage>(Comes forward with Amina)</stage>
+Leave us, good Greppo, and take your companion with you.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+Yes, good master.  Come along, Carline.
+</p></sp>
+<sp><speaker>Carline</speaker><p>Surely I&#39;ve heard that voice before?</p></sp>
+
+<sp><speaker>Greppo</speaker><p>
+<stage>(Taking her arm)</stage>
+Hush.  That&#39;s the secret I was going to share with you, and 
+if you&#39;ll take a stroll with me in the ramble that leads to 
+the lover&#39;s paradise I&#39;ll tell you all about it.
+</p></sp>
+<sp><speaker>Carline</speaker><p>Yes, dear Greppo.</p></sp>
+
+<sp><speaker>Greppo</speaker><p>
+Oh, don&#39;t!</p></sp>
+<stage>(MUSIC.  They go off LH1)(RODOLPHE &amp; AMINA unmask)</stage>
+
+<sp><speaker>Amina</speaker><p>
+Oh, dear Rodolphe, is this a dream?
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+What&#39;s past seems so, but day has dawned on our long clouded 
+night and thgis the awakeing.
+</p></sp>
+<sp><speaker>Amina</speaker><p>
+Your story is indeed most wondrous.  But on, dear Rodolphe,
+I tremble for your life  If you should be discovered the 
+vengeance of the ruthless Wolfenstein, backed by his horde 
+of fierce retainers would be terrible.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Fear not, I will defend my right with my life.  The same kind 
+power that interposed between me and destruction protect us 
+still.  You shall be saved.  All is ready for our flight. 
+On the border of the forest, beyond the boundary of the gardens, 
+swift horses are concealed.  After midnight the moon 
+veiling her face behind the bracken, will cast a deep shadow 
+over the valley.  When it is quiet I will be beneath your 
+window.  The rest is easy.  Carline and my faithful Greppo 
+will accompany us.
+</p></sp>
+<sp><speaker>Amina</speaker><p>
+<stage>(Throwing her arms around him)</stage>
+Oh, my Rodolphe, my more than life, coming this suddenly 
+from the darkness of my despair into the sunlight of this 
+new-born hope has dazzled me.  My eyelids close.  I cannot 
+look this great joy in the face.  I fear to call it mine.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Fear?
+</p></sp>
+<sp><speaker>Amina</speaker><p>
+Fear with that fear that springs from woman&#39;s love.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+<stage>(Kissing her)</stage>
+Be calm, sweet love, be brave, and all will yet be well.
+<stage>(MUSIC.  piano.  LAUGHTER heard outside at back)</stage>
+Hark, the masquers come this way.  Let&#39;s mingle with the 
+throng.
+<stage>(They mask &amp; cross to LH1)</stage>
+<stage>(MUSIC louder.  Masquers enter LHR laughing &amp; chatting 
+-remaining RH at back.  While so engaged and after all 
+are on, MUSIC changes to hurry.) HERTZOG with drawn 
+sword enters hurriedly at terrace LH, followed by guards,
+WOLFENSTEIN with drawn sword, WULFGAR, BRUNO &amp; VON PUFF 
+with BARBARA, the two latter remaining on terrace.
+HERTZOG down RH1 glaring on Rodolphe)</stage>
+</p></sp><sp>
+<speaker>Wolfenstein</speaker><p>
+<stage>(C at foot of terrace steps)</stage>
+Let no one stir; guard every avenue that leads from hence.
+<stage>(To guests)</stage>
+Bear with me, friends, there&#39;s treason in our midst.
+</p></sp>
+<sp><speaker>All</speaker><p>Treason?</p></sp>
+<sp><speaker>Wolfenstein</speaker><p>
+&#39;Tis said a serf, a wretch, usurping the semblance of a noble 
+prince and bent on outrage has dared to mingle with this 
+goodly throng.  If that be false to all I&#39;ll make amends for 
+this rude breaking in upon the general joy.  If it be true 
+&#39;tis fit we know it.  Therefore I do command that all shall 
+here unmask.
+</p></sp>
+<sp><speaker>Amina</speaker><p>
+Lost, lost.
+</p></sp><sp>
+<speaker>All</speaker><p>
+Aye, let all unmask.</p></sp>
+<stage>
+(All unmask.  RODOLPHE in doing so, throws off his domino, 
+draws his sword, and places himself before Amina.
+CHORD)</stage>
+<sp>
+<speaker>Wolfenstein</speaker><p>
+&#39;Tis true; yield, audacious miscreant!
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Never, while life remains!
+</p></sp>
+<sp><speaker>Wolfenstein</speaker><p>
+Upon him, guards, hew him to pieces!</p></sp>
+<stage>
+(MUSIC.  Ladies scream.  AMINA faints and falls into 
+the arms of GREPPO who enters LH1.  WOLFENSTEIN &amp; GUARDS 
+are rushing upon Rodolphe.)
+</stage>
+<sp><speaker>Greppo</speaker><p>
+The ring, master, the ring.</p></sp>
+<stage>(Rodolphe kisses the ring.  Foot, border and wing lights
+flashed quickly up.  STALACTA springs from LH1 in glittering 
+mail, with helmet, sword &amp; shield, followed by 
+Dragonfin, armed with a trident.  Fairies &amp; nymphs as
+Amazons with breast plates, helmets, shields and javelins.
+LH1.  Gnomes &amp; amphibea with knotted clubs and tridents 
+form LH 2 &amp; 3 and on terrace R &amp; L.  WOLFENSTEIN, 
+Guards and gentlemen shrink back appalled.  HERTZOG 
+stands the embodiment of baffled rage.  VON PUFF on 
+terrace faints and falls into the arms of BARBARA, who 
+fans him)</stage>
+<stage>
+Quick curtain</stage>
+<stage>
+Note--from the cue &quot;Hew him to pieces.&quot;, the whole action 
+is hurried and simultaneous.  Foot and stage lights flashed 
+quickly up when Rodolphe kisses the ring.  When curtain drops 
+1st time, hold the picture to answer encore.
+</stage>
+</div></div>
+<div type="Act" n="4">
+<div type="Scene" n="1">
+<head>
+Act Four - Scene One
+</head><stage>
+Scene:	Six months later.  An apartment in the castle
+		of Wolfenstein.  MUSIC.  Enter BARBARA RH.
+		</stage>
+<sp><speaker>Barbara</speaker><p>
+Alas that things ever fall so ill.  &#39;Tis now siz months 
+since that never-to-be-forgotten night, and still no news 
+of the lost mistress of Wolfenstein.  Nor yet of his lordship 
+who has sworn an oath never to return to the castle until 
+he has brought her back and revenged himself on the horrible 
+monster who has stolen her.  And that graceless baggage Carline, 
+too, to go off at the same time, leavimng all the woes 
+of the household to fall on my poor shoulders.  And then to 
+make matters worse, spells and witchcraft turn all things 
+upside down.  The cows milk vinegar, the wells are dry, the 
+hens lay addled eggs---
+</p></sp>
+<sp><speaker>Von Puff</speaker><p><stage>
+(Entering RH with very red nose &amp; tipay)</stage>
+And all the wine&#39;s turned sour.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+<stage>(Looking ruefully at him)</stage>
+There&#39;s another comfort.  To think that I, the right honorable 
+foster-mother that <emph rend="underline"> was</emph> to have been to her right honorable 
+ladyship that was to have been, for whom many a young and 
+tender heart has sighed in vain, should ever have thrown herself 
+away upon a wine-butt.
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Hic!  A wine-butt, Madam Von Puffengruntz?
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Aye, a wine-butt, a beer barrel, a brute that hasn&#39;t drawn a 
+sober breath since the day after we were married, now more 
+than three months ago.  
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Hic!  A beer-barrel?
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+<stage>(Savagely)</stage>
+I said a beer-barrel.
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Hic!  Certainly, of course, just whichever you please, my 
+dear, wine-butt or beer-barrel, it&#39;s all the same to me.  
+You know you <emph rend="underline"> will</emph> cackle.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Cackle!
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Hic!  Cackle, my dear.  You know I never have a moment&#39;s peace.  
+You&#39;re not even quiet when you&#39;re asleep.  You snore, Madam 
+Von Puffengrunz, you snore, loud enough to split the drum 
+of my ear and rip up the seam up my nightcap.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Snore, you wretch, <emph rend="underline"> I</emph> snore?
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Hic!  Yes, my dear, and have the nightmare.  Hic!  I don&#39;t 
+like a wife that snores and I hate a wife that has the nightmare.  
+In future I&#39;m going to have separate apartments.  Hereafter 
+I intend to sleep alone.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Alone.
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Hic!  I said alone.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+Am I awake?  Who and what do you take me for?
+</p></sp>
+<sp><speaker>Von Puff</speaker><p>
+Hic!  I took you for a gentle spice-a sort of seasoning 
+to the dull life I led here in the castle, but damn it, Madam, 
+you&#39;ve turned out to be all the condiments in one, a bottom 
+layer of mustard, a top dressing of cayenne pepper and a subeterranean 
+lake of vinegar in the middle.
+</p></sp>
+<sp><speaker>Barbara</speaker><p>
+<stage>(Enraged, approaching; he retreats around LH)</stage>
+Cackle!  Snore!  Nightmare, separate apartments!  Cayenne 
+pepper?  You wretch!  You sot, you villain.  I&#39;ll Pepper you!
+<stage>(Pulls his wig off)</stage>
+There, take that and that and that.
+<stage>(Beats him over the head with it &#39;till both off LH)</stage>
+</p></sp>
+<stage>
+Curtain
+</stage>
+
+</div>
+
+<div type="scene" n="2">
+<head>Act Four - Scene Two</head>
+<stage>
+Scene:	The retreat of Rodolphe in the forest of Bohemia.
+		MUSIC.  Distant sound of hunter&#39;s horn.&amp; echo.
+		RODOLPHE &amp; AMINA enter LHUE, followed by GREPPO.
+		The former two are in hunting costume.
+</stage>
+<sp><speaker>Rodolphe</speaker><p>
+<stage>(Throwing his spear and horn to Greppo)</stage>
+I weary with the chase.  Call together our people and bid 
+them lead our horses to where the forest path crosses the 
+brook- there we will join them.
+</p></sp>
+<sp><speaker>Greppo</speaker><p>
+&#39;Tis wisely resolved, good master.  The sun declines, night 
+comes on apace and we are yet some three good miles from home. 
+Besides I&#39;m hollow as a drum.  Moreover, in early autumn venison 
+keeps not overlong and the fat haunch of yonder noble 
+buck cries out for speedy roasting.  Pray do not tarry long.</p></sp>
+<stage>
+(Exit LH2)
+</stage>
+<sp><speaker>Rodolphe</speaker><p>
+Well, dear love, tomorrow ends the year of our probation.  
+Tomorrow, at the holy altar&#39;s foot, I call you mine.
+</p></sp>
+<sp><speaker>Amina</speaker><p>
+Tomorrow!  How brief the time and yet how long &#39;till then.  
+Oh, Rodolphe, will it come to us?  There seems to be a lurking 
+danger in the air--a cloud between us and the coming light.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Fear not.  Here in the deep seculsion of our forest home we 
+are safe from all pursuit.
+<stage>(Distant horn and echo at back LH)</stage>
+Hark, &#39;tis Greppo calling in the huntsmen.  Let&#39;s on to meet 
+him.</p></sp>
+<stage> 
+(MUSIC.  They are crossing to RH when they are suddenly 
+confronted by HERTZOG, WOLFENSTEIN &amp; WULFGAR, who enter 
+quickly RH2)  (CHORD)
+</stage>
+<sp><speaker>Wolfenstein</speaker><p>Ha, ha, ha!  At last we meet!</p></sp>
+
+<sp><speaker>Rodolphe</speaker><p>
+<stage>(Starting back and drawing his sword)</stage>
+Fly, Amina, seek safety with our people.  My arm shall bar 
+pursuit.
+</p></sp>
+<sp><speaker>Amina</speaker><p>
+No, Rodolphe, we will die together.
+</p></sp>
+<sp><speaker>Wolfenstein</speaker><p>
+Alive, take him alive!  Yield!
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+<stage>(Standing on his defense)</stage>
+He who takes my sword must win it.
+</p></sp>
+<sp><speaker>Hertzog</speaker><p>Put up thy blade; she whom thou would&#39;st invoke is powerless 
+to aid.
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+False wretch, but that another life hangs on the slender thread 
+of mine--though coward numbers swarmed on every side--I&#39;d 
+try this issue with my single sword.  But know thou still
+art juggled with.  The poower I once invoked is potent still.
+<stage>
+(MUSIC.  He kisses the ring.  STALACTA springs from 
+thicket LH flat in glittering full armor, DRAGONFIN 
+on from LH2)
+</stage>
+Behold, we meet on equal ground!
+</p></sp>
+<sp>
+<speaker>Wolfenstein</speaker><p>
+Though environed by a thousand fiends my hate would find a 
+way to reach you.</p></sp>
+<stage>
+(MUSIC.  Grand triple sword combat:  RODOLPHE &amp; WOLFENSTEIN: 
+DRAGONFIN &amp; WULFGAR:  STALACTA &amp; HERTZOG.  
+WOLFENSTEIN &amp; WULFGAR are slain.  HERTZOG wounded and 
+dismayed flees RH2.  AMINA, who during the combat has 
+knelt in prayer, throws herself into the arms of Rodolphe.
+</stage> 
+<stage>
+Both kneel at the feet of Stalacta.  DRAGONFIN 
+indulges in grotesque exultation over the bodies of 
+Wolfenstein &amp; Wulfgar)
+</stage>
+<stage>
+Curtain
+</stage>
+</div>
+<div type="scene" n="3">
+<head>Scene 3rd
+</head>
+<stage>
+The Forest. 
+ </stage>
+<stage>
+Enter RODOLPHE RH
+			supporting Amina.
+</stage>			
+<sp><speaker>Rodolphe</speaker><p>
+Look up, Amina, all danger&#39;s past.  Courage, ere long, we&#39;ll 
+meet our people.
+</p></sp>
+<sp><speaker>Amina</speaker><p>
+And you are safe?
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Safe!  Come, poor trembling dove.  Courage, courage.</p></sp>
+<stage>
+(Exeunt)</stage>
+<stage> (MUSIC) (Enter Hertzog, infuriate, RH)</stage>
+
+<sp><speaker>Hertzog</speaker><p>Let one vast curse fill all the air!  Am I then juggled with!  
+Malignant powers, obey your master&#39;s call.  Viewless spirits 
+of evil, work now your direst spells!  As toppling mountains 
+crush the mighty pines, crush thou the power that thwarts 
+and mocks me.  Zamiel, mighty master, I invoke thy aid.</p></sp>
+<stage>(MUSIC.  THUNDER.  Two fiends enter quickly R &amp; L, bearing 
+lighted flambeaux)</stage>
+
+<sp><speaker>Fiends</speaker><p>Your will?</p></sp>
+
+<sp><speaker>Hertzog</speaker><p>Summon your infernal legions--pursue yon flying pair.
+Fire the forest, girdle them with a belt of flame; close every 
+avenue of escape.  Away, away!</p></sp>
+<stage>
+(MUSIC.  THUNDER.  Fiends rush off LH, followed by 
+HERTZOG)</stage>
+<stage>
+Curtain
+</stage>
+</div>
+<div type="scene" n="4">
+<head>
+Act Four - Scene Four</head>
+<stage>
+Scene:	Burning forest.  A grand &amp; comprehensive conflagation 
+scene.  Lights down.  MUSIC at rise.  Loud crackling 
+noise and red fire on both sides.  RODOLPHE &amp; 
+AMINA enter LH2 as they attempt to escape they are 
+driven back from R &amp; L by fiends with flaming torches.
+</stage>
+<sp><speaker>Amina</speaker><p>
+<stage>
+(In agony)</stage>
+I burn!  I suffocate!
+</p></sp>
+<sp><speaker>Rodolphe</speaker><p>
+Courage, courage.  The ring, the ring!</p></sp>
+<stage>
+(He kisses the ring; Gong sounds; a rock opens in LH 
+flat disclosing a grotto of silver stalactites.  They 
+quickly enter.  HERTZOG &amp; the fiends spring forward, 
+when STALACTA steps forward from the opening, holding 
+aloft a glittering cross.  HERTZOG &amp; the Fiends shrink 
+back)</stage>
+<stage>
+Tableau</stage>
+<stage>Curtain</stage></div>
+<div type="scene" n="5">
+<head>
+Scene Five
+</head>
+<stage>
+Scene:	The forest at night.  Lights down.  Sound of hunter&#39;s 
+		horn and very faint echo.  GREPPO enters RH)
+</stage>		
+<sp><speaker>Greppo</speaker><p>
+
+What&#39;s the use?  Now what <emph rend="underline"> is</emph> the use?  The oftener I call,
+the fainter comes the answer.  Here it is quite dark, Master 
+waiting for the horses and I wandering about like a jack o&#39; lantern,
+following the horn of some goblin huntsman.  There&#39;s 
+some devil&#39;s work going on.
+<stage>(Starting)</stage>
+
+I beg his infernal Majesty&#39;s pardon; I hope I haven&#39;t said 
+anything to offend, but strange sights and sounds are in the 
+air.  Birds that ought to have gone to roost an hour ago fly 
+screaming from tree to tree.  The dismal screech-owl, from 
+his hole in the oak answers to the croak of the dreary 
+monk-raven and just now I saw a big fat buck scampering through 
+the forest with his tail on fire.  Oh, dear, oh daer, what 
+fearful omens.  And I&#39;m to be married tomorrow.  If anything 
+should happen to me--if my poor dear little Carline should 
+happen to be left a widow before she&#39;s made a wife--if I 
+should never taste--that is, if I should never know--Oh, 
+Lord, it won&#39;t bear thinking of.  I&#39;ll try once more.
+<stage>(Winds the horn.  Echo without scarely audible)</stage>
+Worse and worse.  Oh Lord, Oh Lord.  I want to go home.
+<stage>(Exit LH)</stage>
+
+</p></sp>
+<stage>
+Curtain
+</stage>
+
+</div>
+<div type="scene" n="6">
+<head>
+Act Four - Scene Six
+</head>
+<stage>
+Scene:	Pandemonium.  ZAMIEL in council, seated on an illuminated 
+		throne of skulls &amp; flame at back C.  To 
+		R &amp; L of C, lesser thrones, that on the right 
+		occupied by Redglare, with pen and open book, that 
+		on the left by a secretary writing.  At the foot of 
+		the central throne two dwarf-demons, pages with 
+		wands in attendance.  MUSIC AT RISE.  Fiends discovered
+		in a chorus of demoniacal yells and fiendish 
+		laughter, dancing around a flashing chasm.  After 
+		the action is continued a brief time, ZAMIEL 
+		waves his sceptre.  Demons separate and form R &amp; L.
+</stage>		
+<sp><speaker>Zamiel</speaker><p>
+&#39;Tis well.  Let silence reign awhile.  How stands the record 
+of the dying year?  Has every seed brought sinful fruit?  Is 
+all the harvest gathered in--is every bond fulfilled?
+</p></sp>
+<sp><speaker>Redglare</speaker><p>All!--All save one.</p></sp>
+<sp><speaker>Zamiel</speaker><p>
+Who plays the laggard?
+</p></sp>
+<sp><speaker>Redglare</speaker><p>
+One who sought to rival thy great power; Hertzog, the Black 
+Crook.</p></sp>
+<sp>
+<speaker>
+All the Fiends</speaker>
+<p>Ho, ho, go.</p></sp>
+<stage>
+(Echoed without and above, followed by a single wild 
+blast of infernal music)
+</stage>
+<sp>
+<speaker>Zamiel</speaker><p>
+If, when the brazen tongue of clamorous time, now trembling 
+on the midnight verge, proclaims the appointed hour, the 
+wail of the fresh soul by him betrayed, breaks on the air 
+of hell, let him be summoned.</p></sp>
+<stage>(MUSIC.  The demons utter a wild wail of delight and 
+resume the dance; the gong strikes twleve.  At the first 
+stroke, the demons cease dancing and hold separate 
+pictures of exulatation.  At the termination of each 
+stroke loud and continued thunder; demons utter a wild 
+cry.  Zamiel rises and waves his sceptre.  If possible 
+the scene breaks away and discloses vistas of Pandemonium 
+teeming with infernal life &amp; wreaths of flame, 
+from which appear illuminated heads of demons, skeletons, 
+&amp; nondescript monsters.  Gong sounds.  HERTZOG is dragged 
+on from RH2 by fiends and is dashed into the flaming 
+chasm.  Demons howl and dance around until</stage> 
+<stage>
+Curtain</stage>
+</div>
+<div type="scene" n="7">
+<head>Act Four - Scene Seven</head>
+
+<stage>Scene:  Subterranean gallery of emerald &amp; crystal stalactites.
+		MUSIC AT RISE.  Characteristic march.  Grand procession 
+		of amphibea &amp; gnomes bearing in their arms and 
+		upon their heads salvers and shells and quaint vases 
+		filled with gold and jewels.  They are followed by 
+		Amazons in armor, led by Stalacta.  They march from 
+		L to R, doubling the march and varying the evolutions 
+		&#39;till the transformation is ready when they exit 
+		RH and the scene breaks slowly away to 
+		</stage>
+		</div>
+<div type="scene" n="8">		
+<head>Scene Eight</head>
+<stage>MUSIC AT OPENING.  An elaborate mechanical and scenical construction 
+of the realms of Stalacta, occupying the entire 
+stage.  This scene must be of gradually developing and culminating 
+beauty, introducing during its various scenes, Stalacta, 
+the entire host of fairies, sprites, water nymphs, 
+amphibea, gnomes, etc., bearing treasure.  Rodolphe &amp; Amina,
+Greppo &amp; Carline.  Calcium lights, brilliant fires and</stage>
+
+<stage>Slow Curtain</stage>
+</div>
+</div>
+</body>
+</text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "tei_drama.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Babes in Toyland</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>New York Public Library for the Performing Arts
+				</publisher>
+				<pubPlace>New York City</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>Babes in Toyland</title>
+					<author>Glen MacDonough</author>
+					<author>Victor Herbert</author>
+					<date>~1903</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+<text>
+<front>
+<titlePage>
+<docTitle>
+<titlePart>
+BABES IN TOYLAND<lb/>
+A Musical Comedy in<lb/>
+three acts.<lb/>
+---------<lb/>
+</titlePart>
+</docTitle>
+<docAuthor>
+<note>
+[Handwritten
+</note>
+Books &amp; Lyrics by Glen MacDonough<lb/>
+
+Music by Victor Herbert<lb/>
+<note>
+Produced 13 Oct. 1903, at the Majestic Theatre in New York,
+but this is a later version.]
+</note>
+</docAuthor>
+</titlePage>
+<castList>
+<castGroup>
+<head>CAST</head>
+<castItem>UNCLE BARNABY, A rich miser.</castItem>
+<castItem>ALAN, His nephew.</castItem>
+<castItem>JANE, His niece.</castItem>
+<castItem>THE WIDOW PIPER, A lonely widow with fourteen children.</castItem>
+<castItem>TOM TOM, Her eldest son.</castItem>
+<castItem>CONTRARY MARY, Her eldest daughter.</castItem>
+<castItem>HILDA, A maid of all work for the Piper family.</castItem>
+</castGroup>
+<castGroup>
+<head>
+Two ruffians</head>
+<castItem>RODERIGO</castItem>
+<castItem>GONZORGO</castItem>
+</castGroup>
+<castGroup>
+<head>Piper&apos;s Children</head>
+<castItem>JILL         </castItem>
+<castItem>BOY BLUE     </castItem>
+<castItem>BO PEEP      </castItem>
+<castItem>MISS MUFFETT </castItem>
+<castItem>SIMPLE SIMON </castItem>
+<castItem>CURLY LOCKS  </castItem>
+<castItem>BOBBY SHAFTON</castItem>
+<castItem>SALLIE WATERS</castItem>
+<castItem>RED RIDING HOOD, and etc.</castItem>
+</castGroup>
+<castGroup>
+<castItem>THE GIANT SPIDER</castItem>
+<castItem>THE MASTER TOY MAKER</castItem>
+<castItem>GRUMIO, His assistant.</castItem>
+<castItem>INSPECTOR MARMADUKE, Of the Toyland Police.</castItem>
+</castGroup>
+</castList>
+<div>
+<note>
+<stage><hi rend="underline">SYNOPSIS OF SCENES</hi><lb/>
+<hi rend="underline">ACT I</hi></stage>
+<stage>Scene I: Country fete in Contrary Mary&apos;s garden.</stage>
+<stage>  "   2: A Garden Wall.</stage>
+<stage>  "   3: A Spider&apos;s Forest.</stage>
+<stage><hi rend="underline">ACT II</hi></stage>
+<stage>Scene I: The Christmas Tree Grove in Toyland.</stage>
+<stage>  "   2: A Street in Toyland.</stage>
+<stage>  "   3: The Master Toymaker&apos;s Workshop.</stage>
+<stage><hi rend="underline">ACT III</hi></stage>
+<stage>The Courtyard of the Toyland Palace of Justice.</stage>
+<stage>----------</stage>
+</note>
+</div>
+</front>
+<body>
+<div type="act" n="1">
+<div type="scene" n="1">
+<head>ACT I</head>
+<stage>
+<hi rend="underline">SCENE I:</hi> The scene shows the garden of Contrary
+Mary near the Widow Piper&apos;s home. A
+cask of ale and decorations and
+pennats and bunting suggest a fete.
+A party of peasants as the scene is revealed.
+</stage>
+<stage>
+No. 1. -- Country Dance and
+entrance of the Chorus.
+</stage>
+<stage>
+UNCLE BARNABY enters at the end of the 
+dance, smirking and bowing right and
+left. The peasants snub him.
+</stage>
+<sp><speaker>Barnaby</speaker>
+<p>Enjoy yourselves, enjoy yourselves, my dear friends. I am
+delighted to see you so happy. Are the Piper children here -
+and especially Contrary Mary?
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>No, Master Barnaby, Mary didn&apos;t come to the Fete.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>That&apos;s strange, I&apos;m giving it to please her -- and to make you
+all a little fonder of me.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Why, are <hi rend="underline">you</hi> our host?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Yes.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<stage>(To the crowd)</stage><p>
+Only yesterday he seized poor old Mother Hubbard&apos;s house and
+turned her into the road, all for a debt of a few shillings!</p>
+<stage>(Crowd jeer at Barnaby)</stage>
+</sp>
+
+<sp><speaker>1st Girl</speaker>
+<stage>(To the crowd)</stage><p>
+Let&apos;s finish the afternoon by putting Barnaby under the town
+pump!
+</p></sp>
+
+<sp><speaker>All</speaker>
+<p>Hurrah!</p>
+<stage>(Start to take Barnaby away. TOM TOM ENTERS UP R.)</stage>
+</sp>
+
+<pb/>
+
+<sp><speaker>Jill</speaker>
+<p>Hi! Tom Tom, just in time!
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<stage>(Coming down C.)</stage><p>
+What for?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Rushing to Tom)</stage><p>
+To save me from the town pump! Stop &apos;em, my boy, stop &apos;em,
+don&apos;t let &apos;em hurt your future brother-in-law!
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<stage>(At C. laughing)</stage><p>
+What you? Which of my sisters had caught your miserly eye?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Ecstatically)</stage><p>
+It&apos;s Mary --willful, but entrancing Mary!
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<stage>(Derisively)</stage><p>
+YOU want to marry Contrary Mary? You might as well try to turn
+off the sun and blow out the stars!</p>
+<stage>(All laugh)</stage>
+<p>
+But let him go, friends, as a favor to me! We may be relatives
+yet.</p>
+</sp>
+
+<stage>(Goes down L.)</stage>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(L.C.)</stage><p>
+Ah! Then there&apos;s hope for me with Contrary Mary?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Not a gleam, but some day, you <hi rend="underline">may</hi> be my uncle-in-law!
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(With pretended grief)</stage><p>
+If you mean my niece Jane? She and Alan are at the bottom of the
+sea.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>I don&apos;t believe it!
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Mopping eyes with handkerchief)</stage><p>
+They&apos;ll never come back to their broken-hearted Uncle Barnaby!</p>
+<stage>(TOM TOM goes up stage)</stage>
+</sp>
+
+<sp><speaker>Jill</speaker>
+<p>And what&apos;s their broken-hearted Uncle Barnaby going to do
+with their fortune?
+</p></sp>
+
+<pb/>
+
+<stage>(CROWD again gathers around Barnaby)</stage>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Hypocritically)</stage><p>
+I&apos;m keeping it for them --the law forces me to do tat.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Trust you to take good care of money. You skinflint! But you&apos;ll
+be wise if you take better care to keep out of our way hereafter.
+Now go!
+<stage>(They all jeer and threaten him)</stage>
+</p></sp>
+
+<stage>(BARNABY is chased off up R.)</stage>
+ <stage>(He exits, followed by Jill &amp; all)</stage>
+<stage>(TOM picks up his staff and bundle from steps of house.
+HILDA enters from house left.)</stage>
+
+<sp><speaker>Hilda</speaker>
+<p>Master Tom Tom where are you going?
+</p></sp>
+
+<sp><speaker>Tom Tom</speaker>
+<p>Hilda, I&apos;m going to find the girl I&apos;m in love with - Jane.
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<p>Old Barnaby&apos;s niece? ---<stage>(Gonzorgo and Roderigo enter up right)</stage>
+But wasn&apos;t she lost at sea with her brother Alan?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Old Barnaby says so, and that&apos;s why I don&apos;t believe it.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<stage>(Dropping down to him)</stage><p>
+But me and my sad faced companion can prove it. We were the
+sole survivors of the wreck.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>And who are you?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>I was in charge of the ship, my name is Gonzorgo.
+<stage>(Pointing to Roderigo.)</stage>
+This is my mate and friend to boot.
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>Yes, friend to boot!
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>We swear by our right hands
+<stage>(They raise left hands)</stage>
+everyone was lost on the ship but us.
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Hilda</speaker>
+<p>I don&apos;t think they&apos;re telling the truth!
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Nor do I!
+<stage>(Looking instantly at both of them)</stage>
+I remember seeing you two some place before, where was it?
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>You don&apos;t by any chance go in for the three B&apos;s do you?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Yes, the three B&apos;s. Bridge, Bank Nite and Bingo!
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<stage>(Pointing at Gonzorgo)</stage><p>
+I saw you at the Village Fair. You were running the carasel.
+And you offered to wager you could pick the horse that would come
+in first.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<stage>(Drawing sword)</stage><p>
+You can&apos;t accuse us of cheating, it must have been two other
+scoundrels. Defend yourself!
+</p></sp>
+
+<stage>(Attacks TOM, who parries with his staff and knocks
+Gon&apos;s sword from his hand as WIDOW PIPER ENTERS from the
+house L.)</stage>
+
+<sp><speaker>Hilda</speaker>
+<stage>(Running to her)</stage><p>
+Oh, Mrs. Piper, you&apos;re just in time!
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<stage>(Coming down C.)</stage><p>
+Tom, don&apos;t be rude to the gentleman!
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<stage>(Gallantly)</stage><p>
+Madam, is he your little boy?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Yes, he is the black sheep of our family -- but I love him!
+</p></sp>
+
+<sp><speaker>Gon.</speaker>
+<p>He can&apos;t be the white-haired boy and still a black sheep.
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>Maybe she&apos;s color blind.
+</p></sp>
+<sp>
+<speaker>
+Gon
+</speaker>
+<p>
+Because of that, I spare him.
+</p>
+</sp>
+<stage>(Picks up sword, TOM &amp; HILDA GO UP STAGE)</stage>
+
+<sp><speaker>Widow</speaker>
+<p>Accept the blessings of a lonely widow!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Gon.</speaker>
+<stage>(Elbowing Roderigo away)</stage><p>
+Have you been lonely long?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Two years.
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<stage>(Pointing to Tom.)</stage><p>
+And have you only the white-haired black sheep to love?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>No, he has 13 sisters and brothers who need a father&apos;s care.
+</p></sp>
+
+<sp><speaker>Rod.</speaker>
+<p>That&apos;s a lot of work for one caretaker.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Fourteen children! And -
+<stage>(Points to house)</stage>
+Is this where you call the Convention to order?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Yes, Mr. Piper left us very well off. And this is our cottage.
+<stage>(Gonzorgo and Roderigo look at each other)</stage>
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<stage>(Turns to Widow)</stage><p>
+I adore the country, don&apos;t you?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>I have to.
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>Why?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Did you ever try to rent an apartment in the City with 14
+children?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<stage>(Tenderly)</stage><p>
+And when the nestlings have all flown away, have you ever thought
+of mating once again?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Well, of course I&apos;ve had my moments. Will you gentlemen enter
+and partake of some refreshments?
+</p></sp>
+
+<sp><speaker>Gon. &amp; Roderigo</speaker>
+<p>Will we!? We will.
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>I married once for money. If I wed again, it will have to be
+an artist, a poet, or a hero.
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Roderigo</speaker>
+<p>I&apos;m not an expert accountant, but <hi rend="underline">did</hi> you say you had 14
+children?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Yes, fourteen.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Your second husband would <hi rend="underline">have</hi> to be a hero.
+</p></sp>
+
+<stage>(The THREE EXEUNT into house left)</stage>
+
+<sp><speaker>Hilda</speaker>
+<stage>(To Tom)</stage><p>
+I&apos;ll look for the children, Master Tom, and tell them you&apos;re
+going away.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Thank you, Hilda.
+<stage>(HILDA exits up Left)</stage>
+</p></sp>
+
+<stage>(BO PEEP enters right, dejectedly)</stage>
+
+<sp><speaker>Tom</speaker>
+<p>Why, sister Bo Peep, you have the saddest face I&apos;ve ever seen.
+</p></sp>
+
+<sp><speaker>Bo Peep</speaker>
+<p>I missed most of the party, because I lost my sheep.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>That&apos;s nothing for you to feel sheepish about - don&apos;t cry,
+little Bo Peep, don&apos;t cry.
+</p></sp>
+<stage>
+<hi rend="underline">SONG #2.</hi><lb/>
+
+(TOM, BO PEEP, PIPER CHILDREN &amp; CHORUS.)</stage>
+
+<stage>(During the song, JILL and OTHER PIPER CHILDREN ENTER)</stage>
+
+<stage>(After number)</stage>
+
+<sp><speaker>Tom</speaker>
+<p>I&apos;ve just found out why old Barnaby is paying for this party.
+</p></sp>
+
+<sp><speaker>All</speaker>
+<p>Why?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Tom</speaker>
+<p>He wants everybody on hand to hear his engagement announcement.
+</p></sp>
+
+<sp><speaker>Bo Peep</speaker>
+<p>Engagement? To whom?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Contrary Mary.
+</p></sp>
+
+<sp><speaker>Bo Peep</speaker>
+<p>Oh, Mary hasn&apos;t gone and done a dreadful thing like that?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Not yet. But mother&apos;s set on the match, and is going to
+announce the engagement anyway.
+<stage>(ALL express anger)</stage>
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Let Barnaby keep his old party! I&apos;m going back to tidy up the
+stable!
+<stage>(Starts up L. to exit. Others stop her.)</stage>
+</p></sp>
+
+<sp><speaker>Bo Peep</speaker>
+<p>Party! He can&apos;t buy us with lemonade and chocolate eclaires,
+can he girls?
+</p></sp>
+
+<sp><speaker>All</speaker>
+<p>No!
+<stage>(JILL sits on stage down L.C.)</stage>
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>I hope all of you will keep out of trouble till I get back.
+<stage>(Starts up Right)</stage>
+</p></sp>
+
+<sp><speaker>All</speaker>
+<p>Where are you going?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Away this very hour to look for Jane!
+</p></sp>
+
+<sp><speaker>Miss Moffett</speaker>
+<p><stage>(One of the Piper children)</stage>
+Do keep out of that awful forest! They say there&apos;s a veil in
+it filled with spiders.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>I will, Little Miss Moffett, no spiders for you eh? I know how
+tough it was on the tuffet.
+</p></sp>
+
+<sp><speaker>Miss Moffett</speaker>
+<p><stage>(Shuddering)</stage>
+I don&apos;t like to see spiders. When you&apos;ve seen one of them
+you&apos;ve seen them all.
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Tom</speaker>
+<p>Well I&apos;m off on my hunt for Jane. Who&apos;ll go as far as the turn
+of the road with me?
+<stage>(Starts up right)</stage>
+</p></sp>
+
+<sp><speaker>All</speaker>
+<p>All of us!
+</p></sp>
+
+<stage>(HILDA ENTERS from house left, with small package in hand)</stage>
+
+<sp><speaker>Hilda</speaker>
+<p>Wait, Master Tom, you mustn&apos;t go around the world hungry.
+Here&apos;s a box of sandwiches with jelly and pickle.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Thank you, Hilda. And good-bye! Come along, boys and girls.
+<stage>(EXITS with ALL except HILDA and Jill)</stage>
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<stage>(Waving to Tom)</stage><p>
+Goodbye! Goodbye! Just think, he&apos;s leaving his native home
+land. He&apos;ll be like a man without a country. What can be
+worse than that!
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Nothing "except a country without a man".
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<p>He&apos;s going around the world to find his sweetheart.
+<stage>(JANE ENTERS up L. in gypsy boy&apos;s costume)</stage>
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>And everybody knows that Jane is under the ocean.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Everybody except Jane!
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<p>You? It isn&apos;t you, is it?
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Hilda, it simply can&apos;t be anybody else!
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<stage>(Embracing her)</stage><p>
+Where&apos;s Alan?
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>He stopped to pin up a tear in his skirt.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Skirt?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Jane</speaker>
+<p>After the shipwreck, our clothes were in tatters-- but we met a
+band of gypsies that gave us what clothing they could spare.
+And we had to arrange it thus.
+<stage>(Indicates costume)</stage>
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<stage>(Pointing off L.)</stage><p>
+And here&apos;s Alan, a regular gypsy!
+</p></sp>
+
+<stage>(ALAN ENTERS dressed as a gypsy girl with tambourine
+swinging from waist.)</stage>
+
+<sp><speaker>Alan</speaker>
+<p>Hilda and Jill! Would you know me?
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<p>Never, Alan, if I hadn&apos;t been told.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I am Floretta - until further notice--Floretta, the Fawn of the 
+Forest.
+<stage>(Pirouettes)</stage>
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<stage>(To Hilda)</stage><p>
+How is our Uncle Barnaby?
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<stage>(At C)</stage><p>
+Your Uncle Barnaby is well.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Eagerly)</stage><p>
+And Contrary Mary?
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<stage>(With meaning)</stage><p>
+Still waiting for a certain young man to come back from being
+drowned.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Where&apos;s Tom Tom?
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<stage>(Goes up R)</stage><p>
+Just started to find you. Quick! If he hasn&apos;t gone too far, we
+can catch him!
+<stage>(Points off R)</stage>
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Jane</speaker>
+<p>Don&apos;t go away, Alan, and look out for the Widow Piper.
+Remember you&apos;re not too popular, with Mary&apos;s mother.
+Hilda and Jill, let&apos;s hurry!
+<stage>(HILDA, JILL &amp; JANE EXEUNT quickly up right)</stage>
+</p></sp>
+
+<stage>(THE WIDOW PIPER ENTERS FROM house)</stage>
+
+<sp><speaker>Alan</speaker>
+<p>Ah. here you are now!...I mean, do you want your palm read?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>A gypsy! Yes I will have my fortune told. Can you tell fortunes?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Better than an income tax collector. I peek into the future
+at 25 cents a peek.
+<stage>(WIDOW gives Alan money)</stage>
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>There, peek for me!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Looks at her hand)</stage><p>
+Your name is Piper! You&apos;ve had an unfortunate marriage.
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Can you tell that by the lines in my hand?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>No, by the lines under your eyes. Your husband is dead. He was
+not very handsome, he had A. &amp; P. eyes. One eye faced the
+Atlantic and one eye faced the Pacific. You have a daughter
+named Mary. She should marry a young man whose name begins with
+A. He has a lovely character, is charming, gifted and attractive.
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>If you&apos;re talking about a wretched, no-account young fool named
+Alan, you&apos;re <hi rend="underline">all</hi> wrong.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>No, I am -- that is he is -a character every one could love.
+I&apos;d even love him myself,-- that is, if I knew him.
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>I don&apos;t think this is such a very good reading.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I could do better with tea leaves....if you could bring me a
+cup of tea....and perhaps some hot biscuits...I also read the
+future by hot buttered biscuits.
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Widow</speaker>
+<p>Go ahead, Gypsy, and tell me more about myself.
+<stage>(Gonzorgo enters from house.)</stage>
+I have two suitors - which shall I marry?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I must see them first.
+<stage>(Widow points to Gonzorgo)</stage>
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>There is one!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Well, if that is one, I&apos;d advise you to take the other.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>What have we here, a gypsy?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Yes. Let her read your hand.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<stage>(To Alan)</stage><p>
+I give you my hand, to find out if she-
+<stage>(Indicating widow)</stage>
+Will give me her hand.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>But first you must take off your glove.
+</p></sp>
+
+<sp><speaker>Gon.</speaker>
+<p>I&apos;m not wearing gloves, my hands are sunburned.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Examining his hand)</stage><p>
+Yes, expecially the palms.
+<stage>(Looks in hand)</stage>
+Oh, I can&apos;t go on! After you&apos;ve had your hands read will
+your face be red!
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>I know you see there a mad love and devotion.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Yes, I can see you returning home at night and this lady
+with her fourteen children, waiting to greet you on the
+front porch.
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Yes...
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Yes, and your present wife and triplets waiting for you on
+the back porch!
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Gonzorgo! You! You are married?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Well, yes, and no!
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Make up your mind!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>He has a wife. And his wife&apos;s feet are always so tired, her
+toes want to turn in!
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>It&apos;s false.
+<stage>(To Widow)</stage>
+Dost doubt Gonzorgo?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>I dost.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(To Gonzorgo)</stage><p>
+She dosts, and the sooner you dust the better.
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<stage>(To Alan)</stage><p>
+You don&apos;t know what a service you&apos;ve done me, you&apos;ve torn the
+mask from his face. Thank you so much, thank you so much,
+Floretta, the Fawn!
+<stage>(EXITS INTO HOUSE)</stage>
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<stage>(Turning to Alan)</stage><p>
+So, you are the Fawn! --Well, there goes my deer and my doe!
+You are a gypsy with the accent on the gyp.
+<stage>(EXITS into house)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Not bad, for the Fawn of the forest.
+<stage>(Pirouettes)</stage>
+</p></sp>
+
+<stage>(HILDA &amp; JANE enter up R)</stage>
+
+<pb/>
+
+<sp><speaker>Jane</speaker>
+<stage>(To Alan)</stage><p>
+We couldn&apos;t find Tom Tom.
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<p>If you need any clothes the children have plenty to spare.
+<stage>(Female chorus begins to enters)</stage>
+<stage>(JANE remains on)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(to Hilda)</stage><p>
+Get me some boys togs. I feel it would be well for Floretta to
+vanish.
+<stage>(HILDA EXITS into house L.)</stage>
+</p></sp>
+
+<sp><speaker>1st Girl</speaker>
+<p>A gypsy!
+</p></sp>
+<sp><speaker>
+2nd Girl</speaker><p>
+Perhaps a fortune-teller!
+</p></sp>
+<sp><speaker>1st Girl</speaker>
+<p>Do you tell fortunes?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Do I? It was destined by the stars that I was to be a fortune-
+teller. My father was born under the sign of the crab,
+and I was born under the sign of the bull. I can tell you
+everything except the size of the National debt.
+</p></sp>
+<stage>
+<hi rend="underline">SONG: #3.<lb/>
+
+"FLORETTA"</hi>
+</stage>
+<stage>(ALAN and singing CHORUS all exeunt after song)</stage>
+
+<stage>(EIGHT DANDIES ENTER RIGHT.)</stage>
+
+<sp><speaker>1st Dandy</speaker>
+<p>I don&apos;t see anything of her anywhere.
+</p></sp>
+
+<sp><speaker>2nd Dandy</speaker>
+<p>Contrary Mary always works at her garden at this house.
+<stage>(HILDA enters from house)</stage>
+</p></sp>
+
+<sp><speaker>1st Dandy</speaker>
+<p>Is Miss Mary at home?
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<p>No, she&apos;s at school. She&apos;s taking a course in domestic silence.
+</p></sp>
+
+<sp><speaker>2nd Dandy</speaker>
+<p>You mean domestic science.
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Hilda</speaker>
+<p>No, she&apos;s going to cooking school.
+</p></sp>
+
+<sp><speaker>1st Dandy</speaker>
+<p>We merely dropped in to inquire about her garden.
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<p>It&apos;s doing very well, thank you.
+</p></sp>
+
+<stage>(BO PEEP AND OTHER PIPER CHILDREN ENTER)</stage>
+
+<sp><speaker>Bo Peep</speaker>
+<p>Oh, look, aren&apos;t you Mary&apos;s Beaux?
+</p></sp>
+
+<sp><speaker>All</speaker>
+<p>We are!
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<p>There&apos;s quite a crowd to see Mary.
+</p></sp>
+
+<stage>(MARY ENTERS)</stage>
+
+<sp><speaker>Mary</speaker>
+<p>And I just love crowds!
+</p></sp>
+
+<sp><speaker>All the Beaux</speaker>
+<p>Mary!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>I&apos;m glad to see you all collectively. Won&apos;t you make
+yourselves at home?
+</p></sp>
+
+<sp><speaker>1st Beaux</speaker>
+<p>Mary, is it true that you are going to marry?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Of course I&apos;m going to marry....
+</p></sp>
+
+<sp><speaker>All</speaker>
+<p>Oh!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>That is - some day! I don&apos;t know when or to whom!
+</p></sp>
+<sp><speaker>
+2nd Beau</speaker><p>
+Can&apos;t you make a choice now?
+</p></sp>
+<sp><speaker>
+1st Beau</speaker><p>
+Yes, each one of us is proposing to you.
+</p></sp>
+<sp><speaker>Mary</speaker>
+<p>I&apos;ll consider your offer. But here&apos;s what I expect from the
+man I could really love.
+</p></sp>
+<stage>
+<hi rend="underline">SONG: #4.</hi> <lb/>(Cho. of Dandies and Children,
+and Dance)</stage>
+
+<pb/>
+
+<stage>(All exeunt on number except MARY. Enter BARNABY up right
+with large bouquet.)</stage>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Tendering bouquet)</stage><p>
+Here, pretty one, is a bunch of pretty blosoms, and I only
+wish they were as pretty as you.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<stage>(Takes bouquet indifferently)</stage><p>
+Thank you.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>I&apos;ve hidden a tender little note in that bouquet. I&apos;ll go away
+and let it speak for me.
+<stage>(Goes R)</stage>
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Oh, say it yourelf, and have it over with!
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Pulling bench on R)</stage><p>
+Sit down.
+<stage>(They sit on bench)</stage>
+Don&apos;t be cruel, Mary. Won&apos;t you marry me?
+<stage>(Takes her hand)</stage>
+I know the bloom is no longer on my cheek---
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<stage>(Withdrawing hand)</stage><p>
+Pardon me, but there&apos;s nothing wrong with your <hi rend="underline">cheek</hi>.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Angrily, rises)</stage><p>
+You may be treating me this way in the hopes that Alan will
+come back and marry you. Take my word for it, you&apos;ll never
+see him again.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<stage>(Throws bouquet away)</stage><p>
+How I wish I could say the same of you.
+<stage>(GONZORGO and RODERIGO enter from house)</stage>
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Here&apos;s proof! The very men in whose tender care I placed my
+niece and nephew. Now do you believe me?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>I&apos;ll neither believe you nor marry you!
+<stage>(Starts toward house)</stage>
+Not if you were the last man on earth! Not if you gave me steam
+yachts - castles, or the richest jewelry. My foot is down!
+That foot -- the other foot -- both feet!
+<stage>(Exits into house)</stage>
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Well, are you ready to settle with your silent partners?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>I don&apos;t understand you.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<stage>(To him)</stage><p>
+You can hear us, even if we are your silent partners.
+And here&apos;s what we want to broadcast to you. How about our
+contract to get rid of your niece and nephew?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>What have you done with Jane and Alan?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>They are now playing harps with Saint Pete and his golden Gaters.
+<stage>(Roderigo sobs)</stage>
+We chartered an old dilapidated schooner and we lured Alan
+and Jane on board, we told them it was the show boat.
+<stage>(Roderigo sobs)</stage>
+The boat was an old dilapidated wreck that we christened
+"Static". We knew the schooner would soon be under the foam.
+<stage>(Roderigo sobs)</stage>
+The weather bureau said it would be clear weather but we knew
+they were wrong as usual. Soon it began to rain - it rained
+cats and dogs, - I know because I stepped in several poodles.
+<stage>(Roderigo sobs)</stage>
+We knew if the storm struck -- the waves would strike -- and the
+crew would go on a sit-down strike. Well, <hi rend="underline">IT</hi> did - - <hi rend="underline">they</hi> did --
+and <hi rend="underline">we</hi> did. Down went the hull of the Ship.
+<stage>(Roderigo sobs)</stage>
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>You mean the <hi rend="underline">whole</hi> of the ship.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Hull or whole- what is a little pronunciation among friends?
+The ship sank! And everyone but us two are now sleeping on
+the ocean bed with oysters as pillows.</p>
+<stage>(Barnaby suddenly begins to sob)</stage>
+<p>
+What are you crying for?
+</p>
+</sp>
+<sp><speaker>Barnaby</speaker>
+<p>I&apos;ve seen the last of my little charges.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>And now you&apos;ll see the first of ours.
+<stage>(Presents bills)</stage>
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Barnaby</speaker>
+<p>A bill?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>My little charges for disposing of your little charges.
+</p></sp>
+
+<stage>(Hands bill to Barnaby)</stage>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Reading it)</stage><p>
+500 dollars!?
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>For scuttling one ship.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>What part of it did you do?
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>I was 1st vice-president in charge of the scuttle department.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Follow me down to my office, I am the manager of the T.C.N.P.U.
+--Finance Company. There is much money in my vault.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>The T.C.N.P.U. finance company? What does the T.C.N.P.U. stand
+for?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>They Can Never Pay Up!
+</p></sp>
+
+<stage>(All three exeunt right)</stage>
+
+<stage>(JANE &amp; ALAN ENTER in school children&apos;s dress, from
+house.)</stage>
+
+<sp><speaker>Alan</speaker>
+<p>Remember Jane, when we meet Mary, two is company, and three -
+is a conference.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Don&apos;t worry. I know when I&apos;m not wanted.
+<stage>(Sees bouquet left by Barnaby. Picks it up)</stage>
+What a pretty bouquet!
+<stage>(Sniffs at it)</stage>
+M&apos;m. How sweet!
+<stage>(Hands it to Alan)</stage>
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Alan</speaker>
+<stage>(Sniffing bouquet)</stage><p>
+Wonder where it came from. What&apos;s this?
+<stage>(Takes card from heart of bouquet)</stage>
+A card.
+<stage>(Glances at it)</stage>
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>What is it?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Throws bouquet away angrily, reads card)</stage><p>
+"To darling Mary". "From her future husband."
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Oh, Alan! In your absence have you been jilted?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I&apos;ll never speak to her again!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<stage>(Backing in from house and calling off)</stage><p>
+I won&apos;t dress for the party, I won&apos;t! I won&apos;t!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Signals to Jane, who exits)</stage><p>
+<stage>(Mary turns sees Alan)</stage>
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Alan!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Oh Mary!
+<stage>(With a sudden change of manner)</stage>
+How do you do, Miss Piper?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<stage>(Stiffly)</stage><p>
+Very well, thank you. Don&apos;t you think we need rain?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Yes--a change. Some people can&apos;t get along with change.
+<stage>(Pointing to bench)</stage>
+Won&apos;t you sit down?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Thank you.
+<stage>(They sit stiffly)</stage>
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Alan</speaker>
+<p>I haven&apos;t seen you for some time.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>You&apos;ve been away, haven&apos;t you?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Have you really noticed it?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>It just occurred to me.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>It&apos;s a warm day.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>What?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Chilly, isn&apos;t it?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Very.
+<stage>(Archly)</stage>
+I think I need something around me.
+<stage>(Repeats louder)</stage>
+I think I need something around me.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Coldly)</stage><p>
+I heard what you said.
+<stage>(Slides to other end of bench)</stage>
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Alan, I don&apos;t understand such behavior.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Better ask your future husband to explain it!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>My future husband? Who is he?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Who is he? Is this a guessing contest?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>What do you mean?
+<stage>(Rises - going L.C.)</stage>
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Alan</speaker>
+<p>You&apos;re somebody&apos;s darling, an old man&apos;s darling, perhaps a nice
+lovely old man with millions!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Oh, don&apos;t you think you&apos;re smart?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>There&apos;s my reason.
+<stage>(Shows card he has taken from bouquet)</stage>
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>It isn&apos;t so! I don&apos;t know who wrote this, and you&apos;re just horrid
+to believe it!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I&apos;ve got to believe my eyes.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>You believe your eyes before you believe me? Then I&apos;ve found
+you out in time. You never loved me--and--don&apos;t you dare to ever
+speak to me again!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Good-bye, forever!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Good-bye, forever!
+<stage>(Neither moves)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I heard what you said.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Oh, did you? Well, this time it is goodbye forever!
+And when I say forever I mean definitely! Goodbye!
+<stage>(Looks at Alan, exits into house.)</stage>
+</p></sp>
+
+<stage>(JANE enters up L.)</stage>
+
+<sp><speaker>Jane</speaker>
+<p>What did Mary do to you, Alan?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>She didn&apos;t do anything to me, but she loves somebody else.
+I&apos;m going to take my part of the fortune Uncle Barnaby is keeping
+for us, and go far far away!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Jane</speaker>
+<p>I&apos;ll get my money from him too, and I&apos;ll go with you.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Where?
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>I don&apos;t know, don&apos;t you?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Let&apos;s get a map and stick a pin in it, and whever the pin
+sticks, we&apos;ll go!
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>I&apos;ve got a pin.
+<stage>(Producing one)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I have one too.
+<stage>(Produces another)</stage>
+</p></sp>
+
+<stage>(BARNABY ENTERS RIGHT)</stage> <stage>(Barnaby sees them, is startled)</stage>
+
+<sp><speaker>Barnaby</speaker>
+<p>What is this--why--?
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>We&apos;re glad to see you.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>And we want our money.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Recoiling)</stage><p>
+Ghosts, they can&apos;t be alive, ghosts!! Take them away!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Will you pay us our money?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>No, no, you are dead. Go away! Ghosts!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>We&apos;ll show you how alive we are. Present arms!
+<stage>(He and Jane draw pins.)</stage>
+Attack!
+<stage>(They start after Barnaby with pins and he runs in terror
+and exits)</stage>
+</p></sp>
+
+<stage>(As they chase him off BLACK OUT)</stage>
+<stage>(As in original or
+Alan &amp; Jane remain on
+as Barnaby rushes off)</stage>
+
+<sp><speaker>Jane</speaker>
+<p>We almost stuck him for the money.
+Are you still going to travel?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Yes. Although we&apos;ll be homeless rovers on
+the highway.
+</p></sp>
+
+<pb/>
+
+<stage>(They sing)</stage>
+<stage>
+CHORUS
+</stage>
+<sp>
+<speaker>Both:</speaker>
+<lg>
+<l>We&apos;re too little trailers</l>
+<l>Trailing around</l>
+<l>And no parking space any place have we found.</l>
+<l>Without any definite home.</l>
+</lg>
+<lg>
+<l>We&apos;re two birds of passage -</l>
+<l>Where can we light?</l>
+<l>And where is the nest - we can rest for the night?</l>
+<l>But it&apos;s all right wherever we&apos;re bound</l>
+<l>Two trailers just trailing around.</l>
+</lg>
+</sp>
+<stage>(LIGHTS DIMMER DOWN on them and Change to Scene II)</stage>
+<stage>
+<hi rend="underline">CHANGE OF SCENE</hi>
+</stage>
+<pb/>
+</div>
+<div type="scene" n="2">
+<head>
+<hi rend="underline">ACT I:</hi><lb/>
+
+<hi rend="underline">SCENE II:</hi> Garden well <stage>(Alex or Etc.)</stage></head>
+
+<stage>(GONZORGO &amp; RODERIGO enter right.)</stage>
+
+<sp><speaker>Roderigo</speaker>
+<p>Was that the widow Piper who slammed the door in our faces?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Yes, it was. Thanks to that gypsy, what was her name gypsy --?
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>Gypsy Rose Lee.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>No, no, she was a gypsy Fawn. Not a gypsy Bear <stage>(bare)</stage>.
+</p></sp>
+
+<stage>(ENTER BARNABY LEFT)</stage>
+
+<sp><speaker>Roderigo</speaker>
+<p>Have you brought our pay?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Pay? You haven&apos;t earned it yet. Jane and Alan have returned.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Alive?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Painfully so!
+</p></sp>
+
+<sp><speaker>Gon.</speaker>
+<p>They suspect...
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Nothing. They think it was all an accident. While they still
+trust us we must try again to -to remove them.
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>How?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>I&apos;ve told them I bought a new country house while they were
+away, and you two must take them there tonight, but the road
+to it leads thru the Spider&apos;s Forest.
+</p>
+
+<stage>(They exchange knowing glance)</stage>
+<p>Business detains me in the village. In the depth of the forest
+you will accidentally lose the children.</p></sp>
+
+<pb/>
+
+<sp><speaker>Roderigo</speaker>
+<p>It&apos;s a deadly place. I&apos;ve heard of it.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Alive with dangers--small chance the children will ever come 
+out of it.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>But will we?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>I don&apos;t think so.
+<stage>(Gonzorgo and Roderigo, together)</stage>
+</p></sp>
+<sp>
+<speaker>Gon. &amp; Rod.</speaker><p>
+What!</p>
+</sp>
+<sp><speaker>Barnaby</speaker>
+<stage>(Correcting self)</stage><p>
+I don&apos;t think so many dangers are there....that is, for you.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>But when we have carried out the designs, we expect to be paid
+in cash.
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>Yes, it&apos;s strictly a cash and carry proposition.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Don&apos;t worry about the money, I&apos;ll fetch the children here, and
+remember everything is on the q.t.</p></sp>
+<stage>(EXITS)</stage>
+
+
+<stage>(GONZORGO and RODERIGO tog. in rhythm)</stage>
+<sp><speaker>
+Gon &amp; Rod.
+</speaker>
+<lg>
+<l>On the Q.T. On the Q.T.</l>
+<l>If we get our dough- re- mi--</l>
+<l>Only so fa -for the dough</l>
+<l>Ray me fa so la si do!</l>
+</lg>
+</sp>
+<stage>(They do DANCE OFF.)</stage> <stage>(OR SPECIALTY DANCE)</stage>
+
+<stage>(BOY BLUE looks cautiously over the garden well.)</stage>
+
+<sp><speaker>Boy Blue</speaker>
+<p>Come on, the lawn is empty.
+<stage>(BO PEEP looks over the wall)</stage>
+</p></sp>
+
+<sp><speaker>Bo Peep</speaker>
+<p>Hurry up Mary, now&apos;s your chance!!
+</p></sp>
+
+<stage>(MARY looks over wall)</stage>
+
+<pb/>
+
+<sp><speaker>Boy Blue</speaker>
+<p>Do you know where you&apos;re going?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>As far from old Barnaby as I can get. And if I never come
+back, you can have my Shirley Temple doll.
+</p></sp>
+
+<sp><speaker>Bo Peep</speaker>
+<p>Oh, don&apos;t talk that way!
+</p></sp>
+
+<stage>(Mary climbs down the wall assisted by the vine and boy
+BLUE and Bo Peep)</stage>
+
+<sp><speaker>Boy Blue</speaker>
+<p>Careful -slowly--there you are!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Hand down my baggage, please.
+</p>
+<stage>(They hand her a canary bird cage with bird in it;
+a shopping bag, a big music roll; a camera, and a
+little pink parasol)</stage>
+<p>
+Goodbye! Goodbye!
+</p></sp>
+<sp><speaker>
+Boy Blue and Bo Peep</speaker><p>
+Goodbye!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Boy Blue, you won&apos;t forget to feed the guinea pigs?
+</p></sp>
+
+<sp><speaker>Boy Blue</speaker>
+<p>I promise!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Goodbye! And don&apos;t forget to give some little pieces of cheese
+to my little mice, Mickey and Minnie. And take care of my
+Donald Duck.
+<stage>(starts to go. Rushes back again)</stage>
+Oh...oh...I forgot!
+</p></sp>
+
+<sp><speaker>All</speaker>
+<p>What?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>My overshoes!
+<stage>(They hand the overshoes to her. MARY EXITS L. to general
+chorus of goodbyes)</stage>
+</p></sp>
+
+<sp><speaker>Bo Peep</speaker>
+<p>Tom Tom and Mary gone in one day! Mother will be pleased!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Simon</speaker>
+<p>There she is, coming in the front way with the children.
+</p></sp>
+
+<sp><speaker>Bo Peep</speaker>
+<p>Not a word!
+<stage>(After "not a word")</stage>
+</p></sp>
+
+<sp><speaker>Simon</speaker>
+<p>Here comes somebody!
+<stage>(All start to dodge down.)</stage> <stage>(Bo Peep stays)</stage>
+</p></sp>
+
+<stage>(JANE ENTERS R)</stage> 
+<sp>
+<speaker>
+Bo Peep
+</speaker>
+<p>
+Oh, it&apos;s only Jane!
+</p>
+</sp>
+
+<sp><speaker>Jane</speaker>
+<p>Only me. Where are the rest of the children?
+</p></sp>
+
+<sp><speaker>Boy Blue</speaker>
+<p>Getting ready for school.
+</p></sp>
+
+<sp><speaker>Bo Peep</speaker>
+<p>I just despise it. Why, I&apos;d rather get married than to go to
+school.
+<stage>(Leaves wall)</stage>
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Where are you all now?
+</p></sp>
+
+<sp><speaker>Simon</speaker>
+<p>Still in the primary. It&apos;s the nasty arithmetic that&apos;s keeping 
+us back. Look at those sums we&apos;ve got for today.
+<stage>(Drops book to Jane)</stage>
+Where the leaf is turned down.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Oh, these are easy.
+</p></sp>
+<sp><speaker>
+Red Riding Hood</speaker>
+<p>
+Come on boys and girls, Jane is going to do our sums for us!</p>
+<stage>(Sits on wall other Piper children do the same)</stage>
+<p>I can&apos;t do that sum!</p>
+</sp>
+
+<stage>(JANE and all)</stage>
+<stage>
+<hi rend="underline">SONG NO. 7.</hi> or 7-a.<lb/>
+
+"I CAN&apos;T DO THAT SUM". Jane and Ensemble.
+Children.
+</stage>
+<stage>(JANE EXITS ON NUMBER.)</stage>
+
+<pb/>
+
+<stage>(ALL EXIT on number)</stage>
+
+<sp><speaker>Barnaby</speaker>
+<p>Now, Alan, my boy, you&apos;re going to my new home with Jane--
+<stage>(ENTER GONZORGO AND RODERIGO L)</stage>
+--and these friends of mine.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Here&apos;s Jane, I&apos;ll tell her.
+<stage>(JANE RE-ENTERS R)</stage>
+Jane, we&apos;re going to Uncle Barnaby&apos;s new home!
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Where is it?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>A little journey, and these fellows are to take us.
+<stage>(Indicates Gon. and Rod.)</stage>
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>They&apos;ll see you safely there, and I&apos;ll follow.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>We&apos;re ready. And tomorrow I want my share of my fortune!
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Me, too!
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>We&apos;ll tend to that when you see me in the morning.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<stage>(Looking at Gon and Rod)</stage><p>
+If those men had long beards--
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I know. You&apos;d think they were the villains who lured us on
+the boat.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>It wasn&apos;t us. I wouldn&apos;t harm a hair in anyone&apos;s head -- not
+even Joe Louis&apos;.
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>And I have an alibi. See my laywers, O&apos;Brien, O&apos;Rafferty,
+O&apos;Reilly, and O&apos;Cohen.
+<stage>(THEY take Jane and Alan&apos;s arms, Jane and Alan
+together)</stage>
+</p></sp>
+<sp><speaker>
+Jane &amp; Alan</speaker>
+<p>
+Good-bye! Goodbye!</p>
+</sp>
+
+<stage>(JANE ALAN GONZORGO &amp; RODERIGO Exeunt left)</stage>
+
+<pb/>
+
+<sp><speaker>Barnaby</speaker>
+<p>And you will never see me again. Goodbye. <hi rend="underline">Goodbye.
+Forever!</hi>
+</p></sp>
+<stage>
+<hi rend="underline">DARK CHANGE:</hi></stage>
+</div>
+<div type="scene" n="3">
+<head>
+<hi rend="underline">SCENE III</hi> Spider&apos;s Forest.</head>
+<stage>
+Specialty with Animal number. To open
+scene, (Possibly the kitchen pirates)</stage>
+<stage>
+ENTER JANE &amp; ALAN.
+</stage>
+<sp><speaker>Alan</speaker>
+<p>Rest here. This is a good place.
+<stage>(Leading her to mouth of Bear&apos;s den)</stage>
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>There&apos;s a spider&apos;s web.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>With a white moth in it.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Poor thing! -as badly tangled up in that web as we are in
+these woods! Do set it free.
+<stage>(Alan releases the moth)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>There it goes, flying for dear life.
+<stage>(Looking about)</stage>
+I wish we could fly too!
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>I wish we could, for I can&apos;t walk!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Then we&apos;ll rest a while.
+<stage>(Sits beside Jane)</stage>
+Try to sleep a bit.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>I&apos;m too frightened.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Badly scared)</stage><p>
+Frightened! Ha, ha! What&apos;s that?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Jane</speaker>
+<p>I don&apos;t know.
+<stage>(Pointing off)</stage>
+What&apos;s that?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Nothing at all. Don&apos;t worry I&apos;m here to protect you!
+Come, let&apos;s go over here and take a little nap.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Yes, I&apos;m so, so tired!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Leading her off to one side)</stage><p>
+Yes, yes, we&apos;ll take a little sleep.
+</p>
+
+<stage>(They lie down)</stage>
+<p>
+Sleep, sleep...a little peaceful sleep.</p>
+</sp>
+<sp><speaker>Jane</speaker>
+<p>Goodnight!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Goodnight!
+</p></sp>
+
+<stage>(They doze off.)</stage>
+<stage>
+<hi rend="underline">BUTTERFLY BALLET:
+END OF ACT I.</hi>
+</stage>
+<pb/>
+</div>
+</div>
+<div type="Act" n="2">
+<div type="Scene" n="1">
+<head>
+BABES IN TOYLAND<lb/>
+ACT II<lb/>
+-----<lb/>
+<hi rend="underline">ACT II:</hi><lb/>
+<hi rend="underline">SCENE:</hi> The Christmas Tree Grove in Toyland.<lb/>
+</head>
+<stage>
+
+TOYLAND FAIR WALTZ:<lb/>
+
+and Chorus:<lb/>
+</stage>
+<stage>(At the end of the number Barnaby and Widow Piper enter
+from arch up L.C. HILDA from down R)</stage>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(To Hilda)</stage><p>
+Mary&apos;s in Toyland, I&apos;m sure of that, and we&apos;ll not go home
+again till we find her.
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>A fine dance she has lead us for three weeks!
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Sentimentally)</stage><p>
+A love-chase for me.
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Never mind, we&apos;ll make her Mrs. Barnaby yet.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>With the aid of Isnpector Marmaduke!
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<p>Who&apos;s he?
+</p></sp>
+
+<stage>(MARMADUKE enters from arch, unseen by others)</stage>
+
+<sp><speaker>Barnaby</speaker>
+<p>The leading detective of Toyland.
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<stage>(Melodramatically)</stage>
+<p>You have sent for Marmaduke and he is here!
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Can you find Contrary Mary?
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>You have sent for me because you cannot find her yourself!
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<stage>(To Hilda)</stage><p>
+He&apos;s a regular mind-reader!
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Do you think you can run her down?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Marmaduke</speaker>
+<stage>(With dignity)</stage>
+<p>
+A well-bred detective never runs a lady down.
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Mary was the apple of my eye. She has lips like cherries
+and cheeks like peaches.
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p><stage>(Writing in note-book)</stage>
+Wanted--a female with a face like a fruit store. Would you
+like to take her dead or alive?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Alive for choice. She&apos;s to be my wife, you know.
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p><hi rend="underline">Must</hi> she marry you?
+</p></sp>
+<sp><speaker>
+Barnaby &amp; Widow</speaker>
+<p>She must!</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p><stage>(Going L.)</stage>
+And does she know it?
+</p></sp>
+
+<sp><speaker>
+Barnaby &amp; Widow</speaker>
+<p>
+She does.
+</p></sp>
+<sp><speaker>Marmaduke</speaker>
+<p>We&apos;ll begin with looking in the river.
+</p></sp>
+
+<stage>(Exit down L. with Widow and Barnaby)</stage>
+
+<stage>(TOMTOM ENTERS from arch)</stage>
+
+<sp><speaker>Tom</speaker>
+<p>Ah, Hilda!
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<p>Tom Tom!
+<stage>(They embrace)</stage>
+My, but your Ma&apos;s mad at you and Mary!
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<stage>(Surprised)</stage><p>
+Where is mother? Not here in Toyland?
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<p>Here with your brothers and sisters and old Barnaby.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Don&apos;t say you&apos;ve seen me.
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Hilda</speaker>
+<p>Never fear.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>I&apos;m employed as Court Crier to the Court Royal, and Mary is
+a doll&apos;s dressmaker at the Master Toymaker&apos;s workshop, under
+the name of Mlle. Elisette.
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<p>Who&apos;s the Master Toymaker?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>A great person here. He sets the fashion in dolls and toys
+for all the world.
+</p></sp>
+
+<sp><speaker>Hilda</speaker>
+<p>Barnaby has just engaged Inspector Marmaduke to hunt for
+Mary.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Follow me, we&apos;ll go to her and warn her!
+<stage>(BOTH EXEUNT up L.)</stage>
+</p></sp>
+
+<stage>(MARMADUKE re-enters down R)</stage> <stage>(JAKE and ALAN enter from arch)</stage>
+
+<sp><speaker>Marmaduke</speaker>
+<p>Strangers! Where did you come from?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>We know where we come from, but we don&apos;t where we&apos;ve
+got to. We were lost in a forest at our home, and after many
+adventures, reached a strange sea coast. A passing vessel
+brought us here, and we don&apos;t care how soon another takes us
+away.
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>This is Toyland.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(To Marmaduke)</stage><p>
+Toyland? Were you made in Germany or Connecticut?
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p><stage>(Indignantly)</stage>
+I&apos;m not a dummy. I&apos;m a detective.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>What&apos;s the difference?
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>Do you know Contrary Mary, I&apos;m looking for her?
+<stage>(JAKE &amp; ALAN nod)</stage>
+Tell me what she wore the last time you saw her.
+</p></sp>
+
+<pb/>
+
+<stage>(Produces note book)</stage>
+
+<sp><speaker>Jane</speaker>
+<p>A blue and white polka-dot dress.
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>Ah, a clue!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>You&apos;ll be sure to find her now.
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>Why?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>A polka-dot dress is always spotted.
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>Bah!
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>If I could only find Tom Tom, I wouldn&apos;t care.
+</p>
+
+<stage>(To Marmaduke)</stage>
+<p>
+Do you know Tom Tom?
+</p></sp>
+<sp><speaker>Marmaduke</speaker>
+<p>Is it anything like Contract?
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>No, he&apos;s a young man - very very handsome...and he has the
+grandest eyes and teeth and the most sensitive ears --
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>I&apos;m not in the least interested.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Of course everybody doesn&apos;t call him Tom Tom.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>No, especially those who don&apos;t know him.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>His family name was Piper, so to strangers he is Mr. Piper,
+but he is very very handsome, and he has the grandest eyes
+and teeth, and the most sensitive ears.
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>But I haven&apos;t sensitive ears.
+<stage>(Rushes off under arch.)</stage>
+</p></sp>
+
+<pb/>
+
+<stage>(GIRLS BEGIN TO ENTER DURING preceding speech)</stage>
+
+<sp><speaker>Jane</speaker>
+<p>Wait, I want to tell you more about Tom Tom.
+</p></sp>
+
+<sp><speaker>1st Girl</speaker>
+<stage>(Looking at Jane and Alan)</stage><p>
+My dear, what fine looking things the parade has brought to
+town!
+</p></sp>
+<sp><speaker>
+2nd Girl</speaker><p>
+What perfect frights, they must have fallen out of the
+moon.
+</p></sp>
+<sp><speaker>1st Girl</speaker>
+<p>Tell us where you came from?
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>First, I want to find out something about the place I am
+in! Pardon me while I go sight seeing!
+<stage>(EXITS down R)</stage>
+</p></sp>
+
+<sp><speaker>1st Girl</speaker>
+<p>And who are you?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I&apos;m nothing yet, but when I grow up, I want to be a radio
+star.
+</p></sp>
+
+<sp><speaker>1st Girl</speaker>
+<p>What could you do on the radio?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I could be Uncle Don Crosby. That&apos;s something new, isn&apos;t
+it? Giving advice to the children in song form.
+</p></sp>
+
+<sp><speaker>1st Girl</speaker>
+<p>You mean a sort of lullaby?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Yes, just what!
+</p></sp>
+<stage>
+SONG
+
+ALAN AND CHORUS:
+
+<hi rend="underline">"ROCK A BYE BABY"</hi>
+</stage>
+
+<stage>(Alan and others exeunt on number)</stage>
+
+<pb/>
+
+<stage>(PIPER CHILDREN ENTER from L. side of stage,
+they are playfully pulling the master toymaker
+after them, each child drags or carries on a toy.
+Possible dance here with BABY DOLLS...or a cakewalk)</stage>
+
+<sp><speaker>Toymaker</speaker>
+<p>There! There! You have me quite out of breath, my dears.
+I must rest a moment.
+</p></sp>
+
+<stage>(Sits on large toy block, which two of the children
+place C. for him)</stage>
+
+<sp><speaker>Bo Peep</speaker>
+<p>When we find Mother, she&apos;ll pay you for these lovely play-
+things.
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>There&apos;s nothing to pay. I am the world&apos;s master toymaker
+and I want to give these toys to you. Just a little
+rememberance in the heart of a child is more to me than
+anything else in the world.
+</p></sp>
+
+<stage>(A general murmur "Thank you" etc)</stage>
+
+<sp><speaker>Bo Peep</speaker>
+<p>Haven&apos;t you any little boys and girls of your own?
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>No. That&apos;s why I&apos;m free to love all children, and to try
+and make them love me.
+</p></sp>
+<sp>
+<speaker>
+Red Hiding Hood
+</speaker>
+<p>
+Do you make toys that talk?
+</p>
+</sp>
+<sp><speaker>Toymaker</speaker>
+<p>Aye, talk and walk and do everything but think. <hi rend="underline">I can give
+them everything but a soul, and some day I may give them
+even that.</hi>
+</p>
+
+<stage>(He reads the underlined phrase, so tragically, that
+all the children shrink from him. Noticing their notion
+he immediately returns to his amiable manner)</stage>
+<p>
+But I must go. I have work to do.
+</p>
+<stage>(To Children)</stage>
+<p>Come to my work-shop, and see all the other toys that I
+have there.</p>
+<stage>(EXITS down L. ENTER WIDOW from arch)</stage>
+</sp>
+<sp><speaker>Widow</speaker>
+<p>Ah here are my angels!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Bo Peep</speaker>
+<p>See what the Master Toymaker has given us.
+<stage>(Children show toys, BARNABY enters up L., holding TOMTOM
+by the wrist)</stage>
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Here&apos;s Tom-Tom. Just caught him in the crowd.
+<stage>(Cries of "Hello Tom Tom", "Hello, brother", from
+the children)</stage>
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Naughty boy, where&apos;s your sister?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<stage>(Defiantly)</stage><p>
+I don&apos;t know. I don&apos;t know anything about her.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Tell the truth, you rascal! You ran away together.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>No, we didn&apos;t. I don&apos;t know where Mary is at all!
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<stage>(To children)</stage><p>
+Come, all of you, look for her. Scatter and be quick about
+it! Tom tom, you go with us.
+<stage>(WIDOW EXITS quickly with TOM TOM)</stage>
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(To children)</stage><p>
+Hurry up! Find your sister! Be off with you!
+</p></sp>
+
+<sp><speaker>Bo Peep</speaker>
+<p>Find her for you? Not much.
+</p></sp>
+
+<stage>(The children rush off stage; JILL remains on the stage
+playing with the doll the Toymaker gave her, BARNABY
+turns and sees JILL busy with doll, sitting on the stage
+down R)</stage>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Sharply)</stage><p>
+Jill, why don&apos;t you do as you&apos;re told?
+<stage>(Sneeringly)</stage>
+Precious Pet-mother&apos;s ownest! Just wait till I&apos;M your
+brother-in-law!
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<stage>(Guying him)</stage><p>
+I could faint with joy at the prospect!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Barnaby</speaker>
+<p>Badness, where do you expect to go when you die?
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>If it&apos;s any place where you ain&apos;t, I&apos;ll be happy.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Shaking his cane at her)</stage><p>
+<stage>(Furiously)</stage>
+If you were only mine! How I could box your ears! if you
+were only mine!
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<stage>(With mock sentiment)</stage><p>
+It&apos;s hopeless! I can never be yours!
+<stage>(Barnaby seizes Jill&apos;s doll, strikes it, then kicks
+it about the stage)</stage>
+Help! Help! A lady&apos;s being struck -give me my doll!
+</p></sp>
+
+<stage>(GRUMIO ENTERS at top of runway over arch. Hears
+Jill&apos;s cries, stumbles and rolls down runway to stage)</stage>
+
+<sp><speaker>Grumio</speaker>
+<p><stage>(Picking up doll and facing Barnaby)</stage>
+Hold! How dare you strike a helpless female in the face!
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Bless you! You have saved my child!
+<stage>(Faints in Grumio&apos;s arms)</stage>
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>You&apos;ll hear from me later.
+<stage>(EXITS angrily under arch)</stage>
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p><stage>(Calling after him)</stage>
+Yes, do write, even if it&apos;s just a post-card.
+Courage, beautiful stranger--your child has only lost an
+ear.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>My name is Jill. What&apos;s yours?
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>Grumio. I&apos;m the Master Toymaker&apos;s apprentice. What do you
+do?
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Oh, I live a life of leisure, but I&apos;m going to leave
+society and go to work. Perhaps I&apos;ll even be on relief.
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>I had trouble at home too. Mother kept a butler,
+who objected to my wearing his evening clothes.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>But didn&apos;t you ever have any other ambitions?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Grumio</speaker>
+<p>Yes, I wanted to be a politician. It&apos;s the only business
+where you can sit down and run at the same time!
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Is there any chance of landing a job here.
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>Come to my master&apos;s workshop. They&apos;re shorthanded there
+and I can get you a place.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Can you fix my doll there?
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p><stage>(Holding doll so sawdust pours out)</stage>
+Yes, better hurry up, she may have a sawdust hemmorhage.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>What&apos;ll you charge?
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>My charge will be just one kiss.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>All right, you send the bill to mother.
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>But after I&apos;ve seen mother&apos;s face, I may not want to collect
+it. Give me one kiss and I&apos;ll be satisfied.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>No.
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>You won&apos;t give me one kiss.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Yes, but you won&apos;t be satisified.
+</p></sp>
+
+<stage>(HE starts to kiss her)</stage> 
+<stage>(Pantomine) - (Possibly a
+dance speciality.)</stage> <stage>(He is just about to kiss her,
+but enter the WIDOW and Barnaby.)</stage>
+
+<sp><speaker>Widow</speaker>
+<p>Brute!</p>
+<stage>(Leads Jill down stage grasping her by the ear,
+and Barnaby chases Grumio off stage thru arch.)</stage>
+<p>
+You&apos;re too young to be kissing strangers!
+</p></sp>
+<sp><speaker>Jill</speaker>
+<p>I just wanted to find out what a kiss was.
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>A kiss is nothing divided by two.
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Widow</speaker>
+ <stage>(Contd)</stage><p>You got that kissing idea from the movies...from now on
+you&apos;ll see nothing but travelogues.
+</p></sp>
+<stage>(Leads JILL off Left.)</stage>
+
+<sp><speaker>Toymaker</speaker>
+<p><stage>(Enters with MAN reading document.)</stage>
+You may report to me in the toyshop, in an hour!
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(ENTERS from arch.)</stage><p> <stage>(To Toymaker)</stage>
+You&apos;re the King-pin of all the toymakers, I&apos;ve heard. I&apos;d
+like to hire you to make a few toys for me.
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>Ah, then you love the children too?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Oh, I simply dote on them!
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>What would you like me to make for them?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>A lot of dangerous toys. Toys that a child would eagerly
+accept. That would destroy them, and even kill them,
+in some clever way.
+<stage>(JANE ENTERS under arch, overhears)</stage>
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>Why do you hate the children so bitterly?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>My late sister left her two vicious bad-tempered children
+Alan and Jane for me to look after. What a life they&apos;ve 
+led me! Even their fortune, which will be mine in another
+week, could hardly repay me for the trouble they have caused
+me.
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>Are they dead?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Yes, they were lost in the forest, I&apos;ve seen the last of them!
+</p>
+
+<stage>(JANE exits silently)</stage>
+<p>A thousand dollars, if you&apos;ll take the order. Twelve hundred!
+Fifteen hundred!</p>
+</sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>No, no!
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Eighteen hundred!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Toymaker</speaker>
+<p>No, no, don&apos;t tempt me. Eighteen hundred dollars for toys,
+that would kill and destroy!
+</p></sp>
+
+<stage>(Starts off L.)</stage>
+
+<sp><speaker>Barnaby</speaker>
+<p>I&apos;ll make it two thousand dollars! Just let me see you
+alone in your work shop, and we&apos;ll close the bargain.
+<stage>(BOTH EXEUNT L)</stage>
+</p></sp>
+
+<stage>(JANE and ALAN enter under arch much excited)</stage>
+
+<sp><speaker>Alan</speaker>
+<p>And if we&apos;re not home in a week, Uncle Barnaby gets our
+fortune!
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Yes, that&apos;s what I heard him say!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Now I understand Uncle Barnaby now I know him.
+He&apos;s as easy to see thru as a cellophane wrapper.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>I&apos;m sure he had us lost in the woods.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>And lost at sea the same way. Oh, he&apos;s been playing a losing
+game with every way.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>We must get home--we haven&apos;t a penny, what&apos;s to be done?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Or, who&apos;s to be done?
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>First let us change these clothes. Nobody else in Toyland
+dresses like this, and Uncle Barnaby will surely hear
+about us.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>That&apos;s a risk we can&apos;t afford. We must shift our wardrobe,
+but how?
+</p></sp>
+
+<stage>(JILL ENTERS L)</stage>
+
+<sp><speaker>Jill</speaker>
+<p>Can it be? Alan and Jane!
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Jill!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Jill</speaker>
+<p>And a runaway just like you two!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I hope you&apos;ve run away with a tailor!
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Or a dressmaker.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Neither, but I&apos;ve just been engaged to dress the dolls at
+the Master Toymaker&apos;s.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Do you think you could find anything there to fit us?
+We don&apos;t want to be captured.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Perhaps, some of the Toymaker&apos;s dolls are nearly as big as
+you.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Where are they?
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<stage>(Melodramatically)</stage><p>
+Follow me!
+<stage>(The three exeunt under arch)</stage>
+</p></sp>
+
+<stage>(BO PEEP &amp; BOY BLUE ENTER UNDER ARCH)</stage> <stage>(Other Piper
+Children re-enter)</stage>
+
+<sp><speaker>Bo Peep</speaker>
+<p>I wonder what&apos;s become of MAry?
+</p></sp>
+
+<sp><speaker>Boy Blue</speaker>
+<p>Maybe she&apos;s married a title, and has had to go to work to
+support him.
+</p></sp>
+
+<stage>(MARY ENTERS under arch with small milliner&apos;s box
+under arm)</stage>
+<sp><speaker>
+Bo Peep, Boy Blue etc.</speaker>
+<p>
+It&apos;s Mary!
+</p></sp>
+<stage>(General embrace)</stage>
+
+<sp><speaker>Bo Peep</speaker>
+<p>What in the world are you doing in Toyland?
+<stage>(MARMADUKE ENTERS under arch)</stage>
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Oh, I&apos;m making dolls for the master Toymaker! and my alias
+is Mam&apos;sell Elisette.
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Marmaduke</speaker>
+<p>Hold in the name of the law! Stand up where you are! Hold, I
+say!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<stage>(Ignoring Marmaduke, coming down with the group)</stage><p>
+I want to hear all the news from home. Are all the guinea
+pigs well, and how is the new donkey?
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p><hi rend="underline">I</hi> am here!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<stage>(Looking over her shoulder)</stage><p>
+But you&apos;re not the one I was speaking of.
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>Listen to me for a moment! Do any of you know a girl named
+Mary? Don&apos;t answer if it may incriminate you.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Who are you?
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>I am the world&apos;s most famous inspector!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>What of boilers?
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>No, of the police! Describe Contrary Mary to me.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>She has long bobbed hair, a lovely speaking voice,
+but very loud. And she cries so much her cheeks are streamlined.
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p><stage>(Taking notes)</stage>
+Complexion?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Fair. Just fair, and I believe at that I&apos;m exaggerating.
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>How was she dressed when you saw her last?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>She was wearing a white fish net over black satin....
+the satin was white at one time. The neck line was high
+with a Freddie Bartholomew collar...The back was low,
+sweet and lo, - there were little cream puff sleeves...
+with blue ribbon on the side...
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>I don&apos;t believe --
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Mary</speaker>
+<p>The dress was straight to the knees, where it was gored by
+8 champagne inserts to give it a waltz swing...a sort of
+Champagne Waltz!
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>I don&apos;t believe I&apos;m getting anywhere....but I <hi rend="underline">am</hi> getting
+<hi rend="underline">any</hi>where--anywhere away from you!
+<stage>(Dashes off under arch)</stage>
+</p></sp>
+
+<sp><speaker>Bo Peep</speaker>
+<p>Well, you certainly tired him out!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>You don&apos;t know how glad I am to see you all, but I wish
+Tom Tom were here....
+</p></sp>
+
+<sp><speaker>Boy Blue</speaker>
+<p>And what about Alan? Don&apos;t you miss him?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Of course I do. Oh, if you only knew how heavy my heart
+is.
+</p></sp>
+<stage>
+SONG:
+
+MARY.
+</stage>
+<stage>(Mary and Children exeunt on number)</stage>
+
+<stage>(GRUMIO enters from arch, carrying the head of a toy
+captain)</stage>
+
+<sp><speaker>Grumio</speaker>
+<p>The toy captain is busted, and now the parade is spoiled.
+</p></sp>
+
+<stage>(JILL enters L.)</stage>
+
+<sp><speaker>Jill</speaker>
+<p>What&apos;s the matter, Grumio?
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p><stage>(Pointing to head)</stage>
+I&apos;ll be put in jail for this. This was the wooden soldier
+that was to head the wooden regiment he presents to the
+City today... I had charge on him, and when I went to wind
+him up, I found someone had stolen his clothes. Let me
+find out who did it! That&apos;s all!
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<stage>(Melodramatically)</stage><p>
+Twas I Grumio!
+<stage>(Falls on knees)</stage>
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>You?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Jill</speaker>
+<p>Strike and avenge yourself! I took the clothes to help
+two old friends...
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>Ah! To help old friends you ruin me! Be gone, female, and
+leave me to the sorrow you have brought upon me!
+<stage>(Throws her to the ground and steps over her)</stage>
+</p></sp>
+
+<stage>(JANE &amp; ALAN enter in the doll costumes and exchange
+surprised glances and military salutes with the
+other two)</stage>
+
+<sp><speaker>Alan</speaker>
+<stage>(Noting Grumio&apos;s red hair)</stage><p> <stage>(Aside to Jane)</stage>
+Looks like a bottle of Chili sauce.
+<stage>(Aloud)</stage>
+Who are you?
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>The Toymaker&apos;s apprentice, who is responsible for the toys
+that you have broken.
+<stage>(Points to wooden captain&apos;s broken head)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>The wooden captain?
+<stage>(To Jill)</stage>
+The toy I broke when I took these clothes off of him!
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>The same. It&apos;s time for the parade, but I can&apos;t start
+without the wooden captain.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Well, <hi rend="underline">I</hi> can&apos;t do without his clothes.
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p><stage>(With sudden inspiration)</stage>
+Then by the way of paying for them, you might lead the
+parade yourself.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Surprised)</stage><p>
+What - me?
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>That will get me out of the trouble that you have got me
+into. Do you think you could act like a toy soldier?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Jane</speaker>
+<stage>(To Alan)</stage><p>
+Of course -- just be yourself.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Jane, I&apos;ll lead the parade, and you can look for Tom Tom.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>I&apos;m sure Tom Tom isn&apos;t here.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(To Grumio)</stage><p>
+One word more, my one cylinder brained friend! If I get you
+out of this trouble, will you help us to get out of the country?
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>Come to the work shop after the parade, and I&apos;ll arrange it!
+</p></sp>
+<sp><speaker>
+Jane and Alan
+</speaker>
+<p>
+How?
+</p></sp>
+<sp><speaker>Grumio</speaker>
+<p>Leave that to me! Just join the wooden grenadiers, they&apos;re
+ready to march!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Takes Jane&apos;s hand)</stage><p>
+Come on, we&apos;re off!
+<stage>(Exeunt up Left)</stage>
+</p></sp>
+
+<stage>(BUGLE CALL.)</stage>
+
+<sp><speaker>Jill</speaker>
+<p>Oh, the parade must have started.
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>Come with me and I&apos;ll get you a seat in the reviewing stand!
+</p></sp>
+
+<stage>(JILL and GRUMIO exeunt)</stage>
+<stage>
+<hi rend="underline">THE TOY MARCH</hi>
+</stage>
+<stage>(Big number and dance and black cut and change to
+Street scene.)<lb/>
+
+------------</stage>
+
+<pb/>
+</div>
+<div type="scene" n="2">
+<head>
+<hi rend="underline">ACT II:</hi><lb/>
+
+<hi rend="underline">SCENE II</hi> STREET SCENE:
+</head>
+<stage>
+Roderigo enters left with GONZORGO.
+</stage>
+<sp><speaker>Roderigo</speaker>
+<p>It&apos;s a cold world, Gonzorgo; unless something turns up,
+I shall worry myself into a stew.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Worry yourself into two stews if possible- one for me!
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>Is it true what the gypsy said, are you married now?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>No, my wife passed away a year ago. The <hi rend="underline">light</hi> of my life has
+gone, but I&apos;d like to strike another match!
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>And here comes a possible flame! It&apos;s the Widow Piper.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>My woodland fllower!--
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>Why do you call her a woodland flower?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>She&apos;ll grow wild, if someone doesn&apos;t cultivate her!
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<stage>(Entering right)</stage><p>
+Have you seen anything of a young lady who answers to
+the name of Mary?
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<stage>(Tenderly)</stage><p>
+You--Bernice?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<stage>(Tenderly)</stage><p>
+Infatuated girl, why have you followed me here?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<stage>(Recognizing them)</stage><p>
+Oh, Master Barnaby&apos;s friends!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Roderigo</speaker>
+<p>Fate has mixed us up again.
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<stage>(To Gonzorgo)</stage><p>
+Have you forgotten what Floretta, the Fawn of the Forest
+told me? You are married!
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>&apos;Tis false, you are the only girl I ever loved. Don&apos;t seek
+further for a husband!
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>Find my daughter Mary for me and I shall consider it!
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>What is she like?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>She&apos;s only 15, very pretty, and very brainy. Here&apos;s a
+description of her written on this paper. Find her and you
+may be lucky!
+<stage>(EXITS)</stage>
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<stage>(To Roderigo)</stage><p>
+If you were a young girl very pretty and very brainy, what
+would you do?
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>I&apos;d enter a beauty contest.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>No, I said <hi rend="underline">brainy</hi>. Brains! But if she is going to marry
+old Barnaby, you could use her for a blue print to make an
+idiot!
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>Yes, old Barnaby is 45, and she&apos;s only 15. He&apos;s three times
+as old.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Yes and in five years he&apos;ll be fifty and she&apos;ll be 20, then
+he&apos;ll only be two and a half times as old.
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>Yes and in 15 years he&apos;ll be sixty and she&apos;ll be thirty
+then he&apos;ll only be twice as old!
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>How long will she have to wait before they become the
+same age?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Roderigo</speaker>
+<stage>(Reading from the paper)</stage><p>
+The paper says she left with someone else. It reads, "The
+missing twain". Say, what does twain mean?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Twain, it means two!
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>What?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Two -two! Twain!
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>You&apos;re too old to be talking baby talk!
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>My dear Watson, this is a very baffling case.
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>Don&apos;t you know a good solution?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Yes, boracic acid, that&apos;s a good solution. Now the
+girl has been stolen by some desperate criminial, now
+let&apos;s both concentrate. Who is the worst criminal you
+know?
+</p></sp>
+
+<sp><speaker>
+Rod. &amp; Gon.</speaker>
+<stage>(Point at each other)</stage>
+<p>You!!</p>
+</sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p><stage>(ENTERS)</stage>
+Hold! I&apos;m searching for Contrary Mary! Taking you at your
+face value, you&apos;re both under arrest!
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>You can&apos;t arrest us, we&apos;ve just been appointed detectives.
+I appointed him.
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<stage>(Indicating Gonzorgo)</stage><p>
+And I appointed him!
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>I will now give you the third degree!
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Oh good, we&apos;re going to join a lodge!
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>Have you ever committed any crimes?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Rod. &amp; Gon.</speaker>
+<p>
+No! We swear it by our right hands.</p>
+<stage>(They raise their left hands)</stage>
+</sp>
+
+<sp><speaker>Marmaduke</speaker>
+<stage>(Producing bottle)</stage><p>
+This is truth serum wine! The liquid lie detector,
+quaff of it and you will tell the truth.</p>
+<stage>(Hands it to Roderigo)</stage>
+<p>You drink!
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>I&apos;m as honest as
+<stage>(Drinks)</stage>
+--as the best bank robber and confidence man. How I laughed
+when I sold people shares in a Hidden Treasure....
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<stage>(To Gonzorgo)</stage>
+<p>And you, you drink!
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>You doubt my honor.</p>
+<stage>(Drinks)</stage>
+<p>Wow! I am the king of larceny and arsony. And crooked
+slot machines!
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>Two very desperate cases! What was your most serious crime?
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>I worked for the EUREKA GET RICH QUICK COMPANY. I sold
+lottery tickets!
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>And I sold Stock for the Wild Cat gold mine. I worked
+for the Eureka, Get Rich Quick company.
+</p></sp>
+
+<sp><speaker>Marmaduke</speaker>
+<p>You are master criminals!
+<stage>(Takes bottle)</stage>
+Here&apos;s to crime!
+<stage>(Takes drink)</stage>
+...I was THE EUREKA GET RICH QUICK COMPANY!
+</p></sp>
+<stage>
+BLACK OUT:</stage>
+<stage>
+(Or exit of Marmaduke, and DANCE SPECIALTY FOR Gon. and
+Rod.)<lb/>
+
+BLACK OUT:<lb/>
+
+-----------<lb/>
+</stage>
+<pb/>
+</div>
+<div type="scene" n="3">
+<head>
+<hi rend="underline">SCENE III</hi> The Master Toymaker&apos;s toyshop.
+</head>
+<stage>
+WORKMEN discovered:<lb/>
+TOM TOM enters from door L.C.
+</stage>
+<sp><speaker>Tom</speaker>
+<p>Thanks to that friendly vine next to my prison windows, I
+am free!
+<stage>(Turns to workman.)</stage>
+I have a summons for the Master Toymaker from the court
+Royal!
+</p></sp>
+
+<sp><speaker>Workman</speaker>
+<p>You&apos;ll find him inside.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>But I do not know him what does he look like?
+</p></sp>
+
+<sp><speaker>Workman</speaker>
+<p>You don&apos;t know the master toymaker? You must be a new-comer in
+Toyland!
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>I am. But my father came here when I was a lad, and many times he
+talked about it.
+</p></sp>
+
+<sp><speaker>Workman</speaker>
+<p>There is much to talk about here!
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>I remember he had many fond memories of Toyland!
+</p></sp>
+<stage>
+NUMBER:<lb/>
+
+<hi rend="underline">TOYLAND:</hi><lb/>
+
+Tom-tom and
+MALE CHORUS;
+</stage>
+<stage>(Or as vocal number)</stage>
+<stage>(Enter Toymaker from door L.)</stage>
+
+<sp><speaker>Toymaker</speaker>
+<p>Well, what can I do for you? Looking for a pretty toy?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<stage>(Indignantly)</stage><p>
+Sir! Do I look as though I came from the nursery?
+<stage>(Hands Toymaker document)</stage>
+A summons from the Court Royal to the master Toymaker.
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Toymaker</speaker>
+<p><stage>(Looking at paper)</stage>
+Ah, yes. Say to the Prefect I&apos;ll be on hand at the appointed
+time. Now, run along, little boy!
+<stage>(TOM TOM EXITS L.C.)</stage>
+Max, the bill for the toys we shipped today.
+</p></sp>
+
+<sp><speaker>Max</speaker>
+<stage>(Handing bill)</stage>
+<p>The consignment is ready, sir!
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>Put the goods on board at once! The captain sends word he
+sails immediately.
+</p></sp>
+
+<stage>(MAX and Workman exit R. and L.C.)</stage>
+
+<stage>(Toymaker left on stage. Bus. Places paper on the
+mantel-piece and goes back to the table, watches the
+last character off R. Hurriedly closes door, returns to
+table, pours contents from phial into large flask
+with left hand; leaving right hand free to work
+switch after exhibition of sparks.)</stage>
+
+<sp><speaker>Toymaker</speaker>
+<stage>(Calls)</stage>
+<p>Grumio!
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p><stage>(Entering)</stage>
+Yes, sir!
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>The secret I have sought for years still mocks me.
+A thousand times have I sought to find the element that
+makes the charm complete. Within this crystal glass,
+there dwells a score of demon spirits drawn by spells and
+incantations. There, there, is the charm that will
+give me dominion over the souls of evil! That I may bid
+them enter the toys and mannikins.</p>
+<stage>(Works flask again, JILL enters right during his motion)</stage>
+</sp>
+
+<sp><speaker>Jill</speaker>
+<stage>(Aside)</stage><p>
+This has nothing to do with toy making I&apos;m sure! I must
+find out the secret!
+<stage>(Conceals herself, in cabinet up R.)</stage>
+</p></sp>
+
+<pb/>
+
+<stage>(A KNOCK L.C. Toymaker without turning)</stage>
+
+<sp><speaker>Toymaker</speaker>
+<p>Come in!
+<stage>(GRUMIO ENTERS L.C. FOLLOWED BY TWO MEN. One carries wine
+cask, the other a table with cheese, cookies, etc.)</stage>
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>Here&apos;s a cask of wine sent you by an old gentleman named
+Barnaby!
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p><stage>(Rising, going right)</stage>
+Put it down, I&apos;m in no mood for it right now!
+<stage>(EXITS R.)</stage>
+<stage>(MEN places articles and exeunt)</stage>
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>I can never do anything right!
+<stage>(Takes cookie)</stage>
+I&apos;m bewitched like the place. They say it&apos;s haunted!
+It does seem horrible, Maybe a little drink will steady my
+nerves!
+<stage>(Taps the wine cask and takes a drink)</stage>
+This place isn&apos;t half bad at that!
+<stage>(Takes 2nd drink)</stage>
+No, sir, this place is all right!
+<stage>(Candle drops)</stage>
+Ghosts! Spirits! I&apos;d better get some spirits to fight this!
+<stage>(Other business follows, causing additional fright)</stage>
+<stage>(JILL enters from cabinet)</stage>
+Am I seeing things?
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>I&apos;m not a thing, you remember me, I&apos;m Jill!
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>Oh, yes, two Jills make one pint, two pints make on
+drunk, ...
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>You&apos;re intoxicated.
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>Don&apos;t talk like that, <hi rend="underline">girls</hi>!
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Girls?
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>My mistake, I&apos;ve had a couple of drinks.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>Two drinks, and I&apos;m girls! If you had 5 drinks I&apos;d be quintuplets!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Grumio</speaker>
+<p>You don&apos;t like me, do you?
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>In spite of your faults, I think you&apos;re the tops!
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>I must be the top, my head is still spinning.
+But come, my Princess, it is gay tonight in Vienna - there
+is music, wine and waltzing. Will you waltz with me?
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>No - but if you&apos;ll come out of Vienna - I might dance with
+you.
+</p></sp>
+
+<stage>(DANCING SPECIALTY, or THEY Waltz to an exit)</stage>
+
+<stage>(WORKMEN enter with TOYMAKER)</stage>
+
+<sp><speaker>Toymaker</speaker>
+<p>What&apos;s this? Men, clear away the ruin. The scamp has been
+at the wine!
+<stage>(Examines articles on the table, as if they have
+been damaged. MEN exit after clearing stage.)</stage>
+<stage>(BARNABY looks in at L.C.)</stage>
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Here I am according to appointment.
+<stage>(Coming down)</stage>
+Have you thought over my offer?
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>For toys that will maim and injure children?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Something tells me you would put your whole heart into the
+work.
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p><stage>(Sneeringly)</stage>
+Your <hi rend="underline">liberality</hi> would call for that much interest.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Your final answer?
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p><stage>(Taking him Center)</stage>
+What would you say to a doll with the spirit of a fiend
+controlling it? Would it not be a dainty gift for a child
+one dislikes?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>A doll with the soul of a demon, a master thought!
+</p></sp>
+
+<stage>(He grasps Toymaker&apos;s hand)</stage>
+
+<pb/>
+
+<sp><speaker>Toymaker</speaker>
+<p>Come back in the twilight, in the interval I&apos;ll experiment again.
+<stage>(Indicates table left)</stage>
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>I pray for your success.
+<stage>(EXITS L.C.)</stage>
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p><stage>(ENTERS feigning exhaustion)</stage>
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>Aha! You scoundrel, you drank my wine, didn&apos;t you?
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>No, sir, I was just testing it for you! The captain of
+the ship wants to see you on board at once!
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p><stage>(Impatiently)</stage>
+What about?
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>It&apos;s something about the cargo you&apos;re sending.
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>Very well! And when I return call my attention to the fact
+that you are to be discharged.
+<stage>(EXITS.)</stage>
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>Yes, sir.
+<stage>(Going quickly to door R.)</stage>
+Bring the wrappings, Jill! You men bring these crates!
+.....Alan and Jane will travel in style!... <stage>(Men bring in 2
+packing boxes, exeunt)</stage> <stage>(ALAN &amp; JANE ENTER L.C.)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>How about us? How are you going to get us out of the country,
+your ship sails in an hour.
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>You go as freight.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>You mean as dolls?
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>You&apos;ll be taken on board the ship, that&apos;s bound for your
+country in those.
+<stage>(Indicting crates)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Be sure we&apos;re marked fragile, this side up!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Jane</speaker>
+<p>And I hope I&apos;m sent F.O.B. Free of bumps!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Jane, take care of yourself!
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<stage>(Steps into open crate)</stage><p>
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>So far, so good!
+</p></sp>
+
+<stage>(MARY enters just before Grumio can get down into crate)</stage>
+
+<sp><speaker>Mary</speaker>
+<p>Grumio, I want you to run out and match this sample.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Aside)</stage><p>
+It&apos;s Mary!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<stage>(Giving Grumio bit of ribbon)</stage><p>
+Quickly, please, four yards. Bring it back at once.
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p><stage>(Going reluctantly)</stage>
+That doll&apos;s all right.
+<stage>(Points to Alan)</stage>
+You needn&apos;t bother about him, Mam&apos;selle.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Hurry! Hurry!
+<stage>(Grumio exits L.C.)</stage>
+<stage>(Mary looks at Alan, starts violently)</stage>
+Only a wooden dummy with no sense and yet he reminds me so
+much of Alan!
+<stage>(Turns right)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Aside)</stage><p>
+In this game I am the dummy!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<stage>(Looking at Alan)</stage><p>
+Poor boy, it&apos;s very like him. I could almost imagine we were
+alone together. If he&apos;s meant for an officer, he needs
+something to show his rank.
+<stage>(Goes to work table and gets properties)</stage>
+</p><p>
+Shall I sew them on? No, it would be quicker and safer to
+nail them on his chest.</p>
+
+<stage>(Looks on table for tacks and hammer)</stage>
+
+<pb/>
+<p>
+I might nail on a few yards of fresh gold braid while it&apos;s
+on my mind.
+</p></sp>
+<sp><speaker>Alan</speaker>
+<stage>(Aside)</stage><p>
+Your mind, oh, don&apos;t mind me!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>This will do, and this-
+<stage>(Tries medals on Alan&apos;s coat)</stage>
+Dear, dear, but you <hi rend="underline">are</hi> like Alan!
+<stage>(Angrily)</stage>
+I wish you were, that&apos;s all! To believe that I&apos;d forget you
+for such a creature as Barnaby! Will I ever see you again?
+Oh Alan where are you now, I wonder!
+<stage>(Turns away)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Aside)</stage><p>
+So, you&apos;re wondering too!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Will you ever come back and say "Mary I&apos;m dreadfully sorry
+I was all wrong?" And you know what I would do, I would embrace
+you, Alan!
+<stage>(Embracesm him)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Slowly embraces her)</stage><p>
+<stage>(She is surprised and startled)</stage>
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Why, what is the matter with this machine? It must be out
+of order! <stage>(tries to break away)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Mary!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>It is you, Alan, after all!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>And now you say something like I&apos;ll forgive you Alan.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>I do, I do!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>And I&apos;ll say Mary I was dreadfully sorry, I was all wrong.
+Because you knew all the time...
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Yes, I knew all the time that you loved me.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Oh, Mary! <stage>(Puts arms around her.)</stage>
+</p></sp>
+
+<pb/>
+<stage>
+SONG. NUMBER
+ALAN &amp; MARY:
+</stage>
+<stage>(After number)</stage>
+
+<sp><speaker>Mary</speaker>
+<p>But Alan, you in this costume,--what does it mean?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>It means that Grumio is going to ship us home as dolls on a 
+boat that sails in an hour or two!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>In that case, where is Jane?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Pointing to crate)</stage><p>
+In that case!
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p><stage>(ENTERS L.C. Alan resumes a toy attitude)</stage>
+Getting that toy ready for shipment?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Yes, sir.
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>Something wrong with his machinery.
+<stage>(ALAN moves his hand automatically)</stage>
+I&apos;ll attend to that before he goes to Siberia.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Aside)</stage><p>
+Sibera!
+</p></sp>
+
+<stage>(MAN enters with marking pot and brush, used for
+marking packing cases)</stage>
+
+<sp><speaker>Mary</speaker>
+<stage>(Alarmed)</stage><p>
+Oh, he doesn&apos;t go to Siberia, he&apos;s billed to--to--
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p><stage>(To working man)</stage>
+Cross out the address on those crates, and write these.
+<stage>(Handing workman also a slip of paper)</stage>
+Send that to his Majesty, the Sultan of Beejumbo!
+It&apos;s going to be a surprise for the Sultan&apos;s harem!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Aside)</stage><p>
+Ah, a harem!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Mary</speaker>
+<p>Pardon me, sir, but aren&apos;t you getting them mixed?
+<stage>(Points to Alan)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Aside)</stage><p>
+Oh no, he isn&apos;t getting them mixed.
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>So I am. It&apos;s the Dutch Doll that goes to the Sultan.
+<stage>(Points to Jane&apos;s crate, and workman paints new
+address on it)</stage>
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<stage>(Touching Alan)</stage><p>
+This one is broken.
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>There&apos;s time to fix him. He goes by caravan tomorrow. He&apos;s
+bound for Kalamazooskie, Eastern Siberia.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Aside)</stage><p>
+Kalamazooskie sounds like a long way from home.
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>His uniform needs something.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Aside)</stage><p>
+If I&apos;m going to Siberia, I need an overcoat.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>But he can&apos;t be fixed inside of a week, and the Dutch Doll
+isn&apos;t all right, either.
+<stage>(Points to Jane&apos;s crate)</stage>
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>What&apos;s the matter with her?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>She needs a new face.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Aside)</stage><p>
+I&apos;m glad Jane can&apos;t hear that.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>You can&apos;t send those wax faces to hot countries.
+They melt. She ought to have a wooden head like this.
+<stage>(Raps Alan&apos;s head)</stage>
+<stage>(Bus. Alan)</stage>
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>Oh I&apos;ll take the risk of sending that doll to Beejumbo.
+</p>
+
+<pb/>
+
+<stage>(Two workingmen enter.)</stage>
+<stage>(To men)</stage>
+<p>
+Put that box on the ship that sails for the far East.</p>
+<stage>(MEN carry Jane&apos;s crate off)</stage>
+
+<stage>(Pantomines business by ALAN)</stage>
+<p>And as for that doll,</p>
+<stage>(Indicating Alan)</stage>
+<p>Within the hour, Max shall have his works spread upon the table!</p>
+<stage>(EXITS L.)</stage>
+</sp>
+<sp><speaker>Alan</speaker>
+<p>He&apos;s not going to give me the works!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Here&apos;s a dreadful fix, how is Jane going to get out of it?
+</p>
+
+<stage>(CRASH OFF STAGE L.C.)</stage>
+<p>
+What&apos;s that?
+</p></sp>
+<sp><speaker>Alan</speaker>
+<p>That&apos;s Jane always crashing in some place where she&apos;s not wanted.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>We must help her. I&apos;ll run and see what I can do!
+<stage>(EXITS L.C.)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I&apos;ll find Grumio. Where are you Grumio, Grumio, Grumio?
+<stage>(Door L.3. opens, ALAN assumes toy pose, TOYMAKER enters
+L.3., goes to table, turns and looks towards flask)</stage>
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>Now once more to seek the missing element! It will give me
+dominion over the souls of evil!
+<stage>(Works switch, the glow appears)</stage>
+The light! The light! Can it be at last success!!
+<stage>(Turns to flash again and cries in ecstasy)</stage>
+I triumph! I triumph!!
+<stage>(Smokes appears.)</stage>
+The spirits of evil I bid you enter the forms I have fashioned
+in human shape!
+<stage>(TOY figures move on stage)</stage>
+It is true at last I have found the spell at last. They
+turn to me, their master! Fiends, all the fiends!
+<stage>(Turns to Alan)</stage>
+Speak, speak, you live!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Undo your work, before it is too late!
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>There is gratitude, I give you human form, I take you from the
+gloom, and you reproach me!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Take care, these things have only murder in their hearts.
+</p></sp>
+
+<pb/>
+<stage>(The dolls take threatening attitudes)</stage>
+
+<sp><speaker>Toymaker</speaker>
+<p>I do not fear them.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Look there!
+<stage>(Pointing to doll who approaches Toymaker with knife)</stage>
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p><stage>(Turning quickly)</stage>
+Ah!
+<stage>(Doll retreats. A murmur of defiance from the others. He
+shows terror)</stage>
+Obey, or else I&apos;ll send your souls back to the abyss
+from which I brought them.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>You&apos;ve lost. You gave them life to hate and slay and kill.
+And <hi rend="underline">you</hi> will be their first victim!
+</p></sp>
+
+<sp><speaker>Toymaker</speaker>
+<p>No! No! No!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Your commands are vain!
+<stage>(Dolls advance to attack Toymaker.)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Stop, stop, I say!
+</p></sp>
+<stage>
+<hi rend="underline">FINALE:</hi>
+</stage>
+<stage>(NOTE: POSSIBLE DANCE MACABRE USED HERE.)</stage>
+
+<stage>(The dolls kill the Toymaker and escape)</stage> <stage>(Alan left
+with the Toymaker, tries to revive him)</stage>
+
+<stage>(Barnaby enters, and accuses Alan of killing Toymaker)</stage>
+<stage>(He summons Reoderigo and Gonzorgo.)</stage> <stage>(THEY carry
+the Toymaker off at signal from Barnaby. Left
+alone, Barnaby shows his delight at his success of schemes
+against Alan. The dolls appear armed with clubs, broomsticks
+etc. and they fall upon Barnaby, and gives him
+a sound beating, he howls for mercy, (see score) - on
+the curtain falls)</stage>
+<stage>
+<hi rend="underline">END OF ACT II.</hi></stage>
+<pb/>
+</div></div>
+<div type="act" n="3">
+<div type="scene" n="1">
+<head>
+BABES IN TOYLAND<lb/>
+
+ACT III<lb/>
+
+------<lb/>
+
+</head>
+<pb/>
+<stage>
+<hi rend="underline">ACT III</hi><lb/>
+
+<hi rend="underline">SCENE:</hi> Court yard of the palace of Justice.
+</stage>
+<stage>
+Opening March.
+<lb/>
+Tom Tom, Piper children, lady and
+male advocates. Populace on stage
+at opening. March of Court officials.
+</stage>
+<sp><speaker>Tom Tom</speaker>
+<stage>(On steps R)</stage><p>
+Hear ye! Hear ye! If one Master Alan be among ye, he is
+for the last time summoned to appear before the Court Royal
+to say why he shall not be condemned to die!
+</p></sp>
+<sp><speaker>
+Bo-Peep</speaker>
+<p>
+What has Master Alan done?
+</p></sp>
+<sp><speaker>Tom</speaker>
+<p>He is said to have slain the Master Toymaker. After his
+arrest he escaped.
+</p></sp>
+
+<sp><speaker>Boy Blue</speaker>
+<p>Was he alone guilty?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Many believe the Toymaker was killed by a band of strange beings
+who were seen rushing from the shop. The police can find no
+trace of them.
+</p></sp>
+
+<stage>(Chorus exits to repeat of March. TOM TOM joins children)</stage>
+
+<sp><speaker>Bo Peep</speaker>
+<p>Oh, Tom Tom, how did Alan get himself in such a scrape?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>I don&apos;t know. But it&apos;s very serious.
+</p></sp>
+
+<sp><speaker>
+Riding Hood</speaker>
+<p>
+Can we do anything to help him?
+</p></sp>
+<sp><speaker>Tom</speaker>
+<p>Help him in his flight, if you meet him.
+<stage>(ENTER JANE)</stage>
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Tom Tom!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Tom</speaker>
+<p>Jane! where in the world have you been?
+</p></sp>
+
+<stage>(THEY embrace)</stage>
+
+<sp><speaker>Jane</speaker>
+<p>All over looking for you.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>And I&apos;ve been doing the same! What a lucky day!
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>For us, but not for Alan.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Poor fellow, he is in trouble. Any news of him?
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>None. Contrary Mary is with him and they&apos;re trying to get
+out of Toyland together!
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Without passports that will be hard to do.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Who accuses him of the Toymaker&apos;s death?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Only your uncle Barnaby!
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>The wicked old man! He&apos;s taken our money, now he wants our
+lives!
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>The Toymaker was the King&apos;s favorite subject. He has ordered
+the Court Royal to convict him without a hearing. But I
+must go. The Court is in session!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Jane</speaker>
+<p>I will await you at the courthouse. You won&apos;t be long?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>I&apos;ll count the minutes til I&apos;m with you. I&apos;m so glad I
+have you again.
+<stage>(Jane throws a kiss to him and exits.)</stage>
+</p></sp>
+<stage>
+SONG NO.
+Tom.
+
+"MY CASTLE IN SPAIN"
+</stage>
+<stage>(Tom Tom exits end of song)</stage>
+
+<stage>(After song ALAN, GRUMIO, JILL and MARY enter up R.
+ALAN is in comedy disguise, whiskers etc)</stage>
+
+<sp><speaker>Alan</speaker>
+<p>So far all right, nobody recognizes my disguise.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>You can&apos;t blame them.
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>You don&apos;t look a bit like the police description.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>No-one ever does.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Now for the last obstacle, the passports.
+</p></sp>
+
+<sp><speaker>Grumio</speaker>
+<p>There&apos;s the office, but the passport clerk is busy. You&apos;ll
+have to wait a few minutes.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Remember both of you, if anybody questions you about us,
+you&apos;re to be dumb!
+</p></sp>
+
+<sp><speaker>Jill</speaker>
+<p>We&apos;ll just be our own natural selves.
+<stage>(Joins Grumio, they exeunt left)</stage>
+<stage>(UNCLE BARNABY ENTERS unseen at back left, recognizes
+Mary and Alan)</stage>
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>If we get safely out of Toyland, where shall we go?
+<stage>(Barnaby exits R. at back)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>To our home first. Then we&apos;ll get married and go abroad.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Where?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Alan</speaker>
+<p>To a far away country that Jane and I visited after our
+shipwreck.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Is the country you&apos;re talking about a nice one for -- for young
+married people?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>When young people marry they go to a place that&apos;s usually
+called Maple Heights. Because it&apos;s surrounded by willow trees.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Willow trees? We could plant a bed of onions right next
+to them and have weeping willows.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>It&apos;s called the heights because it&apos;s on a prairie.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>I know the place, the renting agents says it&apos;s five minutes
+from the station... that is if you travel by aeroplace.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Then a kind business man builds them a semi-colonial cottage
+on weekly payments. And after you&apos;ve been married forty years
+then the Bond and Mortgage company takes it over.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>And I suppose they fall in love just as we do, and they
+exchange all sorts of beautiful vows.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Before marriage?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>And after?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>It&apos;s quite the same as here and everywhere else.
+</p></sp>
+<stage>
+SONG:
+<hi rend="underline">"BEFORE AND AFTER"</hi>:
+</stage>
+<stage>(Dialogue after 1st verse)</stage>
+
+<sp><speaker>Alan</speaker>
+<p>So you&apos;re keeping a budget? All I brought in the last year
+was one necktie. You have ordered 14 dresses, four pairs
+of shoes, one squirrel coat, without consulting ne.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Well, I have to wear them don&apos;t I?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Alan</speaker>
+<p>Yes but I have to pay for them, don&apos;t I?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>No, you don&apos;t. I haven&apos;t asked you for a single cent for a
+whole year. I have had everything <hi rend="underline">charged</hi>.
+</p></sp>
+
+<stage>(Dialogue after 2nd verse)</stage>
+
+<sp><speaker>Mary</speaker>
+<p>How many times have I asked you not to read the newspaper at
+the breakfast table!?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>What else is there around here interesting?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>You never dared speak to me like that before we were married.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Well, before we were married you never came down to breakfast
+looking the way you do!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Mother always said you were a brute. Oh, why did I ever marry
+you?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>So you&apos;re beginning to wonder too?
+</p></sp>
+
+<stage>(Dialogue after 3rd verse.)</stage>
+
+<stage>(Lights down. Then Alan and girl discovered at right of
+stage)</stage>
+
+<sp><speaker>Girl</speaker><p>So your wife is always quarrelling with you?</p></sp>
+
+
+<sp><speaker>Alan</speaker>
+<p>Yes, every time I go out, she accuses me playing cards with
+my friends.
+</p></sp>
+
+<sp><speaker>Girl</speaker><p>
+It was nice of you to take your secretary out, have a few
+cocktails and then go dancing...but how will you explain it to
+your wife?
+</p></sp>
+<sp><speaker>Alan</speaker>
+<p>There&apos;s only one way out of it - and that is to tell her the
+truth! Goodnight!
+</p></sp>
+
+<stage>(LIGHTS OUT. Then Alan discovered at left with his wife)</stage>
+
+<sp><speaker>Mary</speaker>
+<p>And where have <hi rend="underline">you</hi> been?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Alan</speaker>
+<p>My dear I&apos;m going to tell you the truth. I wanted a little
+relaxation, so I took my secretary out and we had some cocktails,
+and then we went to a night club.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Don&apos;t you try to fool me. You&apos;ve been playing cards again!
+</p></sp>
+
+<stage>(Slaps his face)</stage> <stage>(ALAN &amp; MARY EXEUNT after song)</stage>
+
+<stage>(BARNABY ENTERS.)</stage> <stage>(He reads from paper)</stage>
+
+<sp><speaker>Barnaby</speaker>
+<p>So Alan objects to being tried by a court of nine judges?
+And he petitions to ask for an appointment of fifteen. He
+doesn&apos;t realize it&apos;s unconstitutional.
+</p></sp>
+
+<stage>(MARY ENTERS)</stage>
+
+<sp><speaker>Mary</speaker>
+<stage>(Seeing Barnaby)</stage><p>
+Oh, it&apos;s you, is it?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Sneeringly)</stage><p>
+It&apos;s a fine morning for a wedding, Mistress Mary.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Whose wedding?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Ours. I&apos;ll be short and sweet with you, Mistress Mary!
+There&apos;s a marriage bureau next to the court-room--
+<stage>(Points off)</stage>
+and we&apos;ll be married there at once, or...
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Or what?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>I&apos;ll hand Alan over!
+<stage>(Pointing L.)</stage>
+He&apos;s in there. I know his disguise. In a moment the Court
+Royal will condemn him for killing the Toymaker.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>You wouldn&apos;t betray him?
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Snivelling)</stage><p>
+It&apos;s my duty! He has disgraced the family. He&apos;s an assassin!
+But for your sweet sake I&apos;ll let him escape.
+</p>
+
+<pb/>
+
+<stage>(Mary tries to break away)</stage>
+<p>
+No, you won&apos;t warn him.
+</p>
+<stage>(GONZORGO and RODERIGO dressed as executioners, with
+brazier, ropes, pincers, enter from court-room with
+large legal document)</stage>
+<p>
+What you have there?
+</p></sp>
+<sp><speaker>Gonzorgo</speaker>
+<p>A warrant to execute Alan, your scamp of a nephew!
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(To Mary)</stage><p>
+You shall decide. Will you take his life, or my name?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Let me see that warrant!
+<stage>(Reading)</stage>
+Rack--hot irons--pincers for my Alan!</p>
+<stage>(Throws warrant aside)</stage>
+<p>
+Is it is to save Alan, I&apos;ll agree. Take me to the marriage
+bureau!
+</p></sp>
+<stage>(Seizes Barnaby and rushes him off stage)</stage>
+
+<stage>(ENTER JANE R. PIPER AND CHILDREN ON R. &amp; L.)</stage>
+<sp><speaker>
+Miss Jane</speaker>
+<stage>(Seeing Gon. and Rod)</stage>
+<p>Why, when did you two start out as plumbers?</p></sp>
+
+<sp><speaker>Gon.</speaker>
+<p>We&apos;re not plumbers, we&apos;re executioners. We know nothing about
+the business, it was influence and this is a political appointment.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>You look like you belong to the Black legion!
+</p></sp>
+
+<sp><speaker>Rod</speaker>
+<p>We&apos;re amateurs at this rope business, but we&apos;ll soon get the 
+hang of it!
+</p></sp>
+
+<stage>(Exit Roderigo)</stage>
+
+<sp><speaker>Jane</speaker>
+<p>Has the court sent for you?
+</p></sp>
+
+<sp><speaker>Gon.</speaker>
+<p>It has. We shall shortly fill our first order.
+</p></sp>
+
+<pb/>
+<stage>
+NOTE: (If you do not wish to do the song "We Won&apos;t
+Be Happy till he gets it". And you have no
+number to replace this, here is the lyrics
+of a song which could be set to music, and
+beginning with 3-8 dialogue would run:)
+</stage>
+<sp><speaker>Jane</speaker>
+<p>It will be Alan. But you will be cursed if you do anything
+to hurt him.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Cursed? Lady, we&apos;ve been cursed by hard luck all our lives.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>You don&apos;t know what hard luck is. I think one of my
+ancestors must have been Calamity Jane!
+</p></sp>
+<stage>
+SONG:
+Gonzorgo, Roderigo, and Jane
+</stage>
+<stage>
+<hi rend="underline">"MEET ME ON THE HARD LUCK MOON".</hi>
+</stage>
+<sp><speaker>Gonzorgo</speaker>
+<p>Oh, ever since I was a kid no matter what I said or did,
+You&apos;d always find me in an awful boat,
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>And every photograph of me off in the background you would see
+Somebody always leading off my goat.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>I&apos;m great big mister easy mark, and life for me has been no lark
+I&apos;m quite unhappy, sad as I can be.
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Good luck for me has been real slow, and I have had my share of woe,
+Just like an undertaker&apos;s jubilee.
+</p></sp>
+<sp>
+<speaker>
+Chorus:
+</speaker>
+<lg>
+<l>Meet me under the <hi rend="underline">hard luck</hi> moon,</l>
+<l>Down by the lemon tree.</l>
+<l>Where the blackbirds keep on singing,</l>
+<l>Hoodoo songs off key.</l>
+<l>Where skies are blue,</l>
+<l>And breezes sigh,</l>
+<l>In such a mournful tune,</l>
+<l>We&apos;ll have a grand old kill-joy time,</l>
+<l>Under the hard luck moon.</l>
+</lg>
+</sp>
+<stage>(All three dance with ENSEMBLE.)</stage>
+
+<pb/>
+
+<sp><speaker>Jane</speaker>
+<p>It will be Alan. Boys and girls, this coward will kill Alan.
+Don&apos;t let him.
+<stage>(Pipers threaten Gonzorgo)</stage>
+</p></sp>
+
+<sp><speaker>Simon</speaker>
+<p>We won&apos;t. We will never let you live to do this.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Young man, don&apos;t you dare lay hands on an officer of the law!
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Prepare a chair for him.
+<stage>(Gonzorgo is placed on high chair)</stage>
+We are going to make it warm for you.
+</p></sp>
+<stage>
+Song: NUMBER:<lb/>
+
+<hi rend="underline">"HE WON&apos;T BE HAPPY TILL HE GETS IT."</hi>
+<lb/>
+(With possible Specialty of Gon, Rod.
+and Jane.)</stage>
+
+<stage>(Jane and Pipers with Chorus. All exit at the end of Number)</stage>
+
+<stage>(Enter Barnaby followed by Mary)</stage>
+
+<sp><speaker>Barnaby</speaker>
+<p>Now, Mrs. Barnaby, we&apos;ll hear your sweetheart&apos;s sentence.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>I&apos;ve just heard mine.
+<stage>(ENTER ALAN with crowd. Enter TOM TOM on stage of house)</stage>
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<stage>(Reading from document)</stage><p>
+Hear ye! Hear ye! The Court Royal herewith finds the outlaw,
+Alan, guilty of the Master Toymaker&apos;s death and orders that he
+be executed in the manner prescribed by law, when found....
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>I&apos;ll do my duty as a good citizen and a relative as well.
+There is the criminal!
+</p></sp>
+
+<stage>(Tears whiskers from Alan&apos;s face. A general start and
+exclamation)</stage>
+
+<sp><speaker>Alan</speaker>
+<p>Who is this villain?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Barnaby</speaker>
+<p>Your unhappy uncle! Take him, he has disgraced me enough.
+Now, let the sentence be carried out.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Wait!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Yes, wait!</p>
+<stage>(To Barnaby)</stage>
+<p>You give me back my whiskers!</p>
+<stage>(Tries to seize them)</stage>
+</sp>
+
+<sp><speaker>Tom</speaker>
+<stage>(Reads)</stage><p>
+I have not finished. He shall be executed in the manner prescribed
+by the law when found--unless he takes advantage of the
+law which gives every condemned man the right to plead the
+benefit of widow."
+</p></sp>
+
+<sp><speaker>
+Mary and Alan</speaker>
+<p>
+The benefit of widow?
+</p></sp>
+<sp><speaker>Tom</speaker>
+<p>An ancient law of Toyland, meant to assist deserving class of
+subjects.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>What is the benefit of widow?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Any widow, may claim a condemned man for her second husband,
+and he shall be free as long as he supports said widow and
+saves her from becoming a charge upon the state.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>And may the victim choose the widow?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Some have preferred the gallows. Do you claim the benefit?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<stage>(Moves toward Mary)</stage><p>
+No, I&apos;ll die rather than marry anybody but Contrary Mary.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<stage>(Grinning)</stage><p>
+If you mean Mrs. Barnaby, you&apos;re a little bit late.
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Alan</speaker>
+<stage>(Astonished)</stage><p>
+You? Mrs. Barnaby?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Alan, he recognized you, but he swore to let you escape if I
+married him at once!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I&apos;ll plead that benefit. Bring on your widows. I&apos;ll marry and
+live!
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Let the court heralds summon the widows of our city.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<stage>(To Alan)</stage><p>
+Courage, somebody will surely choose you.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>It&apos;s so undignified. I feel like a prize at a grab bag party.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Don&apos;t despair, old man, some widow will surely find you
+worth taking.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<stage>(Indignantly)</stage><p>
+You needn&apos;t speak of him as though he were a marked down
+remnant.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>To think that we&apos;re parted forever!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Not forever.
+<stage>(Looking at Barnaby)</stage>
+The joyful day may soon arrive when they&apos;ll expect me to
+wear crape for that!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>A joyful day indeed! I&apos;ll ride with you in the first carriage,
+and on the way to the cemetary I&apos;ll propose to you!
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Then here&apos;s where I give up smoking and go in for physical
+culture. As soon as I&apos;ve engaged places on the coach, my
+dear, we&apos;ll depart upon our honeymoon.
+<stage>(EXITS L. chuckling)</stage>
+Remember, the sentence will be carried out if a widow does
+not choose you in fifteen minutes.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Don&apos;t worry. I&apos;m liable to be killed in the rush! <stage>(EXIT CHORUS)</stage>
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Tom</speaker>
+<p>I&apos;ll hurry them along.
+<stage>(EXITS UP R)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>All right. Tell the widows I&apos;m the latest thing in imported
+husbands!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Alan, will you do me a teeny-weeny favor? As you&apos;ve got to
+marry in order to live, I wish you&apos;d marry to please me.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>How can I marry somebody else to please you?
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Don&apos;t marry anybody who&apos;ll make you forget me.
+</p></sp>
+<stage>
+<hi rend="underline">SONG. NO.</hi>
+</stage>
+<stage>(If required)</stage>
+
+<stage>(If used or not used then continue)</stage>
+
+<sp><speaker>Mary</speaker>
+<p>But remember, if a dashing widow should claim you,
+don&apos;t accept.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>No.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>But if one with a bad temper, and a squeaky voice should claim
+you, it would make me feel very restful.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>How about me, I need a little rest myself.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Every time you looked at her, I know you&apos;d think of me!
+</p></sp>
+
+<stage>(TOM TOM ENTERS RIGHT)</stage>
+
+<sp><speaker>Tom</speaker>
+<p>The merry widows are here, although they are not all so merry.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Are they pretty?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>They&apos;re a group of dreams.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>I&apos;ll leave you. Remember, nothing attractive, nothing that will
+take me from your thoughts! For one second.
+<stage>(EXITS L)</stage>
+</p></sp>
+
+<pb/>
+
+<stage>(To a strain of MUSIC the WIDOWS ENTER.)</stage>
+
+<sp><speaker>Tom</speaker>
+<p>Here they are, my boy! Now turn on your best personality.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>If they&apos;re going to propose to me, I won&apos;t know what to say,
+except this is all so sudden.
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Don&apos;t hesitate, girls. The one who speaks first gets him.
+<stage>(Xes into Courthouse.)</stage>
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Well, ladies, the auction bargain sale is going to begin. Here
+I am, the answer to any widow&apos;s prayer. Will anyone start off
+the bidding.
+<stage>(Turns to first.)</stage>
+How about you, lady?
+</p></sp>
+<sp><speaker>
+1st Widow Woman</speaker><p>
+Do you think that all marriages are happy?
+</p></sp>
+<sp><speaker>Alan</speaker>
+<p>All marriages are happy, it&apos;s the living together after
+marriage that causes all the trouble.
+</p></sp>
+<sp><speaker>
+1st Widow</speaker><p>
+Before we were married, my husband said he would die for me.
+And after marriage he was kind enough to do it!</p>
+</sp>
+<sp><speaker>Alan</speaker>
+<p>Ah! Lady Dracula speaking! I hope I don&apos;t get an offer from
+you.
+</p></sp>
+<sp><speaker>
+2nd Widow</speaker>
+<p>
+My next husband must be strong, silent, full of grit,
+-- able to bear the burden of the day! He will not hear a 
+word said about me, and he will utter no unkind word.
+</p></sp>
+<sp><speaker>Alan</speaker>
+<p>What you want is a deaf and dumb coal heaver!
+</p></sp>
+
+<sp><speaker>3d Widow</speaker>
+<p>When I was married I didn&apos;t do as well as I expected.
+And to tell you the truth I don&apos;t think he did either.
+I&apos;ve been married twice, but I think every widow&apos;s entitled
+to her third.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I think you&apos;re frank anyway, and you seem to have an even temper.
+</p></sp>
+
+<sp><speaker>3d Widow</speaker>
+<p>Yes, my temper&apos;s even, always the same --very nasty!
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Alan</speaker>
+<p>I believe you&apos;re deliberately falsifying it. How did your last
+husband happen to die?--
+</p></sp>
+
+<sp><speaker>3rd Widow</speaker>
+<p>
+Oh, I suppose he thought it was the best way out!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I hope you don&apos;t claim me.
+<stage>(Turns to 4th)</stage>
+How about you, lady?
+</p></sp>
+<sp><speaker>
+4th Widow</speaker><p>
+The first month I was married, we lived in a bungalow, called
+"Ye Lovey Dovey Cot"
+</p></sp>
+<sp><speaker>Alan</speaker>
+<p>I suppose you changed that afterward to "Ye Battling Arena".
+</p></sp>
+<sp><speaker>
+5th Widow</speaker><p>
+My husband was a dentist with a sense of humor. But he
+pulled too many good ones.
+</p></sp>
+<sp><speaker>Alan</speaker>
+<p>He must have been very easily tickled.
+</p></sp>
+
+<sp><speaker>
+5th Widow</speaker><p>
+Yes, he was so ticklish, he couldn&apos;t touch his ribs - he had
+to have them dry-cleaned. But he left me a large fortune.
+</p></sp>
+<sp><speaker>Alan</speaker>
+<p>Step into my office, I want to talk to you.
+<stage>(Takes her aside.)</stage> <stage>(Converses pantomine)</stage>
+</p>
+
+<stage>(Widows surround Alan, and he walks to steps, they follow
+him)</stage>
+<p>
+I&apos;ll take all your offers into consideration.
+And you may hear from me later. -- But I doubt it.
+<stage>(EXITS into court house)</stage>
+</p></sp>
+<sp>
+<speaker>1st Widow</speaker>
+<p>The trouble with you merry widows is, you make love in
+slow waltz time. You&apos;d better all pop up and start to
+swing.</p>
+</sp>
+<stage>
+DANCE NUMBER
+BY MERRY WIDOWS.
+</stage>
+<stage>(THE MERRY WIDOW WALTZ played in swing-time)</stage>
+
+<stage>(This was done by Abe Lyman and Paul Whiteman and is
+very effective)</stage>
+
+<stage>(They dance to an exit)</stage>
+
+<pb/>
+
+<stage>(TOM TOM ENTERS followed by Alan from court house)</stage>
+
+<sp><speaker>Tom</speaker>
+<p>Gone! Alan, the widows have gone without claiming you!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Guess I didn&apos;t appear to be as advertised.
+<stage>(Gonzorgo and Roderigo enter up L)</stage>
+</p></sp>
+
+<sp><speaker>Gon.</speaker>
+<stage>(With pincers)</stage><p>
+Shall we proceed?
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Wait till I return. There&apos;s one more chance!
+<stage>(EXIT up R)</stage>
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<stage>(To Roderigo)</stage><p> <stage>(Aside)</stage>
+I wonder if he&apos;ll help us.
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>Try him.
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<stage>(To Alan)</stage><p>
+We&apos;re in a very embarrassing position.
+</p></sp>
+
+<sp><speaker>Roderigo</speaker>
+<p>And you only can save us from becoming perfectly ridiculous.
+When we start to execute you, everybody is liable to laugh
+at us.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I won&apos;t!
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>If they find we&apos;re not regular executioners, we&apos;ll lose the
+job.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>How can I help you?
+</p></sp>
+
+<sp><speaker>Gonzorgo</speaker>
+<p>Since you&apos;ve got to leave this cold, hard world, will you
+allow us to send you our way?
+<stage>(Touching warrant)</stage>
+It&apos;ll be so much pleasanter than this.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I&apos;ll go your way.
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Roderigo</speaker>
+<p>Wise boy. Now what would you like in the way of a farewell
+luncheon. It&apos;ll be your very last. Have anything you like.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>I&apos;d like a dish of strawberries.
+</p></sp>
+
+<sp><speaker>Rod.</speaker>
+<p>But strawberries won&apos;t be in season for 6 months!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>That&apos;s all right, I&apos;ll wait.
+</p></sp>
+
+<sp><speaker>Rod.</speaker>
+<p>No, now is your time. But I can give you a glass of strawberry
+wine.
+</p></sp>
+
+<sp><speaker>Gon.</speaker>
+<p>With a dash of this in it.
+</p></sp>
+
+<stage>(Shows black phial)</stage>
+
+<sp><speaker>Alan</speaker>
+<stage>(Taking phial)</stage><p>
+Why, it&apos;s poison!
+</p></sp>
+
+<sp><speaker>Rod.</speaker>
+<p>Four drops of that in your wine...
+</p></sp>
+
+<sp><speaker>Gon.</speaker>
+<p>Just before you start for the scafford...
+</p></sp>
+
+<sp><speaker>Rod.</speaker>
+<p>And you&apos;ll go into a dreadless sleep.
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Go ahead! I haven&apos;t anything to lose. Except my life.
+<stage>(JUDGES, Attendants, widows chorus enter. Jane also)</stage>
+</p></sp>
+
+<sp><speaker>Jane</speaker>
+<p>Alan, are you living yet?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Yes, but in a few minutes, I will be not yet.
+<stage>(TOM TOM ENTERS UP R. with WIDOW PIPER)</stage>
+</p></sp>
+
+<sp><speaker>Tom</speaker>
+<p>Stop! Here&apos;s another widow! Mother, make Alan our step-father
+and save his life!
+</p></sp>
+<sp><speaker>
+Piper Children</speaker>
+<p>
+Go ahead ma!
+</p></sp>
+<pb/>
+<sp><speaker>
+Widow Piper</speaker><p>
+I can&apos;t. It&apos;s too late. I&apos;m married.
+</p></sp>
+<sp><speaker>Tom</speaker>
+<p>Married? You said you&apos;d never marry anybody but a hare!
+</p></sp>
+
+<stage>(ENTER MARMADUKE. HE GOES TO WIDOW)</stage>
+
+<sp><speaker>Widow</speaker>
+<p>And here he is!
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>And what made him a hare?
+</p></sp>
+
+<sp><speaker>Widow</speaker>
+<p>He dined at a night club, and he dared to go
+without tipping the waiter.
+<stage>(BARNABY enters)</stage>
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Now, Mary my dear--what&apos;s this?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>The end of your nephew.
+</p></sp>
+
+<sp><speaker>Barnaby</speaker>
+<p>Too bad, too bad. I&apos;m very sorry.
+<stage>(ALL turn away from him)</stage>
+It was my duty. I had to do it. I really had to...Such
+treatment is hard to bear...
+<stage>(His eyes fall on the tray with the wine glass)</stage>
+Without help. At such a time as this I need encouragement.
+<stage>(Taking glass, drains it)</stage>
+Oh! Oh!
+</p></sp>
+
+<stage>(ALL turn. HE falls into the arms of Gonzrgo and Roderigo...
+who carry him off stage)</stage>
+
+<sp><speaker>All</speaker>
+<p>What&apos;s the matter?
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>He has drunk the wine that was intended for me.
+</p></sp>
+
+<stage>(TOM TOM ENTERS)</stage>
+
+<sp><speaker>Tom</speaker>
+<p>Mrs. Barnaby you&apos;re a widow!
+</p></sp>
+
+<sp><speaker>All</speaker>
+<p>A widow?
+</p></sp>
+
+<pb/>
+
+<sp><speaker>Tom</speaker>
+<p>Excessive grief has taken Uncle Barnaby from us.
+</p></sp>
+
+<sp><speaker>Mary</speaker>
+<p>Then Alan is saved! I am a widow, and under your laws I claim
+him as my husband!
+</p></sp>
+
+<sp><speaker>Alan</speaker>
+<p>Mary!
+</p></sp>
+<stage>
+FINALE.
+</stage>
+<stage>
+END OF PLAY.
+</stage>
+</div></div></body></text></TEI>
+
+
+
+
+
+
+
+
+
