@@ -1,0 +1,2384 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="drama.xsl"?>
+
+<!DOCTYPE TEI SYSTEM "tei_drama.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Trip to Chinatown</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>New York Public Library for the Performing Arts</publisher>
+                <pubPlace>New York City</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>A Trip to Chinatown</title>
+                    <author>Charles Hoyt</author>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <titlePart>
+                    <title>"A TRIP TO CHINATOWN"<lb/>
+								-: OR :-<lb/>
+							"AN IDYL OF SAN FRANCISCO"</title>
+                 </titlePart>
+                 <docAuthor>   
+				
+-: BY :-<lb/>
+CHAS. H. HOTT.
+
+</docAuthor>
+</titlePage>
+</front>
+<body>
+<div type="act" n="1">
+
+<pb/>
+
+<head><hi rend="underline">ACT. 1st.</hi></head>
+
+<stage>(Scene drawing room in Sen Gay's house)</stage>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Mr. R. Gay! I haven't a doubt that it's an R. and it's
+meant for Mr. Rashleigh. Besides it's from a lady; The
+shape, the perfume <stage>(Smelling)</stage> the hand writing all prove
+it to be from a lady and the old gentleman never receives
+notes from ladies. There's no doubt in my mind it's for
+Rashleigh. Still the R. looks enough like a B., I think
+to warrant me in giving it to Uncle Ben; he'll open it
+and hope find out from it, how the young man is going on.
+I'll give it to the old man.</p> <stage>(Enter Wilder)</stage></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Noah, has Mr. Rashleigh come in!</p></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p><stage>(R.)</stage> No Mr. Daly.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>When do you expect him!</p></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>I don't expect him sir; I would not dare take the liberty
+of expecting him sir. I know my place sir. </p><stage>(Enter Rash.)</stage></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Hullo Wilder old man you hero. I was over at your house
+looking for you.</p></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>Is anything required of me!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Yes; get out!</p> <stage>(Exit Noah)</stage></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Now Rash. You know the masquerade ball tonight; well</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>I know I'm going to be there.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Yes; but the girls are going. Flirt is up in Tony's room
+now; the scheme's all fixed.</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>They going! Why how! I can get out, but Uncle Ben'll
+never let Tony out
+<pb/>
+and your father'll never let Flirt go.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>To the ball! No! But we're not supposed to be going there.
+We have got permission to go on a night tour of Chinatown.
+That will account for our being out late; well,
+instead of going to Chinatown, we all meet at the Riche,
+have a jolly supper; our masks will be sent there we'll
+put them on and go to the ball. Being en masque nobody'll
+know us and when we get home the old folks will never
+suspect we haven't been to Chinatown. See!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>That's all very well; if it works. How did
+Flirt get your father to consent to her going to
+Chinatown!</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Oh he consented when Mrs. Guyer said she'd go as Chaperone.
+Didn't you get a note from her telling you all about it!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>No; did she send me one!</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Yes; sent it by messenger from our house.</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>I never got it, very strange!</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Now does it all go!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Why yes; if Uncle Ben will consent to Tony's going
+through Chinatown.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Leave the girls to coax him.</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>But say; if the widow's going along, we'll need a third
+fellow to balance the party. You bet she doesn't go
+without a fellow all to herself.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>The widow! Well hardly! She's the one who got up this
+whole scheme my boy! The trip to Chinatown story and
+all; and you bet she's taken care the party isn't short
+on men. She's got Towne Painter to go as Flirt's escort
+<pb/>
+so you can devote yourself entirely to the window.</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Well that suits me! The widow's more fun than any girl I
+know. Say Wilder I don't believe a woman is ever at
+her best till she becomes a widow.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>The boys all seem to think she's in her prime anyway.
+That's a great song Billy Barker wrote and dedicated to
+her.</p></sp> <stage>(Starts song- Duet: Rash &amp; Wilder)</stage>
+
+<stage>(Voices heard outside)</stage>
+
+<sp><speaker>WILDER.</speaker>
+<p>It's the girls and your Uncle. </p><stage>(Enter Ben Flirt and Tony)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>I don't care if night trips to Chinatown are the fashion
+I say no!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>But Uncle I've lived here in San Francisco all my life
+and have never been through the China quarter and this
+is such a good chance; we'll have a whole party together
+and of course a policeman. And we'll ask Mrs. Guyer to
+Chaperone us.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>I don't see that she'd make any difference.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Why she's a widow.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Yes and is always sniveling about it. Why doesn't she get
+married again? I suppose because no man's fool enough to
+yield to her blendishments. I know I wouldn't.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>But if she goes-</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>She goes alone! I won't have you out all night chasing
+through Chinatown. That settles it.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p><stage>(Bursts into tears)</stage> I think you're just as mean as you
+can be.</p> <stage>(Exits crying)</stage></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p><stage>(Crying)</stage>
+Poor Tony!</p>
+<stage>(Exits crying.)</stage></sp>
+<pb/>
+
+<sp><speaker>RASH.</speaker>
+<p>Come, Wilder! </p><stage>(They exeunt)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Now I'm an informal old beast, I suppose. Well I can't
+help it! They're my sister's children and I'll do my duty
+as their guardian if I earn their everlasting hatred.
+</p><stage>(Enter Noah with letter.)</stage></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>Letter left here for you sir by messenger boy. </p><stage>(Gives letter.)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p><stage>(Looks at it)</stage>
+For me!</p></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>Yes, sir. Anything I can do for you sir!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Yes. Go away. </p><stage>(Exit Noah)</stage> <p>Looks like a woman's letter.
+What woman would write to me? </p><stage>(Opens letter reads)</stage> 
+<p>"My
+dear old boy" <stage>(Look)</stage> You must take me to the grand
+masquerade ball, tonight. Even if I am in mourning I'm
+bound to go on the strict Q.T. and you are the only man
+I dare to trust. You get the masques- it wouldn't do for
+me to order them- meet at the Riche, don our masks
+and drive to the ball and nobody'll know anything about
+it. Don't fail for I'm dying of a good time. Yours-
+P.S. If you want to make it a party of four, I can bring
+Flirt.</p> <stage>(Speaks)</stage><p> Well I'll be ----- Well that letter's
+plain enough. These widows know what they want and are
+not afraid to declare themselves. But this to me- Why
+I know she's been running to the house to see Tony but I
+never suspected it was me she was after! Da-n bright woman
+that widow! I'll not disappoint her. But how can I
+stay out all night without the family knowing it? Change
+my mind. Let 'em go to Chinatown. By jove how lucky it
+comes.</p> <stage>(Orchestra begins)</stage> <p>There's that cursed street band;
+playing dance music too. That's suggestive. I hope I
+haven't forgotten how to shake my feet.</p> <stage>(Dance- at close
+enter four young people and catch him)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Why Uncle Ben!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>I was only thinking! I've turned matters over in my
+mind.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>I should think you must have with such violent exercise.</p></sp>
+<pb/>
+
+<sp><speaker>BEN.</speaker>
+<p>I've decided to let you go to Chinatown. It's highly
+proper that you should see it and see it thoroughly.
+Promise me you will go. Go early and stay late.</p></sp>
+
+<sp><speaker>All 4.</speaker>
+<p>We will!</p></sp> <stage>(Exit Ben R.)</stage>
+
+<sp><speaker>All 4.</speaker>
+<p>Well!</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>There's a change of mind for you. I wonder what did it!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>I don't know nor care. We go to the ball; that's the
+point!</p> <stage>(All burst into chorus during which Widow enters
+and goes to C.)</stage></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>And for it all you can thank me.</p></sp>
+
+<sp><speaker>2 GIRLS.</speaker>
+<p>Our Chaperone!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>That will do young ladies! Rashleigh why did you not
+answer my note!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Because I didn't get it.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Didn't get it! How stupid of you!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Oh I know what it said. And it's all right. So you can
+dispense with those black looks.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Not for 29 days. You must remember I'm a widow.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Still mourning for poor Jack.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Bitterly! I shall wear a black mask at the Ball. Wilder
+don't forget that in ordering the masks.</p></sp> <stage>(Enter Noah
+with letter)</stage>
+
+<sp><speaker>NOAH.</speaker>
+<p>Note for you, sir. <stage>(Gives letter)</stage> Can I oblige you, sir?</p></sp>
+<pb/>
+
+<sp><speaker>RASH.</speaker>
+<p>Yes! Go and hide yourself!</p> <stage>(Exit Noah)</stage><p> It's a note from
+Painter! </p><stage>(Reads)</stage><p> "Dear Rash: May be a little late, but
+will join you at the Riche. Will inquire for Mr. Gay's
+room. Wait for me! Yours Towne Painter" That settles it!
+Our party of six is complete! Of course we'll wait for him.
+You wouldn't care to go with the party one man short.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Care to! I just wouldn't!</p> <stage>(Enter Ben.)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Now Tony- Why Mrs. Guyer, good morning. How do you do.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p><stage>(Rather surprised)</stage> Good morning sir!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p><stage>(To himself)</stage> I see! Discretion!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Uncle she's going to Chaperone us!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Is she! That's nice! But if she changes her mind.</p> <stage>(Winking
+at widow)</stage> <p> You can go just the same.</p> <stage>(Aside)</stage><p>  She's
+throwing 'em off. Fly women! I must speak to her. </p><stage>(Aloud)</stage>
+<p> Tony, I want you four young people to get 'round the d---
+piano and sing me my favorite quartette</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Anything to oblige.</p> <stage>(The 4 gather 'round. Bus. at piano-)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Mrs. Guyer sit down <stage>(Seats her)</stage> <stage>(Aside to her)</stage> Of course
+you mean to keep your appointment tonight!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Most surely! Why!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Oh I shouldn't let the young folks go out only for that.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>You flatter me! <stage>(Aside)</stage> What ails the man!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>We can't find the quartette, but here's a quintette.
+Come Mrs. G help us out</p> <stage>(She goes to sing.)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p><stage>(Aside)</stage> Rats! I asked 'em to sing so I could talk to her.
+<pb/>
+Well I'll be----</p></sp>
+
+<stage>(Quintette-)</stage>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Does that satisfy your craving for music!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Entirely! I don't care if I never hear you sing again!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>That's nice! Now I must run home and get rested for
+night. Good bye all.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p><stage>(Opening portiers - aside to Widow)</stage> Everything O.K.!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>I hope so!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>You and I are all right, but no Flirt.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Certainly not. </p><stage>(Exit)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Young ladies there's a woman whose example you ought
+follow.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>You don't know how hard we try to, sir.</p> <stage>(Enter Noah with
+Telegram)</stage></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>Telegram sir! <stage>(Hands it)</stage> Any service I can perform sir!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Yes; leave the room! <stage>(Exit Noah)</stage> <stage>(Ben reads Tel.)</stage> "You
+will probably see me before this reaches you, for I am
+at Oakland will reach your house in an hour. Welland
+Strong" Well! I didn't expect him till tomorrow.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Who is he? A nice young fellow or an old codger like---
+oh lots of folks.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>He is a dying man: an old and deep boyhood friend of
+mine upon whom death has fixed its clutch. He comes
+here as my guest in the hope that our glorious climate
+<pb/>
+may prolong his existence. Poor fellow. He used to be the
+picture of health. I dread to see him hollow chested,
+cheeks hectic flushed and glassy eyed. And he my boyhood's
+dearest friend. Say he's liable to be here at any
+moment. We must <stage>(Rings)</stage> make ready to receive him. Get
+a lounge ready </p><stage>(Girls obey)</stage> <stage>(Enter Noah.)</stage></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>Did you ring!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Ring! I next thing to turned in a fire alarm. Get a glass
+of wine ready on this table. Bring fans and smelling
+salts. Have a man help you bring him from the carriage-</p>
+<stage>(Everybody bustling and when everything fixed)</stage> <p>He'll
+probably faint after his long journey. Now is everything
+ready?</p> <stage>(Enter Strong with Cat and Parrot.)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Ah, there! </p><stage>(All turn to him)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>What Welland Strong!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Yes! Welland Strong!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Why how do you do!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I may die before night!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Sit down! Here Noah! Take the gentleman's wraps! Have
+glass of wine! </p><stage>(Exit Noah with wraps.)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I will! Wine is harmful to me. It shortens my life.
+But I'll take it. </p></sp><stage>(Drinks)</stage>
+
+<sp><speaker>BEN.</speaker>
+<p>You don't look badly old man!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>No! That is one of the exasperating things about it.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Which lung is affected sir!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Neither. But the left one probably will be by
+<pb/>
+Saturday night.</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Do you cough much!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Not at all! That's a very serious feature. My malady is
+so deep seated that I can't bring the cough to the surface.
+But instead I felt a sensation which in a well man
+would be called a thirst for liquor.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>And what do the doctors say!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>>No two agree.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>And who shall decide when doctors disagree!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Usually the Coroner. Why I had seven of them. One fool
+said that nothing ailed me. Do you know the only man who
+really understood my case was a horse doctor. He said if
+I stayed in Seaton I'd die in sixty days. Out here I'd
+live two years if I obeyed certain rules. Here's the book
+of rules and it tells just how much I shorten my life
+each time I break one. That glass of wine shortened it
+10 hours.</p> <stage>(Enter Noah.)</stage></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>Shall I take the gentleman's game to his room, sir!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>He may as well.</p></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>Anything else I can do!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Yes; keep out! </p></sp><stage>(Exit Noah with pets.)</stage>
+
+<sp><speaker>STRONG.</speaker>
+<p>By the way. Can you give me the address of a good horse
+doctor!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Why yes. But hadn't you better see our family physician!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Oh no; he's no good! None of these M. D's are! They're
+<pb/>
+used to catering to their patients whims. Giving them
+what they want to take. A horse doctor don't try to
+please his patients. He gives them what they need. I'll
+never trust any but a horse doctor.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Well well! I'll see you have one. I know a man who cured
+my males of colic.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>That's the man I want. He'll keep me along, if any one
+can.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>What feature of our climate do you rely on to help you!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>The earthquakes!</p></sp>
+
+<sp><speaker>ALL.</speaker><p>
+Earthquakes!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Yes. They're very invigorating!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Have you ever seen an earthquake.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I was chased three miles by one once.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Now old man you've got two or three years anyhow and
+we'll try to make you comfortable. After dinner we'll sit
+down and talk over old times. </p><stage>(Aside)</stage><p> I forgot! I've
+got to be out tonight. What'll I do with him? </p><stage>(Aloud)</stage>
+<p>We'll have the house all to ourselves for the young
+people are going to see Chinatown by night. You'd enjoy
+it if you were only able to go with them.</p> <stage>(4tette look)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>But he isn't Uncle. It's a very fatiguing trip.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I don't know! I have sworn to see Chinatown; and fading
+daily as I am, I shall never again be so able as tonight.
+It will of course shorten my life, but I'll go if the
+young people will take me!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Why of course. Just delighted to have you go. Aren't
+you?</p></sp>
+<pb/>
+<sp><speaker>
+4TETTE.</speaker>
+<p>Oh yes!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Then I'll sacrifice <stage>(Looking at book)</stage> ten days of my
+life and go. </p></sp><stage>(Cats heard outside - Enter Noah all scratched)</stage>
+
+<sp><speaker>NOAH.</speaker>
+<p>Your cat's got at our cat sir. You'd better come sir!</p></sp>
+<stage>(Exit Strong and Ben excited)</stage> <stage>(Brief cat fight outside)</stage>
+<stage>(Four young people down C.)</stage>
+
+<sp><speaker>WILDER.</speaker>
+<p>D.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>'M----M </p><stage>(Movement of dash.)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>'M-----m </p><stage>(Same as Flirt.)</stage></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>This is a nice fix!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>We're dished on going to the ball and we've got to put
+in a night toting that old fool all over Chinatown.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>It's bad enough to lose the ball.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>But toting him 'round is such a cheerless task!</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>What's to be done!</p></sp>
+
+<sp><speaker>OMNES.</speaker>
+<p>Ask the widow. </p><stage>(Mrs. G. Entering.)</stage></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>What? How to get out of this new scrape.</p></sp>
+
+<sp><speaker>
+GIRLS.</speaker><p>
+You know---</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Just met your Uncle in the hall; he told me this Mr.
+Strong would go with us to Chinatown so I need have no
+compuctions about not going. And then he winked most
+mysteriously.</p></sp>
+<pb/>
+
+<sp><speaker>TONY.</speaker>
+<p>Uncle winked at you! I can't understand what he meant.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Neither can I; and I'm a widow.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>But this dying creature that's tricked upon me! What are
+we to do with him!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Take him along.</p></sp>
+
+<sp><speaker>All 4.</speaker>
+<p>To Chinatown!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>No. To the ball.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>
+But if we tell him where we're going he will go straight
+to Uncle with the story.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>But don't tell him where. He's going; just take him
+along.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>But when he comes home he'll tell on us.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Then he'll have to tell on himself too! I don't know
+this Mr. Strong, but if he isn't as deep in this scrape
+as we are, before we get home then-- May I always remain
+a widow.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>But he'll make a four men to three ladies. Some girl will
+have to manage two beaux.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>I think somebody will prove equal to that emergency!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>On the whole I'm rather glad he's going. We'll have a
+lot of fun with him.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>He's got an exciting evening in store for him. </p></sp><stage>(Strong
+enters.)</stage>
+<pb/>
+
+<sp><speaker>STRONG.</speaker>
+<p>The excitement of that cat fight has taken a week off
+my life.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Here he is. Oh Mr. Strong, I want to introduce you to
+our charming young widow Mrs. Guyer.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p><stage>(Courtseys)</stage> I am honored!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p><stage>(Pathetically)</stage> A widow and a woman.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Those affiliations usually go together.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>How pathetic! In the flower of youth to be bereft of
+sweet companionship. To be doomed henceforth forever
+to tread life's pathway inaided and alone.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Ye-yes. But say! There's no law against her marrying
+again.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Well, if I left a widow-----</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>You'd be just pig enough to want her to stay one. That's
+a man. He thinks it a slur on him for his widow to marry.
+Nothing of the sort. It's a compliment. Shows he made 
+married life so happy that she wants more of it.</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>When I marry I think I shall marry a widow.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Oh Rashleigh! Why!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>I'm too lazy to do any of the courting myself.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>We will change the subject. Mr. Strong is your visit to
+San Francisco for pleasure!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I came here to die.</p></sp>
+<pb/>
+
+<sp><speaker>WIDOW.</speaker>
+<p>To die!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Yes! It's a sure thing. The remedy I am taking for my
+lung trouble contains dynamite. If the disease conquers
+the remedy. I die of the disease; if the remedy conquers
+the disease I shall be so full of dynamite eventually
+that I'll go off bang! <stage>(Widow startled)</stage> like a torpedo
+dropped from a roof on a policeman's head. Think,
+I may suddenly vanish with a loud report <stage>(Widow screams)</stage>
+before your eyes <stage>(Widow screams)</stage> And it may happen at
+any moment! Now!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<stage>(Shrieks wildly and faints in chair)</stage>
+</sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Great Heavens! She's fainted! Send for a horse doctor!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p><stage>(Springing up and glancing at him)</stage> What!!</p></sp>
+
+<stage>-: CURTAIN :-</stage>
+<pb/>
+</div>
+<div type="act" n="2">
+<head>
+<hi rend="underline">ACT. 2nd.</hi>
+</head>
+<stage>(Private supper room at Right - Slavin discovered.)</stage>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Mr. Rashleigh Gay's party of six. Well that means up all
+night for me and plenty of wine on ice; but it also means
+$5. for a tip. Mr. Gay may sometimes forget some of the
+commandments but he always remembers the waiter. He'll
+go to heaven.</p> <stage>(Voices outside)</stage> <p>Here they are. </p><stage>(Open door
+C.)</stage> <p>Right this way, Mr. Gay. This is your room. </p><stage>(Enter
+3 ladies, Rash, &amp; Wilder.)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Number 10; with a piano I'm glad we've got that!</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>But what's that orchestra!</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>They have one play every night in this restaurant from
+8 to 12.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>The ladies dressing room is there <stage>(R.U.E.)</stage> the
+gentlemen's here. <stage>(L.U.E.)</stage> The dresses are in the rooms.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Let's go and get dressed at once, while they're getting
+supper so we'll lose no time. Come on Tony. </p><stage>(Exit Tony and
+FLIRT R.U.E.)</stage></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p><stage>(To Widow)</stage> What shall we order for supper!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Oh some Pommery. </p><stage>(Exit R.U.E.)</stage></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Mr. Painter's not here yet!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>No, sir.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>We'll have to wait for him, he's got our tickets to
+the ball.</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Couldn't we buy others?</p></sp>
+<pb/>
+
+<sp><speaker>WILDER.</speaker>
+<p>No; none are sold at the door. So we've got to wait for
+him. We'll go ahead with supper, tho' Sa- Say! Where's
+our dying companion! Strong!</p> <stage>(Enter Strong.)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Here I am!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>What's happened!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>The hackman said $5. I said $2.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>What did you agree upon!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Five. Tell me! Do we stop here long!</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Our friend Mr. Painter who is to meet us here hasn't arrived
+and he has the tickets s----</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Tickets! For Chinatown!</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Ye-yes; of course!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Oh you're not let into Chinatown without tickers. <stage>(To
+Slavin)</stage> Isn't that so!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Yes sir. Fifty cents please.</p> <stage>(Rash gives him coin.)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Supper! <stage>(Consulting book)</stage> Eating at night shortens my life
+ten days!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Well you can sit and see us eat.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>You're very kind. But I'll not impose upon your courtesy.
+Lend me a pencil till I put down </p><stage>(Writes)</stage> <p>"Late supper
+ten days off." What's ten days life to me! Here waiter,
+my coat and hat.</p> <stage>(Exit Slavin C. with wraps.)</stage></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Now Rash we must be getting dressed. But say; We haven't
+<pb/>
+ordered the supper.</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>That's so, Mr. Strong, what would you like? Won't you
+give us the order!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I fear the taste of a dying man may not exactly suit
+your fancies.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>I don't know. I never tasted one. But you go ahead and
+order the supper. </p><stage>(Rash and Wilder to L.U.E.)</stage></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>The wines we get out here are harmless. </p><stage>(Exeunt two boys
+L.U.E.)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I don't quite understand all this! <stage>(Enter Slavin C.)</stage>
+Oh, waiter! I hope you were careful of my coat -- there
+was a large bottle of medicine in each pocket.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Yes, sir!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>If the medicine got mixed they would explode.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Why didn't you say so before.</p> <stage>(Grabs caraffe and drinks)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Waiter. I will order the supper. Give us etc. </p><stage>(Pantomine
+bus. &amp; order)</stage><p> And waiter could you give me a glass of
+Whale's milk.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Whale's milk!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Yes; my doctor recommends it.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Well you tell him to go milk a whale and get you some.
+It ain't on our bill of fare.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Too bad. Say Waiter. Will you do me a favor. There's a
+porus plaster between my shoulders that's driving me
+crazy. Will you kindly reach down my back and pull it
+off.</p></sp>
+<pb/>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Certainly sir. <stage>(Puts hand down Strong's back)</stage> How do you
+like your agony, sir.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Take it slow there's not a bit of hurry.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>I know sir. A hair's breadth at a time. I won't hurt you
+sir.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Easy! Easy! </p><stage>(Bell rings in office- Slavin bolts for door
+R.1.E taking porus plaster with him- leaves Strong
+quivering with pain- looks at annunciator)</stage> <p>He took skin
+and all.</p> <stage>(Enter Slavin with plaster stuck to fingers.)</stage></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>I'll swear I heard a bell ring. Didn't you? </p><stage>(Bus. with
+plaster.)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>No sir! I wasn't listening for bells. </p><stage>(Slavin bothered
+by plaster)</stage></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Here's your plaster sir!</p> <stage>(Given plaster to Strong- it
+sticks to Strong's hands)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I don't want it. I never save these things as souveniers.
+You throw it out!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Excuse me! I've got to get supper </p><stage>(Exit C. and re-enter
+door C. in R. room- office)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<stage>(Bus. with porus plaster- gets bodily snuck up with it and
+in desperation exits C. calling)</stage> <p>Waiter! Waiter!</p></sp>
+<stage>(Meantime Slavin has gone behind office desk- Enter Office
+Ben.)</stage>
+
+<sp><speaker>BEN.</speaker>
+<p>Has a lady been here inquiring for Mr. Gay!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>No, sir!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Just in time. Show me to a private supper room for two.</p></sp>
+<pb/>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Certainly sir! This way. <stage>(Exit door from office both)</stage></p></sp>
+<stage>(Enter Widow L.U.E. Hamlet dress.)</stage>
+
+<sp><speaker>WIDOW.</speaker>
+<p>It seems I am to go to the ball in the guise of a man.
+I was forced to it. A man among the women! Well that's
+what I always wanted to be! What sort of a fellow
+shall I be to catch the girls? The very English young
+man: Good morning dear boy: awfully pleased, awfuly!
+Beastly weather this- in London you know- come 'round to
+the Club old Cappie, have a brandy and soda, we've new
+windows in our Club now. Special glass, magnificent fog
+effect. Brightest day make you feel right at home in
+London, dear boy." And there's the young freshman in College:
+We boys ha ha ha, have lots of ha ha, fun. We've
+had a cow in the ha ha president's chair twice and haha!
+We've had a can-rush ha ha ha and three men had cones
+broken and it was lots of fun and ha ha ha let's waltz-
+What, engaged for the next and all the rest and
+here comes Mr. Winner. Yes he's a senior and I'll have to
+excuse you! Oh! Or I might be one of those dear delightful
+toughs: Soy dere sia come and do a turn. What's dat.
+Engage! be blowed. If he says a word I'll throw him out
+see? But I guess I'll do best as just the average young
+man right up to date.</p> <stage>(Song &amp; dance and exit R.U.E.)</stage></sp>
+
+<stage>(Ben and Slavin enter Room L.)</stage>
+
+<sp><speaker>BEN.</speaker>
+<p>This will do. When the lady calls show her right in. And
+say, You'd better have supper all ready. I
+shan't have to wait long for her.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Yes sir! Champagne and what else sir!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>The best of everything. A corking supper my boy. Nothing
+too good.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Yes sir. Like to look at the evening paper sir!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>No. No paper for me! </p><stage>(Exit Slavin)</stage><p> I'll just sit and think
+of what a lucky dog I am. I wonder how Strong's enjoying
+Chinatown. </p><stage>(Sits smokes -- Enter Widow and two girls R.U.E.)</stage></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>I think you are very unkind girls to make any such remarks,
+you know I won't be out of mourning for 29 days
+<pb/>
+yet and it's the only black dress of the lot.</p> <stage>(Strong
+enters C. sees Widow exit C. and coughs outside.)</stage></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Here comes Mr. Strong! I- I- Where's my mask! </p><stage>(Dons mask)</stage>
+<p>Now to win him over to our frolic. I wonder if he's got 
+a mash.</p> <stage>(Strong looks C.)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>May I come in!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Certainly. Mr. Strong I want to ask you a question. Are
+you stuck!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Not now!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>But you have been!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>That waiter told her! <stage>(Aloud)</stage> yes!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>And you may be again someday.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Not if I know it! </p><stage>(Enter two girls in costume R.U.E.)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Will these do? <stage>(See Strong)</stage> Oh!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Bless my soul! What does all this mean!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Girls, we may as well throw aside all attempt at concealment.
+<stage>(Strong turns to go)</stage> Mr. Strong <stage>(Removing mask)</stage>
+We are not going to Chinatown. We are going to the
+masquerade! We expect you to go with us; to join in the
+fun with us and when we go home we rely on your sense of
+honor to swear that we've been to Chinatown!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>But my dear---</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Swear as an honest man that you will do this.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>But I don't think your Uncle would deceive me </p><stage>(2 girls
+<pb/>
+offer him glass of wine.)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>I wonder what Strong would say if he knew I was here.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Swear it!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I do!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Ah! I knew he was a thoroughbred!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Say! Come to think of it, it's a mighty good joke on the
+old fellow.</p> <stage>(Laughs)</stage> <p>One moment.</p> <stage>(Produces book) </stage><p>This means
+two weeks more off of my life. But let her rip. </p><stage>(Enter
+two boys L.U.E.)</stage></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Are you dressed at last!</p></sp>
+
+<sp><speaker>
+BASH.</speaker>
+<p>We are! Now for the supper and then we're ready to start.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Mr. Strong perhaps we ought to explain.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>It might be as well, but if you've got a really good
+lie fixed up for me I don't mind hearing it.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>He knows and he's with us.</p></sp>
+
+<sp><speaker>
+2 Y. MEN.</speaker>
+<p>
+He is! Good boy!</p>
+ <stage>(One on each side of him and sing)</stage> 
+ <p>We'll
+show you Frisco </p><stage>(One of each side of him and sing "Out for
+a Rackett"- Girls in between them and all repeat it-
+touch and go on stage)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p><stage>(Looks at watch)</stage> Ten minutes of ten! By jingo one ought
+to be here. It's prolonging the agony. <stage>(Rings enter
+Slavin)</stage> Waiter are you sure the lady hasn't called!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Sure, sir! Supper's ready to serve when you want it.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>I don't want it till she gets here. She can't be long now.</p></sp>
+<pb/>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Patience is a great thing in these cases sir. Don't you
+want the evening paper, sir!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>No, no! I didn't come here to read the evening paper.
+Bring me a cocktail </p><stage>(Exit Slavin.)</stage></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Say, let's not wait supper for Mr. Painter, I'm starved.</p></sp>
+<stage>(Enter Waiter C. with tray)</stage>
+
+<sp><speaker>RASH.</speaker>
+<p>Waiter you can bring the supper. </p><stage>(Music begins)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>There's the orchestra. Say we're losing time! What's the 
+matter with dining right here.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>That's so! Come on! Mr. Strong you'll dance.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>If you can hear the spectacle of a man with one foot in
+the grave trying to be merry with the other I'll do my
+best.</p></sp>
+<stage>(Minuet- to finish it waiter who has been setting table
+drop tray Strong falls in choir - Slavin exits C.)</stage>
+
+<sp><speaker>STRONG.</speaker>
+<p>There goes that lung!</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Why no! The waiter dropped a tray of dishes!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I thought that lung had busted sure. It's likely to at
+any minute.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Some pack of hoodlums in that next room! By jove this
+is getting monotonous.</p> <stage>(Enter waiter with four cocktails)</stage></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>You didn't say what kind of a cocktail, so I brought 4.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>You know your business.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>I can take three of them back.</p></sp>
+<pb/>
+
+<sp><speaker>BEN.</speaker>
+<p>Over my dead body. </p><stage>(Takes tray)</stage></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Hadn't you better look at the evening paper, sir!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>No, sir! I had not! </p><stage>(Exit Slavin)</stage> <stage>(The four men about
+widow R.U.E. Tony and Flirt alone down L.)</stage></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Will you look at that!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Excuse me! I'd rather not see it!</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>I don't know why men go so crazy over widows! It's
+enough to drive one--</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>To marrying some man and then poisoning him. This man
+Strong's only going to live two years. I've a mind to
+make love to him. With what I'd keep him out nights I
+think I could shorten his existence to six months.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>She's doing her duty as chaperone. Taking care we don't
+get familiar with the gentlemen.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Yes; and taking great satisfaction in it. I can see she's
+laughing at me!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>I vow I'll break it up. </p><stage>(Aloud)</stage> <p>Mrs. Guyer, how long did
+Mr. Guyer last after you were married!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Only six months. </p><stage>(Men draw away)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>I- I heard he died from the effects of blowing up!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<stage>(Unruffled)</stage> <p>Yes; excursion boat. Dear boy! He was insured
+for fifty thousand dollars. </p><stage>(Men right back around
+her.)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p><stage>(Aside to Flirt.)</stage> I wish I was a man or a parrot! I want
+to swear! Say Flirt, sing a song, they'll have in common
+<pb/>
+decency to listen.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>I can't.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Then ask me to.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p><stage>(Aloud)</stage> Say everybody! Tony knows this song the orchestra's
+playing. I want you to all listen to it. </p><stage>(Song "Never
+to Know" TONY.- weeping bus. with song.)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Beautiful! So touching! How much we miss in this life
+by not daring to speak out. I went thirty two days in a
+prohibition town because I didn't dare to ask the landlord
+for a drink. <stage>(Weeps again)</stage> Forgive these tears!
+But that song has turned all my thoughts to sadness.
+The seperation of two fond beings makes me think of the
+fast approaching day when one of my lungs will be withered
+and vanished leaving the other desolate, alone and
+overworked. I have often in the still watches of the
+night pondered on this and at last my sad musings took
+the form of a little poem.</p></sp>
+
+<sp><speaker>TONY &amp; WIDOW.</speaker>
+<p>Oh give it to us.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p><stage>(Takes drink and makes memorandum in book.)</stage> It's called
+the "Lay of the Lingering Lung" I wish that band would
+play a soft tearful melody. </p></sp><stage>(Recitation with music Strong.)</stage>
+<stage>(As they break up, Strong goes to Tony and Rashleigh
+to Flirt Widow sizes up situation.)</stage>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Ahem! Have you heard the latest scandal?</p> <stage>(Every man rushes
+to her)</stage></sp>
+
+
+<sp><speaker>3 MEN.</speaker>
+<p>
+What is it!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>What have you been doing!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>That remark was contemptible! Now you shan't hear the
+story! </p><stage>(Tells story to men in dumb show)</stage> <stage>(To girls)</stage><p> It
+isn't long! And I really am not trying to monopolize
+the gentlemen entirely. I shall presently insist as a
+<pb/>
+favor to me that they devote themselves to you.</p> <stage>(Goes on
+with story)</stage> <stage>(Makes gestures.)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>There they are again! I vow I'll be a widow within a
+year.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>I know what it is it's the dress. </p><stage>(Widow makes paranthetical
+gesture.)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Did you see that gesture! I'll bet I know what she said
+a widow'll say anything. Come Flirt! <stage>(They rise)</stage> Gentlemen,
+we wish to use your dressing room just a moment.</p></sp>
+<stage>(Exeunt R.L.U.E.-- Ben rings.)</stage>
+
+<sp><speaker>WIDOW.</speaker>
+<p>I'll bet I know what they're up to. </p><stage>(Rises)</stage><p> Pray excuse
+me. </p><stage>(Exit Widow R.U.E. - Slavin enters Ben's room.)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Fill 'em up again all 'roung.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p><stage>(Takes tray)</stage> Yes sir! I have the evening paper.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Keep it! <stage>(Exit Slavin)</stage> By thunder that widow takes her time.</p></sp>
+<stage>(During above Rash has filled glasses and passed them)</stage>
+
+<sp><speaker>STRONG.</speaker>
+<p>Gentlemen you ought not to tempt me like this. <stage>(Drinks and
+reaches for bottle)</stage> Every glass of this stuff is a day
+off my life. <stage>(Drinks)</stage> You are aiding and abetting suicide.
+<stage>(Produces book)</stage> Has anybody kept tab on me!</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>That last one was seven I think.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>A week gone. I've wasted five weeks of my life tonight
+and I come here for my health.</p> <stage>(Enter Slavin with note and
+four cocktails on tray C.)</stage></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>What's those!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Cocktails! The gentleman in the next room ordered them.</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p><pb/>
+Very good of him.</p> <stage>(Passes glasses)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<stage>(Taking glass)</stage> <p>That man's bent on my murder. </p><stage>(All drink
+and replace glasses on tray. Straw bus. for Slavin.)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>I wonder what's become of my cocktails. </p><stage>(Rings)</stage></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Tell the gentleman we're very much obliged.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Yes sir. A note sir. </p><stage>(Gives note and exits C.)</stage></sp>
+
+<sp><speaker>RASH.</speaker>
+<stage>(Reads note)</stage> <p>It's from Painter! Unavoidably detained.
+See you very soon.</p> <stage>(Slavin enters Ben's room.)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Where's my cokctails!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Gentlemen in the next room drank them sir, and sent in
+their compliments.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>They did! Well I like their nerve! You go back quick and
+get me four more. Stop! Make it eight! And say! Are you
+quite sure that lady hasn't got here!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Sure sir! Only ladies here are with party next room. I
+rather think sir-</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Think what!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>You're shook!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Shook!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Hadn't you better eat your supper alone, sir!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>No sir! She'll be here sir! You get those cocktails!</p></sp>
+<pb/>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>The evening paper.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>D'n the evening paper! <stage>(Exit Slavin)</stage> Shook! Me shook!</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Mr Strong this isn't the first time you've been out for
+a pleasant evening, I see by the way you handle that
+bottle.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>When I was on earth I was not obtuse to the redeeming
+features of wine, women and song.</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Well, be a boy again. We have the wine and the women,
+give us the song.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>If you care to listen to a voice from the grave, I'll
+let me see- give you a little story of the course of
+true love </p></sp><stage>(Song- 2:15- Strong.)</stage>
+<stage>(During this scene Strong and two boys drunk)</stage>
+
+<sp><speaker>BEN.</speaker>
+<p>I'm having a devil of a good time. This is what you get
+for trusting a widow. </p><stage>(Enter Slavin with cocktails)</stage></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Cocktails sir! Shall I put them down?</p> <stage>(Strong getting a
+bit loaded)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>No, I'll do that. </p><stage>(Takes tray)</stage></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>The evening paper.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p><stage>(Somewhat jagged)</stage> Give it to me! <stage>(Takes paper tears it up)</stage>
+Now are you easy in your mind? I came here to have supper
+with a lady! Do you think I'll be satisfied with an
+evening paper.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>What about that supper sir!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>I'll eat it. Bring it up.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p><pb/>
+The evening paper sir had a whole page about a scandal
+in high life.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p><stage>(Looks at fragments)</stage> It did! Well I'll be. Have you got
+another copy!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>No sir.</p> <stage>(Exit- Ben gets on floor and tries to piece paper
+together- Enter two girls in shape dresses.)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>How can we have a little attention? </p></sp><stage>(Enter Slavin at C.)</stage>
+<stage>(Musical introduction- Tony and Flirt down C. and sing
+then two boys join them, then as they go up R. and L.
+Widow enter R.U.E. in white Chinese dress. Does
+Chinese specialty. Then Strong who is getting drunk
+down C. and sings with widow all joining in chorus and
+dance at finish.)</stage>
+
+<sp><speaker>TONY.</speaker>
+<p>The widow is white! Have the 29 days gone by so soon!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p><stage>(Bursts into tears)</stage> Oh Tony! How cruel of you! To think
+I'd forgot the respect due poor Jack. Don't you see this
+is a Chinese dress and the Chinese for mourning wear
+white! I know my business.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Supper is served.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Come on! Let's get it over before you boys get to making
+love to each other's girls and the quarrels begin. </p><stage>(They
+sit at table. Filling time while Ben speaks.)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>I can't put it together. I'll all mixed up with the
+market reports.</p> <stage>(Reads)</stage> <p>"The infuriated husband revolver
+in hand rushed madly after a drove of prime western hogs
+just arrived." Oh, rats! </p><stage>(Rings pretty drunk - kicks at
+paper - falls in chair)</stage><p> By jove I'm drunk!</p> <stage>(Rises and
+tries himself)</stage> <p>Drunker'n a boiled owl. That's a good one!
+I'll just keep it up and get paralyzed. I'll have some
+fun out of this racket yet. </p><stage>(Sings.)</stage></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Please pass the salt.</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>With all my heart.</p></sp>
+<pb/>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Just the salt, please.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p><stage>(Rising)</stage> Well, here's to us all!</p></sp>
+
+<sp><speaker>
+ALL.</speaker>
+<p>Drink hearty!</p> <stage>(Drinking song Tony and Chorus-- They're
+same seats.)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Anybody have some cold meat? Mutton or beef.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Which is the best!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p><stage>(Smelling each)</stage> It appears to be a case of horse and
+horse! Waiter, this knife is very dull.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Permit me, sir! <stage>(Takes knife gets behind Strong. Imitates
+sharpening knife)</stage> Try that sir.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p><stage>(Tries it)</stage> Much better!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Anything else you want sir!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Everything on earth.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>If there's anything you have not got, I want it.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>I can give you anything from a train of cars to a dog
+fight.</p></sp>
+
+<sp><speaker>
+ALL.</speaker>
+<p>
+Give us a dog fight.</p>
+ <stage>(Slavin's imitation.)</stage></sp>
+  <stage>(At start
+of dog fight. Ben exit looking for it.)</stage> <stage>(Exit Slavin)</stage>
+
+<sp><speaker>STRONG.</speaker>
+<p>Ladies and gentlemen </p><stage>(Rising)</stage></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>He's going to make an after dinner speech stop him!</p></sp>
+<pb/>
+
+<sp><speaker>RASH.</speaker>
+<p>Head him off!</p></sp>
+
+<sp><speaker>ALL.</speaker>
+<p>Come on!</p></sp>
+
+<stage>-: MEDLEY :-</stage>
+
+<stage>(End of Medley all off.)</stage>
+
+<sp><speaker>BEN.</speaker>
+<p><stage>(Enters and rings.)</stage> She's here! I've found this handkerchief
+in the hall and it's here. <stage>(Enter Noah.)</stage> You demented
+lizard do you see that! It's her handkerchief.
+She's here! Now trot her out!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Was that the lady you were waiting for.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Yes; well!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Why we thought it was your wife. We said you were not
+here.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Well!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>And she went away.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p><stage>(Grabs him)</stage> While I've waited she's been here and you
+sent her away.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>I regret it sir.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Regret it! Regret it! I'd kill you where you stand only
+I don't want to become known as a fool killer! But I'll
+make it cost you your job. I'll give you a character at
+the office.</p> <stage>(Bolts out waiter after him)</stage> <stage>(Strong enters
+L.U.E. X'es to R.U.E.)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p><stage>(Rapping)</stage> Did any of you four ladies bring a corn knife.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p><stage>(Looks out)</stage> No, will a curling iron do?</p></sp>
+<pb/>
+
+<sp><speaker>STRONG.</speaker>
+<p>No, thanks! I can't curl my corns.</p> <stage>(Exits L.U.E. Enter
+Ben at office followed by waiter who goes behind desk.)</stage></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>What is it sir!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>I want to see somebody in authority.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Gaze right on me!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Yes! You're in authority. Well I want to tell you that
+the waiter I've had is a blear-eyed trump a bandy-legged
+idiot and a foul hedge hog!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>I'll make a note of it. Anything else sir!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Yes. Your place is a dive and I'll never set foot in it
+again. </p><stage>(Starts to go.)</stage></sp>
+
+<sp><speaker>SLAVIN</speaker>
+<stage>(Looks door)</stage> <p>Hadn't you better settle your bill first.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>I forgot. How much is it!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>One hundred dollars.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>One hundred dollars. What for!</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Well there's $65. For the supper.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>But I haven't had supper.</p></sp>
+
+<sp><speaker>SLAVIN</speaker>
+<p>But you ordered it.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>All right! I deserve it! I- I- </p><stage>(Bus.)</stage> <p>Why I've- I've lost my
+pocketbook. I'll send you the money tomorrow.</p></sp>
+<pb/>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>We don't do business that way.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>But I'm prefectly goog.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>What name!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Excuse me! But you shall have your money.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>I mean to- before you go.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>But my boy--</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Send home for it.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Send for money to pay for a racket here. Impossible!
+Now my dear boy--</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>No! I'm a blear-eyed tramp and I get that money or you
+go to jail! See!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p><stage>(Enter L.U.E.)</stage> I'll see why they don't answer that bell.</p>
+<stage>(Exits C.)</stage></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Do I get it or do I ring for the Police!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>My very dear boy-- I'm a respectable citizen! Don't
+arrest me! The story'll be all over town.</p></sp>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>Yes; but you won't be all over to hear it. You'll be in
+jail. </p><stage>(Strong enters office)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>You hyena, I want </p><stage>(Strong and Ben look at eachother-
+Both yell - Strong turns to run.)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Here! I want you!</p> <stage>(Starts after Strong.)</stage></sp>
+<pb/>
+
+<sp><speaker>SLAVIN.</speaker>
+<p>
+Here! Come back now!</p> <stage>(Starts after them.)</stage>
+<stage>
+-: GRAND CHASE :-
+</stage>
+<stage>(As they rush through centre room, everybody rushes on
+exclaiming)</stage><p>What's the matter!! etc.</p>  <stage>(Strong and yells
+Murder and help- Ben and Slavin ad. lib.- Everybody working
+up excitement. At finish Ben overtakes strong in
+room C. and grabs him.)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Now I've got you!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I'm a dying man! Mercy!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Mercy! Not a damned bit! Lend me $100.-</p></sp>
+
+<stage><hi rend="underline">-: CURTAIN :-</hi></stage>
+<pb/>
+</div>
+<div type="act" n="3">
+<head>
+<hi rend="underline">ACT. 3rd.</hi>
+</head>
+<stage>SCENE: Private conversation in house of Benj. Gay- Tony
+and Flirt in wrappers discovered.)</stage>
+
+<sp><speaker>FLIRT.</speaker>
+<p>I think we're the first ones up. And I had a good
+mind not to get up at all.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>This settles the "out for a racket" business for me.
+Flirt do you realize that we're in an awful scrape?
+Of course Uncle can't do anything worse to you then
+tell your father--</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>That's so. He couldn't do anything worse. I'd rather
+he'd whip me. I guess it does settle the "out for a
+racket" business. Oh Tony isn't there any way to keep
+him from telling? I'd get killed!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>I don't know of any. We'll all have to suffer except
+the widow. And she's the only one who had any fun.
+The way the men devoted themselves to her ruined my
+evening. Flirt, I've made up my mind! I'm going to be
+a widow.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Oh Tony! But you've got to be a wife first and your
+husband may live forever.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>No, he won't! I shall marry Mr. Strong. Heaven has sent
+him here, I feel, to my relief. </p><stage>(Enter Wilder and Rash.)</stage></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Oh Wilder, did you send word home that we are here!</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>I did. And say! It's lucky we didn't go to the ball.
+It was closed by the police.</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>And Painter was arrested: that's why he didn't come
+to the Riche.</p> <stage>(Enter widow.)</stage></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Good morning, everybody!</p></sp>
+
+<sp><speaker>OMNES.</speaker><p>
+Good morning.</p></sp>
+<pb/>
+
+<sp><speaker>TONY.</speaker>
+<p>To what are we indebted for this early call!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>I've come over, first to have a litle practice with the
+foils.</p> <stage>(Throws off cloak disclosing fencing costume)</stage>
+<p>Second to get you get out of your scrape.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Oh can you!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Well, you know me; what do you think!</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>We'll bet on you every time!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Last night after I reached home I began to think that
+you were in a fix. "They've got to tell some story to
+get you out of it" said I "and they're not good at
+telling stories said I!" "They may lay the blame on me
+said I"! Then my reputation will be in the laundry.
+And a widow has to be so careful of her reputation I
+must go over there and tell a story that'll get us all
+out of it" said I. And here I am.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>One word for us and two for yourself. You're very good.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Now am I in time!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>I think so neither Uncle or Mr. Strong are up yet.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>That Strong's a thoroughbred after all!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>A delightful man. It's a pity he's got to die so soon-</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Nothing of the sort-- I-- I mean- perhaps he hasn't--
+<stage>(Aside)</stage> But I'm sure he has!</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Well I say! What story are we to tell Uncle?</p></sp>
+<pb/>
+
+<sp><speaker>WIDOW.</speaker>
+<p>I don't know yet. But there's a way out of this scrape,
+and I know I can find it. I've only one favor to ask.
+Don't you mix in and spoil things. How soon will they
+be up!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Nobody knows.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>I've got to be at my dressmakers in an hour. Can't
+you call them!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Not for worlds!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Then we must, make such a racket they'll have to get
+up. Where are their rooms!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>There and there. </p><stage>(R. &amp; L.)</stage> <p>Come Flirt let's get our
+gymnasium suits on.</p> <stage>(Exit two girls)</stage></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>We may as well start the racket. Come on!</p></sp>
+
+<stage>-: MEDLEY :-</stage>
+
+<stage>(During which two girls return in gymnasium dresses.
+At finish. They all exeunt- Enter Strong R.- Ben L.
+wrecks. They see each other, turn to go but finally
+meet C. Neither knows what to say. Strong has bowl of
+ice.)</stage>
+
+<sp><speaker>STRONG.</speaker>
+<p><stage>(Offers bowl.)</stage> Have a piece.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<stage>(Takes ice)</stage> <p>Thanks! Don't you think a little absinthe
+would do us good. </p><stage>(Rings.)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>It can't shorten my life much! </p><stage>(Noah heard singing below-
+comes up stairs still singing. "Out for a Racket")</stage></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>Here I am! </p><stage>(Pretty drunk.)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Slavin! Siwah! What does this mean?</p></sp>
+<pb/>
+
+<sp><speaker>NOAH.</speaker>
+<p>I've been right with you! Drink as a boiled owl!
+I knew everybody else was on a toot so I filled up.
+Three very pretty jags we three gentlemen had.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>What a beastly fellow!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>You dog! Do you mean to say I was drunk.</p></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>Both of you! When you got home you tried to unlock
+our door with your toothbrush and he rung the fire
+alarm on the lamp post for the door bell. Only way we
+got you upstairs was to bait the top landing with a
+bottle of Bourbon.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Get downstairs quick and bring two absinthe frappes.</p></sp>
+<stage>(Noah goes to head of stairs.)</stage>
+
+<sp><speaker>NOAH.</speaker>
+<p>I shan't hurry a mite! </p><stage>(Slips- is heard falling down
+stairs.)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>He's fallen down stairs. I hope he's killed, Mr. Strong.
+I feel called upon to ask a question. What were you doing
+at the Riche last night!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I feel called upon to ask a question, what were you
+doing there!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>I- I- <stage>(Aside)</stage> I hadn't thought of that! Idea! <stage>(Aloud)</stage>
+Why I went there in pursuit of you and my young folks
+to take you away from the place.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Was it necessary for you to get drunk to find us!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Strong old friend, can I trust you!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I trusted you for a hundred dollars last night.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>This is strictly between us. My catching you was an accident.
+I went to the Riche to have supper with a lady.</p></sp>
+<pb/>
+
+<sp><speaker>STRONG.</speaker>
+<p>You old rascal!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>But if this family knew that I'd lose their respect
+forever.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Why you didn't do anything wrong did you!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>No damn it! The widow didn't!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>The widow didn't what!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Why- er- that's that's something you didn't understand.
+What I was going to say is this, that loan of a hundred
+dollars squares you but in order to save my reputation
+I must make these youngsters believe that I followed
+them there and I must punish them accordingly,
+it's rough on them but-</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Don't make it too rough, remember we used to enjoy a
+little racket in the days gone by when we were their age.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>By thunder we did! </p></sp><stage>(Duet "Days Gone By," Strong and Ben.)</stage>
+<stage>(Enter Noah with three drinks.)</stage>
+
+<sp><speaker>NOAH.</speaker>
+<p>Here we are brother sufferers.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<stage>(Takes drink)</stage><p> If you don't stop your impudence I'll
+discharge you. </p><stage>(Ben and Strong drink.)</stage></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>That's what I want! I'm drunk and glad of it! I'm a
+whale!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>A whale! Oh no!</p></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>This is the first time in 40 years I've dared to open
+my head and now I'm a going to let her go. I'm looking
+to get kicked out of the house.</p></sp>
+<pb/>
+
+<sp><speaker>BEN.</speaker>
+<p>You shall be! </p><stage>(Exit down stairs kicking Noah.)</stage></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>He'll just give it to those children to prove his own
+profits. I think I'll take to bed 'till the affair's all
+over. </p><stage>(Enter Tony.)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p><stage>(In Gym. dress)</stage> Oh there he is! Oh if I can get him to
+marry me! Black is so becoming to me! Ah hem! Good
+morning Mr. Strong, how do you feel this morning!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>I think I shall live until dinner time.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Oh I hope so, we should so miss your cheery "Yea thanks"
+when the wine is served. Oh Mr. Strong do you know everything
+about you so interests me; have you a wife!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>A wife, no!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Then you're a jolly bachelor!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>No not a bachelor.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Not a bachelor, oh! Forgive me if I have touched a tender
+spot in your heart, you are a widower.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>No not a widower.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Excuse me Mr. Strong, you say you're not a single man.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>
+I am not.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Nor a married man, nor a widower, will you kindly tell
+me what you are!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>
+Well if you must know, I am a divorced man.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>A divorced man! How romantic!</p></sp>
+<pb/>
+
+<sp><speaker>STRONG.</speaker>
+<p>Yes and very expensive.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>And when are you going to- to try it again!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Never.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Never! Oh don't say that!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>Why I'm a dying man.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>That's it! With a glorious opportunity to make a
+woman a widow you have no right to remain single a
+minute you ought to marry the first woman you can lay your
+hands on.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p><stage>(Puts hands behind him and edges away)</stage> But I don't
+want a wife.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>You do, to wear mourning for you. How you must-</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>But the divorce forbade me to marry, it would be contempt
+of Court.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Then contempt the court, positively despise it!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>And go to prison, say it's time to take my medicine
+<stage>(Exits L.)</stage> Excuse me!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Well I declare </p><stage>(Enter Wilder)</stage></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Sweetheart I want-</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Oh go away!</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>What!</p></sp>
+<pb/>
+
+<sp><speaker>TONY.</speaker>
+<p>
+Go away you weary me!</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Weary you? Why I thought you loved me!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>
+I do, but now won't do! You are not going to die in
+two years.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>I hope not.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Then that lets you out. You're not in it! So don't
+bother me!</p> <stage>(Pushes off)</stage></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p>Well I declare! </p><stage>(Terrible crash below enter three ladies)</stage></sp>
+
+<sp><speaker>
+3 LADIES.</speaker>
+<stage>(Ad lib)</stage> <p>What's that etc.</p> <stage>(Noah comes up stairs singing
+girls much alarmed at him)</stage></sp>
+
+<sp><speaker>NOAH.</speaker>
+<stage>(Has parrot and cat.)</stage> 
+<stage>(To Wilder)</stage> 
+<p>You're wanted below!</p>
+<stage>(Throws him downstairs- girls scream)</stage> 
+<p>That's two! I'm
+going to do 'em all! I've been discharged and before I
+go I'm going to lick every man in the house! Then I'll
+kiss all the women. </p>
+<stage>(Women scream and exit-Widow into
+Ben's room)</stage> 
+<p>I'm a whale! Where's that dying man, he's
+my pie! I'll make him eat his own game.
+</p> <stage>(Exiting)</stage>
+<p>I'll give you your medicine. </p><stage>(Tremendous crash R. enter
+Tony, Flirt &amp; Rash.)</stage></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>What is it!</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Noah is in there killing Mr. Strong.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Go save him!</p></sp> <stage>(Crash R.)</stage>
+
+<sp><speaker>RASH.</speaker>
+<p>Give me something to hit him with. </p><stage>(Grabs indian club.)</stage>
+<p>That's too heavy! </p><stage>(Drops it- Crash R.)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<stage>(Hands club)</stage> <p>There try this!</p></sp>
+<pb/>
+
+<sp><speaker>RASH.</speaker>
+<p>That's too light <stage>(Crash R.)</stage> Where's my ball bat!</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>Locked up in the locker the key's down stairs.</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Go get it! </p><stage>(Exit Flirt down stairs- tremendous crash R.)</stage>
+<p>Oh wait 'till I get something to hit him with.</p> <stage>(Crash)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Oh he'll be killed! Take the indian club!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>No! I can't! I must have the bat! </p><stage>(Crash R.)</stage></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Oh Rashleigh save him! He'll surely be killed!</p></sp>
+
+<sp><speaker>RASH.</speaker>
+<p>Then I'll avenge him!</p> <stage>(Enter widow L.)</stage></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>What's the matter!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Noah is killing Mr. Strong! </p><stage>(Grand crash widow and girls
+yell enter Strong throwing on Noah who is all torn up
+mouth full of parrot feathers)</stage></sp>
+
+<sp><speaker>STRONG.</speaker><p>
+I have shortened my life one year.</p></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>You've shortened mine fifty! I'll never be able to digest
+that parrot!</p></sp>
+
+<sp><speaker>
+ALL.</speaker><p>
+The parrot!</p></sp>
+
+<sp><speaker>NOAH.</speaker>
+<p>He made me swallow it </p>
+<stage>(All laugh)</stage> 
+<p>That's right! And <stage>(Bus)</stage>
+D--n it how I hate feathers! </p>
+<stage>(Spitting)</stage> <p>Ladies and 
+gentlemen, is there anything I can do for you!</p></sp>
+
+<sp><speaker>
+ALL.</speaker><p>
+Yes, get out!</p> </sp><stage>(Exit Noah C.)</stage>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Mr. Strong, you are a brave man.</p></sp>
+<pb/>
+
+<sp><speaker>STRONG.</speaker>
+<p>I know it.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Hadn't somebody better go and see if the others are hurt!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>With pleasure. </p><stage>(Exits R.)</stage></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Tell me, who's room was that I ran into there!</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Why Uncle Ben's.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<stage>(Bursts out laughing)</stage> <p>I see it all! You're out of your
+scrape, oh this is funny!</p> <stage>(Laughs)</stage> <stage>(Enter Wilder C.)</stage></sp>
+
+<sp><speaker>
+ALL.</speaker><p>
+What <hi rend="underline">is</hi> it!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Only a letter I saw lying on his desk. <stage>(laughs)</stage> But I
+shan't tell you a word more, only back me up in all I 
+say to him and I'll get you out of your scrape. But
+listen, we must all seem very merry and when he comes
+in all laugh at the good joke on him.</p></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>But what is the joke!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>You'll see. Come on, start a chorus or something. What,
+must I start it, very well. </p></sp><stage>(Specialty Widow and 4tette)</stage>
+<stage>(Enter Strong C.)</stage>
+
+<sp><speaker>STRONG.</speaker>
+<p>The servant has apologized to everybody but me. He says
+he hasn't done anything to me and I agree. By the way
+your Uncle's coming. </p><stage>(Enter Ben C.-all laugh at him)</stage></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Oh! That's the way that you feel, is it? I suppose you
+consider this affair of last night a laughing matter!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Decidedly, with the laugh on you!</p></sp>
+
+<sp><speaker>
+ALL.</speaker><p>
+With the laugh on you!</p></sp>
+<pb/>
+
+<sp><speaker>BEN.</speaker>
+<p>On me? We'll see about that!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Gently now. Mr. Gay, we want you to settle a bet.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>I never settle bets.</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>How about loans? I have the check here as evidence.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p><stage>(Grabs check)</stage> Just what I wanted. Now Mr. Gay listen
+your niece here, poor innocent Tony was telling us what
+a good man you were and I laughed at her.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Very nice of you.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>I offered to bet her a supper at the Cliff House that
+if any decent looking woman asked you to take her to
+the masquerade you'd do it.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p><stage>(Aside)</stage> I've been bunkoed.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>She took the bet, and so I wrote this note which I have
+just picked up in your room <stage>(Shows note)</stage> for you to meet
+me at the Riche. Then we all went to the Riche to see
+if you were there, and you were.</p></sp>
+
+<sp><speaker>WILDER.</speaker>
+<p><stage>(Aside to Tony.)</stage> What a corking lie! She's a wonder.</p></sp>
+
+<sp><speaker>TONY.</speaker>
+<p>Oh Uncle! I never thought it of you! </p><stage>(Widow whispers to
+Tony who exits L.)</stage></sp>
+
+<sp><speaker>FLIRT.</speaker>
+<p>What will my father say when I tell him.</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p><stage>(Yells)</stage> Hold on! I- I- Why that letter made me think
+that you had all gone to the Riche so I went there to
+catch you, and I did, ha! ha!</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>How did you happen to run up such a big bill? </p>
+<stage>(Looks at
+check)</stage> 
+<p>What is this item for supper ordered for self and
+lady? </p><stage>(All laugh- enter to X L. with masks)</stage></sp>
+<pb/>
+
+<sp><speaker>TONY.</speaker>
+<p>And what did you want of these two masks!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Why I- you understand.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>Mr. Gay, don't you think I've won that bet!</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>I- Oh I don't think anything about it. Don't one of you
+dare to mention this affair again so long as you live.
+<stage>(To Flirt)</stage> Especially to your father.</p></sp>
+
+<sp><speaker>WIDOW.</speaker>
+<p>But about that supper at the Cliff House-</p></sp>
+
+<sp><speaker>BEN.</speaker>
+<p>Oh I'll pay for that and we'll all have a good time together,
+eh Strong!</p></sp>
+
+<sp><speaker>STRONG.</speaker>
+<p>It will shorten my life a year, but I'm with you!</p></sp>
+<stage>(Chorus "Out For a Racket")</stage> <stage>(Curtain)</stage>
+<stage>
+<hi rend="underline">-: FINALE :-</hi>
+</stage>
+</div>
+</body>
+</text>
+</TEI>
+
+
+

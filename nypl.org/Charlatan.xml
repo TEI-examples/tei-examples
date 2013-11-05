@@ -1,0 +1,3080 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="drama.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_drama.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>The Charlatan</title>
+</titleStmt>
+<publicationStmt>
+ <publisher>New York Public Library for the Performing Arts</publisher>
+ <pubPlace>New York City</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>The Charlatan</title>
+<author>Charles Klein</author>
+<author>John Philip Sousa</author>
+<date>December 28, 1899</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<front>
+<titlePage>
+<titlePart>
+<title>
+The Charlatan: A Comic Opera in Three Acts
+</title>
+</titlePart>
+
+<lb/>
+<docAuthor>
+Words by Charles Klein<lb/>
+Music by John Philip Sousa<lb/>
+</docAuthor>
+<pb/>
+</titlePage>
+
+</front>
+<body>
+<pb/>
+<div type="Act" n="1">
+<note> Transcriber's Note: This version has been transcribed from the copy in the British Library's Lord Chamberlain's Archives.  The copy was submitted to the Lord Chamberlain's Office in London by the DeWolf Hopper Opera Company on December 28, 1899 for production at The Comedy Theatre. </note>
+<head>Act 1</head>
+
+<stage> Scene:  Act 1 opens in Bokhara, a village in the Caucasian Mountains, under Russian rule.
+As the curtain rises a fair is in progress. </stage>
+
+<stage> Discovered:  Russians - Persians - Marionettes show L. Small theatre R.  The CHORUS have gathered around the marionette show and are applauding same, much to the disgust of KOREFF.  After applause, chorus interspersed with hand clapping, hurrahs, etc. </stage>
+
+<stage> The following dialogue, either to music or through the music which accompanies the marionette show.  At cue enter JELIKOFF at back of small theatre.  He rushes down. </stage>
+
+<stage> Music No.1 </stage>
+
+<sp><speaker>CHORUS</speaker>
+<lg>
+<l>Mountebanks, come waken from your dreaming</l>
+<l>Golden dawn is breaking in the sky</l>
+<l>Push and hustle</l>
+<l>Noise and bustle</l>
+<l>Is in keeping with the day</l>
+<l>Palpitating hearts with hopes are teeming</l>
+<l>For your posters one and all imply</l>
+<l>You have new acts </l>
+<l>And a few acts</l>
+<l>Worth a fortune in their way</l>
+<l>So beat the drum</l>
+<l>Sound the horn</l>
+<l>And let your barkers rend the air.</l>
+</lg>
+<lg>
+<l>In crowds we come</l>
+<l>On this morn</l>
+<l>To see the country fair</l>
+<l>Slim acrobats we adore,</l>
+<l>But bearded ladies are a bore</l>
+<l>The female with the iron jaw</l>
+<l>We've seen enough of her</l>
+<l>The pig that knows the alphabet</l>
+<l>And plays backgammon and roulette,</l>
+<l>And grinds "The day when you'll forget"</l>
+<l>We want to see again.</l>
+</lg></sp>
+<sp><speaker>SKOBELOFF</speaker>
+<l>Good Morning</l>
+</sp>
+<sp><speaker>CHORUS</speaker>
+<l>Good morning</l>
+</sp>
+<sp><speaker>SKOBELOFF</speaker>
+<lg>
+<l>For your special information</l>
+<l>I advance this declaration</l>
+<l>My dramatic aggregation</l>
+<l>Is a peach.</l>
+<l>I have plays grotesque and funny</l>
+<l>Some are English - therefore punny</l>
+<l>So step up and pay your money</l>
+<l>I beseech</l>
+</lg>
+<stage> spoken </stage>
+<p>
+My first will be the beautifully sentimental, though slightly problematic play, entitled &quot;Alphonso, the Brave, and the fair Imogene.&quot;
+</p>
+</sp>
+<sp><speaker>CHORUS</speaker>
+<p>We object.</p>
+</sp>
+<sp><speaker>SKOBELOFF</speaker>
+<p>How will the strange adventures of Jack and the Bean -</p>
+</sp>
+<sp><speaker>CHORUS</speaker>
+<p>We object.</p>
+</sp>
+<sp><speaker>SKOBELOFF</speaker><p>
+Cymbeline.
+</p>
+</sp>
+<sp><speaker>CHORUS</speaker><p>
+No.</p>
+</sp>
+<sp><speaker>SKOBELOFF</speaker><p>
+Alladrene.</p>
+</sp>
+<sp><speaker>CHORUS</speaker><p>
+No.
+</p>
+</sp>
+<stage> Enter BORIS as if trying to get away from someone. </stage>
+
+<sp><speaker>SKOBELOFF</speaker><lg>
+<l>Something watery and wavy,</l>
+<l>A panorama of the navy</l>
+<l>A play that deals with scenes most martial</l>
+<l>To soldiers buttons maids are partial.</l>
+</lg></sp>
+<sp><speaker>CHORUS</speaker>
+<lg>
+<l>Prince Boris shall select the play</l>
+<l>His choice and wish we'll all obey.</l>
+</lg>
+</sp>
+<sp><speaker>BORIS</speaker>
+<lg>
+<l>We'll have the story of the faithless</l>
+<l>Knight and the philosophic maid,</l>
+<l>She was a maid of sweet simplicitee.</l>
+</lg>
+</sp>
+<sp><speaker>CHORUS</speaker>
+<l>Ah me.</l>
+</sp>
+<sp><speaker>BORIS</speaker>
+<l>He was a knight of ancient familee.</l>
+</sp>
+<sp><speaker>CHORUS</speaker>
+<l>Ah me.</l>
+<lg>
+<l>He swore his heart was hers forever</l>
+<l>And that he'd never</l>
+<l>Their love ties sever</l>
+<l>Her joy would be his one endeavour</l>
+<l>But lack-a-day he left her all forlorn</l>
+<l>And then she sighed</l>
+<l>And softly cried</l>
+<l>"Why was I born."</l>
+<l>Love dies when wintry skies are gray</l>
+<l>And dead and dying are the flowers</l>
+<l>Love sighs, and if he's wise, He'll say,</l>
+<l>The winter's gone, I'll wait for summer showers.</l>
+</lg></sp>
+<sp><speaker>BORIS</speaker>
+<l>The jilted maiden dries her weeping eyes</l>
+</sp>
+<sp><speaker>CHORUS</speaker>
+<l>Ah me!</l>
+</sp>
+<sp><speaker>BORIS</speaker>
+<l>A fool is she who for a false love sighs</l>
+</sp>
+<sp><speaker>CHORUS</speaker>
+<l>Ah me!</l>
+</sp>
+<sp><speaker>BORIS</speaker>
+<lg>
+<l>There came another gallant wooing</l>
+<l>And softly cooing</l>
+<l>And likewise suing</l>
+<l>Her wedding ring she's fondly viewing</l>
+<l>Which proves it's good to have philosophy,</l>
+<l>If she had moped</l>
+<l>Or misanthroped</l>
+<l>She'd single be,</l>
+<l>Love dies when wintry skies, etc.</l>
+</lg>
+</sp>
+<sp><speaker>BORIS</speaker>
+<lg>
+<l>The philosophic play is told</l>
+<l>And as the subject's rather old</l>
+<l>We all are ready to behold</l>
+<l>Your dancers brought from France,</l>
+<l>You call them marvel of the age</l>
+<l>The wonders of the present stage</l><note> Transcriber&#39;s NOTE: "present" has been crossed out - handwritten &quot;modern&quot; </note>
+<l>The present continental rage</l>
+<l>So let us see them dance.</l>
+</lg></sp>
+<sp><speaker>SKOBELOFF</speaker>
+<lg>
+<l>Suzette,</l>
+<l>Googoo,</l>
+<l>Clarette,</l>
+<l>Yeauxbleux, zou, zou.</l>
+</lg>
+</sp>
+<stage> Chorus beat the drum, etc. </stage>
+
+<stage> Dance of the Marionettes and dialogue of Koreff etc. </stage>
+
+<sp><speaker>JELIKOFF</speaker>
+<p>
+Good Koreff, where is our audience?</p>
+</sp>
+<sp><speaker>KOREFF</speaker><p>
+Over there. </p></sp>
+<stage> points to marionette. </stage>
+
+<sp><speaker>JELIKOFF</speaker>
+<p>They do not appear to want us.</p>
+</sp>
+<sp><speaker>KOREFF</speaker><p>
+No.</p>
+</sp>
+<sp><speaker>JELIKOFF</speaker>
+<p>Our art appears only to the select few.</p>
+</sp>
+<sp><speaker>KOREFF</speaker><p>
+Yes - very select and very few.</p>
+</sp>
+<sp><speaker>CHORUS</speaker>
+<stage> Applauding marionette show </stage>
+<p>Hurrah, Hurrah!</p>
+</sp>
+<sp><speaker>JELIKOFF</speaker>
+<p>Shade of Thespis -- list to that.</p>
+<stage> Points to crowd. </stage>
+</sp>
+<sp><speaker>KOREFF</speaker>
+<p>Such applause ne'er greeted your efforts.</p>
+</sp>
+<sp><speaker>JELIKOFF</speaker>
+<p>Think you I cater to yon noisy rabble -- We can play without an audience. --</p>
+</sp>
+<sp><speaker>KOREFF</speaker>
+<p>We generally do --</p>
+<stage> Chorus applaud marionettes and give them money.  Jelikoff and Koreff watch chorus gloomily </stage>
+</sp>
+<sp><speaker>KOREFF</speaker>
+<p>I have an idea -- watch me -- do as I do -- and we'll make money fast enough.</p>
+<stage> Takes off part of wardrobe.  Jelikoff does the same.  Koreff commences to dance and Jelikoff tries to imitate him.  Queer imitations of acrobatic tricks to circus music.  Chorus gradually attracted towards acting booth - move over gradually and begin to applaud dancers.  Koreff stops dancing and goes round with hate -- collects money -- finally Jelikoff falls exhausted on ground as Koreff is counting money. </stage>
+<p>&#39;Twas my idea -- it's my money --</p>
+<stage> Puts money in pockets - picks up wardrobe. </stage>
+<p>Bye Bye, Jelikoff.</p>
+<stage> Laughs at Jelikoff and exist L. triumphantly </stage>
+</sp>
+<sp><speaker>JELIKOFF</speaker>
+<stage> Watches Koreff </stage>
+<p>Serves me right for deserting the Muse</p>
+<stage> Exit back stage </stage>
+
+<note> Transcriber's Note: Possible placement of Music No. 1d, which is not included in the script. </note>
+<stage> Chorus sings final stanza of opening chorus, dance, etc. etc.  At end of number chorus walk about looking at sights etc. </stage>
+<stage> Enter PRINCE BORIS followed by GOGOL and SOPHIA. </stage>
+</sp>
+<sp><speaker>BORIS</speaker>
+<stage> Angrily </stage>
+<p>Uncle Gogol, am I never to be free from this spying system?
+</p>
+</sp>
+<sp><speaker>
+SOPHIA</speaker><p>
+We followed you for your own sake, Count Boris.</p>
+</sp>
+<sp><speaker>GOGOL</speaker><p>
+You were in dangerous company nephew.</p>
+</sp>
+<sp><speaker>BORIS</speaker><p>
+These mountain maids dangerous?
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+Why not, some of them are quite pretty --
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+And we love you too well to allow you to forfeit your title and estate by marrying beneath you -- eh Sophia?
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Can't I speak to a pretty woman without proposing to her.
+Ah --
+<stage> Bows to lady, speaks to her up stage </stage>
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+The young fool is just obstinate enough to marry one of these nameless nobodies out of spite.  I wish he would.
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+You forget how much I love him.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+And you forget his valuable inheritance which by edict of the Czar, I, his uncle and nearest of kin, inherit if he marries anyone beneath the rank of Princess.  His father married a peasant girl and the Czar is bent on keeping up the lineage.  Ha - ha, it's a splendid edict.  He must marry a Princess, and what Princess would ever think of visiting these mountains and he can't travel without the Czar's premission - Ha, Ha.
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+<stage> Sweetly </stage>
+Are you walking this way dear Boris?
+<stage> Points L </stage>
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+No --</p>
+<stage> Takes out paper circular </stage>
+<p>I understand this man is going to ply his trade here and I wish to see him.</p>
+<stage> Sophia takes paper out of Boris' hand goes to read it, Gogol takes it from her </stage>
+</sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Reads </stage>
+The only Demidoff - the great Demidoff, the Great and only Demidoff -- dealer in Black art - magic - and philters of sorts, sizes, shapes and sexes.  Futures foretold without horoscopes, microscopes or telescopes.
+<stage> Crushes paper </stage>
+Bah, a Charlatan.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+He may furnish some amusement.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+Is not this the fellow who just escaped being knouted for turning the Grand Duke's diamond ring into glass and was bastinaded for making a pudding in the turban of the Ameer of Afghanistan.
+</p></sp>
+<sp><speaker>BORIS</speaker>
+<p>The same</p>
+<stage> laughs </stage>
+<p>A pudding in the Royal Turban - ha ha - I'm curious to see the fellow --
+</p></sp>
+<stage> Enter KATRINKA </stage>
+
+<stage> Music No.2 </stage>
+
+<sp><speaker>KATRINKA</speaker><lg>
+<l>As the agent in advance of Demidoff the grand</l>
+<l>Magician to the Czar</l>
+<l>The only living star</l>
+<l>Who keeps a private car</l>
+<l>And band</l>
+<l>I have the honour to announce he will be here to-day.</l>
+<l>He ranks pre-eminent</l>
+<l>Which is very evident</l>
+<l>To almost any gent</l>
+<l>We say</l>
+<l>I hear his foot-fall's music coming near</l>
+<l>Hurrah for Demidoff!</l>
+</lg></sp>
+<sp><speaker>CHORUS</speaker><l>
+The Mastadonic Demidoff
+</l></sp>
+<sp><speaker>KATRINKA</speaker><lg>
+<l>The man of mystery will now appear</l>
+<l>Hurrah for Demidoff!</l>
+</lg></sp>
+<sp><speaker>CHORUS</speaker>
+<l>The unlaconic Demidoff</l>
+</sp>
+<sp><speaker>KATRINKA</speaker><lg>
+<l>Get your purses ready all</l>
+<l>Same pride for short as tall</l>
+<l>I hear my master call</l>
+<l>Great Demidoff is here!</l>
+</lg></sp>
+<note> Transcriber's Note: The script indicates that Music No. 2b 
+"Pluto's Partner" was replaced with "Have you got that tired feeling?" 
+after the opening on Broadway and publication of the score by the 
+John Church Company. It was published under a separate cover, and is 
+digitized on the Library of Congress website.  What is indicated in the 
+script is only the first verse, even though there is both a second verse 
+and chorus which were used in the show. </note>
+<stage> Enter DEMIDOFF </stage>
+
+<sp><speaker>DEMIDOFF</speaker><lg>
+<l>Have you got that tired feeling</l>
+<l>Does your heart go pit-a-pat</l>
+<l>Do you feel your senses reeling </l>
+<l>Till you don't know what you're at</l>
+<l>When the breakfast bell is ringing</l>
+<l>Do you wish to stay in bed</l>
+<l>When you hear the birdies singing</l>
+<l>Do you wish that you were dead</l>
+<l>Do you read the Marriage Column</l>
+<l>In a vacant sort of way</l>
+<l>And say in accents solemn</l>
+<l>Well at last she's caught that jay</l>
+<l>Do you crave for cream and pickles</l>
+<l>Though they always disagree</l>
+<l>I'll bet a hundred nickles</l>
+<l>You are yearning for a he</l>
+</lg></sp>
+<stage> Enter KATRINKA, DRESSED AS A BOY -- she throws coloured circulars among the chorus, who eagerly grab for them. </stage>
+
+<stage> Enter DEMIDOFF, drawing after him a four wheel caravan to which he is harnessed, caravan is placed C., between small theatre and marionette show. </stage>
+
+<stage>During this song Katrinka blows Musette in wrong place till the end of the song, then Demidoff is so annoyed at being interrupted that he takes Musette.  Musette made like a telescope, Demidoff takes it and flattens down, hands it back to her </stage>
+
+
+<sp><speaker>DEMIDOFF</speaker><p>
+Good people.  The hitherto hidden pages of the future are now open to public inspection.  
+With the assistance of Methusaleh's grandmother who is seated in yon caravan I can read the stars in seven 
+different languages including Sanskritt, Aulic, Plat Deautsch, Spanish and other dead languages.  I can cast 
+horoscopes without a mould, make your fortune while you wait, and read your thoughts even before you yourselves 
+can think the thought that you are thinking.</p></sp>
+<stage> Omnes fall back amazed </stage>
+<stage> Suggest bus. here </stage>
+
+<sp><speaker>DEMIDOFF</speaker><p>
+Such minor gifts as second sight, sleight of hand, conjuring and prestidigitation, I regard as only the a, b, c, of my profession -- per example: I take your watch.
+<stage> Takes watch from Chorus man L., shows same to audience, closes it up in his hand, blows on hand </stage>
+I don't even say - Tempus - fugit --
+<stage> Slips watch into pocket </stage>
+Dear me how time flies.
+</p></sp>
+<sp>
+<speaker>
+PEASANT</speaker>
+<p>My watch. Give it me back.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+I gave it to you back -
+<stage> Bus. turn man round - watch is hanging on back of his coat. Omnes laugh </stage>
+A mere nothing -- a mere nothing -- that is only looking backward.
+<stage> Points to peasant's back </stage>
+What we would peer into is the future.</p></sp>
+
+<sp>
+<speaker>PEASANT</speaker>
+<p>
+Can you tell fortunes by hand?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Angry at interruption </stage>
+Certainly, all fortunes told by hand - I haven't a machine made fortune on the premises.
+<stage> Takes hand </stage>
+Your life-line is somewhat obscure - the addition of a little soap and water will make it much clearer.  Ten kopecks please.
+<stage> Peasant withdraws hand hastily. </stage>
+Now -- to bridge that awful gulf 'twixt us and futurity -- Katrinket notify the seeress.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Oh, what's the use?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> forgetting his grandiloquence </stage>
+You notify that seeress!
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+No, I won't!
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Katrinka leave my presence.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+What presents did you ever give me?
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+<stage> Holding out her hand.  Aside to Demidoff </stage>
+Tell me - am I destined to remain single all my life?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Looks at Sophia </stage>
+I'm afraid you stand a royal chance --
+<stage> Reads hand </stage>
+If your face was your fortune you'd be permanently broke.
+<stage> Looks closely at hand </stage>
+Here are marriage lines.
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+<stage> Joyfully </stage>
+Ah ---
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Yes - but dear me - how unfortunate - they are your parents -
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+I'll ask the knave a question.
+<stage> Sophia hands Demidoff money </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Thanks - I'll give you change presently.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Look you, fellow - can you tell me - by the stars - by incantation - or by deviltry of any sort - Am I to wed - what is my bride's station in life -- is she --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+One question at a time please.  Prepare to gaze on the mighty Prophetess of Caucasia, the seeress of Tophet.  Oh, mighty seeress -- what is the matrimonial future of this young gentleman.  Hush --
+<stage> With awe </stage>
+Let no one breathe -- we are on the brink of the future.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Look out you don't fall in.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> Bus. starts </stage>
+He will marry.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+<stage> Aside </stage>
+By St. Nicholas, a sweet voice for such a hag --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+What will be her station in life?
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+She will be --
+<stage> hesitates </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Well - that's easy - she will be his wife - won't she?
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+Yes - Yes --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Aside to Anna </stage>
+What's the matter with you?
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Her name?  Her name?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+The gentleman will please not crowd the seeress.  The books of the future are not always written legibly -- The name might be blotted, you can't tell.  Come speak!
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> Bus. </stage>
+I cannot --- I --- 
+<stage> Bus. broke up </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Seeing that Anna is affected </stage>
+The book of the future is closed for the present.
+<stage> Draws curtain of caravan </stage>
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Stop -- another question --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Too late --
+<stage> Chorus laugh at failure of trick.  Open curtains.  Anna is not visible </stage>
+
+<note> Possible placement of Music No. 3.  Not included in script version. </note>
+
+<stage> After music no.   Chorus, Gogol, Boris and Sophia exit </stage>
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> To Jelikoff </stage>
+Do you know you are taking the bread and butter out of my mouth-
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Am I -- where is it -- I'm starving.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> As Anna leaves caravan </stage>
+Here come back -- do you want to be seen?
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+No, but I - I - I want to leave this wretched life --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+By what route -- poison, cold steel or water?  By St. Nicholas you're an ambitious lot.  Look at that black and blue pair over there -- 
+<stage> points to Jelikoff </stage> 
+and you, instead of reading the future forget even the past and present --
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+I could not deceive the young man.
+<stage> Aside </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Deceive him, nonsense -- he wouldn't believe you if you did deceive him.
+
+<note> Transcriber's Note: Another possible placement of Music No. 3., as suggested by William Martin and Jerrold Fisher. </note>
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+Have you had breakfast, Jelikoff?
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+No --
+<stage> Brightening up </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Then you can clear away.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+How do you like your new job?
+<stage> Anna laughs </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Stop laughing -- matters are serious -- if I don't make a strike soon I'll have to shut up shop.  Anna you must make a rich marriage.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+Rich marriage -- ha ha -- who would marry the seeress of Tophet --
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Coming forward </stage>
+I know a someone who would --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+The Deputy Governor!
+<stage> Assuming his mysterious air </stage>
+Would your Excellency like to peer into the future?
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Looking at Anna </stage>
+Rather a young seeress.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+You've got it upside down.
+<stage> Bus. </stage>
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Bus with paper </stage>
+Your prospectus says something about showing a young man the woman he is going to marry -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+My famous cabinet trick nothing easier.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+For a consideration I want you to produce in your cabin a Princess --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Make it a Queen and I'll produce four
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+You will perform your trick and exhibit this girl as a counterfeit of the Princess Stephanie of, of....Rushkofski --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Of what Kofski?
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+Rushkofski.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Which kofski is that?
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+The Princess is dead and the title is extinct.  I'll see that the girl is suitably attired.  Boris will see her.  She will afterwards appear as the real princess, and he will recognize her as the figure he saw in your Cabinet -- he may fall in love with her -- he may marry her.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> Bobbing out of cabinet </stage>
+Glorious -- Glorious -- this is like a fairy tale.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Yes, it's too much like a fairy tale -- how about his social position?  Does he belong to my set?
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+He is my nephew.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+That's not a bad start.  But why - doesn't he select his own bride?
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Aside to Demidoff </stage>
+He's bashful.  I want him to get married - he thinks he must marry a Princess - a mental delusion of course - 
+<stage> Bus. Points to caravan </stage>
+She will consent?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+She is with me.  Father-in-law to a rich Prince.  <emph rend="underline">We</emph> shall be uncles.
+<stage> Slaps him on the back </stage>
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Resents this </stage>
+I will send the necessary dresses at once and spread a report that the Princess is coming and fetch Prince Boris.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Boris -- Borry - borrow -- there's a ring about that name that plays a delicious tattoo on the drum of my ear.  Anna -- Anna you heard - our fortunes are made.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> Shakes her head </stage>
+I don't like this marriage business - It's too sudden and I --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+What have you got to do with it?  Anna, it would be a source of great joy to me if you'd mind your own business - why you were pleased at first.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+I've changed my mind.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+I'm glad of it -- the one you had was perfectly useless to you.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+I see - you're tired of me - you want to be rid of me
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Do you think I would desert you just because you made a rich marriage - You do me a gross injustice.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+But father marriage is a serious matter when you come to think of it.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Then don't think of it.  Look on the whole thing as a joke got up for the benefit of posterity -- Good gracious me, your mother married -- you can't do much worse than she did!
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> Looks at Demidoff </stage>
+No!  I can't.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+And if you do as badly as she did, you'll do very well -
+<stage> Anna laughs </stage>
+I wish you'd stop that meaningless titter, our wealth and happiness are at stake.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+Supposing he won't have me.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Suppose nothing -- The Deputy Governor is rich and will pay us well anyhow.  You're always borrowing trouble.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+But --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+But what?  With the exception of your sainted mother you are the most uncomfortable girl I ever met.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+Father --
+<stage> At caravan </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Pettishly </stage>
+Why I was born to be a father -- why was -- will you stop picking holesin that curtain?
+<stage> Enter JELIKOFF and KATRINKA L. Jelikoff is eating an apple.  Demidoff takes it away and eats it himself. </stage>
+Ah, just in time -- I have work for you both.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Have you any dinner for us?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+How dare you talk of dinner at such a time as this -- I am about to perform a gigantic optical illusion.  Listen -- Anna is to be the Princess Rushkofaki -- you, Katrinka, will be her page in waiting and you, Jelikoff, what can you be?
+<stage> Suddenly </stage>
+By the Great White Czar, we have no lady in waiting -- You, Jelikoff, must doff the buskin for the bustle.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Aye - I once did enact the Queen mother in an affair written by an alleged English poet - t'was called Hamlet - a stupid play but --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Will the ghost walker in it.  Didn't it?  Will is won't in this unless you are careful.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Why not let me be the lady in waiting?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+You?
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Yes - I - folks say I somewhat resemble a girl.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Surveying her </stage>
+Then folks must be blind.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> Angrily stamping her foot </stage>
+It's you who are blind.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Boy you are speaking to Demidoff -- the all-wise analyst of human character.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+True - I forgot -
+<stage> Aside </stage>
+The dear old bluff
+
+<stage> Enter TWO SERVANTS with large basket </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+What is that?
+
+SERVANT
+From his Excellency the Deputy Governor.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Aside </stage>
+He's kept his word, the Princess's wardrobe -- Put it in there, get into your new togs, we're going into Society.
+<stage> Points to caravan, they place basket behind same and exit </stage>
+
+<stage> Enter BORIS and GOGOL </stage>
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+It's a clever trick if he can do it.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+The knave says he can.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Where is he - disappeared eh?  Let's interview the seeress in his absence.
+<stage> Tries to pull curtain of caravan but Gogol prevents him. </stage>
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+No, no Boris --
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+If this Demidoff is going to show me my future bride I want to make sure there's no deception.
+
+<stage> Enter SOPHIA L., hastily. </stage>
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+Father, Boris -- have you heard the news?
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+What news?
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+There is a report among the villagers that the Princess Stephanie of Ruchkofski is here, or on her way here, -- is it true, have you seen her -- why does she come here --
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+A Princess, eh? --- I wonder if she is young and beautiful.
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+No, there's not a Princess in the Court of Russia who can claim to be even passably good looking.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+She is evidently not here yet.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Perhaps it's only village gossip.  I'm going to take a look at that seeress if I --
+<stage> Pulls curtain aside.  Demidoff discovered smoking. </stage>
+sold -- by St. Nicholas.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+No, sold by Demidoff, though I should call it more of a give away.  To what am I indebted for the honour of this visit.  Oh, yes I promised to do my great trick.
+<stage> To Gogol </stage>
+You want to see your bride that is to be.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+I - no thanks -- I've had my cake and eaten it - this young gentleman -
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+<stage> Laughs </stage>
+Yes -- I -- of course it's a joke.
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+<stage> Aside to Dem. </stage>
+One thousand rubles if you show him my likeness.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Cash?
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+No -- but I --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Madam, I do not sell my art --
+<stage> Aside </stage>
+I may sell my patrons, but not my art.
+<stage> Aside - To the caravan as Sophia goes disconsolately over to Gogol and Boris. </stage>
+Are you ready Anna?  Then hurry up -- I must gain time.
+<stage> Aloud </stage>
+Now, sire, examine the caravan -- you will see that there is nothing inside but a few domestic data, and nothing outside but ourselves.  There can be no possible way for a living being to enter without my knowledge -- no fire-escapes to climb up, no side doors to avoid municipal authority, or to quote an eminent literateur - there ain't no nuthin' --
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Is it visible to the naked eye?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+To the naked -- such a decollete expression - to the unclothed eye, yes.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> Back stage </stage>
+Go ahead.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+What was that?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Observe my ventriloquial powers -- Are you there Anna?
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+Yes ---
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Are you sure?
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+Of course I am.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Wonderful!
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+That's the way I deceived the Marajah of Punjaub -- great boy the Marajah - he was so impressed with my ventriloquial powers that he - that he conferred on me the order of the double epiglottis. I feel the propitious moment has arrived -- that we are on the brink of the unforseen, unfathomable future.
+</p></sp>
+<stage> Music No. 4 </stage>
+
+<sp><speaker>DEMIDOFF</speaker><p>
+Caballa - Abdalla - 
+Hawoka - Sulon.
+</p></sp>
+<sp><speaker>CHORUS</speaker><p>
+Hawoka - Sulon.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><lg>
+<l>Venus, Goddes of love, ope wide thy shell-like ears</l>
+<l>And by the memory of thy loves</l>
+<l>The cooing of the snowy doves</l>
+<l>I, Demidoff, the great Mumbo-jumbo of the seers</l>
+<l>Direct you</l>
+<l>Expect you</l>
+<l>By mystic sign and magic rite</l>
+<l>To send his heart's delight</l>
+<l>Of future years.</l>
+</lg></sp>
+<sp><speaker>CHORUS</speaker><p>
+On wings of lightning she appears.
+</p></sp>
+<sp><speaker>ANNA</speaker><lg>
+<l>Love's the pleasure, love's the pain</l>
+<l>Love's the sickle, love's the grain</l>
+<l>Love's the sunshine, love's the rain</l>
+<l>Love is everything.</l>
+</lg></sp>
+<sp><speaker>BORIS</speaker><lg>
+<l>Oh visions from the realms of light</l>
+<l>My dream of love so fair, so sweet</l>
+<l>Bright guiding star of summer night</l>
+<l>without thee life is incomplete.</l>
+</lg></sp>
+<sp>
+<speaker>
+OMNES</speaker><lg>
+<l>Love's the pleasure, love's the pain</l>
+<l>Love's the sickle, love's the grain</l>
+<l>Love's the sunshine, love's the rain</l>
+<l>Love is everything.</l>
+</lg></sp>
+<stage> Calcium on caravan as curtain noiselessly opens discovering Anna in regal costume.  Anna sings a few words to mystic strain.  Boris takes it up - openly manifesting his admiration for Anna.  He attempts to rush to her: he is prevented by Gogol and chorus.  Calcium lights quickly taken off Anna and curtain drawn.  Lights up Boris rushes to caravan draws aside curtain, but Anna and Demidoff have both disappeared.  Chorus affrighted sing of magic.  Boris expresses sorrow at the disappearance of such an angel of beauty, wonders who she is etc. etc., as chorus gradually disperse.  Stage cleared leaving Boris seated at table R. looking glommily into space.  Gogol at back watching him and Sophia watches obviously jealous of Boris' attitude. </stage>
+
+<sp><speaker>GOGOL</speaker><p>
+A clever trick, eh?
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+What grace!  What beauty!
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+Hah - an illusion at best, a painted face.  Why it's often practised in Hindoostan, a clever sham.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+<stage> With a sigh </stage>
+I wish it were real.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Rubbing his hands triumphantly </stage>
+The young fool nibbles at the bait
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+<stage> Musingly </stage>
+My bride to be - he said -
+<stage> Distant shouts off stage L.  Gogol goes up, looks off L. </stage>
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Aside looking at Boris </stage>
+Now he'll swallow it hook and all -
+<stage> Shouts nearer </stage>
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+Why do they shout?
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Looking off, describing the scene </stage>
+A gaily dressed party of travellers are entering from the Plecknard.  They are alighting --
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+<stage> In consternation </stage>
+Strangers?
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+Yes, two ladies, a page and a - courier.
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+<stage> Goes up stage, looks off L. </stage>
+Father - do you see - it's the same one - I'll swear -
+<stage> Looks at Boris.  Aside </stage>
+He will see her --
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+No, you're mistaken - it can't be.  Boris, - do you recognise...
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+No - no - don't ask him.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+<stage> At table not noticing </stage>
+I am going home.  I shall petition the Czar to allow me to leave here.  I --- Oh, why was I ever born?</p></sp>
+<stage> Exits sadly </stage>
+
+<stage> Entrance music - Anna - Demidoff </stage>
+
+<stage> Music No. 5 </stage>
+
+<sp><speaker>ANNA</speaker><lg>
+<l>When the wintry moon is bright</l>
+<l>And the curtain of the night</l>
+<l>Is illumined by the stars that shyly twinkle</l>
+<l>When the frost is in the air</l>
+<l>And the snow lies everywhere</l>
+<l>There's no music like the sleigh bells merry tinkle</l>
+<l>Hear the horses as the neigh</l>
+<l>They are telling in their way</l>
+<l>That we should be off before the moon retires for the night,</l>
+<l>Here the jingle of the bells</l>
+<l>Faintly echo in the dells</l>
+<l>Ye ho, ready, yo ho steady, hear us shouting with delight</l>
+<l>On, see the horses gaily speeding</l>
+<l>On, over roads bedecked with snow</l>
+<l>On, now our steeds are bravely leading</l>
+<l>Over hill and dale we madly go.</l>
+</lg></sp>
+<sp><speaker>CHORUS</speaker><lg>
+<l>On, see the horses gaily speeding</l>
+<l>On, over roads bedecked with snow</l>
+<l>On, now our steeds are bravely leading</l>
+<l>Over hill and dale we madly go.</l>
+</lg></sp>
+<sp><speaker>ANNA</speaker><lg>
+<l>Through the village on the hill</l>
+<l>By the turnpike and the rill</l>
+<l>Crackling o'er the ice that by our weight is bending</l>
+<l>Turning for the homeward race</l>
+<l>See the steed with carless grace</l>
+<l>Through the snow drift in the valley softly wanding</l>
+<l>Quick again away we speed</l>
+<l>Each one trying for the lead</l>
+<l>While the moon grows dim and dimmer as the shadows fill the night</l>
+</lg>
+<lg>
+<l>Catch us if you can we cry</l>
+<l>As like lightning we dash by</l>
+<l>Yo ho ready, yo ho steady</l>
+<l>Hear us shouting with delight</l>
+<l>Oh, see the horse gaily speeding etc.</l>
+</lg></sp>
+<sp><speaker>CHORUS</speaker>
+<l>Oh see the horses gaily speeding etc.</l>
+</sp>
+<stage> After song and chorus </stage>
+
+<sp><speaker>DEMIDOFF</speaker><p>
+The Princess Stephanie of Ruchofski is much moved by this friendly demonstration.  Ah, do I not observe the Deputy Governor - Raseloff Gogol.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+You do me the honour to recognize me.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+I do.  The Czar once showed me a picture of you -
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+No, it was me he showed it to -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+So he did, but I was there wasn't I --
+<stage> Aside </stage>
+I'll damage that boy yet -
+<stage> To Anna </stage>
+Your Highness allow me to present Raseloff Gogol, Deputy Governor of Bokhara.
+<stage> Gogol bows </stage>
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+Delighted
+<stage> Raises veil </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Madam Jelikoff
+<stage> Gogol bows </stage>
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Delighted
+<stage> Bows, nearly falls </stage>
+A plauge on these skirts.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Aside to Jelikoff </stage>
+Her Highness will condescend --
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Permit me to introduce myself.  I am Ivan Ivanowschefsky, page in waiting to Her Highness Princess Stephanie of Ruchkofski -
+<stage> Pushes Jelikoff who nearly falls over </stage>
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+<stage> Tragically </stage>
+Boy -
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+There now don't you begin.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Laughing to conceal anger </stage>
+I'm afraid we have spoiled him - you see we love him so.  I was about to say - Her Highness and suite will utilize your establishment -
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Surprised </stage>
+Live at my house -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Her Highness will condescend to do so
+<stage> Looks at Anna, Anna bows.  Jelikoff bows and Katrinka bows </stage>
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+And by my haldom a right merry time we'll have.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+My house is too small.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+We'll make it larger -- friends you may feast to your heart's content till sundown.  The Deputy governor will pay the score -
+<stage> Omnes shout </stage>
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+I -- no -- no --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+What, you refuse, then Her Highness will pay - come -
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Aside to Demidoff </stage>
+You'll ruin me!
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Aside </stage>
+Princess come nigh
+<stage> Offering his hand to Princess. </stage> 
+
+<stage> Enter BORIS </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Your Highness, the Deputy Governer anxiously awaits us.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+<stage> Carrying Paper </stage>
+Uncle - here is my petition to the Czar
+<stage> Anna lifts veil, Boris sees her. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+My, boy the Princess jokes are rated as astounding
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+No, no I am
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+A lady of the land.
+</p></sp>
+<note> Most likely, original placement of Music No. 6. </note>
+<stage>
+-- CURTAIN --
+</stage>
+</div>
+<div type="Act" n="2">
+<head> The Charlatan </head>
+<head> ACT II </head>
+<note> Transcriber's Note: Act II and III bear an English type writing service stamp and dramatically different formatting, suggesting these two acts were re-transcribed in London, whereas Act I bears no type writing stamp and could be a copy of the American version. </note>
+<note> Transcriber's Note: The London script does not include Music No. 7: I am the Seventh Son.</note>
+
+
+<stage> Scene: Interior of Russian home.  Portico L. window (trellis effect) R.  Entrance C.R.F. and room extending off R.  Caravan L.C. concealed by curtains.  Church seen off R.C., etc., practical.  Chorus to use same. </stage>
+
+<stage> ENTER JELIKOFF R.  pulling open curtains.  Lights up Full. </stage>
+
+<sp><speaker>JELIKOFF</speaker><p>
+Demidoff!  Awake - awake.
+</p></sp>
+<stage> Demidoff L.C. wakes up with start - looks round, suddenly looks at table, hurriedly feels in pockets - then grabs JELLIKOFF by the collar. </stage>
+
+<sp><speaker>DEMIDOFF</speaker><p>
+Give me that money.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+<stage> R.C. </stage>
+What money?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+And then I woke up.  Let me dream again.  Why did you wake me up you old chump?
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Do you forget that Prince Boris weds Anna today?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Yes - yes, of course, but I -
+<stage> Rubs forehead furiously </stage>
+The loss of that hundred thousand has upset me - I had it - and it got away -
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+But why sleep here?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Anna is in that room.
+<stage> Points L. </stage>
+And I must watch her till after the ceremony.  She might tell Boris the truth -- the easiest money I ever --
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Demidoff - I tire of this apparel, I --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+After the marriage you may return to your native garments.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+That's all very well, but one of Gogol's friends, Captain Peshofki swears he will marry me.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+What have I to do with your amours - tell him you're married.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+I did, and he swears he will kill my husband.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Good.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Yes, but I told him - I told him that you - were my husband.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Gets up </stage>
+You bearded lady!  Haven't I enough trouble with....
+
+<stage> ENTER KATRINKA R. </stage>
+
+Anna's marriage without bother about my own assassination!
+<stage> To Katrinka </stage>
+What do you want?  I thought I had put you out.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+You did, but I came back - I want to talk to you.</p>
+<stage> Takes chair, sits down opposite Demidoff: takes out cigarettes, offer Demidoff one. </stage>
+
+<stage> To JELLIKOFF </stage>
+<p>You can get out.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Have you any more orders?
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Yes -
+<stage> To JELLIKOFF </stage>
+Shut the door after you.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+<stage> As he EXITS </stage>
+What a rude boy.
+<stage> Exit R. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Young man, are you aware that I am in my own house?
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Well, it won't be yours after I've got through with you, it will be ours.  Now see here Demidoff I won't beat around the bust - but will make a straightforward proposition - Unless you take me into full partnership - I'll explode this fictitious fake about a Princess and you and your pretentions and ambitions will be sent sky ward ---
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Surveying Katrinka admiringly </stage>
+Have you any sisters?
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Why?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+If you have I'd like to marry one of them - all I need is a wife with a four ply ball-bearing triple expansion nerve like yours and in six months I'd own Russia and have an option on the rest of Europe.  Get out - and get out quick ...
+<stage> Throws her out of chair </stage>
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> L. </stage>
+Do you know, Demidoff, I rather like you, and I hate to see you make an idiot of yourself.
+<stage> Demidoff advance to him as if to strike him. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Say, I'll knock -
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+You don't dare -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> C. weakens, hesitates </stage>
+Well, what if I don't - you're too small, you're - oh!
+</p></sp>
+<stage> ENTER SOPHIA R.  Demidoff Bus: bows to Sophia. </stage>
+<sp><speaker>SOPHIA</speaker><p>
+<stage> R </stage>
+Have you asked him?
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> L </stage>
+Yes - I -
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+Demidoff you will promise - this marriage between your daughter and Prince Boris must not take place - think of me.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Think of you - think of me.  Don't I count - My sun is past meridian and I've got to fill a stocking for my old age - a rich son-in-law is good enought for me, thank you.
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+But Demidoff, this marriage will ruin Boris.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+No, not quite, I'll allow him a small annuity - 
+<stage> Cross R </stage>
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+But -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> R </stage>
+It's no use your butting, I cannot come between these two young hearts, in the meantime I must get ready for the ceremony.
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+<stage> C </stage>
+Demidoff -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+No - where Anna's interests are concerned I am as adamantine concretion of immovable matter.
+
+<stage> Stalks off R with tragic dignity. </stage>
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> L </stage>
+Isn't he lovely?
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+My dear you're in love with him.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Can I help it - he's such a colossal fraud.
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+So are you - you'll make a charming pair.  Boris will marry a beggar - he will lose his title and estates - suppose I warn him - no, he would not believe it - besides, father would never forgive me -
+<stage> Suddenly </stage>
+Katrinka, suppose another Princess Ruchkowski came to Bokhara, suppose you appear on the scene as the real Princess Ruchkowski - it will prevent the marriage.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+But -
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+If you refuse, I tell everyone your sex, as a Princess you might attract Demidoff.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+You know then.  Well I left home fascinated by Demidoff's magic art.
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+I know all about it.  Do you think you can deceive me as Anna and Demidoff have deceived each other.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> Clasp hands </stage>
+Me, I see, yes.  I'm to be the real Princess.  I'll make Anna look like 30 Kopecks.
+<stage> Cross R </stage>
+
+<stage> ENTER ANNA in full white wedding dress DL.  She is sad. </stage>
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+<stage> Aside </stage>
+Hush - come to my rooms, I will explain -
+<stage> Aloud </stage>
+How is your highness this morning - I trust your highness is well.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+Yes.
+<stage> Aside </stage>
+She is mocking me.
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+Has your Highness any orders to issue?
+<stage> ANNA shakes her head. </stage>
+Perhaps your highness wishes to be alone -
+<stage> ANNA nods affirmatively </stage>
+
+<stage> To Katrinka </stage>
+Come.
+
+<stage> As they go towards DR, ENTER BORIS, he bows to them in a dignified manner and goes forward to greet Anna. </stage>
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> Aside to Sophia </stage>
+You're not 1-2-50 with him.
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+Why I'm only 32 --
+
+<stage> SOPHIA EXIIS door R followed by KATRINKA. </stage>
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+<stage> R </stage>
+The wedding guests will soon be here and in an hour we shall meet never to part again.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> L </stage>
+In an hour we may part never to meet again.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+What do you mean?  Stephanie, you love me?
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> Crosses to chair. </stage>
+Yes, but - I - I have forbodings of some impending danger.
+<stage> Sits in chair. </stage>
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Love should drive such fears away.
+
+<stage> Action at back of stage, CHORUS going into church </stage>
+
+<stage> Music No. 8 </stage>
+</p></sp>
+<sp><speaker>BORIS</speaker><lg>
+<l>Before the twilight shadows change to tints of Misty grey</l>
+<l>Before the glinting sunbeams on the waters cease to play</l>
+<l>The bridal bells with sweetly sound the clanging roundelay</l>
+<l>Proclaim the world that we are one</l>
+<l>Together drifting on life's stream</l>
+<l>The golden days of golden dream</l>
+<l>With love that ever constant theme</l>
+<l>Till the sands of time are run.</l>
+</lg></sp>
+<sp><speaker>ANNA</speaker><lg>
+<l>The lilies of your love will die; the rose will lose its bloom</l>
+<l>The darkness of a sunless time will fill your heart with gloom,</l>
+<l>Tho' I should seek the dreary desolation of the tomb</l>
+<l>You are my own, my earth my sun.</l>
+<l>Together drifting on life's stream</l>
+<l>The golden days a golden dream</l>
+<l>With love the ever constant theme</l>
+<l>Till the sands of time are run.</l>
+</lg></sp>
+<sp><speaker>CHORUS</speaker>
+<stage> Outside </stage>
+<lg>
+<l>The Orange flower blossoms in the young brides hair</l>
+<l>Will the wine be sweet</l>
+<l>Will we taste the meat,</l>
+<l>When the orange flower blossoms in the young bride's hair</l>
+<l>The wine is sweet</l>
+<l>We taste the meat</l>
+<l>And bless the pair.</l>
+</lg>
+<stage> After music </stage>
+</sp>
+<sp><speaker>BORIS</speaker><p>
+My Princess.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+No, no -- Oh Boris - could you forgive me if -
+</p></sp>
+<stage> ENTER GOGOL DR </stage>
+
+<sp><speaker>GOGOL</speaker><p>
+Ah, here you are Boris - I thought I would find you with the Princess Ruchkowski.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+I hate that name.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+Well, you will soon change it for another - Come Boris, the guests were assembling in the church when I left.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> L </stage>
+Boris - I must speak to you before the ceremony.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+No, no - after -
+<stage> Dragging Boris towards door. </stage>
+After - I - I am sure your highness would not wish to keep everyone waiting -
+
+<stage> Organ or choral effect off stage.  Omnes listen. </stage>
+The preliminary services have begun.
+
+<stage> ENTER JELIKOFF R, dressed as a bridesmaid. </stage>
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+<stage> C </stage>
+Come your highness your bridesmaids await us.
+<stage> To Boris </stage>
+And your two dozen best men are as impatient as if it were their wedding.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> R </stage>
+Go Boris -
+
+<stage> Boris throws a kiss to Anna and rushes off R. </stage>
+
+<stage> Gleefully </stage>
+Victory - victory - at last -
+<stage> To Jelifkoff </stage>
+Madame where is Demidoff?
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+I was helping him to dress when a messenger came and he kicked me out -
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+Kicked you out?
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Yes. 
+<stage> BUS </stage>
+But I was too well protected for him to do much damage -
+
+<stage> ENTER DEMIDOFF quickly, he is breathless. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+The game is up!
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> R </stage>
+Up!
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> C </stage>
+Up!!
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+<stage> LC </stage>
+UP!!!
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> RC </stage>
+One echo at a time please - yes -
+<stage> To GOGOL </stage>
+You've muddled up the whole business.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+Muddled -
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Mud.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Yes - that will probably be our nom de plums in the future -
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+Be more explicit.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+I will - Do you know you have out-balanced Ballam's most asinine ass - do you know that the seven foolish virgins are wise old women compared to you - Do you know that - but what's the use of multiplying similes - it can all be conveyed in the expressive through inelegant term - chump
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+What has happened?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Oh nothing - a mere trifle - the real Princess Stephanie of Ruchkowski has turned up - that's all - Oh we're not in the puree, oh dear no.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+But there is no Princess Stephanie living.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Well, up to date there are two of them.  A courier has just informed she arrived last night - incognite - she has heard of this marriage and demands and explanation.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> Crosses to D. </stage>
+Father, I am glad this has happened - I always hated deception.
+
+<stage> Taken off orange blossoms and wreaths </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Child - you are stabbing your fond and devoted parent in the back - don't add to my vale of tears - this marriage must take place now, its our only chance.  Whatever happens Prince Boris will protect papa.
+
+<stage> BUS: fixes wreath all wrong </stage>
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+It is cruel - cruel.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Cruel - you love him - he loves you.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+Yes - but -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Marriages are made in Heaven, a most respectable factory, and that relieves you of all responsibility.
+
+<stage> ENTER PAGE R </stage>
+
+PAGE
+Your Excellency - the services have begun.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+We come at once -
+
+<stage> Waives page away.  He EXITS. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+How dare they ring up the curtain without me - tell them to start over again.
+<stage> To GOGOL </stage>
+What about this extra layer of Princess?
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+The Czar must have conferred the title on someone.  I never thought of that.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+I wish the Czar would mind his own business instead of mixing in our affairs -
+<stage> To JELIKOFF </stage>
+Take Anna to the church - we'll follow.
+
+<stage> JELIKOFF takes ANNA's arm, half drags her to DR </stage>
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+Father - one last appeal.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+My word is given to Gogol - if he will release me I will release you - Gogol - spare my child.
+
+<stage> GOGOL BUS: waves his hand. </stage>
+
+Must I ply - plea in vain - have a father's tears no weight with you?
+
+<stage> GOGOL shakes his head and goes up to ANNA. </stage>
+
+You see he has a heart of stone, and a head of wood.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Come little one - it will soon be over - it's only just like having a tooth pulled -
+
+<stage> EXIT ANNA and JELIKOFF R </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+After the wedding we'll see the Princess - you can tell her it was a joke - say we did it to win a bet.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+No, you tell her.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Why me -- Who am I that I should be selected for such a delicate macheveliian mission?
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+You are more diplomatic - more insinuating than me.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Perhaps you are right - I might make an impression on her, a deep impression, who can tell - why should not I aspire to a Princess?  Come -
+
+<stage> Goes toward door </stage>
+
+You have provided a wedding dinner for our guests.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+Yes.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+No bargain counter - Dairy kitchen lunch, we must have the best the market affords - there's not a mean bone in my body.
+
+<stage> They are about to EXIT door R. arm in arm when ENTER SOPHIA hastily. </stage>
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+Father - Princess Stephanie of Ruchkowski is here, direct from Moscow.  She demands an instant audience with the Princess's courier.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+What does she want to see me for?
+</p></sp>
+<sp><speaker>SOPHIA</speaker><p>
+Boris' marriage must be delayed -
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> To Sophia </stage>
+Yes, I'll delay it -
+<stage> To Demidoff </stage>
+Not if I know it - keep the Princess here until the ceremony's over.
+
+<stage> ENTER PAGE R </stage>
+
+PAGE
+Her Imperial Highness, the Princess Stephanie of Ruchkowski.
+
+<stage> ENTER KATRINKA dressed magnificently as the Princess same dress as ANNA Act 1.  GOGOL is about to EXIT L. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+No - no, don't leave me here alone - I -
+<stage> SOPHIA is following GOGOL off L. </stage>
+Sophia -
+<stage> EXIT SOPHIA laughing at DEMIDOFF. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Not daring to look at her. </stage>
+Your highness - I - we -
+<stage> Looks at DL </stage>
+The - Did you -- or - it's - a - it's a fine day, isn't it?
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> Sternly </stage>
+I am not here to discuss the weather.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> L </stage>
+No - there are plenty of other things we can talk about - er - if we can only think of them.  It is a fine day though - isn't it -
+<stage> Laughs </stage>
+The weather will keep bobbing up.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> R </stage>
+I understand the Princess Ruchkowski - 
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Ah, don't let us talk about ourselves - it smacks so of egotism -
+<stage> Looks at her, starts. </stage> 
+----- who is it you remind me of?
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Sir!
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Pause </stage>
+Did you speak?
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+No, but I will.  You are fictitious courier - to a still more fictitious Princess.
+<stage> Seats herself. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+It was a joke - upon my word of honour as a gentleman - it was a joke.
+<stage> Aside </stage>
+I've met that face before, but where - where...
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+A joke the Czar will punish most severly -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+It's Gogol's joke not mine - he's the Deputy Governor.  He commanded and I obeyed.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+I should never have discovered it had I not be hunting for my brother Katrinket, who ran off with a travelling magician Demidoff.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Katrinket?  Dear little Katrinket your brother.  Princess I thought there was an air of familiarity - behold in me your brother's dearest friend and bosom companion.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Friend?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Friend - benefactor - father -aye almost mother - Why Damon and Pythias were mortal enemies compared to us.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+You love him?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+I would cut off my left ear to please him.  Ah, Princess, for his sake you will forgive Gogol's ill-timed humour.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Yes, I may forgive Gogol, but I intend to have Demidoff flung into prison
+<stage> Cross to L. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Frightened </stage>
+What for?
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+My brother Katrinket has disappeared - killed perhaps by Demidoff -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Kill Katrinket - me - why I couldn't kill a fly -
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+So you are Demidoff - the high priest of black art.
+<stage> Advances to him, threatening. </stage>
+Where is my brother?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+He's on vacation.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Where?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+I - he - he's vacated - that's all I know.  Don't worry about him - he's all right.
+<stage> Looks at her affectionately. </stage>
+Ah, now I see why I loved him so.
+<stage> Takes KATRINKA's hand. </stage>
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Why?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Because he is the tinfoil - counterfeit, I mean counter-part of your own beautiful self - 
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> Snatches her hand away, indignantly. </stage>
+How dare you -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+I dare anything for your sake -
+<stage> Clasps her around waist. </stage>
+Your beauty has metamorphised me into an ardent lover whose passion-sapped intellectual faculties are overwhelmingly saturated with a boisterous, burning, bubbling desire to become yours and yours alone.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+You win - Then thou will join me.
+</p></sp>
+<stage> Music No. 9 </stage>
+<sp><speaker>
+KATRINKA &amp; DEMIDOFF
+</speaker><lg>
+<l>
+The college man is rollicking frollicking all the live long day
+</l>
+<l>The summery, summery girl is full of joy,
+</l>
+<l>The bachelor is practical, tactical in his genial way
+</l>
+<l>No frautical, autical words does he employ
+</l>
+<l>The widow laughs most merrily, cheerily bubbling o'er with mirth,
+</l>
+<l>No fearfully tearfully words she interlards
+</l>
+<l>But the frappery, snappery, muttery, sputtery people of this earth,
+</l>
+<l>Are the member of the matrimonial guards.
+</l>
+<l>The long lean husband and his roly poly better half.
+</l>
+<l>The plain dressed man whose wife looks like a circus lithograph.
+</l>
+<l>The female nagger,
+</l>
+<l>The chronic jagger,
+</l>
+<l>All are marching to the music of a cry or laugh.</l>
+</lg></sp>
+<stage> KATRINKA EXITS R. </stage>
+
+<stage> ENTER JELIKOFF followed by PESHOFKI - JELIKOFF rushes to DEMIDOFF for assistance. </stage>
+
+<sp><speaker>CAPTAIN</speaker><p>
+You are not for him - I have swear it?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+What's the matter?
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+You are 'usband of 'er - 'er whom I love -
+<stage> Points to JELIKOFF. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+I don't follow you.
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+I am slav - I am soldier - I stab, I kill.
+<stage> BUS: with sword. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+That's quite possible - but what am I to infer from that?
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+I love 'er - 
+<stage> Point to JELIKOFF </stage>
+wife of you, if you shall stand in my way I will make of you a dead body.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+But my friend there are obstacles.
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+I care nothing for obstacles, I am slav, I am soldier, I stab, I kill.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+But you don't seem to understand - this is no lady -
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+Ah, you insult her.  She is a perfect lady - yes.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+I tried to explain but -
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+Fair Lady you love not him eh? No - well you shall love me - as for him, he shall die.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Will you leave me then for a minute.
+<stage> To JELIKOFF </stage>
+You've got me into a nice mess haven't you?
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+It isn't my fault.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Well, you get out of it the best way you can -
+<stage> To CAPTAIN </stage>
+Sir - I interpose no opposition - go ahead.
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+Ah - so you shall live
+<stage> To JELIKOFF </stage>
+And you shall fly wis me, is it not?
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+<stage> In a deep voice, pushes him back. </stage>
+Stand back, are you bereft of your senses?
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+Ah, I am die of love
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+See here, this has gone far enough -
+
+<stage> Takes CAPTAIN by arm, takes him up stage, talks earnestly to him in pantomime for five or six seconds, they then both look round at JELIKOFF, who is standing LC unconscious.  CAPTAIN starts back as if struck, places hand to forehead. </stage>
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+Ah - I am craze - I thought 'is voice was terribly hoarse for a lady.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Yes, that's a terrible horse on you - and I think if you'd stop smoking these...
+<stage> BUS: with cigarettes </stage>
+it would help some.
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+Ah, I cannot believe it -- it is a scheme of you to so separate us?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Pish! Maluska!
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Help.
+<stage> Organ and Chorus off stage. </stage>
+
+<stage> ENTER GOGOL </stage>
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+It is over - they're married - ha - ha -
+<stage> BUS. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Aside </stage>
+The laugh is on the other foot
+<stage> BUS. </stage>
+Ha, ha -
+<stage> Imitates him. </stage>
+And now to congratulate my daughter.  Father to Princess Alexandovitch - Husband to Princess Ruchkowski by the St. Nicholas.  I shall be a Grand Duke before I know it ...
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+Fool your daughter is wedded to a pauper.
+</p></sp>
+<stage> ENTER CHORUS </stage>
+
+<stage> Music No. 10 </stage>
+
+<stage> Behind Scenes </stage>
+
+<sp><speaker>CHORUS</speaker><lg>
+<l>Day of joy when young hearts are mated</l>
+<l>Golden chains are linking soul to soul</l>
+<l>Bride and groom, we pray you are fated</l>
+<l>To be happy as the seasons roll.</l>
+</lg></sp>
+<stage> ENTER wedding GUESTS etc. </stage>
+<sp><speaker>
+SOPRANOS
+</speaker><lg>
+<l>While unrestricted bliss</l>
+<l>To what we wish the pretty bride</l>
+<l>Yes it is not amiss</l>
+<l>If at this time we should confide</l>
+<l>That we, quite young and fair,</l>
+</lg><lg>
+<l>Would single life forswear,</l>
+<l>And join this happy pair.</l>
+<l>Should you decide.</l>
+</lg></sp>
+<sp><speaker>ANNA</speaker><lg>
+<l>The lillies of your love may die,</l>
+<l>The rose my lose its bloom</l>
+<l>To-day we're happy you and I,</l>
+<l>The morrow may bring gloom.</l>
+</lg>
+<lg>
+<l>Maid of the meadow ope thine eyes</l>
+<l>Life is a dream of paradise</l>
+<l>No constant fears</l>
+<l>Bring coutless tears</l>
+<l>Love's choicest wine</l>
+<l>Is over thine.</l>
+</lg>
+<lg>
+<l>Maid of the sunshine ope thine eyes</l>
+<l>Life is a sweet surprise</l>
+<l>Would I were the meadow maid</l>
+<l>No daughter ruled by mystics hand</l>
+<l>Oh fates in all you might arrayed</l>
+<l>Oh tell what you have planned.</l>
+<l>Bride of the sunshine I'd be</l>
+<l>Bride of the summer breeze</l>
+<l>Bride of the blue-tinted sea</l>
+<l>Bride of the murmuring trees.</l>
+</lg></sp>
+<sp><speaker>CHORUS</speaker><p>
+Speech - speech -
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Friends - dear friends I -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Good!
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Friends - dear friends I -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Aside to BORIS </stage>
+Good, don't speak again.  You're giving them a pain.
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+The grand Duke has arrive from the Moscow.
+</p></sp>
+<sp><speaker>DUKE</speaker>
+<stage> Aside to KATRINKA </stage>
+<p>Oh shameless imposter this means your arrest.</p>
+
+<note> Transcriber's Note: Music No. 10d, "It is a well established fact" (or the Ammonia Song, is not found in the London script. </note>
+
+<stage> After song EXIT OMNES except DUKE - DUCHESS, CAPTAIN and Russian soldiers. </stage>
+</sp>
+<sp><speaker>DUKE</speaker><p>
+<stage> Signals curtain to be drawn. </stage>
+Captain!
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+Your Imperial Highness.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Inform the - </p>
+<stage> Sarcastically </stage>
+<p>Princess Stephanie of Ruchkowski - that as soon as her fainting fit is over I wish to see her here.
+</p>
+<stage> CAPTAIN salutes EXITS R. </stage>
+<p>The Princess Stephanie.</p>
+<stage> Bows to Grand Duchess </stage>
+<p>Ha ha!</p></sp>
+<sp><speaker>
+DUCHESS
+</speaker>
+<p>
+The imposter - what impertinence.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+I little thought that when his Imperial Majesty the Czar conferred on you the title and estates of the late Princess Ruchkowski woman that we should find a spurious imitation here - in our own mountain retreat.
+</p></sp>
+<sp><speaker>
+DUCHESS
+</speaker>
+<p>
+I wonder who she is.
+</p></sp>
+<stage> ENTER DEMIDOFF </stage>
+
+<sp><speaker>DEMIDOFF</speaker><p>
+The Princess is really unable.
+<stage> Shouts and turns to L </stage>
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Well - I didn't send for you.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+No - I - I'm an accident - I mean -</p>
+<stage> Looks at soldiers, trembles. </stage>
+<p>I'm very glad your Highness didn't send for me - I -</p>
+<stage> Aside </stage>
+<p>I can hear the dungeon yawning for me - I must face it out -</p>
+<stage> Gaining courage. </stage>
+<p>Your highness - it was all a joke - a harmless little joke - and Anna borrowed the title intending to put it back - immediately - in fact we have returned it - The real Princess has forgiven us - and -</p>
+<stage> Dolefully </stage>
+<p>all is as merry as ha - ha -</p>
+<stage> A sickly laugh. </stage>
+<p>as a church bells -
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+So the Princess has forgiven you.
+<stage> Turns to the Grand DUCHESS </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Oh yes - Your Highness - and enters into the spirit of the joke with us - thought it was great fun - asked us to do it again - Oh the Princess is a cork - tres charmant - tres charmant - your Highness speaks French?</p>
+
+<stage> The Grand DUKE looks angrily at DEMIDOFF, who notices this and his spirits drop as he glances from the DUKE to the DUCHESS and sees they are frowning. </stage>
+<p>
+It was Gogol's idea your Highness.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+The Deputy Governor?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Yes - Your Highness - Oh, he ought to know better, I warned him - but -
+</p>
+<stage> ENTER KATRINKA R. </stage>
+<p>
+Ah - at last - Your Highness.
+</p>
+<stage> To KATRINKA </stage>
+<p>
+You will explain to his Imperial Highness, the Grand Duke - but first permit me to introduce to you - Her Highness, the Princess Stephanie of Ruchkowski.
+</p>
+<stage> The DUCHESS rises indignantly, the DUKE signals her to remain quiet. </stage>
+<p>
+Princess, this is his Highness the Grand Duke -
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+And who are you, Sir?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Me? Why I'm -
+<stage> To KATRINKA </stage>
+Do you mind introducing me?
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+No - no - I -
+<stage> BUS: DEMIDOFF </stage>
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+So - this is the Princess eh -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+The real thing - she will tell you it was with her consent we temporarily utilized the gognomen of Ruchkowski, eh, Princess?
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+No - no - it is useless.  Your Imperial Highness knows only too well that I -
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Ah - you acknowledge the fraud -
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Yes I - 
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+No you don't -
+<stage> To DUKE </stage>
+Your Royal Highness it was this way.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Silence sir.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+I was only going to say -
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Silence or -
+<stage> Motions to GUARDS, DEM: BUSINESS, makes signs intimating that it was her fault. </stage>
+How came you to assume?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+She didn't assume - she is the real article.  You see it was this way.  My daughter Anna, the present Princess Alexandervitch, in a spirit of harmless levity accepted the title of Ruchkowski - with the permission of course, of the original hold of the stake, I mean the title -
+<stage> TO KATRINKA </stage>
+Eh, Princess?
+<stage> Then to DUKE </stage>
+Your Imperial Highness found it out - laughed merrily at the joke - forgave it - and all's well that ends well - eh?
+
+<stage> Laughs heartily, looks around but no else laughs.  The Grand DUKE does not respond to DEMIDOFF's flow of spirits and he gradually subsides. </stage>
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+<stage> To GUARD </stage>
+If that man interrupts again give him an inch of cold steel -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Aside </stage>
+This looks like a conspiracy to railroad me to the better land -
+<stage> OFFICER BUS: with sword. </stage>
+I was only soliloquizing!
+
+<stage> ENTER ANNA and BORIS </stage>
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Ah, Boris -
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Your Highness
+<stage> Salutes him to the Princess. </stage>
+Your Highness' servant.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+I'm sorry to see you mixed up in this affair Boris.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+A man is so liable to be mixed up in his own wedding Your Highness -
+<stage> Laughs lightly - the DUKE glares at him. </stage>
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Your Highness - permit me to introduce my newly wedded bride -
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Ah, congratulations -
+<stage> BUS: bow to ANNA who returns salute. </stage>
+You have conformed to the Czar's will I presume?
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+I have - my wife was until an hour ago the Princess Stephanie of Ruchkowski -
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+What?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+No - no - that's part of the joke - we don't want it dug up again -
+<stage> Takes his arm and leads him away from DUKE. </stage>
+For goodness sake don't - she has your name now - forget all about hers - let bygones be bygones -
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+I didn't catch the name -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Aside </stage>
+Prepare to receive cavalry.
+<stage> Braces himself. </stage>
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Until recently the Princess Stephanie of Ruchkowski -
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Indeed -
+
+DUCHESS
+How dare they!
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Aside </stage>
+Oh this is double darrel Hades -
+
+<stage> ENTER CAPTAIN, bringing in JELIKOFF followed by GOGOL and SOPHIA. </stage>
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+Your I'ghness - I can find no Princess but - I suspect this lady is something of what she does not look -
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+I am innocent -
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Perhaps you are the Princess Stephanie of Ruchkowski -
+
+<stage> JELIKOFF looks at DEMIDOFF. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Discovered at last.  I knew the real culprit could not escape your Imperial Highness' penetrating eye.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+That makes three ladies -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Up his sleeve so to speak. </stage>
+Beats three jacks -
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Who is the guilty one?
+
+<stage> Pause </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Aside </stage>
+What! Unanimous silence.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Come....speak....I'll give you two minutes to make up your minds which is the guilty one.
+</p></sp>
+<stage> Music No. 11 </stage>
+
+<sp><speaker>DEMIDOFF</speaker><p>
+After due consideration
+I have hit upon this plan
+We'll deny the allegation
+<stage> Points to GOGOL </stage>
+Saying he's the guilty man.
+</p></sp>
+<sp><speaker>ANNA</speaker><lg>
+<l>The opinion of your daughter</l>
+<l>As the legal facts I scan</l>
+<l>Is that we together ought to</l>
+<l>Say Gogol's the guilty man.</l>
+</lg>
+</sp><sp><speaker>JELLIKOFF</speaker><lg>
+<l>While your plan commands attention</l>
+<l>Though I cannot tell you why</l>
+<l>Have you thought that we should mention</l>
+<l>We can prove an alibi.</l>
+</lg></sp>
+<sp><speaker>KATRINKA</speaker><lg>
+<l>While I'll swear to anything you tell him </l>
+<l>Still I have another plan</l>
+<l>Sympathetic sobs from Ann would quell him</l>
+<l>And indict that guilty man</l>
+<l>So sob dear Anna</l>
+<l>In a manner</l>
+<l>To convict that man.</l>
+</lg></sp>
+<sp>
+<speaker>ALL</speaker>
+<lg>
+<l>If we find the Duke won't listen</l>
+<l>Then we'll try (Katrinka's/my little) plan</l>
+<l>Tears in both (your/my) must glisten</l>
+<l>Proving he's the guilty man.</l>
+</lg>
+<stage> DEMIDOFF, KATRINKA, ANNA and JELIKOFF BUS: </stage>
+<lg>
+<l>After consultation most intense</l>
+<l>With naught of malice or propense</l>
+<l>Our meeting's indiviudal sense</l>
+<l>Is he's the guilty one.</l></lg>
+</sp>
+<sp><speaker>GOGOL</speaker><lg>
+<l>What I - were not your highness here</l>
+<l>This fellow I would thrash</l>
+<l>I'd put an end to his career</l>
+<l>Of lying, with the lash</l>
+</lg>
+<lg>
+<l>My nephew headless of all consequences</l>
+<l>Took that female for his lawful wife.</l>
+<l>This charlatan with subtle inferences</l>
+<l>Worked the scheme, so they are bound for life.</l>
+</lg></sp>
+<sp><speaker>DEMIDOFF</speaker><lg>
+<l>How dare you speak of her who is a Princess</l>
+<l>Someone hold me ere I strike him down</l>
+<l>Your action Gogol without doubt convinces</l>
+<l>Everybody that you are a blooming clown.</l>
+</lg></sp>
+<sp><speaker>DUKE</speaker><lg>
+<l>Your conduct and your words are shady</l>
+<l>The Princess is this noble lady</l>
+<l>The real imported article at last.</l>
+</lg>
+<stage> BORIS BUS: </stage>
+<p>But why is he so sad and overcast.
+<stage> Pointing to BORIS </stage>
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Anna wife - be true -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Now Borry don't get angry and forsake her.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Anna, who are you?
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+The daughter of a travelling fakir.
+</p></sp>
+<sp><speaker>CHORUS</speaker>
+<l>Ha - ha -</l>
+<stage> They deride Anna - she shrinks. </stage>
+<lg>
+<l>The daughter of a fakir</l>
+<l>Oh see the horses gaily speeding</l>
+<l>On over roads bedecked with snow</l>
+<l>On now our steeds are bravely leading</l>
+<l>Over hill and dale we madly go.</l>
+</lg></sp>
+<sp><speaker>BORIS</speaker><lg>
+<l>Stop though your ways are very dark</l>
+<l>This time I've overreached the mark</l>
+<l>You'll find this wedding is no lark</l>
+<l>For I'm a beggar -</l>
+</lg>
+</sp>
+<stage> BUS: hands edict to Grand DUKE. </stage>
+
+<sp><speaker>DUKE</speaker><p>
+<stage> Spoken through music. </stage>
+Imperial Decree - Prince Boris - should he marry anyone below the rank of Princess shall forfeit his title and estates to the nearest of kin by command of Nicholas, Czar of all the Russians.
+</p></sp>
+<stage> BUS: GOGOL </stage>
+
+<sp><speaker>ANNA</speaker><lg>
+<l>Ah forgive me I knew not the sadness</l>
+<l>That my life should entail upon thine</l>
+<l>Tho' my soul is bereft of all gladness</l>
+<l>I love thee with a passion devine.</l>
+</lg></sp>
+<sp><speaker>BORIS</speaker><lg>
+<l>In my arms let me fold thee for ever</l>
+<l>For my heart is ceaselessly thine</l>
+<l>Hope foretells we shall never more sever</l>
+<l>I love thee with a passion divine.</l>
+</lg>
+</sp>
+<sp>
+<speaker>
+OMNES
+</speaker>
+<lg>
+<l>Boshezar is chrani</l>
+<l>Ssill rigi dershan nui</l>
+<l>Zarst win na Slawyi na</l>
+<l>Sla wu nam</l>
+<l>Zarst win na slack wragan</l>
+<l>Za prawa sslawnyi</l>
+<l>Boshe zar is chrani</l>
+</lg></sp>
+<sp><speaker>DEMIDOFF</speaker><lg>
+<l>Caballa Obdalla</l>
+<l>Hawoka Sulon</l>
+</lg>
+<lg>
+<l>Hawoka ... Sulon Chorus</l>
+</lg></sp>
+<sp><speaker>DEMIDOFF</speaker><lg>
+<l>Venus Goddess of love ope wide thy shell like ears</l>
+<l>And by the memory of thy loves</l>
+<l>The cooing of thy snowy doves</l>
+<l>I, Demidoff the great mumbo, jumbo of the seers</l>
+<l>Direct you</l>
+<l>Expect you</l>
+<l>By mystic signs and magic rite</l>
+<l>To take her from their sight.</l>
+</lg></sp>
+<sp><speaker>CHORUS</speaker><l>
+On wings of lightning she appears
+</l></sp>
+<sp><speaker>ANNA</speaker><lg>
+<l>Love's the pleasure, love's the pain</l>
+<l>Love's the sickle, love's the grain</l>
+<l>Love's the sunshine, love's the rain</l>
+<l>Love is everything.</l>
+</lg></sp>
+<sp><speaker>DEMIDOFF</speaker><lg>
+<l>Sad was the day when I came to this planet</l>
+<l>Sadder the day when my daughter was born</l>
+<l>The heart of the world is harder than granite</l>
+<l>My poor suffering sould with anguish is torn.</l>
+</lg></sp>
+<sp><speaker>CHORUS</speaker><p>
+Death and degradation to the cringing charlatan!
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> T0 KATRINKA </stage>
+You plainly see
+They don't like me
+I am a hated man
+</p></sp>
+<sp><speaker>CHORUS</speaker><p>
+Death and degradation to the cringing charlatan!
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+'Tis my belief
+My days are brief
+If they work out their plan.
+</p></sp>
+<sp><speaker>CHORUS</speaker><lg>
+<l>Thoughts of dungeons deep and clammy</l>
+<l>Fills his soul with woe</l>
+<l>Tho' he'll sorrow</l>
+<l>On the morrow</l>
+<l>To Siberia he'll go,</l>
+</lg></sp>
+<stage> BORIS and men draw swords rush on DEMIDOFF; when headed by CAPTAIN who push back BORIS and friends; DEMIDOFF tries to explain but is put under arrest.  CAPTAIN reads warrant calling for PRINCESS STEPHANIE.  BORIS points out KATRINKA, as the Princess, who is placed under arrest.  JELIKOFF tries to escape but is arrested, DEMIDOFF, JELIKOFF, and KATRINKA hand-cuffed together and marched off with troops as: </stage>
+
+<stage><emph rend="underline">  CURTAIN  </emph></stage>
+</div>
+<div type="Act" n="3">
+<head> The Charlatan:<lb/>
+ Act III </head>
+<stage> SCENE: The exterior of the Palace of the Grand Duke. </stage>
+<stage> DISCOVERED: At rise of curtain, RUSSIAN SOLDIERS and COSSACKS, ANNA dressed as in Act 1. </stage>
+<stage> Music No. 12 </stage>
+<stage> ANNA ENTER L after Music. </stage>
+<sp><speaker>CHORUS</speaker><p>
+Why, who's this?
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> LC, Aside. </stage>
+If I can only find the Grand Duke and tell him all, surely he will restore Boris - his title and estates - the Grand Duke -
+</p>
+<note> Transcriber's Note: Music No. 13 - Anna's solo "Oh, Sunlit Sea beyond the West" and the Reprise of "Seventh Son" was not found in the London production script. </note>
+<stage> Timidly </stage><p>
+I want to see the Grand Duke -
+</p></sp>
+<sp><speaker>CHORUS</speaker><p>
+The Grand Duke - she wants to see the Grand Duke, ha, ha -
+<stage> Laughs and points at her. </stage>
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+I've important business with him.
+</p></sp>
+<sp><speaker>CHORUS</speaker><p>
+She has important business with the Grand Duke, ha, ha -
+<stage> Points at her. </stage>
+Ha - ha -
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> Angrily - stamping her foot. </stage>
+Do you call yourselves men?
+</p></sp>
+<sp><speaker>CHORUS</speaker><p>
+Do we call ourselves men - ha - ha -
+</p></sp>
+<sp><speaker>
+A SOLDIER</speaker><p>
+I'm a man and I'll prove it by kissing you.
+</p></sp>
+<stage> Siezes hold of ANNA - the rest form a circle and dance around them - ANNA struggles - boxes SOLDIER's ears.  OMNES dance around and laugh. </stage>
+<sp><speaker>
+CHORUS MAN</speaker><p>
+The Captain.</p>
+</sp><sp><speaker>
+OMNES</speaker><p>
+The Captain!!!</p>
+</sp>
+<stage> OMNES disperse rapidly and stand in military order as when curtain went up - ANNA rushes off L.I. and slams door. </stage>
+
+<stage> ENTER CAPTAIN.  OMNES salute - COSSAUKS BUS: with spears. </stage>
+
+<stage> Murmurs louder - drums beat off stage - yells of mob or cries of "Down with the Charlatan etc."  ANNA rushes off stage R as ENTER SOLDIERS with CARAVAN Cabinet which they place R.C.  Soldiers keep mob back and finally push them out of gate.  JELIKOFF and KATRINKA seat themselves R.  They are handcuffed together. </stage>
+
+<stage> SOLDIERS after closing gates C. stand up stage in twos and threes - then gradually disperse and EXIT C.D.  One of the soldiers opens curtains of cabinet disclosing DEMIDOFF tied to cabinet - completely loaded with chains.  Soldiers must be seen through gate C. </stage>
+
+<stage> ALL Exit after: </stage>
+
+<sp><speaker>DEMIDOFF</speaker><p>
+I want some air.</p>
+<stage> Takes a long breath as if relieved. </stage>
+<p>This may be exciting but I'm sure it's not healthy -</p>
+<stage> To a Soldier </stage>
+<p>Will you please tell the General of the Commissariat Department I want something to eat....I'm starving.</p>
+<stage> Soldiers take no notice. </stage>
+<p>I shall report you for incivility.</p></sp>
+<stage> Sees JELIKOFF and KATRINKA at table. </stage>
+
+<stage> Two SOLDIERS EXIT. </stage>
+
+<sp><speaker>JELLIKOFF</speaker><p> - Katrinka - can't you get me a bite...I've already eaten part of this rope because it looked like sausage...
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+We have one or two troubles of our own.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Not a wink of sleep all night ... He insisted on walking up and down the cell and of course I had to walk with him.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Does our trial take place to-day?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Don't you think we've been tried enough - all I ask is to be found guilty and put out of my misery - If only Anna were here.
+</p></sp>
+<stage> ENTER CAPTAIN, a soldier with a tray before him.  CAPTAIN points over to L. where JELIKOFF is sitting then throw him a kiss and soldier places tray before him.)</stage>
+<sp><speaker>CAPTAIN</speaker><p>
+<stage> To Soldier </stage>
+Release them..
+<stage> To JELIKOFF </stage>
+When he shall be dead...
+<stage> Points to DEMIDOFF </stage>
+there shall be no more obstacle....eh?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Still up stage in caravan. </stage>
+I wonder if he's talking about me?
+
+<stage> Soldier unfastens KATRINKA and JELIKOFF then EXIT. </stage>
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+<stage> Preparing to sit down and enjoy meal. </stage>
+Oh this is something like.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Anxiously. </stage>
+What about me...don't I eat?
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+Silence...
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+I'm bigger than he is ... I need more food -
+<stage> As CAPTAIN laughs and EXITs R. </stage>
+
+I'm turning into a vacuum I ...
+<stage> Sees JELIKOFF making preparations to eat. </stage>
+Thanks, I don't mind if I do -
+<stage> Pause </stage>
+Jelikoff I trust you are a gentleman.
+
+<stage> KATRINKA stands looking on as if she would like to be invited.  JELIKOFF goes on eating, takes no notice of others. </stage>
+
+Jelikoff...In polite circles it is not considered good form to eat without asking those present to join you.
+<stage> Groans, Pause. </stage>
+Say will you stop smacking your lips ...  I said it was not good form.
+<stage> Sees that JELIKOFF does not notice him. </stage>
+Say, give us a bite, will you?
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+<stage> To Katrinka. </stage>
+Is he talking to me?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Katrinka!
+<stage> KATRINKA goes to him. </stage>
+Are we watched?
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> Looks around. </stage>
+Only the sentry.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Well, I'm going to make a break for the balance of that breakfast.  Here's where I put prestidigitating to a practical purpose!
+<stage> BUS: of pretending to wriggle out of ropes as trick. </stage>
+<stage> R. at table - as he divides breakfast with KATRINKA. </stage>
+Do you know it's one of the marvels of the present century what great big hogs little men can make of themselves.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Perhaps we've tied him too tightly, he may be choking.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Calls out. </stage>
+Jelikoff stop choking -
+<stage> Trumpet </stage>
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+The Grand Duke is arriving.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Let him arrive...We demand justice - Gogol has deceived me, his daughter Sophia has deceived you - and they have both deceived Jelikoff.  The story of our wrongs is a perfect chain of sequential circumstances ... that reminds me we must let Jelikoff out to give evidence.
+<stage> They go up stage, open curtains disclosing Jelikoff. </stage>
+<stage> As they untie him. </stage> 
+You are the most troublesome individual who ever got entangled up in my horoscope....
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Sir, if I ever get out of this place alive - I shall decline further association with you.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> R </stage>
+Ingrate...you were starving when I found you.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+<stage> C </stage>
+I am starving now.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+But look at the meals you've had in the interim.
+
+<stage> ENTER SOLDIERS headed by CAPT.P: they range themselves on steps of Palace.  ENTER GRAND DUKE and DUCHESS, followed by BORIS, GOGOL, and SOPHIA. </stage>
+
+<stage> Chairs are placed for GRAND DUKE RC.  2 soldiers guard Cabinet, four more arrange themselves by DEMIDOFF and KATRINKA under directions from CAPTAIN </stage>
+
+<stage> NOTE: - As soon as DEMIDOFF hears and sees Soldiers ENTERING he goes back to cabinet and pretends to be struggling up to it.  He is released during musical scene; as soon as he is released, which will be about end of musical number, he appeasls to DUKE. </stage>
+
+<stage> MUSIC effect with chains - a sort of general denunciation of DEMIDOFF's crimes. </stage>
+
+Your Imperial Highness I demand justice - I have been cruelly wronged -
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Laughs </stage>
+Wronged...You..
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Triple assassin -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Why triple..isn't plain, simple assassin bad enough?  Ah Borry my boy these are harsh words to use to father.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Where is my wife?
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+How should I know?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+You've had me trussed up in that cabinet like a toasted squab...she's probably off on her honeymoon alone - you know how independent women are in these days.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+I will find a means to make you tell the truth.
+<stage> Signals to CAPTAIN who motions off stage R. </stage>
+
+<stage> ENTER TWO BIG villanious looking MEN dressed like executioners, they carry various weapons of torture including thumbscrews - spiked collar - pincers, etc, etc. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Frightened </stage>
+Here - I'll tell the truth - without means - I'll -
+<stage> Points to spiked collar. </stage>
+What's that?  Ah - now I know what Peshofki meant when he said I was going to get it in the neck.
+<stage> Takes pincers, BUS: </stage>
+Rather than wear that, I prefer to be pinched.
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Those tortures are trifling compared to what will follow -
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Merely a preliminary proceeding.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Are there going to be any supplementary proceedings?
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Enough...what is your answer...to these charges of witchcraft and assassination.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Da...
+<stage> Beckons to JELIKOFF who comes trembling to his side, then to KATRINKA who also comes to him - they converse together - the others are not supposed to hear. </stage>
+
+<stage> The GRAND DUKE, BORIS and GOGOL confer up stage. </stage>
+
+<stage> Aside to JELIKOFF and KATRINKA. </stage>
+We've got one chance in a million - the most infinitesimal flaw in any link of our chain of evidence will irretrievably ruin us.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> L </stage>
+I'll stick by you old boy.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+You're all right but I'm afraid of this fellow...
+<stage> To JELIKOFF </stage>
+Can you remember anything?
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+<stage> R </stage>
+Everything but...who did it?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Who did it...Gogol...you two inch plank.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+What did he do?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+What did who do?
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Gogol?...
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Us...you hickory pated idiot...He did all that we are supposed to have done -
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Did he...I thought we did?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Go on - plead guilty - get it in the neck - get pinched.
+<stage> Shakes head. </stage>
+The old oaken bucket is a temple of profound thought compared to that...
+<stage> Raps JELIKOFF on head. </stage>
+sarcophagus of sawdust.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+<stage> Rapping septre on chair. </stage>
+Come...what answer do you make to these charges?
+
+<stage> Pause - DEMIDOFF, KATRINKA, and JELIKOFF look at each other. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Now then all together...
+<stage> After an effort - beats time. </stage>
+"May it please your Imperial Highness"
+<stage> Trip with BUSINESS. </stage>
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+It's a conspiracy...a collusion.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Separate the prisoners.
+
+<stage> BUSINESS of soldiers </stage>
+
+<stage> Looking over paper. </stage>
+Demidoff...you are required by this tribunal of justice to produce...the Princess Alexandovitch - your daughter Anna -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+All right I'll go and look for her -
+<stage> BUSINESS the guards stop him. </stage>
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+He has spirited her away.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+You're a - if my hands weren't tied I --
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Silence -
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+No I am tongue tied --
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+You are accused of spiriting away an old fortune telling sorceress.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+That was my daughter Anna -
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+Your daughter?
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Enough - you will answer for these two lives with your head - now for the others --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Oh! there are others, eh?...What a pity I haven't any more heads.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+What have you done with Jelikoff the tragedian?
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Aside to JELIKOFF up stage. </stage>
+If you wish to save your own life remain silent.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+jelikoff...oh, that's easy...
+<stage> To Jelikoff </stage></p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+
+<stage> JELIKOFF up stage looks up, pretending he does no know DEMIDOFF. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Jelikoff...
+<stage> Louder </stage>
+Jelikoff...supeak up
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+It is useless - the man has disappeared...
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+No, he hasn't - there he is.
+<stage> Points to JELIKOFF </stage>
+Speak, you are Jelikoff the comedian?
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Tragedian!
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+What's the difference...you're Jelikoff...come speak up.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+Yes I ... that is ... I think I better not.
+<stage> Looks helplessly at GOGOL then at DEMIDOFF. </stage>
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+...'E is 'usband of 'er...she would die for 'im.
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+No -yes.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Looks around helplessly. </stage>
+I'm through.
+
+<stage> Takes collar from executioner, puts it on, finds it hurts - hands it back. </stage>
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Aside to KATRINKA </stage>
+Contradict Demidoff.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+Never - I said I would stand by him and I will.
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Aside </stage>
+But if you deny his story...they will think he is insane and his life will be saved.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+True!
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+<stage> Reading Paper. </stage>
+There is one more count in this indictment
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Laughing bitterly. </stage>
+Count...why not make it a Prince or a Grand Duke...
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+The boy - known as Katrinkat has disappeared, where is he?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Laughs satirically. </stage>
+Oh, this is simply wasting my time...these proceedings are degenerating into a species of entertainment known as hippodroming and my breath is too valuable to waste.
+<stage> To KATRINKA </stage>
+Just tell them Katrinket -
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+<stage> Aside to Katrinka </stage>
+Remember!
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> Shakes head - to OMNES. </stage>
+His mind must be wandering.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Looking around helplessly. </stage>
+I guess it is - my head will be wandering around with it soon.
+<stage> Sees GOGOL. </stage>
+Gogol...it may sound like sarcasm but...I appeal to your sense of honour...
+
+<stage> GOGOL waves him away. </stage>
+
+Did you not lead me into this hapless mass of chaotic complication, did you not make me the quadruplex assassin - I appear to be?
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+I?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Aye -
+
+<stage> GOGOL laughs sardonically. </stage>
+
+Jelikoff! 
+<stage> Appealing </stage>
+<stage> JELIKOFF looks up and shakes head sadly as if sorry. </stage>
+Katrinket!
+<stage> KATRINKA looks at him, shakes her head sadly. </stage>
+Boris!
+<stage> BORIS waves him away. </stage>
+<stage> Looks around> </stage>
+Elected by an overwhelming majority...
+<stage> As he takes instruments of torture from executioners. </stage>
+To the victor belongs the spoils.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Enough!
+<stage> To KATRINKA AND JELIKOFF. </stage>
+You two are free -
+<stage> They are hustled out by soldiers. </stage>
+As for yor Demidoff, you may prepare to meet your fate.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+What kind fate?
+</p></sp>
+<stage> Music No. 14 </stage>
+
+<stage> CHORUS EXIT </stage>
+
+<sp><speaker>CAPTAIN</speaker><p>
+<stage> Looks around. </stage>
+You would escape is it?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Is it what?
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+If you shall make a separation wis Madam Demidoff - you shall go - escape.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Separation -- I'll make an assignment - deed of gift or Power of Attorney - anything.
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+And you will leave Bohkaria.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Leave it ... I'll tear the entire map of Russia out of my Atlas and make you a present of it.
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+<stage> Points to D.L. </stage>
+Take a door there - opposite the wall -
+<stage> Points L </stage>
+It leads to an alley - you see.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+No - I don't.
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+It leads to an alley --
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+It must be a blind alley I don't see...
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+<stage> Points to D.L.I </stage>
+There -- that door...
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Oh!
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+Wait there...you climb a tree - I will bring a uniform...
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+And I shall be up a tree? Eh? Yes...I guess...I shall!
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+Go...I will watch...
+
+<stage> Strolls up stage, talks to Sentries - obviously attracts their attention to something up stage. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Going quietly towards DL. </stage>
+Let me see...I must climb a blind alley till I come to a tree and then...
+<stage> Looks off. </stage>
+that form crouching in the doorway - It's Anna...Anna, 'tis I ...Demidoff...your poor perturbed parent...
+
+<stage> ENTER ANNA </stage>
+
+I'm so glad I...
+<stage> Hysterically </stage>
+I...ha...ha...I've found you...I've found you...
+<stage> Then angrily </stage>
+Where have you been?...How dare you lead me such a dance?
+<stage> ANNA steps back. </stage>
+No - don't go...don't go.
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+I came to confess all to the Grand Duke - I was afraid of the soldiers and hid over there...
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Afraid...How can your father's daughter utter such a word...afraid of a paltry regiment of soldiers - I've been dancing on loaded dynamite all day and hain't flinched a muscle - but I'll show them...hush, go in there...
+<stage> BUS: points to cabinet, goes up, stands at L of cabinet so taht CAPTAIN and 2 Sentries cannot see him - </stage>
+<stage> ANNA EXITS into cabinet. CAPTAIN P: looks around, does not see DEMIDOFF. </stage>
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+He have gone.
+<stage> To Soldiers </stage>
+The prisoner have escape, sound alarm...
+<stage> One of the soldiers beats a drum - pause. </stage>
+You will find him up one tree in a - alley.
+<stage> ENTER OMNES hurriedly. </stage>
+Shoot him...shoot him..
+<stage> To OMNES </stage>
+Demidoff have escape ...
+<stage> To Soldier </stage>
+Shoot him - shoot him dead.
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+<stage> Sauntering round cabinet so that OMNES can see him. </stage>
+Yes...be very careful on that point - I don't want to be killed on the instalment plan.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Captain, what's the meaning of this?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+It means your Royal Highness that although the alley may be blind, I am not...the Captain...
+<stage> Points to Captain. </stage>
+wanted me to escape so that he might make me a storage warehouse for bullets - but virtue is ever triumphant - and justice invariably poetic - as I propose to make...
+<stage> Pointing to GOGOL </stage>
+that arch-villian eat the indigestible fate he has prepared for me.
+
+<stage> Noise off stage at gate...ENTER JELIKOFF and KATRINKET dressed in their original first Act costumes - they struggle with the soldiers and burst forward. </stage>
+<stage> CHORUS ENTER </stage>
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+What is it?
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+My Lord...My Lord...an injustice most foul -
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+<stage> Points to DEMIDOFF. </stage>
+He has committed no crime.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+Silence...who are they?
+</p></sp>
+<sp><speaker>BORIS</speaker><p>
+The young page Katrinket and the tragedian Jelikoff - oh! if only SHE came back....
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+The cat came back..why not she?...Your royal highness...I charge Rasselloff Gogol with attempting to defraud his nephew Boris of his title and estates -
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+How will you prove it?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Anna herself shall testify...I suppose you all thought I spirited her away in earnest - ha - ha - an excellent compliment to my professional handiwork.  Behold!
+
+<stage> Part of Incantation No. during which the scenes appear in cabinet and are dimmed from view after which ANNA appears in the same costume as she first appeared in Act 1. After have them with tenor and soprano passages at end of which BORIS rushes to embrace her - she holds him out at arm's length. </stage>
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+No - No...I am an imposter.
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+At whose instigation did you assume at title?
+</p></sp>
+<sp><speaker>ANNA</speaker><p>
+<stage> Points to GOGOL. </stage>
+His!
+
+<stage> GOGOL goes to EXIT. </stage>
+</p></sp>
+<sp><speaker>DUKE</speaker><p>
+I shall investigate and if true will petition the Czar to restore you your title and estates...
+</p></sp>
+<sp><speaker>GOGOL</speaker><p>
+Boris...
+
+<stage> BORIS waves him away. </stage>
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Son-in-law- she is yours - with or without your title.  Katrinket...kiss your daughter, the Princess Alexandrovitch.
+</p></sp>
+<sp><speaker>KATRINKA</speaker><p>
+My daughter?
+</p></sp>
+<sp><speaker>DEMIDOFF</speaker><p>
+Well, she will be when---
+<stage> Kisses KATRINKA's hand, puts KATRINKA's hand through his arm. </stage>
+</p></sp>
+<sp><speaker>JELIKOFF</speaker><p>
+<stage> To CAPTAIN in a deep voice. </stage>
+Well - what is it?
+</p></sp>
+<sp><speaker>CAPTAIN</speaker><p>
+I...</p>
+<stage> Stares at JELIKOFF. </stage><p>
+Good'eaven...'e is not wife of 'im - no...good 'eaven.
+</p>
+</sp>
+<note> Transcriber's Note: Music No. 15 was not found in the London production script. </note>
+<stage>
+<emph rend="underline"> CURTAIN </emph></stage>
+	 	</div></body>
+	 	</text></TEI>
+				

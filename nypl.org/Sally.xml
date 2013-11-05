@@ -1,0 +1,4787 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE TEI SYSTEM "tei_drama.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sally</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>New York Public Library for the Performing Arts</publisher>
+                <pubPlace>New York City</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Sally</title>
+                    <author>Guy Bolton</author>
+                    <author>Jerome Kern</author>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <titlePart>
+                    <title><hi rend="underline">SALLY</hi></title>
+                 </titlePart>
+                 <docAuthor>   
+				Book<lb/>
+				By<lb/>
+				<hi rend="underline">GUY BOLTON</hi><lb/>
+<lb/>
+Music by<lb/>
+<lb/>
+<hi rend="underline">JEROME KERN</hi><lb/> </docAuthor>
+<note> Copyrighted Version of January, 1921 </note>
+</titlePage>
+<div type="characters">
+<pb/>
+<head>
+<hi rend="underline">CHARACTERS</hi>
+</head>
+<castList>
+<castItem>SALLY</castItem>
+
+<castItem>BLAIR FARQUAR</castItem>
+
+<castItem>OTIS HOOPER</castItem>
+
+<castItem>ROSALINE RAFFERTY</castItem>
+
+<castItem>CONSTANTINE ("CONNIE")</castItem>
+
+<castItem>"POPS" --Proprieter of the Elm Tree Inn.</castItem>
+
+<castItem>MRS. TEN BROCK</castItem>
+
+<castItem>JIMMIE SPELVIN</castItem>
+
+<castItem>RICHARD FARQUAR</castItem>
+
+<castItem>OLD MAN</castItem>
+
+<castItem>GIRL</castItem>
+
+<castItem>FLUNKEY</castItem>
+
+<castItem>TOTO</castItem>
+
+</castList></div>
+<div type="synopsis">
+<pb/>
+<head>
+<hi rend="underline">SYNOPSIS OF SCENES</hi>
+</head>
+<list>
+<item><hi rend="underline">ACT ONE:</hi> The Elm Tree Alley Inn.</item>
+
+<item><hi rend="underline">ACT TWO:</hi> Garden of Richard Farquar.</item>
+
+<item><hi rend="underline">ACT THREE:</hi> <hi rend="underline">Scene I:</hi> Butterfly Ballet</item>
+ <item>                 <hi rend="underline">Scene II:</hi> Dressing Room</item>
+  <item>                <hi rend="underline">Scene III:</hi> Church around the corner.</item>
+                  
+</list>
+</div>
+</front><body>
+<div type="act" n="1">
+<pb/>
+<head>
+<hi rend="underline">SALLY</hi>
+
+<hi rend="underline">ACT ONE</hi><lb/> </head>
+<pb/>
+<div type="propertyList">
+<head><hi rend="underline">PROPERTY LIST</hi></head><lb/>
+<list>
+<head>
+<hi rend="underline">ACT I:</hi><lb/>
+</head>
+
+<item>A number of small restaurant tables and chairs on the scene, sufficent to accommodate the number of people you are using. Table cloths - napkins and glasses on table - check pads and pencils for waiters.</item>
+<item>Paper hats for chorus in number Joan of Arc.</item>
+<item>Tray and plates or small dishes for Connie.</item>
+<item>Engagement book for Connie with pencil</item>
+<item>Book for Blair - a street organ off L.</item>
+<item>Visiting cards for Blair - Menus on tables.</item>
+<item>A mongrel dog on a rope for Sally off stage L.</item>
+<item>A tray with celery and prop Grisini for Connie</item>
+<item>A Waiter from E.3 with tray filled with silver dishes</item>
+<item>Another clears Grisini-table R. front- (Newspaper for Otis) Tap-bell on some of tables - (a hip flask for Otis)- a lemon for Otis- a whisk broom for Connie-(a hip flask for Connie)</item>
+<item>Note - the phone can be fastened to a tree A dish pail for Sally to wash dishes in</item>
+</list>
+<list>
+<head><hi rend="underline">ACT II:</hi></head>
+<item> Richard Farquar's Garden Scene I</item>
+<item>Custard, ornamented with a large bow ribbon carried by Rosie</item>
+<item>A tray of liquors and a tray with coffee, carried by two flunkeys - a flunkey with a cart and liquors.</item>
+</list>
+<pb/> </div>
+
+<div type="scene" n="1">
+<head><hi rend="underline">ACT ONE</hi></head>
+<stage> SCENE: The Elm Alley Inn. A garden restaurant of the Bohemian variety. A large elm tree is growing in the yard and this gives the restaurant its name. There is a balcony built around this tree and stops going up to it. </stage>
+<stage> There are a number of little tables in the yard and on a covered terrace at the back that opens on the garden through glass doors, there are more tables. </stage>
+<stage>To the right is the rear facade of the house; to the left a high wall covered with lattice. There is a doorway is this wall that opens into the alley. There is lattice work over the other walls, too, and on either side of the terrace frescoed panels with figure subjects. </stage>
+<stage>OPENING: At rise there are occupants at most
+of the tables. The Inn of Elm Tree
+Alley is apparently a favorite resort
+of couples whose interest in each
+other is so great that they prefer
+to be in a place where they won't be subject of remark. Hence the popularity of this little Bohemian resort. There is a party of four at one table and seated alone at another table is ROSIE with her back turned reading a newspaper. She is  waiting for Otis. </stage>
+<stage> The proprieter and the WAITER come in with the checks. Business of paying checks. </stage>
+
+<pb/>
+<stage>
+JIM&apos;S NUMBER<lb/>
+<lb/>
+(&quot;IN THE NIGHT TIME&quot;)<lb/></stage>
+<sp>
+<lg>
+<l>The night time, when the lights are bright</l>
+<l>It's the night time when we feel just right.</l>
+<l>Makes a chappie feel so happy</l>
+<l>We're so snappy, we're full of fight.</l>
+</lg>
+</sp>
+<sp>
+<speaker> Girls</speaker><lg>
+<l>There's something doing.</l>
+</lg></sp>
+<sp>
+<speaker> Jim</speaker><lg>
+<l>It's the night walk that we love to prowl</l>
+<l>It's the night hawk, that's the wise old owl</l>
+<l>Bet your life we have to fall</l>
+<l>When the lark is singing gaily</l>
+<l>And the sun is overhead</l>
+<l>While the world is working daily</l>
+<l>We love to lie in bed.</l>
+<l>Honest toil may be a treasure</l>
+<l>But it has no charm for us.</l>
+</lg></sp>
+<sp>
+<speaker> Girls</speaker><lg>
+<l>The night was made - of leisure</l>
+<l>Let others fume and fuss</l>
+<l>For simple rustic pleasure</l>
+<l>We do not care a straw.</l>
+</lg></sp>
+<sp>
+<speaker> Jim</speaker><lg>
+<l>We think it's great to stay out late at night</l>
+<l>And skate around with Maud and Kate.</l>
+</lg></sp>
+<sp>
+<speaker> Girls</speaker><lg>
+<l>We love the boys and all the noise</l>
+<l>And lively plays and cabarets.</l>
+</lg></sp>
+
+<stage>(For finish of number TWO DANCERS enter... dance with JIM...all exit)</stage>
+
+<stage>(OTIS breezes in carrying hat, coat and big rubber tire. A pretty hatcheck GIRL follows him)</stage>
+<sp>
+<speaker> Hatcheck Girl</speaker><p> Check your hat and coat, sir? </p></sp>
+<pb/>
+<sp>
+<speaker> Otis</speaker>
+<p> Never mind the hat and coat - take my spare tire.</p>
+<stage>(He rolls it at her. GIRL takes it and exits)</stage>
+<p>I'm too smart for this New York. Now I'm going to roast this town when I get back to Squantanville.</p>
+<stage>(WAITER tries to take his coat)</stage>
+<p>Elmer - Elmer - come back here!</p>
+<stage>(Pulls coat away from waiter)</stage>
+<p>I get some bottles there.</p>
+<stage>(Shows a couple from pockets)</stage>
+<stage>(Replaces bottles. ROSIE enters, sore)</stage>
+<p>Ah, glamourpuss, there you are....hello, Rosie.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>I thought you said you'd meet me here at half past seven.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Sorry, honeybun, but I had to see a man about that mink coat
+I promised you.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Really, Otis? When do I get it?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>That's up to Peter and Maizie.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Are they the furriers?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>No. Peter and Maizie are minks - they're a pair of live,
+lovely, pedigreed minks. I just bought 'em for you.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>What for?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You said you wanted a mink coat, didn't you? Why pay a
+thousand dollars when you can grow your own.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Grow my own. You know how many minks it takes to make a coat.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You'll be surprised how easy it'll be. Peter and Maizie
+are just crazy about each other. What a cutey-pie! I could
+set you right up! You're going to be my little passion
+flower and I'm going to be your little pay envelope.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>
+<hi rend="underline">Little</hi> pay is right.</p></sp>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<p>That has all the ear marks of a nasty crack. What about
+tying on the feed bag? Now go right ahead and order what
+you like - You know me, big hearted Otis. You want to be
+careful what you're ordering -- they say that this place
+is noted for its ptomaine-poisoning.</p>
+<stage>(Music plays off stage R.piano and violin)</stage>
+<p>Ah, they've got music here. What do you say now? Shall
+we trip a measure in the dance while we're waiting for the
+waiter?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>O.K. Jitterbug. But if you step on my feet just once, I'll
+tear you limb from limb.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>What are you saying? Why I was known as the dancing dervish
+of Squantanville.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Maybe you go big in those huskin' bees, <hi rend="underline">in the barn</hi>, but in
+New York.....</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>There you go --- "New York" again --- I tell you this burg
+is <hi rend="underline">slow</hi>. We've got steps up home you folks have never heard
+of. How about the frog dip? Or the Malary shiver. Or the
+Jelly roll?</p></sp>
+
+<stage>NUMBER 3. "ON WITH THE DANCE".</stage>
+
+<sp><speaker>
+Otis and Girls</speaker>
+<stage>(OTIS sings to ROSIE and dances with her first)</stage>
+<stage>
+1.
+</stage>
+<lg>
+<l>In Squantanville, Maine</l>
+<l>We've Jazz on the brain,</l>
+<l>We turn on the family victrols,</l>
+<l>On dancing we're keen</l>
+<l>And I'm the champeen</l>
+<l>I dance till I loosen each molar</l>
+<l>I tremble and shrill to the core,</l>
+<l>Like a jelly that's dropped on the floor.</l>
+</lg>
+<stage>REFRAIN</stage>
+<lg>
+<l>On with the Dance,</l>
+<l>On with the Dance,</l>
+<l>Let me twirl in the whirl tonight,</l>
+<l>I'll cling to some beautiful Vamp,</l>
+<l>As close as the gum to a stamp.</l>
+</lg>
+<pb/>
+
+<stage>REFRAIN (CON'T)</stage>
+<lg>
+<l>I'll slither and slip,</l>
+<l>I'll hug and I'll grip</l>
+<l>I must have a night of romance;</l>
+<l>To some Cutey in blue</l>
+<l>Oh Boy what I'll do</l>
+<l>At the dance; on with the dance.</l>
+</lg>
+<stage>2.</stage>
+<lg>
+<l>I'll show them a step</l>
+<l>All ginger and pep,</l>
+<l>I'm one of the likeliest starters;</l>
+<l>I'll shimmy and shake,</l>
+<l>And I'll twist like a snake,</l>
+<l>Till I wriggle clean out of my garters.</l>
+<l>I'll find me a maiden so frail,</l>
+<l>I'll grab her and prove I'm a whale.</l>
+</lg>
+<stage>REFRAIN</stage>
+<lg>
+<l>On with the dance,</l>
+<l>On with the dance,</l>
+<l>Let me twirl in the whirl tonight,</l>
+<l>With some sweetie I'll roam,</l>
+<l>We'll both miss our last Trolley home.</l>
+<l>I'll cuddle and squeeze</l>
+<l>And sag at the knees;</l>
+<l>I must have a night of romance;</l>
+<l>If your wife I should see</l>
+<l>Don't trust her with me,</l>
+<l>At the dance; on with the dance.</l>
+</lg></sp>
+
+<stage>(ROSIE dances off R.1.E.)</stage>
+
+<stage>(Encore with "VAMP")</stage>
+
+<stage>(During dance with Vamp, ROSIE enters with MAN R.2.E.)</stage>
+
+<sp><speaker>Otis</speaker>
+<stage>(Stops dancing)**</stage>
+<stage>(To Vamp)</stage>
+<p>Now you see the evils of dancing.</p>
+<stage>(Puts hand on shoulder of Vamp)</stage>
+<p>Pardon me. I thought you had a shirt on.</p></sp>
+<stage>(ROSIE and MAN dance. OTIS takes her away from him, they dance and exit R.1.E. VAMP and MAN exit L. through gate)</stage>
+
+<stage>(After number "ON WITH THE DANCE" ALL exit)</stage>
+
+<pb/>
+
+<stage>(Music S. in to the entrance music for the SETTLEMENT GIRLS who enter through gate followed by MRS. TEN BROCK)</stage>
+
+<stage>(There are SIX GIRLS and SALLY. They are
+all in very cheap clothes - torn, patched.
+SALLY is in the middle of the line. POPS
+enters from restaurant.)</stage>
+
+<sp><speaker>Pops</speaker>
+<stage>(Coming forward to R.C.)**</stage>
+<p>Good evening.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Good evening. I am Mrs. Ten Brock - I have been doing
+settlement work in the neighborhood. You wrote to our
+Matron, saying you wanted a young girl.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Yes - to wash dishes.</p></sp>
+
+<sp><speaker>Girls</speaker>
+<p>Wash dishes!</p></sp>
+<stage>(ALL the GIRLS tip-toe to gate L. and try to crowd out. MRS. TEN BROCK calls to them)</stage>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Girls! Girls!</p></sp>
+
+<sp><speaker>Girls</speaker>
+<p>Yes, ma'am.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Come back here. Do behave and please turn out your toes.</p></sp>
+
+<sp><speaker>Girls</speaker>
+<p>Yes, ma'am!</p></sp>
+<stage>(They form an oblique line at L.C. of stage)</stage>
+
+<sp><speaker>Pops</speaker>
+<p>I used to have the Waiters do it, but I've got a fellow now,
+that has a grudge against dishes.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>I see. Now these are all lovely girls. This is Miss
+Schuyler - Miss Bryan, Miss Audubon, and the dark girl is
+Miss Plaza.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>My, my what wonderful names they have. Will ladies that
+belong to such fine families, really work for me?</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>They are all foundlings. They were named from the telephone
+districts in which they were found. The one on the end is
+Miss Green.</p></sp>
+<pb/>
+
+<sp><speaker>Pops</speaker>
+<p>Green?</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>She was really named Bowling Green, but it seemed rather
+long.</p>
+<stage>(Spoken)</stage>
+<p>They all have their good points.</p></sp>
+<stage>(Goes L.)</stage>
+
+<sp><speaker>Pops</speaker>
+<p>There's only one point that interests me in a dish-washer -
+have they got non-skid hands.</p>
+<stage>(Looking them over)</stage>
+<stage>(Stops SALLY and the GIRLS exit R.2.E.)</stage>
+<p>I like this one. Would you like the job, young lady?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(R.)**</stage>
+<p>I would not!</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<stage>(L.)**</stage>
+<p>Why Sally!</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(Xes to Mrs. Ten Brock)**</stage>
+<p>Have <hi rend="underline">you</hi> ever washed dishes?</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Well, I can't say I have.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>I thought not. What else will I have to do?</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Oh, just clean out the place, run errands - and so on --</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Sew on what - buttons?</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>No, no! So on, means anything.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Take me away, Mrs. Ten Brock. I don't want to stay in a 
+place, where they ask me to do anything.</p></sp>
+<pb/>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Don't be silly, Sally, Mr. Shendoff is a very nice man.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Have you seen his references?</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>You <hi rend="underline">must</hi> be more respectful to your employer.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Now, do you think you could mop up this floor?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>No!</p></sp>
+<sp><speaker>
+Mrs. Ten Borck</speaker>
+<p>No what, Sally --</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>No - mop.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>I'll give you the mop -- Do you want the job?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(Xes to R.)**</stage>
+<p>I certainly don't -- but I guess I'll have to take it.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Certainly, Ma'am.</p></sp>
+<stage>(Exit MRS. TEN BROCK and POPS R.U.E.)</stage>
+
+<sp><speaker>Sally</speaker>
+<stage>(S.C.)**</stage>
+<p>Other girls get interesting jobs - look at Joan Crawford,
+look at Merle Oberon.</p></sp>
+
+<stage>(GIRLS appear in doorway R.)</stage>
+
+<sp><speaker>1st Girl</speaker>
+<p>Sally's a dish-washer -- Sally's a dish-washer.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Gee, if there's one job I hate, it's bathing dishes.</p></sp>
+
+<sp><speaker>3rd Girl</speaker>
+<p>Maybe you'll be a cashier some day.</p></sp>
+<pb/>
+
+<sp><speaker>Sally</speaker>
+<p>I don't want to be any old cashier -- I want to be famous.</p></sp>
+
+<stage>DANCERS ENTER</stage>
+
+<sp><speaker>1st Girl</speaker>
+<stage>(Xes to Sally)</stage>
+<p>Gee, you're always harping on being famous, you make me tired.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>What's eaten you?</p></sp>
+
+<sp><speaker>2nd Girl</speaker>
+<stage>(Comes down)</stage>
+<p>You've got a long way to go girlie.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>That's all right, but I'll get there. Other girls have done
+it. Why Joan of Arc didn't start any higher up than I am.</p></sp>
+<stage>
+SONG:
+</stage>
+<stage>
+"JOAN OF ARC"
+</stage>
+<stage>
+SALLY AND SIX GIRLS
+</stage>
+<stage>
+1.</stage>
+<sp><lg>
+<l>Joan of Arc was on her own,</l>
+<l>When she was quite a child;</l>
+<l>They thought her head was made of bone,</l>
+<l>But she just calmly smiled.</l>
+<l>They had their troubles at the time,</l>
+<l>And everybody know it;</l>
+<l>When Kings and Dukes kept making flukes,</l>
+<l>She said, "Here let me do it."</l>
+</lg>
+<stage>
+REFRAIN
+</stage>
+<lg>
+<l>I wish I could be like Joan of Arc,</l>
+<l>You bet that girl was through;</l>
+<l>They joshed her when she started,</l>
+<l>But she never got downhearted</l>
+<l>And it shows what a kid can do.</l>
+<l>She wrote her name on the nation's roll of fame,</l>
+<l>And it gained her great renown;</l>
+<l>Though her Pa and Ma poor Fishes,</l>
+<l>Tried to keep her washing dishes;</l>
+<l>But you can't keep a good girl down.</l>
+</lg>
+<pb/>
+<stage>
+2.</stage>
+<lg>
+<l>She had no stairs to wash</l>
+<l>With soap suds and a pail;</l>
+<l>She just cut out domestic bosh,</l>
+<l>And bought a suit of Mail.</l>
+<l>They handed her the icy mitt</l>
+<l>But still she was unshaken,</l>
+<l>She showed the foe some tricks - yes ho</l>
+<l>And soon brought home bacon.</l>
+</lg>
+<stage>
+REFRAIN
+</stage>
+<lg>
+<l>I wish I could be like Joan of Arc,</l>
+<l>She was "it" right from the start;</l>
+<l>When the hired girl was busy</l>
+<l>Well it used to make her dizzy,</l>
+<l>So she said "Here's where we part,"</l>
+<l>She loved to fight and when foe-men came in</l>
+<l>She would hand them Dempsey punches,</l>
+<l>Where they used to keep their lunches;</l>
+<l>For you can't keep a good girl down.</l>
+</lg></sp>
+<stage>("CONNIE" enters. He is attired as waiter - carries a tray. As he enters he stumbles and takes running fall all across stage. WAITER gather up dishes - then exit)</stage>
+
+<stage>(POPS enters behind him just as he recovers himself and steadies his gait down to a trot. He doesn't see Pops but begins to search about floor. POPS comes over and stands beside him)</stage>
+
+<sp><speaker>Pops</speaker>
+<p>What are you looking for? What's all the commotion.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I had a tip on the tray.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>What was it?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>A dime.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>A what?</p></sp>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<p>A dime. I was looking for it. Maybe it's under your feet?</p>
+<stage>(POPS stands on one leg while CONNIE searches floor)</stage>
+<p>No, the <hi rend="underline">other</hi> foot?</p>
+<stage>(POPS steps on Connie's feet. Bus. CONNIE with foot falling)</stage>
+<p>Now you've done it. There it goes!</p>
+<stage>(Falls, gets up)</stage>
+<p>Now how am I going through life with a thing like that -
+there it goes.</p>
+<stage>(Gets up)</stage>
+<p>I'll have to use some Sloan's liniment.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Is that good?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Certainly it's good. Mix a little orange juice with it --
+kills the taste - there it goes.</p>
+<stage>(Falls)</stage>
+<p>As though I hadn't had troubles enough.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>I am very sorry, your Highness.</p></sp>
+<stage>(Salutes)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>Don't salute,  don't want people to know that the Duke of
+Checkergovinia, is a waiter in a third class restaurant.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>A third class restaurant?</p>
+<stage>(Angry)</stage>
+<p>What do you mean, sir --</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I'm wrong - I admit it.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>I'm glad you do.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>It's not third class. It's a fourth class.</p>
+<stage>(Goes to table L.)</stage>
+<p>My position and everything's gone from me.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<stage>(Patting his shoulder)**</stage>
+<p>Haven't I given you another position?</p></sp>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<stage>(Still crying)**</stage>
+<p>I'm speaking about my social position.</p>
+<stage>(Snatches up a plate and smashes it)</stage>
+<p>There -- I always feel better when I smash something.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>I think <hi rend="underline">I'd</hi> feel better if I smashed something.</p>
+<stage>(CONNIE turns)</stage>
+<p>Your Highness!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Don't salute. Are you or are you not a loyal supporter
+of the ducal family of Pzchekagovinia?</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Haven't I proved my loyalty? After you were kicked out
+and came to New York penniless and friendless, didn't I
+take you in and treat you as one of the family?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Yes -- that's what I'm complaining of. I asked you - are
+you - are you not a loyal supporter?</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Yes, I am!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Give me next Thursday night off!</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>I knew it would be something like that! Whenever you start
+in about my loyalty I always feels a touch coming. I fire
+a <hi rend="underline">good</hi> waiter and engage you out of loyalty and you do
+nothing but ask me for days off.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>All right. If I am ever restored I shall give you the order
+of the cross of Anastasia -- <hi rend="underline">that</hi> I have promised -- but
+you'll never get the order of the golden caterpillar --</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Oh <hi rend="underline">please</hi>--your Highness!</p></sp>
+<stage>(Salutes)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>Don't salute! When do I get off?</p></sp>
+<pb/>
+
+<sp><speaker>Pops</speaker>
+<p>But where do I get off? I've only got three other waiters--</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Pompously)**</stage>
+<p>When do I get off?</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Next Thursday.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>You may kiss our hand.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Kiss your hand.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Taking out engagement book)**</stage>
+<p>Pardon me. My thoughts had strayed back to summer days in
+dear old Checkergovinia.</p>
+<stage>(Makes note in book)</stage>
+<p>I shall now be able to accept Mr. Farquar's invitation to
+attend the ball, given in my honor.</p></sp>
+<stage>(Xes to table L. takes tray filled with dishes)</stage>
+
+<sp><speaker>Pops</speaker>
+<stage>(C.)**</stage>
+<p>Have none of your friends found out how it is you make your
+living?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(R.)**</stage>
+<p>Of course not. I tell them all I must withold my address
+for political reasons - owing to the activity of the revolutionists
+I am living incog--</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>In what? Where is that? That incog--</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>It's not a place, it's --</p>
+<stage>(Stuttering)</stage>
+<p>When I say I'm living incog, I mean - I'm living incognito.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Oh, that's so simple!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I know you are. Now you had better come and help me wash
+the dishes.</p></sp>
+<pb/>
+
+<sp><speaker>Pops</speaker>
+<p>Now, I'm busy.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>You had better come and help me wash the dishes.</p>
+<stage>(Exits R.2.E. with tray)</stage>
+<stage>(Crash off stage, CONNIE re-enters)</stage>
+<p>You don't have to help me wash the dishes.</p></sp>
+<stage>(POPS raving, exits R.U.E. Enter BLAIR. BLAIR comes in reading a book)</stage>
+
+<sp><speaker>Blair</speaker>
+<p>Good evening.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Good evening. Table for one.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>No, for eight.</p>
+<stage>(Organ plays off L.)</stage>
+<p>Waiter, here's a dollar. Won't you please give it to that
+organ grinder and ask him to go away?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Certainly, sir.</p>
+<stage>(Pockets dollar. Throws plate, comes back rubbing his hands)</stage>
+<p>All attended to, sir.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Let me see. I wrote out the menu for supper. Where did I
+put it?</p>
+<stage>(Feels in his pockets)</stage>
+<p>Here it is.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Reading)**</stage>
+<p>Two young children -- a touch of arsenic -- a --</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Oh, excuse me. There are all chapter headings in my novel.
+The menu is on the other side.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Celery, olives. Ox tail soup - you're going away back.
+I must be careful with that. If I should give it to the
+cook wrongside up, there'd be trouble. Imagine a touch of
+arsenic. Did I understand you to say you were an author?</p></sp>
+<pb/>
+
+<sp><speaker>Blair</speaker>
+<p>Yes, I write books.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Well, sir -- Do you mind paying for this in advance?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>In advance?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>It is a rule of the house---artists and writers must pay
+in advance.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Here is my card--I think the proprietor knows me.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>He knows all of you, that's why he made this rule.</p>
+<stage>(Reads card)</stage>
+<p>Mr. Blair Farquar--Oh, I beg pardon. You are a relative of
+the great financier--Richard Farquar, I believe?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>He is my father.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Ah yes! What a coincidence - your father -</p>
+<stage>(Sits - then rises)</stage>
+<p>Sit down, it's all right. I beg your pardon - my mistake -
+your error. Tell me -- are you likely to attend the party
+that Mr. Farquar is giving in honor of his Highness the
+Grand Duke of Pzchekagovinia?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Not if I can help it.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Why not?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>I hear the Duke is an absolute ninny.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Mah! Ha! Ha!</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>My friend met him and as Jim puts it, a brain specialist
+couldn't make peanut money working on him.</p></sp>
+<stage>Laughs</stage>
+
+<sp><speaker>Connie</speaker>
+<stage>(Laughs)**</stage>
+<p>Is that so? You want me to fix this supper for you <hi rend="underline">good</hi>?</p></sp>
+<pb/>
+
+<sp><speaker>Blair</speaker>
+<p>Will you?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Wait and see.</p></sp>
+
+<stage>(There is a sound of commotion in the alley. VOICES and whoops, cat calls, SALLY runs across stage entering from right and shooting off through gate left)</stage>
+
+<sp><speaker>Blair</speaker>
+<p>What was that that shot across?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>That was the new dishwasher---escaping.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Couldn't stand washing dishes any longer--Really I don't
+wonder. Poor kid what an awful way to have to make your
+living!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>What about <hi rend="underline">me</hi>?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Ha, ha!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Ha ha yourself! Why give her all the sympathy. How about me.
+She's got gold in her teeth. Gold! I don't even get meat in
+mine.</p></sp>
+
+<stage>(Quarrel off stage L. over dog. SALLY enters. CONNIE exits into restaurant)</stage>
+
+<sp><speaker>Sally</speaker>
+<stage>(Off stage)**</stage>
+<p>Don't you dare!</p></sp>
+
+<sp><speaker>Girl</speaker>
+<p>Say kid, where do you get that stuff!</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(Backs through gate, leading a mongrel dog, protectively. He has a but of rope tied around his neck)**</stage>
+<p>If there's any of youse kids that are sick of livin' -- you
+just touch my dawg -- again -- see?</p></sp>
+<pb/>
+
+<sp><speaker>Girl</speaker>
+<p>Next time I'll tie cane to his ears.</p></sp>
+<stage>(SALLY comes down L.C.)</stage>
+
+<sp><speaker>Blair</speaker>
+<p>Is that your dog?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Yes. He followed me over here and the kids get hold of him
+and tied a tomato can to his tail. Shake hands with the
+gentleman Custard.</p></sp>
+<stage>(DOG sits up. Shakes hands)</stage>
+
+<sp><speaker>Blair</speaker>
+<p>He's clever, isn't he?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>You bet he is. Knows more than most <hi rend="underline">men</hi>, doesn't he?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Seems to.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>And he minds better too. There -- now go on home.</p></sp>
+<stage>(Send dog away)</stage>
+<stage>(DOG runs off into wings L.)</stage>
+
+<sp><speaker>Blair</speaker>
+<p>You believe in the motto "The more I see of men the more
+I think of dogs?"</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Oh men are all right I guess if you're all dolled up and
+look pretty.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Nonsense, <hi rend="underline">I'm</hi> a man and fine clothes don't make any difference
+to me.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Sure; that's what they all <hi rend="underline">say</hi>. But you walk up behind
+one of 'em and make a noise like rustlin' silk an' watch
+how quick he'll turn around. I've tried it.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Have you?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>I need to sew sandpaper on the knees of my stockings. The
+affect was great but of course as soon as they <hi rend="underline">looked</hi> at me
+it was cold.</p></sp>
+<pb/>
+
+<sp><speaker>Blair</speaker>
+<p>What do you do here - wash dishes?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Say, is it beginning to <hi rend="underline">show</hi> on me? I've only had the job
+about fifteen minutes and the first person that sees me spots
+me for a dish washer.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>No, I didn't. The waiter told me.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Oh-h! I feel better. I thought I had dishpan hands.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>How do you <hi rend="underline">like</hi> washing dishes?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Are you trying to be funny? Whoever heard of <hi rend="underline">anyone</hi> that 
+<hi rend="underline">liked</hi> washing dishes?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Suppose I could find you a job you liked better.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>If you would find me <hi rend="underline">any</hi> job I <hi rend="underline">didn't</hi> like better you'd be a
+wonder!</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Well, I'll see what I can do!</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Oh...</p>
+<stage>(Stops)</stage>
+<p>Will you? ... Say, you're like the man I used to read about
+in the story books. I didn't think there was a man like that
+in real life.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Are you fond of books?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>I love 'em. They help you to get away from your own life.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>I'm mighty glad to find someone who thinks books really 
+<hi rend="underline">useful</hi>. You see, I write stories....</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Do you now? I wonder if you wrote my favorite about the
+girl the villain ties to a railroad track because she spurns
+his vile love? Did you write that one?</p></sp>
+<pb/>
+
+<sp><speaker>Blair</speaker>
+<stage>(Smiling)**</stage>
+<p>No, that isn't one of mine.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>No?</p></sp>
+
+<sp><speaker>Blair</speaker><p>
+<hi rend="underline">No.</hi></p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(Disappointed)**</stage>
+<p>Too bad. The hero of that one seemed a lot like you --
+only of course he wouldn't have gone around in the evenin'
+without a full dress-suit.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<stage>(Laughing)**</stage>
+<p>What's your name?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Sally. What's yours?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Blair.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Blair--that's a funny name. Which end do you use it?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>It's my first name. Blair Farquar.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Blair Farquar. Pleased to meet you, Mr. Blair Farquar.</p></sp>
+<stage>(Holds out hand then wipes hand on apron)</stage>
+
+<sp><speaker>Blair</speaker>
+<stage>(Smiling as he shakes hands)**</stage>
+<p>How do you do?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Oh, I'm pretty good.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>We're going to be friends, you and I.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Are we?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Don't you want to be? I do. I'm rather lonely sort of
+fellow and I like you.</p></sp>
+<pb/>
+
+<sp><speaker>Sally</speaker>
+<p>Do you---really?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>And I'm going to help you if you'll let me.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>It's awful good of you! I thought I was playing in hard
+luck when they picked me out to wash dishes.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Things are bound to look up. There's a bright side to
+everything.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Even to dishpans!</p></sp>
+<stage>
+"SILVER LINING DUET"</stage>
+
+<stage>DUET</stage>
+
+<stage>SALLY AND BLAIR</stage>
+
+<sp><speaker>Blair</speaker>
+<stage>(Seated)**</stage>
+<lg>
+<l>Please don't be offended if I preach to you a while.</l>
+<l>Tears are out of place in eyes that were meant to smile.</l>
+<l>There's a way to make your very biggest troubles small -</l>
+<l>Here's the happy secret of it all.</l>
+</lg>
+<stage>
+REFRAIN
+</stage>
+<lg>
+<l>I know my love will help to make you</l>
+<l>Look for the silver lining</l>
+<l>Whenever a cloud appears in the blue</l>
+<l>Remember somewhere the sun is shining</l>
+<l>And so the bright thing to do, is make it shine for you,</l>
+<l>A heart full of joy and gladness</l>
+<l>Can always banish sadness and strife</l>
+<l>So always look for the silver lining</l>
+<l>And try to find the sunny side of life.</l>
+</lg></sp>
+<sp><speaker>Sally</speaker>
+<lg>
+<l>As I wash my dishes, I'll keep following your plan</l>
+<l>'Till I see the brightness in every pot and pan</l>
+<l>I am sure your point of view will ease the daily grind.</l>
+<l>So I'll keep repeating in my mind.</l>
+</lg>
+<stage>(Rises)</stage>
+<pb/>
+<stage>
+REFRAIN
+</stage>
+<lg>
+<l>Look for the silver lining</l>
+<l>Whenever a cloud appears in the blue</l>
+<l>Remember somewhere the sun is shining</l>
+<l>And so the bright thing to do, is make it shine for you,</l>
+<l>A heart full of joy and gladness</l>
+<l>Can always banish sadness and strife</l>
+<l>So always look for the silver lining</l>
+<l>And try to find the sunny side of life. BOTH</l>
+</lg>
+</sp>
+<stage>(At end of number exit BLAIR off through the alley gate. SALLY watches him off)</stage>
+
+<stage>(CONNIE enters carrying tray with celery)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>Hello, so you came back?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>What do you mean?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I thought you were running away.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>I was thinkin' about it--but now I've changed my mind.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Arranging stuff on table)**</stage>
+<p>Just since you met me?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>No, I'm sorry, but you hadn't anything to do with it.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Handing her bunch celery)**</stage>
+<p>That settles that. Hold that.</p>
+<stage>(Hums "Silver Lining")</stage>
+<stage>(Goes to table R. arranges chairs, SALLY eats celery)</stage>
+<p>Who were you waving to when I came in?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>None of your business.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I didn't get the name.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>I said none of your business.</p></sp>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<p>Sounds like Russian descent.</p>
+<stage>(Looks, sees her eating celery)</stage>
+<p>Hey, what are you doing? Give me that.</p>
+<stage>(Takes celery from Sally puts it back in jar)</stage>
+<p>Look at that--you've got it all out of shape. You've no
+right to steal the celery.</p>
+<stage>(Puts it in glass)</stage>
+<p>You're a bad girl, and I don't like bad girls.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(Points to grisini)**</stage>
+<p>What's that stuff?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>That! Oh, that's grisini!</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Who?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Not who...neuter gender... it...It's a kind of bread.</p>
+<stage>(Takes up piece, breaks it, hands it to Sally)</stage>
+<p>You try it.</p>
+<stage>(SALLY breaks it)</stage>
+<p>Try again.</p>
+<stage>(SALLY does so)</stage>
+<p>My a woman's strength. It's very brit-til.</p>
+<stage>(SALLY throws broken pieces at Connie as he walks away)</stage>
+<p>Hey! What are you doing? Here's some I just brought up...
+from the bakery.</p>
+<stage>(Takes it up)</stage>
+<p>The trouble is...</p>
+<stage>(It bends)</stage>
+<p>rather soggy tonight.</p>
+<stage>(Business)</stage>
+<p>Make a good Mache.</p>
+<stage>(Bus. Lands around his neck)</stage>
+<p>Now it looks like niblick.</p>
+<stage>(Puts it on table)</stage>
+</sp>
+
+<sp><speaker>Sally</speaker>
+<p>What's your name?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Constantine - Alexandrivith Nicholas Feder Caborr -- What's
+your name?</p></sp>
+<stage>
+READY ORGAN</stage>
+<pb/>
+
+<sp><speaker>Sally</speaker>
+<p>Sally.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Short, isn't it? It's pretty though.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Do you like it?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Yes.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Tell me, Connie --</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Looks at her)**</stage>
+<p>Connie!</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Tell me - why did you ever take up waiting for a living?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Well, it's a long story. I used to be in politics.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Gee, that's not much better than waiting. If I were a man
+I'd be something exciting.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Politics in my part of the world were exciting enough,
+believe me.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p><hi rend="underline">I</hi> want to be a singer.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>How would you like to sing here?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>In the cabaret you mean? I'd <hi rend="underline">love</hi> it!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I think maybe I can arrange it for you. I'll speak to Pops,
+if you like.</p></sp>
+<stage>(Starts to go)</stage>
+
+<sp><speaker>Sally</speaker>
+<p>Oh, will you?</p></sp>
+<stage>(SALLY grabs him by the coat)</stage>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<p>All right, Mr. Officer, I'll go along.</p>
+<stage>(Sees it's SALLY)</stage>
+<p>Don't do that...would you really like to entertain here?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>See if you'd only get me the chance, I'd make good, honest
+I would.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Don't worry I'll fix it with Pops. Then he won't expect
+me to go on in case he runs short of talent.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Does he ever do that?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>'Deed he does. The other night Soupidina...that's the 
+Hawaiian Princess, absolutely refused to go on and I had
+to go on in her place.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Cheer up. Things will be brighter some day.</p></sp>
+<stage>(Fusses with his hair)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>Not for me. My bright future is all behind me.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Don't you believe it.</p></sp>
+
+<stage>(Sings: "Look for the Silver Lining")</stage>
+<sp>
+<lg>
+<l>A heart full of joy and gladness</l>
+<l>Will always banish sadness and strife,</l>
+<l>So always look for the silver lining,</l>
+<l>And try to find the sunny side of life.</l></lg></sp>
+
+<stage>(After reprise by Sally)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>You wouldn't talk like that if you had been through what
+I have the last two years.</p></sp>
+
+<stage>(THEY go into dance. Exit R.1.E.)</stage>
+
+<stage>(After dance, enter WAITER R.3. with tray filled with silver dishes - another WAITER clears grisini, celery, etc. Table R. front)</stage>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<p>Well, do I waltz or do I WALTZ?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<stage>(Limping)**</stage>
+<p>You waltz, all right.....on'y the orchestra was playin' a
+rumbha, ya jerk!</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You'll be telling me next I stepped on your feet.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>No. With that high knee action of yours you got me between
+the shin and the kneecap every time.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You used to say you could die dancing with me.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>And boy! Did I come close tonight!</p>
+<stage>(Sits)</stage>
+<p>Now what's this about some money you're going to make?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>That's right, dream toots. Today I clinched a deal by which
+I'm going to clear one thousand pieces of moo.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Yeah, I'll bet.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Cross my heart.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>What heart?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Don't change the subject. I'm going to get one thousand
+bucks for booking the famous and notorious Russian Madam
+Nockerova to appear next Thursday at a big ball given by
+Richard Farquar the well-to-do millionaire.</p></sp>
+<stage>(Uses different color handkerchiefs during speech)</stage>
+
+<sp><speaker>Rosie</speaker>
+<p>Is that so? Where did you become acquainted with this
+pushova-dance?</p></sp>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<p>I'm not acquainted with her! I'm her agent. Her New York
+representative. I picked this paper up outside and the first
+thing I struck right here on the first page Mme. Nockerova
+wrecks the throne of a Grand Duke.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>A bomb-thrower?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>A bomb-thrower, nonsense. She don't have to throw bombs,
+with a face like that! Look at that face. No, not that
+one- that's Sophie Tucker. This one -</p>
+<stage>(Points)</stage>
+<p>She's only a little bit of a woman, but the damage she can
+do!</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>I'll bet that's just press-stuff. She's probably a perfectly
+nice girl.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Here, what are you trying to do, ruin her reputation.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>I s'pose you think that a girl can't be on the stage and
+be good?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>I don't say she can't but I understand it isn't <hi rend="underline">strictly</hi>
+necessary.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Otis!</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>All right, let it go! I don't know how the food is here,
+but the service is absolutely terrible--look over this
+list while I page a little service.</p>
+<stage>(Rings bell)</stage>
+<p>Garcon! Garcon!</p></sp>
+<stage>(CONNIE comes from R.2. stands, looks over at Otis, struts over, grabs bell, THEY struggle for it, OTIS gets it puts it back on table)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>Switch off those head lights.</p>
+<stage>(OTIS takes off specs)</stage>
+<p>Put 'em back again!</p></sp>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<p>Say, what the --- That's the freshest waiter I ever saw.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Welcome, Brother Elk.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<stage>(Showing lapel of coat)**</stage>
+<p>Kansas City 74.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Some business)**</stage>
+<p>St. Louis 49.</p>
+<stage>(Start toward each other to shake hands. Miss)</stage>
+<p>Where has he gone? You want a regular dinner?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Not me. I want a footbath and some linament.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>That's a la carte.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>What would you recommend, waiter?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>The food in Childs.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>I'd like some broth.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Some broth, yes, Miss.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>I'd like some mutton.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Mutton broth.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>No. Mutt and Jeff.</p>
+<stage>(Laugh business. OTIS pushes CONNIE. He sinks to floor. Rings bell)</stage>
+<p>Waiter! Waiter!</p>
+<stage>(Turning to right - then left. CONNIE dodging to right then left. Rises)</stage>
+<p>I wish you'd light in one place.</p></sp>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<p>Here I am, sir.</p></sp>
+<stage>(Pulling chair away)</stage>
+
+<sp><speaker>Otis</speaker>
+<stage>(Starts to sit, falls to floor)**</stage>
+<p>Oh, oh.</p>
+<stage>(THEY help him up)</stage>
+<p>I wish you'd call your shots. Get me a bottle of whiskey.</p>
+<stage>(Takes it form hip pocket)</stage></sp>
+
+<sp><speaker>Connie</speaker>
+<p>O.K. with three glasses.</p>
+<stage>(Brings bottle and glasses)</stage></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Three glasses?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Pouring)**</stage>
+<p>That's right.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You'll do nothing of the kind. You'll get <hi rend="underline">two</hi> glasses.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Why, aren't you drinking?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<stage>(Grabbing bottle from him)**</stage>
+<p>He's the freshest waiter I ever saw!</p>
+<stage>(To Rosie)</stage>
+<p>Do you care if I smoke?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>I don't care if you burn.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Hey, waiter, I wish you'd give us a little service.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I'll give you as little as I can.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Well make this dinner good and snappy. Bring me a dozen clams.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Twelve clams. Will the lady be sitting with you?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Why certainly.</p></sp>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<p>That's all I want to know. I don't need thirteen at the
+table. Twelve clams.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Rosie ain't he the character?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>May I make a suggestion?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Why not, I'm broad-minded.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>How would you like some oysters?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>No. Oysters aren't good this month.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Well, I'll give you last month's.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Chum, I hope your food is better than your jokes.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>You wouldn't dare say that if I were a woman.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Shut up and take the order! Ya crumb!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Oh, a Vassar girl.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>And waiter after you have eased in here with the clams, you
+might bring us a couple of bowls of "soups".</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Yes sir.</p>
+<stage>(Starts to go then back to Otis)</stage>
+<p>Beg pardon, sir, what was that last?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>I said you might glide in here with a couple of bowls of
+"soups".</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(With face near Otis)**</stage>
+<p>Zoupe?</p></sp>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<p>Zoupe!</p>
+<stage>(At same time turning face to Connie. THEY kiss. CONNIE pulls lemon out of pocket eats it. OTIS wipes his mouth with tablecloth, then match bus. Rings bell)</stage>
+<p>Waiter! Waiter!</p>
+<stage>(CONNIE rushes madly in different  directions then back to table)</stage>
+<p>I wish you would give us a little attention, but don't be
+so darned affectionate.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Did you say "zoupe"?</p></sp>
+<stage>(THEY look at each other. BOTH put napkins over heads)</stage>
+
+<sp><speaker>Otis</speaker>
+<p>Zoupe. Then I think I'd like some fish.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Hits him over head with order book)**</stage>
+<p>Now that's enough.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<stage>(In a daze)**</stage>
+<p>Rosie, I wish you wouldn't play so rough.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>I didn't do it.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I wish you wouldn't order fish.</p></sp>
+
+<sp><speaker>Otis and Rosie</speaker>
+<p>Why not?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Isn't it fresh?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Certainly, it's fresh, we have an aquarium right on the
+premises.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Why if you've got an aquarium on the premises, the fish are
+bound to be fresh.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>And I am in charge of the aquarium.</p></sp>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<p>Then you might dig in and bring us out a couple of fat ones.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I watched the little fish grow from girlhood up. Pardon me,
+there's your arm.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>What!</p></sp>
+<stage>(Adlib)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>It was hanging from your shoulder. I wish you wouldn't order
+fish. I've become attached to them.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<stage>(Rises)**</stage>
+<p>I understand your feeling. You've probably become so fond
+of them that you've spoiled them and I hate spoiled fish.
+However, waiter, I can appreciate your sentiments. I can
+understand how anyone can really grow fond of a fish. You
+know Rosie, that takes me back to Squantanville. When I was
+a boy. Ah me, heigho, alackaday! <hi rend="underline">I</hi> had a pet fish! I called
+her Isabelle. I was awfully fond of Isabelle, taught her a
+lot of tricks--even taught her to do without water.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>What!</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>There's nothing strange about that. Is there, Waiter?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Oh, no.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>I got Isabelle so used to going without water, I could keep
+her in the cage with the canary bird.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>The fish!</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Yes, the fish. One evening, ah me, fateful night! How well
+I remember it...Isabelle was in the canary bird's cage
+romping around. Leaping from crag to crag like a mountain
+goat.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>The fish!</p></sp>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<p>The fish! Then she got upon the canary bird's perch.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>With the other fish.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>No.</p></sp>
+<stage>(Rises, walks to and fro)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>Well, a perch is a fish.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You leather-head. She got on the canary bird's swing.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Oh! I give up!</p></sp>
+
+<sp><speaker>Otis</speaker>
+<stage>(Bus. exasperated)**</stage>
+<p>Listen, she got up in the canary bird's swing...and was
+swinging blithely to and fro--when she lost her balance,
+fell into the canary bird's bath and was drowned.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>The fish?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>The fish.</p>
+<stage>(CONNIE attempts to strike Otis. OTIS jumps up also ROSIE. OTIS behind Rosie)</stage>
+<p>All right Rosie. I'm right behind you.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I can sympathize with you, sir, for I too have had a great
+sorrow in my life.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Yes, it's showing on you.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Olga was her name.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Oh, a Russian girl?</p></sp>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<p>A hen. A barn yard person. I taught her to lay colored 
+Easter eggs.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>The fish.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Then hen....by holding a piece of red and blue cloth in front
+of her eyes.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Of course - prenatal influence.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Thank you. I wish, but one day I went out to visit with
+my little Olga and found her dead.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Dead?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Yes. Some darn fool had hung a patchwork quilt in front
+of her.</p></sp>
+<stage>(Exit)</stage>
+
+<sp><speaker>Otis</speaker>
+<p>We've been listening to that darn fool and he's gone without
+taking our order. Come on, Rosie, let's have a dance while
+we're waiting.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>O.K. But remember one thing, will ya?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>What's that?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Your dancing <hi rend="underline">with</hi> me - not <hi rend="underline">at</hi> me!</p></sp>
+<stage>(Exit OTIS and ROSIE)</stage>
+
+<stage>(Enter BLAIR, JIM and BOYS. General conversation as THEY enter, as tho continuing a conversation.)</stage>
+
+<sp><speaker>Blair</speaker>
+<p>She's just a little girl, who works here in this restaurant.</p></sp>
+<pb/>
+<sp><speaker>
+Boys</speaker>
+<p>
+Here!
+</p>
+</sp>
+<sp><speaker>Jim</speaker>
+<p>And you want to help her?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Yes, but I don't quite know how.</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>Hey, you sound in a bad way, Blair.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Don't be ridiculous. I only met here an hour ago.</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>Yes, I know. But time has nothing to do with love.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>I guess you're right. They say when you meet the girl,
+something ups and says "This is it, Brother."</p></sp>
+
+<sp><speaker>Sally,
+Blair and Boys,</speaker>
+
+<stage>
+1.
+</stage>
+<lg>
+<l>There's someone that I can't forget</l>
+<l>No matter where I go.</l>
+<l>Though not of high degree</l>
+<l>She's all the world to me.</l>
+<l>A modest rose, unknown as yet</l>
+<l>But wonderful to see</l>
+<l>She is the darling of my heart</l>
+<l>And I met her in the alley.</l>
+<l>And at some future day</l>
+<l>To her I mean to say.</l>
+</lg>
+</sp>
+<stage>(End of "This Is It")</stage>
+
+<stage>(OLD MAN and GIRL enter up Left. CONNIE from kitchen.)</stage>
+
+<sp><speaker>Old Man</speaker>
+<p>Come along my dear, this way. My, what a quaint place.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Grandpa's playing hookey. Well, Commodore, when are you
+going to jump? What can I do for you?</p></sp>
+<pb/>
+
+<sp><speaker>Old Man</speaker>
+<p>I would like a nice quiet table for two.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Very sorry, but we're crowded.</p>
+
+<stage>(MAN gives him money)</stage>
+
+<p>Folding money. For that you can have the house.</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>I would like a nice quite place where we can have a nice
+quiet tete-a-tete.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>How's this?</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>Too noisy, Waiter. Too noisy.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Runs him around in a circle, ends up at same table)**</stage>
+<p>How's this one?</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>Huh?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I said, how's this one?</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>Better -- much better.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I thought you'd like it.</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>How?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Takes cloth out of ear trumpet and yells down)**</stage>
+<p>I said I thought you'd like it.</p></sp>
+<stage>(Puts cloth back in trumpet.)</stage>
+
+<sp><speaker>Old Man</speaker>
+<p>We want crepe suzettes, waiter.</p></sp>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<p>Okay Pop, one order of crepe suzettes. Coming up.</p></sp>
+<stage>(Starts off)</stage>
+<stage>(As he passes R. Booth line to them)</stage>
+
+<stage>(ROSIE and OTIS enter C.)</stage>
+
+<sp><speaker>Otis</speaker>
+<p>Well, how about our food. I've had nothing to eat since
+breakfast. I ought to be starved.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>You ought to be shot.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>All right, let it go.</p></sp>
+
+<stage>(Telephone rings)</stage>
+
+<stage>(CONNIE runs on bells on different tables ring. He puts tray on L. table, runs around to phone)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>Hello, yes, this is the Elm Tree Inn - what? Just a minute,
+I'll get him.</p>
+<stage>(To Otis)</stage>
+<p>You're wanted on the phone.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>I've been expecting a phone message. It's important business.
+Excuse me Rosie, -- where's the phone?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I've been hiding it for you.</p></sp>
+<stage>(Bell business)</stage>
+
+<sp><speaker>Otis</speaker>
+<p>Say, is this a game you're playing?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Beg pardon sir,</p>
+<stage>(Wipes receiver)</stage>
+<p>There you are, sir.</p>
+<stage>(OTIS starts to drink)</stage>
+<p>Don't do that.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Well, what are you waiting for? A tip?</p></sp>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<p>I wouldn't mind, sir.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Play Whirlaway, to place.</p>
+<stage>(In phone)</stage>
+<p>What's that you say? Madam Nockerova hasn't called? Isn't
+coming? This is terrible, and after all the trouble I've gone
+to. This will cost me a thousand dollars. What? I'll call
+you later.</p>
+<stage>(Hangs up phones)</stage>
+<p>Can you beat that for tough luck. Now my whole evening is
+spoiled. Rosie, this is terrible.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>What's the matter?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>That female snake! That Russian homewrecker - Hello?</p>
+<stage>(Shakes hands with Connie)</stage>
+<p>You're getting on my nerves. You're a mental cripple. You
+ought to go around with a crutch under your chin. Can you
+imagine, after all the trouble I took to book that woman,
+now she isn't coming -- turning down the whole U.S. for a pinhead
+of a Duke. But why should I confide in you? Come on
+Rosie.</p></sp>
+<stage>(THEY exit into the house)</stage>
+
+<stage>(WAITER brings on tray with condiments and hands them to Connie)</stage>
+
+<sp><speaker>Pops</speaker>
+<stage>(Enters)**</stage>
+<p>Ladies and Gentlemen, I wish to announce an extra cabaret 
+attraction. Miss Sally Green.</p></sp>
+
+<stage>(SALLY does number in her ragged dress but uses a square silk to perform various dances - Dutch, Spanish, Japanese, etc. Finishes with Clog. After number all exit except Rosie, Blair, Jim and a Girl)</stage>
+
+<sp><speaker>Blair</speaker>
+<p>Isn't she lovely? Excuse me I'm going to congratulate her.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>What do you think of Sally? Isn't she immense? Gosh that
+gives me a great idea. You wait here I'll be right back.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Nothing doing, I'll go with you.</p></sp>
+
+<stage>(THEY exit)</stage>
+<pb/>
+
+<sp><speaker>Old Man</speaker>
+<stage>(Ringing bell)**</stage>
+<p>Waiter, waiter! Where's the waiter. The service here is
+awful. Waiter! Waiter!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Coming, sir, coming. Here we are.</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>Waiter! Waiter!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Whistle bus.)**</stage>
+<p>Here's your order, Pop!</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>Where are my crepe suzettes?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I'll have to cook them here.</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>What's that book?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Fanny Farmer's Cook Book. I'm not quite sure how you mix
+these things.</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>Well, go ahead, I'm going to watch you.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Well, first you take an egg and you drop that in. Then you
+take two pieces of bread and butter.</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>What for?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>You'll find out. Then add a little seasoning.</p></sp>
+<stage>(Pours in everything)</stage>
+
+<sp><speaker>Old Man</speaker>
+<p>What's that for?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>You know what vitamins are for, don't you?</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>Huh?</p></sp>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<p>I said you know what vitamins are for?</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>Yes.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Well, this is ketchup. When the egg is done, you put it between
+the bread and there you are crepe suzette.</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>That's not a crepe suzette that's an egg sandwich.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>By you it's an egg sandwich, by me it's crepe suzette.</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>I won't eat it. This is an outrage. I tell you I won't
+eat it!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>What? After me slaving over a hot oven all day, you won't
+eat it? Then you can wear it.</p></sp>
+<stage>(Takes off toupee and slaps sandwich on bald head)</stage>
+
+<sp><speaker>Old Man</speaker>
+<p>I'll have the law on you! Get the manager! Manager!
+Where's the manager?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Take it easy, Pop. I'll fix it.</p>
+<stage>(Squirts seltzer on head and polishes)</stage>
+<stage>(OLD MAN adlibs angrily)</stage>
+<p>All right, all right! Here you are! Here's something for
+you.</p></sp>
+<stage>(Balloon bus.)</stage>
+
+<sp><speaker>Old Man</speaker>
+<p>Ah, I want a red one.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Never mind the red one here's the bad news.</p></sp>
+
+<sp><speaker>Old Man</speaker>
+<p>76 dollars! That's exorbitant.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>That's a mistake. It should be 96.</p></sp>
+<pb/>
+
+<sp><speaker>Old Man</speaker>
+<p>I won't pay! I won't pay it! I'll have you arrested.</p></sp>
+<stage>(CONNIE breaks the balloon)</stage>
+<stage>(OLD MAN adlibs. CONNIE grabs the ear phone and blows. 2 WAITERS rush on and carry the OLD MAN off)</stage>
+
+<stage>(SALLY enters followed by OTIS and ROSIE)</stage>
+
+<sp><speaker>Sally</speaker>
+<p>Sorry Mister, but that job you gave me I can't accept.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Why you're missing the opportunity of a life time.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>I'd love to go and dance for a lot of society folk and see
+a real party.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>That's just what you're going to do.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>But where'll I get the clothes?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Don't worry about that. Nockerova hasn't sailed, but her
+trunks have.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>But how will I look in her clothes?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You'll look slicker than a sink. All you need is a little
+dolling-up.</p>
+<stage>(Takes Rosie's opera cloak and throws it over Sally)</stage>
+<p>Here give me that cape, let me fix your hair.</p>
+<stage>(Puts feathers in hair)</stage>
+<p>Mother taught me to pluck chickens up in Squantanville and
+here I am dressing 'em up in New York. Look her over, Mme.
+Nockerova. Now let me see you walk. No, no! Mean dogs,
+wicked airdales. Oh not a bit like it. Watch the professor.
+Put 'em down easy pick 'em up light.</p></sp>
+<stage>(Bus. of SALLY walking)</stage>
+
+<sp><speaker>Rosie</speaker>
+<p>What about the Russian accent?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>I am Mam'selle Nockerova ze great dansair. You are a sweet
+young man, cherie. I could love you vaire much.</p></sp>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<p>Some chaps have to use a needle to get an affect like that.
+You're wonderful Sally. What a riot you'll be at the Ball.
+I'll be your manager. Rosie will be your maid and I'll even
+take your dog and disguise him as a French poodle. And I
+guess they don't raise brains in Squantanville.</p></sp>
+<stage>
+FINALE
+</stage>
+<sp><speaker>Otis</speaker>
+<lg><l>On with the dance,</l>
+<l>On with the dance,</l>
+<l>Don't you know it's your one big chance!</l>
+</lg>
+</sp>
+
+<sp><speaker>Sally</speaker>
+<lg><l>I'll be a wonderful star,</l>
+<l>Really how clever you are,</l>
+<l>I'll be supreme</l>
+<l>Is this a dream?</l>
+<l>Ev'ry heart there I mean to entrance;</l>
+<l>'Twill be simply divine,</l>
+<l>And, oh, how I'll shine,</l>
+<l>At the dance, so on with</l>
+<l>the dance.</l></lg></sp>
+
+<sp><speaker>Rosie and Otis</speaker>
+<stage>
+[In unison with Sally]
+</stage>
+<lg>
+<l>You'll be a wonderful star</l>
+<l>No-one will dream who you are</l>
+<l>You'll be supreme</l>
+<l>This is no dream</l>
+<l>Ev'ry heart you are bound to entrance</l>
+<l>You'll be simply divine</l>
+<l>And oh, how you'll shine,</l>
+<l>At the dance, so on with the dance.</l></lg>
+</sp>
+
+<sp>
+<speaker>
+Chorus</speaker>
+<lg>
+<l>On with the dance,</l>
+<l>On with the dance,</l>
+<l>It's a wonderful big romance;</l>
+<l>She'll hit 'em good and proper</l>
+<l>Not a thing is going to stop her,</l>
+<l>We've only had half a glance;</l>
+<l>But we are certain Sally</l>
+<l>Knows the way to lead a ballet;</l>
+<l>She's bound to make some advance.</l></lg></sp>
+
+<sp><speaker>Sally</speaker>
+<lg>
+<l>I can't deny</l>
+<l>I mean to try</l>
+<l>For I must make the most of my chance.</l></lg></sp>
+
+<stage>(ENSEMBLE exit through gate, OTIS and ROSIE last leaving SALLY alone)</stage>
+
+<stage>(Enter CONNIE from R.U.U. with broom - Rosie changes to "Silver Lining" CONNIE sweeping sees SALLY stops)</stage>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<p>May I help you wash the dishes, Sally?</p></sp>
+
+<stage>(SALLY nods. CONNIE helps her wipe dishes as SALLY sings last strain of number)</stage>
+<stage>
+<hi rend="underline">CURTAIN</hi>
+</stage>
+<stage>(FINALE)</stage>
+
+<stage>(EVERYONE dancing around, SALLY clog dancing
+on table, as it ends they all go off waving
+to Sally. SALLY throws opera cloak to ROSIE and plucks the two feathers out of her hair and gives them to OTIS. THEY all exit. OTIS and ROSIE last. CONNIE presenting OTIS with bill as he goes, through door. SALLY climbs down from the table, music changes to Silver Lining. SHE takes dish pail and begins washing dishes as CONNIE after putting one table on top of another mops the floor)</stage>
+<stage>
+<hi rend="underline">CURTAIN</hi></stage></div>
+</div>
+<pb/>
+<div type="act" n="2">
+<head>
+<hi rend="underline">SALLY</hi><lb/>
+<lb/>
+<hi rend="underline">ACT TWO</hi><lb/>
+</head>
+<pb/>
+<div type="schedule">
+<note>
+ACT II
+
+SCHEDULE
+
+I A. OPENING ENSEMBLE
+
+I B. NUMBER JIM and Girls (exit all except Mr. Farquar -
+            Mrs. Ten Brock (SC)
+            
+Enter Jim and Men:
+  "   Otis        Scene
+  "   Sally       Exit Otis and Mrs. Ten Brock
+  
+2 NUMBER "A WILD, WILD ROSE"
+         (Sally and men - exit all)
+         
+Enter Girls
+  "   Connie     Scene
+  "   Mrs. Ten Brock
+  
+2 B "Schnitzekamiski" - Exit Mrs. Ten Brock.
+Waiter Scene.
+
+Enter Girls
+
+3. DANCE Connie and girls etc.
+
+Enter Otis and Rosie scene
+  "   Jim                 Exit Otis and Rosie
+						  Exit Jim with girls
+  "   Sally
+  "   Blair    Scene
+  
+4 DUET "WHIP-O'-WILL" - Blair and Sally (Exit)
+
+Enter Otis
+  "   Rosie
+  "   Jim and Sally
+  
+5. QUARTETTE: "LORELEI" (Exit all)
+
+Enter Pops
+  "   Connie     Scene
+  "   Farquar    (Exit Pops)
+  "   Sally      Scene     (Exit Mr. Farquar)
+  "   Sally - Connie scene
+
+6. DUET "[Nerves]" - Otis and Connie
+         (Eccentric dance - exit)
+         
+<pb/>
+
+6. A. Enter Blair
+        "   Sally - scene.
+        
+6. B. Reprise of "WILD ROSE" - Exit Sally.
+
+Enter Sasha					"   Blair
+  "   Connie	Bank Scene	"	Sasha
+  
+Enter Mrs. Ten Brock and Girls " Connie &amp; Mrs. Ten Brock
+
+C. Enter Farquar and Girls
+
+7. FINALE LYRIC
+
+Enter Sally.	Dance
+  "   Blair		Scene
+  "   Connie	  "
+  " Schnitzekowiksi		Exit Blair
+  " Pops		Scene	 "	 Pops
+  
+"WILD ROSE"
+
+
+CURTAIN
+</note>
+</div>
+<pb/>
+<div type="scene" n="1">
+<head>
+<hi rend="underline">ACT TWO</hi>
+</head>
+<stage>
+OPENING CHORUS
+</stage>
+<sp>
+<speaker>
+Chorus
+</speaker>
+<lg>
+<l>To a celebration so remarkable as this,</l>
+<l>Of course we're all invited;</l>
+<l>Such an invitation we could not afford to miss,</l>
+<l>So we are quite delighted,</l>
+<l>Ev'rybody who is someone,</l>
+<l>Who wants to keep in view,</l>
+<l>Has to call here, so we're all here;</l>
+<l>We're very glad to think we're included too,</l>
+<l>For it's nice to know you count in the exclusive few.</l>
+</lg>
+</sp>
+
+<sp><speaker>Girls</speaker>
+<lg>
+<l>Doesn't she look thin, dear?</l></lg>
+</sp>
+
+<sp><speaker>Boys</speaker>
+<lg>
+<l>How did he get in here?</l>
+</lg>
+</sp>
+
+<sp><speaker>Chorus</speaker>
+<lg>
+<l>Have you heard?</l>
+<l>That to a Duke we're going to be presented?</l>
+<l>Upon my word, how splendid that His Highness has consented.</l>
+</lg>
+</sp>
+
+<sp><speaker>Girls</speaker>
+<lg>
+<l>They say he's a refugee</l>
+<l>From some romantic place</l>
+<l>Is it true? Oh tell me so!</l>
+<l>The gossip of the case.</l>
+</lg>
+</sp>
+
+<sp><speaker>Tenors</speaker>
+<stage>[In unison with first two lines of Girls]</stage>
+<lg>
+<l>He---hit---some place.</l>
+<l>Left without the slightest trace.</l>
+</lg>
+</sp>
+
+
+<sp><speaker>Basses</speaker>
+<stage>[In unison with last two lines of Girls]</stage>
+<lg>
+<l>He led them a merry chase</l>
+<l>They're not--- since seen his face.</l>
+</lg>
+</sp>
+<sp><speaker>Men</speaker>
+<lg>
+<l>Yes, he's really a duke,</l>
+<l>But it's disclosed,</l>
+<l>Not long ago</l>
+<l>He had the fate to be deposed.</l>
+</lg>
+</sp>
+<sp><speaker>Girls</speaker>
+<lg>
+<l>Oh what a shame</l>
+<l>Who was to blame?</l>
+</lg></sp>
+<pb/>
+
+<sp><speaker>Men</speaker>
+<lg>
+<l>Well such a fame,</l>
+<l>Checkergovinia -- that's the name.</l>
+</lg>
+</sp>
+
+<sp><speaker>All</speaker>
+<lg>
+<l>For in that foreign state he made history,</l>
+<l>He is some potentate, full of mystery,</l>
+<l>Checkergovinia - Checkergovinia.</l>
+</lg>
+</sp>
+
+<stage>(SONG.)</stage>
+
+<sp><speaker>Jim</speaker>
+<lg>
+<l>If a leader you'd be reckoned</l>
+<l>You must never lose a second</l>
+<l>As a hostess you must follow what is new!</l>
+<l>Every day you'll keep your eye on</l>
+<l>Any likely social lion,</l>
+<l>Find a fresh attraction ev'ry month or two.</l>
+</lg>
+</sp>
+<stage>
+REFRAIN.</stage>
+
+
+<sp><speaker>Girls</speaker>
+<lg>
+<l>If you want to play the social game,</l>
+<l>If you really want to make your name,</l>
+<l>The only thing to do,</l>
+<l>Is to show them something new;</l>
+</lg></sp>
+<sp><speaker>Boys</speaker>
+<lg>
+<l>In Society variety's the key to notoriety,</l>
+<l>A duke will bring you lots of fame,</l>
+<l>He's a picture in a golden frame,</l>
+<l>And we all agree a title,</l>
+<l>Is particularly vital</l>
+<l>If you want to play the social game.</l>
+</lg></sp>
+
+<stage>(During opening enter RICHARD FARQUAR with MRS. TEN BROCK. DANCE. Opening over. Exit SIX GIRLS and JIM R.1.E.)</stage>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>I think these costumes are perfetly charming.</p></sp>
+
+<sp><speaker>Mr. Farquar</speaker>
+<p>Yes, aren't they? I asked all my guests to wear their
+Checkergovinia costumes in honor of the Grand Duke.</p></sp>
+<pb/>
+
+<sp><speaker>Jim</speaker>
+<p>I say, the most marvelous girl in the world has just driven
+up to the house. If she looks as good in the close-up as
+she did in the flash <hi rend="underline">I</hi> got of her, the rest of the girls
+may as well give up the game. Who is it? Won't you tell me?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<stage>(Off stage)</stage></sp>
+
+<sp><speaker>Flunkeys</speaker>
+<p>Mr. Otis Hooper.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>That's all right. I know the way. I'm over twenty-one.</p>
+<stage>(At the same time OTIS appears at the head of the steps)</stage>
+<p>Good evening everybody - My what a wonderful party - I hope
+I'm not too late for the food. Ladies is there a Mr. Farquar
+here?</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>I am Mr. Farquar.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Howdy stranger. Of course you know who I am?</p></sp>
+
+<sp><speaker>Mr. Farquar</speaker>
+<p>No, sir, I do not.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You don't - what would my mother say. I am Mr. Otis Hooper,
+personal manager of Madame Nockerova.</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<stage>(Anxiously)**</stage>
+<p>Yes, yes, of course.... I hope nothing has happened.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>No, she's here. But we almost didn't get her.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Really - ?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Yes, we had quite a time getting her past the imigration-
+board.</p>
+
+<stage>(ENTER FLUNKEYS)</stage>
+
+<p>
+She's mislaid her address book and couldn't remember her
+last husband's name.</p></sp>
+<pb/>
+<sp><speaker>
+Flunkeys</speaker>
+<p>
+Madame Nockerova.</p></sp>
+
+<stage>(SALLY appears at the top of the stairway. She is gorgeously gowned in a French crestion with a small hat, a tall-handled parasol, open-work stockings, golden brown orchids, etc. On one side of her is ROSIE, on the other is SASCHA with his violin in a case and carrying a music roll. ROSIE carries Custard, ornamented with a large bow of ribbon)</stage>
+
+<sp><speaker>Sally</speaker>
+<p>Oh, what a lovely garden! Elle est charmante!</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<stage>(Bowing)**</stage>
+<p>Good evening, Madame.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Bon noir, Bon noir. Bon noir.</p>
+
+<stage>(GENTLEMEN bow)</stage>
+
+<stage>(SALLY comes down C. winks at Otis as she goes down)</stage>
+
+<stage>(C)</stage>
+<p>Rosie, please take my babe and give him what you call the
+air.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Ow, Madame.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<stage>(Coming anxiously to her)**</stage>
+<p>What's a matter? You hurt?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Why should I be hurt?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You said "Ow".....</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Sure I said Ow ... O-U-I...ow...that's French for yes, ya dope!</p></sp>
+
+<stage>(CHORUS exits)</stage>
+<pb/>
+
+<sp><speaker>Sally</speaker>
+<stage>(As she comes down)**</stage>
+<p>This place is beautiful! It reminds me of ze garden of my
+dear friend ze Crown Prince of Siam -- tres-tres-charmante.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Gee, that Berlitz guy is a marvel! Mme, I want you to shake
+hands with Mr. Farquar.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>How do you do, how do you do? How do you do?</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Je suis enchante de faire votre consissance, Mademoiselle.
+Soyez a votre aise-- on me dit que vous eten une tres grande
+artiste.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>I'm sunk!</p></sp>
+
+<stage>(OTIS grips Sally. THEY register extreme consternation)</stage>
+
+<sp><speaker>Otis</speaker>
+<p>Say oui!</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(Who doesn't understand a word)**</stage>
+<p>Oui -</p></sp>
+<stage>(Looks at Otis)</stage>
+
+<sp><speaker>Otis</speaker>
+<p>Oh yes, oui, oui!</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Allow me to present Mrs. Ten Brock.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Wh...what name did you say?</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Mrs. Ten Brock.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>How do you do?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(Xes to Mrs. Ten Brock)**</stage>
+<p>How do you do?</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>She is a lady who devotes much of her time to settlement
+work.</p></sp>
+<pb/>
+
+<sp><speaker>Sally</speaker>
+<p>Settlement work?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Pardon me, Mr. Farquar - you see the Mme. doesn't understand
+English very well. Settlement work, she's -- a bill collector.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<stage>(Haughtily)**</stage>
+<p>I beg your pardon.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>That's all right, let it go.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<stage>(To Sally)**</stage>
+<p>Mrs. Nockerova, your face looks very familiar.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(Turning half away from her. Afraid of being recognized)**</stage>
+<p>Really...?</p>
+<stage>(Looks toward Otis)</stage>
+<p>You 'ave perhaps seen me perform in Europe?</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>No - - - But I've surely seen you before - - -</p></sp>
+
+<stage>(MR. FARQUAR &amp; JIM come down L)</stage>
+
+<sp><speaker>Otis</speaker>
+<p>Her pictures were in all the papers, at the time the great
+Russian writer Sordoff fought a duel about her with the --
+the Vice President of Switzerland.</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>How dreadful!</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<stage>(To Sally)**</stage>
+<p>Were either of them killed!</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>I don't remember!</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Don't remember!</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Does she say she doesn't remember!</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Not at all -- merely a case of resemblance and you know --</p></sp>
+<pb/>
+
+<sp><speaker>Sally</speaker>
+<p>Zey shot each other but were zey both killed, Otees?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Well kid -- Madame, I don't quite recall, but it took one
+of them, quite a while to heal up. I don't think it did them
+any good.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(Shrugs)**</stage>
+<p>But, why bothair? Zere are so many men. And what good is
+a Vice-president anyway?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Oh Lady, burn my clothes. She says the cutest things...
+You know Mrs. Tea Spot - no - well - all right - let it go!</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Madame Nockerova, I hope you're going to spend some time
+with us.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>No, I am soree. You see I am so busy singing and washing
+dishes...</p></sp>
+
+<sp><speaker>Omnes
+</speaker><p>
+<hi rend="underline">Washing dishes</hi>...</p>
+
+<stage>(OTIS coughs)</stage>
+
+<p>What? What did she say?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(Covering her mistake)**</stage>
+<p>Oh yes, I am very domestique. You would nevair guess it to
+look at me, eh?</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>May I say I think that adds to your charm.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<stage>(Triumphantly)**</stage>
+<p>Washing dishes.</p>
+
+<stage>(OTIS groans)</stage>
+<p>
+Now I know who it is -- You remind me of -- You look very
+much like a little girl down at our settlement house.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Really? How -- how strange!</p></sp>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<p>Not at all -- merely a case of resemblance and you know
+resemblance is resemblance. See how one grape fruit resembles
+another.</p>
+<stage>(Looks at her)</stage>
+<p>All right, let it go.</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Mr. Hooper, I wonder if you won't go and see that Madame's
+maid is properly taken care of.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Mr. Farquar, I'll do that little thing for you, but I don't
+quite like to leave her alone -- She might get into mischief.
+-- She's --</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Don't worry. I'll look after her.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>I'll go wth you, Mr. Hooper, and show you the way.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<stage>(Takes Mrs. Ten Brock)**</stage>
+<p>Mrs. Ten Spot, that's awfully nice of you. Jimmy, I'll see
+you listen. Where do they keep the wishing-well?</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>The what - ?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>The bar, honeychile, the bar -</p></sp>
+
+<stage>(BOTH exit R.I.E.)</stage>
+
+<sp><speaker>Farquar</speaker>
+<stage>(Xes to L.C.)**</stage>
+<p>Madame Nockerova, there's a society reporter writing up this
+affair for "Social Topics." I'm sure he'd like to have a
+brief story of your life.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Mon Dieu - Za police would suppress ze papair!</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>I can't believe it. You look as innocent as a primrose.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>I am just ze opposite of primrose -- there is nozzing "prim"
+about <hi rend="underline">me</hi>.</p></sp>
+<pb/>
+
+<stage>(Exit FARQUAR and JIM R.I.E.)</stage>
+
+<stage>(NUMBER: "A WILD, WILD ROSE.")</stage>
+
+<stage>
+Sally and Men
+</stage>
+<stage>1.</stage>
+<sp><speaker>
+Men</speaker>
+<lg>
+<l>You'll pardon our intrusion our confusion is sublime,</l>
+<l>We've never seen a girl at all like you;</l>
+</lg></sp>
+
+<sp><speaker>Sally</speaker>
+<lg>
+<l>I must admit I'm rather unconventional,</l>
+<l>A type that must appear as ultra new.</l>
+</lg>
+</sp>
+<sp>
+<speaker>Men</speaker>
+<lg>
+<l>You're like a splendid flower not from our domestic clime,</l>
+<l>An orchid that can thrill us with delight.</l></lg></sp>
+
+<sp><speaker>Sally</speaker>
+<lg>
+<l>Alas I'm not a blossom so original,</l>
+<l>An orchid bloom will not describe me quite;</l>
+</lg>
+</sp>
+
+<sp>
+<speaker>Men</speaker>
+<lg>
+<l>You're nothing tame,</l>
+<l>You're like a burning flame,</l>
+<l>We know your name:</l>
+</lg>
+</sp>
+<sp><speaker>Sally</speaker>
+<lg>
+<l>But all the same:</l></lg>
+
+<stage>
+REFRAIN
+</stage>
+
+<lg>
+<l>I'm just a wild rose,</l>
+<l>Not a prim and mild rose,</l>
+<l>Tame me if you can,</l>
+<l>I'm a rose to suit any man;</l>
+<l>Some passion flower,</l>
+<l>This is my hour;</l>
+<l>Who'll get me? No-one knows,</l>
+<l>I'm such a wild, wild rose.</l></lg></sp>
+
+<stage>
+2
+</stage>
+<sp><speaker>Sally</speaker>
+<lg>
+<l>I'm frantic - romantic,</l>
+<l>Excited - delighted,</l>
+<l>It's thrilling - just killing.</l>
+<l>I'm willing to play my part,</l>
+<l>Shall I lose my heart?</l>
+<l>Well who can tell?</l>
+<l>It's a magic spell enchanting.</l>
+</lg>
+</sp>
+<pb/>
+<sp>
+<speaker>Men</speaker>
+<lg>
+<l>You're charming - alarming,</l>
+<l>So slender - so tender,</l>
+<l>Capricious -- delicious,</l>
+<l>We love you; -- you're just complete,</l>
+<l>We are at your feet,</l>
+<l>You're such a wild wild rose.</l></lg></sp>
+
+<stage>(ALL exit)</stage>
+
+<stage>(Music for DUKE's entrance)</stage>
+<sp>
+<speaker>
+Flunkeys
+</speaker>
+<p>His Highness - the Duke of Checkergovinia.</p></sp>
+
+<stage>(Enter ENSEMBLE - Then Duke from C)</stage>
+
+<sp>
+<speaker>
+Duke</speaker>
+<p>
+Ladies, I thank you for this wonderful reception.</p>
+<stage>(ALL courtsey)</stage>
+<p>Ladies, for the past two weeks, I have been waiting, waiting
+for tonight. I had a little difficulty in getting here. My
+Prime Minister objected, but I overruled his objection. Tonight,
+somebody else is taking my orders -- I mean giving my
+orders -- and tonight <hi rend="underline">I</hi> am going to sit at the table to dine..</p></sp>
+
+<stage>(THEY turn as if they'd come on just ahead of CONNIE who follows them on, the POOR GIRLS, hanging around him. He is in the uniform of Pzchekagovinian Army. The TWO FLUNKEYS follow. One carrying tray with liquors, the other a tray with coffee. They place these on a table and retire)</stage>
+
+<sp><speaker>Girl</speaker>
+<p>Oh please Duke, may I sit on your right hand at dinner
+tonight?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I'm sorry. I need my right hand to eat with. Ladies again
+I thank you in the name of Checkergovinia.</p></sp>
+
+<stage>(GIRLS laugh)</stage>
+
+<sp><speaker>Girl</speaker>
+<p>Your Highness, I do wish I could have some little souvenir
+to remember you by.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>How would you like this little scimovitch or native dagger.</p></sp>
+<pb/>
+
+<sp><speaker>Girl</speaker>
+<p>Is it thsharp.</p></sp>
+<stage>(Sharp)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>Is it thsharp? Well I should say it was. It's a nippy little
+thing. I'd hate to have to be followed upstairs by that -
+would you like it?</p></sp>
+
+<sp><speaker>Girl</speaker>
+<p>Yes.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>You may have it.</p>
+<stage>(Hands it to her)</stage>
+<p>Again I thank you in the name of Checkergovinia.</p></sp>
+
+<sp><speaker>Girl</speaker>
+<p>Duke, have you met Mrs. Ten Brock?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Oh yes. she's a very charming woman, don't you think so?</p></sp>
+
+<sp><speaker>Girl</speaker>
+<p>Very.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Tell me, is she wealthy?</p></sp>
+
+<sp><speaker>Girl</speaker>
+<p>She has millions.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>A kindly voice -- millions!</p></sp>
+
+<sp><speaker>Girl</speaker>
+<p>But you'd have to work awfully hard to get her.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I never have to work -- hard.</p></sp>
+
+<stage>(MRS. TEN BROCK enters)</stage>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<stage>(Entering R.2.E.)**</stage>
+<p>Good evening, your highness.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Good evening. You look charming.</p></sp>
+<pb/>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Thank you, your Highness.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I was just saying to the ladies -- I'll have to work awfully
+hard if I don't get her.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<stage>(As she comes down to C)**</stage>
+<p>Tell me your highness can you come and dine at my house
+tomorrow?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I'm so sorry. There are a lot of people coming to dine at
+my place. I should lose my job if I weren't there.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Lose your <hi rend="underline">job</hi>?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Wh -- what I mean to say is - there would be trouble in
+diplomatic circles. But I have every other Thursday night off
+and one Sunday a month.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<stage>(Very affected)**</stage>
+<p>I had no idea the duties of royalty were so arduous.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Oh, frightfully so. Besides, I must think of my customers.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Customers?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Nobly)**</stage>
+<p>Customs, customs! The customs of my country compels me to
+think of my people, and I <hi rend="underline">must</hi> think of my people.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>I wonder if you will ever be restored?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I hope not.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Oh, don't say that.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Why not?</p></sp>
+<pb/>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>I adore Europe!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Really?</p></sp>
+<stage>(Slides closer)</stage>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>I used to go over every summer.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Every summer?</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Every summer!</p></sp>
+
+<sp><speaker>Mrs. Ten Brock and Connie</speaker>
+<stage>(Sighing)</stage>
+<p>Every summer!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>You've traveled extensively.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Yes.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Tell me - are your stays long?</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<stage>(Haughtily)**</stage>
+<p>I beg your pardon?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>That's wrong. That's a faux pas.</p></sp>
+
+<stage>(Enter JIM R.2.E.)</stage>
+
+<sp><speaker>Jim</speaker>
+<p>Ah, Mrs. Ten Brock - I've been looking for you. Have you
+seen Mme. Nockerova?</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>No, I haven't.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I beg your pardon, but what name did you say?</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>Mme. Nockerova - the singer.</p></sp>
+
+<sp><speaker>Duke</speaker>
+<stage> (Connie)</stage>
+<p>You'll oblige me by not mentioning that lady's name again
+in my presence.</p></sp>
+<pb/>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>Do you know the lady?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Xes to Mrs. Ten Brock)**</stage>
+<p>Know her? She's the cause of all my trouble. I fell in love
+with her. For her I pawned the crowned jewels and bought her
+a pearl necklace.</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>There was a sandal of course.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Scandal! In less than a week I was playing tag around the
+palace with the revolutionists.</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>And now she's here.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Here - In Amer -i-ka? In America?</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>Here in this garden.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Akra - etc. Gavolt! (Gevalt)</p></sp>
+<stage>(Facing up and down)</stage>
+
+<sp><speaker>Jim</speaker>
+<p>I beg your pardon?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I was speaking in my native tongue --</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<stage>(Sits)**</stage>
+<p>What an awful situation.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Xes to Mrs. Ten Brock)**</stage>
+<p>Not at all. I <hi rend="underline">want</hi> to meet her. There are several little
+things I want to say to her.</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>You say she was visiting the court at the time of the
+revolution?</p></sp>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<p>Yes - she was in the palace the time the revolutionists broke
+in. It was she who nudged -- she called me at the first
+alarm too late -- she seized the pearl necklace and swam the
+Schnitze-Komiski.</p></sp>
+
+<sp><speaker>Mrs. Ten Brock</speaker>
+<p>The What?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>The Schnitze-Komiski.</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>What is that may I ask?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>You may. Oh, I see - you're asking. Why that's our
+native river.</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>Oh I see. I never would have guessed it.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>You've never heard of the Schnitze-Komiski?</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>I never have.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I'll send you an Atlas.</p></sp>
+<stage>
+SONG: "THE SCHNITZE KOMISKI"
+</stage>
+<stage>
+(Written by Clifford Grey)
+</stage>
+<sp><speaker>Connie</speaker>
+<stage>
+1st Verse
+</stage>
+<lg>
+<l>I'm a Duke from a wonderful clime</l>
+<l>Where I've had a remarkable time.</l>
+<l>My people are splendid but rather unique</l>
+<l>They like revolutions at least once a week,</l>
+<l>On Sunday you may be a King,</l>
+<l>On Monday you won't have a thing.</l>
+</lg>
+<stage>
+1st REFRAIN
+</stage>
+<lg>
+<l>On the banks of the Schnitze Komiski</l>
+<l>They're all just as wild as can be;</l>
+<pb/>
+<l>Any time without reason or rhythm</l>
+<l>You may find it is wiser to flee</l>
+<l>In the night they may rouse and chase you.</l>
+<l>And prod you with bay-nets like me;</l>
+<l>If you meet with defeat</l>
+<l>They'll cut off your retreat</l>
+<l>Where the Schnitz flows down to the sea.</l>
+</lg>
+<stage>
+2nd Verse
+</stage>
+<lg>
+<l>Our Sundays are dismals and blue</l>
+<l>The same as they're wishing on you;</l>
+<l>To ride on a train is a ten dollar fine</l>
+<l>And you must be in bed by a quarter past nine.</l>
+<l>We've no Sunday pictures out there</l>
+<l>And for dancing you're sent to the chair.</l>
+</lg>
+<stage>
+2nd Refrain
+</stage>
+<lg>
+<l>On the banks of the Schnitze Komiski</l>
+<l>You don't have to brew on the sly;</l>
+<l>Making Hootch out of bits of potatoes,</l>
+<l>And hair oil and wood-pulp and rye;</l>
+<l>When we dine we can just swim in wine</l>
+<l>So come on girls fore gather with me;</l>
+<l>And I'll treat everyone</l>
+<l>To a beautiful bun</l>
+<l>Where the Schnitze Komiski</l>
+<l>(The peaceful Komiski)</l>
+<l>Just gurgles its way to the sea.</l>
+</lg>
+<stage>
+3rd Refrain
+</stage>
+<lg>
+<l>On the banks of the Schnitze Komiski</l>
+<l>They're going to close everything down</l>
+<l>Cabarets - they will nail up the doors</l>
+<l>And they'll shut every theatre in town.</l>
+<l>Making love they will stop very soon</l>
+<l>No amusements at all there will be</l>
+<l>Even children I hear</l>
+<l>They'll import them next year</l>
+<l>Where the Schnitze Komiski</l>
+<l>(The peaceful Komiski)</l>
+<l>Just gurgles its way to the sea.</l>
+</lg>
+<pb/>
+<stage>
+<hi rend="underline">EXTRA REFRAIN</hi>
+</stage>
+<lg>
+<l>On the banks of the Schnitze Komiski</l>
+<l>Their novels will take you by storm;</l>
+<l>When you read you must wear bathing suits</l>
+<l>For they're really so frightfully warm.</l>
+<l>Working girls want to turn into vamps</l>
+<l>When they reach about page 93;</l>
+<l>And my old grandma</l>
+<l>Wants to grab grand papa</l>
+<l>Where the Schnitze Komiski</l>
+<l>(The peaceful Komiski)</l>
+<l>Just gurgles its way to the sea.</l>
+</lg>
+<lg>
+<l>On the banks of the Schnitze Komiski</l>
+<l>The fellows are glad they're alive</l>
+<l>Pretty girls - we'll just commandeer them</l>
+<l>And sell them in bunches of five</l>
+<l>And they dress - so to speak, more or less,</l>
+<l>Well they're simply as bare as can be;</l>
+<l>And the most a girl needs</l>
+<l>Is a small string of beads</l>
+<l>Where the Schnitze Komiski</l>
+<l>(The peaceful Komiski)</l>
+<l>Just gurgles its way to the sea.</l>
+</lg>
+
+<lg>
+<l>On the banks of the Schnitze Komiski</l>
+<l>There's rather a shortage of coal</l>
+<l>By the talk, it's as bad as New York</l>
+<l>Where they say they don't change their tune</l>
+<l>We'll be feeling as cold as can be;</l>
+<l>If it freezes tonight</l>
+<l>He shall get frost-bite</l>
+<l>Where the Schnitze Komiski</l>
+<l>(The peaceful Komiski)</l>
+<l>Just gurgles its way to the sea.</l>
+</lg>
+
+<lg>
+<l>On the banks of the Schnitze Komiski</l>
+<l>The houses are cheap as can be;</l>
+<l>Working men do not stay out to lunch</l>
+<l>From eleven o'clock until three.</l>
+<l>When they build from suspicion of graft</l>
+<l>They are really remarkably free;</l>
+<l>As for all profitees</l>
+<l>They just lop off their ears.</l>
+<l>Where the Schnitze Komiski</l>
+<l>(The peaceful Komiski)</l>
+<l>Just gurgles its way to the sea.</l>
+</lg>
+<pb/>
+<lg>
+<l>On the banks of the Schnitze Komiski</l>
+<l>I played the political game</l>
+<l>I told all the usual lies</l>
+<l>And I got all the usual blame</l>
+<l>Till at last when I'd waddled and foddled</l>
+<l>They got just as sick as can be</l>
+<l>And just like poor old Cox</l>
+<l>I was well on the rocks</l>
+<l>Where the Schnitze Komiski</l>
+<l>(The peaceful Komiski)</l>
+<l>Just gurgles its way to the sea.</l>
+</lg></sp>
+
+<stage>(Enter SALLY R.2. goes to R. front. Enter BLAIR C.)</stage>
+
+<sp><speaker>Blair</speaker>
+<p>There you are. Why did you run away from me? Who are you -
+won't you tell me?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Why are you so anxious to know?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>You are so exactly like a poor little girl who washes dishes
+in a restaurant.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Really do you zeenk that <hi rend="underline">I</hi> am this poor little girl who
+washes deeshes in a restaurant?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>No, no of course not, that is ridiculous. Your clothes -
+your foreign accent. --</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>This lettle friend of yours is she nice.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>She's charming - just as you are.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Merci -</p></sp>
+<stage>(She curtseys)</stage>
+
+<sp><speaker>Blair</speaker>
+<p>You are just what I could want to have made of her.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Oh, you don't like her as she is.</p></sp>
+<pb/>
+
+<sp><speaker>Blair</speaker>
+<p>Yes, I do - but of course <hi rend="underline">she</hi> hasn't had the education you
+have - or the experience in life.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(Mockingly)**</stage>
+<p>NO? No, of course not.</p></sp>
+<stage>(Xes to C)</stage>
+
+<sp><speaker>Blair</speaker>
+<p>And though she looks like you she isn't nearly as pretty.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>You don't zeenk zat might be just ze clothes?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Certainly not.</p>
+<stage>(Contemptuously)</stage>
+<p>Clothes mean nothing to me. If you were wearing rags you
+would look even more charming.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>You don't mean zat.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Yes, I do. I never believed in love at first sight before. --
+But then it <hi rend="underline">isn't</hi> first sight, for you're exactly like an
+older sister of this little girl who I was half in love with
+already.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Nonsense. That is not love. It's just the effect of this
+beautiful garden and the scent of the flowers and the --</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>No - No, it isn't - it's <hi rend="underline">you</hi>.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Silly -- I wish I could live in a beautiful garden like this.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>If you really care, you and I can live in this garden -
+forever and ever -</p></sp>
+<pb/>
+<stage>
+<hi rend="underline">"WHIP-O'-WILL"</hi>
+</stage>
+<sp><speaker>Sally</speaker>
+<lg>
+<l>Mem'ry takes me back away</l>
+<l>To an early childhood day</l>
+<l>Then I stood within a little wood as the day was fading</l>
+<l>I remember, oh so well</l>
+<l>Strolling in the dusky dell</l>
+<l>I would thrill because the Whip-po-will was serenading</l>
+<l>-Trilling while stars were rapidly filling the sky.</l>
+</lg>
+<stage>
+REFRAIN
+</stage>
+<lg>
+<l>Whip-po-will I used to love to hear you call to me</l>
+<l>Whip-po-will I knew he meant the world and all to me</l>
+<l>When the sun had gone to rest</l>
+<l>I could hear you from your nest</l>
+<l>Whip-po-will you used to whistle tenderly</l>
+<l>And when the moon would play</l>
+<l>Across the branches of the tree above</l>
+<l>You would sing your plaintive little melodies of love.</l>
+<l>For that though you're no longer near</l>
+<l>In my dreams I always hear</l>
+<l>Whip-po-will ever calling to me.</l>
+</lg>
+</sp>
+<stage>
+2
+</stage>
+<sp><speaker>Blair</speaker>
+<lg>
+<l>While the dusky night bird flew</l>
+<l>To his evening ren-des-vous</l>
+<l>In the dell I heard the vesper bell so softly ringing</l>
+<l>As its music died away</l>
+<l>And the sky began to gray</l>
+<l>All was still and then the whip-po-will began his singing</l>
+<l>Trilling whle the stars were rapidly filling the sky.</l>
+</lg></sp>
+
+<stage>(Exit. After number Whip-po-will - enter ROSIE from L.2.E. runs over toward R.1.E. OTIS enters from upstage C)</stage>
+
+<sp><speaker>Otis</speaker>
+<stage>(Whistles)**</stage>
+<p>Rosie! There you are. I've been looking all over the
+garden for you.</p>
+<stage>(Looks at her. Laughs)</stage>
+<p>Gee! You look like swell. Now that we're all alone slip
+me a little kiss.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>No - I won't!</p></sp>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<p>I see. You've got other plans. - All right let it go.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Oh Otis! I know we're not going to get away with this.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Rosie, come on now, be a good fellow - She's a riot I tell
+you - and before I'm through, they'll be naming cigars and
+cold cream after her.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>I know something is going to happen.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You're the worst moaner I ever saw, You are the champion
+two handed kill joy of the world. Why do you say something's
+going to happen?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Just before I met you - I heard a hoot-owl.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Well let him hoot if he wants to. I should worry about an
+owl.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Why, Otis Hooper don't you know that means bad luck.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Bad luck! Why?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>The last time I heard one of those birds was the night my
+poor old Grandpa had his ribs broken in two places.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Well, your Grandpa shouldn't go into such places.</p></sp>
+
+<stage>(Enter JIm from steps L.2.E.)</stage>
+
+<sp><speaker>Jim</speaker>
+<p>Hello.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Well, as I live and breathe if it isn't my old friend Jimmy
+Spelvin. How are you? I'm awfully glad you blew in. You're
+just in time. I want you to meet the wife, that is she isn't
+the wife as yet. She's my ball and chain to be. Rosie, I'd
+like very much to have you meet Mr. Spelvin, but don't laugh.
+Shake hands with Miss Rafferty, Mr. Spelvin - Mr. Spelvin,
+Miss Rafferty.</p></sp>
+<pb/>
+
+<sp><speaker>Jim</speaker>
+<p>Good evening. How do you do. By the way, I've just been
+talking with Mrs. Ten Brock...</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Awfully nice girl --</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>...about Mlle. Nockerova, and she says there's liable to be
+some fun this afternoon.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<stage>(Swallowing uncomfortably)**</stage>
+<p>Fun? Atta boy - that's what we like, plenty of fun.</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>You know the guest of honor at this party is, who do you
+suppose. The Duke of Pzchekagovinia.</p></sp>
+<stage>(Starts to laugh)</stage>
+
+<sp><speaker>Otis</speaker>
+<stage>(Laughing)**</stage>
+<p>I don't know what I'm laughing at but I suppose it's all right.
+Jimmy, I don't wish to appear to have a lame brain but where
+does the laugh come in?</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>Why don't you see. The Duke is the chap who gave Nockerova
+her famous string of pearls!</p></sp>
+<stage>(Laughs more heartily. Slaps Otis on the back)</stage>
+
+<sp><speaker>Otis</speaker>
+<stage>(Dazed)**</stage>
+<p>And the prisoner ate a hearty breakfast. You - you mean to
+say that the Duke of Checkergovinia knows Mme. Nockerova.</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>Knows her? You don't suppose he sent her the pearls by rare
+free delivery? He was her Cher and -</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Oh, all right, let it go.</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>Can you imagine what will happen when they meet?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Oh yes, I <hi rend="underline">am</hi> imagining it.</p></sp>
+<pb/>
+
+<sp><speaker>Jim</speaker>
+<p>I'll bet the fur will fly.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>There are a whole lot of other things that are going to fly
+besides fur!</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>Well, good bye Miss Rafferty.</p></sp>
+<stage>(Moves upstage)</stage>
+
+<sp><speaker>Otis</speaker>
+<p>Rosie if we don't have a blow out in our rubber heels we'll
+be at the station in ten minutes. You scatter in several
+directions and search the grounds and see if you can't find
+Sally.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>What shall I tell her when I find her?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Tell her I'll race her to the station.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>So you're floored at last.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Rosie, don't be silly. You never saw anybody from Squantanville
+floored by a little thing like that.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>I knew when I heard that hoot girl.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Listen Rosie, I'm not going to let this stump me. I'll see
+the Duke - get his ears up like a rabbit. Make a couple of
+wise cracks - you leave it to me.</p>
+
+<stage>(JIM sees SALLY and BLAIR strolling at back - snaps his fingers to attract OTIS's attention)</stage>
+
+<p>There's a game I love. On your knees boy.</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>No, no, look - she's even got old Blair going now. I thought
+he was vamp proof.</p></sp>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<p>Vamp proof, not with that baby. For a tiny woman, she can
+do an awful lot of damage. She certainly is some siren.</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>The good old Lorelei has nothing on her.</p>
+
+<stage>(NUMBER: "THE LORELEI")</stage>
+<lg>
+<l>I remember reading in an old mythology of the lovely, luring
+Lorelei</l></lg></sp>
+
+<sp><speaker>Rosie</speaker>
+<lg><l>In the olden times she was a siren of the sea, Theda Bara
+of the days gone by --</l></lg></sp>
+
+<sp><speaker>Jim</speaker>
+<lg><l>The silver stars were jealous of her gleaming golden hair;</l></lg></sp>
+
+<sp><speaker>Rosie</speaker>
+<lg><l>She won the heart of ev'ry man who saw her beauty rare -</l></lg></sp>
+
+<sp><speaker>Otis</speaker>
+<lg><l>She set 'em off their bean; of she was pescherino. She
+dressed like Eve without the fig-leave Eve used to wear.-</l></lg></sp>
+<stage>
+REFRAIN
+</stage>
+
+<sp><speaker>All</speaker>
+<lg>
+<l>Upon a rock she sat all day, the lovely Lorelei - No sailor
+who sailed her way could ever pass her by</l></lg></sp>
+
+<sp><speaker>Blair</speaker>
+<lg>
+<l>If once he heard her calling, for her he'd soon be falling.</l></lg></sp>
+
+<sp><speaker>All</speaker>
+<lg>
+<l>The lovely, luring lying Lorelei.</l></lg></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Brothers, a small colleciton will now be taken up.</p></sp>
+
+<sp><speaker>Jim</speaker>
+<p>Hooper, behave yourself.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>I'm sorry - be broadminded - all right, let it go.</p></sp>
+<pb/>
+<stage>
+2nd Verse
+</stage>
+<sp><speaker>
+Jim (1)</speaker>
+<lg>
+<l>Nowadays a restful rock is very hard to reach;</l>
+<l>Sailormen not easy to recruit</l></lg></sp>
+<sp><speaker>
+Rosie (2)</speaker>
+<lg>
+<l>Maidens of today can only pose upon the beach</l>
+<l>In a snappy one-piece bathing suit.</l></lg></sp>
+
+<sp><speaker>Otis</speaker>
+<lg>
+<l>Very good. You may step to the living room, and have one
+slice of pineapple.</l></lg></sp>
+<sp><speaker>
+Jim (3)</speaker>
+<lg><l>A Navy man from Yankee land who danced her way to go.</l></lg></sp>
+
+<sp><speaker>Rosie</speaker>
+<lg>
+<l>Said, "Hello, Kiddo - as my widow you can spend my dough -</l></lg></sp>
+<sp><speaker>
+Otis (4)</speaker>
+<lg>
+<l>No girl I've seen can match you; don't let Flor Ziegfield
+Catch you.</l>
+<l>He'll put you and your rock upon the Midnight Frolic
+show."</l></lg></sp>
+<stage>
+REFRAIN
+</stage>
+<stage>
+(Same as before except third line)
+</stage>
+<sp><speaker>Blair</speaker>
+<stage>(2nd time)**</stage>
+<lg>
+<l>She'd jolly them and bunk 'em and when they fell, she sunk 'em
+The lovely, luring, lying Lorelei.</l></lg></sp>
+<stage>(Dance and exit)</stage>
+
+<sp><speaker>Otis</speaker>
+<p>Sisters, a crap game has been suggested.</p>
+<stage>(JIM and ROSIE grab his arm)</stage>
+<p>Remember my operation.</p>
+</sp>
+
+<stage>Third Verse</stage>
+<sp>
+<lg>
+<l>Such a lovely Lorelei you ought to learn to be</l>
+<l>All the Navy men for you would fall -</l>
+</lg>
+<lg>
+<l>Any man who saw her when she went to see the sea,</l>
+<l>Never came home to his wife at all -</l>
+</lg></sp>
+<sp><speaker>Otis</speaker>
+<p>Keep it clean.
+</p></sp>
+<pb/>
+<sp>
+<lg>
+<l>3. A fellow on a liner, full of tender heartedness -</l>
+<l>cried, "Through my glass I see a girl, who's lost her
+bathing dress."</l>
+</lg>
+<lg>
+<l>4. Let's go to her assistance, for judging at this distance</l>
+<l>I really think it must be Mary Garden in distress."</l>
+</lg>
+</sp>
+
+<stage>REFRAIN</stage>
+<stage>(Same as before except third line)</stage>
+<sp>
+<lg>
+<l>With Manner bright and breezy, she proved that
+Gobs are easy,</l>
+<l>With lovely, luring lying Lorelei.</l>
+</lg></sp>
+
+<stage>(Dancing - exits)</stage>
+
+<stage>(CONNIE-DUKE enters leaning on arms of FLUNKEYS)</stage>
+<sp>
+<lg>
+<l>Upon a rock she sat all day</l>
+<l>So wonderful and bright</l>
+<l>Historians refuse to say</l>
+<l>Where the old girl sat at night</l>
+<l>She lured men till she got 'em</l>
+<l>Then vamped them to the bottom</l>
+<l>This lovely, luring, lying Lorelei.</l>
+</lg></sp>
+
+<stage>(FLUNKEYS let him fall. They do not move)</stage>
+<sp><speaker>
+Duke</speaker>
+<p>
+There it goes!</p>
+<stage>(Falls)</stage>
+<p>Must you do that? It's very unbutlerish. Get me a brandy!</p>
+
+<stage>(FLUNKEY exit L.1.E.)</stage>
+<p>
+Did he say he would or he wouldn't?</p></sp>
+
+<sp><speaker>Flunkey</speaker>
+<p>There are the drinks, sir.</p></sp>
+
+<sp><speaker>
+Duke</speaker>
+<stage>(Drinks)</stage>
+<p>I feel like a new man.</p>
+<stage>Pours out drink)</stage>
+<p>There's one for the new man.</p>
+<stage>(Referring to stopper)</stage>
+<p>I don't like that Flunkey fellow - he's very rude. He had
+the audacity to ask me what stable I was riding for.</p></sp>
+<pb/>
+
+<stage>(Music, he listens, then goes into dance and finishes falling on settee L) (Jadnetely's "Preludium")</stage>
+
+<stage>(Drunk number)</stage>
+
+<stage>(Number over enter POPS)</stage>
+
+<stage>(Enter CONNIE)</stage>
+
+<sp><speaker>Connie</speaker>
+<stage>(Startling)**</stage>
+<p>What are <hi rend="underline">you</hi> doing here?</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>I'm on the track of a kid-napper! A fellow has gone and
+stole away my little Sally - the finest dish-washer I ever
+had --</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Well I'm not the fellow --</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>I know who the fellar is all right. It's that country-chap
+that ain't never stopped talkin' about himself since the
+minute he heard the doctor say: "It's a boy!"</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I know him. Zoupe!</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>It ain't only because of the dish-washin! Sally's a nice girl.
+I like her and the lady at the settlement told me to look
+after her.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>But why come after me?</p></sp>
+<stage>(His face puckers)</stage>
+
+<sp><speaker>Pops</speaker>
+<p>I didn't come after <hi rend="underline">you</hi>. This fellar's here too --</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>You mean he's here at my party?</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Yes. I've traced him right to this place. And when I catch
+him. I'll just go up to him and say: "Look here you
+loafer - what do you mean acting like this?"</p></sp>
+<stage>(Starts pushing Connie around)</stage>
+<pb/>
+
+<sp><speaker>Pops</speaker>
+<stage> (Con't)</stage>
+<p>
+And if he hasn't a good answer I'm going to take him by the
+neck. A nice fellow to have around by the neck. You I'm
+going to say: "You're a low-down good-for-nothing kid snapper--"</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Stop it! You are liable to miss.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>And then if he gets fresh I'll give him a good kick.</p></sp>
+<stage>(Illustrates with knee chasing CONNIE around stage)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>There it goes. You'll have to stop eating raw meat.</p>
+<stage>(Runs around in a circle, then stops. Bell rings, starts again and stops R. front)</stage>
+<p>Who won?</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Won? Won what?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Isn't this some game we're playing? My dear Shendoff - you've
+got the wrong idea. You should never forget that you're a
+Checkergovinian - you should never lose your temper, be more
+tactful, more diplomatic. You should approach him and say:
+"My dear Mr. Hooper -- "</p></sp>
+<stage>(At the same time place hand back of neck and with the other grab him quickly. Choke him and throw him on the floor as enter FARQUAR R.1.E.)</stage>
+
+<sp><speaker>Farquar</speaker>
+<p>I wonder if you Highness -- why what the -- !</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Letting go of Pops)**</stage>
+<p>Oh, pardon me. This is one of my loyal supporters. I was
+just greeting him according to our quaint Pzchekagovinian
+custom.</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>He seems quite overcome by your condescension.</p></sp>
+<pb/>
+
+<sp><speaker>Pops</speaker>
+<stage>(Puffing)**</stage>
+<p>How do you do?</p></sp>
+<stage>(Bows)</stage>
+
+<sp><speaker>Farquar</speaker>
+<p>Go in and ask one of the footmen to give you a glass of wine,
+my man. You would no doubt wish to drink the Duke's health.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Oh yes - I would like to make several wishes about the Duke's
+health!</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Right this way, if you please.</p></sp>
+<stage>(Points)</stage>
+
+<sp><speaker>Pops</speaker>
+<p>Thank you -</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I will see you tomorrow good Shendoff --</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>You bet your life you will.</p></sp>
+<stage>(Exit POPS R.2.E.)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>Charming fellow.</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>I admire your affability - you're so democratic.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Well, what's the use of putting on airs? Most of the time
+I treat Shendoff like an equal.</p></sp>
+
+<stage>(Enter SALLY and TWO BOYS)</stage>
+
+<sp><speaker>Farquar</speaker>
+<p>Pardon me. Oh, Mme. Nockerova.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Oui - ?</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Will you come here just a moment.</p></sp>
+<pb/>
+
+<sp><speaker>Sally</speaker>
+<stage>(Glancing at book)**</stage>
+<p>Certainment -- Vous la vous. Excuse moi?</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>May I present you to his Highness the Duke of Pzchekagovinia.</p></sp>
+
+<stage>(BOTH bow very low - then recognize each other - start)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>What did you say the name was?</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Nockerova, the famous singer.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Oh, Madame Nockerova. Comment un vas.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Tres bien - et vous?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Bon. I believe we met before -- ?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Your face was rathair familiar.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>You can bet your sweet life - I think it was at Monte Carlo
+that we first met.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Oui.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Oui -  we were both together. You kept on helping me take my
+money off the roulette board.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p><hi rend="underline">I</hi> remember.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I'd been doing fairly well till you began to help me.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Voila! It all comes back to me!</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Well, now that I see you're old friends --</p></sp>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<p>Yes, we've been in a lot of hot water together.</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Have you really, then I'll leave you to your pleasant
+reminiscenses. Mme. Nockerova is going to sing for us presently,
+Duke.</p></sp>
+
+<stage>(Exit FARQUAR R.1.E.)</stage>
+
+<sp><speaker>Sally</speaker>
+<p>Oui, I think I 'ad beetair go now an' get ready --</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Wait a minute - come here!</p>
+
+<stage>(SALLY stops)</stage>
+
+<p>What is the little game?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Do you know who I am?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>You bet your life I do. Do you know who I am?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>You bet your life I do.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>What are you doing here?</p>
+
+<stage>(SALLY attempts to speak)</stage>
+
+<p>Never mind. How did you get here -</p>
+<stage>(Same business)</stage>
+<p>That's enough. Where did you get those pearls - that dress?
+Sally, you look beautiful, but why Nockerova? Why didn't
+you tell me this before?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>I can't explain but you've always been so nice to me. You
+won't give me away will you.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Give you away? Of course I won't give you away - bless your
+little heart! But <hi rend="underline">why Nockerova - I see</hi>. You told me you
+always wanted to be a singer.</p></sp>
+<pb/>
+
+<sp><speaker>Sally</speaker>
+<p>That's it.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Well, don't worry about me. I'll swear you're Ginger Rogers if
+you want me to.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Oh thank you, Connie. You're a dear sweet boy and I'll let
+you wipe the dishes for me tomorrow.</p>
+<stage>(Starts to go - stops - turns)</stage>
+<p>Connie!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Sally!</p></sp>
+
+<stage>(SALLY exits R.II.E.)</stage>
+
+<sp><speaker>Blair</speaker>
+<p>Your Highness --</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(DUKE puts on hat quickly - walks up and down in front of bench - attempts to rest foot on bench. Misses it, falls, gets up, staggers around back of bench to front of it - sits, posing - then rises)**</stage>
+<p>You wish to see me?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Tell me, who is that lady? That just left here --</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>That's Mme. Nockerova.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Nockerova! I don't believe it.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I beg your pardon --</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Are you sure?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I'm positive.</p></sp>
+<pb/>
+
+<sp><speaker>Blair</speaker>
+<p>That Russian girl --</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I ought to know she broke my heart and made me lose my throne.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>So that's Nockerova. And I am just another name on her list!
+Another one of her victims.</p></sp>
+<stage>(Exit)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>What the h---is it all about?</p></sp>
+
+<stage>(Enter OTIS, L.2.E. OTIS slaps Duke on the back. DUKE turns and grapples with Otis. Both run up and down stage twice)</stage>
+
+<sp><speaker>Otis</speaker>
+<p>Whoa! Hesitate - we'll get 'em in the next round.</p></sp>
+<stage>(Fans Duke with handkerchief, then mops his head. Kisses head)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>Oh! I'm blistered.</p>
+<stage>(Bus. as if to fight)</stage>
+<p>Don't you ever do that again.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Don't you worry. I won't.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>For that, in my country, you'd fight.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Well, why don't you fight?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>This is <hi rend="underline">not</hi> my country.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You misunderstand me. I don't want to quarrel with you. I 
+don't want to race you. I want to have a chat with you.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Ah!</p></sp>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<stage>(Sees hat Duke has dropped)**</stage>
+<p>Is this your flower pot?</p>
+<stage>(Gives it to him)</stage>
+<p>My, how tall your sweet peas are.</p>
+
+<stage>(DUKE in putting on hat, tickles Otis with feathers in nose)</stage>
+<p>
+Don't do that, I've got hay fever. I was wondering if by any
+chance you could be the Duke of Checkergovinia.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I <hi rend="underline">am</hi> the Duke of Checkergovinia.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Sally also told me you were going to stand by her.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I am.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Great!</p>
+<stage>(Slap)</stage>
+<p>It's fine of you and it shows in spite of being a Duke you're
+a regular fellow. And if you ever need a friend.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Yes.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Send for me. I'll tell you where to go! -- to find one.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>What!</p></sp>
+<stage>(Pushes OTIS who falls)</stage>
+
+<sp><speaker>Otis</speaker>
+<p>Oh, Duke, you play me so rough.</p></sp>
+
+<stage>(Enter ROSIE L.2.E.)</stage>
+
+<sp><speaker>Rosie</speaker>
+<p>Hello, Otis, there you are.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Hello Rosie!</p></sp>
+<pb/>
+
+<sp><speaker>Rosie</speaker>
+<p>Did you find Sally?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>I did, and everything is all right. She and the Duke are as
+friendly as Park and Wilford.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Then we have nothing to worry about.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Not a thing. I've got <hi rend="underline">more</hi> good news for you. Sally's
+singing here tonight, and I know she's going to make a great
+success; and if she does, I've got a chance of getting her
+a contract with the Follies.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Say, if you do that you'll make some heavy commissions. An'
+if you do that I think I'll marry you.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You'll marry me?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Yeah!</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You'll have to give me a little time to think that over.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>No I won't! I've made up our minds you're going to marry me.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>I am not ...</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>What!!!!!</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Er---ah---I don't like you that way---I like you but not
+that way.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>So what? You didn't like olives the first time you ate 'em
+did you?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>No.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>But you like 'em now, don't you?</p></sp>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<p>Yes.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Well, you'll give me the same chance you'd give an olive,
+won't you? Say, I got a surprise for you. Turn around.</p>
+<stage>(Takes out ring. Business)</stage>
+<p>From Otis to Rosie. Love and kisses.</p>
+<stage>(She puts it on)</stage>
+<p>Thanks, Otis.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Is that a real diamond I gave you?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>If it ain't you're out fifteen bucks.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Me!!!!</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Come on! Get it up! Expect me to buy my engagement ring.
+You cheapskate!!!</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>I guess I can afford fifteen dollars.</p></sp>
+<stage>(Gives her the money)</stage>
+
+<sp><speaker>Rosie</speaker>
+<p>Now all you got to do is pay ten dollars a week for the next
+three years.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Do you think I'll make you happy, Rosie?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>You'd better. Oh, sure. Sure. You're lousy to look at but
+you're all mine. I guess I'm the only dame in the world dumb
+enough to fall for you...but you do something to me, ya
+crumb...</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Gee - you accepted me?</p></sp>
+
+<stage>(THEY go into a clinch and hold it as ENSEMBLE enter when they are all on OTIS notices them and THEY exit hurriedly)</stage>
+<pb/>
+
+<stage>(Enter MR. FARQUAR R.2., JIM L.2 and ENTIRE ENSEMBLE)</stage>
+
+<stage>(Write Introduction by Farquar to Sally's big number - Song and Ballet)</stage>
+<stage>
+Finale
+</stage>
+
+<sp><speaker>All</speaker>
+<lg>
+<l>Our anxious eyes</l>
+<l>Await this great surprise</l>
+</lg>
+</sp>
+
+<sp><speaker>Men</speaker>
+<lg>
+<l>She is not here</l>
+<l>Will she appear?</l>
+</lg></sp>
+
+<sp><speaker>Girls</speaker> 
+<lg>
+<l>Where is this wild rose?</l>
+<l>She's no prim and mild rose;</l>
+<l>Tame her if you can;</l>
+<l>Some passion flower</l>
+<l>This is her hour;</l>
+</lg>
+</sp>
+
+<sp><speaker>Men</speaker>
+<stage>[In unison with Girls]</stage>
+<lg>
+<l>We are very glad we've met her;</l>
+<l>We have loved her from the start;</l>
+<l>She's won ev'ry heart,</l>
+<l>We can't forget her.</l>
+</lg></sp>
+
+<sp><speaker>All</speaker><lg>
+<l>Who'll get her no one knows</l>
+<l>She's such a wild, wild rose.</l>
+</lg></sp>
+
+<stage>(SALLY enters for short dance)</stage>
+
+<stage>(Before it ends, BLAIR enters)</stage>
+
+<sp><speaker>Blair</speaker>
+<p>Stop! Why is this girl here.</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Why Blair are you crazy?</p></sp>
+
+<stage>(SALLY stops dancing)</stage>
+
+<sp><speaker>Jim</speaker>
+<p>What's happened to Blair? Go on please don't stop your dance.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Mme. Nockerova ruined the life of our guest of honor -- Are
+you going to entertain the woman who did this?</p></sp>
+
+<stage>(OTIS and ROSIE enter L.2.E.)</stage>
+
+<sp><speaker>Farquar</speaker>
+<p>But Blair please -- the Duke is here. I don't want a scene.</p></sp>
+<pb/>
+
+<sp><speaker>Blair</speaker>
+<p>Either I leave this house or she does. She is cruel and
+heartless.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Very well I will go - I'll go at once.</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>You had no consideration for my poor friend the Duke why
+should I show consideration for you?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Why? I'll tell you why. Because I'm not this dreadful
+woman. I'm not Nockerova.</p></sp>
+
+<sp><speaker>Omnes</speaker>
+<p>
+Not Nockerova?</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>I don't believe you. You're just trying to escape from an
+unpleasant situation.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Wait a minute.</p>
+<stage>(To Sally)</stage>
+<p>What are you saying? Why of course she's Nockerova.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Certainly she is.</p></sp>
+
+<stage>(ALL sing. See score)</stage>
+
+<sp><speaker>Blair</speaker>
+<p>How could you do this to me - why couldn't you for once in
+your life play fair? --</p></sp>
+<stage>(Exits)</stage>
+
+<stage>(Enter DUKE and MME. TEN BROCK. Laugh)</stage>
+
+<sp><speaker>Farquar</speaker>
+<p>Here is the Duke. He recognized Mme. Nockerova at once.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I am quite intimately acquainted with her.</p>
+<stage>(Sees her)</stage>
+<p>Yes, this is Mme. Nockerova -- those pearls she is wearing
+are my pearls and I should not be surprised if a closer
+examination did not reveal my suit of silk lingerie in which
+she swam away!</p></sp>
+<pb/>
+
+<sp><speaker>Farquar</speaker>
+<p>Then she is Mme. N --</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Yes. Oft in fine summer evenings I have sat in my garden
+while she sang to me.</p>
+<lg>
+<l>On the banks of the Schnitze Komiski</l>
+<l>My darling you wandered with me</l>
+<l>Till the night when the big shindy started</l>
+<l>We thought it was better to flee</l>
+<l>You recall how - they roused us and showed us</l>
+<l>You fled along my balcony</l>
+<l>When I ran through the trees</l>
+<l>In my best B.V.D.'s</l>
+<l>Where the Schnitze flows down to the sea.</l>
+</lg></sp>
+<stage>(CHORUS repeats last two lines. Enter POPS. POPS has evidently taken the invitation to drink the Duke's health quite liberally)</stage>
+
+<sp><speaker>Pops</speaker>
+<stage>(Spying Otis)**</stage>
+<p>Oh, there you are. I've found you at last kid-napper!</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>What are you talking about? You darn fool.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Sally.</p>
+<stage>(Sees her)</stage>
+<p>Why Sally! I'm so glad I've found you Sally. This is Sally -
+my little dish-washer.</p></sp>
+
+<sp><speaker>Omnes</speaker>
+<p>A dish-washer -- ?</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Don't tell me I'm wrong?</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Certainly you are!</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Rosie, you know Sally. Ain't this little girl our Sally?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>I should say not!</p></sp>
+
+<sp><speaker>Pops</speaker>
+<p>Oh, my poor head. What is wrong?</p></sp>
+<pb/>
+
+<sp><speaker>Connie</speaker>
+<p>You're drunk.</p></sp>
+
+<sp><speaker>Pops</speaker>
+<stage>(Rounding on him)**</stage>
+<p>I'm not drunk! And I won't be insulted by you! You're
+nobody -- you're just one of my waiters!</p></sp>
+
+<sp><speaker>Omnes</speaker>
+<p>A waiter! Did he say a waiter, etc.</p></sp>
+
+<stage>(ALL laugh)</stage>
+
+<sp><speaker>Farquar</speaker>
+<p>Now we know he's mad!</p>
+<stage>(To Footman)</stage>
+<p>Take him away!</p></sp>
+
+<sp><speaker>Pops</speaker>
+<stage>(As he is hustled off)**</stage>
+<p>Take me away! It's true - he is a waiter! And what's more
+he's a rotten waiter.</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>Mme. Nockerova, I'm extremely sorry for all this disturbance.
+Won't you continue your song?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>No!</p></sp>
+
+<sp><speaker>Ensemble</speaker>
+<p>
+No!</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>No!</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>It's no use, I'm not going to pretend any more.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>Mme. Nockerova.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>The Duke is trying to save me from being humiliated but he
+knows I'm not really Nockerova.</p></sp>
+
+<sp><speaker>Omnes</speaker>
+<p>
+What!</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Mr. Shendoff was right. I did wash dishes in his restaurant.
+And now that you know this if you want me to stay, I will.</p></sp>
+<pb/>
+
+<sp><speaker>Farquar</speaker>
+<p>I thank you. But I think you had better leave.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(To Farquar)**</stage>
+<p>Oh, I see! As long as you thought I was this terrible woman
+you were crazy about me - but now you're not interested in
+me any more! I'm not good enough for you and your guests.</p></sp>
+
+<sp><speaker>Farquar</speaker>
+<p>This lady's car.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>That isn't necessary. Sally, I'll take you home. Ladies
+and Gentlemen, I have the honor to bid you good night.</p></sp>
+<stage>(Starts off with SALLY followed by OTIS and ROSIE)</stage>
+
+<sp><speaker>
+CHORUS</speaker>
+<lg>
+<l>Who is she? No one knows</l>
+<l>She's just a Wild, Wild Rose.</l>
+</lg>
+</sp>
+<stage>
+<hi rend="underline">CURTAIN</hi></stage>
+<pb/>
+</div>
+</div>
+<div type="act" n="3">
+<head>
+<hi rend="underline">SALLY</hi><lb/>
+<lb/>
+<hi rend="underline">ACT THREE</hi><lb/>
+</head>
+<pb/>
+<div type="scene" n="1">
+<head>
+<hi rend="underline">ACT THREE</hi><lb/>
+<lb/>
+<hi rend="underline">Scene 1.</hi><lb/>
+</head>
+<stage>BALLET</stage>
+<lb/>
+<stage>"ROMANCE OF THE ROSE"</stage>
+<lb/>
+<stage>
+House curtain rises, disclosing "FOLLIES"
+travelling stage, through chiffon draw
+curtains. Butterflies flying about
+then draw curtains open.</stage>
+<lb/>
+<stage>
+Enter first BUTTERFLIES, then the BAT
+at the end of the movement. BUTTERFLIES exit
+R. and K. and enter MOTHS (small girls)
+Ballet dance at Cue - SALLY enters C. premier dance and at picture, travelling stage goes forward out over orchestra. BOYS march down the aisles, throw wild rose bouquets on the stage.  SONG  "SHE'S JUST A WILD ROSE" Etc.</stage>
+
+<stage>
+Refrain
+</stage>
+<sp>
+<lg>
+<l>She's just a wild rose</l>
+<l>Not a prim and mild rose</l>
+<l>Tame her if you can</l>
+<l>She's a rose to suit any man</l>
+<l>Some passion flower</l>
+<l>This is her hour</l>
+<l>Who'll get her, no one knows,</l>
+<l>She's such a wild, wild Rose.</l>
+</lg></sp>
+
+<stage>(Stage goes back as chiffon curtain closes and SALLY comes through. BOYS come up on stage, shutter comes down. BOYS sing)</stage>
+
+<sp><speaker>
+Boys</speaker>
+<lg>
+<l>Dear little girl we love you, dear little girl</l>
+<l>Though the dress that you wear is a grand affair</l>
+<l>You made us care</l>
+<l>And we'll take our Sally away from the Ballet</l>
+<l>To that wonderful valley of dreams.</l>
+</lg></sp>
+
+<stage>(BOYS - exit R. and L.)</stage>
+<pb/>
+</div>
+<div type="scene" n="2">
+<head>
+<hi rend="underline">ACT THREE</hi><lb/>
+<lb/>
+<hi rend="underline">Scene 2</hi><lb/>
+</head>
+<stage>
+Dressing Room.</stage>
+<lb/>
+<stage>
+OTIS discovered changing cards on
+baskets of flowers. Heading 1st
+card basket L.</stage>
+
+<sp><speaker>Otis</speaker>
+<p>Love and kisses. Jimmy Spelvin and the boys.</p>
+<stage>(Reading 2nd card basket C)</stage>
+<p>Roses are red, violets blue - that poor egg ought to get
+twenty years.</p>
+<stage>(Reading 3rd card basket R.)</stage>
+<p>A quaint old Irish sentiment "Kahxeltoph". Joe Ginsberg.</p></sp>
+
+<stage>(Note: he tears cards and replaces them with his own card)</stage>
+
+<stage>(ROSIE enters L. door watches him)</stage>
+
+<sp><speaker>Rosie</speaker>
+<p>What are you doing?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<stage>(Starts)**</stage>
+<p>What's all the shootin' for? - Hello Rosie. I'm just putting
+my card on some of these flowers.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>You've got a nerve!</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>These are from gang of fellows Sally met at the Farquar
+party. I didn't like them anyway.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Wasn't the ballet wonderful, Otis?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>You bet. If success was water, I'd be Niagara Falls.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>You? What did you have to do with it?</p></sp>
+<pb/>
+
+<sp><speaker>Otis</speaker>
+<p>Everything. I got her this contract with the Follies,
+didn't I?</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>Yes.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>I'll make a fortune out of Sally, and I'll lay it at your feet.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<p>A large fortune?</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>It'll look large beside those tiny feet.</p>
+<stage>(Laughs)</stage>
+<p>Oh, boy, that's a slicker.</p></sp>
+
+<sp><speaker>Rosie</speaker>
+<stage>(Xes to R.)**</stage>
+<p>Father won't let me marry you, unless you can support me
+properly.</p></sp>
+
+<sp><speaker>Otis</speaker>
+<p>Well, I can start you on bread and milk, the same as he did.</p></sp>
+<stage>(BOTH exit R. door)</stage>
+
+<stage>(Enter BOYS, carrying SALLY - place her on sofa, group around her)</stage>
+
+<sp><speaker>1st Man</speaker>
+<stage>(As they enter)</stage>
+<p>What's the matter with Sally Green?</p></sp>
+
+<sp><speaker>Men</speaker>
+<stage>(All)</stage>
+<p>She's all right!</p></sp>
+
+<sp><speaker>1st Man</speaker>
+<p>Who's all right?</p></sp>
+
+<sp><speaker>Men</speaker>
+<p><hi rend="underline">Sally</hi>! Three cheers. Hurray! Hurray! Hurray!</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(Standing on chair)**</stage>
+<p>Boys, you're all of you wonderfully kind and I want to thank
+you. I only wish I was the Duke, so that I could decorate you
+with orders.</p></sp>
+<stage>(Throwing roses to BOYS who start and exit)</stage>
+<pb/>
+
+<sp><speaker>Men</speaker>
+<stage>(As she hands them the bunch of flowers)</stage>
+<p>Oh, thank you, Sally! You're wonderful! I'm going to press
+this and keep it forever, etc.</p>
+<stage>(THEY ALL exit as they get their flowers)</stage>
+<p>Good luck, Sally! We're strong for you, you know that, don't
+you, etc?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(They are all off. She starts to look among the flowers)**</stage>
+<p>Oh, dear -- he hasn't even come to see me. And he hasn't
+sent me any flowers. They all seem to be from Otis Hooper.</p>
+<stage>(Knock at door)</stage>
+<p>Ah!</p>
+<stage>(She turns expectantly)</stage>
+<p>Come in!</p>
+<stage>(Enter CONNIE)</stage>
+<p>Oh!</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>You look disappointed. Were you expecting Blair?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Blair wrote me two letters asking me to forgive him - but I
+wrote back saying I never wanted to see him again - He has
+never answered my letter or been to see me. Men are so stupid.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I'm very happy tonight because you made such a wonderful
+success. You looked charming! I knew you could do it. Oh,
+see what I've brought you.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Thank you, Connie.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>They're not from me. This note goes with them.</p>
+
+<stage>(SALLY takes it and opens it)</stage>
+<p>
+It seems quite like my old waiting days carrying notes to
+ladies, I'm not waiting any more. I'm going to be married.
+I beg your pardon - Yes, to Mrs. Ten Brock that very tall
+lady. We haven't settled yet, when the ceremony is going to
+take place. She'll make a good wife - so easy to find in a
+crowd.</p></sp>
+<pb/>
+
+<sp><speaker>Sally</speaker>
+<stage>(Looking up from her note)**</stage>
+<p>He says after the way he behaved at his uncle's party he hasn't
+dared to speak to me - but some day when I forgive him, if I
+ever do - I am to send him one of these flowers.</p></sp>
+
+<stage>(MAID enters)</stage>
+
+<sp><speaker>Connie</speaker>
+<p>How does he figure you're going to keep them? After three
+or four days they don't smell so pretty - of course, you might
+press it in your album.</p>
+<stage>(Takes flower, (wild rose), she is holding out to him)</stage>
+<p>Ah, you want me to take it <hi rend="underline">now</hi>?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>If you can find him.</p>
+<stage>(She steps behind screen)</stage>
+<p>Excuse me, Connie. I must change my clothes.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<stage>(Opening door)**</stage>
+<p>I shall search most diligently. It may take a week or a month.
+But I'll find him. I'll now go and search.</p>
+<stage>(He motions to BLAIR to come to him, hands him rose)</stage>
+<p>Sally, supposing I <hi rend="underline">do</hi> find Blair. Shall I tell him you forgive
+him?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<stage>(From behind the screen)**</stage>
+<p>No, no, don't do <hi rend="underline">that</hi>. I'm going to make him ask me a lot
+of times before I forgive him.</p></sp>
+
+<sp><speaker>Connie</speaker>
+<p>I see. You don't want him to think you were just waiting for
+him to come around.</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>That's it exactly - and Connie!</p></sp>
+
+<stage>(CONNIE signals to Blair laying his  finger on his lips and pussy-fotts out of the room. He turns at the door and grins)</stage>
+<pb/>
+
+<sp><speaker>Sally</speaker>
+<stage> (Con't)</stage>
+<p>
+CONNIE!</p>
+<stage>(Exit CONNIE. SALLY mounts on chair looking over top of screen)</stage>
+<p>Why Blair!</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>Sally dear!</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>Oh, that's not fair!</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>But you <hi rend="underline">have</hi> forgiven me?</p></sp>
+
+<sp><speaker>Sally</speaker>
+<p>I haven't said so. Your feeling for me is only fatherly.
+It's Nockerova that you really love!</p></sp>
+
+<sp><speaker>Blair</speaker>
+<p>It's <hi rend="underline">you</hi> whatever name you're called. Will you marry me?</p>
+<stage>(SALLY shakes head "No" then "Yes")</stage>
+<p>That's wonderful! We're going to that --</p></sp>
+
+<stage>(REPRISE)</stage>
+
+<sp><speaker>Blair and Sally</speaker>
+<lg>
+<l>Dear little, dear little church round the corner</l>
+<l>We'll slip there one day on the sly;</l>
+</lg></sp>
+
+<sp><speaker>Sally</speaker><lg>
+<l>We don't want a fuss, nothing gaudy for us</l>
+<l>We have quite settled that, you and I.</l>
+</lg></sp>
+
+<sp><speaker>Blair</speaker>
+<lg>
+<l>She's a girl so it's no use to warn her.</l></lg></sp>
+
+<sp><speaker>Sally</speaker>
+<lg><l>He's a boy and so he doesn't care.</l></lg></sp>
+
+<sp><speaker>
+Both</speaker>
+<lg>
+<l>In our hearts we shall sing,</l>
+<l>And the joy-bells shall ring</l>
+<l>At the church round the corner</l>
+<l>It's just round the corner</l>
+<l>The corner of Madison Square.</l>
+</lg>
+</sp>
+<pb/>
+
+<stage>(Shutter closes - curtains follow. Six
+flower girls enter from R. and L. strewing
+wild roses about stage, when last
+two exit take away shutter - showing
+"church around the corner." As curtains open, lights come up slowly, groups discovered, others enter - first six bridesmaids (green dresses) then four little girls (bridesmais - pink dresses) then JIM and FARQUAR then OTIS and ROSIE, DUKE and MRS. TEN BROCK - and last SALLY and BLAIR - two pink bridesmaids carrying train)</stage>
+<stage>
+<hi rend="underline">CURTAIN</hi></stage>
+
+</div></div></body></text></TEI>
