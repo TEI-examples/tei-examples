@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Southern doorjamb of the main shrine of Po Nagar</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Amandine Lepoutre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0030B4</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>EFEO</institution>
+                  <idno xml:id="inv-general">C. 30 B4</idno>
+                  <altIdentifier type="bergaigne-aymonier-nr">
+                     <idno xml:id="bergaigne-aymonier-nr">409 B, 4</idno>
+                  </altIdentifier>
+                  <altIdentifier type="majumdar-nr">
+                     <idno xml:id="majumdar-nr">No. 85</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note>The twelve last lines engraved on the anterior face of the Southern doorjamb of the entrance to the main shrine.</note>
+                  <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang> 
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Doorjamb</objectType>; <material>sandstone</material>
+                              <!-- AL:;<dimensions unit="cm">
+                               <height></height>
+                              <width></width>
+                              <depth></depth>
+                              </dimensions>.-->
+                              <!-- AG: in due course, introduce below a section <layoutDesc>, and in it use the tags for <layout>, as described at <http://www.stoa.org/epidoc/gl/dev/supp-desctext.html>, to give the dimensions of the surface inscrite. -->
+                              <!-- AG: PARMENTIER GIVES NO DIMENSIONS -->
+                              </p>                        
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                        <origPlace type="location">
+                           <placeName ref="cic-geo:po-nagar-nha-trang">Po Nagar at Nha
+                              Trang</placeName>
+                     </origPlace>
+                     <origDate>
+                        <date calendar="Śaka">1123</date>
+                        <date calendar="Julian" notBefore="1201" notAfter="1202">1201/2</date>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" notAfter="1888">
+                     <ab>This inscription was found <foreign>in situ</foreign> before 1888, when it was first mentioned in the literature (<bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>89-91</biblScope></bibl>).</ab>
+                  </provenance>
+                  <provenance type="observed" notAfter="2009">
+                     <ab>We identified the inscription on the temple site in 2009.</ab>       
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>BnF</repository>
+                           <idno xml:id="BnF-est-409-60">409 (60)</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-20">20</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-inked" facs="#fac2-3"> 
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-n228-jpg">n. 228</idno>
+                        </msIdentifier>
+                        <ab><note>There are several estampages under the number n. 228.</note></ab>
+                        </msDesc> 
+                     </surrogates>
+               </additional>
+                  </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version 
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampages</catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="20120815" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0030B4_AL_2012.jpg">
+         <desc>Photograph of inscription <ptr target="#inv-general"/>. Taken at Po Nagar by Amandine Lepoutre on <date when="20120527"></date>.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0228_B4.jpg">
+         <desc>Photograph of an EFEO estampage under n. 228.</desc>
+      </graphic>
+      <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n0228bis_B4.jpg">
+         <desc>Photograph of an EFEO estampage under n. 228.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>A few words were read in <bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>89-91</biblScope></bibl>; partially read and translated into French in <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>47-48</biblScope></bibl>; whence summarized in English, in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>205</biblScope></bibl> and <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>176-177</biblScope></bibl>; whence again, with translation into French, in <bibl><ptr target="cic-bibl:schweyer-2005a"/>: <biblScope>97</biblScope></bibl>. The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-IV"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl> where we have re-edited the text from the inked EFEO estampage and the stone.</ab>
+         </div>        
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+            <ab>
+            <lb n="1"/> <g type="quatrefoil"></g> svasti <pc>||</pc> madā pu pom̃ tana rayā sidaḥ yām̃ pom̃ ku śrī jayaparameśvaravarmmadeva
+            <lb n="2"/> aum̃ aṅśarāja urām̃ turaiy· vijaya di śakarāja nī 1112 madā pu pom̃ tana rayā kamvuja yāṅ· nā
+            <lb break="no" n="3"/>ma vraḥ pāda śrī jayavṛrmmadeva kā pandāp· sarvvadvipa mam̃n· ma°udyāna mar<unclear>ai</unclear> mak· <unclear>nagara ca</unclear>mpa pal<unclear>i</unclear>
+            <lb break="no" n="4"/><unclear>ṅya</unclear>k· <unclear>s</unclear>arvvaliṅga <unclear>je</unclear>m̃ kaliḥ rayā klum̃ pluḥ sā thun· vuḥ senāpatī kamvuja mvan· rumam̃ jumvum̃ tam̃l· ril<supplied reason="lost">v</supplied>ai
+            <lb n="5"/> di śakarāja nī 1123 pu pom̃ tana rayā nan· nau vraḥ nagar· dram̃<choice><unclear>n</unclear><unclear>ṅ</unclear></choice>· nāma pu pom̃ pu lyam̃ śrī yuvar<supplied reason="lost">āja</supplied>
+            <lb n="6"/> <unclear>bharuv·</unclear> kamvuja ṅan· campa raṇḍaṃ phām̃ sā <gap reason="lost" quantity="1/2" unit="character"/> nau pu pom̃ tana rayā <unclear>nan·</unclear> vā vala kamvuja nau mak·
+            <lb n="7"/> <seg rend="check"><unclear>tanaḥ</unclear></seg> vukāṃ <pc>|</pc> <gap reason="lost" quantity="1" unit="character"/>n· <gap reason="lost" quantity="3/4" unit="character"/> kamvuja nau mak· <gap reason="lost" extent="unknown" unit="character"/>
+            <lb n="8"/> dā <gap reason="lost" extent="unknown" unit="character"/>
+            <lb n="9"/> <gap reason="lost" quantity="1" unit="line"/>
+            <lb n="10"/> e<supplied reason="lost">kacchatra</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+            <lb n="11"/> <gap reason="lost" quantity="1" unit="line"/>
+            <lb n="12"/> <gap reason="lost" quantity="1" unit="line"/>
+            </ab>   
+         </div>
+         <div type="apparatus">
+            <ab>
+               <app loc="2">
+                  <lem>aum̃ aṅśarāja</lem>
+                  <rdg resp="Schweyer">[.sa]ṅśarāja</rdg>
+               </app>
+               <app loc="2">
+                  <lem>turaiy· vijaya</lem>
+                  <rdg resp="Schweyer">turaiyvijaya</rdg>
+               </app>
+               <app loc="3">
+                  <lem>śrī jayavṛrmmadeva</lem>
+                  <rdg resp="Bergaigne Schweyer">śrī jayavarmmadeva</rdg>
+               </app>
+               <app loc="3">
+                  <lem>sarvvadvipa</lem>
+                  <rdg resp="Schweyer">sarvvadvīpa</rdg>
+               </app>
+               <app loc="3">
+                  <lem>mam̃n</lem>
+                  <rdg resp="Schweyer">man</rdg>
+               </app>
+               <app loc="4">
+                  <lem><unclear>s</unclear>arvvaliṅga</lem>
+                  <rdg resp="Schweyer">śarvvaliṅga</rdg>
+               </app>
+               <app loc="4">
+                  <lem resp="Schweyer">kaliḥ</lem>
+                  <rdg resp="Aymonier">kalin</rdg>
+                  <!-- AG: in this entire apparatus, the relationship between Schweyer's readings and those of predecessors needs to be cleared up, with consistent use of resp not only in <rdg> but also in <lem>, where appropriate. -->
+               </app>
+               <app loc="4">
+                  <lem resp="Schweyer">sā</lem>
+                  <rdg resp="Aymonier">dvā</rdg>
+               </app>
+               <app loc="4">
+                  <lem>senāpatī</lem>
+                  <rdg resp="Aymonier">senapati</rdg>
+               </app>
+               <app loc="4">
+                  <lem>mvan</lem>
+                  <rdg resp="Schweyer">mvak</rdg>
+               </app>
+               <app loc="4">
+                  <lem>rumam̃ jumvum̃ tam̃l· ril<supplied reason="lost">v</supplied>ai</lem>
+                  <rdg resp="Schweyer">urā̃ṅ jumvu[v] [...]</rdg>
+               </app>
+               <app loc="5">
+                  <lem>nī</lem>
+                  <rdg resp="Schweyer">ni</rdg>
+               </app>
+               <app loc="5">
+                  <lem>dram̃<choice><unclear>n</unclear><unclear>ṅ</unclear></choice></lem>
+                  <rdg resp="Schweyer">draṅ</rdg>
+               </app>
+               <app loc="6">
+                  <lem>raṇḍaṃ phām</lem>
+                  <rdg resp="Schweyer">raṇḍa thāṅ</rdg>
+               </app>
+               <app loc="6">
+                  <lem>kamvuja nau mak</lem>
+                  <rdg resp="Schweyer">kamvujadeśa [...]</rdg>
+               </app>
+               <app loc="7">
+                  <lem><unclear>tanaḥ</unclear> vukāṃ <pc>|</pc></lem>
+                  <rdg resp="Schweyer">[...] vukāṃ <pc>|</pc></rdg>
+                  <note>After <foreign>kamvuja</foreign>, Schweyer reads no more and notes simply [...].</note>
+               </app>
+               <app loc="10">
+                  <lem>e<supplied reason="lost">kacchatra</supplied></lem>
+                  <note>restitution of Aymonier; Schweyer has not read this part of the text.</note>
+               </app>
+            </ab>
+         </div>
+   <div type="translation" xml:lang="en">
+            <p>Hail! There was a P.P.T.R., that is to say Y.P.K. Śrī Jayaparameśvaravarmadeva oṅ Anśarāja, person of Turaiy Vijaya. In this year of the Śaka king 1112, there was a P.P.T.R. of Kamvuja called V.P. Śrī Jayavarmadeva. In order to subjugate all continents, then he went out to come and seize the Campā kingdom, destroyed all the liṅgas. The Great 'War' of thirty-one years took place. He gave a general of Kambuja <foreign>mvan</foreign> (?) [on the territory] from the North to the South. In this year of the Śaka king 1123, this P.P.T.R. went to the Holy Angkor [to] bear the name of Pu Pom̃ Pu Lyam̃, the Heir. Again, Kamvuja and Campā were drowning one another [in misfortune]... This P.P.T.R. led troops of Kamvuja [to] go and seize the land of Pagan ... Kamvuja go and seize ... unique parasol ... .</p>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <p>Salut ! Il y avait un P.P.T.R., à savoir Y.P.K. Śrī Jayaparameśvaravarmadeva oṅ Anśarāja, personne de Turaiy Vijaya. En cette année 1112 du roi des Śaka, il y avait un P.P.T.R. du Kamvuja du nom de V.P. Śrī Jayavarmadeva. Pour subjuger tous les continents, alors il sortit venir prendre le royaume du Campā, détruisit tous les liṅga. Il se passait la grande « guerre » de trente et un ans. Il donna un général du Kamvuja <foreign>mvan</foreign> (?) [sur le territoire] du Nord au Sud. En cette année 1123 du roi des Śaka, ce P.P.T.R. alla au Saint Angkor [pour] porter le nom de Pu Pom̃ Pu Lyam̃, héritier. À nouveau le Kambuja et le Campā se noyaient mutuellement [dans le malheur]... Ce P.P.T.R. conduisit les troupes du Kamvuja [pour] aller prendre la terre de Pagan ... Kamvuja aller prendre ... parasol unique... .</p>
+         </div>
+  <div type="commentary"> 
+     <!--  <p>"Campā kingdom" might mean the kingdom where this inscription is located, the Kuṭhāra.</p> -->
+     <p>Concerning the expression <foreign>rumam̃ jumvum̃ tam̃l rilvai</foreign> (i.e. '[on the territory] from the North to the South'), see <seg rend="check"><bibl><ptr target="cic-bibl:ECIC-IV"/>: <biblScope>forthcoming</biblScope></bibl></seg>.</p>
+            <p>As for the sequence <foreign>bharuv kamvuja ṅan campa raṇḍaṃ phām̃ sā</foreign>, Aymonier and Cabaton suggested it could be understood as follows: 'love (<foreign>raṇḍaṃ</foreign>) one another (<foreign>phām̃</foreign>) one (<foreign>sā</foreign>)' and proposed to translate <quote>alors le Cambodge et le Campā s'aimèrent mutuellement</quote> or <quote>s'accoutumèrent</quote>. However, they translated <foreign>raṇḍaṃ</foreign> as the verb 'to love' which in reality is <foreign>ramaṃ</foreign>. The absence of arguments in favor of their translation leads us to propose as alternative the translation above, where the term <foreign>raṇḍaṃ</foreign> is presumed to be cognate with Malay <foreign>rendam</foreign> 'to soak, to drown'.</p>
+  </div>
+         <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>131</biblScope>.</bibl>
+            </listBibl>
+            </div>
+      </body>
+   </text>
+</TEI>

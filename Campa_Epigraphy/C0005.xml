@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb from Phan Rang</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Amandine Lepoutre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0005</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>EFEO</institution>
+                  <idno xml:id="inv-general">C. 5</idno>
+                  <altIdentifier type="majumdar-nr">
+                     <idno xml:id="majumdar-nr">No. 92</idno>
+                  </altIdentifier>
+                  <altIdentifier type="museum-inventory">
+                     <settlement>Hanoi</settlement>    
+                     <repository>BTLS-QG</repository>
+                     <idno xml:id="inv-btls-qg">LSb 21168</idno>
+                  </altIdentifier>
+                  <altIdentifier type="museum-inventory-former">
+                     <settlement>Hanoi</settlement>
+                     <repository>EFEO Museum</repository>
+                     <idno xml:id="inv-efeo-hanoi">B 2, 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                  <note>twenty lines on one face</note>
+                  <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang> 
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Doorjamb</objectType>; <material>sandstone</material>; <dimensions unit="cm">
+                               <height>159</height>
+                              <width>32</width>
+                              <depth>31</depth>
+                           </dimensions>.
+                           </p>                        
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace type="location">
+                        <placeName ref="cic-geo:phan-rang">Phan Rang</placeName>
+                     </origPlace>
+                     <origDate>
+                        <date calendar="Śaka">12<hi rend="superscript">th</hi> century</date>
+                        <date calendar="Julian" notBefore="1200" notAfter="1254">13<hi rend="superscript">th</hi> century</date>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" notAfter="1888">
+                     <ab>This doorjamb was found before 1888, but was first mentioned in the literature only in <bibl><ptr target="cic-bibl:finot-1903"/>: <biblScope>646-647</biblScope></bibl>.
+                     </ab>
+                  </provenance>
+                  <provenance type="observed" notAfter="1909"> 
+                     <ab>During the first decade of the 20<hi rend="superscript">th</hi> century, it was observed at the <placeName xml:id="origin" type="modern" ref="campa-geo:phan-rang">Phan Rang</placeName> residence (<bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>79-81</biblScope></bibl>). Like the architectural elements bearing <ref target="C0003.xml">C. 3</ref>, <ref target="C0004.xml">C. 4</ref>, <ref target="C0006.xml">C. 6</ref> and <ref target="C0007.xml">C. 7</ref>, 
+                        this one was later identified as belonging to a group of vestiges, found in the rice-fields of the Catholic Mission, to which the designation <quote>sanctuaire de Svayamutpanna</quote> was applied (<bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>77</biblScope></bibl>).</ab>
+                  </provenance>
+                  <provenance type="observed" when="1910">
+                     <ab>When the inscriptions of Campā were moved from the Saigon Museum to the EFEO Museum in Hanoi in 1910, the collection was completed by other inscriptions regarded as being of outstanding importance for the history of Campā. The doorjamb bearing C. 5 was one of them (<bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>2</biblScope></bibl>).</ab>
+                  </provenance>
+                  <provenance type="observed" when="1915">
+                     <ab>Its inventory number <ptr target="#inv-efeo-hanoi"/> at the Museum was published in <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>10</biblScope></bibl>;
+                        whence, in the inventory of Campā inscriptions published in 1923, this local number was
+                        included under the entry <ptr target="#inv-general"/> (<ptr target="cic-bibl:coedes-1923"/>).</ab>
+                  </provenance>
+                  <provenance type="observed" notBefore="2009">
+                     <ab>We identified the stone in the Bảo Tàng Lịch Sử Việt Nam (National Museum of Vietnamese History) at Hanoi in 2009 and following years, as the one bearing inventory number <ptr target="#inv-btls-qg"/>. The Museum assumed the new name Bảo Tàng Lịch Sử Quốc Gia (National Museum of History) in 2011, but this did not entail a change in the inventory number.</ab>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-3">3</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-inked" facs="#fac2"> 
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-n144-jpg">n. 144</idno>
+                        </msIdentifier>
+                        </msDesc> 
+                     </surrogates>
+               </additional>
+                  </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version 
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampages</catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="20120815" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+         <change when="20120922" who="AL" xml:lang="en">corrections of the initial encoding</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0005_AG_2009.jpg">
+         <desc>Photograph, with scale, of inscription <ptr target="#inv-general"/>. Taken in the Hanoi Museum by Arlo Griffiths on <date when="20090917"></date>.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0144.jpg">
+         <desc>Photograph of EFEO estampage n. 144.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>This inscription was edited and translated into French in <bibl><ptr target="cic-bibl:finot-1903"/>: <biblScope>646-647</biblScope></bibl>; summarised in English in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>209</biblScope></bibl>, whence <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>182</biblScope></bibl>. It was also studied in <bibl><ptr target="cic-bibl:jacques-1977"/>: <biblScope>1077-1078</biblScope></bibl>. The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-IV"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>.</ab>
+         </div>        
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+            <ab>
+            <lb n="1"/> <supplied reason="lost">introductory elements</supplied> n<unclear>ī</unclear> mūla <unclear>h</unclear>u<unclear>l</unclear>u<unclear>n·</unclear> yā<unclear>m̃</unclear> <supplied reason="lost">pom̃ ku śrī</supplied>
+            <lb n="2"/> <supplied reason="lost">jaya</supplied><unclear>pa</unclear>rameśvaravarmmadeva vuḥ pak· y<supplied reason="lost">ām̃ pom̃</supplied> 
+            <lb n="3"/> <supplied reason="lost">ku sva</supplied>yamutpanna ṅan· yām̃  pom̃ ku śrī<supplied reason="lost">patī</supplied>
+            <lb break="no" n="4"/><!-- AG: the issue #86 occurs here too --><unclear>śva</unclear>ra vraḥ rūpa śvam̃l· mauk· ajīp· mauk· lau <supplied reason="lost">hu</supplied>
+            <lb break="no" n="5"/><supplied reason="lost">lu</supplied>n· śiliḥ ri viñaiḥ 8 drim̃ śvam̃l· mauk· āk·
+            <lb n="6"/> nai 4 drim̃ śvam̃l· mauk· ayam̃p· 3 drim̃ śvam̃l·
+            <lb n="7"/> mauk· rarauṅ· 7 drim̃ śvam̃l· mauk· re 7 drim̃ ja patiḥ
+            <lb n="8"/> hulun· śiliḥ ri mauk· nik· mauk· svar· ja śi
+            <lb break="no" n="9"/>rā nan· humā sā sthāna di kumvyam̃l· anan· samṛddhija
+            <lb break="no" n="10"/>ya ranok· 400 jāk· ṅan· tandom̃ laṅguv· kvi
+            <lb break="no" n="11"/>r· campa si vuḥ di hajai nan· 30 drim̃ tralāy·
+            <lb n="12"/> pirak· sā vana 'nāk· 50 thil· sanrauṅ· pira
+            <lb break="no" n="13"/>k· sā vana 'nāk· 36 thil· <pc>|||</pc> si vuḥ di y
+            <lb break="no" n="14"/>ām̃  pom̃ ku śrī jaya buddheśvara humā ra
+            <lb break="no" n="15"/>nok· di samṛddhijaya kumvyam̃l· 500 jāk· ṅa
+            <lb break="no" n="16"/>n· tandom̃ laṅguv· kvir· campa si vuḥ di hajai nan· 3
+            <lb break="no" n="17"/>0 drim̃ <pc>||</pc> pom̃ yām̃ pu yuvarāja am̃ nandabha
+            <lb break="no" n="18"/><supplied reason="lost">d</supplied><unclear>ra</unclear> urām̃ turaiy· vijaya vuḥ tralām̃ pirak·
+            <lb n="19"/> sā vana 'nāk· 50 thil· sanraum̃  pirak· sā va
+            <lb break="no" n="20"/>na 'nāk· 30 thil·
+            </ab> 
+         </div>
+         <div type="apparatus">
+            <ab>
+               <app loc="1">
+                  <lem>n<unclear>ī</unclear> mūla <unclear>h</unclear>u<unclear>l</unclear>u <unclear>n·</unclear></lem>
+                  <rdg resp="Finot">...n mūla...</rdg>
+                  <note>The author adds a footnote indicating that <quote>il y avait deux <foreign>u</foreign> dans le mot qui suivait <foreign>mūla</foreign> : pb. <foreign>hulun</foreign></quote></note>
+               </app>
+               <app loc="1-2">
+                  <lem>yām̃ <supplied reason="lost">pom̃ ku śrī jaya</supplied><unclear>pa</unclear>rameśvaravarmmadeva</lem>
+                  <rdg resp="Finot"><unclear>yāṅ po ku</unclear> <supplied reason="lost">śrī</supplied> parameśvaravarmmadeva</rdg>
+               </app>
+               <app loc="3-4">
+                  <lem>śrī<supplied reason="lost">patī</supplied><unclear>śva</unclear>ra</lem>
+                  <rdg resp="Finot">śrī...ra</rdg>
+                  <note><bibl><ptr target="cic-bibl:jacques-1977"/>: <biblScope>1077, note 7</biblScope></bibl> suggested that the name of the latter god, which only the final part (°<foreign>śvara</foreign>) is readable, could be Saratīśvara. This hypothesis was based on the reading of the inscription C. 3 by <bibl><ptr target="cic-bibl:jacques-1976"/>: <biblScope>989</biblScope></bibl> 
+                     where the same name is associated whith that of Svayamutpanna. But according to the rereading of the inscription <ref target="C0003.xml">C. 3</ref>. 2, Śrīpatīśvara seems to be a better reading than Saratīśvara.This is the name we reuse in this inscription.</note>
+                  </app>
+                  <app loc="4-5">
+                     <lem><supplied reason="lost">hulu</supplied>n· śiliḥ</lem> 
+                  <note>the restitution, already proposed by Finot, is based on l. 8. At the end of the l. 4, the reading of a part of a subscript sign, which is most likely a <foreign>u</foreign>, shows there is no <foreign>akṣara</foreign> between <foreign>lau</foreign> and <foreign>hulun</foreign>.</note>
+               </app>
+               <app loc="5">
+                  <lem>viñaiḥ</lem> 
+                  <rdg resp="Finot">ci ñaiḥ</rdg>
+               </app>
+               <app loc="5">
+                  <lem>8</lem> 
+                  <rdg resp="Finot">9</rdg>
+               </app>
+               <app loc="5">
+                  <lem>āk</lem> 
+                  <rdg resp="Finot">ak</rdg>
+               </app>
+               <app loc="7">
+                  <lem>7</lem> 
+                  <rdg resp="Finot">8</rdg>
+               </app>
+               <app loc="7">
+                  <lem>7</lem> 
+                  <rdg resp="Finot">8</rdg>
+               </app>
+               <app loc="9">
+                  <lem>sā</lem> 
+                  <note>the shape of this <foreign>ā</foreign> is rare: instead of the usual vertical line attached to consonant, here it is engraved above the consonant and has a curving shape. It seems to have been added after the text was initially engraved.</note>
+               </app>
+               <app loc="13-14">
+                  <lem>yām̃</lem> 
+                  <note>the disconnection between the two elements of the basic sign <foreign>yā</foreign> is rare: the first element is at the end of the l. 13 and the second one, composed of a vertical line, an <foreign>anusvāra-candra</foreign> and the vocalization, is at the beginning of the l. 14.</note>
+               </app>
+               <app loc="14">
+                  <lem>jaya buddheśvara</lem> 
+                  <rdg resp="Finot">jaya . ārtheśvara</rdg>
+                  <rdg resp="Jacques">jaya – ddheśvara</rdg>
+               </app>
+               <app loc="15">
+                  <lem>kvir·</lem> 
+                  <rdg resp="Finot">kvīr</rdg>
+               </app>
+               <app loc="17-18">
+                  <lem>nandabha<supplied reason="lost">d</supplied><unclear>ra</unclear></lem> 
+                  <note>this restitution was already proposed by Finot.</note>
+               </app>
+               <app loc="18">
+                  <lem>tralām̃</lem> 
+                  <rdg resp="Finot">kalāṅ</rdg>
+               </app>
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>This is the capital of servants [that] Y.P.K. Śrī Jayaparameśvaravarman gives to Y.P.K. Svayamutpanna and Y.K.P. Śrīpatīśvara [under their] holy appearances.</p> 
+            <p>Family of <foreign>mauk</foreign> Ajīp [and] of <foreign>mauk</foreign> Lau: servants are exchanged for [those of] Viñaiḩ: 8 persons; family of <foreign>mauk</foreign> Āk: 4 persons; family of <foreign>mauk</foreign> Ayam̃p: 3 persons; family of <foreign>mauk</foreign> Rarauṅ: 7 persons; family of <foreign>mauk</foreign> Re: 7 persons; <foreign>ja</foreign> Patiḥ the servant is exchanged for these [persons]: <foreign>mauk</foreign> Nik, <foreign>mauk</foreign> Svar, <foreign>ja</foreign> Śirā;</p>
+            <p>rice-field: one unit at Kumvyam̃l. In this place of great abundance (called) Ranok: 400 <foreign>jāk</foreign> with <foreign>tandom̃ laṅguv</foreign>. Khmer [and] Cam [people] who are given to this domain: 30 persons;</p>
+            <p>a silver <foreign>tralāy</foreign> weighing 50 <foreign>thil</foreign>; a silver <foreign>sanrauṅ</foreign> weighing 36 <foreign>thil</foreign>.</p>
+            <p>What is given to Y.P.K. Śrī Jaya Buddheśvara: the Ranok ricefield, of great abundance, at Kumvyam̃l: 500 <foreign>jāk</foreign> with <foreign>tandom̃ laṅguv</foreign>. Khmer [and] Cam [peolpe] who are given to this domain: 30 persons.</p>
+            <p>The P.Y.P. heir Aṅ Nandabhadra, person of Turaiy Vijaya, gives: a silver <foreign>tralām̃</foreign> weighing 50 <foreign>thil</foreign>; a silver <foreign>sanrauṅ</foreign> weighing 30 <foreign>thil</foreign>.</p>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <p>Ceci est le capital des serviteurs [que] Y.P.K. Śrī Jayaparameśvaravarman donne à Y.P.K. Svayamutpanna et à Y.K.P. Śrīpatīśvara [sous leur] sainte apparence.</p> 
+            <p>Famille de <foreign>mauk</foreign> Ajīp [et] de <foreign>mauk</foreign> Lau : les serviteurs sont échangés contre [ceux de] Viñaiḩ : 8 personnes ; famille de <foreign>mauk</foreign> Āk : 4 personnes ; famille de <foreign>mauk</foreign> Ayam̃p : 3 personnes ; famille de <foreign>mauk</foreign> Rarauṅ : 7 personnes : famille de <foreign>mauk</foreign> Re : 7 personnes ; <foreign>ja</foreign> Patiḥ le serviteur est échangé contre ces [personnes-ci] : <foreign>mauk</foreign> Nik, <foreign>mauk</foreign> Svar, <foreign>ja</foreign> Śirā ;</p>
+            <p>rizière : un emplacement à Kumvyam̃l. En ce lieu de grande abondance (nommé) Ranok : 400 <foreign>jāk</foreign> avec <foreign>tandom̃ laṅguv</foreign>. Des Khmers [et] des Cams qui sont donnés à ce domaine : 30 personnes ;</p>
+            <p>Un <foreign>tralāy</foreign> d'argent pesant 50 <foreign>thil</foreign> ; un <foreign>sanrauṅ</foreign> d'argent pesant 36 <foreign>thil</foreign>.</p>
+            <p>Ce qui est donné au Y.P.K. Śrī Jaya Buddheśvara : la rizière Ranok, de grande abondance, à Kumvyam̃l : 500 <foreign>jāk</foreign> avec <foreign>tandom̃ laṅguv</foreign>. Des Khmers [et] des Cams qui sont donnés à ce domaine : 30 personnes.</p>
+            <p>Le P.Y.P. héritier Aṅ Nandabhadra, personne de Turaiy Viajaya, donne : un <foreign>tralām̃</foreign> d'argent pesant 50 <foreign>thil</foreign> ; un <foreign>sanrauṅ</foreign> d'argent pesant 30 <foreign>thil</foreign>.</p>
+         </div>
+<!-- AL: <div type="commentary">
+            <p>Following <bibl><ptr target="cic-bibl:AC-1906"/></bibl>, <foreign>śvam̃l</foreign> (also found in <ref target="C0007.xml">C. 7</ref>) is a wrong reading for <foreign>khvam̃l</foreign>. The latter term is defined as a name or a designation meaning "family". <bibl><ptr target="cic-bibl:finot-1903"/>: <biblScope>647</biblScope></bibl> referred to <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>59</biblScope></bibl> who translated <foreign>śvam̃l</foreign> "child". <bibl><ptr target="cic-bibl:jacques-1977"/>: <biblScope>1077-1078</biblScope></bibl> gathered these information and suggested that the term <foreign>śvam̃l</foreign> could be a doublet rather than a wrong reading.</p>
+            <p>Jacques says that one can find the word <foreign>mauk</foreign> elsewhere, in <ref target="C0006.xml">C. 6</ref> and <ref target="C0007.xml">C. 7</ref> and that this undoubtedly seems to indicate a certain category of persons, like <foreign>gho</foreign> or <foreign>si</foreign> in Khmer inscriptions (see <bibl><ptr target="cic-bibl:jacques-1977"/>: <biblScope>1078</biblScope></bibl>).</p>
+            <p>Concerning the word <foreign>re</foreign>, see the note in <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>474</biblScope></bibl> and <ref target="C0221.xml">C. 221</ref>.</p>
+            <p>About <foreign>tandom̃ laṅguv</foreign> (also occurred in <ref target="C0007.xml">C. 7</ref>), see the discussion in <bibl><ptr target="cic-bibl:ECIC-IV"/>: <check><biblScope>forthcoming</biblScope></check></bibl>.</p>
+            <p>The domain mentionned in this inscription must be the one of the gods. These persons are given to lands which are intended for worship of the gods.</p>
+            <p>The word <foreign>tralāy</foreign>/<foreign>tralam̃</foreign> (as -<foreign>ām̃</foreign> and -<foreign>āy</foreign> are the same) is also mentionned in <ref target="C0006.xml">C. 6</ref>, l. 4. It designates a cult instrument but we can not define this object further.</p>
+            <p>The term <foreign>vana 'nak</foreign> (also read in <ref target="C0006.xml">C. 6</ref>) is repertoried in <bibl><ptr target="cic-bibl:AC-1906"/></bibl>. In the same dictionary, the word <foreign>āk</foreign> (a wrong reading for <foreign>'nāk</foreign>) is said to be from the word <foreign>anāk</foreign> and means "heavy, weighing". Indeed, the term <foreign>vana 'nāk</foreign> always comes before the weight of an object and the object (qualified with the name of the metal it is made of and quantified) is always placed in front of the term <foreign>vana 'nāk</foreign> (see ll. 11-12, 12-13, 18-19, 19-20 of this inscription; <ref target="C0006.xml">C. 6</ref>, l. 2; <ref target="C0030A1.xml">C. 30 A1</ref>, ll. 16, 17, 18, 19, 20-21, 22; <ref target="C0031A1.xml">C. 31 A1</ref>, ll. 11-12, 13; <ref target="C0031B.xml">C. 31 B</ref>, ll. 2-3, 4, 5, 6 and <ref target="C0092.xml">C. 92</ref>, l. 11). 
+               The information is always presented in the same way: object + metal + quantity + <foreign>vana 'nāk</foreign> + weight + unit of weight. The translation of Aymonier and Cabaton ("heavy, weighing") does not fit with <foreign>'nāk</foreign> but with <foreign>vana 'nāk</foreign>.</p>
+            <p>The word <foreign>sanrauṅ</foreign>/<foreign>sanraum̃</foreign> designates a cult instrument but we can not define it further.</p>
+         </div> -->
+         <div type="bibliography" subtype="secondary">
+         <listBibl>
+            <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>79-81</biblScope>.</bibl>
+            <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>2 and 9-10</biblScope>.</bibl>
+            <bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>77</biblScope>.</bibl>
+         </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stela from Mỹ Sơn B6</title>
+                <editor>Arlo Griffiths</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0087</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 87</idno>
+                        <altIdentifier type="majumdar-nr">
+                            <idno xml:id="majumdar-nr">No. <seg type="check">???</seg></idno>
+                        </altIdentifier>
+                        <altIdentifier type="museum-inventory">
+                            <settlement>Đà Nẵng</settlement>    
+                            <repository>BTC</repository>
+                            <idno xml:id="inv-ĐN">04.1/2</idno>
+                        </altIdentifier>
+                        <altIdentifier type="museum-inventory-former">
+                            <settlement>Đà Nẵng</settlement>
+                            <repository>Musée Parmentier</repository>
+                            <idno xml:id="inv-musee-parmentier">1,1</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>The stela is engraved on two faces. Face A bears an incipit and 12 lines; face B bears 11 lines. Both faces are </note> 
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                            <note>It should be noted that the last 7 lines of face B are executed in a significantly smaller lettering.</note>
+                        </msItem> 
+                        <!-- AG: Tom, let's see how this comes out. -->
+                        <!-- <msItem n="A">
+                            <locus target="#A"/>
+                            <note>Invocation + 12 lines</note>
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem>
+                        <msItem n="B">
+                            <locus target="#B"/>
+                            <note>11 lines</note>
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem> -->
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Slender <objectType>stela</objectType> with accolade-shaped top; <material>sandstone</material>; <dimensions unit="cm">
+                                        <height>87</height>
+                                        <width>55</width>
+                                        <depth>18</depth>
+                        </dimensions>.
+                        </p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName type="modern" ref="cic-geo:my-son">Mỹ Sơn</placeName>
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">2 waxing Śuci (i.e. Jyeṣṭha), 609</date>
+                                <date calendar="Julian" when="0687-05-19">19 May 687</date>
+                                <note>The difference of script-size has suggested to <bibl><ptr target="cic-bibl:finot-1904d"/>: <biblScope>925</biblScope></bibl> that the last 7 lines of face B might be a later addition.</note>
+                                <!-- AG: let's see how this comes out... -->
+                            </origDate>
+                        </origin>
+                        <provenance type="found" when="1903">
+                            <ab>This stela was found near the western side of monument B6 at Mỹ Sơn in 1903 during excavations carried out by EFEO (<bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>381</biblScope></bibl> and <bibl><ptr target="cic-bibl:parmentier-1919"/>: <biblScope>11</biblScope></bibl>). An archaeological photograph taken in September 1903 (<bibl><ptr target="cic-bibl:ghesquiere-2005"/>: <biblScope>56</biblScope></bibl>) shows this stela standing next to this monument, side by side with the stela bearing <ref target="C0081.xml">C. 81</ref>, which had been found near B1. In the case of the present stela, the findspot is likely its original location, for the base was found right beside the stela itself.</ab> 
+                        </provenance>
+                        <provenance type="observed" when="1918">
+                            <ab>The two stelae (this one with its base) were moved to the Tourane Museum in 1918, and its inventory number <ptr target="#inv-musee-parmentier"/> there was published in <bibl><ptr
+                                target="cic-bibl:parmentier-1919"/>: <biblScope>11</biblScope></bibl>.
+                            </ab>
+                        </provenance>
+                       <provenance type="observed" notBefore="2009">
+                           <ab>We identified the inscription at the same museum, now called Bảo tàng Điêu khắc Chăm Đà Nẵng (Museum of Cham Sculpture at Đà Nẵng) in 2009.</ab>     
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>                       
+                            <msDesc n="estampage-uninked">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-328">328</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-inked" facs="#fac2-3">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n164.jpg">n. 164</idno>
+                                    <!-- illustrated by Schweyer (2005: 40, fig. 2 and 2008b: 13-14). -->
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="20121005" who="AG" xml:lang="en">initial encoding in EpiDoc</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0087_AG_2009.jpg">
+            <desc>Front view of the stela bearing inscription <ptr target="#inv-general"/>. Taken at the Museum of Cham Sculpture by Arlo Griffiths on <date when="20090920"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0164_A.jpg">
+            <desc>Photograph of EFEO estampage n. 164, face A.</desc>
+        </graphic>
+        <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n0164_B.jpg">
+            <desc>Photograph of EFEO estampage n. 164, face B.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <ab>First published, with French translation, in <bibl><ptr target="cic-bibl:finot-1904d"/>: <biblScope>925-928</biblScope>;</bibl> whence, with English translation, in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>28-31</biblScope></bibl>; whence <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>21-23</biblScope>.</bibl> Newly edited in <bibl><ptr target="cic-bibl:CatDaNang"/>: <biblScope>229-233</biblScope></bibl>, whence the present edition.</ab></div>
+            <div type="edition" xml:lang="sa-Latn-x-CI" xml:space="preserve">
+                <div type="textpart" xml:id="A" n="A" rend="break-verse-lines">
+                    <head xml:lang="en">Face A.</head>
+                        <ab type="invocation"><g type="siddham"/> <pc>||</pc> oṃ namaś śivāya <g type="siddham"/> <lb n="1"/> <pc type="spiral">☉</pc> svasti</ab>
+                  <lg met="Indravajrā" n="I">
+               <l>yaṃ sarvvadevās s<unclear>a</unclear>sureśamukhyā</l>
+               <l>dhyāyanti tattattvavidaś ca santaḥ</l>
+               <l><lb n="2"/> svasthaḥ suśuddhaḥ paramo vareṇya</l>
+               <l>īśānanāthas sa jayaty ajasram· <pc>||</pc></l>
+                  </lg>
+             <lg met="Gīti" n="II">
+               <l><lb n="3"/>smṛtir api yasya sakṛd api praṇipatitān tārayaty apāyebhyaḥ</l>
+               <l><lb n="4"/>sa śrībhadreśo stu prajāhitārtthaṃ tathā prabhāseśaḥ <pc>||</pc></l>
+                 </lg>
+	 <lg met="Āryā" n="III">
+               <l><lb n="5"/>ānandāmvaraṣaṭśataniyamitaśakabhūbhujāṅ gate samaye</l>
+               <l><lb n="6"/>śuciśukladvetadinaprapannasupunarvasuvyaste <pc>||</pc></l>
+	     </lg>
+         <lg met="Āryā" n="IV">
+               <l><lb n="7"/>siṅhaniviṣṭasuragurau vṛṣabhopagatārkkabhaumasomasute</l>
+               <l><lb n="8"/>saurādhyāsitataule meṣāyātāsurendragurau <pc>||</pc></l>
+             </lg>
+         <lg met="Āryā" n="V">
+               <l><lb n="9"/>upacayakṛdravivāre yugmāyātopakāricandramasi</l>
+               <l><lb n="10"/>viśvamuhūrttāpannāṃ trayodaśīṃ nālikām abhitaḥ <pc>||</pc></l>
+             </lg>
+         <lg met="Āryā" n="VI">
+               <l><lb n="11"/>īśāneśvarakośaṃ saṃsthāpya yathāvidhi svabhaktivaśāt·</l>
+               <l><lb n="12"/><unclear>śrīmān prakāśadharmmā</unclear> mukuṭam bhadreśvarāyādāt· ||</l>
+         </lg>
+                </div>
+        <div type="textpart" xml:id="B" n="B" rend="break-verse-lines">
+                    <head xml:lang="en">Face B.</head>
+         <lg met="Āryā" n="VII">
+               <l><lb n="1"/>kośamukuṭobhayaṃ tat·kīrttistambhadvayopameyam iva</l>
+               <l><lb n="2"/>yāvac candrādityau tāvad idaṃ susthitaṃ jagati <pc>||</pc></l>
+        </lg>
+        <lg met="Āryā" n="VIII">
+               <l><lb n="3"/>iti yasya kīrttir itthaṃ saṃbhūtā labdhabhūmikā sthāne</l>
+               <l><lb n="4"/>sa śrīprakāsadharmmā campākṣoṇīśvaro jayati <pc>||</pc></l>
+        </lg>
+           <p><lb n="5"/>api ca</p>
+         <lg met="Śārdūlavikrīḍita" n="IX">
+               <l>sūryye sminn udayaṅgate himakaro yāty astam indūdaye</l>
+               <l>tasmiṃś cāstamito raviḥ <lb n="6"/> punar iti prāyeṇa lokasthitiḥ</l>
+               <l>īśāneśvarakośanirmmalaśaśī bhadreśamaulyaṅśumām̐<lb n="7" break="no"/>s</l>
+               <l>tāv e<unclear>vodayasaṃ</unclear>ditau vihitavān vikrāntavarmmā nṛpaḥ <pc><unclear>||</unclear></pc></l>
+        </lg>
+        <lg met="Sragdharā" n="X">
+            <l>acchedy<orig>a</orig>bhedya ādyaḥ <lb n="8"/> kṣatam iha sakalan nāśayann āśritānām</l>
+            <l>īśāno yat kṣatāṅgas svayam ayam avadat· <lb n="9"/> sadbhir ākhyeyam etat·</l>
+            <l>īśānasyāṣṭamūrttiḥ kṣatam abhilaṣitam̐ rūpyakośendunādo </l>
+            <l><lb n="10"/>rājā vikrāntavarmmā jayati bahumataś chādayitvaiva nānyeḥ ||</l>
+        </lg>
+             <lg met="Āryā" n="XI">
+               <l>śrīśānarūpyabhedī <lb n="11"/> prakāśadharmmāvanīndrakīrttir it<unclear>i</unclear></l>
+               <l> <gap reason="illegible" extent="9-11" unit="character"/> bhāti savid<unclear>y</unclear><supplied reason="lost">u</supplied>d iva ra<unclear>vyadr</unclear>iḥ <pc>||</pc></l>
+</lg>
+        </div>
+                </div>
+            <div type="apparatus">
+                <ab>
+                    <app loc="incipit">
+                        <lem><g type="siddham"/> <pc>||</pc> oṃ namaś śivāya <g type="siddham"/> </lem>
+                        <note>Finot omits all liminal signs and <foreign>oṃ</foreign>. The words <foreign><g type="siddham"/></foreign> are expressed figuratively. On this figure, and on the form of the double <foreign>daṇḍa</foreign>, cf. <bibl><ptr target="cic-bibl:ECIC-I"/>, p. <biblScope>352 n. 10</biblScope> and p. <biblScope>361 n. 28</biblScope></bibl>, as well as <bibl><ptr target="cic-bibl:ECIC-II"/>, p. <biblScope>279</biblScope></bibl>.</note>
+                    </app>
+                    <app loc="incipit">
+                        <lem><pc type="spiral">☉</pc> svasti</lem>
+                        <note>Finot omits the spiral-shaped fleuron and inserts after <foreign>svasti</foreign> the sign <pc>||</pc> which is not actually there.</note> </app> 
+                    <app loc="I">
+                        <lem>s<unclear>a</unclear>sureśamukhyā</lem>
+                        <note>the reading with short <foreign>a</foreign> in <foreign>sa</foreign> is uncertain. Judging only by the estampage, one might be inclined to read <foreign>sā</foreign>, but this would be unmetrical. See the note to our translation.</note>
+                    </app> 
+                    <app loc="II">
+                        <lem>sa śrībhadreśo</lem>
+                        <rdg resp="Finot">so śrībhadreśvaro</rdg>
+                    </app> 
+                    <app loc="II">
+                        <lem>prajāhitārtthaṃ</lem>
+                        <rdg resp="Finot">prajāhitārthaṃ</rdg>
+                   </app> 
+                    <app loc="II">
+                        <lem>tathā</lem>
+                        <note>Finot notes <quote>Tathā serait à supprimer <foreign>metri causā ;</foreign> mais il paraît utile pour le sens</quote>. This statement is based on a misidentification of the stanza as an Āryā.</note>
+                    </app> <app loc="III">
+                        <lem>°dveta°</lem>
+                        <rdg resp="Finot">°dvaita°</rdg>
+                        <note>Understand °<foreign>dvaita</foreign>°. Cf. another case of <foreign>e</foreign> for <foreign>ai</foreign> in st. X below, where the sequence <foreign>chādayitvaiva nānyeḥ</foreign> allows comparing the shapes of <foreign>e</foreign> and <foreign>ai</foreign>.</note>
+                    </app> <app loc="VI">
+                        <lem><unclear>śrīmān prakāśadharmmā</unclear></lem>
+                        <rdg resp="Finot">[śrīmān prakāśadharmmo]</rdg>
+                        <note>Finot explains: <quote>Lecture restituée d'après de simples traces de lettres</quote>. The ending <foreign>-o</foreign> in Finot's restitution is based on the wrong understanding, widespread even into recent literature, that the king's name was Prakāśadharma, rather than Prakāśadharman.</note>
+                        </app>
+                    <app loc="VII">
+                        <lem>tat·kīrttistambha°</lem>
+                        <rdg resp="Finot">tat kīrttistambha°</rdg>
+                        <note>It seems better to make <foreign>tat</foreign> the first member of a compound.</note>
+                    </app> 
+                    <app loc="between VIII and IX">
+                        <lem>api ca</lem>
+                        <rdg resp="Finot">athaiva</rdg>
+                    </app> 
+                     <app loc="IX">
+                         <lem>tasmiṃś cāstam°</lem>
+                         <rdg resp="Finot">tasmiṃśāstam°</rdg>
+                         <note>This printing error was corrected in BEFEO 15.2, p. 190<!-- AG: Tom, here we are again with issue #93. It would be nice to make BEFEO clickable -->. The stone clearly shows <foreign>ścā</foreign>.</note>
+                     </app> 
+                    <app loc="IX">
+                        <lem>aṅśumām̐s</lem>
+                        <rdg resp="Finot">aṃśumāṃs</rdg>
+                    </app> 
+                    <app loc="IX">
+                        <lem>tāv e<unclear>vodayasaṃ</unclear>ditau vi°</lem>
+                        <rdg resp="Finot">tāv e ⎼ ⏑ ⏑ ⎼ ⏑ tābhi°</rdg>
+                         <note>The proposed restoration is largely conjectural, but what remains visible on the stone allows it (and does not allow a reading °<foreign>hitau</foreign>).</note>
+                    </app> 
+                    <app loc="X">
+                        <lem>acchedy<orig>a</orig>°</lem>
+                        <rdg resp="Finot">acchedyā°</rdg>
+                        <note>Finot's reading is required for sense and meter, but the inscription actually shows <foreign>acchedya</foreign>. No difference is discernible from the two cases of <foreign>dya</foreign> that immediately follow. That the scribe was not infallible is clear also elsewhere in this stanza.</note>
+                    </app> 
+                    <app loc="X">
+                        <lem resp="Finot">°mūrttiḥ</lem>
+                        <note>correct °<foreign>mūrtteḥ</foreign>. The correction was proposed to us by Yuko Yokochi.</note>
+                    </app> 
+                    <app loc="X">
+                        <lem>abhilaṣitam̐</lem>
+                        <rdg resp="Finot">abhilaṣitaṃ</rdg>
+                    </app> 
+                    <app loc="X">
+                        <lem>nānyeḥ <pc>|</pc></lem>
+                        <rdg resp="Finot">nānyaṃ</rdg>
+                        <note>Correct <foreign>nānyaiḥ <pc>|</pc></foreign>.</note>
+                    </app> 
+                    <app loc="XI">
+                        <lem>°bhedī</lem>
+                        <rdg resp="Finot">°bhede</rdg>
+                    </app> 
+                    <app loc="XI">
+                      <note>Finot was unable to read anything of this stanza beyond <foreign>prakāśadharmmāvanīndra</foreign>. The reading <foreign>bhāti savid<unclear>y</unclear><supplied reason="lost">u</supplied>d iva ra<unclear>vyadr</unclear>iḥ</foreign> is rather uncertain as a whole, but is the only reading reading we have been able to think of that suits the meter and seems permissible judging by the estampage.</note>
+                    </app>
+                </ab>   
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>Success! Om! Reverence to Śiva! Success! Hail!</p> 
+                   <p> I. Him upon whom all the gods, together with Sureśa (Indra) at their head,<note>The construction <foreign>sasureśamukhya-</foreign> seems redundant. One could easily read here <foreign>sāsureśamukhya-</foreign>, which would arguably yield a better sense ('together with the best of demons'), but would be unmetrical.</note>  as well as all good people who know His nature, meditate; independent, very pure, ultimate, sublime; He, Īśānanātha, triumphs always! </p>
+                <p>II. May that Śrī Bhadreśa, and Prabhāseśa too, even a thought of Whom, even once, saves those who are prostrated from evils, be for the good of the people!<note>On the divine triad Īśānesvara, Bhadreśvara and Prabhāseśvara, see <ref target="C0096.xml">C. 96</ref> B, l. 24-25.</note></p>
+                <p> III. When the era of the Śaka kings, denoted by six hundred, the (void) ether [0] and [9] Ānandas<note>Golzio translates <quote>some Nandas</quote> and notes that his <quote>translation is based mainly on two facts: 1. There is no word <foreign>ānanda</foreign> as a numerical symbol; 2. For the calculation of the complete date (see next footnote) only one solution can be evaluated as valid, the reading of Śaka 609.</quote> Golzio might have referred to the corrigendum published in BEFEO 15.2, p. 190: <quote>traduction, st. III, lire : « en l’an des rois çakas déterminé par six cents, l'atmosphère et les Nandas (609) ». [Correction de M. Fleet.] Supprimer la note.</quote> This does not explain what to do with the <foreign>ā</foreign>-, but since the value 9 is well attested for <foreign>nanda</foreign>, and since this word is in its primary sense synonymous and almost identical in shape to <foreign>ānanda</foreign>, the hypothesis of their equivalence seems natural enough.</note>  had elapsed, and had reached the second day of the waxing [fortnight] of Śuci (i.e. Jyeṣṭha),<note>On the name of the month, see <bibl><ptr target="cic-bibl:ECIC-I"/>: 367</bibl>.</note>  well extended over the good (lunar mansion) Punarvasū, </p>
+                    <p>IV. when Jupiter had entered Leo; when the Sun, Mars and Mercury were in Taurus; when Libra had been occupied by Saturn; when Venus had arrived in Aries, </p>
+                <p> V. on the day of the prosperity-promoting Sun (i.e. on Sunday), when the favorable Moon<note>The fact that, unusually, both Sun and Moon receive here special positive attributes probably has to be seen in connection with the special attention allotted to these two heavenly bodies also further on in this inscription (st. VII, IX, XI).</note> had arrived in Gemini, around the thirteenth <foreign>nālikā</foreign> (unit of time) falling in the <foreign>muhūrta</foreign> (watch) of the Viśva[vasu]s,</p>
+                   <p> VI. after having installed, with due rites, at the urge of his own devotion, a sheath for Īśānesvara, the illustrious Prakāśadharman gave a crown to Bhadreśvara. </p>
+                <p> VII. May this pair of sheath and crown, as it were a likeness<note>The combination of <foreign>upameyam</foreign> with <foreign>iva</foreign> seems redundant.</note> of two pillars of his fame, abide on earth as long as Sun and Moon (shall last).</p>
+                    <p>VIII. So triumphs he, Śrī Prakāśadharman, king of Campā, whose fame, originating in this manner, has fittingly taken root! </p>
+                    <p>And also: </p>
+                    <p>IX. When this Sun here rises, the Moon sets; and when that Moon rises, the Sun sets: this is normally the situation in the world. But the king Vikrāntavarman has installed both of them — the spotless Moon which is the sheath of Īśānesvara, and the Sun which is the crown of Bhadreśvara — bound together in their ascendancy.</p>
+                <p>X. Īśāna here, who cannot be cut, who cannot be split, who is primordial, who heals the misery (<foreign>kṣata</foreign>) of all his followers here below, himself, with his body damaged, pronounced this, which is to be proclaimed by the competent: the king Vikrāntavarman, having covered that damaged [<foreign>liṅga</foreign>], which is specially desired by Īśāna, (although he) has eight manifestations<note>On the eight manifestations of Śiva (which are different from the eight names listed by A.-V. Schweyer in <bibl><ptr target="cic-bibl:baptiste-zephir-2005"/>: 181</bibl>), see <bibl><ptr target="cic-bibl:ECIC-I"/>: 368</bibl>.</note> (in which he already resides), with the Moon which is the silver sheath, and with nothing else, triumphs, respected by many! </p>
+                <p>XI. … shines, breaking forth from Īśāna's silver sheath (which emits white rays of light), like the mountain of sunrise being shrouded by lightning. [The white light] is the fame of the king Prakāśadharman!<note>There is probably a pun here on the name Prakāśadharman, which contains the word <foreign>prakāśa</foreign> meaning 'radiance'. But the lacuna in the text prevents us from understanding the exact significance of the poet's choice of words here. As it stands, our translation is based on the assumption that the image of the comparison lies in the sun, comparable to the <foreign>liṅga</foreign>'s crown, being on top of the mountain (comp. to the <foreign>liṅga</foreign>), surrounded by lightning (comp. to the silver sheath or its rays of white light). Fame is usually regarded as white in Sanskrit poetry, so that it should be compared to the rays of the silver sheath, not to the light of the golden crown. The lacuna would, we suppose, have contained an expression for Śiva with his golden crown. The Śiva in the <foreign>liṅga</foreign> is of course invisible to the common eye but can be visualized by meditation.</note></p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p><seg type="check">TO BE SUPPLIED</seg></p>
+            </div> 
+            <!-- <div type="commentary">
+                <p></p>
+            </div>
+            -->
+            <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <bibl><ptr target="cic-bibl:schweyer-2005b"/>: 40, fig. 2.</bibl>
+                    <bibl>Schweyer in <ptr target="cic-bibl:baptiste-zephir-2005"/>: 180-182.</bibl>
+                    <bibl><ptr target="cic-bibl:schweyer-2008b"/>: 13-14.</bibl>
+                </listBibl>
+                </div>
+        </body>
+    </text>
+</TEI>

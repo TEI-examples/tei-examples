@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rāmāyaṇa Relief presumably from Quảng Nam</title>
+                <editor>Arlo Griffiths</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0152</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 152</idno>
+                        <altIdentifier type="cancelled">
+                            <institution>EFEO</institution>
+                            <idno>C. 166</idno>
+                        </altIdentifier>
+                        <altIdentifier type="museum-inventory">
+                            <settlement>Đà Nẵng</settlement>    
+                            <repository>BTC</repository>
+                            <idno xml:id="inv-btc">BTC 86</idno>
+                        </altIdentifier>
+                        <altIdentifier type="museum-inventory-former">
+                            <settlement>Đà Nẵng</settlement>
+                            <repository>Musée Parmentier</repository>
+                            <idno xml:id="inv-musee-parmentier">45,2</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>One line on two faces of a bas-relief, probably</note>
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Bas-relief</objectType>; <material>sandstone</material>; we have not recorded dimensions, but according to <bibl><ptr target="cic-bibl:parmentier-1919"/>: <biblScope>102-103</biblScope></bibl> the bas-relief measures maximally
+                                         <dimensions unit="cm">
+                                            <height>60</height>
+                                            <width>75</width>
+                                             <depth>38</depth>
+                                            </dimensions>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">Unknown.</origPlace>
+                            <origDate>
+                                <date calendar="Śaka">9th or 10th century</date>
+                                <date calendar="Julian">between 9th and 11th century</date>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1899">
+                            <!-- AG: I think in this section, you could follow more literally the model of the DN Catalog. -->
+                            <ab>It was suggested that it may be from Dương Long tower (falling under the Vân Tương village, Bình Định province),<!-- AG: if this is retained (contrary to the example in DN Catalog), then a separate geogr. entry could be made for <place type="temple">Dương Long</place> in the geogr. file, and this placeName could be marked up here in the usual way. --> where M.<!-- AG: presumably you mean "Mr.". I would provide some attribute like "the administrator Charles Lemire". See our catalog, p. 179. --> Lemire moved various fragments and where a scene of monkeys and men is found on the South false door of the South tower (<bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>572 and 192</biblScope></bibl>). But information provided in <bibl><ptr target="cic-bibl:parmentier-1919"/>: <biblScope>103</biblScope></bibl> made this hypothesis untenable. 
+                                It is more likely that it originates in Quảng Nam province. The relief-block on which is the inscription entered the collection of the 'Cam Garden' in Tourane before 1899 and was moved in 1900 to Saigon. In 1918, it was transported back to Tourane, where it became part of the collection of the Cham Museum (<bibl><ptr target="cic-bibl:parmentier-1919"/>: <biblScope>103</biblScope></bibl>).
+                                 This inscription is mentioned in <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>570-572</biblScope></bibl>. It is presented with emphasis<!-- AG: what do you mean by "with emphasis"? --> on the bas-relief while Parmentier merely states that <quote>La bande supérieure du cadre qui enferme ces deux fragments de scène porte quelques mots gravés, frustres.</quote></ab>
+                        </provenance>
+                        <provenance type="observed" when="1923">
+                            <ab>It was recorded in (<bibl><ptr target="cic-bibl:coedes-1923"/>: <biblScope>96-97</biblScope></bibl>).<!-- AG: use the short-name --> Cœdès respectively described C. 152 and C. 166 as <quote>inscription sur un bas-relief</quote> and <quote>quelques mots frustes sur un bas-relief.</quote>
+                                Both of these entries refer to the same object classified as <ptr target="#inv-musee-parmentier"/>. From the way these two entries were later tabulated by Cœdès in his table of concordance between the inscription inventory numbers and the inventory numbers of the Tourane museum (<bibl><ptr target="cic-bibl:coedes-1937-1966"/>: <biblScope>311, table II</biblScope></bibl><!-- AG: cite page number. -->), it appears that he had himself realized that the two entries in fact refer to a single inscription.</ab>
+                        </provenance>
+                       <provenance type="observed" notBefore="2009">
+                           <ab>We identified the bas-relief at the Museum of Cham Sculpture at Đà Nẵng in 2009.</ab>     
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <msDesc n="estampage-inked" facs="#fac2">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n36">n. 36</idno>
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2012-08" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+            <change when="2012-09-29" who="AG">proposed a number of modifications</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0152_AG_2009.jpg">
+            <desc>Photograph, with scale, of inscription <ptr target="#inv-general"/>. Taken at the Museum of Cham Sculpture by Arlo Griffiths on <date when="20090921"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0036.jpg">
+            <desc>Photograph of an EFEO estampage under n. 36.</desc>
+            <!-- AG: this manner of speaking suggests that the number n. 36 comprises more than one feuillet. Is that correct? If not, remove "an" and "under". -->
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <ab>First published in <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>449</biblScope></bibl>; republished, with <ref target="C0157.xml">C. 157</ref>, in our <bibl><ptr target="cic-bibl:CatDaNang"/>: <biblScope>237-239</biblScope></bibl>.</ab>
+           </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+                <div type="textpart" n="anterior">
+                    <head xml:lang="en">Anterior</head>
+                    <ab> <gap reason="illegible" quantity="5" unit="character"/> <unclear>la</unclear>ṅk<unclear>ā</unclear>pura<unclear>madhya</unclear>vānarasena</ab>
+                </div>
+                <div type="textpart" n="lateral">
+                    <head xml:lang="en">Lateral</head>
+                    <ab>praha<unclear>raṇa</unclear></ab>
+                </div>
+                <!-- AG: I have applied changed to the structure of this edition, using textparts and heads, like in C. 223, but here both textparts are included in a single <div type="edition">. Let's see what the difference is in the html, if any. -->
+                </div>
+            <div type="translation" xml:lang="en">
+                <p>Army of monkeys in the middle of the city of Laṅkā...hurling.</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>Armée des singes au milieu de la ville à Laṅka...enlèvement.</p>
+            </div> 
+            <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <!-- <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>192 and 572</biblScope>.</bibl>
+                     -->
+                    <!-- <bibl><ptr target="cic-bibl:parmentier-1919"/>: <biblScope>102-103</biblScope>.</bibl>
+                    -->
+                    <!-- <bibl><ptr target="cic-bibl:coedes-1937-1966"/>: <biblScope>311, table II</biblScope>.</bibl>
+                    -->
+                    <bibl><ptr target="cic-bibl:boisselier-1963"/>: <biblScope>191-192</biblScope>.</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

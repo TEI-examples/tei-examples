@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Statue of a Śivācārya on the Nhơn Hải Peninsula</title>
+            <editor>Arlo Griffiths</editor>
+            </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0214</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+<sourceDesc>
+   <msDesc>
+      <msIdentifier>
+         <institution>EFEO</institution>
+         <idno xml:id="inv-general">C. 214</idno>
+      </msIdentifier>
+      <msContents>
+         <msItem>
+            <note>Remains of twelve lines on one face</note>
+            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+         </msItem>
+      </msContents>
+      <physDesc>
+         <objectDesc>
+            <supportDesc>
+               <support>
+                  <p>Back of a <objectType>sculptural stela</objectType> of a Śivācārya;<note>The shoulder of the back of the stela seem to have broken off, causing loss of text on lines 1-3.</note> <material><seg type="check">sandstone</seg></material>;
+                     <dimensions unit="cm">
+                        <height>??</height>
+                        <width>??</width>
+                        <depth>??</depth>
+                     </dimensions>.</p>
+               </support>
+            </supportDesc>
+         </objectDesc>
+      </physDesc>
+      <history>
+         <origin>
+            <origPlace type="location">
+               <placeName type="modern" ref="cic-geo:phat-loi-nhon-hai">Phật Lồi Pagoda on Nhơn Hải peninsula</placeName>
+             </origPlace>
+            <origDate>
+               <date calendar="Śaka">1352</date>
+               <date calendar="Julian" notBefore="1430" notAfter="1431">1430/1</date>
+            </origDate>
+         </origin>
+         <provenance type="found">
+            <ab>This piece was found under unknown circumstances at the <placeName type="modern" ref="cic-geo:phat-loi-nhon-hai">Phật Lồi Pagoda on Nhơn Hải peninsula</placeName>, at at unnown date before the manufacture of the estampage held at the Musée Guimet, which appears to be decades old.</ab>
+         </provenance>
+         <provenance type="observed" notAfter="2005">
+            <ab>We received the documents used here (photographs, made in 2005, as well as the inked estampage, made at an unknown date) from Đinh Bá Hòa, director of Bảo Tàng Tổng Hợp Bình Định (General Museum of Bình Định) in May 2011. Its inventory number was published in <ptr target="cic-bibl:ECIC-III"></ptr>.</ab>
+         </provenance>
+      </history>
+      <additional>
+         <surrogates>                       
+            <msDesc n="estampage-uninked">
+               <msIdentifier>
+                  <repository>Musée Guimet</repository>
+                  <idno xml:id="est-guimet">???</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc n="estampage-inked">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-n2069">n. 2069</idno>
+               </msIdentifier>
+               </msDesc>
+         </surrogates>         
+      </additional>
+   </msDesc>
+</sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage"/></catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+                  <!-- ARLO: don't think there will be any -->
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2012-05-24" who="AG" xml:lang="en">first attempt at porting all the relevant
+            data for this inscription into xml format</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0214_1_DBH_2005.jpg">
+         <desc>Photograph of the front of the sculptural stela whose back bears inscription <ptr target="#inv-general"/>. Taken by Đinh Bá Hòa on <date when="20050101"/>. Reproduced by permission.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/C0214_2_DBH_2005.jpg">
+         <desc>Photograph of inscription <ptr target="#inv-general"/>. Taken by Đinh Bá Hòa on <date when="20050101"/>. Reproduced by permission.</desc>
+      </graphic>
+      <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n2069.jpg">
+         <desc>Photograph of EFEO estampage n. 2069.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>Previously unpublished.</ab>
+         </div>  
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines">
+             <ab type="invocation"><unclear>om̐</unclear></ab>
+                <ab>
+<lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>pu pa<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">p</supplied>u pom̃ tana rayā ya dṛ<supplied reason="lost">m̃</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/> <gap reason="lost" extent="unknown" unit="character"/><choice><unclear>na</unclear><unclear>n·</unclear></choice> dadam̃n· varṇna urām̃ aviḥ
+<lb n="4"/> <supplied reason="lost"><pc>|</pc></supplied> svasti <pc>|</pc> yām̃ pom̃ ku śrī vṛṣu viṣṇujātti vīrabhadrava<supplied reason="lost">rm</supplied><unclear>m</unclear><supplied reason="lost">ade</supplied>
+<lb break="no" n="5"/>va <pc>|</pc> bṛṣuvaṅṣa ādi pūra ṅgauk· glaum̃ vijaya <pc>|</pc> prathamāviśeka
+<lb n="6"/> di śaka eka-loka-naya-rāma tam̃l· śaka rāja-aggi-<seg type="check">vānu</seg>-ca
+<lb break="no" n="7"/>kṣu pu pom̃ ku kā rijan· dhvajakalpa pañcākṣara klāḥ di pa<seg type="check">nce</seg>dri
+<lb break="no" n="8"/>ya klāḥ di pañcatāppa ṅan· rijan· śattayañña pañcamakutta
+<lb n="9"/> pu pom̃ ku kā imyam̃ mvoḥ vākya yām̃ pom̃ ku śrījayasiṅghavarmma
+<lb break="no" n="10"/>deva <seg type="check">rakṣā</seg> di rāja dudim̃ pu pom̃ ku kā mapunaḥ vumvom̃ pavvak· anva
+<lb break="no" n="11"/>k<unclear>·</unclear> vrim̃ adhyā vuḥ <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="12"/><seg type="check">mram̃k·</seg> yām̃ nī <pc>||</pc>  
+                </ab>
+            </div>
+         <div type="apparatus">
+            <ab>
+               <app>
+                  <lem><unclear>om̐</unclear></lem><note>the trace of a sign above line 1 is likely to have been the descending part of this invocation.</note>
+               </app>
+               <app loc="4">
+                  <lem><supplied reason="lost">|</supplied></lem><note>space does not seem sufficient for a more substantial liminal sign, and comparison with the lay-out of <ref target="C0128.xml">C. 128</ref> suggests that only a <foreign>daṇḍa</foreign> originally preceded <foreign>svasti</foreign> here.</note>
+               </app>
+               <app loc="5">
+                  <lem>pūraṅgauk· glaum̃ vijaya</lem><note>cf. <ref target="C0043.xml">C. 43</ref>, face A, l. 3 <foreign>pūra ṅauk glaum̃ vijaya</foreign>.</note>
+               </app>
+               <app loc="5">
+                  <lem>prathamāviśeka</lem><note>understand <foreign>prathamābhiṣeka</foreign> (cf. <ref target="C0043.xml">C. 43</ref>, face A, l. 1-2 for the same spelling). Or <foreign>pratimābhiṣeka</foreign> (cf <ref target="C0042.xml">C. 42</ref>, l. 11)?</note>
+               </app>
+               <app loc="6">
+                  <lem>aggi</lem><note>understand <foreign>agni</foreign>.</note>
+               </app>
+               <app loc="7-8">
+                  <lem>pancedriya</lem><note>I suppose that we must understand <foreign>pañcendriya</foreign>.</note>
+               </app>
+               <app loc="10">
+                  <lem>kā mapunaḥ</lem><note>or analyze <foreign>kāma punaḥ</foreign>? Cf. <ref target="C0043.xml">C. 43</ref>, face A, l. 15 <foreign>kā ma°udyāna</foreign> (or <foreign>kāma udyāna</foreign>?).</note>
+               </app>
+               <app loc="11"><note>A few more akṣaras could probably be recovered here from the M. Guimet estampage.</note>
+               </app>
+              </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p> ... P.P.T.R. has assumed kingship ... various classes of all men.</p>
+            <p>Hail! His majesty Śrī Vṛṣu Viṣṇujāti Vīrabhadravarmadeva, [whose name] begins with Vṛṣuvaṃśa, [who hails from] the capital of Ṅauk Glauṅ Vijaya, who had his first royal consecration in Śaka one, (three) worlds, (four) policies, (three) Rāmas, (one) king (i.e. in 1343 Śaka): it came to pass (<foreign>tam̃l</foreign>) in Śaka (one) king, (three) fires, <seg type="check">(five) arrows</seg>, (two) eyes (i.e. in 1352 Śaka) that milord performed a banner-ritual (?, <foreign>dhvajakalpa</foreign>) of the five-syllable (mantra) without the five senses, without the five penances and he performed a hundredfold-offering of five crowns. Milord then saw and realized (?, <foreign>imyam̃ mvoḥ</foreign>) the instruction (?, <foreign>vākya</foreign>) of his majesty Śrī Jayasiṃhavarmadeva to give protection to future kings. Milord then restored the sanctuary, <foreign>pavvak</foreign> an <foreign>anvak</foreign>, gave <foreign><seg type="check">adhyā</seg></foreign>, offered ... this god.</p>
+         </div>
+         <div type="commentary">
+            <p>With lines 4-5, cf. <ref target="C0057.xml">C. 57</ref> l. 1-2: <foreign>śrī vṛṣuvaṅśa viṣṇujātti vīrabhadravarmmadeva pu pom̃ ku ya ādināmma</foreign>. In l. 9-10, it seems attractive to understand the sentence in the sense 'instruction to future kings to give protection'. On the expression <foreign>pavvak anvak</foreign>, which must denote some action with regard to some kind of strcuture, see <bibl><ptr target="cic-bibl:CatDaNang"/>: <seg type="check">???</seg></bibl>, on <ref target="C0043.xml">C. 43</ref>, face B, l. 3-4.</p>
+         </div>
+       <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl xml:id="ECIC-III"><ptr target="cic-bibl:ECIC-III"/>: 486.</bibl>
+               <bibl xml:id="CatDaNang"><ptr target="cic-bibl:CatDaNang"/>: <seg type="check">???</seg>.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+   
+</TEI>

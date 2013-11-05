@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Block at Mỹ Sơn</title>
+                <editor>Arlo Griffiths</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0075</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 75</idno>
+                        <altIdentifier type="majumdar-nr">
+                            <idno xml:id="majumdar-nr">No. 51</idno>
+                        </altIdentifier>
+                        <altIdentifier type="site-inventory">
+                            <settlement>Mỹ Sơn</settlement>                            
+                            <idno xml:id="inv-myson">03MSD350</idno>
+                            <note>Recorded under this number in the registration of Mỹ Sơn as a Unesco World Heritage Site</note>
+                        </altIdentifier>    
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>Four lines on one face</note>
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Oblong <objectType>block</objectType>;
+                                        <material>sandstone</material>; we have not recorded dimensions. <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>382</biblScope></bibl> has recorded only two (we infer that the shorter of the two is for the height of the object), viz.
+                                         <dimensions unit="cm">
+                                            <height>40</height>
+                                            <width>90</width>
+                                            </dimensions>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName type="settlement" ref="cic-geo:my-son">Mỹ Sơn</placeName>
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">4 waxing Jyeṣṭha 913</date>
+                                <date calendar="Julian" when="9910521">21 May 991</date>
+                            </origDate>
+                        </origin>
+                    <provenance type="found" notAfter="1904">
+                     <ab>The block was found at <placeName xml:id="findspot" type="modern" ref="campa-geo:my-son">Mỹ Sơn</placeName>, group B, south of B1 (see the observation by <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>382</biblScope> n. 1</bibl>, correcting a contradictory report) before 1904. It was listed as number XI in the list of inscriptions of this site (<bibl><ptr target="cic-bibl:finot-1904b"/>: <biblScope>933</biblScope></bibl>; see also the table in that article).</ab>
+           <!-- AG we need to encode the groups/monuments within this site. How to tag the note number?--> 
+                        <!-- TE: I'm not sure why we need to use a <note> above, won't parentheticals work ok? Meantime, I'll
+                            look at adding monuments and monument groups to the geography file so we can refer to them -->
+                            </provenance>
+                       <provenance type="found" notBefore="2009">
+                           <ab>We identified the stone in the courtyard of the D group in 2009, as the one bearing local inventory number <ptr target="#inv-myson"/> (see <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>457</biblScope></bibl>).</ab>     
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <!-- Tom: this is how we do squeezes, see: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html#msad 
+                                Gabby and I are putting in a change request to TEI to add the type attribute on msDesc so we don't have to
+                                use the n attribute to indicate the type of surrogate:
+                            https://sourceforge.net/tracker/?func=detail&aid=3526114&group_id=106328&atid=644065
+                            -->                            
+                            <msDesc n="estampage-uninked">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-321">321</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-inked" facs="#fac3">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n332">n. 332</idno>
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <!-- AG What is the function of this section? -->
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                        <!-- AG: have added -inked. What does thos ptr actually want to call? -->
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                        <!-- ARLO: don't think there will be any -->
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2011-07" who="TRE" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AG</change>
+            <change when="2012-04" who="AG">basic mark-up of all data</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0075_1_AG_2009.jpg">
+            <desc>Photograph of inscription <ptr target="#inv-general"/>. Taken at Mỹ Sơn by Arlo Griffiths on <date when="20090927"/>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/C0075_2_AG_2009.jpg">
+            <desc>Photograph of inscription <ptr target="#inv-general"/>. Taken at Mỹ Sơn by Arlo Griffiths on <date when="20090927"/>.</desc>
+        </graphic>
+        <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n0332.jpg">
+            <desc>Photograph of EFEO estampage n. 332.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <p>First published, with French translation, in <bibl><ptr target="cic-bibl:finot-1904a"/>: <biblScope>113-115</biblScope></bibl>; reading of the millésime questioned in <bibl><ptr target="cic-bibl:barth-1904"/>: <biblScope>117-119</biblScope>;</bibl> reading of the month number corrected in <bibl><ptr target="cic-bibl:finot-1904b"/>: <biblScope>933</biblScope></bibl>; reading of the millésime corrected in <bibl><ptr target="cic-bibl:finot-1915b"/>: <biblScope>49</biblScope></bibl>; contents summarized by <bibl><ptr target="cic-bibl:majumdar-1927"/>: 145</bibl>; previous publications reproduced, with translation into English, in <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>122</biblScope></bibl>. Newly edited, with French translation, in <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>457</biblScope></bibl>, which publication is reproduced here.</p>
+            </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines">
+                <ab>
+                    <lb n="1"/> <pc>|||</pc> di śakarāja 913 huriy· 5 vaṅun· vulān· 4 vṛhaspativāra <unclear>ma</unclear><lb n="2" break="no"/>ghanakṣatra vṛścikalagna kāla yāṅ· po ku vijaya śrī harivarmmadeva
+                    <lb n="3"/>punaḥ yāṅ· po ku śrī jaya īśānabhadreśvara karaṇa kīrtti yaśa di bhūmima<lb n="4" break="no"/>ṇḍala niy· <pc>||</pc> <g type="fleuron"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <ab>
+                    <app loc="1">
+                        <lem>913</lem>
+                        <rdg resp="Golzio">917</rdg>
+                        <rdg resp="Finot">713</rdg>
+                        <note>The reading 7 for the units that Golzio proposes is impossible, as inspection of the estampage shows. See our discussion in <bibl><ptr target="cic-bibl:ECIC-III"/>, and especially the table on p. <biblScope>486</biblScope></bibl>.</note>
+                    </app>
+                    <app loc="1">
+                        <lem resp="Finot (1904b)">vulān· 4</lem>
+                        <rdg resp="Finot (1904a)">vulān 8 (?)</rdg>
+                        <note>Finot first read the month name as <foreign>8 (?)</foreign>. We adopt the reading that he later proposed with confidence (<bibl><ptr target="cic-bibl:finot-1904b"/>: <biblScope>933</biblScope></bibl>).</note>
+                    </app> 
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>In the [year of the] Śaka-king 913, day 5 of the waxing [fortnight] of month 4, Thursday, lunar mansion
+                    Magha, Scorpio in the ascendant. [This was] the time that Y.P.K. the victorious Śrī
+                    Harivarmadeva re-established (the image of) Y.P.K. Śrī Jaya Īśānabhadreśvara, for the sake of
+                    fame and glory in this earthly domain.</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p> En [l’année] 913 [du] roi des Śaka, jour 5 de la [quinzaine] croissante du mois 4, un jeudi, mansion lunaire de Maghā, l’ascendant en Scorpion. [Ceci fut] le temps où Y. P. K. le victorieux Śrī Harivarmadeva rétablit (l’image de) Y. P. K. Śrī Jaya Īśānabhadreśvara, en vue de la gloire et de la renommée dans ce domaine terrestre.
+                </p>
+            </div> 
+            <div type="commentary">
+                <ab>On the issue of the correct reading and interpretation of the dating formula in this inscription, see <bibl><ptr target="cic-bibl:ECIC-III"/>: 457</bibl>.</ab>
+            </div>
+            <!-- <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>145</biblScope>.</bibl>               
+                </listBibl>
+            </div> 
+            -->
+        </body>
+    </text>
+</TEI>

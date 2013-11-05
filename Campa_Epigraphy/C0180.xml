@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Socle at Po Nagar</title>
+            <editor>Arlo Griffiths</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0180</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>EFEO</institution>
+                  <idno xml:id="inv-general">C. 180</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note>Two lines engraved on two faces of a square socle.</note>
+                  <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang> 
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular or square <objectType>socle</objectType> made of <material>stone</material>; we have not recorded its dimensions, and neither have previous scholars.</p> 
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace type="location">
+                        <placeName ref="cic-geo:po-nagar-nha-trang">Po Nagar at Nha Trang</placeName>
+                     </origPlace>
+                     <origDate>
+                        <date calendar="Śaka">1200</date>
+                        <date calendar="Julian" notBefore="1278" notAfter="1279">1278/9</date>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" when="1931">
+                     <ab>This inscribed socle was discovered in the course of repairs to the main tower of the temple of <placeName xml:id="findspot" type="modern" ref="campa-geo:po-nagar-nha-trang">Po Nagar at Nha Trang</placeName>
+                        in 1931 (see, <bibl><ptr target="cic-bibl:chronique-1931"/>: <biblScope>324</biblScope></bibl>).
+                        <!-- AG: Tom, can we and do we want to make references oif this style 'hot', e.g. by linking "BEFEO" to <http://www.persee.fr/web/revues/home/prescript/article/befeo_0336-1519_1931_num_31_1_4457>? -->
+                         <!--TE: Arlo: yes. We should add <idno type="URL">http://www.persee.fr/web/revues/home/prescript/article/befeo_0336-1519_1931_num_31_1_4457</idno> inside the relevant <analytic> or <monogr> elements in the bibliography file.
+                             I'll open an issue to modify the stylesheets to handle this. I'm adding this one to the bibliography file so that I have test data and so there's an example there for the two of
+                             you to follow. -->
+                     </ab>
+                  </provenance>
+                     <provenance type="not-observed" when="2005">
+                     <ab>In <bibl><ptr target="cic-bibl:schweyer-2005a"/>: <biblScope>106</biblScope></bibl>, this inscription is said to have disappeared.
+                     </ab>
+                  </provenance>
+                  <provenance type="observed" when="2010">
+                     <ab>In reality, the inscribed socle was probably already situated at that time in the cella of the main tower, where Mr. Nguyễn Văn Thích found and photographed it in 2010.</ab>
+                  </provenance>
+               </history>
+                  </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version 
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampages</catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="20120815" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+         <change when="20120830" who="AG" xml:lang="en">comments on initial encoding</change>
+         <change when="20120921" who="AG" xml:lang="en">comments on second draft</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0180A_NVT_2010.jpg">
+         <desc>Photograph of the first face (A) of inscription <ptr target="#inv-general"/>. Taken by Nguyễn Văn Thích, in 2010. Reproduced by permission.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/C0180B_NVT_2010.jpg">
+         <desc>Photograph of the second face (B) of inscription <ptr target="#inv-general"/>. Taken by Nguyễn Văn Thích, in 2010. Reproduced by permission.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>A summary of this inscription was presented in <bibl><ptr target="cic-bibl:chronique-1931"/>: <biblScope>324</biblScope></bibl>. The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>464</biblScope></bibl>.</ab>
+         </div>        
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+            <ab>
+            <lb n="A1"/> <unclear><g type="quatrefoil"/></unclear> 
+               <pc>|</pc> pom̃ pu lyam̃ śrī arddharāja pu cim̃ śrī harijita urām̃ humā virān· manraum̃ para
+            <lb break="no" n="A2"/><unclear>ma</unclear>rājaputra pu pom̃ tana rayā inravarmma pu pom̃ ku <pc>|</pc> ra prakṛta anta
+            <lb break="no" n="B1"/>rgṛha racitanīryyūha vuḥ pak· yām̃ bhagavatī kauṭhāre<supplied reason="lost">śvarī<gap reason="ellipsis" extent="unknown" unit="character"><desc>Missing from photograph</desc></gap>sama</supplied><lb break="no" n="B2"/>sta samāpta di amvara-mavara-yama-śaśadhara
+            </ab>
+         </div>         
+         <div type="apparatus">
+            <p>
+               <app loc="A1">
+                  <note>at the beginning of the inscription, remains are visible of the same quatrefoil liminal sign that we also find, for instance, at the beginning of <ref target="C0123.xml">C. 123</ref>. There appears to be sufficient space for a additional sign such as the one that precedes the quatrefoil at the beginning of C. 123, but no trace of it is visible on the photos at our disposal.</note>
+               </app>
+               <app loc="B1-B2">
+                  <lem>kauṭhāre<supplied reason="lost">śvarī<gap reason="ellipsis" extent="unknown" unit="character"></gap>sama</supplied>sta samāpta</lem>
+                  <note>an indeterminate number of signs is blocked from view on the photo. Our restitution <foreign>kauṭhāreśvarī</foreign> is based on the inscriptions <ref target="C0030A3.xml">C. 30 A3</ref>, ll. 2-3 and <ref target="C0032.xml">C. 32</ref>, face A, ll. 1 and 2; the restitution <foreign>samasta</foreign> is inspired by the instance of the expression <foreign>samasta samāsta</foreign> that has been read in <ref target="C0022.xml">C. 22</ref>, face A, l. 16, although we must note that, following the EFEO estampage n. 1073, we propose to read there <foreign>samasta samāpta</foreign>, as in the present case.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab>His majesty the half-king, heir Śrī Harijita, man of Humā Virān Manraum̃, is the greatest son of the king P.P.T.R. Indravarman, my master. He has completed an inner house, built with projections/doors (<foreign>niryūha</foreign>), (and) offered it to the venerable Lady of Kauṭhāra. All was accomplished in heaven-heaven-twins-moon (1200 Śaka = 1278/9 C.E.).
+            </ab>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <ab>Sa majesté le demi-roi, héritier Śrī Harijita, homme de Humā Virān Manraum̃, est le meilleur des fils du roi P.P.T.R. Indravarman, mon maître. Il a achevé une maison intérieure, construite avec saillies/portes (<foreign>niryūha</foreign>), (et) l'a offerte à la vénérable Dame de Kauṭhāra. Tout fut accompli en ciel-ciel-jumeaux-lune (1200 Śaka = 1278/9 de n. è.).
+         </ab>
+         </div>
+         <div type="commentary">
+            <p><quote>Half-king</quote> is a hyper-literal translation of <foreign>arddharāja</foreign>, a term that we do not find elsewhere in Cam epigraphy, although it is found in contemporary Javanese inscriptions (<bibl><ptr target="cic-bibl:boechari-PKMN"/>: <biblScope>116 and 165</biblScope></bibl>).</p>
+            <p>The term <foreign>antargṛha</foreign> is attested three times elsewhere, namely in C. 92, face A, ll. 11 and 12. There it indicates an object made of sandalwood weighing 2 <foreign>bhāra</foreign> and 9 <foreign>tul</foreign> (i.e. between 100 and 500 kg in weight following the chosen standard). 
+               This object is decorated with gold and silver. In K. 470, a Khmer inscription dated from 1249 Śaka  (<bibl><ptr target="cic-bibl:coedes-1937-1966"/> vol. II, p. <biblScope>188</biblScope></bibl>), one can read <foreign>padmavitāna saṅkū phsam saṃrit nu saṃrap bhāra praṃpvan</foreign> <quote>un dais en (argent) blanc et bronze avec accessoires pesant neuf <foreign>bhāra</foreign></quote> (<bibl><ptr target="cic-bibl:soutif-2009"/> vol. II: <biblScope>144</biblScope></bibl>). 
+               The fact that inscriptions C. 92 and K. 470 use the measurement <foreign>bhāra</foreign>, the near contemporaneity of the two inscriptions, and the literal meaning of <foreign>antargṛha</foreign> suggest that this latter word also refers to a kind of canopy. Concerning this type of construction in Cam monuments, see <bibl><ptr target="cic-bibl:baptiste-2005"/>, especially pp. <biblScope>111-113</biblScope></bibl>.</p>
+            <p><foreign>niryūha</foreign> must be a kind of decorative addition, but the word does not appear elsewhere in the corpus and we are unable to propose a specific identification with certainty.</p>
+         </div>
+         <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl><ptr target="cic-bibl:chronique-1931"/>: <biblScope>324</biblScope></bibl>
+              <bibl><ptr target="cic-bibl:schweyer-2005a"/>: <biblScope>106</biblScope>.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Broken boulder of Chiên Đàn</title>
+                <editor>Arlo Griffiths</editor>
+                <editor>Amandine Lepoutre</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0064</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 64</idno>
+                        <altIdentifier type="museum-inventory">
+                        <settlement>Đà Nẵng</settlement>    
+                        <repository>BTC</repository>
+                        <idno xml:id="inv-btc">BTC 83</idno>
+                        </altIdentifier>
+                        <altIdentifier type="museum-inventory-former">
+                            <settlement>Đà Nẵng</settlement>
+                            <repository>Musée Parmentier</repository>
+                            <idno xml:id="inv-musee-parmentier">1,4</idno>  
+                        </altIdentifier>
+                        <!-- AG: Tom, how to indicate that these two altIdentifiers relate to just one of three fragments of C. 64? -->
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>Nine lines on one face</note>
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Large <objectType>boulder</objectType>; <material>sandstone</material>. Dimensions of the original stone
+                                         <dimensions precision="low" unit="cm">
+                                            <height>80</height>
+                                            <width>240</width>
+                                         </dimensions>; 
+                                        of the fragment in the museum (A):
+                                        <dimensions>
+                                            <height>51</height>
+                                            <width>85</width>
+                                            <depth>44</depth>
+                                        </dimensions>;
+                     of the fragment still <foreign>in situ</foreign> (B): 
+                                        <dimensions>
+                                             <height>94</height>
+                                             <width>190</width>
+                                             <depth>80</depth>
+                                         </dimensions>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                     <placeName type="temple" ref="cic-geo:chien-dan">Chiên Đàn</placeName>
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Julian" notBefore="1000" notAfter="1025">early 11<hi rend="superscript">th</hi> century</date><note>We believe that this inscription is to be dated earlier than previous scholars have
+                                    assumed. See Cf. <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>454 n. 36</biblScope></bibl>.</note>
+                               </origDate>
+                        </origin>
+                    <provenance type="observed" notAfter="1892">
+                        <ab>This boulder was found before 1892, when it was first mentioned in the literature (<bibl><ptr target="cic-bibl:paris-1892"/>: <biblScope>141</biblScope></bibl>), and said to have been observed at the <quote>towers of <placeName>An-don</placeName></quote>;</ab>
+                        <ab>mentioned again in 1896 (<bibl><ptr target="cic-bibl:aymonier-1896a"/></bibl> and <bibl><ptr target="cic-bibl:aymonier-1896b"/>: <biblScope>94</biblScope></bibl>)  as <quote>inscription of <placeName>Qua My</placeName>, at 60 km to the South slightly eastward of Tourane</quote>, and tentatively assigned to the 11th century CE.</ab>
+          <ab>The inscription was inventoried as <ptr target="#inv-general"/> in <bibl><ptr target="cic-bibl:coedes-1908"/>: <biblScope>44</biblScope></bibl>, in association with place name <placeName>Hoà-mi</placeName>; inscription and stone were inventoried <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>278</biblScope></bibl>, correctly attributed the Chiên Đàn site (here spelt Chiên Đàng), and assigned to the late 11th century CE.</ab>
+                    </provenance>
+         <provenance type="observed" when="1900">
+              <p>Moved by C. Paris to his concession in Phong Lệ in 1900, and from there to the antiquities park in Tourane in 1901.</p>
+                        </provenance>
+                        <provenance type="observed" notAfter="1919">
+                            <ab>Registered in the Tourane Museum in 1919, with inventory number <ptr target="#inv-musee-parmentier"/> (<bibl><ptr target="cic-bibl:parmentier-1919"/>: <biblScope>12</biblScope></bibl>), that was subsequently mentioned in the improved inventory of inscriptions (<ptr target="cic-bibl:coedes-1923"/>).
+                            </ab>
+                           </provenance>
+                         <provenance type="observed" notBefore="2009">
+     <ab>We identified fragment A encased in a wall of the Đà Nẵng Museum in 2009. It has since then been removed from the encasing and according to our latest information is now kept in storage. We observed fragment B <foreign>in situ</foreign> on <date when="20090920"/>.</ab>   </provenance>
+                        <provenance type="not-observed" notBefore="2009">
+                            <ab>We were unable to find fragment C during any of our visits to Vietnam since 2009.<note>From the earliest references, the sources speak of an inscription in three fragments. <bibl><ptr target="cic-bibl:parmentier-1919"/></bibl> suggests that the original rock was willfully split into three fragment <quote>at the hands of the coolies of Paris</quote>; he mentions that the fragment held in the Museum had been <quote>detached from the block and transported at the order of C. Paris to his concession of Phong-lệ before 1900; brought to the Tourane Garden in 1901 and registered under the provisional number n° 105</quote>. We think that these accusations of vandalism may not be fair, because Camille Paris himself, in the first ever report of the inscription, clearly states that the stone was already broken in three pieces when he found it. For reasons unknown to us, this report is not cited in any of the publications of Parmentier and Cœdès, and could thus come to be forgotten by subsequent generations of scholars.</note></ab>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>                       
+                            <msDesc n="estampage-uninked">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-31">31</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-inked" facs="#fac2">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n266.jpg">n. 266</idno>
+                 <!-- illustrated by Schweyer (2009: 43, fig. 10). -->
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2012-10" who="AG" xml:lang="en">initial encoding in EpiDoc</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0064_A_AG_2009.jpg">
+      <desc>Photograph of a small fragment (A) of inscription <ptr target="#inv-general"/>, encased in the wall at the Đà Nẵng Museum. Taken by Arlo Griffiths on <date when="20090920"></date>.</desc>
+            </graphic>
+       <graphic xml:id="fac2" url="../images/inscriptions/C0064_B_AG_2009.jpg">
+       <desc>Photograph of the main fragment (B) of inscription <ptr target="#inv-general"/>, still <foreign>in situ</foreign>. Taken by Arlo Griffiths on <date when="20090924"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac3" url="../images/inscriptions/C0064-recomposed.jpg">
+            <desc>Composition photograph of the three estampages under EFEO n. 266.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+               <p>First published, with French translation, in <bibl><ptr target="cic-bibl:schweyer-2009a"/>: <biblScope>41-45</biblScope></bibl>; newly edited, with translation into English (and Vietnamese), in <bibl><ptr target="cic-bibl:CatDaNang"/>: <biblScope>219-224</biblScope></bibl>; whence the present edition.</p>
+            </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines">
+                <ab>
+<lb n="1"/><milestone unit="fragment" n="A"/> <pc>||</pc> hetu śanāpa di pūrvvakāla mam̃n· ma<unclear>d</unclear><supplied reason="lost">ā urām̃</supplied> <milestone unit="fragment" n="B"/> <unclear>kā</unclear> ñu putau di
+nagara campa ñu paliṅyak· <supplied reason="lost">naga</supplied><unclear>ra</unclear> urā<unclear>m̃</unclear> ṅan· yām̃ svon<unclear>·</unclear> hajai tral<supplied reason="lost">au</supplied>ṅ<supplied reason="lost">·</supplied>
+lumv<unclear>auv</unclear><supplied reason="lost">·</supplied> kru<supplied reason="lost">vau ṅan·</supplied> sama<unclear>s</unclear>ta<supplied reason="lost">vījā</supplied>ṅkura ru
+<lb break="no" n="2"/><milestone unit="fragment" n="A"/><unclear>ma</unclear>ṅ· pramāṇa <unclear>na</unclear>gara campa avista kā dhvasta nirmū<milestone unit="fragment" n="B"/><supplied reason="lost">la</supplied> nau <pc>|</pc>
+mam̃n· yām̃ po ku vijaya śrī harivarmmadeva yam̃ṅ<supplied reason="lost">·</supplied> devatājanma sī purāṇa
+āgama daḥ viṣṇumūrtti matam̃l· paliṅyak· <unclear>śa</unclear>truma
+<lb break="no" n="3"/><milestone unit="fragment" n="A"/>ṇḍala di nagara campa <pc>|</pc> mam̃n· devatāmūrtti nan· kā pa<unclear>l</unclear><milestone unit="fragment" n="A"/><supplied reason="lost">i</supplied>ṅyak·
+kalikalaṅka avista <pc>|</pc> pakā bharuv· ra putau di nagara campa ra pajem̃ rumaḥ
+rājadhānī ṅan· hajai tralauṅ· svon· ṅan· sama
+<lb break="no" n="4"/><milestone unit="fragment" n="A"/>stavījāṅkura kā paripūrṇṇa samū dhiluv· tra <pc>|</pc> <unclear>pa</unclear><supplied reason="lost">kā yām̃</supplied> <milestone unit="fragment" n="B"/> po ku
+īśāna ṅan· ya doṃ yām̃ ṅan· puṇya vukan· dadam̃n· sthāna kā vṛddhi mulaṅ· tra <pc>|</pc> punaḥ ra mak· nagara kmīra lac· paści
+<lb break="no" n="5"/><milestone unit="fragment" n="A"/> <gap reason="lost" quantity="17" unit="character"/> <milestone unit="fragment" n="B"/> <unclear>sāra</unclear> sā vandaḥ niy· avista tra <pc>|</pc> ra mak· sumrāṅ· dakṣiṇa rumaṅ· krauṅ· patam̃l· campeśvara avista nau tra <pc>|</pc> ra tmuv· lac·
+<lb n="6"/><milestone unit="fragment" n="C"/> <supplied reason="lost">s</supplied>u<unclear>m</unclear>rāṅ<unclear>·</unclear> uttaradiśa rumaṅ· kr<unclear>auṅ·</unclear> dā <gap reason="lost" quantity="5" unit="character"/> <milestone unit="fragment" n="B"/> <unclear>na</unclear>n· kā jem̃ maṇḍalīka nagara campa mam̃n· yā<unclear>m̃</unclear> po ku vijaya śrī harivarmmadeva ra vuḥ
+yām̃ di madhurāpura di pak· <unclear>duna</unclear><supplied reason="lost">n·</supplied>
+<lb n="7"/><milestone unit="fragment" n="C"/> tra <pc>|</pc> ra pratiṣṭhā śivaliṅga di harināpura ka<unclear>ra</unclear><supplied reason="lost">ṇā</supplied> <unclear>k</unclear><supplied reason="lost">īr</supplied>tt<supplied reason="lost">i</supplied> <pc>|</pc> <milestone unit="fragment" n="B"/> <unclear>pa</unclear>kā ra vuḥ kmīra yvan· si mak· nan· di yām̃ hajai tralauṅ· svon· dadam̃n· sthāna tra
+ra vuḥ urām̃ dinan· pajem̃ karadā yam̃ di nagara campa <gap reason="lost" extent="3-4" unit="character"/>
+<lb n="8"/><milestone unit="fragment" n="C"/> <supplied reason="lost">de</supplied>śāntara ṅan· vanyāga kā ñu tam̃l· di nagara campa <unclear>sa</unclear>dāk<supplied reason="lost">āla</supplied> <milestone unit="fragment" n="B"/>
+mam̃n· nagara campa kā paripūrṇṇa luvaiḥ nariy· dhīluv· <pc>|</pc> ma<unclear>m̃</unclear>n· yām̃ po ku
+vijaya śrī harivarmmadeva kā <unclear>sa</unclear>n<supplied reason="lost">t</supplied>o<supplied reason="lost">ṣa</supplied> <gap reason="lost" extent="3-5" unit="character"/>
+<lb n="9"/><milestone unit="fragment" n="C"/> <gap reason="lost" extent="2-3" unit="character"/> paribhoga ṅan· puṇyadāna nityapṛtiḥ sadā<milestone unit="fragment" n="B"/><unclear>kā</unclear>la mam̃n· <pc>||</pc> <g type="quatrefoil"/> <pc>||</pc>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                <app loc="1">
+                    <lem><pc>||</pc> hetu śanāpa</lem>
+                    <rdg resp="Schweyer">⊙ {1}pākuśadā {1}</rdg>
+                </app>
+                <app loc="1">
+                    <lem>ma(d)[ā urām̃] (kā)</lem>
+                    <rdg resp="Schweyer">ma[dā] ñū</rdg>
+                    <note>There are certainly more <foreign>akṣara</foreign>s lost between the two fragments than Schweyer supposes. The concrete sequence of words we conjecture here, <foreign>mam̃n madā urāṅ kā ñu putau</foreign>, is found also in <ref target="C0030A1.xml">C. 30A1</ref>, l. 4.</note>
+                    </app>
+                    <app loc="1">
+                        <lem>putau</lem>
+                        <rdg resp="Schweyer">puitau</rdg>
+                    </app>
+                    <app loc="1">
+                        <lem>campa ñu</lem>
+                        <rdg resp="Schweyer">campā ñū</rdg>
+                        </app>
+                    <app loc="1">
+                        <lem><supplied reason="lost">naga</supplied><unclear>ra</unclear> urā<unclear>m̃</unclear></lem>
+                        <rdg resp="Schweyer">{3} rā</rdg>
+                    </app>  
+                    <app loc="1-2">
+                        <lem>tral<supplied reason="lost">au</supplied>ṅ<supplied reason="lost">·</supplied>
+                            lumv<unclear>auv</unclear><supplied reason="lost">·</supplied> kru<supplied reason="lost">vau ṅan·</supplied> sama<unclear>s</unclear>ta<supplied reason="lost">vījā</supplied>ṅkura ru<unclear>ma</unclear>ṅ·</lem>
+                        <rdg resp="Schweyer"> tralaṅ lumve{1} tra {7} kā {1} di</rdg>
+                    </app>
+                    <app loc="2">
+                        <lem>campa</lem>
+                        <rdg resp="Schweyer">campā</rdg>
+                    </app>
+                    <app loc="2">
+                        <lem>kā dhvasta</lem>
+                        <rdg resp="Schweyer">(kāvvasta)</rdg>
+                    </app> 
+                    <app loc="2">
+                        <lem>nau <pc>|</pc> mam̃n·</lem>
+                        <rdg resp="Schweyer">nau măn</rdg>
+                    </app>
+                    <app loc="2">
+                        <lem>po</lem>
+                        <rdg resp="Schweyer">pŏ</rdg>
+                        <note>The cases of <foreign>po</foreign> in this inscription are all plain, without any added diacritic in the original, so there is no need for any diacritic in the transliteration either.</note>
+                    </app>
+                    <app loc="2">
+                        <lem>yam̃ṅ<supplied reason="lost">·</supplied></lem>
+                        <rdg resp="Schweyer">yā(ṅ) n</rdg>
+                    </app>
+                    <app loc="2">
+                        <lem>campa <pc>|</pc></lem>
+                        <rdg resp="Schweyer">campā |</rdg>
+                    </app>
+                    <app loc="3">
+                        <lem>pakā</lem>
+                        <rdg resp="Schweyer">(ṅ)a kā</rdg>
+                    </app>
+                    <app loc="3">
+                        <lem>campa</lem>
+                        <rdg resp="Schweyer">campā</rdg>
+                    </app>
+                    <app loc="3">
+                        <lem>svon· ṅan·</lem>
+                        <rdg resp="Schweyer">svon nan</rdg>
+                    </app>
+                    <app loc="3-4">
+                        <lem>samastavījāṅkura</lem>
+                        <rdg resp="Schweyer">sta (vajustta)</rdg>
+                    </app>
+                    <app loc="4">
+                        <lem><unclear>pa</unclear><supplied reason="lost">kā yām̃</supplied></lem>
+                        <rdg resp="Schweyer">(sa) {2} (yāṅ)</rdg>
+                    </app>
+                    <app loc="4">
+                        <lem>ya</lem>
+                        <rdg resp="Schweyer">yă</rdg>
+                        <note>The estampage is a bit deceptive here, for the stone clearly shows that the <foreign>akṣara</foreign> does not bear the <foreign>anusvāra-candra</foreign> sign.</note>
+                    </app> 
+                    <app loc="4">
+                        <lem>puṇya</lem>
+                        <rdg resp="Schweyer">pūṇya</rdg>
+                        <note>The estampage is a bit deceptive here, for the stone clearly shows that the vowel is short.</note>
+                    </app>
+                    <app loc="4">
+                        <lem>vukan·</lem>
+                        <rdg resp="Schweyer">(sukan)</rdg>
+                    </app>
+                    <app loc="4">
+                        <lem>mulaṅ·</lem>
+                        <rdg resp="Schweyer">mulan</rdg>
+                    </app>
+                    <app loc="4">
+                        <lem>punaḥ ra mak·</lem>
+                        <rdg resp="Schweyer">punaḥ mak</rdg>
+                    </app>
+                    <app loc="4">
+                        <lem>kmīra</lem>
+                        <rdg resp="Schweyer">kmira</rdg>
+                    </app>
+                    <app loc="4">
+                        <lem>lac· paści-</lem>
+                        <!-- AG: Tom, it is OK to insert the hyphen here, as the end of the word starting at the end of line 4 is lost in lacune at begging of line 5? -->
+                        <rdg resp="Schweyer">{2} paśyi</rdg>
+                    </app>
+                    <app loc="5">
+                        <lem>(sāra) sāvandaḥ</lem>
+                        <rdg resp="Schweyer">saranda</rdg>
+                    </app>
+                    <app loc="5">
+                        <lem>sumrāṅ· dakṣiṇa rumaṅ· krauṅ·</lem>
+                        <rdg resp="Schweyer">(sumrāṅ dukyaṇarumaj) rā krauṅ</rdg>
+                        <note>Schweyer has misread the leftward extension of the <foreign>r</foreign> in <foreign>krauṅ·</foreign> as <foreign>rā</foreign>.</note>
+                    </app>
+                    <app loc="5">
+                        <lem>tmuv· lac·</lem>
+                        <rdg resp="Schweyer">tmuv la {2}</rdg>
+                    </app>
+                    <app loc="6">
+                        <lem><supplied reason="lost">s</supplied>u<unclear>m</unclear>rāṅ<unclear>·</unclear> uttaradiśa rumaṅ·</lem>
+                        <rdg resp="Schweyer">{2} krāṅ uttarad śarumaṅ</rdg>
+                    </app>
+                   <app loc="6">
+                       <lem>kr<unclear>auṅ·</unclear> dā <gap reason="lost" quantity="5" unit="character"></gap> <unclear>na</unclear>n· kā</lem>
+                       <rdg resp="Schweyer">krauṅ ṅa{n} {7}n kā</rdg>
+                   </app>
+                    <app loc="6">
+                        <lem>maṇḍalīka</lem>
+                        <rdg resp="Schweyer">maṇdalika</rdg>
+                    </app>
+                    <app loc="6">
+                        <lem>campa</lem>
+                        <rdg resp="Schweyer">campā</rdg>
+                    </app> 
+                    <app loc="6">
+                        <lem>di pak· <unclear>duna</unclear><supplied reason="lost">n·</supplied></lem>
+                        <rdg resp="Schweyer">di para(.)ra</rdg>
+                    </app>
+                    <app loc="7">
+                        <lem>ka<unclear>ra</unclear><supplied reason="lost">ṇā</supplied> <unclear>k</unclear><supplied reason="lost">īr</supplied>tt<supplied reason="lost">i</supplied></lem>
+                        <rdg resp="Schweyer">tara{4}tta</rdg>
+                        <note>The expression <foreign>karaṇā kīrtti</foreign> is found in several other inscriptions (<ref target="C0030A1.xml">C. 30A1</ref>, l. 23; <ref target="C0075.xml">C. 75</ref>, l. 3; <ref target="C0120.xml">C. 120</ref>, face B, l. 6) and can clearly be reconstituted from the parts of <foreign>akṣara</foreign>s that remain here.</note>
+                    </app> 
+                    <app loc="7">
+                        <lem><unclear>pa</unclear>kā</lem>
+                        <rdg resp="Schweyer">sa kā</rdg>
+                    </app>
+                    <app loc="7">
+                        <lem>kmīra</lem>
+                        <rdg resp="Schweyer">kmira</rdg>
+                    </app>
+                    <app loc="7">
+                        <lem>yvan·</lem>
+                        <rdg resp="Schweyer">yvăn</rdg>
+                    </app>
+                   <app loc="7">
+                       <lem>si</lem>
+                       <rdg resp="Schweyer">sei</rdg>
+                       <note>There is no <foreign>anusvāra-candra</foreign> above the <foreign>akṣara</foreign> in question to justify Schweyer's reading.</note>
+                   </app> 
+                    <app loc="7">
+                        <lem>tralauṅ·</lem>
+                        <rdg resp="Schweyer">tralaṅ</rdg>
+                    </app> 
+                    <app loc="7">
+                        <lem>tra ra vuḥ</lem>
+                        <rdg resp="Schweyer">tra | vuḥ</rdg>
+                    </app>
+                    <app loc="7">
+                        <lem>dinan· </lem>
+                        <rdg resp="Schweyer">nan</rdg>
+                    </app>
+                    <app loc="7">
+                        <lem>karadā yam̃</lem>
+                        <rdg resp="Schweyer">karadāya</rdg>
+                    </app>
+                   <app loc="7">
+                       <lem>campa <gap reason="lost" extent="3-4" unit="character"/></lem>
+                       <rdg resp="Schweyer">campā</rdg>
+                    </app> 
+                    <app loc="8">
+                        <lem><supplied reason="lost">de</supplied>śāntara ṅan· vanyāga kā ñu</lem>
+                        <rdg resp="Schweyer">{1} śāntaḥ ṅan· vadyāg(.)ata kāñu</rdg>
+                    </app>
+                    <app loc="8">
+                        <lem>campa</lem>
+                        <rdg resp="Schweyer">campā</rdg>
+                    </app>
+                   <app loc="8">
+                       <lem><unclear>sa</unclear>dāk<supplied reason="lost">āla</supplied></lem>
+                       <rdg resp="Schweyer">nan (dāka) {2}</rdg>
+                   </app>
+                    <app loc="8">
+                        <lem>campa</lem>
+                        <rdg resp="Schweyer">campā</rdg>
+                    </app>
+                    <app loc="8">
+                        <lem>luvaiḥ nariy· dhīluv· <pc>|</pc> mam̃n·</lem>
+                        <rdg resp="Schweyer">luvai{1} niy (maluva) măn</rdg>
+                    </app> 
+                    <app loc="8-9">
+                        <lem>kā <unclear>sa</unclear>n<supplied reason="lost">t</supplied>o<supplied reason="lost">ṣa</supplied> <gap reason="lost" extent="3-5" unit="character"/><gap reason="lost" extent="2-3" unit="character"/> paribhoga</lem>
+                        <rdg resp="Schweyer">kā ra {5+3} pari(.)ośa Schweyer</rdg>
+                        <note>Cf. <ref target="C0094.xml">C. 94</ref>, face B, ll. 1–2: <foreign>yāṅ po ku vijaya śrī harivarmmadeva kā santoṣa nirākula dauk aṅguy rājaparibhoga</foreign>. The passage can very likely be restored on the basis of the  elements in this parallel passage, but the present inscription seems to have had a slightly shorter formula, since the lacunae cannot have offered space for all of the <foreign>akṣara</foreign>s seen between <foreign>santoṣa</foreign> and <foreign>paribhoga</foreign> in C. 94.</note>
+                    </app>
+                    <app loc="9">
+                        <lem>nityapṛtiḥ</lem>
+                        <rdg resp="Schweyer">nītya sṛtiḥ</rdg>
+                        <note>Understand <foreign>nityaprītiḥ</foreign>.</note>
+                    </app>
+                    <app loc="9">
+                        <lem>mam̃n· <pc>||</pc> <g type="quatrefoil"/> <pc>||</pc></lem>
+                        <note>Schweyer notes an illegible syllable before the quatrefoil. But we think it is more likely that the text ends with <foreign>mam̃n·</foreign>, after which follows a complex of (non-<foreign>akṣara</foreign>) terminal symbols. This
+                            appears to the case also at the end of <ref target="C0210.xml">C. 210</ref>, face D, although the reading there is not clear either. On <ref target="C0119.xml">C. 119</ref>, face B, the text ends with <foreign>sadākāla mam̃n· niś(c)aya ||</foreign>, but we certainly cannot have a full word like <foreign>niścaya</foreign> after <foreign>mam̃n·</foreign> here.</note>
+                    </app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>(1–2) Because of a curse in the past, for that reason there was a man who became
+                    king in the Campā country, who robbed the country, the people and the gods of the
+                    citadel of Tralauṅ Svon, the cows, the buffaloes. And all seeds and sprouts, from all
+                    the provinces of the Campā country, then went to radical annihilation.
+                    </p>
+                   <p> (2–3) After that Y.P.K. the victorious Śrī Harivarmadeva, who is of divine birth
+                    — namely, [according to] the Purāṇas and Āgamas, an incarnation of Viṣṇu —,
+                    succeeded in expelling the coalition of enemies in the Campā country. Thereupon
+                    that divine incarnation went on to destroy all faults of the Kali (age).</p>
+                    <p>(3–4) Only then (<foreign>pakā bharuv</foreign>) he was king in the land of Campā. He built an
+                    abode as capital and [he rebuilt?] the citadel of Tralauṅ Svon. And then all seeds and
+                    sprouts also (<foreign>tra</foreign>) became prosperous as before.</p>
+                    <p>(4) Then my lord the god Īśāna and all the other gods and religious foundations
+                    (<foreign>puṇya</foreign>), of various places, also prospered again (?, <foreign>mulaṅ</foreign>).</p>
+                    <p>(4–7) In turn he took the <foreign>lac</foreign> land of the Khmers country in the west ... all of this
+                    one part too. He took all of Southern direction from the river to Campeśvara too. He
+                    met (?) <foreign>lac</foreign> the northern direction, from the river ... then became vassals of the land
+                    of Campā. After that my lord his victorious majesty Śrī Harivarmadeva also offered
+                    to the gods of Madhurāpura in those four [directions]. He installed a <foreign>liṅga</foreign> of Śiva at
+                    Harināpura to make fame.</p>
+                    <p>(7–8) Then he offered those Khmers and Viets whom he had captured to the
+                    gods of the citadel of Tralauṅ Svon [and those] of various [other] shrines too. He
+                    ordered these men to make subject to the taxes of the Campā country ... foreigners
+                    and the traders who arrive in the Campā country, always.</p>
+                    <p>(8–9) So the Campā country became even more prosperous than before. Then
+                    my lord his victorious majesty Śrī Harivarmadeva became satisfied ... (royal) property
+                    and meritorious gifts, permanent pleasure, always!</p>
+                </div>
+            <div type="commentary">
+                <p>This theme of a curse (<foreign>śanāpa</foreign>) is expressed also in other inscriptions. Cf. e.g. <ref target="C0089.xml">C. 89</ref>,
+                    face B, l. 16: <foreign>... hetu śanāpana ...</foreign> Other expressions that seem noteworthy in the present
+                    inscription are also shared with that text. See e.g. C. 89, face B, l. 20: <foreign>ra vuḥ urāṅ ṅan
+                    lumvau kruvāv ṅan samasta upakaraṇa panūjā devatā dinan</foreign>. We also find noteworthy
+                    parallels in <ref target="C0094.xml">C. 94</ref>. See face A, l. 19: <foreign>rā pajeṅ .... śvan tralauṅ ṅan samastavījāṅkura...</foreign> The
+                    word <foreign>śatrumaṇḍala</foreign>, found here in lines 2–3, is also seen in C. 94, face A, ll. 1 and 12
+                    and C. 89, face B, l. 8; it may further be compared with <foreign>mandala śatruḥ</foreign> in <ref target="C0019.xml">C. 19</ref>, l. 9. </p>
+                    <p>The sequence <foreign>svon hajai tralauṅ</foreign> in our inscription seems to be an error for <foreign>hajai
+                    tralauṅ svon</foreign>: cf. lines 3 and 7, as well as <ref target="C0095.xml">C. 95</ref>, face B, ll. 17–18.
+                    On the word <foreign>purāṇa</foreign> in connection with what seems to have been a different
+                    king Harivarman than the one of the present inscription, cf. <ref target="C0100.xml">C. 100</ref> B, l. 12: <foreign>etena
+                    purāṇārthena lakṣaṇenaitad gamyate śrī jaya harivarmmadevo yaṃ sa uroja eveti ||
+</foreign>                    and stanza XVII: <foreign>śivānandanaśabdasya dṛṣṭenārthādriṇā kṣitau urojo lokavācyo yaḥ
+                    purāṇārthena lakṣaṇī ||</foreign>.</p>
+                     </div>
+            <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>195</biblScope>.<note>With outdated attribution to a site <quote>Hoà Mi</quote>.</note></bibl>
+                    <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>163-164</biblScope>.<note>Attributed to a site <quote>Hoà Mi-Chiêm Dang</quote> (<foreign>sic</foreign>).</note></bibl>
+                </listBibl> 
+                </div>
+        </body>
+    </text>
+</TEI>

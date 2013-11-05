@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stela at Po Klaong Girai</title>
+                <editor>William Southworth</editor> 
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0224</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by William Southworth.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 224</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>Stela bearing an unfinished inscription probably intended to be </note>
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                            <!-- AG: this manner of noting things in a roundabout way relying partly on the default insertions of text made by the transform seems very awkward and therefore undesirable. Do you see a better way, Tom?-->
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Stela</objectType>; <material>sandstone</material>; <dimensions unit="cm">
+                                        <height quantity="197" rend="none">h. 197 cm (visible, i.e. without tenon)</height>
+                                        <width>89</width>
+                                        <depth>48</depth>
+                                    </dimensions>.</p>
+                                    <!-- Extra notes from WAS: The invocation 'Om' begins 9cm from the top of the East face and is 6 cm high. The main line is at least 11cm long and the medium height of the characters (without including marks above and below) is 1.7 cm. At the time, I thought that all of the stela may once have been inscribed. However, after checking it again in 2009 it was clear that only the top 30 cm of that single face had been polished and the rest of the surface had been left rough. I think the stela has always been known, but no-one thought there was any writing on it.-->
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName ref="cic-geo:po-klaong-girai"></placeName>
+                            </origPlace>  
+                            <origDate>
+                                <date calendar="Śaka">13th or 14th Century</date>
+                                <date calendar="Julian">14th or 15th Century</date>
+                            </origDate>
+                        </origin>
+                        <provenance type="observed" when="2009">
+                            <ab>We found the stela <foreign>in situ</foreign> in 2009. The stela surprisingly does not seem to figure in any of the existing literature on the site of Po Klaong Girai, but it was pointed out to the CIC team in 2009 by team-member William Southworth, who knew it from his previous fieldwork at the site (<bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>475</biblScope></bibl>).
+                            </ab>
+                        </provenance>
+                    </history>  
+                    <additional>
+                        <surrogates>
+                            <msDesc n="estampage-inked" facs="#fac3">
+                                <msIdentifier >
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo.n1948">n. 1948</idno>
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+              <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2012-08" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+            <change when="20120920" who="AG">small modifications</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0224_1_WS_2004.jpg">
+            <desc>Photograph of the stela bearing the unfinished inscription <ptr target="#inv-general"/>, with the temple of Po Klaong Girai in the background. Taken by William Southworth on <date when="20040713"/>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/C0224_2_WS_2004.jpg">
+            <desc>Photograph of the unfinished inscription <ptr target="#inv-general"/>. Taken at Po Klaong Girai by William Southworth on <date when="20040713"/>.</desc>
+        </graphic>
+        <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n1948.jpg">
+            <desc>Photograph of EFEO estampage n. 1948.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <ab>Previously unpublished.</ab>
+           </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none"> 
+                <ab type="invocation">om̐</ab>
+                <ab type="invocation">namaś śivāya</ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p> <foreign>Om</foreign>. Homage to Śiva. </p> 
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p> <foreign>Om</foreign>. Hommage à Śiva. </p>
+            </div> 
+            <div type="commentary">
+                <ab>This is not the only instance of an unfinished inscription: see <ref target="C0128.xml">C. 128</ref>.</ab>
+            </div>
+            <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>475 and 476</biblScope>.</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

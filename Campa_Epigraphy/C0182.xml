@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragment from Chánh Mẫm</title>
+                <editor>Arlo Griffiths</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0182</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 182</idno>
+                        <altIdentifier type="museum-inventory">
+                        <settlement>Đà Nẵng</settlement>    
+                        <repository>BTC</repository>
+                        <idno xml:id="inv-btc">BTĐN 104</idno>
+                        </altIdentifier>
+                        <altIdentifier type="museum-inventory-former">
+                            <settlement>Đà Nẵng</settlement>
+                            <repository>Musée Parmentier</repository>
+                            <idno xml:id="inv-musee-parmentier">1,10</idno>  
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>Three lines on one face</note>
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Fragment of an object</objectType> of an indeterminable type; <material>sandstone</material>;
+                                         <dimensions unit="cm">
+                                            <height>17.5</height>
+                                            <width>17.5</width>
+                                             <depth>39</depth>
+                                            </dimensions>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName type="settlement" ref="cic-geo:chanh-mam">Chánh Mẫm</placeName>
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">13<hi rend="superscript">th</hi> century</date>
+                                <date calendar="Julian">13<hi rend="superscript">th</hi>-14<hi rend="superscript">th</hi> century</date>
+                            </origDate>
+                        </origin>
+                    <provenance type="observed" notAfter="1923">
+                        <ab>The fragment in known to be from <placeName xml:id="findspot" type="modern" ref="campa-geo:chanh-mam">Chánh Mẫm</placeName>. It was first mentionned in <bibl><ptr target="cic-bibl:coedes-1923"/></bibl> and recorded as a piece of the Tourane Museum's collection bearing the number <ptr target="#inv-musee-parmentier"/>.</ab>
+                            </provenance>
+                       <provenance type="observed" notBefore="2009">
+                           <ab>We identified the fragment in the storeroom of the Đà Nẵng Museum in 2009. The inventory number 1,20 written on the object must be a mistake.</ab>     
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <msDesc n="estampage-inked" facs="#fac2">
+                                <msIdentifier >
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo.n999">n. 999</idno>
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2012-08" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+            <change when="20121012" who="AG" xml:lang="en">several modifications</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0182_AG_2009.jpg">
+            <desc>Photograph, with scale, of inscription <ptr target="#inv-general"/>. Taken at the Đà Nẵng Museum by Arlo Griffiths on <date when="20090921"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0999.jpg">
+            <desc>Photograph of EFEO estampage n. 999.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <p>First published, with French translation, in <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>450</biblScope></bibl>; with translation into English and Vietnamese in <bibl><ptr target="cic-bibl:CatDaNang"/>: <biblScope>253</biblScope></bibl>; whence the present edition.</p>
+                </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines">
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown"/><unclear>m·</unclear> tṛ dṛm̃ vrata tam̃l· mahāvṛddha <gap reason="lost" extent="unknown"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown"/><supplied reason= "lost">si</supplied>daḥ yām̃ pom̃ ku śrī jaya siṅha<supplied reason="lost">varmmadeva</supplied><gap reason="lost" extent="unknown"/> 
+                    <lb n="3"/><gap reason="lost" extent="unknown"/>parita<num type="chronogram" value="1">śaśadhara</num> madā <gap reason="lost" extent="unknown"/>
+                </ab>
+            </div>
+            <!-- <div type="translation">
+                <ab></ab>
+                </div>  -->
+            <div type="commentary">
+                <ab>The text is too fragmentary to be translated. In line 1, it seems to speak of 'undertaking a vow until very old' (<foreign>dṛm̃ vrata tam̃l· mahāvṛddha</foreign>). In line 3, the inscription shows the last part of a chronogram, <foreign>paritaśaśadhara</foreign>, which unfortunately only reveals the figure for the thousands (<foreign>śaśadhara</foreign>, meaning 'moon', denotes the value 1).</ab>
+            </div>
+        </body>
+    </text>
+</TEI>

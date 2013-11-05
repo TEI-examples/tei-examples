@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pedestal at Mỹ Sơn</title>
+                <editor>Dominic Goodall</editor>
+                <editor>Arlo Griffiths</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0080</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 80</idno>
+                        <altIdentifier type="majumdar-nr">
+                            <idno xml:id="majumdar-nr">No. 18</idno>
+                        </altIdentifier>
+                        <altIdentifier type="site-inventory">
+                            <settlement>Mỹ Sơn</settlement>                            
+                            <idno xml:id="inv-myson">03MSA94</idno>
+                            <note>Recorded under this number in the registration of Mỹ Sơn as a Unesco World Heritage Site</note>
+                        </altIdentifier>    
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>One line</note>
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Round section of a multi-layered <objectType>pedestal</objectType>;
+                                        <material>sandstone</material>; we have not recorded dimensions, but <bibl><ptr target="cic-bibl:finot-1904b"/>: <biblScope>929</biblScope></bibl> has recorded the following for the round pedestal, originally comprising three sections:
+                                         <dimensions unit="cm">
+                                  <height>95</height>  
+                                  <dim type="diameter" atLeast="95" atMost="117"/>
+                                <!-- AG: this is suppressed in the transform -->
+                                <!-- AG: presumably the great latitude is due to more than one section being measured, while only one currently remains. -->
+                                 </dimensions>. The height recorded must be that of the pedestal as a whole. The pedestal is decomposed nowadays, and the single section that is inscribed is significantly less high.</p></support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName type="modern" ref="cic-geo:my-son">Mỹ Sơn</placeName>
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">6th</date>
+                                <date calendar="Julian">7th</date>
+                            </origDate>
+                        </origin>
+                    <provenance type="found" notAfter="1904">
+                        <ab>The three sections composing the pedestal were found overturned in front of monument A10 at <placeName xml:id="findspot" type="modern" ref="campa-geo:my-son">Mỹ Sơn</placeName>, before 1904, and the inscription on one of them was listed as number VII in the list of inscriptions of this site (<bibl><ptr target="cic-bibl:finot-1904b"/>: <biblScope>929</biblScope></bibl>; see also the table in that article; and <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>357</biblScope></bibl>).</ab>
+           <!-- AG we need to encode the groups/monuments within this site. How to tag the note number?--> 
+           <!-- TE: Meantime, I'll look at adding monuments and monument groups to the geography file so we can refer to them -->
+                            </provenance>
+                       <provenance type="found" notBefore="2009">
+                           <ab>We identified the stone placed against the North wall of the A group at Mỹ Sơn in 2009, as the one bearing local inventory number <ptr target="#inv-myson"/> (see <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>458</biblScope></bibl>).</ab>     
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>                       
+                            <msDesc n="estampage-uninked">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-333">333</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-inked" facs="#fac2">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n2089.jpg">n. 2089</idno>
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                    <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                       </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                        <!-- ARLO: don't think there will be any -->
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2011-07" who="TRE" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AG</change>
+            <change when="2012-05-09" who="AG">basic mark-up of all data</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0080_1_AG_2009.jpg">
+            <desc>Photograph of the pedestal section bearing inscription <ptr target="#inv-general"/>. Taken at Mỹ Sơn by Arlo Griffiths on <date when="20090930"/>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n2089.jpg">
+            <desc>Photograph of EFEO estampage n. 2089.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <p>First published, with French translation, in <bibl><ptr target="cic-bibl:finot-1904b"/>: <biblScope>929</biblScope></bibl>; whence, with  translation into English, in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>36</biblScope></bibl>; whence <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>28-29</biblScope></bibl>. Re-edited from the inked EFEO estampage, with new translation, in <bibl><ptr target="cic-bibl:ECIC-V"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>, whence the present edition.</p>
+            </div>
+            <div type="edition" xml:lang="sa-Latn-x-CI" xml:space="preserve" rend="break-verse-lines">
+            <ab>namas suvarṇākṣāya</ab>
+            <lg met="Anuṣṭubh">
+               <l>campāvanibhujārcceyaṃ kāñcanī tatvavedinā</l>
+               <l>vikrāntavarmmaṇā bhaktyā sthāpitā pārameśvarī <pc>||</pc></l>
+            </lg>
+            </div>
+            <div type="apparatus">
+                <ab>
+                    <app loc="d">
+                        <lem>||</lem>
+                        <rdg resp="Finot"><space/></rdg>
+                    </app> 
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>Homage to the Golden-eyed (Śiva)! This golden image of Parameśvara (Śiva) was piously erected by Vikrāntavarman, king of Campā, knower of truth.
+                </p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>We cite Finot's translation of 1904:</p>
+                <p>Hommage au [dieu] aux yeux d'or! Le roi de Campā Vikrāntavarman qui connaît la vérité a érigé pieusement cette statue d'or de Parameśvara.</p>
+                            </div> 
+            <div type="commentary">
+                <ab>Our translation is essentially the same as those proposed by Finot and Majumdar. The name Suvarṇākṣa (or Svarṇākṣa) occurs both as a sanctuary and as an epithet of Śiva in Indian Sanskrit sources. On its use as the name of a Śaiva sanctuary, see for instance the <ref>old Skandapurāṇa</ref>, 
+                    <!-- AG: how do deal with refs. to texts? -->
+                    on which, <bibl><ptr target="cic-bibl:bisschop-2006"/>: <biblScope>221</biblScope></bibl>. A myth explaining why Śiva himself came to bear the name, after creating a golden-eyed goddess, is recounted in this text at 9.22-29 (see <bibl><ptr target="cic-bibl:SP1"/></bibl>). One might therefore speculate as to whether the statue whose manufacture this inscription records was one of the goddess (Parameśvarī) rather than of Śiva (Parameśvara) himself. Perhaps the incipit makes this less likely.</ab>
+            </div>
+            <!-- <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>357</biblScope>.</bibl> 
+                    <bibl xml:id="ECIC-III"><ptr target="cic-bibl:ECIC-III"/>: 458.</bibl>
+                </listBibl>
+            </div>
+            -->
+        </body>
+    </text>
+</TEI>

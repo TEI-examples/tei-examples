@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rock at Lệ Cam</title>
+            <editor>Arlo Griffiths</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0127</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>EFEO</institution>
+                  <idno xml:id="inv-general">C. 127</idno>
+                  <altIdentifier type="majumdar-nr">
+                     <idno xml:id="majumdar-nr">No. 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                  <note>There are two inscriptions under this inventory number. The principal inscription consists of two lines and the other one of one line. Both are engraved on the same face of the rock,</note>
+                  <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang> 
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Natural boulder</objectType> of <material>indeterminate stonetype</material>; we have not recorded its dimensions, and neither have previous scholars.
+                           </p>                        
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace type="location">
+                        <placeName ref="cic-geo:le-cam">Lệ Cam</placeName>
+                     </origPlace>
+                     <origDate>
+                        <date calendar="Śaka">7th century</date>
+                        <date calendar="Julian">7th/8th century</date>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" notAfter="1915">
+                     <ab>This inscription was found before 1915 by Parmentier, and was first mentioned in (<bibl><ptr target="cic-bibl:finot-1915c"/>: <biblScope>112</biblScope></bibl>).
+                     </ab>
+                  </provenance>
+                     <provenance type="observed" when="1996">
+                     <ab>It was observed again in 1996 by Nguyễn Văn Lương.</ab>
+                     </provenance>
+                  <provenance type="not-observed" when="2009">
+                     <ab>We could not find the stone back in 2009.</ab>
+                  </provenance>
+                  <provenance type="observed" notAfter="2010">
+                     <ab>But it was finally recovered in 2010 (see <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>461</biblScope></bibl>).</ab>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <msDesc n="estampage-inked" facs="#fac2">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-n1946">n. 1946</idno>
+                        </msIdentifier>
+                        </msDesc>
+                     </surrogates>
+               </additional>
+                  </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version 
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampages</catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="20120815" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0127_NVL_1996.jpg">
+         <desc>Photograph of the rock bearing inscription <ptr target="#inv-general"/>. Taken by Nguyễn Văn Lương, in 1996. Reproduced by permission.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n1946.jpg">
+         <desc>Photograph of EFEO estampage under n. 1946.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>Translated in <bibl><ptr target="cic-bibl:finot-1915c"/>: <biblScope>112</biblScope></bibl>; whence <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>28</biblScope></bibl> and <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>12</biblScope></bibl>. The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>463-464</biblScope></bibl>.</ab>
+         </div>        
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+            <div type="textpart" n="1">
+               <head xml:lang="en">C. 127.1</head>
+            <ab>
+            <lb n="1"/> namaś śivāya
+            <lb n="2"/> śrīprakāśadharmmā jaya<unclear>ti</unclear>
+            </ab>
+            </div>
+         </div>         
+         <div type="apparatus">
+            <head xml:lang="en">C. 127.1</head>
+            <p>
+               <app loc="2">
+                  <lem>jaya<unclear>ti</unclear></lem>
+                  <rdg resp="Finot">jayadā<supplied reason="lost">naṃ</supplied></rdg>
+                  <note>This reading was repeated, without square brackets and introducing a new variation (<foreign>prakāśavarmmā</foreign>), in <bibl><ptr target="cic-bibl:schweyer-2009a"/>: <biblScope>35, note 60</biblScope></bibl>.</note>
+               </app>
+            </p>
+         </div>
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+            <div type="textpart" n="2">
+               <head xml:lang="en">C. 127.2</head>
+            <ab>
+            <lb n="1"/> śrīcampeśvara
+            </ab>
+            </div>
+         </div>       
+         <div type="translation" xml:lang="en">
+            <head xml:lang="en">C. 127.1</head> <!-- AL: I removed <div type="textpart"> to try to get a left aligned head (as it was in C. 3. 2)-->
+            <p>Homage to Śiva. Śrī Prakāśadharmmā triumphs!</p>
+            <head xml:lang="en">C. 127.2</head>
+            <p>Lord of Campā.</p>
+            </div>
+         <div type="translation" xml:lang="fr">
+               <head xml:lang="fr">C. 127.1</head>
+            <p>Hommage à Śiva. Śrī Prakāśadharmmā triomphe!</p>
+               <head xml:lang="fr">C. 127.2</head>
+               <p>Seigneur du Campā.</p>
+         </div>
+         <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl><ptr target="cic-bibl:schweyer-2009a"/>: <biblScope>35</biblScope>.</bibl>
+               <bibl><ptr target="cic-bibl:southworth-2011"/>: <biblScope>111</biblScope>.</bibl>
+            </listBibl>
+            </div>
+      </body>
+   </text>
+</TEI>
