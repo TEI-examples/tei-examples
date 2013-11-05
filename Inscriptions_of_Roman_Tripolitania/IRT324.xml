@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT324" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> 
+               <rs type="textType">dedication</rs> of the Chalcidicum to Augustus </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT324</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>The greater part of three composite <rs type="objectType">panel</rs>s of <material>grey limestone</material>, moulded above and below. 
+               a) Seven <rs type="objectType">block</rs>s (together, <height unit="metre">6.76</height> ×  height <height unit="metre">0.51</height>), from the central gable.
+               b) Nine <rs type="objectType">block</rs>s (together, <dimensions>
+                                 <width unit="metre">8.44</width>
+                                 <height unit="metre">0.52</height>
+                              </dimensions>), from the left- hand gable.
+               c) Eight <rs type="objectType">block</rs>s, from the right-hand gable.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the surviving faces</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>a) Lapidary capitals: l. 1, <height unit="metre">0.125</height>; 
+               l. 2, <height unit="metre">0.08</height>.</handNote>
+                     <handNote>b) Lapidary capitals: <height unit="metre">0.145</height>.</handNote>
+                     <handNote>c) Lapidary capitals: <height unit="metre">0.145</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0011" notAfter="0012" evidence="reign-titulature">A.D. 11-12 (reign, titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db709">Chalcidicum</rs>, from the architraves of the central and lateral gables of the facade.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Aurigemma</author>, <ptr target="afrital"/> 
+                  <biblScope>VIII:17.</biblScope>ff, fig 10, = text a)</bibl>; 
+               <bibl>
+                  <ptr target="ae"/> 
+                  <biblScope>1948: 7 and 8</biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="section" n="a" type="textpart"><ab>
+                  <lb n="1"/><persName type="divine"><name nymRef="Numen">Numini</name> <w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></w> <name type="cognomen" nymRef="Caesar">Caesaris</name> 
+                     <persName type="emperor"><w lemma="diuus">Diui</w></persName> <w lemma="filius"><expan><abbr>f</abbr><ex>ili</ex></expan></w> 
+                  <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> 
+                  <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ificis</ex></expan></w> 
+                  <w lemma="magnus"><expan><abbr>m<supplied reason="lost">ax</supplied></abbr><supplied reason="lost"><ex>imi</ex></supplied></expan></w> 
+                  <w lemma="imperator"><supplied reason="lost"><expan><abbr>imp</abbr><ex>eratoris</ex></expan></supplied></w> <supplied reason="lost"><num value="20">XX</num></supplied> 
+                  <w lemma="consul"><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan></supplied></w> 
+                  <num value="13"><supplied reason="lost">XII</supplied>I</num>
+                  <w lemma="tribunicius"><expan><abbr>tr</abbr><ex>ibunicia</ex></expan></w> 
+                  <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> <num value="34">XXXIIII</num></persName> <w lemma="calchidicum">calchidicum</w> <w lemma="et">et</w> <w lemma="porticus">porticus</w> <w lemma="et">et</w>
+                  <lb n="4"/><w lemma="porta">porta</w> <w lemma="et">et</w> <w lemma="uia">uia</w> <w lemma="ab">ab</w> <num value="15">XV</num><w lemma="uir"><expan><abbr>uir</abbr><ex>is</ex></expan></w> 
+                  <w lemma="sacer"><expan><abbr>sac</abbr><ex>rorum</ex></expan></w> 
+                  <gap reason="lost" quantity="7" unit="character" precision="low"/><w lemma="dedico"><supplied reason="lost">dedica</supplied>ta</w> <w lemma="sum">est</w>
+               </ab></div><div subtype="section" n="b" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Iddibal">Iddibal</name> <persName type="attested"><name type="cognomen" nymRef="Himilis">Himilis</name></persName> <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w> <name type="cognomen" nymRef="Caphada">Caphada</name> <name type="cognomen" nymRef="Aemilius">Aemilius</name></persName> 
+                  <w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+                  <w lemma="suus"><expan><abbr>s</abbr><ex>ua</ex></expan></w> 
+                  <w lemma="pecunia"><expan><abbr>p</abbr><ex>ecunia</ex></expan></w> 
+                  <w lemma="facio"><expan><abbr>f</abbr><ex>aciendum</ex></expan></w> 
+                  <w lemma="curo"><expan><abbr>c</abbr><ex>urauit</ex></expan></w> <w lemma="calchidicum">calchidicum</w> <w lemma="et">et</w> <w lemma="porticus">porticus</w> <w lemma="et">et</w> <w lemma="porta">portam</w> <w lemma="et">et</w>  <w lemma="uia">uiam</w>
+               </ab></div><div subtype="section" n="c" type="textpart"><ab>
+                  <lb n="11"/><persName type="attested"><name type="cognomen" nymRef="Iddibal">Iddibal</name> <persName type="attested"><name type="cognomen" nymRef="Himilis">Himilis</name></persName> <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w> <name type="cognomen" nymRef="Caphada">Caphada</name> <name type="cognomen" nymRef="Aemilius">Aemilius</name></persName> 
+                  <w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+                  <w lemma="suus"><expan><abbr>s</abbr><ex>ua</ex></expan></w> 
+                  <w lemma="pecunia"><expan><abbr>p</abbr><ex>ecunia</ex></expan></w> 
+                  <w lemma="facio"><expan><abbr>f</abbr><ex>aciendum</ex></expan></w> 
+                  <w lemma="curo"><expan><abbr>c</abbr><ex>urauit</ex></expan></w> <w lemma="calcidicum">calcidicum</w> <w lemma="et">et</w> <w lemma="porticus">porticus</w> <w lemma="et">et</w> <w lemma="porta">porta</w> <w lemma="et">et</w> <w lemma="uia">uia</w>
+               </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. To the divine power of Emperor Caesar Augustus, son of the deified <supplied reason="subaudible">Caesar</supplied>, <supplied reason="lost">chief</supplied> priest, <supplied reason="lost">acclaimed victor twenty times, consul thirteen times</supplied>, holding tribunician power for the thirty-fourth; the calchidicum and the porticoes and the gate and the road were dedicated by the commitee of fifteen in charge of sacred affairs <gap reason="lost"/> </p><p>b. Iddibal Caphada Aemilius, son of Himilis, saw to the construction of the calchidicum, porticoes, gate and street at his own expense. </p><p>c. Iddibal Caphada Aemilius, son of Himilis, saw to the construction of the calchidicum, porticoes, gate and street at his own expense. <note>a different, incorrect, case is used for gate and road.</note></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>a) l. 1. trib. pot. XXXIIII - July 11 - 30 June 12.</p>
+            <p>a) l. 1. The chalcidicum and porticus are presumably the double porticoes of the court yard behind. </p>
+            <p>a) l. 2. The XVviri sacrorum: probably a local college of priests; <bibl>N. Degrassi, <title level="s">Epigraphica</title>  VII (1945) 6 ff.</bibl> 
+            </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0399"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XV.9)</head>
+               </figure>
+               <figure>
+                  <graphic url="0400"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XV.8)</head>
+               </figure>
+               <figure>
+                  <graphic url="0401"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XV.10)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

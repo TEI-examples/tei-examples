@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT085" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to third/fourth century emperor </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT085</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Upper left-hand corner of a <rs type="objectType">panel</rs> 
+               (<dimensions>
+                                 <width>0.44</width>
+                                 <height unit="metre">0.44</height>
+                              </dimensions>) 
+               of <material>cream marble</material>, 
+               </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the panel face; <ref type="inscription">186</ref> was inscribed on the reverse face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Third to fourth centuries capitals: line 1, <height unit="metre">0.045</height>; line 2, <height unit="metre">0.055</height>; lines 3 and 4, <height unit="metre">0.05</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0250" notAfter="0400" precision="low" evidence="lettering">Third to fourth centuries A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:  
+                  <rs type="monuList" key="db828">Amphitheatre</rs>, in the underground corridor which bisects the arena (Bartoccini, MS notes)</p>
+                        </event>
+                        <event type="observed">
+                           <p> 
+                              <rs type="monuList" key="db660">Sabratha Museum</rs>. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2009-01-14" who="NU">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="restitutor">Restitutor<supplied reason="lost">i</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><w lemma="humanus">humani</w> 
+               <w lemma="genus">gen<supplied reason="lost">eris</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="3"/><w lemma="atque">ac</w> 
+               <w lemma="super">super</w> 
+               <w lemma="omnis">omn<supplied reason="lost">es</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="indulgeo"><supplied reason="lost">indul</supplied><lb n="4" type="inWord"/>gentissimo</w> 
+               <w lemma="princeps"><supplied reason="lost">principi</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="5"/><w part="M">b</w><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="6"/><w lemma="dominus"><expan><abbr>d</abbr><ex>omino</ex></expan></w> 
+               <w lemma="noster"><expan><abbr>n</abbr><ex>ostro</ex></expan></w> 
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To the restorer  <gap reason="lost"/> of the human race <gap reason="lost"/> and above all <supplied reason="subaudible">others</supplied><gap reason="lost"/> most indulgent emperor <gap reason="lost"/>, our lord, <gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0114"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XVIII.23)</head>
+               </figure>
+               <figure>
+                  <graphic url="0169"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DS 820 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="0188"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XI.19)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

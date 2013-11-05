@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT440" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Geta</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT440</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <rs type="objectType">base</rs> 
+               (<dimensions>
+                                 <width unit="metre">0.45</width>
+                                 <height unit="metre">0.88</height>
+                                 <depth unit="metre">0.52</depth>
+                              </dimensions> ) of coarse <material>grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel 
+               (die, <dimensions>
+                              <width unit="metre">0.24</width>
+                              <height unit="metre">0.73</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: <height unit="metre">0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0198" notAfter="0209" evidence="titulature">A.D. 198-209 (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db720">Forum Vetus</rs>, North Temple (see <ref type="inscription">433</ref>).</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="emperor"><del rend="erasure"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> 
+               <name type="gentilicium" nymRef="Septimius">Sept<supplied reason="lost">imi</supplied>o</name></del>
+                  <lb n="2"/><del rend="erasure"><name type="cognomen" nymRef="Geta"><supplied reason="lost">Getae</supplied>
+                     <gap reason="lost" atLeast="3" atMost="4" unit="character"/></name></del>
+                  <lb n="3"/><del rend="erasure"><w lemma="nobilis"><supplied reason="lost">nobilissimo</supplied></w></del>
+                  <lb n="4"/><del rend="erasure"><name type="cognomen" nymRef="Caesar"><supplied reason="lost">Caesari</supplied></name></del></persName>
+               <lb n="5"/><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></w> 
+               <persName type="emperor"><name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> 
+               <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name> 
+               <name type="gentilicium" nymRef="Septimius">Septim<supplied reason="lost">i</supplied></name>
+               <lb n="6"/><name type="cognomen" nymRef="Seuerus">Seueri</name> <name type="cognomen" nymRef="Pius">Pii</name>
+               <lb n="7"/><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+               <w lemma="filius"><supplied reason="lost"><del rend="erasure">filio</del></supplied></w>
+               <lb n="8"/><persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> 
+               <name type="gentilicium" nymRef="Vlpius">Vlpius</name> <name type="cognomen" nymRef="Cerealis">Cerealis</name></persName>
+               <lb n="9"/><w lemma="procurator"><expan><abbr>proc</abbr><ex>urator</ex></expan></w> 
+               <persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustorum</ex></expan></name></persName>
+               <lb n="10"/><w lemma="pono">posuit</w></ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="4">
+                  <note>L. Septimius Geta was Caesar from 198; the first 4 lines erased after damnatio in 212.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="9">
+                  <note>AVGG.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p> To Lucius Septimius Geta <gap reason="lost"/>, most noble Caesar, son <note>all erased</note> of emperor Caesar Lucius Septimius Severus Pius Pertinax Augustus; Marcus Ulpius Cerealis, equestrian agent of the Augusti, set this up.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 8. M. Ulpius Cerealis. Also in <ref type="inscription">388</ref>, l. 10.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0564"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 833)</head>
+               </figure>
+               <figure>
+                  <graphic url="0565"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XVI.26)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

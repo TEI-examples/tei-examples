@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT424" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Caracalla</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT424</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <rs type="objectType">base</rs> 
+               (width by surviving height by depth <dimensions>
+                                 <width unit="metre">0.53</width>
+                                 <height unit="metre">0.91</height>
+                                 <depth unit="metre">0.53</depth>
+                              </dimensions>) of <material>brown limestone</material>, broken above. Uniform with <ref type="inscription">395</ref>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel 
+               (die <dimensions>
+                              <width unit="metre">0.31</width>
+                              <height unit="metre">0.70</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: <height unit="metre">0.03</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0203-12-10" notAfter="0204-12-09" evidence="titulature">Between 10th Dec. A.D. 203 and 9th Dec. 204. (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db756">Theatre</rs>, South side of rear portico</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w></supplied> 
+               <persName type="emperor"><supplied reason="lost"><name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> 
+                  <persName type="emperor"><name type="cognomen" nymRef="Seuerus">Seueri</name>
+                 <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+                 <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w></supplied> <persName type="emperor"><supplied reason="lost"><w lemma="diuus">diui</w></supplied>
+               <lb n="2"/><name type="praenomen" nymRef="Marcus">Marci</name> <supplied reason="lost"><name type="gentilicium" nymRef="Antoninus">Antonini</name> <name type="cognomen" nymRef="Pius">Pii</name> 
+                  <name type="cognomen" nymRef="Germanicus"><expan><abbr>Ger</abbr><ex>manici</ex></expan></name></supplied>
+               <lb n="3"/>
+               <name type="cognomen" nymRef="Sarmaticus"><expan><abbr>Sarm</abbr><ex>atici</ex></expan></name></persName> 
+               <w lemma="nepos"><expan><abbr>nep</abbr><supplied reason="lost"><ex>oti</ex></supplied></expan></w> 
+                  <persName type="emperor"><supplied reason="lost"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Antoninus">Antonini</name></supplied>
+               <lb n="4"/><name type="cognomen" nymRef="Pius">Pii</name></persName> <w lemma="pronepos">pronepoti</w> 
+                  <persName type="emperor"><supplied reason="lost"><w lemma="diuus">diui</w></supplied> 
+               <name type="cognomen" nymRef="Hadrianus"><supplied reason="lost">Hadri</supplied><lb n="5" type="inWord"/>ani</name></persName>
+               <w lemma="abnepos">abnepoti</w> 
+                  <persName type="emperor"><w lemma="diuus">di<supplied reason="lost">ui</supplied></w> <name type="cognomen" nymRef="Traianus"><supplied reason="lost">Traiani</supplied></name>
+               <lb n="6"/><name type="cognomen" nymRef="Parthicus"><expan><abbr>Parth</abbr><ex>ici</ex></expan></name></persName> <w lemma="et">et</w> 
+               <persName type="emperor"><w lemma="diuus">diui</w> 
+               <name type="cognomen" nymRef="Nerua">N<unclear>er</unclear><supplied reason="lost">u</supplied><unclear>ae</unclear></name></persName> 
+               <w lemma="ad">ad</w>
+               <lb n="7"/><w lemma="nepos">nepoti</w> <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Aurelius">Aurelio</name>
+               <lb n="8"/><name type="gentilicium" nymRef="Antoninus">Antoni<supplied reason="lost">no</supplied></name><name type="cognomen" nymRef="Pius"> <supplied reason="lost">Pi</supplied>o</name> 
+               <name type="cognomen" nymRef="Felix">Felici</name></persName>
+               <lb n="9"/><w lemma="tribunicius"><expan><abbr><unclear>trib</unclear></abbr><ex>unicia</ex></expan></w> 
+               <w lemma="potestas"><expan><abbr>potest</abbr><ex>ate</ex></expan></w> <num value="7">VII</num>  
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> 
+               <w lemma="designo"><expan><abbr>des</abbr><ex>i</ex><abbr>g</abbr><ex>nato</ex></expan></w> <num value="2">II</num>
+               <lb n="10"/>
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <w lemma="propagator">propagatori</w> <expan><abbr>imp</abbr><ex>eri</ex></expan><w/>
+               <lb n="11"/><w lemma="ob">ob</w> <w lemma="caelestis">caelestem</w> <w lemma="in">in</w> <w lemma="se">se</w>
+               <lb n="12"/><w lemma="indulgentia">indulgentiam</w> <w lemma="is">eius</w>
+               <lb n="13"/><persName type="attested"><name type="praenomen" nymRef="Decimus"><expan><abbr>D</abbr><ex>ecimus</ex></expan></name> <name type="gentilicium" nymRef="Clodius">Clodius</name> <name type="cognomen" nymRef="Galba">Galba</name></persName> 
+               <w lemma="procurator"><expan><abbr>proc</abbr><ex>urator</ex></expan></w> 
+               <w lemma="regio"><expan><abbr>reg</abbr><ex>ionis</ex></expan></w>
+               <lb n="14"/><placeName type="ethnic" nymRef="Theuestinus">Theuestinae</placeName> <w lemma="et">et</w> <placeName type="ethnic" nymRef="Hipponensis">Hipponen<lb n="15" type="inWord"/>sis</placeName> 
+               <w lemma="et">et</w> <w lemma="procurator"><expan><abbr>proc</abbr><ex>urator</ex></expan></w> <w lemma="ratio">rationis</w> 
+               <w lemma="priuo">pri<lb n="16" type="inWord"/>uatae</w> <w lemma="per">per</w> <placeName nymRef="Flaminia">Flaminiam</placeName>
+               <lb n="17"/><placeName nymRef="Aemilia">Aemiliam</placeName> <placeName nymRef="Liguria">Liguriam</placeName>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost">To emperor Caesar, son of Severus Augustus,</supplied> grandson <supplied reason="lost">of deified</supplied> Marcus <supplied reason="lost">Antoninus Pius, victor in Germany,</supplied> victor in Sarmatia, great grandson <supplied reason="lost">of deified Antoninus</supplied> Pius, great great grandson <supplied reason="lost">of deified Hadrian,</supplied> great great great grandson of deified <supplied reason="lost">Trajan</supplied> victor in Parthia, and of deified Nerva, Marcus Aurelius Antoninus <supplied reason="lost">Pi</supplied>us Felix, holding tribunician power for the seventh time, designated consul for the second, proconsul, extender of the empire, on account of his godlike indulgence to him, Decimus Clodius Galba, equestrian imperial agent in charge of the region of Theueste and Hippo, and imperial agent for private affairs in Flaminia, Aemilia and Liguria.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 9. trib. pot. VII. 10 Dec. 203 - 9 Dec. 204.</p>
+            <p>l. 13. D. Clodius Galba. Also in <ref type="inscription">395</ref>, ll. 15-19; 407, ll. 5-6.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0546"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 286 Lastre)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT466" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Constantius I or Constantine I, as Caesar</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT466</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.60</width>
+                                 <height unit="metre">1.35</height>
+                                 <depth unit="metre">0.60</depth>
+                              </dimensions>; height incomplete.) of <material>brown limestone</material>, much damaged.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a recessed panel (die, <dimensions>
+                              <width unit="metre">0.43</width>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century A.D. capitals: <height unit="metre">0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0293" notAfter="0305" cert="low" precision="low"
+                               evidence="Constantius-or-Constantine-as-Caesar">A.D. 293-305 or 306-7 (Constantius or Constantine as Caesar).</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db719">Forum Severianum</rs>, East end.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="line"/>
+               <lb n="2"/>
+               <w lemma="nobilis"><supplied reason="lost">nobilissi</supplied><unclear>m</unclear>o</w> <persName type="emperor"><name type="cognomen" nymRef="Caesar">Caesari</name>
+               <lb n="3"/>
+               <supplied reason="lost"><name type="gentilicium" nymRef="Flauius">Flauio</name></supplied> <name type="gentilicium" nymRef="Valerius"><supplied reason="lost">V</supplied>alerio</name> <name nymRef="Constan-"><seg part="I">Constan</seg></name></persName>
+               <lb n="4"/>
+               <gap reason="lost" atLeast="3" atMost="4" unit="character"/> <placeName type="ethnic" nymRef="Lepcitanus">Lepcitani</placeName>
+               <lb n="5"/>
+               <w lemma="deuoueo"><supplied reason="lost">de</supplied>uoti</w> <w lemma="numen">numini</w> 
+               <w lemma="maiestas">maies<lb n="6" type="inWord"/>tatique</w> <w lemma="is">eius</w> <w lemma="publice">publice</w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><gap reason="lost"/>to <supplied reason="lost">the most noble</supplied> Caesar, <supplied reason="lost">Flavius</supplied> Valerius Constan<supplied reason="lost">t</supplied><gap reason="lost"/>; the Lepcitanians, devoted to his divine power and majesty, <supplied reason="subaudible">set this up</supplied> publicly.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 3. Either Constantius I, Caesar 293-305 ; or Constantine the Great, Caesar 306-307.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0602"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 229)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

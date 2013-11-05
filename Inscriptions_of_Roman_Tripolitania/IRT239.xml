@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT239" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscriptions with <rs type="textType">acclamation</rs>
+            </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT239</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Elaborately painted rock-cut <rs type="objectType">tomb</rs>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>There are inscriptions painted above the two sepulcral recesses and 
+               inscribed on the cinerary urns. 
+               a) Within a 
+               <rs type="decoration">wreath</rs> (diam. <dim unit="metre" type="diameter">0.48</dim>) upheld by
+               <rs type="decoration">flying putti</rs>. 
+               b) Within a  <rs type="decoration">tabella ansata</rs> (die, 
+               <dimensions>
+                              <width unit="metre">0.55</width>
+                              <height unit="metre">0.21</height>
+                           </dimensions>) upheld by <rs type="decoration">flying putti</rs>.
+               c) On the lids of the sarcophagi, now lost.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>a) Lettering: <height unit="metre">0.06</height>. 
+               b) Lettering: <height unit="metre">0.03</height>. 
+               c) Not seen  </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Findspot</p>
+                     <origDate notBefore="0268" notAfter="0400" precision="low" evidence="context">Late third or fourth century (context)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="http://atlantides.org/batlas/oea-35-f2" key="db657">Oea</placeName>: 
+                  <rs type="monuList" key="db814">Rock-cut tomb at Gargaresh</rs>, W of Tripoli (map ref. L 418665), immediately S of the main coast road. 
+                  The tomb is elaborately painted and of the late III or IV century.
+                  There are inscriptions painted above the two sepulcral recesses once inscribed on the cinerary urns. </p>
+                        </event>
+                        <event type="observed">
+                           <p>a, b, in situ; c, believed to be in <rs type="monuList" key="db662">Tripoli Castle</rs>. Not seen (1951)</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2210247/tripoli.html">Tripoli</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cil"/>,  <biblScope>VIII: 22687</biblScope>,  <biblScope>VIII:22688</biblScope>
+               </bibl>; 
+               <bibl>
+                  <ptr target="notizarch"/>, <biblScope>III:21</biblScope> ff., fig. 5.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>a and b, transcription (Reynolds, Ward-Perkins); c from previous publications.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="text" n="a" type="textpart"><ab>
+               <lb n="1"/>
+                  <w lemma="deus"><expan><abbr>D</abbr><ex>is</ex></expan></w>
+                  <w lemma="manes"><expan><abbr>m</abbr><ex>anibus</ex></expan></w>
+                  <w lemma="sacer"><expan><abbr>s</abbr><ex>acrum</ex></expan></w> 
+               <lb n="2"/><persName type="attested"><name type="gentilicium" nymRef="Aelia">Aelia</name> 
+                  <name type="cognomen" nymRef="Arisuth">Arisuth</name></persName>
+               <lb n="3"/><w lemma="uiuo">uixit</w> 
+                  <date when-iso="PY60"><w lemma="annus">annos</w>
+               <lb n="4"/><w lemma="sexaginta">sexaginta</w></date>
+               <lb n="5"/><w lemma="multus">plus</w> 
+                  <w lemma="paruus">minus</w>
+            </ab></div><div subtype="text" n="b" type="textpart"><ab>
+               <lb n="1"/>
+               <w lemma="deus"><expan><abbr>D</abbr><ex>is</ex></expan> 
+               </w><w lemma="manes"><supplied reason="lost"><expan><abbr>m</abbr><ex>anibus</ex></expan></supplied></w> 
+               <w lemma="sacer"><expan><abbr>s</abbr><ex>acrum</ex></expan></w> 
+               <lb n="2"/><persName type="attested"><name type="gentilicium" nymRef="Aelius">Aelios</name> 
+                  <name type="cognomen" nymRef="Ma-"><seg part="I">Ma</seg><gap reason="lost" quantity="5" unit="character" precision="low"/></name> 
+                  <name type="cognomen" nymRef="Iurathani">Iurathani</name> 
+                  </persName><lb n="3"/><w lemma="uiuo">bix<supplied reason="lost">i</supplied><unclear>t</unclear></w>
+                  <date><w lemma="annus">an<supplied reason="lost">n</supplied>o<supplied reason="lost">s</supplied></w>
+               <w part="F"><gap reason="lost" quantity="5" unit="character"/>agin<supplied reason="lost">ta</supplied>
+                  </w><w lemma="quinque">qui<unclear>n</unclear><supplied reason="lost">que</supplied></w></date> 
+               <lb n="4"/><w lemma="plus">plus</w> <w lemma="minus">m<supplied reason="lost">i</supplied>nus</w>
+               </ab></div><div subtype="text" n="c" type="textpart"><div subtype="urn" n="i" type="textpart"><ab><lb n="1"/><w lemma="qui">Quae</w> <w lemma="lea">lea</w> <w lemma="iaceo">iacet</w></ab></div><div subtype="urn" n="ii" type="textpart"><ab><lb n="1"/><w lemma="qui">Qui</w> <w lemma="leo">leo</w> <w lemma="iaceo">iacet</w></ab></div></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. Sacred to the gods below. Aelia Arisuth lived approximately 60 years.</p><p>. Aelius Ma<gap reason="lost"/>, ? son of Jurathan. He lived approximately <gap reason="lost"/>5 years.</p><p>c. Who lies here, a lioness; d. who lies here, a lion. </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0292"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. B. 89)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT800" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Greek <rs type="textType">mason's marks</rs>
+            </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT800</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material>White Pentelic marble</material> 
+                              <rs type="decoration">lotus-and-acanthus</rs> 
+                              <rs type="objectType">capitals</rs> of the engaged order.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Mason's marks inscribed on the under surfaces of the capitals. k., recorded by Romanelli, is no longer visible.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <height unit="metre" atLeast="0.06" atMost="0.11">0.06-0.11</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db704">Severan Basilica</rs>; In the gallery which flanks it to the East.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="romanelli1925"/>, <biblScope>113</biblScope>, n. 1.</bibl>
+               nos. a), b), j) and k).<bibl>
+                  <ptr target="seg"/>, <biblScope>IX:803</biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="fragment" n="a" type="textpart"><ab>
+               <lb n="1"/><persName type="attested"><name><seg part="I">Ἀπ</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div><div subtype="fragment" n="b" type="textpart"><ab> 
+               <lb n="1"/><persName type="attested"><name><seg part="I">Ἀριστο</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div><div subtype="fragment" n="c" type="textpart"><ab><lb n="1"/><persName type="attested"><name nymRef="Ἀριστοφῶν">Ἀρισ<supplied reason="lost">τοφ</supplied>ῶντος</name></persName>
+            </ab></div><div subtype="fragment" n="d" type="textpart"><ab><lb n="1"/><orig>ε<unclear>π</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div><div subtype="fragment" n="e" type="textpart"><ab><lb n="1"/><persName type="attested"><name><seg part="I">Εὐ<unclear>π</unclear>ρ</seg></name></persName>
+            </ab></div><div subtype="fragment" n="f" type="textpart"><ab> <lb n="1"/><persName type="attested"><name><seg part="I">Εὐφ</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div><div subtype="fragment" n="g" type="textpart"><ab><lb n="1"/><orig><unclear>π</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div><div subtype="fragment" n="h" type="textpart"><ab> <lb n="1"/><orig>σι</orig></ab></div><div subtype="fragment" n="i" type="textpart"><ab><lb n="1"/><orig>σι</orig></ab></div><div subtype="fragment" n="j" type="textpart"><ab><lb n="1"/><persName type="attested"><name><seg part="I">Σωτη</seg></name></persName>
+            </ab></div><div subtype="fragment" n="k" type="textpart"><ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="undefined" evidence="previous-editor"><orig>υζη</orig></supplied>
+            </ab></div><div subtype="fragment" n="l" type="textpart"><ab>  <lb n="1"/><orig>επ</orig><gap reason="lost" quantity="2" unit="character"/><orig>α</orig></ab></div><div subtype="fragment" n="m" type="textpart"><ab><lb n="1"/><orig>ευ</orig><gap reason="lost" extent="unknown" unit="character"/></ab></div><div subtype="fragment" n="n" type="textpart"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ω</orig></ab></div></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app>
+                  <note>The restoration of (a), (b), (j) and (k) to form a single text (so SEG IX, 803) has no justification whatever.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>a</note> Ap<gap reason="lost"/> </p><p><note>b</note> Aristo<gap reason="lost"/></p><p><note>c</note> Aristophantos</p><p><note>d</note> Ep<gap reason="lost"/></p><p><note>e</note> Eupr( ?) </p><p><note>f</note> Euph<gap reason="lost"/></p><p><note>g</note> P<gap reason="lost"/></p><p><note>h</note> Si( ?) </p><p>    <note>i</note>Si( ?)</p><p><note>j</note> Sote<supplied reason="subaudible" cert="low">r</supplied></p><p>  <note>k</note> <gap reason="lost"/>YZH</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0981"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXI.34)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT174" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Invocation</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT174</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <material>Mosaic</material> 
+                              <rs type="objectType">emblema</rs>, comprising an inscribed <rs type="decoration">tabella ansata</rs> 
+            (die, <dimensions>
+                                 <width unit="metre">0.54</width>
+                                 <height unit="metre">0.45</height>
+                              </dimensions>)
+             within a <rs type="decoration">wreath</rs>; the whole forming part of the late fourth century A.D. floor of a house behind the <rs type="monuList">Antonine Temple</rs>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Mosaic lettering</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lettering: <height unit="metre">0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0368" notAfter="0400" precision="low" evidence="lettering">Late fourth century (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:
+                  Late Fourth century floor of a house behind the <rs type="monuList" key="db829">Antonine Temple</rs> (Regio  II, insula  10, house G).</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="concedo">Concesit</w> <w lemma="fortuna">fort<supplied reason="lost">unam</supplied></w>  
+               <lb n="2"/><w lemma="mihi">michi</w> <w lemma="tam">tam</w> <w lemma="gratus">gra<supplied reason="lost">to</supplied></w> 
+               <lb n="3"/><w lemma="gratia">gratia</w> <w lemma="improbus">inprobi</w> 
+               <w lemma="quis">qu<lb n="4" type="inWord"/>id</w> <w lemma="prodo">prodes</w> <w lemma="qui">quod</w>
+               <lb n="5"/><w lemma="meus">mea</w> <w lemma="fatum">fata</w> <gap reason="lost" atLeast="4" atMost="5" unit="character"/><w part="F">ua</w>
+               <lb n="6"/><w lemma="deus">deo</w> <w part="I">bos</w><gap reason="lost" atLeast="4" atMost="5" unit="character"/><w part="F">atis</w>
+               <lb n="7"/><w part="I">parc<unclear>i</unclear></w><gap reason="lost" atLeast="7" atMost="8" unit="character"/><w part="F">aceatis</w>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="6">
+                  <note> The sixth letter of this line is now destroyed, but appears in a photograph taken when first excavated; perhaps <foreign xml:lang="la">suadeo bos</foreign> (for <foreign xml:lang="la">vos</foreign>) <foreign xml:lang="la">ut </foreign>...</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p> ? The gratitude of a criminal yielded fortune to me who am so grateful; what use are you? because my fates <gap reason="lost"/> ? I persuade you <gap reason="lost"/> sparing <note>plural</note><gap reason="lost"/></p><p><note><foreign xml:lang="la">N.B.</foreign> I do not understand this text.</note></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0209"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DS Leica 467 or 468)</head>
+               </figure>
+               <figure>
+                  <graphic url="0210"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.III.11)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT275" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Votive</rs> to the Gods of Lepcis </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT275</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material>Marble</material> 
+                              <rs type="objectType">panel</rs> reconstructed from fragments (<dimensions>
+                                 <width unit="metre">0.51</width>
+                                 <height unit="metre">0.49</height>
+                              </dimensions>), the bottom right- hand corner missing.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Second century A.D. capitals, with some Rustic forms: <height unit="metre" atLeast="0.40" atMost="0.035">0.40-0.035</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0079" evidence="deification-of-Vespasian">After A.D. 79 (deification of Vespasian)</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  Found in the <rs type="monuList" key="db720">Forum Vetus</rs>, near the Temple of Liber Pater</p>
+                        </event>
+                        <event type="observed">
+                           <p> 
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="deus">Dibus</w> <placeName nymRef="Lepcis Magna">Lepcis <w lemma="magnus">Magnae</w></placeName>
+               <lb n="2"/>
+               <persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name type="gentilicium" nymRef="Vipsanius">Vipsanius</name> <name type="cognomen" nymRef="Clemens">Clemens</name></persName> <w lemma="redemptor">redemtor</w> 
+               <lb n="3"/><w lemma="marmorarius">marmorarius</w> <w lemma="templum">templi</w> <persName type="divine"><name nymRef="Liber">Liberi</name>
+               <lb n="4"/><w lemma="pater">Patris</w></persName> <w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+               <w lemma="suus"><expan><abbr>s</abbr><ex>ua</ex></expan></w>
+               <w lemma="pecunia"><expan><abbr>p</abbr><ex>ecunia</ex></expan></w>
+               <w lemma="uotum"><expan><abbr>u</abbr><ex>otum</ex></expan></w> 
+               <w lemma="soluo"><expan><abbr>s</abbr><ex>oluit</ex></expan></w> <w lemma="sub">sub</w> <w lemma="cura">cura</w>
+               <lb n="6"/>
+               <expan><abbr>Q</abbr><ex>uinti</ex></expan> <persName type="attested"><name type="gentilicium" nymRef="Seruilius">Seruili</name> <name type="cognomen" nymRef="Candidus">Candidi</name></persName> <w lemma="amator">amatoris</w> <w lemma="patria">patriae</w>
+               <lb n="7"/><w lemma="amator">amatoris</w> <w lemma="ciuis">ciuium</w> <w lemma="ornator">ornatoris</w> <supplied reason="lost"><w lemma="patria">patriae</w></supplied>
+               <lb n="8"/><w lemma="flamen">flaminis</w> <persName type="emperor"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Vespasianus">Vespas<supplied reason="lost">iani</supplied></name></persName>
+               <gap reason="lost" atLeast="8" atMost="9" unit="character"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To the gods of Lepcis Magna, Marcus Vipsanius Clemens, marble-merchant, for the temple of Liber Pater, paid his vow at his own expenses; under the administration of Quintus Servilius Candidus, lover of his country, lover of the citizens, adorner of <supplied reason="lost">his country</supplied>, flamen <note>local priest</note> of the deified Vespasian <gap reason="lost"/>.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 5. Q. Servilius Candidus. Also in  <ref type="inscription">357</ref> , l. 4;  <ref type="inscription">358</ref> . l. 5;  <ref type="inscription">359</ref> , l. 3. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0325"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XV.23)</head>
+               </figure>
+               <figure>
+                  <graphic url="0326"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 947)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT432" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Fulvia Plautilla</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT432</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <rs type="objectType">base</rs> 
+               (width by measurable height, <dimensions>
+                                 <width unit="metre">0.50</width>
+                                 <height unit="metre">0.70</height>
+                              </dimensions>) of <material>limestone</material>. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel 
+               (die, width by by measurable height: <dimensions>
+                              <width unit="metre">0.45</width>
+                              <height unit="metre">0.50</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <height unit="metre">0.06</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0201" notAfter="0202">A.D. 201/202 (prosopography)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db750">South of the Theatre</rs>. Described in 1811; half buried in the sand when seen by Bartoccini. No longer visible. Not seen.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p> 
+               <bibl>
+                  <ptr target="cil"/> 
+                  <biblScope>VIII:22670 a</biblScope> 
+               </bibl>; <bibl>
+                  <ptr target="ils"/> 
+                  <biblScope>8918</biblScope>
+               </bibl>; 
+               <bibl xml:id="delaet1949">
+                  <author>De Laet</author>, <title level="m">Portorium</title>, Bruges, <date>1949</date>, 256</bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p> Bartoccini MS notes (description and text), and previous publications.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <supplied reason="lost"><del rend="erasure"><persName type="emperor"><name type="gentilicium" nymRef="Fuluia">Fuluiae</name> 
+                  <name type="cognomen" nymRef="Plautilla">Plau<lb n="2" type="inWord"/>tillae</name> 
+                  <name type="cognomen" nymRef="Augusta"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName></del></supplied>
+               <lb n="3"/><persName type="emperor"><name type="gentilicium" nymRef="Antoninus">Antonini</name> <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name>
+               <lb n="4"/><name type="cognomen" nymRef="Pius">Pii</name></persName> <w lemma="sponsa">sponsae</w>
+               <lb n="5"/><w lemma="dedico">dedicante</w> <persName type="attested"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auio</ex></expan></name> 
+                  <name type="cognomen" nymRef="Celer">Celere</name></persName> <w lemma="procurator"><expan><abbr>proc</abbr><ex>uratore</ex></expan></w>
+               <lb n="6"/><w lemma="libertus"><expan><abbr>lib</abbr><ex>erti</ex></expan></w> <w lemma="et">et</w> <w lemma="familia">familia</w> 
+               <w lemma="splendidus">splendidis<lb n="7" type="inWord"/>simi</w> <w lemma="uectigal"><expan><abbr>uectig</abbr><ex>alis</ex></expan></w> <num value="4">IIII</num> 
+               <w lemma="publicus"><expan><abbr>p</abbr><ex>ublicorum</ex></expan></w> 
+               <placeName type="ethnic"><expan><abbr>A</abbr><ex>fricae</ex></expan></placeName> 
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p> To Fulvia Plautilla Augusta <note>all erased</note> promised bride of Antoninus Augustus Pius; Flavius Celer, equestrian imperial agent, dedicated <supplied reason="subaudible">this</supplied>; the freedmen and family <supplied reason="subaudible">of slaves</supplied> in the service of the splendid tax of the four public dues of Africa gave <supplied reason="subaudible">it</supplied> </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 1-2. Fuluia Plautilla Augusta. PIR(2) F 564; married to Caracalla in 202. Erased after the <foreign xml:lang="la">damnatio</foreign> of Fulvius Plautianus in 205.</p>
+            <p>l. 4. Pius from 201.</p>
+            <p>l. 7. See also <ref type="inscription">315a</ref>.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

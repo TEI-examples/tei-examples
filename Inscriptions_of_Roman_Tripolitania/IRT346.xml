@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT346" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Domitian</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT346</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Seventeen <rs type="objectType">block</rs>s of fine-grained <material>grey limestone</material>
+               (total length 1<dimensions>
+                                 <width unit="metre">5.30</width>
+                                 <height unit="metre">0.51</height>
+                                 <depth unit="metre">0.52</depth>
+                              </dimensions>). Block 3 had been previously used for <ref type="inscription">625</ref>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face with a monumental inscription within a <rs type="decoration">tabella ansata</rs> 
+               (die, 1<dimensions>
+                              <width unit="metre">4.35</width>
+                              <height unit="metre">0.15</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: 
+               l. 1 <height unit="metre">0.16</height>;
+               l. 2, <height unit="metre">0.06</height>;
+               l. 3, <height unit="metre">0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0083" evidence="titulature">A.D. 83 (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db743">Regio V</rs>, laid out in the street between insula  4-5 and insula  6 probably from a building to the North West of the Market.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2009-11-04" who="GB">Fixed image refs</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="section" n="1" type="textpart"><ab>
+                  <lb n="1"/>
+                  <persName type="emperor"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></w> <name type="cognomen" nymRef="Caesar">Caesare</name> 
+                     <persName type="emperor"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Vespasianus">Vespasiani</name></persName> 
+                  <del rend="erasure"><w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w> <name type="cognomen" nymRef="Domitianus">Domitiano</name> 
+                     <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></del></persName>
+                  <del rend="erasure"><w lemma="pontifex"><expan><abbr>pontif</abbr><ex>ice</ex></expan></w> 
+                     <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+                     <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> 
+                     <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> <num value="2">II</num> 
+                     <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratore</ex></expan></w> 
+                     <supplied reason="lost"><num value="3">III</num></supplied>
+                     <w lemma="pater"><expan><abbr>p</abbr><ex>atre</ex></expan></w> 
+                     <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> 
+                     <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></w> <num value="9">VIIII</num>
+                  </del>  
+               </ab></div><div subtype="section" n="2" type="textpart"><ab>
+                  <lb n="1"/>
+                  <persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> 
+                     <name type="gentilicium" nymRef="Nonius">Nonius</name> <persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name></persName> 
+                  <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w> 
+                     <name type="tribe" nymRef="Pomptina"><w lemma="tribus"><expan><abbr>Pom</abbr><ex>ptina tribu</ex></expan></w></name> <name type="cognomen" nymRef="Asprenas">Asprenas</name></persName> 
+                  <persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name> 
+                     <name type="gentilicium" nymRef="Nonius">Noni</name> <name type="cognomen" nymRef="Asprenas">Asprenatis</name></persName> 
+                  <num value="7">VII</num><w lemma="uir"><expan><abbr>uir</abbr><ex>i</ex></expan></w> <w lemma="epulo">epulonum</w> 
+                  <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan></w> 
+                  <w lemma="prouincia">prouinciae</w> <placeName type="ethnic" nymRef="Africus">Africae</placeName> <num value="3">III</num> <w lemma="nepos">nepos</w> <w lemma="triumuir">triumuir</w> 
+                  <w lemma="aurum"><expan><abbr>a</abbr><ex>uro</ex></expan></w> 
+                  <w lemma="argentum"><expan><abbr>a</abbr><ex>rgento</ex></expan></w> 
+                  <w lemma="aes"><expan><abbr>a</abbr><ex>ere</ex></expan></w> 
+                  <w lemma="flo"><expan><abbr>f</abbr><ex>lando</ex></expan></w> 
+                  <w lemma="ferio"><expan><abbr>f</abbr><ex>eriundo</ex></expan></w> <w lemma="seuir">seuir</w> <w lemma="salius">salius</w> <w lemma="Palatinus">Palatinus</w> <w lemma="quaestor">quaestor</w> 
+                  <persName type="emperor"><name type="cognomen" nymRef="Caesar">Caesaris</name> 
+                  <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+                  <rs type="military"><rs type="military"><w lemma="centurio">centurio</w></rs> <w lemma="eques">equitum</w> 
+                  <rs type="ethnic" key="Romanus"><w lemma="Romanus"><supplied reason="lost">R</supplied>omanorum</w></rs></rs> <rs type="military"><w lemma="hasta">hastis</w></rs> <w lemma="honoro">honoratus</w> <w lemma="octo">octo</w>
+                  <rs type="military"><w lemma="uexillum">uexillis</w></rs> <num value="4">IIII</num> 
+                  <rs type="military"><w lemma="corona">coronis</w> <w lemma="muralis">muralibus</w></rs> <w lemma="duo">duabus</w> <rs type="military"><w lemma="uallaris">uallaribus</w></rs> 
+                  <w lemma="duo">dua<supplied reason="lost">b</supplied>us</w> <w lemma="aureus">aurea</w> <w lemma="unus">una</w> 
+                  <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetor</ex></expan></w> <w lemma="inter">inter</w> <w lemma="ciuis">ciues</w> <w lemma="et">et</w> <w lemma="peregrinus">peregrinos</w> <w lemma="legatus">legatus</w> 
+                  <w lemma="pro">pro</w> <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w>
+               </ab></div><div subtype="section" n="3" type="textpart"><ab>
+                  <lb n="1"/>
+                  <placeName nymRef="provincia Gaklatea, Paphlagonia, Pamphylia, Pisidia"><w lemma="prouincia">prouinc<supplied reason="lost">ia</supplied>e</w> <placeName type="ethnic" nymRef="Galatia">Galateae</placeName> 
+                  <placeName type="ethnic" nymRef="Paphlagonia">Paphlagoniae</placeName> <placeName type="ethnic" nymRef="Pamphylia">Pamphyliae</placeName> 
+                  <placeName type="ethnic" nymRef="Pisidia">Pisidiae</placeName></placeName>  
+                  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+                  <num value="7">VII</num><w lemma="uir">uir</w> <w lemma="epulo">e<supplied reason="lost">p</supplied>ulonum</w> 
+                  <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+                  <w lemma="prouincia">prouinciae</w> <placeName type="ethnic" nymRef="Africus">Africae</placeName> 
+                  <w lemma="patronus">patronus</w> <w lemma="municipium">municipii</w> <w lemma="dedico">dedicauit</w> <w lemma="legatus">legato</w> <w lemma="pro">pro</w> <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> 
+                  <persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> 
+                     <name type="gentilicium" nymRef="Cornelius">Cornelio</name> <name type="cognomen" nymRef="Firmus">Firmo</name></persName>
+               </ab></div></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="1 1">
+                  <lem>imperatore III</lem>
+                  <note>Or IIII. </note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>When Emperor Caesar Domitian Augustus, son of deified Vespasian, was chief priest, held tribunician power for the second time, had been acclaimed victor <supplied reason="lost">three <note>? four</note> times</supplied>, father of the country, consul, for the ninth time, Lucius Nonius Asprenas, son of Lucius, of the Roman voting tribe Pomptina, grandson of Lucius Nonius Asprenas, a member of the committee of seven concerned with public feasts, proconsul of the province of Africa for three years, <supplied reason="subaudible">himself</supplied> a member of the committee of three for coining in gold, silver and bronze, <supplied reason="subaudible">also</supplied> of the committee of six, a salius Palatinus <note>member of the priestly college of Palatine Leapers</note>, quaestor of Caesar Augustus, centurion of Roman Knights, awarded military honours consisting of eight spears, four banners, two crowns for crossing walls, two for crossing ramparts, one gold, praetor for judging cases between citizens and non citizens, legate with propraetorian powers in charge of the  province <supplied reason="subaudible">consisting</supplied> of Galatia, Paphlagonia, Pamphylia and Pisidia, consul, member of the committee of seven for sacred feasts, proconsul of the province of Africa, patron of the municipality, dedicated <supplied reason="subaudible">this</supplied>, Marcus Cornelius Firmus being his legate with pro-praetorian powers.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p> l. 1. <foreign xml:lang="la">trib. pot. II</foreign> - 14 Sept. 82 - 13 Sept 83.</p>
+            <p> l. 1. <foreign xml:lang="la">cos. VIIII</foreign> - 1 Jan. 83.</p>
+            <p> l. 2. L. Nonius Calpurnius Asprenas, <foreign xml:lang="la">cos. an. inc.</foreign> 
+   under Vespasian, = <title level="m">PW</title> XVII 875 no. 29. </p>
+            <p> l. 2. L. Nonius Calpurnius Asprenas. <foreign xml:lang="la">Cos. suff.</foreign> 6,
+   <foreign xml:lang="la">procos. Africae</foreign> 14/15,=<title level="m">PW</title> XVII 867. no. 16. </p>
+            <p> l. 2. Caesar Augustus - Nero. </p>
+            <p> l. 2. <foreign xml:lang="la">centurio equitum Romanorum</foreign>. This title is otherwise unknown. </p>
+            <p> l. 2. There is no precedent for such a collection of <foreign xml:lang="la">dona</foreign>. </p>
+            <p> l. 3. <foreign xml:lang="la">Prouincia Galatea Paphlagonia Pamphylia Pisidia</foreign>: Appointed by Galba, see Tac.,  <title>Hist</title>. II, 9. </p>
+            <p> l. 3. M. Cornelio Firmo: Presumably a son of M. Cornelius Firmus, PIR(2)C 1361. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0441"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XI.18)</head>
+               </figure>
+               <figure>
+                  <graphic url="0442"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XI.19)</head>
+               </figure>
+               <figure>
+                  <graphic url="0443_3"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 1472 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

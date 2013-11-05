@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT256" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscription for Ianes</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT256</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <rs type="objectType">Tomb</rs>. Not seen.  </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Not seen.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Unknown</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>Unknown</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="http://atlantides.org/batlas/oea-35-f2" key="db657">Oea</placeName>:
+                  A tomb to the S of the main cemetery at <rs type="monuList" key="db803">Ain Zara </rs>, one of a group seen and briefly recorded by Aurigemma in 1913 (see <ref type="inscription">261)</ref>.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot (1913)</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2210247/tripoli.html">Tripoli</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="aurigemma1932"/>,  <biblScope>169- 170</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Previous publications</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><supplied reason="lost"><w lemma="in">In</w></supplied> <w lemma="hic"><unclear>ok</unclear></w> <w lemma="tumulus">tumulo</w>
+               <lb n="2"/><w lemma="pono"><unclear>p</unclear>ositus</w> <w lemma="sum">est</w>
+               <lb n="3"/><w lemma="bonus"><expan><abbr>b</abbr><ex>onae</ex></expan></w> <w lemma="memoria"><expan><abbr>m</abbr><ex>emoriae</ex></expan></w> 
+               <persName type="attested"><name type="cognomen" nymRef="Ianes">Ianes</name></persName> <w lemma="uiuo">biksit</w>
+               <lb n="4"/><w lemma="in">in</w> <w lemma="pax">pake</w> 
+               <w lemma="multus"><expan><abbr>pl</abbr><ex>us</ex></expan></w> <w lemma="paruus"><expan><abbr>m</abbr><ex>inus</ex></expan></w> 
+               <date when-iso="PY30"><w lemma="annus"><expan><abbr>an</abbr><ex>nos</ex></expan></w> <num value="30">XXX</num></date>
+               <lb n="5"/><w lemma="requiesco">rekiebit</w> <w lemma="sub"><expan><abbr>su</abbr><ex>b</ex></expan></w> <w lemma="charta">karta</w>
+               <lb n="6"/><w lemma="decima">decima</w> <w lemma="mensis">mensis</w> <rs type="month" key="Aprilis"><w lemma="aprilis">Aprilis</w></rs></ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost">In</supplied> this tomb is buried Ianes of good memory; he lived in peace approximately 30 years and went to rest on the 14th of the month of April.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

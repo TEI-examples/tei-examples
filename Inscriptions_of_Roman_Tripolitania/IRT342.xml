@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT342" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Vespasian</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT342</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <rs type="objectType">Block</rs>s
+               (length varying <dimensions>
+                                 <width unit="metre">0.50</width>
+                                 <height unit="metre">0.50</height>
+                              </dimensions>) of <material>grey limestone</material>, probably from a destroyed arch. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on front and back with identical texts.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: <height unit="metre">0.20</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0077" notAfter="0078" evidence="titulature">A.D. 77-78 (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  Found, in part re-used in the <rs type="monuList" key="db706">Byzantine Gate</rs> (at the angle of Regio  IV, insula  12, Regio  V, insula  12, and Regio  VI, insula  1 arid 2), 
+                  in part scattered near by.</p>
+                        </event>
+                        <event type="observed">
+                           <p> now recomposed beside the Gate 
+                  (total measurements, <dimensions>
+                                 <width unit="metre">4.90</width>
+                                 <height unit="metre">2.00</height>
+                              </dimensions>). One block (CIL VIII, 9) is at <rs type="monuList" key="db093">Virgina Water</rs>, Surrey (see <ref type="inscription">310a</ref>).</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cil"/> 
+                  <biblScope>VIII:8 and 9</biblScope>
+               </bibl>; 
+               <bibl>
+                  <author>Bartoccini</author>, <ptr target="rivtrip"/> 
+                  <biblScope>II:69</biblScope>
+               </bibl>; 
+               <bibl>
+                  <ptr target="romanelli1925"/>, <biblScope>87</biblScope>
+               </bibl>; 
+               <bibl>
+                  <ptr target="ae"/> 
+                  <biblScope>1926:155</biblScope>
+               </bibl>: 
+               <bibl>
+                  <author>N. Degrassi</author>, <ptr target="epigraphica"/>, <biblScope>VII:8</biblScope>, n. 4</bibl>.
+               The preceding were written before the discovery of a number of fresh blocks. 
+               Published fully by <bibl xml:id="goodchild1950">
+                  <author>Goodchild</author>, <ptr target="pbsr"/>, <biblScope>XVIII:77-82</biblScope>
+               </bibl>;
+               see also 
+               <bibl xml:id="fastiarchaeologi1950">
+                  <title level="j">Fasti Archaeologici</title>, <biblScope>I:2070</biblScope>
+               </bibl>;
+               <bibl>
+                  <ptr target="ae"/> 
+                  <biblScope>1949:84</biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="section" n="a" type="textpart"><ab>
+                  <lb n="1"/><persName type="emperor"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+                     <name type="cognomen" nymRef="Caesar">Caesa<supplied reason="lost">r</supplied>i</name> 
+                  <name type="cognomen" nymRef="Vespasianus">Vespasian<supplied reason="lost">o</supplied></name> 
+                     <name type="cognomen" nymRef="Augustus"><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied></name></persName>
+                  <w lemma="pontifex"><expan><abbr><supplied reason="lost">p</supplied>ont</abbr><ex>ifici</ex></expan></w> 
+                  <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w>
+                  <w lemma="tribunicius"><supplied reason="lost"><expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied></w>
+                  <lb n="2"/><w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> 
+                  <supplied reason="lost"><num value="9">VIIII</num></supplied> <w lemma="imperator"><supplied reason="lost"><expan><abbr>imp</abbr><ex>eratori</ex></expan></supplied></w> 
+                  <supplied reason="lost"><num value="19">XVIIII</num></supplied> <w lemma="pater"><supplied reason="lost"><expan><abbr>p</abbr><ex>atri</ex></expan></supplied></w> 
+                  <w lemma="patria"><supplied reason="lost"><expan><abbr>p</abbr><ex>atriae</ex></expan></supplied></w>
+                  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <num value="8">V<supplied reason="lost">III</supplied></num>
+                  <lb n="3"/><persName type="emperor"><name type="praenomen" nymRef="Titus"><supplied reason="lost"><expan><abbr>T</abbr><ex>ito</ex></expan></supplied></name> 
+                     <name><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></supplied></name> 
+                  <name type="cognomen" nymRef="Caesar">Caes<supplied reason="lost">ari</supplied></name> <name type="cognomen" nymRef="Vespasianus"><supplied reason="lost">Vespasi</supplied>ano</name> 
+                  <persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+                     <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w></persName>  
+                  <lb n="4"/><w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w>  
+                  <w lemma="imperator"><supplied reason="lost"><expan><abbr>imp</abbr><ex>eratori</ex></expan></supplied></w>
+                  <gap reason="lost" extent="unknown" unit="character"/> 
+                  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <num value="6">VI</num>
+                  <lb n="5"/><persName type="attested"><name type="praenomen" nymRef="Caius"><supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan></supplied></name> 
+                     <name type="gentilicium" nymRef="Paccius"><supplied reason="lost">Pa</supplied>ccius</name> <name type="cognomen" nymRef="Africanus">Africanus</name></persName> 
+                  <w lemma="pontifex"><expan><abbr>pon<supplied reason="lost">tif</supplied></abbr><supplied reason="lost"><ex>ex</ex></supplied></expan></w> 
+                  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w>
+                  <lb n="6"/><w lemma="proconsul"><expan><abbr><supplied reason="lost">pr</supplied>oco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+                  <placeName nymRef="Africa">Africae</placeName> <w lemma="patronus">patronu<supplied reason="lost">s</supplied></w> <w lemma="per">per</w>
+                  <lb n="7"/><persName type="attested"><name type="praenomen" nymRef="Cnaeus"><expan><abbr>Cn</abbr><ex>aeum</ex></expan></name> 
+                     <name type="gentilicium" nymRef="Domitius">Dom<supplied reason="lost">itium</supplied></name> 
+                     <name type="cognomen" nymRef="Ponticus">Ponti<supplied reason="lost">c</supplied>um</name></persName>
+                  <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetorem</ex></expan></w> <w lemma="legatus"><expan><abbr>leg</abbr><ex>atum</ex></expan></w> 
+                  <lb n="8"/><w lemma="pro">pro</w> <w lemma="praetor"><supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied></w> 
+                  <w lemma="patronus"><supplied reason="lost">pat</supplied>ronum</w> <w lemma="municipium">municipi</w> <w lemma="dedico"><expan><abbr>dedic</abbr><ex>auit</ex></expan></w>
+               </ab></div><div subtype="section" n="b" type="textpart"><ab>
+                  <lb n="1"/><persName type="emperor"><w lemma="imperator"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></supplied></w> 
+                  <name type="cognomen" nymRef="Caesar">Caesari</name> <name type="cognomen" nymRef="Vespasianus">V<supplied reason="lost">espasia</supplied>no</name> 
+                     <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> 
+                  <w lemma="pontifex"><expan><abbr>po<supplied reason="lost">nt</supplied></abbr><supplied reason="lost"><ex>ifici</ex></supplied></expan></w>       
+                  <w lemma="magnus"><supplied reason="lost"><expan><abbr>max</abbr><ex>imo</ex></expan></supplied></w>
+                  <lb n="2"/><w lemma="tribunicius"><supplied reason="lost">tr</supplied><expan><abbr>ib</abbr><ex>uncia</ex></expan></w> 
+                  <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> <num value="9">VI<supplied reason="lost">III</supplied></num> 
+                  <w lemma="imperator"><supplied reason="lost"><expan><abbr>imp</abbr><ex>eratori</ex></expan></supplied></w> 
+                  <num value="19"><supplied reason="lost">X</supplied>VIIII</num> 
+                  <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+                  <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> 
+                  <w lemma="consul"><expan><abbr>c<supplied reason="lost">o</supplied></abbr><supplied reason="lost"><ex>n</ex></supplied><abbr>s</abbr><ex>uli</ex></expan></w> <num value="8">VIII</num>
+                  <lb n="3"/><persName type="emperor"><name type="praenomen" nymRef="Titus"><expan><abbr>T</abbr><ex>ito</ex></expan></name> 
+                  <name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name type="cognomen" nymRef="Caesar">Caesari</name> 
+                  <name type="cognomen" nymRef="Vespasianus"><supplied reason="lost">Vespasian</supplied>o</name> 
+                  <persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+                     <w lemma="filius"><supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied></w></persName>
+                  <lb n="4"/><w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w> 
+                  <w lemma="imperator"><expan><abbr>i<supplied reason="lost">mp</supplied></abbr><supplied reason="lost"><ex>eratori</ex></supplied></expan></w><gap reason="lost" extent="unknown" unit="character"/> 
+                  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> 
+                  <num value="6"><supplied reason="lost">VI</supplied></num>
+                  <lb n="5"/><persName type="attested"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> 
+                     <name type="gentilicium" nymRef="Paccius">Pac<supplied reason="lost">ci</supplied>us</name> <name type="cognomen" nymRef="Africanus">Africanus</name></persName> 
+                  <w lemma="pontifex"><expan><abbr>pontif</abbr><ex>ex</ex></expan></w> 
+                  <w lemma="consul"><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></supplied></w>
+                  <lb n="6"/><w lemma="proconsul"><expan><abbr>pr<supplied reason="lost">oc</supplied>o</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+                  <placeName nymRef="Africa">Africae</placeName> <w lemma="patronus">patronu<supplied reason="lost">s</supplied></w> <w lemma="per"><supplied reason="lost">per</supplied></w>
+                  <lb n="7"/><persName type="attested"><name type="praenomen" nymRef="Cnaeus"><expan><abbr>Cn</abbr><ex>aeum</ex></expan></name> 
+                     <name type="gentilicium" nymRef="Domitius">Domitium</name> <name type="cognomen" nymRef="Ponticus">Pon<supplied reason="lost">ticum</supplied></name></persName> 
+                  <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetorem</ex></expan></w> 
+                  <w lemma="legatus"><expan><abbr>leg</abbr><ex>atum</ex></expan></w>
+                  <lb n="8"/><w lemma="pro">pro</w> <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> <w lemma="patronus">patronum</w> 
+                  <w lemma="municipium"><supplied reason="lost">muni</supplied>cipi</w> <w lemma="dedico"><expan><abbr>dedic</abbr><ex>auit</ex></expan></w>
+               </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. To emperor Caesar Vespasian Augustus, chief priest, holding tribunician power for the <supplied reason="lost">ninth time , acclaimed victor nineteen times, father of the country</supplied>, consul <supplied reason="lost">eight</supplied> times, <supplied reason="subaudible">and</supplied> <supplied reason="lost">Titus Emperor</supplied> Caesar Vespasian son of Augustus, priest, <supplied reason="lost">acclaimed victor ? times</supplied>, consul six times; <supplied reason="lost">Caius Pa</supplied>ccius Africanus, pontifex <note>Roman priest</note>, consul, proconsul of Africa, patron, by means of Cnaeus Domitius Ponticus, praetor, legate with propraetorian powers, patron of the municipality, dedicated <supplied reason="subaudible">this</supplied>. </p><p>b.  To emperor Caesar Vespasian Augustus, chief priest, holding tribunician power for the <supplied reason="lost">ninth time , acclaimed victor </supplied> nineteen times, father of the country, consul eight times, <supplied reason="subaudible">and</supplied> Titus Emperor Caesar <supplied reason="lost">Vespasian, son</supplied>  of Augustus, priest, <supplied reason="lost">acclaimed victor ? times</supplied>, consul<supplied reason="lost"> six times</supplied>; Caius Paccius Africanus, pontifex <note>Roman priest</note>, <supplied reason="lost">consul</supplied>, proconsul of Africa, patron, <supplied reason="lost">by means of</supplied> Cnaeus Domitius Ponticus, praetor, legate with propraetorian power, patron of the municipality, dedicated <supplied reason="subaudible">this</supplied></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>a) ll. 1-2. trib. pot. VIIII - 1 July 77 - 30 June 78. The available space suggests VIII rather than VIIII; but on 29 July 77 Vespasian was still imp. XVIII (<title level="s">CIL</title> II, 1423). </p>
+            <p>a) l. 2. cos. VIII - 1 Jan. 77 - 31 Dec. 78.</p>
+            <p>a) l. 5. C. Paccius Africanus. Cos. an. inc. under Nero or Vespasian = PIR1 P 8; known only from Tacitus, Hist. IV, 41.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0427"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 213 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0428"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 214 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0429"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XVI.13)</head>
+               </figure>
+               <figure>
+                  <graphic url="0430"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.XIV.34)</head>
+               </figure>
+               <figure>
+                  <graphic url="0431"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.XIV.33)</head>
+               </figure>
+               <figure>
+                  <graphic url="0432"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.XVI.30)</head>
+               </figure>
+               <figure>
+                  <graphic url="0433"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="0434"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

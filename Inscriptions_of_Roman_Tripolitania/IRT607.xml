@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT607" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Testamentary</rs> 
+               <rs type="textType">honours </rs> for Septimia Polla</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT607</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <material>marble</material> 
+                              <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.58</width>
+                                 <height unit="metre">1.42</height>
+                                 <depth unit="metre">0.58</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.27</width>
+                              <height unit="metre">1.11</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rustic capitals: l. 1, 
+               <height unit="metre">0.065</height>; ll. 2-5, 
+               <height unit="metre">0.05</height>; remainder, 
+               <height unit="metre" atLeast="0.035" atMost="0.04">0.035-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notAfter="0192" evidence="prosopography">Before A.D. 193. (prosopography)</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db712">Colonnaded Street</rs> - in the monumental exedra at the head of the street.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Aurigemma</author>, <ptr target="quaderni"/>, <biblScope>I:63</biblScope>
+               </bibl>
+               <bibl>
+                  <ptr target="ae"/>, <biblScope>1950, 158</biblScope>
+               </bibl>
+               </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="emperor"><name type="gentilicium" nymRef="Septimia">Septimiae</name>
+                  <lb n="2"/><name type="cognomen" nymRef="Polla">Pollae</name></persName>  <persName type="emperor"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name>
+               <lb n="3"/><name type="gentilicium" nymRef="Septimius">Septimi</name> <name type="cognomen" nymRef="Seuerus">Seueri</name> </persName>
+               <lb n="4"/>
+               <w lemma="duouir"><expan><abbr><num value="2">II</num>uir</abbr><ex>i</ex></expan></w> 
+               <w lemma="flamen"><expan><abbr>flam</abbr><ex>inis</ex></expan></w> 
+               <w lemma="perpetuus"><expan><abbr>perp</abbr><ex>etui</ex></expan></w>
+               <lb n="5"/>
+               <w lemma="filia"><expan><abbr>fil</abbr><ex>iae</ex></expan></w> 
+               <persName type="emperor"><name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name type="gentilicium" nymRef="Septimius">Septimius</name>
+               <lb n="6"/><name type="cognomen" nymRef="Geta">Geta</name></persName> <w lemma="heres"><expan><abbr>her</abbr><ex>es</ex></expan></w> <w lemma="soror">sorori</w>
+               <lb n="7"/><w lemma="sancio">sanctissimae</w>
+               <lb n="8"/>ex <w lemma="argentum"><expan><abbr>arg</abbr><ex>ento</ex></expan></w> 
+               <w lemma="pondo"><expan><abbr>p</abbr><ex>ondo</ex></expan></w> <num value="144">CXXXXIIII</num>
+               <lb n="9"/>S = = Σ  <w lemma="decerno">decreto</w>
+               <lb n="10"/><w lemma="splendidus">splendidissimi</w>
+               <lb n="11"/><w lemma="ordo">ordinis</w> <w lemma="pono">posuit</w>
+               <lb n="12"/><w lemma="ex">ex</w> <w lemma="testamentum">testamento</w>
+               <lb n="13"/><w lemma="is">eius</w> <w lemma="hic">huic</w> <w lemma="dono">dono</w>
+               <lb n="14"/><w lemma="uicesimus">uicesimam</w>  <w lemma="et">et</w>
+               <lb n="15"/>
+               <w lemma="argentum"><expan><abbr>arg</abbr><ex>enti</ex></expan></w> 
+               <w lemma="pondo"><expan><abbr>p</abbr><ex>ondo</ex></expan></w> 
+               I<num value="4">IIII</num> S = = Σ
+               <lb n="16"/><w lemma="amplus">amplius</w> <w lemma="qui">quam</w> 
+               <w lemma="legatus">le<lb n="17" type="inWord"/>gatum</w> <w lemma="sum">est</w> <w lemma="adicio">adiecit</w></ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Septimia Polla, daughter of Lucius Septimius Severus, duumvir, perpetual flamen <note>priest</note>; Publius Septimius Geta, her heir, to his most innocent sister; made from 144 pounds and 10 1/2 ounces of silver he erected <supplied reason="subaudible">this</supplied> by decree of the most splendid city council in accordance with her will, and in addition he gave ?the tax of the 20th on heirlooms and 4 lbs 10 1/2 onces of silver in addition to what was bequeathed.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 2. Septimia Polla. See genealogical tree of the family of Septimius Severus, p. 19. </p>
+            <p>l. 3. Lucius Septimius Severus. Also in <ref type="inscription">412</ref>, ll. 6-12; 
+               <ref type="inscription">413</ref>, l. 9. </p>
+            <p>l. 6. P. Septimius Geta.  Also in <ref type="inscription">414</ref>, ll. 1-2. </p>
+            <p>l.14. Perhaps the XX hereditatium?: see Guey ap.  <title>L'Ann Ep</title>. 1950, 158.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0796"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 937)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

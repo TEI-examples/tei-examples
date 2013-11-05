@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT398" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication</rs> to Septimius Severus and Caracalla </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT398</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Fragments of two or more uniform <rs type="objectType">panel</rs>s of <material>grey marble</material> ( <dimensions> 
+                                 <width unit="metre">not calculable</width> 
+                                 <height unit="metre">0.405</height>
+                                 <depth unit="metre">0.041</depth>
+                              </dimensions>).
+               The surviving dimensions correspond exactly to those of the recess which contained the dedicatory inscription of the quadruple tetrapylon 
+               base in the Portico behind the Theatre, a monument of the characteristic Severan materials and workmanship, which may be conjectured 
+               to have been dedicated to Septimius Severus, Julia Domna, Caracalla and Geta.  
+               Some of the surviving fragments, here attributed to Septimius Severus and Caracalla, could equally well refer to any of the four members of the Severan dynasty.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed within a moulded border. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rustic capitals: <height unit="metre">0.09</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0198" notAfter="0209" evidence="reign">A.D. 198-209 (reign)</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  Found in or near the <rs type="monuList" key="db756">Theatre</rs>. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="fragment" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <persName type="emperor"><w lemma="imperator"><expan><abbr>Imp</abbr><supplied reason="lost"><ex>eratori</ex></supplied></expan></w> 
+                     <name type="cognomen" nymRef="Caesar"><supplied reason="lost"><expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied></name>
+                     <persName type="emperor"><w lemma="diuus">diu<supplied reason="lost">i</supplied></w> <supplied reason="lost"><name type="praenomen" nymRef="Marcus">Marci</name></supplied></persName> 
+                     <supplied reason="lost"><w lemma="filius">filio</w></supplied> 
+                     <persName type="emperor"><w lemma="diuus">diu<supplied reason="lost">i</supplied></w> <supplied reason="lost"><name type="gentilicium" nymRef="Antoninus">Antonini</name> <name type="cognomen" nymRef="Pius">Pii</name></supplied></persName> 
+                     <supplied reason="lost"><w lemma="nepos">nepoti</w></supplied> 
+                     <persName type="emperor"><supplied reason="lost"><w lemma="diuus">diui</w></supplied> <name type="cognomen" nymRef="Hadrianus"><supplied reason="lost">H</supplied>adrian<supplied reason="lost">i</supplied></name></persName> 
+                     <w lemma="pronepos"><supplied reason="lost">pr</supplied>onep<supplied reason="lost">oti</supplied></w> 
+                     <supplied reason="lost"><persName type="emperor"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Traianus">Traiani</name> <name type="cognomen" nymRef="Parthicus">Parthici</name></persName> 
+                        <w lemma="abnepos">abnepoti</w></supplied> <persName type="emperor"><supplied reason="lost"><w lemma="diuus">diui</w></supplied> 
+                  <lb n="2"/>
+                  <name type="cognomen" nymRef="Nerua"><unclear>N</unclear><supplied reason="lost">eruae</supplied></name></persName> 
+                     <supplied reason="lost"><w lemma="adnepos">adnepoti</w> 
+                        <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name type="gentilicium" nymRef="Septimius">Septimio</name> <name type="cognomen" nymRef="Seuerus">Seuero</name> <name type="cognomen" nymRef="Pius">Pio</name> <name type="cognomen" nymRef="Pertinax">Pertinaci</name></supplied> 
+                  <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name>
+                  <name><supplied reason="lost">Arab</supplied>ico</name> <name type="cognomen" nymRef="Adiabenicus">A<supplied reason="lost">diabenico</supplied></name> 
+                     <supplied reason="lost"><name type="cognomen" nymRef="Parthicus">Parthico</name></supplied> 
+                     <w lemma="magnus"><supplied reason="lost">m</supplied>axim<supplied reason="lost">o</supplied></w></persName> 
+                  <supplied reason="lost"><placeName type="ethnic" nymRef="Lepcitanus">Lepticani</placeName></supplied> 
+                  <w lemma="publice"><supplied reason="lost">pu</supplied>bli<supplied reason="lost">ce</supplied></w>
+               </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+                  <lb n="1"/>
+                  <persName type="emperor"><w lemma="imperator"><expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratoris</ex></expan></w> 
+                  <name type="cognomen" nymRef="Caesar"><expan><abbr><supplied reason="lost">C</supplied>aes</abbr><ex>aris</ex></expan></name> 
+                  <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Septimius"><unclear>Sep</unclear>t<supplied reason="lost">im</supplied>i</name> <name type="cognomen" nymRef="Seuerus">Seueri</name> <name type="cognomen" nymRef="Pius">Pii</name> 
+                  <name type="cognomen" nymRef="Pertinax"><expan><abbr>Pert</abbr><ex>inacis</ex></expan></name> 
+                  <!-- check the lost bit is the expansion really lost ?  -->
+                  <name type="cognomen" nymRef="Augustus"><expan><abbr><supplied reason="lost">Au</supplied><unclear>g</unclear></abbr><ex>usti</ex></expan></name> 
+                  <name><expan><abbr>Arab</abbr><ex>ici</ex></expan></name>
+                    <supplied reason="lost"><name type="cognomen" nymRef="Adiabenicus"><expan><abbr>Adiab</abbr><ex>enici</ex></expan></name>
+                       <name type="cognomen" nymRef="Parthicus"><expan><abbr>Parth</abbr><ex>ici</ex></expan></name> 
+                       <w lemma="magnus"><expan><abbr>max</abbr><ex>imi</ex></expan></w></supplied></persName> 
+                  <supplied reason="lost"><w lemma="filius"><expan><abbr>fil</abbr><ex>lio</ex></expan></w> 
+                     <persName type="emperor"><w lemma="diuus">diui</w> <name type="praenomen" nymRef="Marcus">Marci</name></persName> 
+                       <w lemma="nepos"><expan><abbr>nep</abbr><ex>oti</ex></expan></w> 
+                     <persName type="emperor"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Pius">Pii</name></persName>
+                       <w lemma="pronepos"><expan><abbr>pronep</abbr><ex>oti</ex></expan></w> 
+                     <persName type="emperor"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Hadrianus">Hadriani</name></persName> 
+                       <w lemma="abnepos"><expan><abbr>abnepo</abbr><ex>oti</ex></expan></w></supplied>
+                  <lb n="2"/><persName type="emperor"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Traianus">Traiani</name> <name type="cognomen" nymRef="Parthicus">Part<supplied reason="lost">hi</supplied>ci</name></persName>
+                  <w lemma="et">et</w> 
+                  <persName type="emperor"><w lemma="diuus">di<supplied reason="lost">ui</supplied></w> <supplied reason="lost"><name type="cognomen" nymRef="Nerua">Neruae</name></supplied></persName>
+                  <supplied reason="lost"><w lemma="adnepos"><expan><abbr>adnep</abbr><ex>oti</ex></expan></w>  
+                     <persName type="emperor"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+                     <name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> 
+                     <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Aurellius">Aurellio</name> <name type="gentilicium" nymRef="Antoninus">Antonino</name>
+                     <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name> <name type="cognomen" nymRef="Parthicus">Parthico</name> <w lemma="magnus">maximo</w></persName> 
+                     <placeName type="ethnic" nymRef="Lepcitanus">Lepcitani</placeName></supplied> <w lemma="publice">publice</w> 
+               </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. To emperor <supplied reason="lost">Caesar, son</supplied>of deified <supplied reason="lost">Marcus, grandson of</supplied> deified 
+         <supplied reason="lost">Antoninus Pius</supplied>, great grandson <supplied reason="lost">of deified Hadrian, great great grandson of 
+            deified</supplied> N<supplied reason="lost">erva, Lucius Septimius Severus Pius Pertinax</supplied> Augustus, 
+         <supplied reason="lost">victor in Arab</supplied>ia, victor in A<supplied reason="lost">diabene</supplied>, greatest 
+         <supplied reason="lost">victor in Parthia</supplied>, the Lepcitanians publicly. </p><p>b. <supplied reason="lost">To the son</supplied>
+         of emperor Caesar Lucius Septimius Severus Pius Pert<supplied reason="lost">inax Au</supplied>gustus, victor in Arabia, 
+         <supplied reason="lost">victor in Adiabene, greatest victor in Parthia, grandson of deified Marcus, great grandson of 
+            deified Pius, great great grandson of deified Hadrian</supplied>, 
+         great great great grandson of deified Trajan, victor in Parthia and of deified <supplied reason="lost">Nerva, Emperor Caesar Marcus
+            Aurellius Antoninus Augustus, greatest victor in Parthia, the Lepcitanians</supplied> publicly.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>a) l. 2. Parthicus maximus.  From 198. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0512"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXIV.35)</head>
+               </figure>
+               <figure>
+                  <graphic url="0513"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXIV.36)</head>
+               </figure>
+               <figure>
+                  <graphic url="0514"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXIV.37)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

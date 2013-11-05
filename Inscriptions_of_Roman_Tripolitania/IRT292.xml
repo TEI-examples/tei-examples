@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT292" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Jupiter Dolichenus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT292</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <rs type="objectType">altar</rs> (<dimensions>
+                                 <width unit="metre">0.73</width>
+                                 <height unit="metre">1.41</height>
+                                 <depth unit="metre">0.73</depth>
+                              </dimensions>) of compact <material>brown limestone</material>,damaged above and considerably weathered; 
+               </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the front within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.46</width>
+                              <height unit="metre">0.59</height>
+                           </dimensions>) and near the top of the left-hand face.
+               Carved in relief on the left-hand face, below the inscription, with a <rs type="decoration">jug standing in a basin</rs>;
+               on the right-hand face a <rs type="decoration">patera</rs>; and on the back a <rs type="decoration">casket</rs>.
+               Above the upper moulding was a rectangular <rs type="decoration">crowning feature</rs> ( <dimensions>
+                              <height unit="metre">0.12</height>
+                           </dimensions>) carved at the angles with <rs type="decoration">rosette-centred volutes</rs>;
+               in the centre of the left-hand (the only surviving) face is an open hand above a <rs type="decoration">pine cone</rs> 
+               a) On the front.
+               b) On the left-hand side.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>a)  Rustic capitals: <height unit="metre" atLeast="0.03" atMost="0.04">0.03-0.04</height>, 
+               b)  Capitals: <height unit="metre">0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0201" notAfter="0211" evidence="reign">A.D. 201-211 (reign)</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  Beside the <rs type="monuList" key="db749">Severan harbour</rs>, in front of the Temple of Jupiter Dolichenus. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl xml:id="merlat1949">
+                  <author>
+                     <name>Merlat</name>
+                  </author>, <title level="m">Répertoire des Inscriptions et des Monuments figurés du Culte de Jupiter Dolichenus</title>, Rennes, <date>1949</date>
+               </bibl>
+               <bibl xml:id="guey1950">
+                  <author>
+                     <name>Guey</name>
+                  </author>, <title level="j">Revue Africaine</title>,  <biblScope>XCIV:55</biblScope> ff.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="section" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <persName type="divine"><name nymRef="Iuppiter"><expan><abbr>I</abbr><ex>oui</ex></expan></name> 
+                  <w lemma="bonus"><expan><abbr>O</abbr><ex>ptimo</ex></expan></w> 
+                  <w lemma="magnus"><expan><abbr>M</abbr><ex>aximo</ex></expan></w>
+                  <lb n="2"/><name type="cognomen" nymRef="Dolicheno">Dolicheno</name></persName>
+                  <lb n="3"/><w lemma="pro">pro</w> <w lemma="salus">salute</w> <w lemma="et">et</w> <w lemma="uictoria">uictoria</w> 
+                  <w lemma="dominus">domi<lb n="4" type="inWord"/>norum</w> <w lemma="noster">nostrorum</w> <persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustorum</ex></expan></name></persName> <w lemma="et">et</w> 
+                  <lb n="5"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                  <lb n="6"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/>e</del>
+                  <unclear><g type="crux"/></unclear> 
+                  <w lemma="redeo">redi<lb n="7" type="inWord"/>tu</w> 
+                  <w lemma="imperator"><expan><abbr><supplied reason="lost">I</supplied>m<unclear>p</unclear></abbr><ex>eratorum</ex></expan></w> 
+                  <w lemma="in">in</w> <w lemma="urbs">urbem</w> <w lemma="suus"><supplied reason="lost">s</supplied>uam</w>
+                  <lb n="8"/>
+                  <persName type="attested"><name type="praenomen" nymRef="Titus"><expan><abbr>T</abbr><ex>itus</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Flauius"><unclear>Fla</unclear>uiu<supplied reason="lost">s</supplied></name>
+                     <gap reason="lost" quantity="1" unit="character"/><name><seg part="F">arinus</seg></name></persName> 
+                  <rs type="military"><w lemma="centurio"><expan><abbr>c</abbr><ex>enturio</ex></expan></w> <w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w></rs>
+                  <lb n="9"/>
+                  <w lemma="uotum"><expan><abbr>u</abbr><ex>otum</ex></expan></w> 
+                  <w lemma="libens"><expan><abbr>l</abbr><ex>ibens</ex></expan></w> <w lemma="pono"><expan><abbr>p</abbr><ex>osuit</ex></expan></w>
+               </ab></div><div subtype="section" n="b" type="textpart"><ab>
+                  <lb n="1"/>
+                  <w lemma="dedico"><expan><abbr>D</abbr><ex>e</ex><abbr>d</abbr><ex>icauit</ex></expan></w> <num value="3">III</num> 
+                  <w lemma="idus">idus</w> <rs type="month" key="Aprilis"><w lemma="aprilis">Apriles</w></rs>
+               </ab></div></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="a 4">
+                  <note> AVGG[G], the third G erased. Septimius Severus, Caracalla and Geta. Geta has the title Augustus in Tripolitanian inscriptions as early as 201, see <ref type="inscription">913</ref>, <ref type="inscription">914</ref>, <ref type="inscription">915</ref>.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="a 6">
+                  <note>ll. 5 and 6, deliberately erased, contained perhaps the name of <foreign xml:lang="la">C. Fulvius Plautianus</foreign>, or that of the dedicator's legion, possibly <foreign xml:lang="la">III Augusta</foreign>, disbanded in 238, or <foreign xml:lang="la">III Gallica</foreign>, disbanded under Elagabalus.
+                     Detachments of <foreign xml:lang="la">III Gallica</foreign> served in Africa in the time of Septimius Severus.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="a 7">
+                  <note> [I]M[P]P or possibly [I]M[PP]P, with the second P erased. </note>
+               </app>
+            </p>
+            <p>
+               <app loc="a 8">
+                  <rdg resp="guey1950">
+                     <supplied reason="lost">M</supplied>arinus</rdg>
+                  <note>This should be accepted, see e.g. Ingholt, <title level="j">Memoirs of the Connecticut Academy of Arts and Sciences</title>, XII (1954) 28 for the use of the cognomen Marinus by worshippers of Dolichenus, presumably because of its apparent connexion with the cult-title Mar = Lord.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="a 9">
+                  <rdg resp="guey1950">An additional line-III <expan>
+                        <abbr>Aug</abbr>
+                        <ex>ustae</ex>
+                     </expan>
+                  </rdg>
+                  <note>No such line exists: the reading results from a misinterpretation of accidental scatches on the stone.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Jupiter Optimus Maximus Dolichenus, for the safety and victory of our lords the three Augusti and <note>erased name</note> and the return of the emperors to their own city. Titus Flavius <gap reason="lost"/>arinus, legionary centurion, willingly paid his vow. b. Dedicated on the 11th of April.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>b) l.1. 11th April, the birthday of Septimius Severus.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0347"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 188 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0348"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.III.18)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT895" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Severus Alexander</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT895</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <rs type="objectType">Panel</rs> (<dimensions>
+                                 <width unit="metre">1.04</width>
+                                 <height unit="metre">0.57</height>
+                                 <depth unit="metre">0.19</depth>
+                              </dimensions>) of <material>grey-brown limestone</material>
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed within a moulded border (die, <dimensions>
+                              <width unit="metre">0.90</width>
+                              <height unit="metre">0.44</height>
+                           </dimensions>).   </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Capitals: ll. 1-3 (lapidary), <height unit="metre">0.055</height>; ll. 4-9 (simple capitals), <height unit="metre">0.035</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notAfter="0235" notBefore="0222" evidence="reign">222-235 A.D. (reign)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db899">Wadi Zemzem</placeName>: <rs type="monuList" key="db782">Gheriat el-Garbia</rs> (map ref. A 579)</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db662">Tripoli Castle</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208638/wadi-zamzam.html">Wādī Zamzam</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cil"/>, <biblScope>VIII:3</biblScope>.</bibl> 
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="emperor"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+               <name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> 
+               <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> 
+               <name type="gentilicium" nymRef="Aurelius"><expan><abbr>Aurel</abbr><ex>io</ex></expan></name>
+               <lb n="2"/><name type="cognomen" nymRef="Seuerus">Seue<supplied reason="lost">r</supplied>o</name> 
+               <del rend="erasure"><name type="cognomen" nymRef="Alexander"><supplied reason="lost">Alexandr</supplied>o</name></del> 
+               <lb n="3"/><name type="cognomen" nymRef="Pius">Pi<unclear>o</unclear></name> 
+               <name type="cognomen" nymRef="Felix"><unclear>F</unclear>e<supplied reason="lost">l</supplied><unclear>i</unclear>c<supplied reason="lost">i</supplied></name> 
+               <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> 
+               <del rend="erasure"><supplied reason="lost"><w lemma="et">et</w></supplied> 
+                  <persName type="emperor"><supplied reason="lost"><name type="gentilicium" nymRef="Iulia">Iuliae</name></supplied>
+               <lb n="4"/>
+               <supplied reason="lost"><name type="cognomen" nymRef="Mamaea">Mamaeae</name> <name type="cognomen" nymRef="Augusta">Augustae</name></supplied></persName>
+                  <supplied reason="lost"><w lemma="mater">matri</w> <persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName></supplied></del>
+                <w lemma="et">et</w> <w lemma="castra">cas<lb n="5" type="inWord"/><unclear>tror</unclear>um</w> 
+               <persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name><seg part="I">A</seg></name></persName><gap reason="lost" quantity="20" unit="character" precision="low"/>
+               <lb n="6"/>
+               <del rend="erasure"><supplied reason="lost"><w lemma="centurio"><expan><abbr>c</abbr><ex>enturio</ex></expan></w> 
+                  <w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> 
+                  <num value="3">III</num>
+                  <w lemma="Augustus"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></w> 
+                  <w lemma="pius"><expan><abbr>p</abbr><ex>iae</ex></expan></w> 
+                  <w lemma="uindex"><expan><abbr>u</abbr><ex>indicis</ex></expan></w></supplied></del>
+               <w lemma="Seuerianus"><expan><abbr><del rend="erasure"><unclear>S</unclear><supplied reason="lost">e</supplied>u</del>erian</abbr><ex>a</ex><abbr>e</abbr></expan> 
+               </w><w lemma="praepono"><expan><abbr><unclear>p</unclear>r</abbr><ex>a</ex><abbr>epo<lb n="7" type="inWord"/>situs</abbr></expan></w>
+                <w lemma="uexillatio">uex<supplied reason="lost">ill</supplied>ationis</w> <w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> 
+               <w lemma="idem">eius<lb n="8" type="inWord"/>dem</w> <w lemma="burgus">burgum</w> <supplied reason="lost"><w lemma="ab">a</w></supplied> <w lemma="solum">solo</w> <w lemma="per">per</w> <w lemma="idem">eandem</w>
+               <lb n="9"/><w lemma="uexillatio">uexillationem</w> <w lemma="instituo">instituit</w> </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To emperor Caesar Marcus Aurelius Severus <supplied reason="lost">Alexander</supplied> <note>erased</note> Pius Felis Augustus <supplied reason="lost">and Julia Mamaea Augusta, mother of Augustus</supplied> <note>erased</note> and of the camps. Marcus A<gap reason="lost" extent="unknown"/> <supplied reason="lost">centurion of Legion III Augusta pia vindex <note>erased</note> Sev</supplied>eriana, placed in command of the detachment of the same legion, built the fort from its foundations, using the same detachment.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 1, 3-4. Erased after Alexander's <foreign xml:lang="la">damnatio</foreign> in 235.</p>
+            <p>l.6. It is not certain whether the erasure of the name of the legion is deliberate and is to be attributed to its damnatio in 238.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1126"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DTV 679 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="1127"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.II.23)</head>
+               </figure>
+               <figure>
+                  <graphic url="1128"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.II.24)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

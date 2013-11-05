@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT635" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Testamentary</rs> 
+               <rs type="textType">honours</rs> for Caecilius Proculus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT635</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.49</width>
+                                 <height unit="metre">0.85</height>
+                                 <depth unit="metre">0.51</depth>
+                              </dimensions>) 
+               of compact <material>brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel (die, 
+               <dimensions>
+                              <width unit="metre">0.285</width>
+                              <height unit="metre">0.66</height>
+                           </dimensions>). </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: 
+               <height unit="metre" atLeast="0.045" atMost="0.035">0.045-0.035</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0101" notAfter="0300" precision="low" evidence="lettering">Second to third centuries A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db723">Gasr Geladieh</rs> (South of Homs) - found nearby.</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="relscav"/>, <biblScope>10.1.34</biblScope>
+               </bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Caecilius">Caecilio</name> <name type="cognomen" nymRef="Proculus">Proculo</name></persName>
+               <lb n="2"/>
+               <persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name>  <name type="gentilicium" nymRef="Silius">Silii</name> <name type="gentilicium" nymRef="Plautius">Plautii</name> 
+               <persName type="attested"><name type="cognomen" nymRef="Haterianus">Hate<lb n="3" type="inWord"/>rianus</name> <name type="cognomen" nymRef="Blaesilianus">Blaesilia<lb n="4" type="inWord"/>nus</name></persName> et <persName type="attested"><name type="cognomen" nymRef="Amicus">Amicus</name>
+               <lb n="5"/><name type="cognomen" nymRef="Haterianus">Haterianus</name> <name type="cognomen" nymRef="Gauilianus">Gaui<lb n="6" type="inWord"/>lianus</name> <name type="cognomen" nymRef="Proximus">Proximus</name></persName></persName>
+               <lb n="7"/>
+               <w lemma="heres"><expan><abbr>h</abbr><ex>eredes</ex></expan></w> <w lemma="per">per</w>
+               <w lemma="successio"><expan><abbr>suc</abbr><ex>cessionem</ex></expan></w> 
+               <w lemma="permitto"><expan><abbr>permis</abbr><ex>su</ex></expan></w>
+               <lb n="8"/>
+               <w lemma="splendidus"><expan><abbr>splend</abbr><ex>idissimi</ex></expan></w> 
+               <w lemma="ordo"><expan><abbr>ord</abbr><ex>inis</ex></expan></w> 
+               <w lemma="pono"><expan><abbr>p</abbr><ex>osuerunt</ex></expan></w>
+               <lb n="9"/><w lemma="ex">ex</w> <w lemma="testamentum">testamento</w>
+               <lb n="10"/><persName type="attested"><name type="gentilicium" nymRef="Sentia">Sentiae</name> <name type="cognomen" nymRef="Caeciliana">Caecili<lb n="11" type="inWord"/>anae</name></persName></ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="2">
+                  <note>LL.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="7">
+                  <note>HH. PERSVC. </note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Caecilius Proculus; the Lucii Silii Plautii Haterianus Blaesilianus and Amicus Haterianus Gavilianus, Proximus, heirs by succession, erected this in accordance with the will of Sentia Caeciliana, with permission of the most splendid city council.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 6. Amicus Haterianus Gauilianus Proximus. Also perhaps in 
+               <ref type="inscription">542</ref>, ll. 1-3; for other members of this family, see 632, n. 1. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0825"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 1003)</head>
+               </figure>
+               <figure>
+                  <graphic url="0826"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XVII.29)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

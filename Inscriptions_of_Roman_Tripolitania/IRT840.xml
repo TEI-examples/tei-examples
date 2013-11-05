@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT840" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT840</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Square <material>marble</material> 
+                              <rs type="objectType">slab</rs> (<dimensions>
+                                 <width unit="metre">0.90</width>
+                                 <height unit="metre">0.98</height>
+                              </dimensions>), re-used.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed when the slab was already cracked. The text concludes with a <rs type="decoration">spray ending in a cross</rs>. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <height unit="metre" atLeast="0.045" atMost="0.065">0.045-0.065</height>; capitals, with uncial D in the last line. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Findspot</p>
+                     <origDate notAfter="0600" notBefore="0501" evidence="context">Fifth century A.D. (context)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db720">Forum Vetus</rs>, in situ beside <ref type="inscription">835</ref>.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Bartoccini</author>, <ptr target="rivarchcrist"/> 
+                  <biblScope>VIII:46</biblScope>, no.5 , fig 11.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><g type="tau-rho"/> <w lemma="hic">Hic</w> <w lemma="requiesco">requiesciet</w> 
+               <w lemma="filius">fili<lb n="2" type="inWord"/>us</w> <persName type="attested"><name type="cognomen" nymRef="Stefanus">Stefani</name></persName> <w lemma="locus">loci</w> 
+               <w lemma="seruator"><expan><abbr>s<lb n="3" type="inWord"/>erbatori</abbr><ex>s</ex></expan></w> 
+               <w lemma="innocens"><expan><abbr>in</abbr><ex>n</ex><abbr>ocens</abbr></expan></w>
+               <lb n="4"/><w lemma="nomen">nomine</w> 
+               <persName type="attested"><name type="cognomen" nymRef="Longinus"><expan><abbr>Long</abbr><ex>i</ex><abbr>n<lb n="5" type="inWord"/>us</abbr></expan></name></persName> 
+               <w lemma="uiuo">bixit</w> <date when-iso="PD7"><w lemma="dies">dies</w>
+               <lb n="6"/>
+               <w lemma="septem"><expan><abbr>sebte</abbr><ex>m</ex></expan></w></date> 
+               <w lemma="mensis">men<lb n="7" type="inWord"/>se</w> 
+               <rs type="month" key="September"><w lemma="September">Septem<lb n="8" type="inWord"/>ber</w></rs> <w lemma="indictio"><expan><abbr>ind</abbr><ex>ictione</ex></expan></w> 
+               <num value="11">XI</num>      
+               <note>sic</note> 
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>Monogram cross</note> Here lies the son of Stephanus, the guardian of this place, an innocent named Longinus. He lived for seven days in the month of September in the eleventh indiction.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 2-3. Stefanus locus serbator. See also <ref type="inscription">834</ref>, <ref type="inscription">835</ref>, <ref type="inscription">839</ref>, <ref type="inscription">843</ref>. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1033"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.XXI.12)</head>
+               </figure>
+               <figure>
+                  <graphic url="1037"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. B. 1542)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

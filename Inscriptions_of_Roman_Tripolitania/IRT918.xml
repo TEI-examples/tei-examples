@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT918" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Verse</rs> inscription by Q. Avidius Quintianus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT918</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <rs type="objectType">Stele</rs> (<dimensions>
+                                 <width unit="metre">0.45</width>
+                                 <height unit="metre">1.88</height>
+                                 <depth unit="metre">0.14</depth>
+                              </dimensions>) of hard <material>grey limestone</material> of marble-like quality.  
+               Uniform with <ref type="inscription">919</ref>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the face within a moulded panel 
+               (die,<width unit="metre">0.34</width>
+                           <height unit="metre">1.79</height>).  Uniform with <ref type="inscription">919</ref>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Third century lapidary capitals: <height unit="metre">0.035</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0201" notAfter="0300" precision="low" evidence="lettering">Third century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db658">Bu-Ngem</placeName>: 
+                  <rs type="monuList" key="db825">Baths at Bu-Ngem</rs> (map ref. X 5206)</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2220431/abu-nujaym.html">Abū Nujaym</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Bartoccini</author>, <ptr target="afrital"/>,<biblScope>II:55</biblScope> ff., with fig</bibl>.;
+               <bibl>
+                  <author>Lavagnini</author>, <ptr target="rivfil"/>, <biblScope>IV:416</biblScope>
+               </bibl>;
+               <bibl>
+                  <ptr target="ae"/>, <biblScope>1929:7</biblScope> b.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><lg met="iambic senarii"><l><lb n="1"/><w lemma="quaero">Quaesii</w> <w lemma="multa">multum</w> <w lemma="quot">quot</w>
+               <lb n="2"/><w lemma="memoria">memoriae</w> <w lemma="trado">tradere</w></l><l><lb n="3"/><w lemma="ago">Agens</w> <w lemma="prae">prae</w> <w lemma="cunctus">cunctos</w> <w lemma="in">in</w>
+               <lb n="4"/><w lemma="hic">hac</w> <w lemma="castra">castra</w> <w lemma="miles">milites</w></l><l><lb n="5"/><w lemma="uotum">Votum</w> <w lemma="communis">communem</w> <w lemma="pro">pro<lb n="6" type="inWord"/>que</w> <w lemma="redeo">reditu</w> <w lemma="exercitus">exercitus</w></l><l><lb n="7"/><w lemma="inter">Inter</w> <w lemma="prior">priores</w> <w lemma="et">et</w> <w lemma="futurus">fu<lb n="8" type="inWord"/>turos</w> <w lemma="reddo">reddere</w></l><l><lb n="9"/><w lemma="dum">Dum</w> <w lemma="quaero">quaero</w> <w lemma="mecum">mecum</w> <w lemma="dignus">dig<lb n="10" type="inWord"/>na</w> <w lemma="diuus">diuom</w> <w lemma="nomen">nomina</w></l><l><lb n="11"/><w lemma="inuenio">Inueni</w> <w lemma="tandem">tandem</w> <w lemma="nomen">nomen</w>
+                  <lb n="12"/><w lemma="et">et</w> <w lemma="numen">numen</w> <w lemma="dea">deae</w></l><l><lb n="13"/><w lemma="uotum">Votis</w> <w lemma="perennis">perennem</w> <w lemma="qui">quem</w>
+                  <lb n="14"/><w lemma="dico">dicare</w> <w lemma="in">in</w> <w lemma="hic">hoc</w> <w lemma="locus">loco</w></l><l><lb n="15"/> <w lemma="salus">Salutis</w> <w lemma="igitur">igitur</w> <w lemma="quamdiu">quan<lb n="16" type="inWord"/>dium</w> <w lemma="cultor">cultores</w> <w lemma="sum">sient</w></l><l><lb n="17"/><w lemma="qua">Qua</w> <w lemma="possum">potui</w> <w lemma="sancio">sanxi</w> <w lemma="nomen">nomen</w>
+                  <lb n="18"/><w lemma="et">et</w> <w lemma="cunctus">cunctis</w> <w lemma="do">dedi</w></l><l><lb n="19"/><w lemma="uerus">Veras</w> <w lemma="salus">salutis</w> <w lemma="lympha">lymphas</w>
+               <lb n="20"/><w lemma="tantus">tantis</w> <w lemma="ignis">ignibus</w></l><l><lb n="21"/><w lemma="in">In</w> <w lemma="iste">istis</w> <w lemma="semper">semper</w> <w lemma="harenaceus">ha<lb n="22" type="inWord"/>renacis</w> <w lemma="collis">collibus</w></l><l><lb n="23"/><w lemma="nuto">Nutantis</w> <w lemma="auster">Austri</w> <w lemma="sol">solis</w>
+                  <lb n="24"/><w lemma="flamma">flammas</w> <w lemma="feruidus">feruidas</w></l><l><lb n="25"/><w lemma="tranquillus">Tranquille</w> <w lemma="ut">ut</w> <w lemma="no">nando</w>
+                  <lb n="26"/><w lemma="delenio">delenirent</w> <w lemma="corpus">corpora</w></l><l><lb n="27"/><w lemma="ita">Ita</w><w lemma="tu"> tu</w> <w lemma="qui">qui</w> <w lemma="sentio">sentis</w> <w lemma="magnus">mag<lb n="28" type="inWord"/>nam</w> <w lemma="facio">facti</w> <w lemma="gratia">gratiam</w></l><l><lb n="29"/><w lemma="aestuo">Aestuantis</w> <w lemma="anima">animae</w>
+               <lb n="30"/><w lemma="fucilis">fucilari</w> <w lemma="spiritus">spiritum</w></l><l><lb n="31"/><w lemma="nolo">Noli</w> <w lemma="pigeo">pigere</w> <w lemma="laus">laudem</w>
+    <lb n="32"/><w lemma="uox">uoce</w> <w lemma="reddo">reddere</w></l><l><lb n="33"/><w lemma="uerus">Veram</w> <w lemma="qui">qui</w> <w lemma="uolo">uoluit
+                  </w><lb n="34"/><w lemma="sum">esse</w><w lemma="tu"> te</w> <w lemma="sanus">sanum</w> <w lemma="tu">tib<supplied reason="lost">i</supplied></w></l><l> <lb n="35"/> <w lemma="sed">Set</w> <w lemma="protesto">protestare</w> <w lemma="uel">uel</w><lb n="36"/><w lemma="salus">salutis</w> <w lemma="gratia">gratia</w></l></lg></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app>
+                  <note> 
+     The verse form and the acrostic are discussed by Lavagnini (loc. cit.). <persName type="attested">
+                        <name type="praenomen">Q. </name>
+                        <name type="gentilicium">Avidius</name> 
+                        <name type="cognomen">Quintianus</name>
+                     </persName> is no doubt to be identified with the centurio of the companion stele, <ref type="inscription">919</ref>.  
+  </note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>While acting in command of all the soldiers in this fort, I have much sought what to hand down to memory, in order to declare to earlier and to future readers the vow which was common to all and made for the safe return of the army. While seeking in my mind for appropriate divinities I have finally thought of the name and power of a never-failing goddess to whom to dedicate this place; and so it is of Health that, insofar as I could, I have sanctified the name for as long as there are worshippers here; to all  I have given the true waters of Health in these fiery temperatures, so that, in the midst of the hills of sand, they may ease their bodies from the burning flames of the southern sun by swimming in tranquillity. So do not be slow, you who feel the great attraction of what I have done, to speak in praise of one who worked for your health, but testify for the sake of Health.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1145"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. B. 1987)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

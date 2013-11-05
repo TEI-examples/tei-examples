@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT384" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Commodus </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT384</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Seven fragments, all probably from the same large <material>marble</material> 
+                              <rs type="objectType">panel</rs> (<depth unit="metre">0.03</depth> thick).
+               a) <dimensions>
+                                 <width unit="metre">0.26</width>
+                                 <height unit="metre">0.185</height>
+                              </dimensions>, no edges surviving.
+               b) <dimensions>
+                                 <width unit="metre">0.195</width>
+                                 <height unit="metre">0.185</height>
+                              </dimensions>, no edges surviving.
+               c) <dimensions>
+                                 <width unit="metre">0.11</width>
+                                 <height unit="metre">0.25</height>
+                              </dimensions>, no edges surviving.
+               d) <dimensions>
+                                 <width unit="metre">0.13</width>
+                                 <height unit="metre">0.17</height>
+                              </dimensions>, no edges surviving.
+               e) <dimensions>
+                                 <width unit="metre">0.12</width>
+                                 <height unit="metre">0.18</height>
+                              </dimensions>, no edges surviving.
+               f) <dimensions>
+                                 <width unit="metre">0.15</width>
+                                 <height unit="metre">0.265</height>
+                              </dimensions>, last line of text.
+               g) <dimensions>
+                                 <width unit="metre">0.19</width>
+                                 <height unit="metre">0.175</height>
+                              </dimensions>, no edges surviving.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Mannered Rustic capitals: <height unit="metre" atLeast="0.12" atMost="0.13">0.12-0.13</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0117" notAfter="0192" evidence="reign">A.D. 117-192. (reign)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:  <rs type="monuList" key="db770">Forum Vetus</rs>;
+                  g. Found behind the Temple of Rome and Augustus. The exact findspot of the remainder is not recorded..</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>
+                           </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="fragment" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <persName type="emperor"><name type="gentilicium" nymRef="Antoninus"><supplied reason="lost">Anto</supplied>nino</name></persName>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <w lemma="tribunicius"><expan><abbr><supplied reason="lost">t</supplied>rib</abbr><ex>unicia</ex></expan></w> 
+                  <supplied reason="lost"><w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w></supplied>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="c" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <w lemma="imperator"><expan><abbr><supplied reason="lost">i</supplied>mp</abbr><ex>eratori</ex></expan></w> 
+                  <num value="5"><unclear>V</unclear></num>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">t</orig> 
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="d" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>ci</orig><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>g</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="e" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>io</orig><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>a</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="f" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>ri</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="g" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig><unclear>o</unclear></orig>
+                  <placeName type="ethnic" nymRef="Lepcitanus">Lep<unclear>c</unclear><supplied reason="lost">itani</supplied></placeName>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note> a.</note><gap reason="lost"/><supplied reason="subaudible">to </supplied> Antoninus <gap reason="lost"/>  </p><p>b.<gap reason="lost"/>holding tribunician <supplied reason="lost">power for the ? time</supplied><gap reason="lost"/></p><p>c. <gap reason="lost"/> acclaimed victor five <note>or up to nine</note> times <gap reason="lost"/></p><p><note>d, e, f</note>  not usefully translatable. </p><p>g.<gap reason="lost"/> the Lepcitanians <gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>Presumably Commodus; the style of lettering suggests Caracalla, but he was never imp. V.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0491"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXIII.19)</head>
+               </figure>
+               <figure>
+                  <graphic url="0493"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XII.5)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

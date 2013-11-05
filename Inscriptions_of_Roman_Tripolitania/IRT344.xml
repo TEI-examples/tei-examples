@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT344" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication</rs> to Titus (?) </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT344</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Two <rs type="objectType">block</rs>s of <material>grey limestone</material>, probably from the same inscription. 
+               a) <dimensions>
+                                 <width unit="metre">0.89</width>
+                                 <height unit="metre">0.50</height>
+                                 <depth unit="metre">0.52</depth>
+                              </dimensions>.
+               b) <dimensions>
+                                 <width unit="metre">0.77</width>
+                                 <height unit="metre">0.51</height>
+                                 <depth unit="metre">0.53</depth>
+                              </dimensions>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the surviving faces.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>a) First century lapidary capitals:from top of block, l. 1, <height unit="metre">0.16-0.35</height>; to bottom, <height unit="metre">0.14</height>.</handNote>
+                     <handNote>b) First century capitals: from top of block. l. 1, <height unit="metre">0.16-0.35</height>; l. 2 (decapitated),<height unit="metre">0.37-0.50</height> 
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0072" notAfter="0079" cert="low" evidence="titulature">A.D. 72-79 (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db720">Forum Vetus</rs>, reused for the steps of the <rs type="monuList" key="db736">Propylaea</rs> of the <rs type="monuList">Curia</rs>. 
+                  Block b) is cut to form a moulding. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cagnatmerlin1923"/>, <biblScope>I</biblScope>f.</bibl>; 
+               <bibl>
+                  <ptr target="romanelli1925"/>, <biblScope>132</biblScope>, part of b) only</bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="block" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">o</w> 
+                  <persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+                  <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w> 
+                  <w lemma="pontifex"><expan><abbr>po<supplied reason="lost">nt</supplied></abbr><supplied reason="lost"><ex>ifici</ex></supplied></expan></w>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="block" n="b" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <w lemma="tribunicius"><supplied reason="lost"><expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied></w> <w lemma="potestas"><supplied reason="lost"><expan><abbr>pot</abbr><ex>estate</ex></expan></supplied></w>
+                  <gap reason="lost" extent="unknown" unit="character"/><num value="2">II</num> 
+                  <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> 
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/> 
+                  <placeName type="ethnic" nymRef="Lepcitanus"><expan><abbr>Lep</abbr><ex>citani</ex></expan></placeName> <w lemma="do">d<unclear>e</unclear><supplied reason="lost">derunt</supplied></w>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>a. </note> To <gap reason="lost"/> son of Augustus, <supplied reason="lost">chief</supplied> priest <gap reason="lost"/> <note>b. </note><gap reason="lost"/> holding tribunician power for the ? <note>at least second</note> time <gap reason="lost"/> the Lepcitanians gave <gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>a) l. 1; b) l. 1. Within the limits suggested by material and lettering, probably these titles refer to Titus, from 1 Jul. 72. </p>
+            <p>b) l. 2. Romanelli, loc. cit., suggests associating with <ref type="inscription">489</ref>; but the size of the lettering is different. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0438"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.XXI.33)</head>
+               </figure>
+               <figure>
+                  <graphic url="0439"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 245 Lastre)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT469" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Constantine II and Constantius II</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT469</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Long rectangular <rs type="objectType">base</rs>. The left-hand face of <ref type="inscription">457</ref>, q.v.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed within a moulded panel (die. <dimensions>
+                              <width unit="metre">1.51</width>
+                              <height unit="metre">0.46</height>
+                           </dimensions>). which is divided into two halves by a vertical line. Uniform with <ref type="inscription">462</ref>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century A.D. capitals: <height unit="metre">0.06</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0337" notAfter="0340" evidence="reign">A.D. 337-340 (reign)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db719">Forum Severianum</rs>, East end. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="half" n="a" type="textpart"><note>Left half</note><ab>
+                  <lb n="1"/>
+                  <del rend="erasure"><w lemma="dominus">Domino</w> <w lemma="noster">nostro</w></del>
+                  <lb n="2"/>
+                  <del rend="erasure"><persName type="emperor"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auio</ex></expan></name> <name type="gentilicium" nymRef="Claudius">Claudio</name> <name type="cognomen" nymRef="Constantinus">Constantino</name></persName></del>
+                  <lb n="4"/>
+                  <del rend="erasure"><w lemma="nobilis">nobilissimo</w> <w lemma="atque">ac</w> 
+                     <w lemma="floreo">floren<lb n="5" type="inWord"/>tissimo</w> <persName type="emperor"><name type="cognomen" nymRef="Caesar">Caesari</name></persName></del> 
+               </ab></div><div subtype="half" n="b" type="textpart"><note>Right half</note><ab>
+                  <lb n="1"/><w lemma="dominus">Domino</w> <w lemma="noster">nostro</w>
+                  <lb n="2"/>
+                  <persName type="emperor"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auio</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Iulius"><expan><abbr>Iul</abbr><ex>io</ex></expan></name> <name type="cognomen" nymRef="Constantius">Constantio</name>
+                  <lb n="3"/><name type="cognomen" nymRef="Pius">Pio</name> <name type="cognomen" nymRef="Felix">F<supplied reason="lost">elici</supplied></name>
+                  <w lemma="semper"><supplied reason="lost">sem</supplied><lb n="3" type="inWord"/>per</w> <name type="cognomen" nymRef="Augustus">Augusto</name></persName>
+               </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a.To our lord Flavius Claudius Constantine, most noble and excellent Caesar <note>all erased</note>. b. To our Lord Flavius Julius Constantius Pius, Felix, always Augustus. </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>
+               <note>a</note> Constantinus II: Erased after damnatio in 340. The omission of the title Augustus is singular, see below. </p>
+            <p>
+               <note>b</note> Constantius II: Augustus with his brothers, Constantinus and Constans, from Sept. 337</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0605"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 1555 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="0606"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 227 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="1183"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

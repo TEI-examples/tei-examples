@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT315a" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Venus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT315a</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Hexagonal <rs type="objectType">base</rs> of <material>grey limestone</material> (faces <dimensions>
+                                 <height unit="metre">0.20</height>
+                                 <height unit="metre">0.66</height>
+                              </dimensions>) of 
+               which the crowning feature has been roughly cut back.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a recessed panel, <rs type="decoration">curved</rs> at the top and <rs type="decoration">squared</rs> at the foot
+               (die <dimensions>
+                              <width unit="metre">0.14</width>
+                              <height unit="metre">0.52</height>
+                           </dimensions>). Each of the remaining five faces is <rs type="decoration">ornamented with a recessed panel</rs>, 
+               <rs type="decoration">curved</rs> at the top and <rs type="decoration">shaped</rs> at the foot, within which is carved in relief one of the following symbols (from right to left, starting at the inscribed face):
+               a <rs type="decoration">caduceus</rs>; a group of <rs type="decoration">three flagella</rs>(?); a <rs type="decoration">jug</rs>; a <rs type="decoration">folded flagellum</rs> (?); and a <rs type="decoration">purse</rs> (?).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Second century A.D.; <height unit="metre" atLeast="0.04" atMost="0.025">0.04-0.025</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0101" notAfter="0200" precision="low" evidence="lettering">Second century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db698">House in Homs</rs>, formerly the Carabinieri Barracks. Found during restorations in 1949-1950. It had been re-used to support an arch in the house.</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-10-03" who="GB">Hand-coded (missing in BSR HTML)</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl xml:id="caputo1949">
+                  <author>Caputo</author>, <title level="j">Fasti Archaeologici</title> IV (<date>1949</date>) <biblScope>3985</biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="divine"><name nymRef="Numen"><expan><abbr>Num</abbr><ex>ini</ex></expan></name>
+               <lb n="2"/><name nymRef="Venus">Veneris</name> <name nymRef="Adquisitrix">Ad<lb n="3" type="inWord"/>quisitricis</name>
+               <lb n="4"/><name type="cognomen" nymRef="Augusta"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <w lemma="sacer">sacrum</w>
+               <lb n="5"/><persName type="attested"><name type="cognomen" nymRef="Iucundus">Iucundus</name></persName>
+               <lb n="6"/><persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+               <w lemma="nos"><expan><abbr>n</abbr><ex>ostri</ex></expan></w> <w lemma="uerna">uer<lb n="7" type="inWord"/>na</w> <w lemma="uectigal">uegtigalis</w> <note>sic</note>
+               <lb n="8"/><num value="4">IIII</num> <w lemma="publicus"><expan><abbr>p</abbr><ex>ublicorum</ex></expan></w>
+               <placeName><expan><abbr>A</abbr><ex>fricae</ex></expan></placeName>
+               <w lemma="uilicus"><expan><abbr>uil</abbr><ex>icus</ex></expan></w>
+               <lb n="9"/><placeName type="ethnic" nymRef="Lepcis Magna">Lepcis</placeName> <w lemma="magnus"><expan><abbr>mag</abbr><ex>nae</ex></expan></w>
+               <lb n="10"/><w lemma="terrestris">terrestris</w>
+               <lb n="11"/><w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w>
+               <w lemma="suus"><expan><abbr>s</abbr><ex>uo</ex></expan></w>
+               <w lemma="pono"><expan><abbr>p</abbr><ex>osuit</ex></expan></w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Sacred to the divine power of Venus the Acquirer, Augusta; Jucundus, home-born slave of our Augustus, in charge of the collection of the four public revenues of Africa for land-borne goods, set this up at his own expense. </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>On <foreign xml:lang="la">publicorum Africae</foreign>, see also
+               <ref type="inscription">432</ref>.</p>
+            <p>To <foreign xml:lang="la">vilicus terrestris</foreign>, compare
+               <foreign xml:lang="la">vilicus maritimus</foreign>,
+               <ref type="inscription">302</ref>
+            </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

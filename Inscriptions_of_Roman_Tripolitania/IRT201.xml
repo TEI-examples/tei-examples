@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT201" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscription of Esidorus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT201</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Re-used <rs type="objectType">paving-slab</rs> 
+               (<dimensions>
+                                 <width unit="metre">0.58</width>
+                                 <height unit="metre">0.88</height>
+                              </dimensions>) of 
+               <material>grey limestone</material>. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the surviving face.  Part of the top line is now lost, and is here read from an earlier photograph.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height unit="metre" atLeast="0.05" atMost="0.07">0.05-0.07</height>; uncial D twice.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>Unknown</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:
+                  <rs type="monuList" key="db831">Byzantine city-wall to the W of the Forum</rs>. Found during trenching, near the site of the modern tunny-factory</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db660">Sabratha Museum</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="basiliche"/>, <biblScope>15</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><g type="crux"/> 
+               <w lemma="bonus"><expan><abbr>B<hi rend="supraline">o<surplus>m</surplus></hi></abbr><ex>nae</ex></expan></w> 
+               <w lemma="memoria"><expan><abbr>memo</abbr><ex>ria</ex><abbr>e</abbr></expan></w> 
+               <lb n="2"/><persName type="attested"><name type="cognomen" nymRef="Esidorus">Esidorus</name></persName> 
+               <w lemma="uiuo"><expan><abbr>bix</abbr><ex>i</ex><abbr>t</abbr></expan></w> 
+               <lb n="3"/><w lemma="in">in</w> <w lemma="pax"><expan><abbr>p</abbr><ex>ac</ex><abbr>e</abbr></expan></w> 
+               <w lemma="annus">an<supplied reason="omitted">n</supplied>os</w>
+               <lb n="4"/>
+               <date when-iso="PY70"><num value="70">LXX</num></date> 
+               <w lemma="multus"><expan><abbr>pl</abbr><ex>u</ex><abbr>s</abbr></expan></w> 
+               <w lemma="paruus"><expan><abbr>m</abbr><ex>inu</ex><abbr>s</abbr></expan></w> 
+               <w lemma="sub"><expan><abbr>s</abbr><ex>ub</ex></expan></w> 
+               <w lemma="dies"><expan><abbr>d</abbr><ex>ie</ex></expan></w>
+               <lb n="5"/>
+               <num value="11">XI</num> 
+               <w lemma="mensis"><expan><abbr>men</abbr><ex>sis</ex></expan></w> 
+               <rs type="month" key="October"><w lemma="October"><expan><abbr>O</abbr><ex>cto</ex><abbr>b</abbr><ex>ris</ex></expan></w></rs> 
+               <w lemma="indictio"><expan><abbr>ind</abbr><ex>ictione</ex></expan></w>
+               <num value="4">IIII</num>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="1">
+                  <note>
+                     <g type="crux"/> 
+                     <foreign xml:lang="la">B<hi rend="supraline">OM</hi>MEMOE</foreign> and small 
+                     <foreign xml:lang="la">LE</foreign> under the third 
+                     <foreign xml:lang="la">M</foreign>.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>cross</note> Of good memory. Esidorus lived in peace for approximately 70 years <supplied reason="subaudible">and was laid to rest</supplied> on the 11th October in the fourth indiction.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0236"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DS 811 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="0237"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. B. 569)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

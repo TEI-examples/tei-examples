@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT313" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> 
+               <rs type="textType">Dedication</rs> to the Gods dwelling with Sarapis </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT313</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Lower part of a rectangular <rs type="objectType">base</rs> 
+               (<dimensions>
+                                 <width unit="metre">0.24</width>
+                                 <height unit="metre">0.365</height>
+                                 <depth unit="metre">0.205</depth>
+                              </dimensions>) 
+               of fine-grained <material>brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a <rs type="decoration">moulded panel</rs> (die, <dimensions>
+                              <width unit="metre">0.102</width>
+                              <height unit="metre">0.285</height>
+                           </dimensions>). </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lettering: <height unit="metre">0.022</height>- <height unit="metre">0.018</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0138" notAfter="0301" evidence="nomenclature">Second to third centuries A.D. (nomenclature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:  Findspot unrecorded. </p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl xml:id="robert1953">
+                  <author>L. <name>Robert</name>
+                  </author>, <title level="j">Rev. Et. Gr.</title>, LXVI (1953) 203.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="σύνναος">συννά<supplied reason="lost">ο</supplied>ι<supplied reason="lost">ς</supplied></w>
+               <lb n="2"/><w lemma="θεός">θεοῖς</w>
+               <lb n="3"/><persName type="attested"><name type="gentilicium" nymRef="Aurelius">Αὐρήλιος</name>
+               <lb n="4"/><name type="cognomen" nymRef="Ὠριγένης">Ὠριγένης</name></persName>
+               <lb n="5"/><w lemma="ὁ">ὁ</w> <w lemma="καί"><unclear>καὶ</unclear></w>
+               <lb n="6"/><persName type="attested"><name type="signum" nymRef="Ἀθηνόδωρος"><expan><abbr>Ἀθη<supplied reason="lost">νόδ</supplied>ωρ</abbr><ex>ος</ex></expan></name></persName>
+               <lb n="7"/><w lemma="σύν">σὺν</w> <w lemma="ὁ">τῇ</w> <w lemma="θυγάτηρ">θυγα<lb n="8" type="inWord"/>τρὶ</w> <persName type="attested"><name type="cognomen" nymRef="Πρωτάρη">Πρωτάρ<lb n="9" type="inWord"/>ῃ</name></persName>
+               <lb n="10"/><w lemma="εὐχαριστήριον">εὐχαριστήριον</w></ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="8-9">
+                  <rdg resp="robert1953">Πρωτάρχῃ</rdg>
+                  <note>  : this is probably correct ; it gives a better lay-out for l. 9, and in fact some faint traces of χ seem visible.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To the gods who dwell in the same temple, Aurelius Origenes, also known as Athenodoros, together with his daughter, Protare, <supplied reason="subaudible">made this</supplied> offering.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0377"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 1527 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

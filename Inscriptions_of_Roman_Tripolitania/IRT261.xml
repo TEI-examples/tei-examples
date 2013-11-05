@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT261" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> texts from <rs type="textType">Christian</rs>
+               cemetery</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT261</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>,
+                  <pubPlace>Rome</pubPlace>: <publisher>British School at Rome</publisher>,
+                     <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>The <rs type="objectType">tomb</rs>s are associated with a structure, perhaps a
+               cemetery chapel, which is still buried, and with the remains of a precinct wall. They
+               are built of rubble, with a stucco surface, and all approximate to the free-standing,
+               saddle-backed form, rising from a projecting plinth, which is still used in many of
+               the cemeteries of Tripolitania. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>The texts are inscribed along the lateral faces, on the gables, and in some cases on
+               the upper surface of the plinth, and they alternate with inscribed Christian
+            symbols</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>See Aurigemma on individual inscriptions.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Findspot</p>
+                     <origDate/>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="http://atlantides.org/batlas/oea-35-f2" key="db657">Oea</placeName>: Christian cemetery at <rs type="monuList" key="db803">Ain Zara</rs> (map ref. L 540580), 14 km. SSE of Tripoli on the
+                  edge of the Tripoli oasis. Discovered and recorded by Aurigemma in <date type="foundDate">1911-14</date>. The cemetery lies on the edge of mobile sanddunes and when revisited in 1948 many of the tombs
+               had been reburied, and others had disintegrated. Fragments of 2 only of the texts
+               recorded by Aurigemma could be located.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2210247/tripoli.html">Tripoli</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>For the texts, see the detailed publication by <bibl>
+                  <ptr target="aurigemma1932"/>
+               </bibl> [Material from these texts was incorporated within the indices of the
+               1952 volume, but is not included here, 2009].</p>
+         </div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>See Aurigemma for individual inscriptions.</p>
+            <p>
+               Of the 121 tombs located and examined, 59 yielded
+            some part of the inscriptions with which each was originally covered.</p>
+            <p>
+               The whole complex has been ascribed by
+               Aurigemma to the period of Vandal domination preceding the Byzantine reconquest of
+               531.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

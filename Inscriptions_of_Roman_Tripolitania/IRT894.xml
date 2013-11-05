@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT894" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT894</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">1.60</width>
+                                 <height unit="metre">0.55</height>
+                                 <depth unit="metre">0.60</depth>
+                              </dimensions>) of <material>limestone</material>. There is a <rs type="decoration">small niche</rs> above the inscribed panel.  </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Third to fourth centuries capitals: <height unit="metre" atLeast="0.05" atMost="0.06">0.05-0.06</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0201" notAfter="0400" precision="low" evidence="lettering">Third to fourth centuries A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db655">Middle Lower Sofeggin Basin </placeName>:
+                 <rs type="monuList" key="db775">Faschiet el-Habs</rs> in the Wadi Merdum (map ref. R 4748), a little North West of the crossing of the road Beni Ulid - Bir Dufan. Seen and transcribed by Goodchild in <date type="foundDate">1948</date>
+                           </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot (1948)</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="http://www.geonames.org/2217549/fasqiyat-al-%E1%B8%A9abs.html">Fasqīyat al Ḩabs</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Goodchild, Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="section" n="a" type="textpart"><ab>
+               <lb n="1"/>
+               <w lemma="deus"><expan><abbr>D</abbr><ex>is</ex></expan></w> 
+               <w lemma="manes"><expan><abbr>m</abbr><ex>anibus</ex></expan></w> 
+               <w lemma="sacer"><expan><abbr>s</abbr><ex>acrum</ex></expan></w>
+               <lb n="2"/><persName type="attested"><name type="cognomen" nymRef="Naborsurnia">Nabor<lb n="3" type="inWord"/>sur<unclear>n</unclear>i<unclear>a</unclear></name></persName>
+               <lb n="4"/><foreign xml:lang="phn-LY">auo
+               <lb n="5"/>sanu</foreign>
+               <lb n="6"/><w lemma="numero"><expan><abbr>n</abbr><ex>umero</ex></expan></w>
+               <num value="80">LXXX</num>
+               <lb n="7"/><orig>s<space quantity="1"/>a<space quantity="1"/>t<space quantity="1"/>h</orig>
+               <lb n="8"/><gap reason="lost" quantity="2" unit="character"/><orig>m<space quantity="1"/>i<space quantity="1"/>l<space quantity="1"/>i<space quantity="1"/>m<space quantity="1"/>e</orig>
+               <lb n="9"/><gap reason="lost" quantity="2" unit="character"/><orig>d<space quantity="1"/>u<space quantity="1"/>o</orig>
+               <lb n="10"/><gap reason="lost" quantity="2" unit="character"/><orig>s</orig>
+            </ab></div><div subtype="section" n="b" type="textpart"><ab>
+                  <lb n="1"/><orig>ny</orig> 
+                  <lb n="2"/><orig>fo</orig>
+               </ab></div></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="5">
+                  <note>The Punic equivalent of <foreign xml:lang="la">vixit annos</foreign>; see <ref type="inscription">855</ref>.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. Sacred to the gods below. Naborsurnia lived eighty years <gap reason="lost" extent="unknown"/>.</p><p>b. <note>not translatable.</note></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>In l.7 a subsidiary text in smaller lettering appears to have been inserted in the space vacant at the beginning of the line.</p>
+            <p>In ll. 8-10, the left-hand margin of the stone is missing but it is not clear whether any letters have been lost. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1123"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DTV 340)</head>
+               </figure>
+               <figure>
+                  <graphic url="1124"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DTV 341)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

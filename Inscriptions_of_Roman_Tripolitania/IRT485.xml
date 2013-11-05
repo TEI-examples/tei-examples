@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT485" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragments from <rs type="textType">building<certainty match=".." locus="value"/>
+               </rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT485</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>a) <rs type="objectType">Block</rs> (<dimensions>
+                                 <width unit="metre">1.10</width>
+                                 <height unit="metre">0.50</height>
+                                 <depth unit="metre">0.46</depth>
+                              </dimensions>) of <material>grey limestone</material>, much weathered. 
+               b1-2-3)Three blocks of <material>limestone</material>: 
+               b1) <dimensions>
+                                 <width unit="metre">1.01</width>
+                                 <height unit="metre">0.50</height>
+                                 <depth unit="metre">0.46</depth>
+                              </dimensions>.
+               b2) <dimensions>
+                                 <width unit="metre">0.69</width>
+                                 <height unit="metre">0.40</height>
+                                 <depth unit="metre">0.17</depth>
+                              </dimensions>. 
+               b3) <dimensions>
+                                 <width unit="metre">2.23</width>
+                                 <height unit="metre">0.52</height>
+                                 <depth unit="metre">0.46</depth>
+                              </dimensions>.
+            </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+               a) Inscribed on one face, from a monumental inscription.
+               b) Inscribed in letters of approximately the same, unusually large size as a) above. 
+            </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> First century A.D. lapidary capitals: a)  <height unit="metre">0.37</height>.</handNote>
+                     <handNote> b1) <height unit="metre">0.35</height>
+                     </handNote>
+                     <handNote>b2) <height unit="metre">0.35</height>.</handNote>
+                     <handNote>b3)  <height unit="metre">0.35</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0001" notAfter="0100" precision="low" evidence="lettering">First century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db720">Forum Vetus</rs>; a)  behind the Temple of Rome and Augustus, West of the Byzantine Wall.
+                  <rs type="monuList" key="db720">Forum Vetus</rs>; b) Described as lying between the forum and the sea.</p>
+                        </event>
+                        <event type="observed">
+                           <p>b) Lost. Not seen.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p> a) <bibl>
+                  <ptr target="cagnatmerlin1923"/> 
+                  <biblScope>I(k)</biblScope>
+               </bibl>; <bibl>
+                  <ptr target="romanelli1925"/>, <biblScope>133</biblScope>
+               </bibl>.
+               b1) <bibl>
+                  <ptr target="cagnatmerlin1923"/> 
+                  <biblScope>I(i)</biblScope>
+               </bibl>; <bibl>
+                  <ptr target="romanelli1925"/>, <biblScope>133</biblScope>
+               </bibl>.
+               2) <bibl>
+                  <ptr target="cagnatmerlin1923"/> 
+                  <biblScope>I(e)</biblScope>
+               </bibl>; <bibl>
+                  <author>Romanelli</author>,   <ptr target="romanelli1925"/>, <biblScope>133</biblScope>
+               </bibl>.
+               3) <bibl>
+                  <ptr target="cagnatmerlin1923"/> 
+                  <biblScope>I(g)</biblScope>
+               </bibl>; <bibl>
+                  <ptr target="romanelli1925"/>, <biblScope>133</biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Previous publications (b) and transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="block" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <w lemma="potestas"><supplied reason="lost">po</supplied>tes<supplied reason="lost">tate</supplied></w>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="block" n="b" type="textpart"><div subtype="section" n="1" type="textpart"><ab>
+                     <lb n="1"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><w part="I">po</w><gap reason="lost" extent="unknown" unit="character"/>
+                  </ab></div><div subtype="section" n="2" type="textpart"><ab>
+                     <lb n="1"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <w lemma="consul" part="I"><expan><abbr><supplied reason="lost">c</supplied>o</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                  </ab></div><div subtype="section" n="3" type="textpart"><ab>
+                     <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Herennius"><seg part="I">Herenn<supplied reason="lost">i</supplied></seg>
+                     <gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                  </ab></div></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a.<gap reason="lost"/> holding the power <gap reason="lost"/>  </p><p><note>b. 1</note> Not usefully translatable.</p><p><note>b. 2</note><gap reason="lost"/> consul <gap reason="lost"/> <note>b. 3</note>Herenni<gap reason="lost"/><note>case unknown</note></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0628"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XII.18)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

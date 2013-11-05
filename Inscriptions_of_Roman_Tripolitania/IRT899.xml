@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT899" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription of M. Nasif and M. Mathlich</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT899</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material>Limestone</material> 
+                              <rs type="objectType">block</rs> in situ at Ghirza, Wadi Zemzem (map ref. W 7052), over the door of one of the mausolea in the group nearest the habitations.
+               The mausoleum is that illustrated by De Mathuisieulx, <title level="j">Nouvelles Archives</title>, XII (1904) pi. IV, and by Bauer, <title level="j">Air. Ital.</title> VI (1935) 62, fig. 1. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed within a panel (die, <dimensions>
+                              <width unit="metre">0.47</width>
+                              <height unit="metre">0.36</height>
+                           </dimensions>) flanked by two <rs type="decoration">eagles</rs>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>The lettering of this inscription is very much better than that of the inscriptions on other mausolea at Ghirza, and strongly suggests that this is the earliest tomb in the group nearest the habitations: this accords with its position in relation to the other mausolea.</handNote>
+                     <handNote> 
+                        <height unit="metre" atLeast="0.05" atMost="0.06">0.05-0.06</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Findspot</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db899">Wadi Zemzem</placeName>: <rs type="monuList" key="db783">Ghirza</rs> (map ref. W 7052).</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208638/wadi-zamzam.html">Wādī Zamzam</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cil"/>, <biblScope>VIII:22662</biblScope>.</bibl> 
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Marchius"><seg part="I">M</seg></name><g type="stop"/> <name type="cognomen" nymRef="Nasif">Nasif</name></persName> 
+               <w lemma="et">et</w> <persName type="attested"><name type="gentilicium" nymRef="Marchius"><seg part="I">M</seg></name><g type="stop"/>
+               <lb n="2"/><name type="cognomen" nymRef="Mathlich">Mathlich</name></persName> <w lemma="mater">m<lb n="3" type="inWord"/>atris</w> 
+               <persName type="attested"><name type="gentilicium" nymRef="Marchius"><seg part="I">M</seg></name><g type="stop"/> 
+               <name type="cognomen" nymRef="Nimira">Nimir<lb n="4" type="inWord"/>a</name></persName> <w lemma="et">et</w> 
+               <persName type="attested"><name type="cognomen" nymRef="Fydel">Fydel</name></persName> <w lemma="filius">fili</w>
+               <lb n="5"/>
+               <w lemma="carus"><expan><abbr>k</abbr><ex>aris</ex></expan></w> 
+               <w lemma="parens"><expan><abbr>p</abbr><ex>arentibus</ex></expan></w> <w lemma="facio">fecerunt</w> </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="4">
+                  <note>Perhaps <foreign xml:lang="la">
+                        <expan>
+                           <abbr>M</abbr>
+                           <ex>archi</ex>
+                        </expan> Nimira et Fedel fili</foreign>.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Of M<ex>archius</ex> Nasif and M<ex>archia</ex> Mathlich, mother; the Marchii Nimira and Fydel, their sons, had this built for their dear parents.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>A photograph taken by flashlight by Mr. Michael Ballance in <date>1955</date> has made possible a more accurate reading of the text.</p>
+            <p>M is for Marchius which appears in full in  <ref type="inscription">898</ref>. For the name Nimira, see also  <ref type="inscription">898</ref>: for Fydel, see <ref type="inscription">900</ref>.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

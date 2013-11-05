@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT884" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">building</rs> inscription </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT884</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Large <rs type="objectType">block</rs> (<dimensions>
+                                 <width unit="metre">1.55</width>
+                                 <height unit="metre">0.48</height>
+                              </dimensions>) of <material>grey limestone</material>
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed within a recessed panel (die, <dimensions>
+                              <width unit="metre">0.98</width>
+                              <height unit="metre">0.33</height>
+                           </dimensions>) flanked by smaller triangular panels with <rs type="decoration">volute terminals and foliage</rs>.
+               a) Central panel.
+               b) Side panels. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>a) Irregular capitals, incised: <height unit="metre">0.03</height>.</handNote>
+                     <handNote>b) Irregular capitals, in false relief (as<ref type="inscription"> 865</ref>): <height unit="metre">0.03</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db664">Upper Sofeggin Basin </placeName>: from an unidentified site.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Now built into the central courtyard of the Fort at Misda. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="...">Upper Sofeggin Basin </placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="panel" n="a" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Iulius">Iulius</name> <name type="cognomen" nymRef="Seuerus">Seuer<supplied reason="lost">us</supplied></name> 
+                  <persName type="attested"><name type="cognomen" nymRef="Masinthan">Masinthanis</name></persName> <w lemma="filius">filius</w></persName> 
+                  <gap reason="lost" quantity="5" unit="character" precision="low"/><w part="F">an</w>
+                  <lb n="2"/><w lemma="munitio">munitionem</w> <w lemma="tunc">tunc</w> <w part="I">pare<unclear>n</unclear></w><gap reason="lost" quantity="12" unit="character" precision="low"/>
+                  <w part="I"><unclear>m</unclear>u</w><lb n="3" type="inWord"/><w part="F">mi</w> <w lemma="is">eius</w> <w lemma="renouo">renouauit</w> <persName type="attested"><name type="cognomen" nymRef="Gaudentius">Gaudentius</name></persName> 
+                  <gap reason="lost" quantity="4" unit="character" precision="low"/><w part="F">m<lb n="4" type="inWord"/>atoribus</w> 
+                  <w lemma="qui">q<unclear>u</unclear>a</w> <w lemma="uoluntas">u<unclear>o</unclear>luntati</w> 
+                  <w part="I"><unclear>o</unclear>rna</w><gap reason="lost" quantity="3" unit="character"/><w part="F">it</w>
+                  <lb n="5"/><orig>c</orig><gap reason="lost" quantity="1" unit="character"/><orig>nd</orig><gap reason="lost" quantity="7" unit="character" precision="low"/> <w lemma="uiuo">uiuat</w> <orig>onmruu</orig><gap reason="lost" quantity="1" unit="character"/><orig>iem</orig>
+                  <lb n="6"/>
+                  <orig>pushmar</orig> <w lemma="deus">dis</w> <w lemma="permitto">permitentibus</w> <w lemma="filius">fili</w>
+                  <lb n="7"/><w lemma="is">eius</w> <w lemma="deuoueo"><supplied reason="lost">deu</supplied>oti</w> <w lemma="posterus">posteri</w> <orig>frunis</orig> <orig>can</orig>
+                  <lb n="8"/>
+                  <orig>ture</orig> <num value="5">V</num> <orig>bona</orig> <orig>fatorono</orig>   
+               </ab></div><div subtype="panel" n="b" type="textpart"><div subtype="side" n="i" type="textpart"><note>left panel</note><ab>
+                     <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Seuerus">Seu
+                        <lb n="2"/>ere</name></persName>
+                  </ab></div><div subtype="side" n="ii" type="textpart"><note>right panel</note><ab>
+                     <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Masinthan">Masin
+                     <lb n="2"/>than</name></persName>
+                  </ab></div></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>a</note> Julius Severus, son of Masinthan, rebuilt the fortification at that time <gap reason="lost" extent="unknown"/> his parents <gap reason="lost" extent="unknown"/> Gaudentius renewed its <gap reason="lost" extent="unknown"/> wth the goodwill with which he ornamented <gap reason="lost" extent="unknown"/> ?may he live <gap reason="lost" extent="unknown"/> with the gods permitting; his sons, devoted successors <gap reason="lost" extent="unknown"/></p><p>b Oh Severus <note>space</note> Masinthan</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1109"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. neg. ETAL)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

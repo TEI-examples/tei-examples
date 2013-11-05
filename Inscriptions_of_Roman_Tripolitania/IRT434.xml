@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT434" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Geta</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT434</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <rs type="objectType">base</rs> made of <material>marble</material>
+               (<dimensions>
+                                 <width unit="metre">0.72</width>
+                                 <height unit="metre">1.40</height>
+                                 <depth unit="metre">0.45</depth>
+                              </dimensions>).
+               </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a recessed panel 
+               (die, <dimensions>
+                              <width unit="metre">0.355</width>
+                              <height unit="metre">0.55</height>
+                           </dimensions>). Uniform with <ref type="inscription">392</ref>, <ref type="inscription">403</ref>, <ref type="inscription">422</ref>. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: <height unit="metre" atLeast="0.04" atMost="0.03">0.04-0.03</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0200-12-10" notAfter="0201-12-09" evidence="dated-from-422">Between 10 Dec. A.D. 200 - 9 Dec. A.D. 201 from dated from 422</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db756">Theatre</rs>, on the lower steps of the cavea, West side.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p> 
+               <bibl>
+                  <author>Caputo</author>, <ptr target="epigraphica"/> 
+                  <biblScope>I:170</biblScope> ff.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="emperor"><del rend="erasure"><name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ublio</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Septimius">Se<supplied reason="lost">ptim</supplied>io</name> 
+                  <name type="cognomen" nymRef="Geta">Get<supplied reason="lost">a</supplied>e</name> 
+                  <name type="cognomen" nymRef="Caesar"><expan><abbr>C<supplied reason="lost">ae</supplied>s</abbr><ex>ari</ex></expan></name>
+               </del></persName>
+               <lb n="2"/><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></w> 
+               <persName type="emperor"><name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> 
+               <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name type="gentilicium" nymRef="Septimius">Septimi</name>
+               <lb n="3"/><name type="cognomen" nymRef="Seuerus">Seueri</name> <name type="cognomen" nymRef="Pius">Pii</name> 
+               <name type="cognomen" nymRef="Pertinax">Pertina<lb n="4" type="inWord"/>cis</name> 
+               <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> 
+               <name><expan><abbr>Arab</abbr><ex>ici</ex></expan></name> 
+               <name type="cognomen" nymRef="Adiabenicus">Adiabe<lb n="5" type="inWord"/>nici</name> 
+               <name type="cognomen" nymRef="Parthicus">Parthici</name> <w lemma="magnus">maximi</w></persName>
+               <lb n="6"/><w lemma="felix">felicissimi</w> <w lemma="pater"><expan><abbr>p</abbr><ex>atris</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> <w lemma="filius"><del rend="erasure">filio</del></w> 
+               <lb n="7"/><persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> 
+               <name type="gentilicium" nymRef="Iunius">Iunius</name> <name type="cognomen" nymRef="Punicus">Punicus</name></persName> 
+               <w lemma="procurator"><expan><abbr>proc</abbr><ex>urator</ex></expan></w>
+               <lb n="8"/><w lemma="sexagenarius">sexagenarius</w> <w lemma="prouincia">prouinci<lb n="9" type="inWord"/>ae</w> 
+               <placeName type="ethnic" nymRef="Thracia">Thraciae</placeName> <w lemma="centenarius">centena<lb n="10" type="inWord"/>rius</w> 
+               <placeName nymRef="Alexandria ad Mercurium">Alexandriae <w lemma="ad">ad</w>
+                  <lb n="11"/>Mercurium</placeName>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="1">
+                  <lem>
+                     <expan>
+                        <abbr>P</abbr>
+                        <ex>ublio</ex>
+                     </expan> Septimio Getae <expan>
+                        <abbr>Caes</abbr>
+                        <ex>ari</ex>
+                     </expan>
+                  </lem>
+                  <note>Erased after damnatio in 212.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="6">
+                  <lem>filio</lem>
+                  <note>Erased after damnatio in 212.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p> To Publius Septimius Geta Caesar <note>all erased</note> son of emperor Caesar Lucius Septimius Severus Pius Pertinax Augustus, victor in Arabia, victor in Adiabene, greatest victor in Parthia, most fortunate, father of the country; Marcus Junius Punicus, imperial equestrian agent in Thrace at a salary of sixty thousand sesterces, and in Alexandria at the Temple of Mercury, at a salary of one hundred thousand.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 7. M. Iunius Punicus.  Also in <ref type="inscription">392</ref>, l. 8; <ref type="inscription">403</ref>, l. 9; <ref type="inscription">422</ref>, l. 9. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0558"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 1216 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT526" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Decimius Hilarianus Hesperius</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT526</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <rs type="objectType">base</rs> of <material>marble</material>  
+               (<dimensions>
+                                 <width unit="metre">0.69</width>
+                                 <height unit="metre">1.45</height>
+                                 <depth unit="metre">0.69</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Re-inscribed on one face within a recessed panel 
+               (die, <dimensions>
+                              <width unit="metre">0.41</width>
+                              <height unit="metre">0.65</height>
+                           </dimensions>) from which a previous inscription has been erased: the first line is cut above the die. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century A.D. capitals: l. 1, <height unit="metre">0.06</height>, remainder, <height unit="metre">0.03</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0376" notAfter="0390" precision="low" evidence="prosopography">After 376 A.D. (prosopography).</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db719">Forum Severianum</rs>, East end.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="attested"><name type="signum" nymRef="Esperius">Esperii</name></persName> <w lemma="uir"><expan><abbr>u</abbr><ex>iri</ex></expan></w> <w lemma="clarus"><expan><abbr>c</abbr><ex>larissimi</ex></expan></w> 
+               <lb n="2"/><persName type="attested"><name type="gentilicium" nymRef="Decimus">Decimio</name> <name type="cognomen" nymRef="Esperius">Esperio</name></persName> <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> <w lemma="clarus"><expan><abbr>c</abbr><ex>larissimo</ex></expan></w> <w lemma="ex">ex</w> 
+               <w lemma="proconsul">procon<lb n="3" type="inWord"/>sule</w> <w lemma="prouincia"><expan><abbr>prouin</abbr><ex>ciae</ex></expan></w> 
+               <placeName type="ethnic" nymRef="Africus">Africae</placeName> <w lemma="iudex">iudici</w>
+               <lb n="4"/><w lemma="sacer">sacrarum</w> <w lemma="cognitio">cognitionum</w>
+               <lb n="5"/><w lemma="prosapia">prosapiae</w> <w lemma="dignitas">dignitatum</w> <w lemma="et">et </w> <w lemma="cresco">crescenti</w> <note>sic</note>
+               <lb n="6"/><w lemma="per">per</w> <w lemma="gradus">gradus</w> <w lemma="et">et</w> <w lemma="mereo">merita</w> <w lemma="gloria"><expan><abbr>gloriar</abbr><ex>um</ex></expan></w>
+               <lb n="7"/><w lemma="optio">optionorim</w> <w lemma="iustitia">iustitiae</w> <w lemma="qui">quam</w> <note>sic</note>
+               <lb n="8"/><w lemma="causa">causae</w> <placeName type="ethnic" nymRef="Tripolitanus">Tripolitanorum</placeName>
+               <lb n="9"/><w lemma="deligo">deligatae</w> <w lemma="sacer">sacro</w> <w lemma="iudex">iudici</w> <note>sic</note>
+               <lb n="10"/><w lemma="exhibeo">exhibuit</w> <w lemma="praesto">praestanti</w>
+               <lb n="11"/><w lemma="patronus"><expan><abbr>patro</abbr><ex>no</ex></expan></w> 
+               <placeName type="ethnic" nymRef="Lepcimagnensis"><w lemma="Lepcimagnensis">Lepcimagnen<lb n="12" type="inWord"/>sis</w></placeName> <w lemma="cliens">cliens</w> <w lemma="semper">semper</w> <w lemma="ordo">ordo</w>
+               <lb n="13"/><w lemma="cum">cum</w> <w lemma="populus">populo</w> <w lemma="conloco">conlocauit</w>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="7">
+                  <lem>optionorim</lem>
+                  <note>Perhaps for <foreign xml:lang="la">ob tenorem</foreign>.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="subaudible">In honour</supplied> of Esperius, splendid man <supplied reason="explanation">of senatorial status</supplied>. To Decimius Esperius, splendid man <supplied reason="explanation">of senatorial status</supplied>, former proconsul of the province of Africa, a juryman in the imperial court, of an office-holding family, moreover a man increasing <note>in dignity</note> stage by stage and through the fame won ?on account of the justice which he displayed in the case of the Tripolitanians which was referred to the emperor as judge. To an outstanding patron, the city council of Lepcis Magna, alwauys his client, together with the people, erected <supplied reason="subaudible">this</supplied>.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 1, 2. Decimius Hilarianus Hesperius, <title level="m">PW</title> VIII, 1249, 1; son of Ausonius the poet, proconsul of Africa in 376. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0668"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 376)</head>
+               </figure>
+               <figure>
+                  <graphic url="0669"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 18)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

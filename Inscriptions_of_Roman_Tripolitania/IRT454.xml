@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT454" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Gordian III</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT454</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.62</width>
+                                 <height unit="metre">1.44</height>
+                                 <depth unit="metre">0.60</depth>
+                              </dimensions>) of <material>brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on two faces, see also <ref type="inscription">463</ref>; 
+               on this face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.38</width>
+                              <height unit="metre">0.85</height>
+                           </dimensions>), mutilated at the top and right-hand side.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Irregular capitals: <height unit="metre" atLeast="0.03" atMost="0.04">0.03-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0238" evidence="titulature">A.D. 238 (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db719">Forum Severianum</rs>, South Portico.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p> 
+               <bibl>
+                  <author>U. Ciotti</author>, <ptr target="bolldarch"/> 
+                  <biblScope>XI:119</biblScope>. </bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="emperor"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+               <name type="cognomen" nymRef="Caesar"><expan><abbr>Cae<supplied reason="lost">s</supplied></abbr><ex>ari</ex></expan></name>
+               <lb n="2"/>
+               <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Antonius">Antonio</name>
+               <lb n="3"/><name type="cognomen" nymRef="Gordianus">Gordiano</name>
+               <lb n="4"/><name type="cognomen" nymRef="Pius">Pio</name> <name type="cognomen" nymRef="Felix">Felic<supplied reason="lost">i</supplied></name>
+               <lb n="5"/>
+               <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> 
+               <w lemma="pontifex"><expan><abbr>pon<supplied reason="lost">t</supplied></abbr><supplied reason="lost"><ex>ifici</ex></supplied></expan></w>
+               <lb n="6"/>
+               <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+               <w lemma="tribunicius"><expan><abbr>tr<supplied reason="lost">ib</supplied></abbr><supplied reason="lost"><ex>unicia</ex></supplied></expan></w>
+               <lb n="7"/>
+               <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> <num value="1">I</num> <gap reason="lost" atLeast="2" atMost="3" unit="character"/>
+               <lb n="8"/><placeName type="ethnic" nymRef="Lepcitanus">Lepcita<supplied reason="lost">ni</supplied></placeName>
+               <lb n="9"/><w lemma="publice">publice</w></ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p> To emperor Caesar Marcus Antonius Gordianus Pius, Felix, Augustus, chief priest, holding tribunician power for the first time <gap reason="lost"/>the Lepcitanians publicly. </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 6-7. trib. pot. I - June-Dec. 238.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0582"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 1534 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="0583"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 601)</head>
+               </figure>
+               <figure>
+                  <graphic url="0584"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 751)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

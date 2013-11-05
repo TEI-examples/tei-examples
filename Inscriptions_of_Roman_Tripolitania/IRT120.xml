@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT120" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for C. Flavius Pudens</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT120</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Damaged rectangular <rs type="objectType">base</rs> (surviving width <dimensions>
+                                 <width unit="metre">0.47</width>
+                                 <height unit="metre">0.89</height>
+                                 <depth unit="metre">0.59</depth>
+                              </dimensions>) of coarse <material>grey limestone</material>, uniform with <ref type="inscription">118</ref>, <ref type="inscription">119</ref>, <ref type="inscription">121</ref>, <ref type="inscription">122</ref>, <ref type="inscription">123</ref>, <ref type="inscription">124</ref>, <ref type="inscription">125</ref>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel, die not precisely measurable.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Local second to third century A.D. capitals with some Rustic forms: <height unit="metre" atLeast="0.03" atMost="0.04">0.03-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0101" notAfter="0300" precision="low" evidence="lettering">Second to third centuries A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:
+                  <rs type="monuList" key="db830">Basilica</rs>, standing against the E wall of the S aisle of the later church.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="attested"><supplied reason="lost"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aio</ex></expan></name></supplied>
+               <name type="gentilicium" nymRef="Flauius"><expan><abbr><supplied reason="lost">F</supplied>l</abbr><ex>auio</ex></expan> </name>
+               <persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinti</ex></expan></name></persName> 
+               <w lemma="filius"><expan><abbr>fil</abbr><ex>io</ex></expan></w> 
+               <name type="tribe" nymRef="Papiria"><w lemma="tribus"><expan><abbr>Pap</abbr><ex>iria tribu</ex></expan></w></name>
+               <lb n="2"/><name type="cognomen" nymRef="Pudens">Pudenti</name></persName>
+               <lb n="3"/><w lemma="flamen"><expan><abbr>flam</abbr><ex>ini</ex></expan></w> <w lemma="perpetuus"><expan><abbr>perp</abbr><ex>etuo</ex></expan></w>
+               <lb n="4"/><w lemma="curia">Curia</w> 
+               <persName type="emperor"><name type="cognomen" nymRef="Faustina">Faus<supplied reason="lost">t</supplied><lb n="5" type="inWord"/><supplied reason="lost">i</supplied>na</name></persName>
+               <w lemma="ob">ob</w> <w lemma="mereo">meri<lb n="6"/>ta</w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost">To Caius</supplied> Flavius Pudens, son of Quintus, of the Roman voting tribe Papiria,
+                     perpetual flamen <supplied reason="subaudible">priest</supplied>, the Curia Faustina, on account of his merits.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 1-2. <foreign xml:lang="la">
+                  <persName type="attested">
+                     <name>Caius</name> 
+                     <name>Flauius</name> 
+                     <name>Pudens</name>
+                  </persName>
+               </foreign>. 
+               Also in  <ref type="inscription">117</ref>, <ref type="inscription">118</ref>, <ref type="inscription">119</ref>, <ref type="inscription">121</ref>, <ref type="inscription">122</ref>, <ref type="inscription">123</ref>, <ref type="inscription">124</ref>, <ref type="inscription">125</ref>.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0160"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.VII.30)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

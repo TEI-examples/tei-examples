@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT638" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Testamentary</rs> 
+               <rs type="textType">honours</rs> for Cornelius Philocalus </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT638</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.47</width>
+                                 <height unit="metre">0.90</height>
+                                 <depth unit="metre">0.485</depth>
+                              </dimensions>) of 
+               <material>grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.265</width>
+                              <height unit="metre">0.59</height>
+                           </dimensions>). </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Irregular capitals: 
+               <height unit="metre" atLeast="0.042" atMost="0.03">0.042-0.03</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notAfter="0300" notBefore="0001" evidence="terminology">First to third centuries A.D. (terminology)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db756">Theatre</rs>, in the Temple of the Di Augusti in the portico.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="lost" quantity="1" unit="character"/> 
+               <persName type="attested"><name type="gentilicium" nymRef="Cornelius"><expan><abbr>Corn</abbr><ex>elio</ex></expan></name> 
+               <name type="cognomen" nymRef="Philocalus">Philoca<lb n="2" type="inWord"/>lo</name></persName> 
+               <w lemma="pater"><expan><abbr>pat</abbr><ex>ri</ex></expan></w> 
+               <persName type="attested"><name type="gentilicium" nymRef="Cornelius"><expan><abbr>Cornel</abbr><ex>iorum</ex></expan></name>
+               <lb n="3"/><name type="cognomen" nymRef="Cotta">Cott<supplied reason="lost">a</supplied>e</name> <w lemma="et">et</w> 
+               <name type="cognomen" nymRef="Cornelianus">Cor<lb n="4" type="inWord"/>n<supplied reason="lost">el</supplied>iani</name></persName> 
+               <persName type="attested"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Flaui</abbr><ex>us</ex></expan></name>
+               <lb n="5"/><name type="cognomen" nymRef="Crescens">Crescens</name> <name type="cognomen" nymRef="Saloninus"><supplied reason="lost">S</supplied>alo<lb n="6" type="inWord"/>ninus</name></persName> 
+               <w lemma="permitto"><expan><abbr>per<supplied reason="lost">m</supplied>iss</abbr><ex>u</ex></expan></w>
+               <lb n="7"/><w lemma="sancio">sanct<supplied reason="lost">i</supplied></w>
+                  <w lemma="ordo"><expan><abbr><supplied reason="lost">ordi</supplied>n</abbr><ex>is</ex></expan></w>
+               <lb n="8"/><w lemma="statuo">statui<unclear>t</unclear></w> <w lemma="ex"><supplied reason="lost">e</supplied>x</w>
+               <lb n="9"/>
+               <w lemma="testamentum"><expan><abbr>testam</abbr><ex>ento</ex></expan></w> 
+               <persName type="attested"><name type="gentilicium" nymRef="Cornelius"><expan><abbr>Corn</abbr><ex>eliorum</ex></expan></name>
+               <lb n="10"/><name type="cognomen" nymRef="Cotta">Cottae</name> <w lemma="et">et</w>
+               <lb n="11"/><name type="cognomen" nymRef="Cornelianus">Corneliani</name></persName></ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="1">
+                  <note>D or P. </note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To <gap reason="lost"/> Cornelius Philocalus, father of the Cornelii Cotta and Cornelianus; Flavius Crescens Saloninus set this up with permission of the venerable city council, in accordance with the will of the Cornelii Cotta and Cornelianus.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0830"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XVII.33)</head>
+               </figure>
+               <figure>
+                  <graphic url="0831"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 721 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

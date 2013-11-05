@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT854" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Boundary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT854</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <rs type="objectType">Stele</rs> (<dimensions>
+                                 <width unit="metre">0.89</width>
+                                 <height unit="metre">1.22</height>
+                                 <depth unit="metre">0.21</depth>
+                              </dimensions>) of hard <material>brown sand-stone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> First century. capitals ranging from lapidary to irregular: l. 1, <height unit="metre">0.09</height>;
+               ll. 2-9, <height unit="metre" atLeast="0.07" atMost="0.075">0.07-0.075</height>;
+               ll. 10-13, <height unit="metre">0.06</height>;
+               l. 14, <height unit="metre">0.045</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0087" evidence="titulature">A.D. 87 (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db661">Sirtica</placeName>: Found 3 km. East of <rs type="monuList" key="db869">Sirte</rs> (map ref. approx. Y 6873)</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db662">Tripoli Castle</rs>. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2210674/sirtica.html">Sirtica</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p> 
+               <bibl>
+                  <author>Romanelli</author>, <ptr target="epigraphica"/>, <biblScope>I:111</biblScope>ff., fig. 11</bibl>;
+               <bibl>
+                  <ptr target="ae"/>, <biblScope>1940:70</biblScope>.</bibl> 
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <supplied reason="lost"><w lemma="ex">Ex</w></supplied>
+               <w lemma="auctoritas"><expan><abbr><supplied reason="lost">a</supplied>uctorit</abbr><ex>ate</ex></expan></w>
+               <lb n="2"/>
+               <w lemma="imperator"><expan><abbr><supplied reason="lost">I</supplied><unclear>m</unclear>p</abbr><ex>eratoris</ex></expan></w> 
+               <persName type="emperor"><w lemma="diuus">diui</w> 
+               <name type="cognomen" nymRef="Vespasianus">Vespasi<lb n="3" type="inWord"/>ani</name> <w lemma="filius"><expan><abbr>f</abbr><ex>ili</ex></expan></w>
+               <del rend="erasure"><persName type="emperor"><name type="cognomen" nymRef="Domitianus">Domitiani</name></persName></del> 
+               <lb n="4"/>
+               <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan> 
+               </name><name type="cognomen" nymRef="Germanicus"><expan><abbr>Germ</abbr><ex>anici</ex></expan></name></persName>
+               <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ificis</ex></expan></w>
+               <lb n="5"/>
+               <w lemma="magnus"><expan><abbr>max</abbr><ex>imi</ex></expan></w> 
+               <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> 
+               <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> 
+               <num value="6">VI</num>
+               <lb n="6"/>
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratoris</ex></expan></w>
+               <num value="14">XIIII</num>
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan></w> 
+               <num value="13">XIII</num>
+               <lb n="7"/>
+               <w lemma="censor"><expan><abbr>cens</abbr><ex>oris</ex></expan></w> 
+               <w lemma="perpetuus"><expan><abbr>perpet</abbr><ex>ui</ex></expan></w> 
+               <w lemma="pater"><expan><abbr>p</abbr><ex>atris</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w>
+               <lb n="8"/><w lemma="iubeo">iussu</w> <persName type="attested"><name type="gentilicium" nymRef="Suellius">Suelli</name> <name type="cognomen" nymRef="Flaccus">Flac<lb n="9" type="inWord"/>ci</name></persName> 
+               <w lemma="legatus"><expan><abbr>leg</abbr><ex>ati</ex></expan></w> 
+               <persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+               <w lemma="propraetor">pro <expan><abbr>pr</abbr><ex>aetore</ex></expan></w>
+               <lb n="10"/> <w lemma="terminus">terminus</w> <w lemma="pono">positi</w> <w lemma="inter">inter</w> 
+               <w lemma="natio">na<lb n="11" type="inWord"/>tionem</w> <placeName type="ethnic" nymRef="Muduciuuii">Muduciuuiorum</placeName>
+               <lb n="12"/><w lemma="et">e<supplied reason="lost">t</supplied></w> 
+               <placeName type="ethnic" nymRef="Zamucius"><unclear>Z</unclear>amuciorum</placeName> <w lemma="ex">ex</w> 
+               <w lemma="conuentio">conuen<lb n="13" type="inWord"/>tione</w> <w lemma="uter">utrarum</w><w lemma="que">que</w>
+               <lb n="14"/><w lemma="natio">nationum</w> </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="3">
+                  <note>Erased very  half-heartedly  after Domitian's damnatio in 96. </note>
+               </app>
+            </p>
+            <p>
+               <app loc="10">
+                  <lem>positi <note>sic</note>
+                  </lem>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost">On</supplied> the authority of the son of deified Vespasian, emperor Domitian <note>name erased</note> Augustu,s Germanicus, chief priest, holding tribinician power for the sixth time, acclaimed victor fourteen times, consul for the thirteenth time, perpetual censor, father of the country, by the command of Suellius Flaccus, legate of Augustus with praetorian powers, the boundary stone<supplied reason="subaudible">s</supplied> were set up between the tribe of the Muduciuui and that of the Zamucii, in accordance with the agreement of both tribes.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 5.  trib. pot. VI. c. 14 Sept. 86 - 13 Sept. 87.</p>
+            <p>l. 6. cos. XIII. 1 Jan. 87. </p>
+            <p>ll. 8-9. Suellus Flaccus. <title level="m">PW</title> IV A 581, 2. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1048"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DTV 32 Lastre)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

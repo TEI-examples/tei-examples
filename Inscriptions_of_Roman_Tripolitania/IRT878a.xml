@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT878a" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">Christian</rs> 
+               <rs type="textType">Libyan</rs> text</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT878a</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <rs type="objectType">Lintel</rs> (width incomplete <dimensions>
+                                 <width unit="metre">1.70</width>
+                                 <height unit="metre">0.43</height>
+                                 <depth unit="metre">0.60</depth>
+                              </dimensions>) of <material>grey limestone</material>, re-used as the upright of an olive-press; 
+               two slots have been cut in the inscribed face and the right-hand end is missing.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed in two lines, each line within a re-cessed panel (<dimensions>
+                              <width unit="metre">1.20</width>
+                              <height unit="metre">0.10</height>
+                           </dimensions>), 
+               with simple, incised, linear ornament between the two panels and right-hand one of which is missing ; in the right-hand one of which is missing; in the left-hand ansa <foreign xml:lang="grc">Α <g type="tau-rho"/> Ω</foreign>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Capitals: <height unit="metre">0.07</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db650">Eastern Djebel</placeName>: 
+                  <rs type="monuList" key="db686">Umm el-Msareb</rs>;
+                  Seen by Romanelli in <date type="foundDate">1915</date>, and rediscovered and copied by Oates in 1949,  in the ruins of olive-presses, South West of Ghlil (map ref. M 178278).</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot (1949)</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="http://www.geonames.org/2214258/qabilat-al-qalil.html">Qabīlat al Qalīl</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p> 
+               <bibl>
+                  <author>Romanelli</author>, <ptr target="nuovarchbull"/>,
+               <biblScope>XXIV-V: 29</biblScope> (text not given).</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Oates)</p>
+         </div>
+         <div type="edition" xml:lang="ber-Latn" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="lost" quantity="8" unit="character" precision="low"/><orig>icomachi</orig> 
+               <orig>sn</orig><gap reason="lost" atLeast="2" atMost="3" unit="character"/><orig>stris</orig>
+               <lb n="2"/>
+               <orig>iebasclumeinstituente<unclear>r</unclear></orig><gap reason="lost" atLeast="5" atMost="6" unit="character"/>
+                  </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="1">
+                  <lem>
+                     <orig>icomachi</orig>
+                  </lem>
+                  <note> Perhaps <foreign xml:lang="la">
+                        <supplied reason="lost">N</supplied>icomachi</foreign>.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="2">
+                  <note>The last legible letter is possibly a B.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>Not usefully translatable, but perhaps l.1 contained the name Nicomachus.</note></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1097"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1098"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1099"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1100"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. A. 594-6(?))</head>
+               </figure>
+               <figure>
+                  <graphic url="1101"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
