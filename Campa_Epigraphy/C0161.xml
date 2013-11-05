@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Broken statue of Śiva mounted on his Bull from Chiêm Sơn</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Amandine Lepoutre</editor>
+            </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0161</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+<sourceDesc>
+   <msDesc>
+      <msIdentifier>
+         <institution>EFEO</institution>
+         <idno xml:id="inv-general">C. 161</idno>  
+         <!-- <altIdentifier type="majumdar-nr">
+            <idno xml:id="majumdar-nr">????</idno>
+            </altIdentifier> not included in Majumdar -->
+         <altIdentifier type="museum-inventory">
+            <settlement>Đà Nẵng</settlement>
+            <repository>Bảo Tàng Điêu Khắc Chăm Đà Nẵng</repository>
+            <idno xml:id="inv-btc">BTC 1498</idno>
+         </altIdentifier>
+         <altIdentifier type="museum-inventory-alternative">
+            <settlement>Đà Nẵng</settlement>
+            <repository>Bảo Tàng Điêu Khắc Chăm Đà Nẵng</repository>
+            <idno xml:id="inv-btdn">BTĐN 1205</idno>
+         </altIdentifier>
+         <altIdentifier type="museum-inventory-former">
+            <settlement>Tourane</settlement>
+            <repository>EFEO Museum</repository>
+            <idno xml:id="inv-tourane">12,5</idno>
+         </altIdentifier>
+      </msIdentifier>
+      <msContents>
+         <msItem>
+            <note>Remains of seven lines on one face</note>
+            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+         </msItem>
+      </msContents>
+      <physDesc>
+         <objectDesc>
+            <supportDesc>
+               <support>
+                  <p>Back of the lower part of a broken <objectType>sculptural stela</objectType> of Śiva seated on his Bull;<note>The support is not <quote>sur dos de Nandin</quote> (<ptr target="cic-bibl:coedes-1923"/>, under <ptr target="#inv-general"/>).</note> <material><seg type="check">sandstone</seg></material>;
+                     <dimensions unit="cm">
+                        <height>56</height>
+                        <width>48</width>
+                        <depth>37</depth>
+                     </dimensions>.</p>
+               </support>
+            </supportDesc>
+         </objectDesc>
+      </physDesc>
+      <history>
+         <origin>
+            <origPlace type="location">
+               <placeName type="modern" ref="cic-geo:chiem-son">Chiêm Sơn</placeName>
+             </origPlace>
+            <origDate>
+               <date calendar="Śaka">1365</date>
+               <date calendar="Julian" notBefore="1443" notAfter="1444">1443/4</date>
+            </origDate>
+         </origin>
+         <provenance type="found" notAfter="1923">
+            <ab>This piece was found under unknown circumstances at
+               <placeName type="modern" ref="cic-geo:chiem-son">Chiêm Sơn</placeName><note>The list of estampages held at the EFEO library in Paris, under n. 272, mentions as provenance "manoir de Chiêm-son".</note>
+               before 1923, when it was first listed in the inventory of Campā inscriptions under the entry <ptr target="#inv-general"/> (<ptr target="cic-bibl:coedes-1923"/>).</ab>
+         </provenance>
+         <provenance type="observed" notBefore="2009">
+            <ab>We identified the stone in the Bảo Tàng Điêu Khắc Chăm Đà Nẵng (Museum of Cham Sculpture) at Đà Nẵng in 2009 and following years, as the one bearing inventory numbers <ptr target="#inv-tourane"/> = <ptr target="#inv-btc"/> = <ptr target="#inv-btdn"/> (<bibl><ptr target="cic-bibl:ECIC-III"/>: 449</bibl>).</ab>
+         </provenance>
+      </history>
+      <additional>
+         <surrogates>                       
+            <msDesc n="estampage-uninked">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-693">824</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc n="estampage-inked">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-n272">n. 272</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc n="estampage-inked" facs="#fac3">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-n511">n. 511</idno>
+               </msIdentifier>
+               <ab><note>This number comprises two estampages.</note></ab>
+            </msDesc>
+            <msDesc n="estampage-inked" facs="#fac4">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-n2131-2132">n. 2131 &amp; 2132</idno>
+               </msIdentifier>
+            </msDesc>
+         </surrogates>         
+      </additional>
+   </msDesc>
+</sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage"/></catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+                  <!-- ARLO: don't think there will be any -->
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <!-- ARLO: note that I have modified the name of the project. Can we copy this to all pre-filled-in files in the future? -->
+            <!-- T: of course -->
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2012-05-24" who="AG" xml:lang="en">first attempt at porting all the relevant
+            data for this inscription into xml format</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0161_1_AG_2009.jpg">
+         <desc>Photograph of the front of the sculptural stela whose back bears inscription <ptr target="#inv-general"/>. Taken in the Đà Nẵng Museum by Arlo Griffiths on <date when="20090921"/>.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/C0161_2_AG_2009.jpg">
+         <desc>Photograph of inscription <ptr target="#inv-general"/>. Taken in the Đà Nẵng Museum by Arlo Griffiths on <date when="20090921"/>.</desc>
+      </graphic>
+      <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n0511.jpg">
+         <desc>Photograph of one of the EFEO estampages under n. 511.</desc>
+      </graphic>
+      <graphic xml:id="fac4" url="../images/inscriptions/EFEOB-est.n2132.jpg">
+         <desc>Photograph of EFEO estampage n. 2132.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>First published in <bibl><ptr target="cic-bibl:CatDaNang"/>: 241-243</bibl>, whence the present edition.</ab>
+         </div>  
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines">
+                <ab>
+<lb n="-7"/> <gap reason="illegible" unit="line"/>
+<lb n="-6"/> <gap reason="illegible" unit="line"/>
+                  <!-- AG: not sure how to encode the above, curious to see the output -->
+<lb n="-5"/> <gap reason="lost" extent="unknown" unit="character"/><unclear>de</unclear>śamaryyā<unclear>da</unclear> bhāja di na<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="-4"/> <gap reason="lost" extent="unknown" unit="character"/>gva hetu <unclear>ra</unclear>nakṣa <unclear>bh</unclear>āva jem̃ <unclear>dhar</unclear>mma <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="-3"/> <unclear>para</unclear>loka dudim̃ śivarūppa nī pyauḥ di nagara atmarā<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="-2"/> vrim̃ śivācāryya di nagara ja bhaktī jem̃ dharmma mayvā di kṣatr<supplied reason="lost">iya</supplied>
+<lb break="no" n="-1"/>ja ya dṛm̃ rāja dudim̃ jmai paliṅyak· <unclear>dh</unclear>armma di śaka 1365
+                </ab>
+            </div>
+         <div type="apparatus">
+            <ab>
+               <app  loc="5">
+                  <lem><unclear>de</unclear>śamaryyā<unclear>da</unclear></lem><note>
+                  the reading is partly conjectural, and our proposal is based on the supposition that we have here a synonym for the expression <foreign>janapadamaryyādā</foreign> that is found in the (much older) inscriptions <ref target="C0072.xml">C. 72</ref> and <ref target="C0217.xml">C. 217</ref>.</note>
+               </app>
+               <app loc="4-3">
+               <lem>... paraloka</lem>
+                  <note>in view of the sequence  <foreign>rijan· śivaprathimānna pyauḥ bhanakti prathidinna di loka ṅan· paraloka dudim̃</foreign> occurring in <ref target="C0042.xml">C. 42</ref>, l. 11–12, we are tempted to restore <foreign>di loka ṅan·</foreign> at the end of line -4.</note>  
+               </app>
+               <app loc="3">
+                  <lem>atmarā<gap reason="lost" extent="unknown" unit="character"/></lem>
+                  <note>the initial <foreign>a</foreign> is surprising, for one expects <foreign>ātma°</foreign>, perhaps to be restored as <foreign>ātmarāṣṭra</foreign> or <foreign>ātmarāj(y)a</foreign>.</note>
+               </app>
+              </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p> … rules of the land … because he protected beings, that is why (<foreign>jem̃</foreign>) the religious law (<foreign>dharma</foreign>) … yonder world. In the future (<foreign>dudim̃</foreign>), let these various images of Śiva be in the land of his own … He ordered Śiva-priests in the land, who were faithful to the religious law, to pay heed to (?, <foreign>mayvā di</foreign>) those of noble birth (<foreign>kṣatriyaja</foreign>) in the future who will hold the kingdom (<foreign>rāja = rājya</foreign>)! Do not destroy the foundation (<foreign>dharma</foreign>)!
+               [Engraved in the Śaka year] 1365.
+            </p>
+         </div>
+         <div type="commentary">
+            <p>The iconography of what remains of the sculpture seems somewhat comparable with that seen in the sculpture whose back bears the inscription <ref target="C0042.xml">C. 42</ref> from <placeName type="modern" ref="cic-geo:drang-lai">Drang Lai</placeName>, which dates to the same period,  although the posture of the deity sitting on the bull is different in both cases. Another inscription that has come to light in recent years (<ref target="C0215.xml">C. 215</ref>) is engraved on the back of the upper part of a broken statue of Śiva. The god’s mount and head are here not preserved, but what is preserved of the torso is very comparable to the Śiva from <placeName type="modern" ref="cic-geo:drang-lai">Drang Lai</placeName>, bearing on its back <ref target="C0042.xml">C. 42</ref>, and so the torso may be considered to have been a Śiva. Moreover, this fragment of a Śiva was found at the site of <placeName type="modern" ref="cic-geo:chua-vua">Chùa Vua</placeName> (or <placeName type="modern" ref="cic-geo:go-loi">Gò Lồi</placeName>) in the valley <placeName type="modern" ref="cic-geo:chiem-son-tay">Chiêm Sơn Tây</placeName> (Chiêm Sơn West) near <placeName type="modern" ref="cic-geo:tra-kieu">Trà Kiệu</placeName>.</p>
+            <p>In other words, we have two contemporary fragments of inscriptions, one engraved on the upper back, the other on the lower back of a sculpture, both of these fragments found in <placeName type="modern" ref="cic-geo:chiem-son">Chiêm Sơn</placeName>; the one fragment shows the torso of a possible Śiva, the other the lap of a deity sitting on a bull, i.e. almost certainly Śiva. We are very tempted to consider that these two inscriptions, <ref target="C0215.xml">C. 215</ref> and <ref target="#inv-general"/>, originally belonged together as top and bottom. The measurements of the stones would seem to allow this hypothesis, although both fragments have suffered a lot precisely in the place where the pieces would have been joined, so it is hard to get any certainty from measurement, and it is not likely that physically trying to join the two pieces would yield clear confirmation either. We have measured the size of the letters of the two inscriptions, and the result was some dissimilarity in size, so that we remain in doubt about this hypothesis.</p>
+               <p>The final words of this inscription show the same formula with which the inscription <ref target="C0042.xml">C. 42</ref> is also terminated.</p>
+            <!-- AG: the right place for this kind of discussion? -->
+         </div>
+         <!-- <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl xml:id="ECIC-III"><ptr target="cic-bibl:ECIC-III"/>: 449.</bibl>
+            </listBibl>
+         </div> -->
+      </body>
+   </text>
+   
+</TEI>

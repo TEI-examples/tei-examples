@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Broken statue of Śiva from Chiêm Sơn</title>
+            <editor>Arlo Griffiths</editor>
+            </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0215</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+<sourceDesc>
+   <msDesc>
+      <msIdentifier>
+         <institution>EFEO</institution>
+         <idno xml:id="inv-general">C. 215</idno>  
+         <!-- <altIdentifier type="majumdar-nr">
+            <idno xml:id="majumdar-nr">????</idno>
+         </altIdentifier> not included in Majumdar -->
+         <altIdentifier type="museum-inventory">
+            <settlement>Tra Kiệu</settlement>
+            <repository>Phòng Trưng Bà Văn Hó Chăm</repository>
+            <idno xml:id="inv-church-tra-kieu">???</idno>
+         </altIdentifier>
+      </msIdentifier>
+      <msContents>
+         <msItem>
+            <note>Remains of eight lines on one face</note>
+            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+         </msItem>
+      </msContents>
+      <physDesc>
+         <objectDesc>
+            <supportDesc>
+               <support>
+                  <p>Back of the upper part of a broken <objectType>sculptural stela</objectType> of Śiva; <material><seg type="check">sandstone</seg></material>;
+                     <dimensions unit="cm">
+                        <height>34</height>
+                        <width>46.5</width>
+                        <depth>20.5</depth>
+                     </dimensions>.</p>
+               </support>
+            </supportDesc>
+         </objectDesc>
+      </physDesc>
+      <history>
+         <origin>
+            <origPlace type="location">
+               <placeName type="modern" ref="cic-geo:chiem-son-tay">Chiêm Sơn Tây</placeName>
+             </origPlace>
+            <origDate>
+               <date calendar="Śaka">14th century, possibly 1365</date>
+               <date calendar="Julian" notBefore="1443" notAfter="1444">15th c., possibly 1443/4</date>
+            </origDate>
+         </origin>
+         <provenance type="found" notBefore="1982" notAfter="1989">
+            <ab>This piece was found by a local catholic at the mound called <placeName type="modern" ref="cic-geo:chua-vua">Chùa Vua</placeName> (or Chùa Voi) in the Chiêm Sơn Tây valley. According to local sources, this happened most probably between 1985 and 1989, but in any case not before 1982 when a new agricultural program encouraged the digging of new fields at Trà Kiệu and Chiem Sơn. The finder brought the piece to the church in Trà Kiệu.<note>Our first source was Đoàn Quang Dân (quangdanphaolo@yahoo.com) of the Nhà Xứ presbytary, church of Trà Kiệu. Our second source was Father Anthony Nguyễn Trường Thăng, Hoi An Catholic Church (Nhà thờ Công Giáo Hội An), số 2 Nguyễn Trường Tộ http://antontruongthang.wordpress.com/. In June 1975 he arrived at Trà Kiệu and began collecting Cham artefacts as a hobby. At the end of 1989 he was transferred to Ðà Nẵng, before spending 3 years in Paris between 1994 and 1997. He then worked in Thăng Bình until 2006, when he began his current station in Hội An.</note>
+            </ab>
+         </provenance>
+         <provenance type="observed" notBefore="1991">
+            <ab>The inscription was first observed in the Trà Kiệu church before 1991, as reported in <bibl><ptr target="cic-bibl:tkp-nvp-1991"/>: 220</bibl>.<note><quote>In the collection of Father Nguyễn Trường Thăng at the Trà Kiệu church are currently preserved two heads from small statues, one piece of a stela in old Cham script, and many stone antefixes (pièces d’accent) decorated with flower and leaf designs. All of them were discovered at Gò Chùa Vua during the last few years</quote> (<quote>Trong sưu tập của Linh mục Nguyễn Trường Thăng tại nhà thờ Trà Kiệu, hiện cất giữ hai đầu tượng nhỏ, một mảnh bia chữ Chăm cổ, và nhiều tai đá (pièce d’accent) trang trí hình hoa lá. Tất cả đều tìm thấy tại Gò Chùa Vua trong những năm vừa qua</quote>).</note> It was observed there again, and photographed, by W.A. Southworth in 1993. Two photographs of the stela taken by Marie-Christine Duflos and V. Crombé were used to illustrate a general article by Anne-Valérie Schweyer in 2003, where it was given the caption <quote>Stèle inédite du XIe-XIIe siècles … Musée de Trà Kiêu</quote> (<bibl><ptr target="cic-bibl:schweyer-2003"/>: 18</bibl>).</ab>
+           </provenance>
+         <provenance type="observed" notBefore="2009">
+            <ab>We identified the stone in the Phòng Trưng Bày Văn Hóa Chăm (Exhibition room of Cam culture), in the Nhà Xứ presbytery at the Trà Kiệu church in 2011.</ab>
+         </provenance>
+      </history>
+      <additional>
+         <surrogates>                       
+            <msDesc n="estampage-inked" facs="#fac3">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-n2129">n. 2129</idno>
+               </msIdentifier>
+            </msDesc>
+         </surrogates>         
+      </additional>
+   </msDesc>
+</sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage"/></catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+                  <!-- ARLO: don't think there will be any -->
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2012-05-25" who="AG" xml:lang="en">first attempt at porting all the relevant
+            data for this inscription into xml format</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0215_1_AG_2011.jpg">
+         <desc>Photograph of the front of the sculptural stela whose back bears inscription <ptr target="#inv-general"/>. Taken in the exhibition room at the Trà Kiệu church by Arlo Griffiths on <date when="20111123"/>.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/C0215_2_AG_2011.jpg">
+         <desc>Photograph of inscription <ptr target="#inv-general"/>. Taken in the exhibition room at the Trà Kiệu church by Arlo Griffiths on <date when="20111123"/>.</desc>
+      </graphic>
+      <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n2129.jpg">
+         <desc>Photograph of EFEO estampage n. 2129.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>First published, without translation, in <bibl><ptr target="cic-bibl:schweyer-2008a"></ptr>: 228</bibl>. The text is re-edited here from the stone and the EFEO estampage.</ab>
+         </div>  
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines">
+             <ab type="invocation">oṃ</ab>  
+             <ab type="invocation">nama śivāya</ab>
+            <ab>
+               <lb n="1"/> <gap reason="lost" quantity="6" unit="character"/> yām̃ pom̃ ku śrī śrīndra viṣṇukīrtti vīrabhadravarmmade
+<lb break="no" n="2"/><supplied reason="lost">va</supplied> <gap reason="lost" quantity="4" unit="character"/>(r)mma pūra urām̃ ṅauk· glauṅ· vijaya pu pom̃ ku nan· ticauvv· yām̃
+<lb n="3"/> <supplied reason="lost">pom̃ ku śrī</supplied> <unclear>ja</unclear>ya siṅhavarmmadeva ticauvv· pu pom̃ vyā parameśvarī pu pom̃ ku
+<lb n="4"/> kumman· yām̃ pom̃ ku śrī braṣu indravarmmadeva paramotbhava di yām̃ pu śrī
+<lb n="5"/> rājaparamātmaja yām̃ pu yuvarāja yām̃ pom̃ ku śrī śrīndra viṣṇukīrtti vīra
+<lb break="no" n="6"/>bhadravarmmadeva pu pom̃ ku śivabhaktātireka tadyom̃ di (dha)rmmopapāti jan·
+<lb n="7"/> samastapunyadharmma makapun· <seg type="check">thal<unclear>y</unclear>a tham̃krammasatā<unclear>ka</unclear></seg> dhūppa vada kā<unclear>la</unclear> <gap reason="lost" quantity="1" unit="character"/>
+<lb n="8"/> <gap reason="illegible" unit="line"></gap>
+<!-- AG: or, copied from Hugh Houghton: <gap reason="lost" unit="inscription" extent="rest"/> -->     </ab>
+            </div>
+         <div type="apparatus">
+            <ab>
+               <app loc="1">
+                  <lem>viṣṇukīrtti</lem><rdg resp="Schweyer">viṣṇumūrtti</rdg>
+               </app>
+               <app loc="2">
+                  <lem><supplied reason="lost">va</supplied> <gap reason="lost" quantity="4" unit="character"/>(r)mma pūra</lem><rdg resp="Schweyer">[va ca]mpapūra</rdg>
+               </app>
+               <app loc="2">
+                  <lem>nan·</lem><rdg resp="Schweyer">nagara</rdg>
+               </app>
+               <app loc="3">
+                  <lem><supplied reason="lost">pom̃ ku śrī</supplied> <unclear>ja</unclear>ya siṅhavarmmadeva</lem><rdg resp="Schweyer">[ja]ya siṅhavarmmadeva</rdg><note>There is definitely place for several more syllables than Schweyer assumes, and comparison with other inscriptions shows that <foreign>pom̃ ku śrī</foreign> is a fixed part of the royal title.</note>
+               </app>
+               <app loc="3">
+                  <lem>vyā parameśvarī</lem><note>this sequence was not read by Schweyer, although the letters are clear, and the same sequence figures in <ref target="C0011.xml">C. 11</ref> A, l. 3 and <ref target="C0022.xml">C. 22</ref> A, l. 3.</note>
+               </app>
+               <app loc="4">
+                  <lem>paramotbhava di</lem><rdg resp="Schweyer">paramottara niy</rdg><note>For <foreign>paramodbhava</foreign> (of which <foreign>paramotbhava</foreign> represents a sloppy spelling), see <ref target="C0011.xml">C. 11</ref> A, l. 3 and <ref target="C0031.xml">C. 31</ref> A1, l. 2 (a form <foreign>paramottara</foreign> is not attested, and the reading is clearly <foreign>°va</foreign>, not <foreign>°ra</foreign>).</note>
+               </app>
+               <app loc="5">
+                  <lem>rājaparamātmaja</lem><rdg resp="Schweyer"> rājaparamā. . .</rdg><note>The letters unread by Schweyer are clear.</note>
+               </app>
+               <app loc="5">
+                  <lem>pu yuvarāja</lem><rdg resp="Schweyer">pov ku yubarāja</rdg>
+               </app>
+               <app loc="5">
+                  <lem>viṣṇukīrtti</lem><rdg>viṣṇumūrtti</rdg>
+               </app>
+               <app loc="6-7">
+                  <lem>śivabhaktātireka</lem><note>Schweyer does not transliterate any further akṣaras after <foreign>śiva°</foreign>.</note>
+               </app>
+               </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Om. Homage to Śiva! ... Y.P.K. Śrī Śrīndra Viṣṇukīrti Vīrabhadravarmadeva ... [who hails from] the capital, man Ṅauk Glauṅ Vijaya. That P.P.K. was the grandson of Y.P.K. Śrī Jaya Siṃhavarmadeva, the grandson of P.P.V. Parameśvarī P.P.K, the nephew of Y.P.K. Śrī Vṛṣu Indravarmadeva, of supreme birth among the illustrious lords supreme princes. [He was] milord the heir apparent. Y.P.K. Śrī Śrīndra Viṣṇukīrti Vīrabhadravarmadeva P.P.K., of unsurpassed devotion to Śiva, faithful to the production of <foreign>dharma</foreign>, carried out all meritorious gifts (<foreign>dharma</foreign>), such as: ... incense ...  </p>
+            <!-- Vocabulary
+               tadyom̃: see A&C-SA, facing p. 173 [231 pdf], and p. 230 [288 pdf] (with facing page); see Aymonier, Grammaire, on prefix ta-. Also Moussay, Grammaire. 
+               dharmmopapāti: cf. dharmmopapatti in Javanese epigraphy.
+               jan: aphaeresis for rajan/rijan.
+               samastapuṇyadharma: cf. samastapuṇyadāna in C. 95, B 1.
+            Cf. also C. 20-->
+         </div>
+         <div type="commentary">
+            <p>The iconography of what remains of the sculpture seems somewhat comparable with that seen in the sculpture whose back bears the inscription <ref target="C0042.xml">C. 42</ref> from <placeName type="modern" ref="cic-geo:drang-lai">Drang Lai</placeName>, which dates to the same period. Another inscription (<ref target="C0161.xml">C. 161</ref>) is engraved on the back of the lower part of a broken statue of Śiva. The god’s torso is there not preserved, but what is preserved of the lap of the deity and of his mount is very comparable to the Śiva from <placeName type="modern" ref="cic-geo:drang-lai">Drang Lai</placeName>, bearing on its back <ref target="C0042.xml">C. 42</ref>, and so this piece may be considered to have been a comparable statue of Śiva. Moreover, this fragment of a Śiva was found in the valley <placeName type="modern" ref="cic-geo:chiem-son">Chiêm Sơn</placeName> near <placeName type="modern" ref="cic-geo:tra-kieu">Trà Kiệu</placeName>.</p>
+            <p>In other words, we have two contemporary fragments of inscriptions, one engraved on the upper back, the other on the lower back of a sculpture, both of these fragments found in <placeName type="modern" ref="cic-geo:chiem-son">Chiêm Sơn</placeName>; the one fragment shows the torso of a possible Śiva, the other the lap of a deity sitting on a bull, i.e. almost certainly Śiva. We are very tempted to consider that these two inscriptions, <ref target="C0161.xml">C. 161</ref> and <ref target="#inv-general"/>, originally belonged together as top and bottom. The measurements of the stones would seem to allow this hypothesis, although both fragments have suffered a lot precisely in the place where the pieces would have been joined, so it is hard to get any certainty from measurement, and it is not likely that physically trying to join the two pieces would yield clear confirmation either. We have measured the size of the letters of the two inscriptions, and the result was some dissimilarity in size, so that we remain in doubt about this hypothesis.</p>
+            <!-- AG: the right place for this kind of discussion? -->
+         </div>
+         <!-- <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl><ptr target="cic-bibl:tkp-nvp-1991"/>: 220.</bibl>
+               <bibl><ptr target="cic-bibl:schweyer-2003"/>: 18-19.</bibl>
+               <bibl><ptr target="cic-bibl:ECIC-III"/>.</bibl>
+               </listBibl>
+            </div>
+         -->
+      </body>
+   </text>
+</TEI>

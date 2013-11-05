@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stela from Glai Klaong Anâk</title>
+                <editor>Arlo Griffiths</editor>
+                <editor>Amandine Lepoutre</editor>
+                <editor>William Southworth</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0019</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths, Amandine Lepoutre &amp; William Southworth.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 19</idno>
+                        <altIdentifier type="majumdar-nr">
+                            <idno xml:id="majumdar-nr">No. 27</idno>
+                        </altIdentifier>
+                        <altIdentifier type="museum-inventory">
+                            <settlement>Hanoi</settlement>    
+                            <repository>BTLS-QG</repository>
+                            <idno xml:id="inv-btls-qg">LSb 21169</idno>
+                        </altIdentifier>
+                        <altIdentifier type="museum-inventory-former">
+                            <settlement>Hanoi</settlement>
+                            <repository>EFEO Museum</repository>
+                            <idno xml:id="inv-efeo-hanoi">B 2, 12</idno>
+                        </altIdentifier>   
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>Ten lines on one face</note>
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Stela</objectType>; <material>sandstone</material>; 
+                                         <dimensions unit="cm">
+                                            <height>85</height>
+                                            <width>60</width>
+                                         </dimensions>.
+                                    </p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName ref="cic-geo:phan-rang">Phan Rang</placeName>
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">930</date>
+                                <date calendar="Julian" notBefore="1008" notAfter="1009">1008/9</date>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1888">
+                            <p> The stela was found at <placeName xml:id="findspot" type="modern" ref="cic-geo:glai-klaong-anak">Glai Klaong Anâk</placeName> (modernised spelling for Klauṅ Anơk), a small coppice in the ricefields of <placeName type="modern" ref="cic-geo:phan-rang">Phan Rang</placeName> <!-- AG: since no references are made using these xml:id marks, I think they serve no purpose, and could be removed. -->, between the <placeName xml:id="findspot2" type="modern" ref="cic-geo:ram">Ram Muslin village</placeName> and a small village called <placeName xml:id="findspot3" type="modern" ref="cic-geo:pralau">Pralau</placeName> (<bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>77</biblScope></bibl>; <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>23</biblScope></bibl>).</p>
+                        </provenance>
+                        <provenance type="observed" notAfter="1909">
+                            <p><bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>72</biblScope></bibl> tells us more about its provenance: <quote rend="block">[La] pierre inscrite faisait partie de l'enceinte du cimetière, elle s'appelle Glai Klauṅ Anơk pour les Čams, Giang Cố pour les Annamites ; triangulaire et plate, elle est cassée en quatre morceaux qui portent dix lignes assez frustes sur une face, rien sur l'autre.</quote></p>
+                            <!-- AG: I think is its necessary to move the bibliographic reference to before the block quote, and a ":" should be added too, so "... provenance (BIBLREF): ...". Otherwise the result will not look nice.--> 
+                            <!-- AL : oui, mais après on parle de Hanoi. On ne va pas présenter les info sur le transfert de l'inscription de Phan Rang à Hanoi, sur la conservation à Hanoi, pour ensuite revenir sur la localisation d'origine, ça ne serait pas clair. -->
+                        </provenance>
+                    <provenance type="observed" when="1910">
+                        <p>When the inscriptions of Campā were moved from the Saigon Museum to the EFEO Museum in Hanoi in 1910, the collection was completed by other inscriptions regarded as the most important pieces for the history of Campā; C. 19 was one of them (<bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>2</biblScope></bibl>).</p>
+                    </provenance>
+                        <provenance type="observed" notBefore="1915">
+                            <ab>Its inventory number <ptr target="#inv-efeo-hanoi"/> at the Museum was published in <bibl><ptr
+                                target="cic-bibl:finot-1915a"/>: <biblScope>8</biblScope></bibl>;
+                                whence, in the inventory of Campā inscriptions published in 1923, this local number was
+                                included under the entry <ptr target="#inv-general"/> (<ptr
+                                    target="cic-bibl:coedes-1923"/>).</ab>
+                        </provenance>
+                        <provenance type="observed" notBefore="1915">
+                            <ab>We identified the stone in the Bảo Tàng Lịch Sử Việt Nam (National Museum of Vietnamese History) at Hanoi in 2009 and following years, as the one bearing inventory number <ptr target="#inv-btls-qg"/>. The Museum assumed the new name Bảo Tàng Lịch Sử Quốc Gia (National Museum of History) in 2011, but this did not entail a change in the inventory number.</ab>     
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <msDesc n="estampage-uninked">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-129">129</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-inked" facs="#fac2">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n140">n. 140</idno>
+                                </msIdentifier>
+                                <ab><note>There are two estampages under the number n. 140.</note></ab>
+                                <!-- AG: if it is the case, as I think it is, that n. 140 comprises more than one estampage, then as many details as possible should be mentioned here in a note. (I am not sure if there was any comparable case among the inscriptions I have encoded.)
+                                    As for C. 173, what I meant was a "photo print". Is there more than one print of a photo kept in Paris? I was of course not talking about digital photos of the available estampage. Let me know if you still think I am in error, and explain to me where my error lies. -->
+                                <!-- AL: ok, j'avais mal compris la note pour la photo de n. 508, tt va bien. -->
+                            </msDesc>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="20120815" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0019_AG_2009.jpg">
+            <desc>Photograph, with scale, of inscription <ptr target="#inv-general"/>. Taken in the Hanoi Museum by Arlo Griffiths on <date when="20090917"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0140.jpg">
+            <desc>Photograph of an EFEO estampage under n. 140.</desc> 
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <p>A few words were deciphered in <bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>77</biblScope></bibl>. Later, <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>84-85</biblScope></bibl> presented a partial French-language translation without publication of the text, whence <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>65</biblScope></bibl> and <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>52</biblScope></bibl>. This inscription was edited, with French translation, in <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>445-446</biblScope></bibl>, which publication is reproduced here.</p>
+            </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+                <ab>
+                    <lb n="1"/> om̐ svasti
+                    <lb n="2"/> di śakarāja <date>930</date>
+                    <lb n="3"/> huriy<unclear>·</unclear> <choice><unclear>4</unclear><unclear>5</unclear></choice> vaṅun· <supplied reason="lost">vulān·</supplied> 10
+                    <lb n="4"/> di rāja yām̃ pau k<unclear>u</unclear> v<unclear>i</unclear>jaya śrī
+                    <lb n="5"/> hrīvarmmadeva pu pauv· ku
+                    <lb n="6"/> nan· kāla senāpati pam̃<supplied reason="lost">r·rauṅ</supplied> dauk<unclear>·</unclear>
+                    <lb n="7"/> jā manicīk· <orig><unclear>ya dhaṅā</unclear></orig> vala pa<unclear>rā</unclear> <orig><unclear>kra du</unclear><add place="above"><unclear>na</unclear></add><unclear>n</unclear></orig><unclear>·</unclear> samū
+            <lb n="8"/> s<unclear>v</unclear>abhāva yām̃ pu ku viṣṇu vela vyā ghora yuddha
+           <lb n="9"/> dala<unclear>ṃ</unclear> doṃ mandala śatruḥ la senāpatī pam̃r·
+                    <lb break="no" n="10"/><supplied reason="lost">rauṅ</supplied> <gap reason="lost" quantity="2" unit="character"/> <orig><unclear>makiri laḥ lakī</unclear></orig> <gap reason="lost" quantity="1" unit="character"/> <orig><unclear>lāra hauc·</unclear></orig> 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <ab>
+                    <app  loc="7">
+                        <lem>dhaṅā vala</lem>
+                        <rdg resp="Bergaigne &amp; Aymonier">mahāvala</rdg>
+                        <note>On the estampage, this reading seems to be more than suspicious. Moreover this compound <foreign>mahāvala</foreign> figures nowhere in the corpus, whereas the word <foreign>vala</foreign> it frequenly used by itself.</note>
+                    </app>
+                    <app loc="7">
+                        <lem><orig><unclear>du </unclear><add place="above"><unclear>na</unclear></add><unclear> n</unclear></orig><unclear>·</unclear></lem>
+                        <note>The presence of an <foreign>akṣara</foreign> above the line can be guessed. If it is read as <foreign>na</foreign>, it should be inserted between <foreign>du</foreign> and <foreign>n·</foreign>, and we must accept that it has been sbeen engraved a little too far left. Alternatively, the reading <foreign>ma</foreign> is possible, and the sequence can then be restored as follows: <foreign>parākra <add place="above">ma</add> jun·</foreign>.</note>
+                    </app> 
+                    <app  loc="8">
+                        <lem>samū svabhāva</lem> 
+                        <note>The words <foreign>samū</foreign> and <foreign>svabhāva</foreign> appear twice together elsewhere namely in C. 90, face B, ll. 12 and 27.</note>
+                    </app>
+                    <app  loc="8">
+                        <lem>vela</lem> 
+                        <note>Other readings are possible: <foreign>vel·</foreign> and <foreign>velaṃ</foreign>.</note>
+                    </app>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p> Om ! Hail ! [In the year of the] Śaka king 930, day 4/5 of the waxing [fortnight] of month 10 (that is to say Mārgaśīrṣa), during the reign of Y.P.K. the victorious Śrī Harivarmadeva, my master ... It was the time when the general Pam̃ Rauṅ from Dauk Jā, (village) Manacīk ... The latter is of the same nature as Y.P.K. Viṣṇu ... horrible war in all the districts of the ennemies, the general Pam̃r Rauṅ ... </p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p> Om ! Salut ! [En l'année] 930 [du] roi des Śaka, jour 4/5 [de la] (quinzaine) croissante du mois 10 (c.-à-d. mārgaśīrṣa), au cours du règne de Y.P.K. le victorieux Śrī Harivarmadeva, mon maître ... Ce fut le temps où le général Pam̃ Rauṅ de Dauk Jā, (village) Manacīk ... Ce dernier est de la même nature que Y.P.K. Viṣṇu ... guerre horrible dans tous les districts des ennemis, le général Pam̃r Rauṅ ...</p>
+            </div> 
+           <!-- <div type="bibliography" subtype="secondary">
+            <listBibl>
+           <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>2 and 8</biblScope>.</bibl>
+           <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>72</biblScope>.</bibl>
+            </listBibl>
+            </div> -->
+        </body>
+    </text>
+</TEI>

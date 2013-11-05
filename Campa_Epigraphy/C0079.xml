@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pedestal at Mỹ Sơn</title>
+                <editor>Dominic Goodall</editor>
+                <editor>Arlo Griffiths</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0079</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 79</idno>
+                        <altIdentifier type="majumdar-nr">
+                            <idno xml:id="majumdar-nr">No. 14</idno>
+                        </altIdentifier>
+                        <altIdentifier type="site-inventory">
+                            <settlement>Mỹ Sơn</settlement>                            
+                            <idno xml:id="inv-myson">03MSA1.25</idno>
+                            <note>Recorded under this number in the registration of Mỹ Sơn as a Unesco World Heritage Site</note>
+                        </altIdentifier>    
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>Two lines on one face</note>
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Low <objectType>pedestal</objectType>;
+                                        <material>sandstone</material>; we have not recorded dimensions, but <bibl><ptr target="cic-bibl:finot-1904d"/>: <biblScope>928</biblScope></bibl> has recorded the following:
+                                         <dimensions unit="cm">
+                                            <height>14</height>
+                                            <width>58</width>
+                                             <depth>58</depth>
+                                            </dimensions>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName type="modern" ref="cic-geo:my-son">Mỹ Sơn</placeName>
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">6th</date>
+                                <date calendar="Julian">7th</date>
+                            </origDate>
+                        </origin>
+                    <provenance type="found" notAfter="1904">
+                        <ab>The stone was found at <placeName xml:id="findspot" type="modern" ref="campa-geo:my-son">Mỹ Sơn</placeName>, on or near the steps of A10 before 1904, and was listed as number V in the list of inscriptions of this site (<bibl><ptr target="cic-bibl:finot-1904d"/>: <biblScope>928</biblScope></bibl>; see also the table in that article; and <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>357</biblScope></bibl>).<note>There is an inconsistency between these three references with regard to the exact provenance. The first reports <quote>trouvé sur les marches de A<hi rend="subscript">10</hi></quote>, the second <quote>près des marches de A<hi rend="subscript">10</hi></quote>, and the third <quote>au perron de A<hi rend="subscript">10</hi></quote>.</note></ab>
+           <!-- AG we need to encode the groups/monuments within this site. How to tag the note number?--> 
+           <!-- TE: I'm not sure why we need to use a <note> above, won't parentheticals work ok? Meantime, I'll look at adding monuments and monument groups to the geography file so we can refer to them -->
+                            </provenance>
+                       <provenance type="found" notBefore="2009">
+                           <ab>We identified the stone in the Mỹ Sơn site museum in 2009, as the one bearing local inventory number <ptr target="#inv-myson"/> (see <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>458</biblScope></bibl>).</ab>     
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <msDesc n="estampage-uninked">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno>336</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-inked" facs="#fac2">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno>n. 2071</idno>
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                    <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                       </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                        <!-- ARLO: don't think there will be any -->
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2011-07" who="TRE" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AG</change>
+            <change when="2012-05-06" who="AG">basic mark-up of all data</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0079_1_AG_2009.jpg">
+            <desc>Photograph of the pedestal bearing inscription <ptr target="#inv-general"/>, displayed upside-down, and mounted by an unrelated object. Taken at Mỹ Sơn by Arlo Griffiths on <date when="20090927"/>.</desc>
+        </graphic>
+            <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n2071.jpg">
+            <desc>Photograph of EFEO estampage n. 2071.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <p>First published, with French translation, in <bibl><ptr target="cic-bibl:finot-1904d"/>: <biblScope>928</biblScope></bibl>; whence, with significantly improved translation into English, in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>27</biblScope></bibl>; whence <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>9-10</biblScope></bibl>. Re-edited from the inked EFEO estampage, with new translation, in <bibl><ptr target="cic-bibl:ECIC-V"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>, whence the present edition.</p>
+            </div>
+            
+            <div type="edition" xml:lang="sa-Latn-x-CI" xml:space="preserve" rend="break-verse-lines">
+            <ab><lb n="1"/>
+               <g type="siddham"/></ab>
+            <lg met="Anuṣṭubh" n="I">
+               <l>maheśvarasakhasyedaṃ kuverasya dhanākaraṃ</l>
+               <l>prakāśadharmmanṛpatiḥ pūjāsthānam akalpayat·</l>
+            </lg>
+            <lg met="Anuṣṭubh" n="II">
+               <l><lb n="2"/>ekākṣapiṅgalety eṣa devyā darśśanadūṣitaḥ</l>
+               <l>saṃvarddhayatv īśadhanaṃ pāyāc cāhitatas sadā <pc>||</pc></l>
+            </lg>
+         </div>
+            <div type="apparatus">
+                <ab>
+                    <app loc="IIb">
+                        <lem>darśśanadūṣitaḥ</lem>
+                        <rdg resp="Finot">darśanadūṣitaḥ</rdg>
+                        <note>In conformity with his general practice, Finot here applies silent normalization.</note>
+                    </app>
+                    <app loc="IId">
+                        <lem>||</lem>
+                        <rdg resp="Finot"><space/></rdg>
+                    </app> 
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>I. The king Prakāśadharman has fashioned [this] place of worship, a mine of riches, for Maheśvara's (i.e. Śiva's) companion Kubera.</p>
+                <p>II. Spoiled in [one] eye by the goddess, [such that he became known] as Ekākṣapiṅgala, may he cause the property of the Lord to increase, and may he always protect from what is untoward (<foreign>ahitataḥ</foreign>).’
+                </p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>We cite Finot's translation of 1904:</p>
+                <p>Ce sanctuaire du compagnon de Maheśvara, Kuvera, mine de richesses, le roi <sic>Prakāśadharma</sic> l'a édifié. Si quelqu'un est affligé d'une maladie d'yeux par la déesse Ekākṣapiṅgalā (la rousse borgne), qu'il augmente les richesses du Seigneur, et (celui-ci) le défendra du mal à jamais.</p>
+                            </div> 
+            <div type="commentary">
+                <p>An early version of the myth of Kubera's companionship of Śiva is recounted in the <ref>old Skandapurāṇa</ref>, at 29.169 (see <bibl><ptr target="cic-bibl:SP2A"/>)</bibl>.</p>
+                <p>Finot understood <foreign>ekākṣapiṅgalety</foreign> as <foreign>ekākṣapiṅgalā ity</foreign> and noted that the (feminine) evil spirit Ekākṣapiṅgalā was not known to him from any other source. As was seen by Majumdar, it has to be understood as <foreign>ekākṣapiṅgala ity</foreign>, and so the name in question is (masculine) Ekākṣapiṅgala, which is a name of Kubera, e.g. in the <seg type="check"><bibl><ref>Himavatkhaṇḍa</ref> (19.4)</bibl></seg>. He appears as Ekākṣipiṅgala in the <bibl><ref>old Skandapurāṇa</ref> (29.149)</bibl>. That is also the form of the name in <bibl><ref>Rāmāyaṇa</ref> <seg type="check">7.13:24,30-31</seg></bibl>, which perhaps gives the earliest known version of the myth. For Vettam Mani's version of the myth, see <bibl><ptr target="cic-bibl:mani-1975"/>, § 13, <hi rend="italic">s.v.</hi> Kubera</bibl>.
+                    <!-- I find it in an unpubished ancient Śaiva text, in verse 1.125 of the Guhyasūtra of the <ref>Niśvāsatattvasaṃhitā</ref>. But the context there does seem to throw any light on the present inscription.--> 
+                    The sandhi is a bit unusual, but parallels can nevertheless be cited: the Cambodian
+                    inscription K. 524, st. I, begins with <foreign>vidyāvāseti nāmāhaṃ tejasvī bhuvi viśrutaḥ</foreign>
+                    (<bibl><ptr target="cic-bibl:coedes-1937-1966"/> III, p. 134</bibl>); the second half of <seg type="check"><bibl><ref>Harivaṃśa</ref> 12.16</bibl></seg>: <foreign>yathotpannas tathaivāhaṃ
+                    kumāra iti viddhi mām | tasmāt sanatkumāreti nāmaitan me pratiṣṭhitam ||</foreign>.
+                    Our interpretation of the two modal verbs in the second stanza as both being predicates to a single subject (<foreign>eṣa</foreign>) disagrees with Finot's, following instead Majumdar's. The latter scholar has still misunderstood the significance of <foreign>darśanadūṣita</foreign>, for based on the myth to which allusion is made here, this must clearly mean an impairment <hi rend="italic">at</hi> the eye (of Kubera), rather than <hi rend="italic">by</hi> the eye (of the Goddess).</p>
+                <p>By contrast with Majumdar, who translates <quote>the wealth of this king</quote>, we consider it likely that <foreign>īśadhana</foreign> here denotes primarly the wealth of Śiva (<foreign>devadravya</foreign>) endowed to his temple, and that a subsidiary shrine to Kubera was installed near it for protective purposes.
+                    <!-- previously, we had this paragraph as follows: -->
+ <!-- We consider it most likely that <foreign>īśadhana</foreign> here denotes the wealth of Śiva, called Maheśvara in st. I. We cite from unpublished notes of Alexis Sanderson: <quote>Majumdar understands 'the Lord' here to be the King. But this would be acceptable only if there were an insurmountable obstacle to taking the word in its primary sense as a reference to Śiva. I see no such obstacle. On the contrary I see a good reason to understand the primary sense, namely that the inscription concerns a treasury attached to a temple of Śiva. The wealth to be increased must that of Śiva himself (<foreign>devadravyam</foreign>) in the form of his temple's endowment and the income therefrom administered on his behalf.</quote> -->
+                </p>
+            </div>
+            <!-- <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>357</biblScope>.</bibl>               
+                </listBibl>
+                </div> -->
+        </body>
+    </text>
+</TEI>

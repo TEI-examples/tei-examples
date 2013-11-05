@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lintel from Phan Rang</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Amandine Lepoutre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0006</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>EFEO</institution>
+                  <idno xml:id="inv-general">C. 6</idno>
+                  <altIdentifier type="majumdar-nr">
+                     <idno xml:id="majumdar-nr">No. 96</idno>
+                  </altIdentifier>
+                  <altIdentifier type="museum-inventory">
+                     <settlement>Hanoi</settlement>    
+                     <repository>BTLS-QG</repository>
+                     <idno xml:id="inv-btls-qg">LSb 21178</idno>
+                  </altIdentifier>
+                  <altIdentifier type="museum-inventory-former">
+                     <settlement>Hanoi</settlement>
+                     <repository>EFEO Museum</repository>
+                     <idno xml:id="inv-efeo-hanoi">B 2, 18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                  <note>Four lines on one face</note>
+                  <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang> 
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Lintel</objectType>; <material>sandstone</material>; <dimensions unit="cm">
+                               <height>26</height>
+                              <width precision="low">198</width>
+                              <depth>49</depth>
+                           </dimensions>.
+                           </p>                        
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace type="location">
+                        <placeName ref="cic-geo:phan-rang">Phan Rang</placeName>
+                     </origPlace>
+                     <origDate>
+                        Text 1: <date extent="C. 6.1" calendar="Śaka">1166</date>
+                        <date extent="C. 6.1" calendar="Julian" notBefore="1244" notAfter="1245">1244/5</date>
+                        Text 2: <date extent="C. 6.2" calendar="Śaka">1196</date>
+                        <date extent="C. 6.2" calendar="Julian" notBefore="1274" notAfter="1275">1274/5</date>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" notAfter="1888">
+                     <ab>This lintel was found before 1888, but was first mentioned in the literature only in <bibl><ptr target="cic-bibl:finot-1903"/>: <biblScope>648</biblScope></bibl>.
+                     </ab>
+                  </provenance>
+                  <provenance type="observed" notAfter="1909"> 
+                     <ab>During the first decade of the 20<hi rend="superscript">th</hi> century, it was observed at the <placeName xml:id="origin" type="modern" ref="campa-geo:phan-rang">Phan Rang</placeName> residence (<bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>79-81</biblScope></bibl>). Like the architectural elements bearing <ref target="C0003.xml">C. 3</ref>, <ref target="C0004.xml">C. 4</ref>, <ref target="C0005.xml">C. 5</ref> and <ref target="C0007.xml">C. 7</ref>, 
+                        this one was later identified as belonging to a group of vestiges, found in the rice-fields of the Catholic Mission, to which the designation <quote>sanctuaire de Svayamutpanna</quote> was applied (<bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>77</biblScope></bibl>).</ab>
+                  </provenance>
+                  <provenance type="observed" when="1910">
+                     <ab>When the inscriptions of Campā were moved from the Saigon Museum to the EFEO Museum in Hanoi in 1910, the collection was completed by other inscriptions regarded as being of outstanding importance for the history of Campā. The lintel bearing C. 6 was one of them (<bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>2</biblScope></bibl>).</ab>
+                  </provenance>
+                  <provenance type="observed" when="1915">
+                     <ab>Its inventory number <ptr target="#inv-efeo-hanoi"/> at the Museum was published in <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>10</biblScope></bibl>;
+                        whence, in the inventory of Campā inscriptions published in 1923, this local number was
+                        included under the entry <ptr target="#inv-general"/> (<ptr target="cic-bibl:coedes-1923"/>).</ab>
+                  </provenance>
+                  <provenance type="observed" notBefore="2009">
+                     <ab>We identified the stone in the Bảo Tàng Lịch Sử Việt Nam (National Museum of Vietnamese History) at Hanoi in 2009 and following years, as the one bearing inventory number <ptr target="#inv-btls-qg"/>. The Museum assumed the new name Bảo Tàng Lịch Sử Quốc Gia (National Museum of History) in 2011, but this did not entail a change in the inventory number.</ab>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-4">4</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-inked" facs="#fac2"> 
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-n146-jpg">n. 146</idno>
+                        </msIdentifier>
+                        </msDesc> 
+                     </surrogates>
+               </additional>
+                  </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version 
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampages</catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="20120815" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+         <change when="20120922" who="AL" xml:lang="en">corrections of the initial encoding</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0006_AG_2009.jpg">
+         <desc>Photograph, with scale, of inscription <ptr target="#inv-general"/>. Taken in the Hanoi Museum by Arlo Griffiths on <date when="20090917"></date>.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0146.jpg">
+         <desc>Photograph of EFEO estampage under n. 146.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>This inscription was edited and translated into French in <bibl><ptr target="cic-bibl:finot-1903"/>: <biblScope>648</biblScope></bibl>; summarised in English in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>213</biblScope></bibl>, whence <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>180 and 191</biblScope></bibl>. It was also studied in <bibl><ptr target="cic-bibl:jacques-1977"/>: <biblScope>1078-1079</biblScope></bibl>. The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-IV"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>.</ab>
+         </div>        
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+            <div type="textpart" n="1">
+               <head xml:lang="en">C. 6.1</head>
+            <ab>
+            <lb n="1"/> <pc type="fleuron"></pc> svasti <pc type="fleuron"></pc> pom̃ pu lakim̃ paṅkaja cim̃ abhimanyudeva urām̃ cathim̃ pāṇḍurāṅgeśvara senāpatī yām̃ pom̃ ku śrī jayaparameśvaravarmmadeva pu pom̃ tana rayā nan· vriy· pom̃ nan· marai senāpatī panram̃ di śaka nī 1152 pak· rāja pu pom̃ tana rayā nan· trā pom̃ nan· vuḥ di yām̃ pom̃ 
+            <lb n="2"/> ku svayamutpanna vom̃ sān· mvram̃m· māḥ sā vana 'nāk· māḥ 9 thil· 4 draṃ vom̃ sān· mvram̃m· pirak· sā vana 'nāk· pirak· 8 thil· suvauk· pirak· sā vana 'nāk· 8 thil· calāhvaya laṅguv· sā di śaka nī 1166
+            </ab> 
+            </div>
+            <div type="textpart" n="2">
+               <head xml:lang="en">C. 6.2</head>
+            <ab>
+            <lb n="3"/> <pc type="circle">⦾</pc> taval· śūratva oṅ mādhavaḥ nandana urām̃ tur<unclear>e</unclear> vijaya pu pom̃ tana rayā inravarmma vrim̃ rai lyam̃ pom̃ yām̃ utpaṇa di śakarāja 1196 vlim̃ limān· lakim̃ sā ma anan· ja sraum̃ hulun· 6 vuḥ pak· yām̃ pom̃ ku svayamutpaṇna
+            <lb n="4"/> mauk· karet· mauk· ratna dāk· mauk· avyaṃ mauk· eḥ mauk· can· mauk· pūt· tralām̃ tāra 1196
+            </ab>
+            </div>
+         </div>
+         <div type="apparatus">
+            <ab>
+               <app loc="1">
+                  <lem>pāṇḍurāṅgeśvara</lem>
+                  <rdg resp="Finot">pāṇḍuraṅgeśvara</rdg>
+               </app>
+               <app loc="2">
+                  <lem>9</lem>
+                  <rdg resp="Finot">7</rdg>
+               </app>
+               <app loc="2">
+                  <lem>8</lem>
+                  <rdg resp="Finot">9</rdg>
+               </app>
+               <app loc="2">
+                  <lem>suvauk</lem>
+                  <rdg resp="Finot">suvok</rdg>
+               </app>
+               <app loc="2">
+                  <lem>8</lem>
+                  <rdg resp="Finot">9</rdg>
+               </app>
+               <app loc="2">
+                  <lem>calāhvaya</lem>
+                  <rdg resp="Finot">valāhvaya</rdg>
+               </app>
+               <app loc="3">
+                  <lem>oṅ</lem>
+                  <rdg resp="Finot">yāṅ</rdg>
+               </app>
+               <app loc="3">
+                  <lem>nandana</lem>
+                  <rdg resp="Finot">takdata</rdg>
+               </app>
+               <app loc="3">
+                  <lem>tur<unclear>e</unclear></lem>
+                  <rdg resp="Finot">tute</rdg>
+                  <note>the fact that Finot used italics in his publication shows that he was not sure about his reading of the second <foreign>akṣara</foreign>. The present reading <foreign>re</foreign> is based on the comparison of this occurrence, <foreign>ture vijaya</foreign>, and equivalents found in other inscriptions, namely <foreign>turai vijaya</foreign> and <foreign>turaiy vijaya</foreign> (see, <ref target="C0005.xml">C. 5</ref>, l. 18; <ref target="C0030B2.xml">C. 30 B2</ref>, l. 1; <ref target="C0030B4.xml">C. 30 B4</ref>, l. 2 and <ref target="C0086.xml">C. 86.1</ref>, l. 2. 
+                     The distinct form of the <foreign>ai</foreign> sign further on (in l. 3: <foreign>vrim̃ rai lyam̃</foreign>) prevents us from reading <foreign>turai</foreign>. The most satisfactory alternative is to read <foreign>ture</foreign> and understand <foreign>turai</foreign>.</note>
+               </app>
+               <app loc="3">
+                  <lem>utpaṇa</lem>
+                  <note><foreign>utpaṇna</foreign> could also be read.</note>
+               </app>
+               <app loc="3">
+                  <lem>1196</lem>
+                  <rdg resp="Finot">1176</rdg>
+               </app>
+               <app loc="3">
+                  <lem>sraum̃</lem>
+                  <rdg resp="Finot">praum̃</rdg>
+               </app>
+               <app loc="3">
+                  <lem>svayamutpaṇna</lem>
+                  <rdg resp="Finot">svayamutpaṇṇa</rdg>
+               </app>
+               <app loc="4">
+                  <lem>avyaṃ</lem>
+                  <rdg resp="Finot">avya</rdg>
+               </app>
+               <app loc="4">
+                  <lem>1196</lem>
+                  <rdg resp="Finot">1176</rdg>
+               </app>
+            </ab>
+         </div>
+ <div type="translation" xml:lang="en">
+            <div type="textpart" n="1">
+              <head xml:lang="en">C. 6.1</head>
+              <p>Hail! P.P. man Paṅkaja, prince Abhimanyudeva, person of Cathim̃ Pāṇḍurāṅgeśvara, general of Y.P.K. Jaya Parameśvaravarmadeva.
+               This P.P.T.R. invited this Pom̃ to go [as] general to Panrāṅ in this Śaka year 1152 on behalf of this king P.P.T.R.</p>
+               <p>Moreover, this Pom̃ offered to Y.P.K. Svayamutpanna in this Śaka year 1166: a golden <foreign>vom̃ sān mvram̃m</foreign> weighing 9 <foreign>thil</foreign> 4 <foreign>draṃ</foreign> of gold; a silver <foreign>vom̃ sān mvram̃m</foreign> weighing 8 <foreign>thil</foreign> of silver; a silver cult plate weighing 8 <foreign>thil</foreign>; a <foreign>calāhvaya</foreign> of cuprous metal.</p>
+            </div>
+            <div type="textpart" n="2">
+              <head xml:lang="en">C. 6.2</head>
+              <p><foreign>Taval</foreign> Śūratva, Mr. Mādhavaḥ Nandana, person of Turai Vijaya. The P.P.T.R. Indravarman invited [him] to go [as] L.P. [to] the god Utpaṇa in the Śaka year 1196.
+               He bought: a male elephant <foreign>ma anan</foreign> (?) <foreign>ja</foreign> Sraum̃; 6 servants to be offered to Y.P.K. Svayamutpanna: <foreign>mauk</foreign> Karet, <foreign>mauk</foreign> Ratna Dāk, <foreign>mauk</foreign> Avyaṃ, <foreign>mauk</foreign> Eḥ, <foreign>mauk</foreign> Can, <foreign>mauk</foreign> Pūt [as well as a] <foreign>tralām̃ tāra</foreign> [in] 1196.</p>
+               <!-- AG since both textparts end with a millésime, I think it is worth trying to make this year appear at the end of the translation in both textparts. This means that your translation for C. 6.2 will need to be modified, bith in English and French.-->
+            </div>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <div type="textpart" n="1">
+               <head xml:lang="fr">C. 6.1</head>
+               <p>Salut ! P.P. homme Paṅkaja, prince Abhimanyudeva, personne de Cathim̃ Pāṇḍurāṅgeśvara, général de Y.P.K. Jaya Parameśvaravarmadeva. 
+                  Ce P.P.T.R. invita ce Pom̃ à aller [en tant que] général à Panrāṅ en cette année 1152 Śaka pour ce roi P.P.T.R.</p>
+               <p>De plus, ce Pom̃ offrit à Y.P.K. Svayamutpanna en cette année 1166 Śaka : <foreign>vom̃ sān mvram̃m</foreign> en or pesant 9 <foreign>thil</foreign> 4 <foreign>draṃ</foreign> d'or ; <foreign>vom̃ sān mvram̃m</foreign> en argent pesant 8 <foreign>thil</foreign> d'argent ; un plateau de culte en argent pesant 8 <foreign>thil</foreign> ; un <foreign>calāhvaya</foreign> en metal cuivreux.</p>
+            </div>
+            <div type="textpart" n="2">
+               <head xml:lang="en">C. 6.2</head>
+               <p><foreign>Taval</foreign> Śūratva, M. Mādhavaḥ Nandana, personne de Turai Vijaya. Le P.P.T.R. Indravarman [l'] invita à aller [en tant que] L.P. [au] dieu Utpaṇa en l'année 1196 Śaka.
+                  Il a acheté : un éléphant mâle <foreign>ma anan</foreign> (?) <foreign>ja</foreign> Sraum̃ ; 6 serviteurs à offrir au Y.P.K. Svayamutpanna : <foreign>mauk</foreign> Karet, <foreign>mauk</foreign> Ratna Dāk, <foreign>mauk</foreign> Avyaṃ, <foreign>mauk</foreign> Eḥ, <foreign>mauk</foreign> Can, <foreign>mauk</foreign> Pūt (ainsi qu'un) <foreign>tralām̃ tāra</foreign> (en) 1196.</p>
+            </div>
+         </div>
+ <!-- AL: <div type="commentary">
+            <p>Concerning <foreign>vom̃ sān mvram̃m</foreign>, <bibl><ptr target="cic-bibl:jacques-1977"/>: <biblScope>1078</biblScope></bibl> tells that <quote>dans cette expression, seul <foreign>mvrǎm</foreign> est certainement connu, signifiant 'flèche' ; on pourrait donc songer à une parure divine, mais cela ne convient pas à un liṅga ; on peut tenter également de rapprocher <foreign>vǒ</foreign> (i.e. <foreign>vom̃</foreign>) du moderne <foreign>bauṅ</foreign>, qui peut signifier 'auge, écope' et l'expression désignerait ainsi quelque vase rituel</quote>.</p>
+            <p>About <foreign>vana 'nāk</foreign>, see the commentary for the occurrence in <ref target="C0005.xml">C. 5</ref>.</p>
+            <p>The word <foreign>suvauk</foreign> is from the khmer <foreign>spok</foreign> or <foreign>sbouk</foreign> which, in Khmer epigraphy, respectively mean "plate" and "foot-plate" (see <bibl><ptr target="cic-bibl:jacques-1977"/>: <biblScope>1078</biblScope></bibl>; <bibl><ptr target="cic-bibl:soutif-2009"/>: <biblScope>122 and 128</biblScope></bibl>).</p>
+            <p><bibl><ptr target="cic-bibl:jacques-1977"/>: <biblScope>1079</biblScope></bibl> read <foreign>valāhvaya</foreign> which could be a cult object. To us, even we have noticed that the words <foreign>cala</foreign> or <foreign>calā</foreign> are not found anywhere else in the corpus, the reading <foreign>calāhvaya</foreign> allows the hypothetical identication of this object with an ustensil <foreign>cala-āhvaya</foreign>  "called mobile" ????  This object is also cited in the inscription <ref target="C.0086.xml">C. 86</ref>.2, ll. 3-4.</p>
+            <p>According to <bibl><ptr target="cic-bibl:AC-1906"/></bibl>, <foreign>taval</foreign> is linked to the Khmer term <foreign>sañjak</foreign>. One could also find the word <foreign>taval</foreign> in <ref target="C0054.xml">C. 54</ref>, see <bibl><ptr target="cic-bibl:finot-1903"/>: <biblScope>648, note 2</biblScope>.</bibl></p>
+            <p>About <foreign>mauk</foreign> (also found in <ref target="C0005.xml">C. 5</ref> and <ref target="C0007.xml">C. 7</ref>), see the commentary for the occurrence in C.5 and the discussion in <bibl><ptr target="cic-bibl:ECIC-IV"/>: <check><biblScope>forthcoming</biblScope></check></bibl>.</p>
+            <p>The term <foreign>tralām̃</foreign> also occurred in <ref target="C0005.xml">C. 5</ref>, ll. 11 and 18. The word <foreign>tāra</foreign> could be the name of the metal the object is made of.</p>
+            </div> -->
+         <div type="bibliography" subtype="secondary">
+         <listBibl>
+            <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>79-81</biblScope>.</bibl>
+            <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>2 and 10</biblScope>.</bibl>
+            <bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>77</biblScope>.</bibl>
+         </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

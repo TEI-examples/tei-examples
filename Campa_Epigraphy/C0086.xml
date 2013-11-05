@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb at Mỹ Sơn</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Amandine Lepoutre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0086</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>EFEO</institution>
+                  <idno xml:id="inv-general">C. 86</idno>
+                  <altIdentifier type="majumdar-nr">
+                     <idno xml:id="majumdar-nr">No. 87 and 90</idno>
+                  </altIdentifier>
+                  <altIdentifier type="site-inventory">
+                     <settlement>Mỹ Sơn</settlement>                            
+                     <idno xml:id="inv-myson">03MSD347 and 03MSB160</idno>
+                     <note>Recorded under these numbers in the registration of Mỹ Sơn as a Unesco World Heritage Site</note>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                  <note>two texts of 10 lines (C. 86.1) and 8 lines (C. 86.2) engraved on one face</note>
+                  <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang> 
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Doorjamb</objectType>; <material>sandstone</material>; we have not recorded dimensions, but <bibl><ptr target="cic-bibl:finot-1904d"/>: <biblScope>976</biblScope></bibl> has recorded the following: <dimensions unit="cm">
+                               <height>105</height>
+                              <width>35</width>
+                           </dimensions>.
+                           </p>                        
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace type="location">
+                        <placeName type="settlement" ref="cic-geo:my-son">Mỹ Sơn</placeName>
+                     </origPlace>
+                     <origDate>
+                        <date extent="C.86.1" calendar="Śaka">1156</date>
+                        <date extent="C.86.1" calendar="Julian" notBefore="1234" notAfter="1235">1234/5</date>
+                        <date extent="C.86.2" calendar="Śaka">1152</date>
+                        <date extent="C.86.2" calendar="Julian" notBefore="1230" notAfter="1231">1230/1</date>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" notAfter="1904">
+                     <ab>It was found at <placeName xml:id="findspot" type="modern" ref="campa-geo:my-son">Mỹ Sơn</placeName> and was presented as the Northern interior doorjamb of B<hi rend="subscript">1</hi> temple (<bibl><ptr target="cic-bibl:finot-1904d"/>: <biblScope>976</biblScope>).</bibl>
+                     </ab>
+                  </provenance>
+                  <provenance type="observed" notAfter="1909"> 
+                     <ab>Later, <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>382</biblScope></bibl> informed us that the Northern doorjamb is <quote>resté en place pour le bas (...) La partie supérieure A <supplied reason="explanation">the one bearing the inscriptions C. 86.1</supplied>, qui menace de tomber, a été couchée sur le mur N. du vestibule</quote>. </ab>
+                  </provenance>
+                  <provenance type="found" notBefore="2009">
+                     <ab>We identified the stone at the Mỹ Sơn site in 2009, as the one bearing local inventory numbers <ptr target="#inv-myson"/>. C. 86.1 is now located in the D yard; C. 86.2 at the B<hi rend="subscript">1</hi> temple's entrance (see <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>456 (map) and 458</biblScope></bibl>).</ab>     
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-325">325</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-inked" facs="#fac3-4"> 
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-n341-jpg">n. 341 </idno>
+                        </msIdentifier>
+                        <ab><note>There are two estampages under the number n. 341.</note></ab>
+                     </msDesc>
+                     </surrogates>
+               </additional>
+                  </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version 
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampages</catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="20120901" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0086_1_AG_2009.jpg">
+         <desc>Photograph, with scale, of the upper part of the doorjamb bearing the inscription <ptr target="#inv-general"/>. Taken at Mỹ Sơn by Arlo Griffiths on <date when="20090927"></date>.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/C0086_2_AG_2009.jpg">
+         <desc>Photograph, with scale, of the lower part of the doorjamb bearing the inscription <ptr target="#inv-general"/>. Taken at Mỹ Sơn by Arlo Griffiths on <date when="20090927"></date>.</desc>
+      </graphic>
+      <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n0341_1.jpg">
+         <desc>Photograph of an EFEO estampage under n. 341 (1/2), showing C. 86.1.</desc>
+      </graphic>
+      <graphic xml:id="fac4" url="../images/inscriptions/EFEOB-est.n0341_2.jpg">
+         <desc>Photograph of an EFEO estampage under n. 341 (2/2), showing C. 86.2.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>First published, with French translation, in <bibl><ptr target="cic-bibl:finot-1904d"/>: <biblScope>976-977</biblScope></bibl>; whence C. 86.2 was summed up and C. 86.1 was translated into English in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>207-208</biblScope></bibl>; <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>178</biblScope></bibl> read and translated both. The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-IV"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>.</ab>
+         </div>        
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+            <div type="textpart" n="1">
+               <head xml:lang="en">C. 86.1</head>
+            <ab>
+            <lb n="1"/> <pc type="fleuron"></pc> madā pu pom̃ tana rayā sidaḥ yām̃ pom̃ ku śrī jaya
+            <lb break="no" n="2"/>parameśvaravarmmadeva aum̃ aṅśarāja urām̃ turaiy· vijaya
+            <lb n="3"/> di jam̃ḥ kaliḥ kamvuja ya 32 thun· nan· ra dṛm̃ rājam̃ ekachatra
+            <lb n="4"/> di nagara campa nī ra punaḥ sarvvaliṅga gaḥ dakṣiṇabhāga ma
+            <lb break="no" n="5"/>kapun· yām̃ pu nagara ra punaḥ liṅga gaḥ uttarabhāga ma
+            <lb break="no" n="6"/>kapun· yām̃ pom̃ k<unclear>u</unclear> śrīśānabhadreśvara pu po<unclear>m̃</unclear> ku
+            <lb n="7"/> ra vuḥ raupyakośa suvarṇṇamukha ṅan· kośa 
+            <lb n="8"/> <unclear>yā</unclear>m̃ bhṛuguḥ maddan· sarvvabhogopabhoga māḥ ṅa
+            <lb break="no" n="9"/>n· <unclear>pira</unclear>k· samudāya yauṃ sa ratuḥ thil· māḥ 
+            <lb n="10"/> kāla śakarāja 1156 <pc type="fleuron"></pc> <pc>|</pc>
+            </ab>
+         </div>   
+         </div>
+         <div type="apparatus"><!-- AL: it will be nicer to get the apparatus after the first part of the text, not at the end of the whole text-->
+            <head xml:lang="en">C. 86.1</head>
+            <ab>
+               <app loc="2">
+                  <lem>aum̃ aṅśarāja</lem>
+                  <note><bibl><ptr target="cic-bibl:finot-1904d"/>: <biblScope>976</biblScope></bibl> added a note: <quote>on pourrait aussi bien lire Saṅgarāja ; mais la comparaison de Po nagar 409, B,4 <supplied reason="explanation"><ref target="C0030B4.xml">C. 30 B4</ref></supplied> ligne 2, où l'écriture est plus nette, montre que la vraie forme est Aṅçarāja</quote>.</note>
+               </app>
+               <app loc="5">
+                  <lem>ra punaḥ liṅga</lem>
+                  <rdg resp="finot">ra punaḥ sarvvaliṅga</rdg>
+               </app>
+               <app loc="9">
+                  <lem>yauṃ</lem>
+                  <rdg resp="finot">yoṃ</rdg>
+                  </app>
+            </ab>
+         </div>
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+             <div type="textpart" n="2">
+                <head xml:lang="en">C. 86.2</head>
+                <ab>
+            <lb n="1"/> <pc type="fleuron"></pc> nī mula dravya pom̃ pu lakim̃ kālāntakatha <gap reason="lost" quantity="4" unit="character"/>
+            <lb break="no" n="2"/>nandana urām̃ mvlām̃ vijaya vuḥ pak· yām̃ pom̃ ku śrī<supplied reason="lost">ānabhadre</supplied>
+            <lb break="no" n="3"/>śvara pu pom̃ ku limān· vinai sā klauṅ· māḥ sā 3 th<supplied reason="lost">il· ca</supplied>
+            <lb break="no" n="4"/>lāhvaya pirak· sā 20 thil<unclear>·</unclear> pralauṅ· pirak· sā 2<supplied reason="lost">0 thil·</supplied>
+            <lb n="5"/> vraḥ o<supplied reason="lost">ṃ</supplied>kāra sā sā thil· māḥ matā dhunī sā si vuḥ ganan·
+            <lb n="6"/> yauṃ sā thil· māḥ pirak· kakai nan· 2 thil· pranīṅ· 1
+            <lb n="7"/> yauṃ 2 thil· māḥ kaṅsabhāja 2 bhāja laṅguv· 1 vadala
+            <lb n="8"/> 2 svam̃n· 1 kvir· 1 lakiy· 1 krumviy· 1152 <pc>fleuron</pc>
+                </ab>
+             </div>
+         </div>
+         <div type="apparatus">
+            <head xml:lang="en">C. 86.2</head>
+            <ab>
+               <app loc="1">
+                  <lem>nī</lem>
+                  <rdg resp="finot">ni</rdg>
+               </app>
+               <app loc="3">
+                  <lem>śrī<supplied reason="lost">ānabhadre</supplied>śvara</lem>
+                  <note>Reconstitution of Finot</note>
+               </app>
+               <app loc="3">
+                  <lem>sā</lem>
+                  <rdg resp="finot">sa</rdg>
+               </app>
+               <app loc="4">
+                  <lem><supplied reason="lost">ca</supplied>lāhvaya</lem>
+                  <note>one would also find this world in <ref target="C0006.xml">C. 6</ref>, l. 2.</note>
+               </app>
+               <app loc="8">
+                  <lem>svam̃n</lem>
+                  <rdg resp="finot">svãḥ</rdg>
+               </app>
+               <app loc="8">
+                  <lem>kvir</lem>
+                  <rdg resp="finot">kviṛ</rdg>
+                  <note>It must be a typo.</note>
+               </app>
+            </ab>
+         </div>
+<!-- AL: <div type="translation" xml:lang="en">
+           <div type="textpart" n="1">
+             <head xml:lang="en">C. 86.1</head>
+             <p>There was a P.P.T.R., namely Y.P.K. Śrī Jayaparameśvaravarmadeva oṅ Aṅśarāja, person of Turaiy Vijaya. Following this 32-year "war" against Cambodia, he <supplied reason="explanation">the sovereign</supplied> ruled over this Campā kingdom with the unique umbrella.
+            He restored all the <foreign>liṅga</foreign> of the Southern side namely [these of] Yām̃ Pu Nagara; he restored <foreign>liṅga</foreign> of the Northern side namely [these of] Y.P.K. Īśanabhadreśvara P.P.K. 
+            He offered a silver <foreign>kośa</foreign> with a golden face and a <foreign>kośa</foreign> to the Bhṛuguḥ deity with all golden and silver goods and means of subsistence for a total amount of one hundred <foreign>thil</foreign> of gold, in the year of the Śaka king 1156.</p>
+           /div>
+           <div type="textpart" n="2">
+             <head xml:lang="en">C. 86.2</head>
+             <p>This [is] the (furniture/movable??) capital offered by the P.P. homme Kālāntakatha (...) nandana, person of Mvlām̃ Vijaya, to Y.P.K. Śrī Īśanabhadreśvara P.P.K.: a female elephant, a small golden box (<foreign>klauṅ</foreign>): 3 <foreign>thil</foreign>; a silver<foreign>calāhvaya</foreign>: 20 <foreign>thil</foreign>; 
+            a silver neckless: 20 <foreign>thil</foreign>; a Holy <foreign>oṃkāra</foreign>: one <foreign>thil</foreign> of gold; a precious stone <foreign>dhunī</foreign> given <foreign>ganan</foreign> of a value of one <foreign>thil</foreign> of gold; this silver for the tripod: 2 <foreign>thil</foreign>; 
+            <foreign>pranīṅ</foreign>: 1 of a value of 2 <foreign>thil</foreign> of  gold; vases (made) of copper: 2; vase (made) of cuprous metal: 1; <foreign>vadala</foreign>: 2; <foreign>svam̃n</foreign>: 1; Khmer: 1 man; 1 woman. [In Śaka] 1152.</p>
+           /div>
+         </div> -->
+         <div type="translation" xml:lang="fr">
+            <div type="textpart" n="1">
+               <head xml:lang="en">C. 86.1</head>
+               <p>Il y eut un P.P.T.R., à savoir Y.P.K. Śrī Jayaparameśvaravarmadeva oṅ Aṅśarāja, personne de Turaiy Vijaya. À la suite de cette "guerre" du Cambodge qui [dura] 32 ans, il <supplied reason="explanation">le souverain</supplied> gouverna avec le parasol unique sur ce royaume du Campā. 
+                  Il restaura tous les <foreign>liṅga</foreign> du côté Sud à savoir [ceux de] Yām̃ Pu Nagara ; il restaura les <foreign>liṅga</foreign> du côté Nord à savoir [ceux de] Y.P.K. Īśanabhadreśvara P.P.K. 
+                  Il offrit un <foreign>kośa</foreign> d'argent avec un visage en or et un <foreign>kośa</foreign> à la divinité Bhṛguḥ avec tous les biens et les moyens de subsistance d'or et d'argent pour une valeur totale de cent <foreign>thil</foreign> d'or, en l'année 1156 du roi des Śaka.</p>
+            </div>
+            <div type="textpart" n="2">
+               <head xml:lang="en">C. 86.2</head>
+               <p>Ceci [est] le capital mobilier offert par le P.P. homme Kālāntakatha (...) nandana, personne de Mvlām̃ Vijaya, à Y.P.K. Śrī Īśanabhadreśvara P.P.K. : une éléphante, une petite boîte (<foreign>klauṅ</foreign>) d'or : 3 <foreign>thil</foreign> ; un <foreign>calāhvaya</foreign> en argent : 20 <foreign>thil</foreign> ; 
+               un collier d'argent : 20 <foreign>thil</foreign> ; un saint <foreign>oṃkāra</foreign> : un <foreign>thil</foreign> d'or ; une pierre précieuse <foreign>dhunī</foreign> donnée <foreign>ganan</foreign> d'une valeur d'un <foreign>thil</foreign> d'or ; cet argent pour le (tré)pied : 2 <foreign>thil</foreign> ; 
+               <foreign>pranīṅ</foreign> : 1 d'une valeur de 2 <foreign>thil</foreign> d'or ; vases de cuivre : 2 ; vase de métal cuivreux : 1 ; <foreign>vadala</foreign> : 2 ; <foreign>svam̃n</foreign> : 1 ; Khmers : 1 homme ; 1 femme. [En Śaka] 1152.</p>
+            </div>
+         </div>
+   <!--  <div type="commentary">
+            <p>In ancient Cam, <foreign>yauṃ</foreign> means "about, more or less". In modern Cam, it could mean "(money) value, price". The comparison with <ref target="C0184.xml">C. 184</ref> where the figure 158 follows the occurrence, suggests that the translation "value" is more appropriate than "more or less".</p>
+            <p><foreign>pralauṅ</foreign> = <foreign>pralaum̃</foreign> = <foreign>pralauv</foreign>. In <bibl><ptr target="cic-bibl= Aymonier &amp; Cabaton 1906"/></bibl>, the word <foreign>pralau</foreign> is repertoried. The authors drew a parallel between this term and the one one could find in Khmer which means "neckless".</p>
+            <p>Concerning the meaning of <foreign>calāhvaya</foreign>, see the note for this occurrence in the inscription <ref target="C.0006.xml">C. 6</ref>, l. 2.</p>
+            <p>Finot translated <foreign>kaṅsabhāja</foreign> "copper vase".</p>
+            <p>Finot translated <foreign>bhāja laṅguv</foreign> "earthen vase".</p>
+         </div> -->
+         <div type="bibliography" subtype="secondary">
+         <listBibl>
+            <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>381-382</biblScope>.</bibl>
+            <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>456 and 458</biblScope>.</bibl>
+         </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

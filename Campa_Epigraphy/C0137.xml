@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pedestal from Trà Kiệu</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Dominic Goodall</editor>
+            </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0137</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+<sourceDesc>
+   <msDesc>
+      <msIdentifier>
+         <institution>EFEO</institution>
+         <idno xml:id="inv-general">C. 137</idno>  
+         <altIdentifier type="majumdar-nr">
+            <idno xml:id="majumdar-nr">No. 9</idno>
+         </altIdentifier>
+         <altIdentifier type="museum-inventory">
+            <settlement>Hanoi</settlement>
+            <repository>BTLS-QG</repository>
+            <idno xml:id="inv-btls-qg">LSb 21182</idno>
+         </altIdentifier>
+         <altIdentifier type="museum-inventory-former">
+            <settlement>Hanoi</settlement>
+            <repository>EFEO Museum</repository>
+            <idno xml:id="inv-efeo-hanoi">B 2, 31</idno>
+         </altIdentifier>
+      </msIdentifier>
+      <msContents>
+         <msItem>
+            <note>Four lines on one face</note>
+            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+         </msItem>
+      </msContents>
+      <physDesc>
+         <objectDesc>
+            <supportDesc>
+               <support>
+                  <p>Cube-shaped <objectType>pedestal</objectType>;
+                        <material>sandstone</material> (not, as reported by Huber and
+                     repeated by Finot and by Cœdès, "basalte noir"); 
+                     <!-- AG Do you think we ought to put <ptr
+                        target="cic-bibl:finot-1915a"/> and <ptr
+                        target="cic-bibl:coedes-1923"/> instead of Finot and Coedès? -->
+                     <dimensions unit="cm">
+                        <height>36</height>
+                        <width>44.5</width>
+                        <depth>44.5</depth>
+                     </dimensions>.</p>
+               </support>
+            </supportDesc>
+         </objectDesc>
+      </physDesc>
+      <history>
+         <origin>
+            <origPlace type="location">
+               <placeName type="modern" ref="cic-geo:tra-kieu">Trà Kiệu</placeName>
+             </origPlace>
+            <origDate>
+               <date calendar="Śaka">6th</date>
+               <date calendar="Julian">7th</date>
+            </origDate>
+         </origin>
+         <provenance type="found" notAfter="1911">
+            <ab>This piece was found by a certain <persName type="explorer">Rougier</persName> at
+               <placeName type="modern" ref="cic-geo:tra-kieu">Trà Kiệu</placeName>
+               before 1911, when it entered the EFEO Museum in Hanoi.</ab>
+         </provenance>
+         <provenance type="observed" notBefore="1915">
+            <ab>Its inventory number <ptr target="#inv-efeo-hanoi"/> at the Museum was published in <bibl><ptr
+               target="cic-bibl:finot-1915a"/>: <biblScope>17</biblScope></bibl>;
+               whence, in the inventory of Campā inscriptions published in 1923, this local number was
+               included under the entry <ptr target="#inv-general"/> (<ptr
+               target="cic-bibl:coedes-1923"/>).</ab>
+         </provenance>
+         <provenance type="observed" notBefore="2009">
+            <ab>We identified the stone in the Bảo Tàng Lịch Sử Việt Nam (National Museum of Vietnamese History) at Hanoi in 2009 and following years, as the one bearing inventory number <ptr target="#inv-btls-qg"/>. The Museum assumed the new name Bảo Tàng Lịch Sử Quốc Gia (National Museum of History) in 2011, but this did not entail a change in the inventory number.</ab>
+         </provenance>
+      </history>
+      <additional>
+         <surrogates>   
+            <msDesc n="estampage-inked" facs="#fac2">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-n159">n. 159</idno>
+               </msIdentifier>
+            </msDesc>
+         </surrogates>         
+      </additional>
+   </msDesc>
+</sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage"/></catDesc>
+                 <!-- ARLO: have created a separate folder and dropped two images in it, simultaneously inventing a system of nomenclature for the photos of stones which, at least in the first instance, will all be authored by me. Please rearrange the location of photos as you see fit. Perhaps there need to be subfolder for photos of estampages and photos of stone. Then please tell me how to call 
+                     these photos in the file. -->
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+                  <!-- ARLO: don't think there will be any -->
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <!-- ARLO: note that I have modified the name of the project. Can we copy this to all pre-filled-in files in the future? -->
+            <!-- T: of course -->
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-07-09+09:00" who="TRE" xml:lang="en">generated template from inventory
+            spreadsheet data</change>
+         <change when="2012-03-21" who="AG" xml:lang="en"> first attempt at porting all the relevant
+            data for this inscription into xml format</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="../images/inscriptions/C0137_1_AG_2009.jpg">
+         <desc>Photograph, with scale, of inscription <ptr target="#inv-general"/>. Taken in the Hanoi Museum by Arlo Griffiths on <date when="20090917"/>.</desc>
+      </graphic>
+      <graphic url="../images/inscriptions/EFEOB-est.n0159.jpg">
+         <desc>Photograph of EFEO estampage n. 159.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>First published, with French translation, in <bibl><ptr target="cic-bibl:huber-1911"/>: <biblScope>262-264</biblScope>;</bibl> whence, with English translation, in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>13-14</biblScope></bibl>;<note>The meter of the two stanzas is here misidentified as Āryā.</note> whence <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>11</biblScope>.</bibl> Re-edited from the EFEO estampage, with new translation, in <bibl><ptr target="cic-bibl:ECIC-V"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>, whence the present edition.</ab>
+         </div>   
+         <div type="edition" xml:lang="sa-Latn-x-CI" xml:space="preserve" rend="break-verse-lines">
+            <ab><lb n="1"/>
+               <g type="siddham"/></ab>
+            <lg met="Āryāgīti" n="I">
+               <l>śaktiḥ parasya na ripuṃ kṣapayati gamitāpi daṇḍabhedabhayena</l>
+               <l><lb n="2"/><supplied reason="lost">ya</supplied>sya tv adaṇḍabhedā sakalam arim
+                  abhīr bhinatti śaktibhṛta iva <pc>||</pc> </l>
+            </lg>
+            <lg met="Āryāgīti" n="II">
+               <l><lb n="3"/> sa śrīprakāśadharmmā nṛpatiḥ kandarppadharmmaṇo dharaṇibhujaḥ </l>
+               <l><lb n="4"/>s<supplied reason="lost">v</supplied>apitāmahīpitur idaṃ sthāpitavān
+                  arcanāya pādukayugalam· <pc>||</pc></l>
+            </lg>
+         </div>
+         <div type="apparatus">
+            <p>
+               <app loc="IIc">
+                  <lem>s<supplied reason="lost">v</supplied>apitāmahīpitur</lem>
+                  <rdg resp="Huber">prapitāmahīpitur</rdg>
+                  <note>Although Huber (who used the same estampage as we do) marked no uncertainty of reading, no trace is visible of the subscript <foreign>r</foreign> under the consonant that he reads as <foreign>p</foreign>. This consonant must, however, quite certainly be read as <foreign>s</foreign>, for it shows the distinctive diagonal bridge between the two verticals. Although damage to the stone just below the <foreign>s</foreign> has removed every trace of a subscript consonant, the only contextually permissible reading seems to us to be <foreign>sva</foreign>°, so we have restored the now invisible subscript <foreign>v</foreign> in place of <foreign>r</foreign>.</note>
+               </app>
+               <app loc="IId">
+                  <lem>pāduka°</lem>
+                  <rdg resp="Huber">haṭaka°</rdg>
+               </app>
+            </p>
+         </div>
+
+         <div type="translation">
+              <p> I. The power (<foreign>śakti</foreign>) of [his] rival destroys no enemy, even when it is brought near by the fear of (political manoeuvres such as) punishment or sowing
+                 of dissension. — But the one whose dauntless [spear (<foreign>śakti</foreign>)], like that of the spear-wielder [<persName type="god">Skanda</persName> himself], destroys every enemy without its shaft ever breaking (<foreign>adaṇḍabhedā</foreign>), — But the one whose [mere] gesture of protection (<foreign>abhī</foreign>), without need of resorting to [the political manoeuvres of] punishment or the sowing of dissension, has brought low every enemy, as though he were in fact holding a spear (<foreign>śaktibhṛta iva</foreign>), — But the one who is like <persName type="god">Skanda</persName> and for whom [the power (<foreign>śakti</foreign>) of <persName type="god">Śiva</persName>, in initiation (cf. the term <foreign>śaktipāta</foreign>)], arousing no fear and resorting to neither punishment nor sowing of dissension, has broken every [internal] enemy, </p>
+            <p>II. namely the king Śrī <persName type="king">Prakāśadharman</persName>, has
+               installed this pair of footprints in order to praise king
+                  <persName>Kandarpadharman</persName>, the father of his paternal
+               great-grandmother. </p>
+            <!--AG: <p/> is not working nicely here. Other suggestions? -->
+         </div>
+
+         <div type="commentary">
+            <p>We assume three levels of punning (<foreign>śleṣa</foreign>) in the first stanza. The
+               first two play on the possibility of taking <foreign>śaktibhṛt</foreign> either
+               literally, or as epithet of the war-god Skanda; on the possibility of interpreting
+               <foreign>abhī</foreign> in two different ways; and on the different possibilities of analyzing the
+               compound <foreign>adaṇḍabhedā</foreign>. The third sense may be less obvious to most
+               readers. But in a footnote in the Preface to his edition of the
+                  <bibl><ref target="cic-bibl:goodall-2004"><title>Parākhyatantra</title></ref> (<biblScope>p. xix, n. 17</biblScope>), Dominic Goodall</bibl> has discussed Śaiva
+               punning on the words <foreign>śakti</foreign> (spear or power, of king, Skanda or Śiva) and
+                  <foreign>ari</foreign> (enemies, worldly or internal) in a late-7th-century
+               inscription of Pallava king <persName type="king">Narasiṃha II</persName>. He has
+               there provided textual references in support of taking <foreign>arivarga</foreign>
+               ‘group of enemies’ as denoting the human senses or passions (a theme also alluded to in <ref target="C0173.xml">C. 173</ref>), and referred to a passage
+               illustrating the (descent of) divine power (<foreign>śaktipāta</foreign>) as crucial element in Śaiva tantric initiation.
+            </p>
+               <p>In further support of the assumption of this third sense, he has shared with us his
+               interpretation of a stanza in a somewhat later inscription. This is K. 528 (Eastern
+               Mebon, 953 CE, edited in <bibl><ptr target="cic-bibl:finot-1925"/>: <biblScope>309–352</biblScope></bibl>), stanza XX, about King Rājendravarman, and it comprises
+               three crucial elements that we also see in ours:
+                  <quote rend="block">
+                  <l>āsādya <hi rend="bold">śaktiṃ</hi> vivudhopanītāṃ māheśvarīṃ jñānamayīm amoghām</l> 
+                  <l><hi rend="bold">kumāra</hi>bhāve vijit<hi rend="bold">āri</hi>varggo yo dīpayām āsa mahendralakṣmīm ||</l>
+                     <!-- AG check that rend="bold" becomes correctly displayed -->
+                  <ab>‘After attaining the Power (or: weapon) of <persName type="god"
+                  >Maheśvara</persName> (Śiva) that consists in Knowledge, that is never
+               failing (viz. after attaining initiation) [and that has been] transmitted by the gods, being in youth (or: as crown-prince, or: as <persName type="god"
+                  >Kumāra</persName>, i.e. <persName type="god">Skanda</persName>) one whose enemies
+               (or: passions) were conquered, he caused the glory of <persName type="king"
+                  >Mahendravarman</persName> to shine.’</ab>
+               </quote>
+               <!-- ARLO: not sure how to encode the cited verse and its translation -->
+                Mahendra is both the name of King Rājendravarman's father, Mahendravarman, and a name of the god Indra, whose enemies Skanda destroyed.  So there must here be a reference to Skanda getting hold of (<foreign>āsādya</foreign>) his famous weapon, called Śakti (though not always clearly a spear), and destroying Indra's enemies (which was the reason for his birth being plotted by Indra in the first place).  Most words can be accounted for in that layer of meaning, but the words <foreign>māheśvarīṃ jñānamayīm</foreign> defy multivalent interpretation, and <foreign>vibudhopanītāṃ</foreign> suggests that he gained his famous weapon from the gods. There is almost certainly a myth that recounts such a handover, but we have not been able to find it.  What we do find is that Viśvakarman is said to have fashioned Guha's Śakti using bits of radiance of the sun (in <ref><seg type="check">Viṣṇupurāṇa</seg> 3.2.12</ref>), 
+                  <!-- AG how to deal with primary sources in bibliography? -->
+                  and that certainly suggests that some god must then have handed it to him. What is plain is that in one level of meaning the verse refers to Rājendravarman, like Prakāśadharman, having received Śiva’s salvific grace (<foreign>śakti</foreign>), in other words tantric initiation. </p>
+            <p>Our new reading <foreign>s<supplied reason="lost">v</supplied>apitāmahīpitur</foreign> makes Kandarpadharman the father of Prakāśadharman’s paternal grandmother (rather than the father of his paternal great-grandmother).</p>
+         </div>
+         <!-- <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>17</biblScope>.</bibl>
+               <bibl><ptr target="cic-bibl:finot-1925"/>: <biblScope>308-352</biblScope>.</bibl>
+               <bibl><ptr target="cic-bibl:goodall-2004"/></bibl>
+             </listBibl>
+              </div>
+             -->
+      </body>
+   </text>
+   
+</TEI>

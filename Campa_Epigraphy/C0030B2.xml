@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Southern doorjamb of the main shrine of Po Nagar</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Amandine Lepoutre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0030B2</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>EFEO</institution>
+                  <idno xml:id="inv-general">C. 30 B2</idno>
+                  <altIdentifier type="bergaigne-aymonier-nr">
+                     <idno xml:id="bergaigne-aymonier-nr">409 B, 2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="majumdar-nr">
+                     <idno xml:id="majumdar-nr">No. 88</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note>The five lines engraved below <ref target="C0030B1.xml">C. 30 B1</ref>, on the anterior face of the Southern doorjamb of entrance to the main shrine.</note>
+                  <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang> 
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Doorjamb</objectType>; <material>sandstone</material>.<!-- AL:; <dimensions unit="cm">
+                               <height></height>
+                              <width></width>
+                              <depth></depth>
+                              </dimensions>.-->
+                              <!-- AG: in due course, introduce below a section <layoutDesc>, and in it use the tags for <layout>, as described at <http://www.stoa.org/epidoc/gl/dev/supp-desctext.html>, to give the dimensions of the surface inscrite. -->
+                              <!-- AG: PARMENTIER GIVES DIMENSIONS -->
+                           </p>                        
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace type="location">
+                        <placeName ref="cic-geo:po-nagar-nha-trang">Po Nagar at Nha
+                           Trang</placeName>
+                     </origPlace>
+                     <origDate>
+                        <date calendar="Śaka">End of the 12<hi rend="superscript">th</hi> century</date>
+                        <date calendar="Julian" notBefore="1200" notAfter="1254">13<hi rend="superscript">th</hi> century</date>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" notAfter="1888">
+                     <ab>This inscription was found <foreign>in situ</foreign> before 1888, when it was first mentioned in the literature (<bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>79</biblScope></bibl>).</ab>
+                  </provenance>
+                  <provenance type="observed" notAfter="2009">
+                     <ab>We identified the inscription on the temple site in 2009.</ab>     
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>BnF</repository>
+                           <idno xml:id="BnF-est-409-60">409 (60)</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-20">20</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-inked" facs="#fac2"> 
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-n228-jpg">n. 228</idno>
+                        </msIdentifier>
+                        <ab><note>There are several estampages under the number n. 228.</note></ab>
+                        </msDesc> 
+                     </surrogates>
+               </additional>
+                  </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version 
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampages</catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="20120901" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0030B2_AL_2012.jpg">
+         <desc>Photograph of inscription <ptr target="#inv-general"/>. Taken at Po Nagar by Amandine Lepoutre on <date when="20120527"></date>.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0228_B2.jpg">
+         <desc>Photograph of EFEO estampage under n. 228.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>A few words were read in <bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>88</biblScope></bibl>; partially published, with French translation, in <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>28-29</biblScope></bibl>; whence, summed up in English, in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>207</biblScope></bibl> and <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>179-180</biblScope></bibl> whence again, with translation into French in <bibl><ptr target="cic-bibl:schweyer-2005a"/>: <biblScope>95-96</biblScope></bibl>. The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-IV"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl> where we have re-edited the text from the inked EFEO estampage and the stone.</ab>
+         </div>        
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+            <ab>
+            <lb n="1"/> <g type="quatrefoil"/> yām̃ pom̃ ku śrī jayaparameśvaravarmmadeva turaiy· vijaya rajan· devakāryya
+            <lb n="2"/> punaḥ sthāpanā rūpa pu pom̃ tana rayā nan· vuḥ humā svar· sandik· di drāv· 300 jāk·
+            <lb n="3"/> humā udaya manrauṅ· <num value="800">800</num>2 pluḥ jāk· ṅan· tandoṅ· laṅgum̃ hulu
+            <lb break="no" n="4"/>n· campa kvir· lauv· pukam· syaṃ aviḥ jem̃ 55 śarīra bhaṇḍāra svam̃r· hu
+            <lb break="no" n="5"/>luv· krauṅ· sragīk· kanūk· kraum̃ vvaṅ· māmoga 15 thim̃ pirak· 150
+            </ab>    
+         </div>
+         <div type="apparatus">
+            <ab>
+               <app loc="1">
+                  <lem>turaiy· vijaya</lem>
+                  <rdg resp="Schweyer">turaiyvijaya</rdg>
+               </app>
+               <app loc="1">
+                  <lem>devakāryya</lem>
+                  <rdg resp="Aymonier">deva kāñyā</rdg>
+               </app>
+               <app loc="2">
+                  <lem>sthāpanā</lem>
+                  <rdg resp="Aymonier">sthapanā</rdg>
+               </app>
+               <app loc="2">
+                  <lem>jāk</lem>
+                  <rdg resp="Aymonier">jāt</rdg>
+               </app>
+               <app loc="3">
+                  <lem>manrauṅ</lem>
+                  <rdg resp="Aymonier">manroṅ</rdg>
+               </app>
+               <app loc="3">
+                  <lem>8002</lem>
+                  <rdg resp="Aymonier">9002</rdg>
+               </app>
+               <app loc="3">
+                  <lem>laṅgum̃</lem>
+                  <rdg resp="Aymonier">laṅgǎu</rdg>
+                  <rdg resp="Schweyer">laṅguv</rdg>
+               </app>
+               <app loc="4">
+                  <lem>lauv</lem>
+                  <rdg resp="Aymonier and Schweyer">lov</rdg>
+               </app>
+               <app loc="4">
+                  <lem>śarīra</lem>
+                  <rdg resp="Aymonier">śarira</rdg>
+               </app>
+               <app loc="4">
+                  <lem>bhaṇḍāra</lem>
+                  <rdg resp="Aymonier">caṇḍāla (candala?)</rdg>
+                  <rdg resp="Schweyer">candāra</rdg>
+               </app>
+               <app loc="4">
+                  <lem>svam̃r</lem>
+                  <rdg resp="schweyer">svar</rdg>
+               </app>
+               <app loc="4-5">
+                  <lem>huluv</lem>
+                  <rdg resp="Aymonier and Schweyer">hulun</rdg>
+               </app>
+               <app loc="5">
+                  <lem>krauṅ</lem>
+                  <rdg resp="Aymonier and Schweyer">krod</rdg>
+               </app>
+               <app loc="5">
+                  <lem>kanūk</lem>
+                  <rdg resp="Aymonier and Schweyer">kanuk</rdg>
+               </app>
+               <app loc="5">
+                  <lem>kraum̃</lem>
+                  <rdg resp="Aymonier and Schweyer">kroṅ</rdg>
+               </app>
+               <app loc="5">
+                  <lem>māmoga</lem>
+                  <rdg resp="Aymonier and Schweyer">māso ma</rdg>
+                  <note>Correct <foreign>māḥ bhoga</foreign>.</note>
+               </app>
+               <app loc="5">
+                  <lem>150</lem>
+                  <rdg resp="Aymonier">15</rdg>
+                  <rdg resp="Schweyer">17</rdg>
+               </app>
+            </ab>
+         </div>
+      <div type="translation" xml:lang="en">
+            <p>Y.P.K. Śrī Jayaparameśvaravarmadeva of Turaiy Vijaya carried out the reinstallation of the image [as] divine service. This P.P.T.R. offered a Svar Sandik rice-field at Drāv; 300 <foreign>jāk</foreign>. The rice-field of Udaya to the South [of the previous one] 820 <foreign>jāk</foreign> with <foreign>tandoṅ laṅguv</foreign>. Slaves – Cams, Khmers, Chinese (?), Paganese [and] Siamese – all together 55 individuals. A <foreign>svam̃r</foreign> domain. The <foreign>sragīk kanūk</foreign> source the <foreign>vvaṅ</foreign> river. Good in gold: 15 <foreign>thil</foreign>; in silver: 150.</p>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <p>Y.P.K. Śrī Jayaparameśvaravarmadeva de Turaiy Vijaya effectua [en tant que] service pour les dieux la réinstallation de l'image. Ce P.P.T.R. offrit une rizière Svar Sandik à Drāv : 300 <foreign>jāk</foreign>. La rizière d'Udaya au sud [de la précédente] 820 <foreign>jāk</foreign> avec <foreign>tandoṅ laṅguv</foreign>. Des esclaves – Cams, Khmers, Chinois (?), Paganais [et] Siamois – en tout 55 individus. Un domaine <foreign>svam̃r</foreign>. La source <foreign>sragīk kanūk</foreign> le fleuve <foreign>vvaṅ</foreign>. Biens en or 15 <foreign>thil</foreign> ; en argent 150.</p>
+         </div>
+<div type="commentary"> 
+            <p>The notation <foreign>8002 pluḥ</foreign> in line 3 must no doubt be interpreted as 820. About the Cam use of numeral signs, <bibl><ptr target="cic-bibl:aymonier-1889"/>: <biblScope>38</biblScope></bibl> wrote that <quote>La décadence des études est telle chez les misérables Chams du Bình-Thuận qu'ils ont perdu la notion de la valeur de position des chiffres et écrivent 101, 102, 103, etc., pour 11, 12, 13, etc. Quant à présenter des centaines de chiffres, ils ne s'y aventurent même pas</quote>. At the time he published this inscription, <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>30</biblScope></bibl>, who read 9002, echoed the same attitude, adding: <quote>Et il me semble qu'on trouve déjà ici la trace de cette ignorance. Le lapicide écrit 900 2 suivis de <foreign>pluḥ</foreign> 'dizaines', et il y a fort à présumer qu'il a voulu écrire 900 plus 2 dizaines, soit 920 <foreign>jāk</foreign></quote>. Among related writing traditions, this type of procedure does not seem to be widespread. However, one could find some similar cases, in Orissa for instance where people number manuscript folios in a similar way (1002 for 102).</p>
+             </div>
+   <div type="bibliography" subtype="secondary">
+            <listBibl>
+              <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>130</biblScope>.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

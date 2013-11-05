@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb from Phan Rang</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Amandine Lepoutre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0004</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>EFEO</institution>
+                  <idno xml:id="inv-general">C. 4</idno>
+                  <altIdentifier type="majumdar-nr">
+                     <idno xml:id="majumdar-nr">No. 86</idno>
+                  </altIdentifier>
+                  <altIdentifier type="museum-inventory">
+                     <settlement>Hà Nội</settlement>    
+                     <repository>BTLS-QG</repository>
+                     <idno xml:id="inv-btls-qg">LSb 21166</idno>
+                  </altIdentifier>
+                  <altIdentifier type="museum-inventory-former">
+                     <settlement>Hanoi</settlement>
+                     <repository>EFEO Museum</repository>
+                     <idno xml:id="inv-efeo-hanoi">B 2, 15</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                  <note>Twenty-one lines on the principal face and twenty lines on the lateral face</note>
+                  <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang> 
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Doorjamb</objectType>; <material>sandstone</material>; <dimensions unit="cm">
+                               <height>163</height>
+                              <width>31</width>
+                              <depth>34</depth>
+                           </dimensions>.
+                           </p>                        
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace type="location">
+                        <placeName ref="cic-geo:phan-rang">Phan Rang</placeName>
+                     </origPlace>
+                     <origDate>
+                        <date calendar="Śaka">1148</date>
+                        <date calendar="Julian" notBefore="1226" notAfter="1227">1226/7</date>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" notAfter="1888">
+                     <ab>This doorjamb was found before 1888, when it was first mentioned in the literature (<bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>91</biblScope></bibl>).
+                     </ab>
+                  </provenance>
+                  <provenance type="observed" notAfter="1909"> 
+                     <ab>At the beginning of the 20<hi rend="superscript">th</hi> century, it was observed at the <placeName xml:id="origin" type="modern" ref="campa-geo:phan-rang">Phan Rang</placeName> residence (<bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>79-81</biblScope></bibl>). Like the architectural elements bearing <ref target="C0003.xml">C. 3</ref>, <ref target="C0005.xml">C. 5</ref>, <ref target="C0006.xml">C. 6</ref> and <ref target="C0007.xml">C. 7</ref>, this one was later identified as belonging to a group of vestiges, found in the rice-fields of the Catholic Mission, to which the designation <quote>sanctuaire de Svayamutpanna</quote> was applied (<bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>77</biblScope></bibl>).</ab>
+                     <!-- AG: I guess we could mark here a <placeName xml:id="origin" type="modern" ref="campa-geo:svayamutpanna-temple">? But let's ask Tom about this case. For the time being, I'd tag <placeName xml:id="origin" type="modern" ref="campa-geo:phan-rang">Phan Rang</placeName> -->
+                  </provenance>
+                  <provenance type="observed" when="1910">
+                     <ab>When the inscriptions of Campā were moved from the Saigon Museum to the EFEO Museum in Hanoi in 1910, the collection was completed by other inscriptions regarded as being of outstanding importance for the history of Campā. The doorjamb bearing C. 4 was one of them (<bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>2</biblScope></bibl>).</ab>
+                  </provenance>
+                  <provenance type="observed" when="1915">
+                     <ab>Its inventory number <ptr target="#inv-efeo-hanoi"/> at the Museum was published in <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>9-10</biblScope></bibl>;
+                        whence, in the inventory of Campā inscriptions published in 1923, this local number was included under the entry <ptr target="#inv-general"/> (<ptr target="cic-bibl:coedes-1923"/>).</ab>
+                  </provenance>
+                  <provenance type="observed" notBefore="2009">
+                     <ab>We identified the stone in the Bảo Tàng Lịch Sử Việt Nam (National Museum of Vietnamese History) at Hanoi in 2009 and following years, as the one bearing inventory number <ptr target="#inv-btls-qg"/>. The Museum assumed the new name Bảo Tàng Lịch Sử Quốc Gia (National Museum of History) in 2011, but this did not entail a change in the inventory number.</ab>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>BnF</repository>
+                           <idno xml:id="BnF-est-383-43">383 (43)</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-2">2</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-inked" facs="#fac2-3"> 
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-n143-jpg">n. 143 </idno>
+                        </msIdentifier>
+                        <ab><note>There are three estampages under the number n. 143.</note></ab>
+                     </msDesc>
+                     </surrogates>
+               </additional>
+                  </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version 
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampages</catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="20120815" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+         <change when="20120922" who="AL" xml:lang="en">corrections of the initial encoding</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0004_AG.jpg">
+         <desc>Photograph, with scale, of inscription <ptr target="#inv-general"/>. Taken in the Hanoi Museum by Arlo Griffiths on <date when="20090917"></date>.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0143_A.jpg">
+         <desc>Photograph of an EFEO estampage under n. 143, showing the face A of the inscrirption C. 4.</desc>
+      </graphic>
+      <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n0143_B.jpg">
+         <desc>Photograph of an EFEO estampage under n. 143, showing the face b of the inscription C. 4.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>A few words were read in <bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>91</biblScope></bibl>; partially edited and translated into French in <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>50-52</biblScope></bibl>; summarised in English in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>206</biblScope></bibl>, whence <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>177-178</biblScope></bibl>. It was integrally published for the first time in <bibl><ptr target="cic-bibl:ECIC-IV"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>.</ab>
+         </div>        
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+            <div type="textpart" n="A">
+               <head xml:lang="en">C. 4 A</head>
+            <ab>
+            <lb n="1"/> rilvai paliṅyak· sarvvadā ra vuḥ rumaḥ pāk·
+            <lb n="2"/> riṃ liṅga devapratimā tok· pā<unclear>t</unclear><supplied reason="lost">āla</supplied>
+            <lb break="no" n="3"/><!-- AG: something is going wrong here, I will make an "issue" -->pātra kraliḥ nan· klum̃ pluḥ dvā thun· <supplied reason="lost">dadam̃</supplied> da
+            <lb break="no" n="4"/>dam̃n· varṇna tamā vanānthara juṃ di pu pom̃ tana <unclear>ra</unclear>yā
+            <lb n="5"/> nan· di siṅhapura di śaka vī 1123 pu pom̃ <unclear>ta</unclear>
+            <lb break="no" n="6"/>na rayā kamjuja vrim̃ rai da ā nau vrim̃  nāma <unclear>ś</unclear>r<unclear>ī</unclear>
+            <lb break="no" n="7"/>yauvarāja madā pukāṃ syaṃ davvām̃ marai ma<unclear>k</unclear>·
+            <lb n="8"/> kamvujadeśa pu pom̃ tana rayā nan· vā vala nau
+            <lb n="9"/> mṛsuḥ ja<supplied reason="lost">ya mak· vā</supplied> <unclear>ta</unclear>m̃l· pu pom̃ tana ra<unclear>yā</unclear>
+            <lb n="10"/> kamvuja vrim̃ nau ma<supplied reason="lost">k</supplied>· yvan· pu pom̃ tana rayā nan·
+            <lb n="11"/> vā vala nau gaḥ virān· senāpatī kamvuja nau
+            <lb n="12"/> maṅauk· tam̃l· nā mukyap· mṛsuḥ ghora kvi
+            <lb break="no" n="13"/>r· yvan· matai dhvasta pu pom̃ tana rayā nan· jaya
+            <lb n="14"/> mānana vām̃ āgama di śaka nī 1142 kvir· nau vraḥ 
+            <lb n="15"/> <supplied reason="lost">nagar</supplied>· urām̃ campa marai vijaya tām̃ mam̃ jumvum̃ tam̃l· ri<supplied reason="lost">lvai</supplied>
+            <lb n="16"/> <supplied reason="lost">samu</supplied>dāya da ā pu poṅ tana rayā nan· dram̃ṅ· rāja di
+            <lb n="17"/> <supplied reason="lost">śaka</supplied> <unclear>nī</unclear> 1148 rajan· rājābhiṣeka ṅap· rumaḥ na
+            <lb break="no" n="18"/>ndi rumaḥ śrī vināya punaḥ sthāpanā devatā mam̃ jumvum̃ 
+            <lb n="19"/> tam̃l· rilvai vuḥ sarvadravya jem̃ upabhoga devatā <unclear>na</unclear><supplied reason="lost">n</supplied><unclear>·</unclear>
+            <lb n="20"/> <gap reason="lost" quantity="1" unit="character"></gap> pa<supplied reason="lost">la</supplied>m̃n· pu po<supplied reason="lost">m̃ ku po</supplied>m̃  <supplied reason="lost">si</supplied>ṅhavarmma nan· yaḥ sa<unclear>ru</unclear>
+            <lb break="no" n="21"/><gap reason="lost" quantity="1" unit="character"></gap>· <gap reason="lost" quantity="1" unit="character"></gap> yām̃ <supplied reason="lost">pu ku śrī ja</supplied>yaparameśvaravarmmadeva
+            </ab>
+         </div>   
+         </div>
+         <div type="apparatus"> <!-- AL: here also, as for C. 3, it will be nicer to get the apparatus after the first part of the text, not at the end of the whole text-->
+            <ab>
+               <app loc="2">
+                  <lem>liṅga devapratimā</lem>
+                  <note>a comparable structure is found in the inscription <ref target="C0113.xml">C. 113</ref>, face C, l. 20.</note>
+               </app>
+               <app loc="2">
+                  <lem>pā<unclear>t</unclear><supplied reason="lost">āla</supplied>°</lem>
+                  <note>conjectural restitution, see <ref target="C0213.xml">C. 213</ref>, face A, l.7.</note>
+               </app>
+               <app loc="3">
+                  <lem>kraliḥ</lem>
+                  <rdg resp="Aymonier">kralin</rdg>
+                  <note>the sequence <foreign>°pātra kraliḥ</foreign> consists of the succession of two almost identical signs, <foreign>tra kra</foreign>. No doubt the lapicide repeated the element <foreign>r</foreign> by mistake. It needs to read <foreign>kaliḥ</foreign>. Concerning the term <foreign>kaliḥ</foreign>, see <bibl><ptr target="cic-bibl:ECIC-IV"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>.</note>
+                  </app>
+                  <app loc="3-4">
+                  <lem><supplied reason="lost">dadam̃</supplied> dadam̃n</lem> 
+                     <note>conjectural restitution, see <ref target="C0013.xml">C. 13</ref>, face B, l. 6.</note>
+               </app>
+               <app loc="5">
+                  <lem>vī</lem> 
+                  <note>read <foreign>nī</foreign>.</note>
+               </app>
+               <app loc="5">
+                  <lem>1123</lem> 
+                  <rdg resp="Aymonier">1129</rdg>
+               </app>
+               <app loc="5-6">
+                  <lem>pu pom̃ <unclear>ta</unclear>na rayā</lem> 
+                  <rdg resp="Aymonier">pu poṅ k<unclear>u ta</unclear> na rayā</rdg>
+               </app>
+               <app loc="7">
+                  <lem>davvām̃</lem> 
+                  <rdg resp="Aymonier">davvan</rdg>
+               </app>
+               <app loc="7">
+                  <lem>ma<unclear>k</unclear></lem> 
+                  <rdg resp="Aymonier">maṅ</rdg>
+               </app>
+               <app loc="9">
+                  <lem>ja<supplied reason="lost">ya mak vā</supplied></lem> 
+                  <note>this restitution was already proposed by Aymonier.</note>
+               </app>
+               <app loc="11">
+                  <lem>senāpatī</lem> 
+                  <rdg resp="Aymonier">senapati</rdg>
+               </app>
+               <app loc="12">
+                  <lem>ghora</lem> 
+                  <note>this word is also used in <ref target="C0019.xml">C. 19</ref>, l. 8.</note>
+               </app>
+               <app loc="15">
+                  <lem>ri<supplied reason="lost">lvai</supplied></lem> 
+                  <note>restored according to ll. 18-19, where we read the same word.</note>
+               </app>
+               <app loc="17">
+                  <lem>1148</lem> 
+                  <rdg resp="Aymonier">1149</rdg>
+               </app>
+               <app loc="17-18">
+                  <lem>nandi</lem> 
+                  <rdg resp="Aymonier">mandi</rdg>
+               </app>
+               <app loc="18">
+                  <lem>vināya</lem> 
+                  <rdg resp="Aymonier">vinaya</rdg>
+               </app>
+               <app loc="18">
+                  <lem>sthāpanā</lem> 
+                  <rdg resp="Aymonier">sthapanā</rdg>
+               </app>
+            </ab>
+         </div>
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+             <div type="textpart" n="b, text 1">
+                <head xml:lang="en">C. 4 b</head>
+                <ab>
+                   <lb n="1"/> māḥ bhoga 30
+                   <lb n="2"/> <supplied reason="lost">th</supplied>il· pira
+                   <lb break="no" n="3"/>k· bhoga 400
+                   <lb n="4"/> thil·
+                </ab>
+             </div>
+            <div type="textpart" n="b, text 2">
+               <ab>
+                  <lb n="5"/> svasti <pc>fleuron</pc> nī mūla humā
+                  <lb n="6"/> <unclear>pu</unclear> pom̃ tana rayā am̃śarā
+                  <lb break="no" n="7"/>ja pak· yām̃ pom̃ ku
+                  <lb n="8"/> <unclear>sva</unclear>yamutpanna <pc>||</pc>
+                  <lb n="9"/> humā parik· 155 jāk·
+                  <lb n="10"/> humā kutūk· 10 jāk·
+                  <lb n="11"/> humā ryaḥ 35 jāk·
+                  <lb n="12"/> humā atāṅ· 50 jāk·
+                  <lb n="13"/> humā rak· 30 jāk·
+                  <lb n="14"/> humā tapaiḥ 10 jāk·
+                  <lb n="15"/> humā jagvak· 10 jāk·
+                  <lb n="16"/> humā ranok· 15 jāk·
+                  <lb n="17"/> humā param̃n· 65 jāk·
+                  <lb n="18"/> humā asāy· 30 jāk·
+                  <lb n="19"/> humā rauk· sā ara saum̃
+                  <lb n="20"/> humā panān· 10 jāk·
+               </ab>
+            </div> 
+         </div>
+ <div type="translation" xml:lang="en">
+           <div type="textpart" n="A">
+           <head xml:lang="en">C. 4 A</head>
+            <p>... at the end, [he] banished forever. He (the sovereign) offered an edifice to each to the <foreign>liṅga</foreign>s, images of the deities.</p>
+            <p>However this 'vessel of hell' [which was] this thirty-two 'war' [took place].
+            All ranks went into the forest around [the territory] of this P.P.T.R. at Siṃhapura.</p>
+            <p>In the Śaka year 1123, the P.P.T.R. of Kamjuva summoned him [and] gave [him] the title of heir.
+            There were Paganese, Siamese [and people from] Davvam̃ having arrived to seize Kamvujadeśa. This P.P.T.R. led the troops [to] go and fight.
+            Upon victory, [he] led [the troops] to the P.P.T.R. of Kamvuja [who] granted [him] to go to seize the Viets.</p> 
+            <p>This P.P.T.R. led the troops, moving to the North; the general of Kamvuja went upwards to Nā Mukyap where there was violent fighting. The Khmers, the Viets died, were destroyed.
+            This P.P.T.R. [obtained] victory, honors <foreign>vām̃</foreign> (?) the religious doctrine.</p>
+            <p>In the Śaka year 1142, the Khmer went to Vraḥ Angkor (<foreign>nagar</foreign>), people of Campā went [to] Vijaya, when [throughout the territory] from the North to the South.
+            Everyone invited this P.P.T.R. to reign.</p>
+            <p>In the Śaka year 1148, he carried out the royal consecration. He made a temple to Nandin, a temple to Śrī Vināya. Again, he erected gods from the North to the South.
+            He offered all goods as means of subsistence [to] those gods, <foreign>palam̃ṅ</foreign> (?) this P.P.T.R. Siṃhavarman if (<foreign>yaḥ</foreign>) <foreign>saru</foreign>... Y.P.K. Śrī Jayaparameśvaravarmadeva.</p>
+           </div>
+           <div type="textpart" n="b, text 1">
+           <head xml:lang="en">C. 4 b</head>
+            <p>The goods in gold: 30 <foreign>thil</foreign>; the goods in silver: 400 <foreign>thil</foreign>.</p>
+           </div>
+           <div type="textpart" n="b, text 2"> 
+               <p>Hai! This (is) the capital of ricefields [given] from P.P.T.R. Aṅśarāja to the deity Svayamutpanna: 
+                  the rice-fields of Parik: 155 <foreign>jāk</foreign>; the rice-fields of Kutūk: 10 <foreign>jāk</foreign>; the rice-fields of Ryaḥ: 35 <foreign>jāk</foreign>; the rice-fields of Atāṅ: 50 <foreign>jāk</foreign>; the rice-fields of Rak: 30 <foreign>jāk</foreign>;
+                  the rice-fields of Tapaiḥ: 10 <foreign>jāk</foreign>; the rice-fields of Jagvak: 10 <foreign>jāk</foreign>; the rice-fields of Ranok: 15 <foreign>jāk</foreign>; the rice-fields of Param̃n: 65 <foreign>jāk</foreign>; the rice-fields of Asāy: 30 <foreign>jāk</foreign>;
+                  the rice-fields of Rauk: those which are limited by a dyke; the rice-fields of Panān: 10 <foreign>jāk</foreign>.</p>
+          </div>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <div type="textpart" n="A">
+               <head xml:lang="fr">C. 4 A</head>
+               <p>... à la fin [il] expulsa [pour] toujours. Il (le souverain) offrit un édifice à chacun des <foreign>liṅga</foreign>, des images des divinités.</p>
+               <p>Seulement ce « receptacle de l'enfer » [qu'était] cette "guerre" de trente-deux ans [avait lieu]. 
+               Tous les rangs entrèrent dans la forêt alentour [du territoire] de ce P.P.T.R. à Siṃhapura.</p>
+            <p>En cette année 1123 Śaka, le P.P.T.R. du Kamvuja [le] fit venir [et lui] donna le titre d'héritier. 
+               Il y eut des Paganais, des Siamois [et des gens de] Davvam̃ venus prendre le Kamvujadeśa. Ce P.P.T.R. conduisit les troupes [pour] aller combattre. 
+               La victoire remportée, [il] conduisit [les troupes] jusqu'au P.P.T.R. du Kamvuja [qui lui] octroya d'aller prendre les Viets.</p>
+            <p>Ce P.P.T.R. conduisit les troupes allant du côté nord ; le général du Kamvuja avança en montant jusqu'à Nā Mukyap [où on] se battit violemment. Les Khmers, les Viets moururent, furent détruits. 
+               Ce P.P.T.R. [obtint] la victoire, les honneurs <foreign>vām̃</foreign> (?) la doctrine religieuse.</p>
+            <p>En cette année 1142 Śaka, les Khmers allèrent à Vraḥ Angkor (<foreign>nagar</foreign>), les gens du Campā vinrent [à] Vijaya, ensuite [sur tout le territoire] du Nord au Sud. 
+               Tout le monde invita ce P.P.T.R. à régner.</p>
+            <p>En cette année 1148 Śaka, il exécuta la consécration royale. Il fit un temple de Nandin, un temple de Śrī Vināya. Il érigea à nouveau les dieux du Nord au Sud. 
+               Il offrit tous les biens en tant que moyens de subsistance [à l'usage de] ces dieux, <foreign>palam̃ṅ</foreign> (?) ce P.P.T.R. Siṃhavarman si (<foreign>yaḥ</foreign>) <foreign>saru</foreign>... Y.P.K. Śrī Jayaparameśvaravarmadeva.</p>
+            </div>
+            <div type="textpart" n="b, text 1">
+               <head xml:lang="en">C. 4 b</head>
+               <p>Les biens en or : 30 <foreign>thil</foreign> ; les biens en argent : 400 <foreign>thil</foreign>.</p>
+            </div>
+            <div type="textpart" n="b, text 2"> 
+               <p> Salut ! Ceci (est) le capital des rizières du P.P.T.R. Aṅśarāja pour la divinité Svayamutpanna : 
+                  les rizières de Parik : 155 <foreign>jāk</foreign> ; les rizières de Kutūk : 10 <foreign>jāk</foreign> ; les rizières de Ryaḥ : 35 <foreign>jāk</foreign> ; les rizières de Atāṅ : 50 <foreign>jāk</foreign> ; les rizières de Rak : 30 <foreign>jāk</foreign>
+                  ; les rizières de Tapaiḥ : 10 <foreign>jāk</foreign> ; les rizières de Jagvak : 10 <foreign>jāk</foreign> ; les rizières de Ranok : 15 <foreign>jāk</foreign> ; les rizières de Param̃n : 65 <foreign>jāk</foreign> ; les rizières de Asāy : 30 <foreign>jāk</foreign>
+                  ; les rizières de Rauk : celles qui sont limitées par un talus ; les rizières de Panān : 10 <foreign>jāk</foreign>.</p>
+            </div>
+         </div>
+   <!-- <div type="commentary">
+              <p>The beginning of the text is not available. We thought that the missing part could be engraved on another architectural element of the temple, the doorjamb engraved with <ref target="C0005.xml">C. 5</ref> which <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>79-81</biblScope></bibl> presented as the architectural correspondente of the doorjamb bearing C. 4. 
+                 However, the readable part of C. 5 presents a list, not a narrative. It is likely that, originally, the doorjambs of the temple were much bigger than the remaining pieces we have, which the greater measures only 1.63 m hight. The beginning the C. 4 whould be engraved on the upper part of the doorjamb which has not been found.</p>
+              <p>Concerning the reading and the interpretation of the term <foreign>kaliḥ</foreign>, see <bibl><ptr target="cic-bibl:ECIC-IV"/>: <check><biblScope>forthcoming</biblScope></check></bibl>.</p>
+              <p>The term <foreign>davvām̃</foreign> corresponds to the old Môn <foreign>davāy</foreign>. The identification <foreign>davvām̃</foreign> = <foreign>davāy</foreign> is supported by the equivalence between the words <foreign>tralām̃</foreign> and <foreign>tralāy</foreign> one could read in <ref target="C0005.xml">C. 5</ref>, ll. 11 and 18 and <ref target="C0006.xml">C. 6</ref>, l. 4. 
+                 <foreign>Davāy</foreign> is the name of nowdays coastal city called Dawei or Tavoy, in the South of Myanmar. Concerning this identification, see <bibl><ptr target="cic-bibl:ECIC-IV"/>: <check><biblScope>forthcoming</biblScope></check></bibl>; <bibl><ptr target="cic-bibl:griffiths-lepoutre-2013"/>: <check><biblScope>forthcoming</biblScope></check></bibl>.</p>
+              <p>Concerning the translation of <foreign>mam̃ jumvum̃ taml rilvaĩ</foreign> (i.e. [throughout the territory] from the North to the South), see <bibl><ptr target="cic-bibl:ECIC-IV"/>: <check><biblScope>forthcoming</biblScope></check></bibl>.</p>
+              <p>For a definition of terms finishing with °<foreign>bhoga</foreign>, see <bibl><ptr target="cic-bibl:esteve-2009"/>: <biblScope>413-416</biblScope>.</bibl></p> 
+              <p><foreign>mūla</foreign> means "whole, total, good, origin" (<bibl><ptr target="cic-bibl:AC-1906"/>: <biblScope>243 and  391</biblScope></bibl>. From Sanskrit, this word is also found in Khmer inscriptions, see <bibl><ptr target="cic-bibl:gerschheimer-vincent-2010"/>: <biblScope>112-113</biblScope>.</bibl></p>
+             </div> -->
+         <div type="bibliography" subtype="secondary">
+            <listBibl>
+            <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>79-81</biblScope>.</bibl>
+            <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>2 and 9-10</biblScope>.</bibl>
+            <bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>77</biblScope>.</bibl>
+             <bibl><ptr target="cic-bibl:griffiths-lepoutre-2013"/>: <biblScope><seg type="check">forthcoming</seg></biblScope>.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
