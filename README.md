@@ -1,7 +1,8 @@
 tei-examples
 ============
 
-Examples of TEI documents dealing with different use-cases.
+Examples of TEI documents dealing with different use-cases. 
+There is a [catalog](https://github.com/TEI-examples/tei-examples/wiki) in the wiki. Contributions welcome.
 
 Licensing Guidelines
 --------------------
