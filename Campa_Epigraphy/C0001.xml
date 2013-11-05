@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The back of a Viṣṇu Statue at Biên Hòa</title>
+            <editor>Arlo Griffiths</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0001</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>EFEO</institution>
+                  <idno>C. 1</idno>
+                  <altIdentifier type="majumdar-nr">
+                     <idno xml:id="majumdar-nr">No. 121</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                  <note>Nine lines on one face</note>
+                  <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Back of a <objectType>sculptural stela</objectType> of Viṣṇu; apparently of <material>sandstone</material>; according to <bibl><ptr target="cic-bibl:cabaton-1904"/>: 687</bibl>, the sculpture itself is maximally <dimensions rend="none" unit="cm"><height>150</height></dimensions> cm in height, while the inscribed surface measures <dimensions unit="cm"> <height>85</height> <width>65</width></dimensions>. The dimensions we have ourselves recorded (<dimensions rend="none" unit="cm"><height>136</height><width>83</width><depth>40</depth></dimensions>) concern the sculptural stela itself, in its present state of insertion in a large altar, which may explain the discrepancy for height.
+        <!-- AG: apply <layout> here once that is availabe. -->
+                           </p>                        
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace type="location">
+                        <placeName type="modern" ref="cic-geo:buu-son">Bửu Sơn</placeName>
+                     </origPlace>
+                     <origDate>
+                        <date calendar="Śaka">1343</date>
+                        <date calendar="Julian" notBefore="1421" notAfter="1422">1421/2</date>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" notAfter="1891">
+                     <p>This inscription was found before 1891, when it was first mentioned in the literature (<bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>7 and 84-85</biblScope></bibl>). Aymonier noted (p. 7): <quote rend="block">Aux inscriptions que j'ai fait estamper moi-même en 1885 je n'ai pu joindre ici qu'un seul document d'après une copie faite dans le temps par M. Jeanneau, qui en avait remis la photographie au chef des bonzes de Phnom-Penh. Je la tiens de ce dernier. C'est une inscription tchame. M. Jeanneau la croyait khmère et dit qu'elle a été trouvée sur le socle d'une statue à Bien-hoa, dans la Cochinchine française actuelle. Je suppose que la statue en question orne actuellement quelque collection particulière en France. Il serait à désirer que l'inscription pût être estampée, la copie étant insuffisante.</quote>
+                      </p>
+                  </provenance>
+                     <provenance type="observed" notAfter="1901">
+                        <p>It was observed again before 1901, when it was reported, in <bibl><ptr target="cic-bibl:finot-1901"/>: 18</bibl>, that
+                           <quote rend="block">La statue a par bonheur échappé aux collectionneurs. Viṣṇu est devenu une idole annamite. Il reçoit un culte dans la pagode de Bưu-sơn, village de Binh-trươc, hameau de Binh-thanh, à environ 800 m N.-O. de l'Inspection de Biên-hòa. La statue, haute de 1m50, est adossée à une stèle, dont la face postérieure porte l'inscription chame dont parle M. Aymonier. Elle a été trouvée près du village, dans le creux d'un gros arbre, et transférée dans la petite pagode actuelle, où il est impossible de la photographier. Nous en donnons (fig. 4) un dessin fait par un indigène et dont l'exactitude a été vérifiée (<hi rend="superscript">3</hi>).</quote> In n. 3, Finot adds: <quote>Nous devons ce dessin, accompagné d'une bonne reproduction de l'épigraphe, à l'obligeance de M. Cabanes de Laprade, administrateur adjoint de l'arrondissement de Biên-hòa.</quote></p>
+                  </provenance>
+                  <provenance type="observed" notAfter="20130906">
+                     <p>We observed it still in the same pagoda on <date when="20130906">6 September 2013</date>, on which occasion we were able to produce an inked estampage. We were informed that the pre-1975 administrative division of the site were <hi rend="italic">thôn</hi> Bình Thành, <hi rend="italic">xã</hi> Bình Trứơc, <hi rend="italic">quận</hi> Đức Tu, <hi rend="italic">tỉnh</hi> Biên Hòa, which have since been drastically altered.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <ab>Eye-copy published by <bibl><ptr target="cic-bibl:cabaton-1904"/></bibl> as fig. 6 on p. 688 in BEFEO 4.<note>This is not reliable.</note></ab>
+                     <msDesc n="estampage" facs="#fac1">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-263">263</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage" facs="#fac2">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo"><seg type="check">????</seg></idno>
+                        </msIdentifier>
+                     </msDesc>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version 
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampages</catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-07-11+07:00" who="TRE" xml:lang="en">generated template from inventory spreadsheet data</change>
+         <change when="2012-05-06" who="AG">first ported into xml</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/EFEOB-est.n0263.jpg">
+         <desc>Photograph of EFEO estampage 263 (inverted horizontally).</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>Partly deciphered on the basis of unsatisfactory documents in <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>84-85</biblScope></bibl>,<note>Aymonier observed: <quote>Le document doit être assez net, mais nous ne le connaissons que par des photographies de copies faites à la main, procédés dont l'exactitude laise trop à désirer</quote>.</note> with French translation of the translated parts. Completely edited for the first time in <bibl><ptr target="cic-bibl:cabaton-1904"/></bibl>; contents summarized in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>224</biblScope></bibl>, reproduced with minimal modifications in <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>199-200</biblScope></bibl>. We have re-edited the text here from the EFEO estampages.</ab>
+         </div>
+                 
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines">
+            <ab>
+            <lb n="1"/> <pc>|</pc><g type="quatrefoil"/><pc>|</pc> svasti <pc>|</pc> pu pom̃ ku nan· sūnnu 
+<lb n="2"/> yām̃ pom̃ ku śrī jaya siṅhavarmmadeva 
+<lb n="3"/> urām̃ ṅauk· glauṅ· vijaya paripāla rāṣtra sim̃ tmum̃
+<lb n="4"/> jaya di nagara yvan· ma°udyāṇna gulāc· tok· nagara 
+<lb n="5"/> braḥ kānda nī yuddha aneka sim̃ tmum̃ gulāc· jem̃ nagara ca<lb break="no" n="6"/>mpa di śaka <date type="chronogram" when="1343">loka aṣṭārdhanalaḥ ṇrapaḥ</date> sakram̃tta <choice><reg>tribhuvanākrānta</reg><orig>tri<lb break="no" n="7"/>bhavanākrānta</orig></choice> 
+      <!-- AG: note the encoding of the correction of tribhavanaakraanta to tribhuvanaakraanta -->
+               nī ṅan· <seg type="check">ri</seg><!-- had been read: ra--> jitta sa trā si sim̃ tmum̃ jaya di kvīra 
+               <!-- read jittasatrā = jitaśatru? -->
+<lb n="8"/> tmum̃ vuḥ bhogopabhoga yathādeva liṅga vukan· rim̃ sim̃ jmai tmum̃
+<lb n="9"/> jem̃ nagara kvīra jem̃ nagara campa sadākāla <pc>|</pc>
+            </ab>
+         </div>         
+         <div type="apparatus">
+            <p> Variants merely due to difference of transliteration conventions are not recorded.
+               <app loc="3">
+                  <lem>urām̃</lem>
+                  <rdg resp="Cabaton">uraṅ</rdg>
+</app>
+                  <app loc="3">
+                     <lem>rāṣtra</lem>
+                     <rdg resp="Cabaton">rāṣṭra</rdg>
+                     </app>
+                     <app loc="6">
+                        <lem>aṣṭārdhanalaḥ</lem>
+                        <rdg resp="Cabaton">ṣaṣṭārthānalaḥ</rdg>
+                        <rdg resp="Aymonier">aṣṭārdhānalaḥ</rdg>
+                        <rdg resp="Finot">aṣṭārdhanalaḥ</rdg><note>The reading of Aymonier was included in an authorial addition to <bibl><ptr target="cic-bibl:cabaton-1904"/>: 690</bibl>, while Finot took the editorial liberty of inserting his own reading in n. 5 on that same page. Although we do not see a long <foreign>ā</foreign>-vocalization on the <foreign>dg</foreign>, we agree with Finot and Aymonier that it is necessary to understand <foreign>aṣṭārdha-analaḥ</foreign>.</note>               </app>
+                     <app loc="6">
+                        <lem resp="Finot">ṇrapaḥ</lem>
+                        <rdg resp="Cabaton">ṇdapaḥ</rdg>
+                        <note>The same spelling is found in <ref target="C0043.xml">C. 43</ref>, face B, l. 4 and 7. Finot's reading is publised in n. 5 to </note>
+                        </app>
+                        <app loc="6">
+                           <lem>sakram̃tta</lem>
+                           <rdg resp="Cabaton">pakram̃ttha (?)</rdg><note>Cf. <ref target="C0043.xml">C. 43</ref>, face A, l. 9 and c, l. 15 and 21; <ref target="C0118.xml">C. 118</ref>.</note>
+                        </app>
+               <app loc="6-7">
+                  <lem>tribhavanākrānta</lem>
+                  <note>correct <foreign>tribhuvanākrānta</foreign>. The same correction is implicit from Cabaton's translation.</note>
+               </app>
+               <app loc="7">
+                  <lem>ra jitta</lem>
+                  <rdg resp="Cabaton">vijitta</rdg>
+               </app>      
+               <app loc="7">
+                  <lem>kvīra</lem>
+                  <rdg resp="Cabaton">kvīr</rdg>
+               </app>    
+               <app loc="7">
+                  <lem>vukan·</lem>
+                  <rdg resp="Cabaton">vukān</rdg>
+               </app>  
+               <app loc="9">
+                  <lem>kvīra</lem>
+                  <rdg resp="Cabaton">kvīr</rdg>
+               </app>  
+            </p>
+         </div>
+      <!--   <div type="commentary">
+            <p>FILL ME IN</p> 
+       </div>-->
+         <div type="translation" xml:lang="en">
+            <p>Hail! The P.P.K., son of Y.P.K. Śrī Jaya Siṃhavarmadeva, man of Ṅauk Glauṅ Vijaya, was the protector of the realm. He had obtained victory in the land of the Viet, went out [and] returned to take this land of Braḥ Kānda [through] many battles. He has succeeded to create again (? <foreign>tmuv gulāc jeṅ</foreign>) a Campa land in Śaka (3) worlds, half-of-eight (4), (3) fires, (1) king (i.e. in 1343 Śaka). He caused this Tribhuvanākrānta (i.e. Viṣṇu) to be made. And he ... he obtained victory in Cambodia and succeeded to give property and means of existence per deity for various liṅgas. Also: let the Khmer land never succeed in ruling it, but [let] the Campa land [rule it] forever.            </p>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <p>We cite Cabaton's translation of 1904:</p>
+            <ab>Le fils de Śrī Jaya Siṃhavarman, Ṅauk Glauṅ Vijaya, protège le royaume. Il a vaincu le royaume annamite. Il est parti (en campagne) et est revenu prendre ce nagara Braḥ Kānda. Il a gagné de nombreuses batailles et est revenu au royaume de Champa en (l'année de l'ère) śaka (désignée par) mondes, soixante (ou huit), trois, roseau (ou feu). Il a édifié pieusement ce Tribhuvanākrānta avec le butin qu'il avait conquis sur les Khmèrs. Il a donné comme possession à différents dieux et liṅgas et il s'abstient à jamais d'en jouir, soit dans le nagara khmèr, soit dans le nagara cham.               
+            </ab></div>
+         <div type="commentary">
+            <ab>Contrary to Cabaton's remark <quote>La date qui, par malheur, est la partie la plus endommagée de l'inscription</quote> (<bibl><ptr target="cic-bibl:cabaton-1904"/>: 688</bibl>), perpetuated by Majumdar and Golzio, the whole of the inscription is very well preserved, or at least it was at the time of Cabaton, when the EFEO estampage was made. The problems that previous scholars felt in interpreting the chronogram were due to inexperience with the peculiarities of the inscriptions of this period, not due to the state of preservation of the inscription.</ab>
+         </div>
+         <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl><ptr target="cic-bibl:finot-1901"/>: 18 and fig. 4.</bibl><!-- AG: keep in list, even though Finot 1901 is already mentioned above, for this is an occasion to mention the fig. 4. -->
+               <bibl><ptr target="cic-bibl:finot-1915a"/>: 14.</bibl>
+               <bibl><ptr target="cic-bibl:parmentier-1909"/>: 553-555 and fig. 127.</bibl>
+               <bibl><ptr target="cic-bibl:boisselier-1963"/>: 365 and fig. 235.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rock inscription of Cà Đú (Kanduk)</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Amandine Lepoutre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0123</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>EFEO</institution>
+                  <idno xml:id="inv-general">C. 123</idno>
+                  <altIdentifier type="majumdar-nr">
+                     <idno xml:id="majumdar-nr">No. 104</idno>
+                  </altIdentifier>
+                  <altIdentifier type="cancelled">
+                     <institution>EFEO</institution>
+                     <idno>C. 18</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                  <note>Four lines on one face</note>
+                  <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang> 
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <objectType>Natural outcrop</objectType> of <material>rock</material> (possibly <material>granite</material>); inscribed surface, measuring <dimensions unit="cm">
+                               <height>111</height>
+                              <width>348</width>
+                           </dimensions>.
+                           </p>                        
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace type="location">
+                        <placeName type="modern" ref="cic-geo:ca-du">Cà Đù</placeName>
+                     </origPlace>
+                     <origDate>
+                        <date calendar="Śaka">1188</date>
+                        <date calendar="Julian" notBefore="1266" notAfter="1267">1266/7</date>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" notAfter="1888">
+                     <ab>This inscription was found before 1888, when it was first mentioned in the literature (<bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>96-97</biblScope></bibl>), and attributed to the site of <ref target="C0017.xml">C. 17</ref> (<ptr target="cic-geo:name-da-ne"/>, called <ptr target="cic-geo:name-batau-tablah"/> in Cam), where it is not actually found. The misattribution to Đà Nẻ/Batau Tablah was repeated in <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>57</biblScope></bibl>, with the added (false) suggestion that it is engraved above C. 17, on the same rock. The same information was repeated by <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>73</biblScope></bibl>, with reference to Aymonier. The inscription was inventoried under the number <ref target="C0018.xml">C. 18</ref> by <bibl><ptr target="cic-bibl:coedes-1908"/>: <biblScope>41</biblScope></bibl>.
+                     </ab>
+                  </provenance>
+                     <provenance type="observed" when="1912">
+                     <ab>Its actual site was (re)discovered in 1912, but the inscription found at this site in that year was misunderstood as an identical copy of the non-existent inscription of four lines at Đà Nẻ/Batau Tablah. See the report by <bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>575</biblScope></bibl>:
+                        <quote rend="block">Le R. P. Durand a découvert en 1912 une inscription au pied du versant S.-E. de la montagne de Kadu au S.-S.-O. de la lagune de Nai. Elle a 3,20 × 1,10 et paraît en tout une réplique de l'inscription de Batău Tablaḥ (cf. <hi rend="italic">I. C.</hi>, I, p. 73).</quote> On this basis, an oblique reference was made to <quote>Nai</quote> in <bibl><ptr target="cic-bibl:finot-1915b"/>: 51</bibl>, and a separate entry was made for this inscription of Cà Đù (Cam: Kanduk) in <bibl><ptr target="cic-bibl:coedes-1923"/>: <biblScope>28-29</biblScope></bibl> (whence in <bibl><ptr target="cic-bibl:golzio-2004"/>: 190</bibl>). The error in the inventory was identified and explained in <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>467</biblScope></bibl>. The entry C. 18 is henceforward cancelled, and the inscription it denoted will be denoted only as C. 123.       
+                     </ab>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>BnF</repository>
+                           <idno xml:id="BnF-est-395bis">395 bis</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-11">11</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-inked" facs="#fac2">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo.n1894.jpg">n. 1894</idno>
+                        </msIdentifier>
+                        </msDesc>
+                        <msDesc n="estampage-inked" facs="#fac3">
+                           <msIdentifier>
+                              <repository>EFEO</repository>
+                              <idno xml:id="est-efeo.n1895.jpg">n. 1895</idno>
+                           </msIdentifier>
+                           </msDesc>
+                           <msDesc n="estampage-inked" facs="#fac4">
+                              <msIdentifier>
+                                 <repository>EFEO</repository>
+                                 <idno xml:id="est-efeo.n1896.jpg">n. 1896</idno>
+                              </msIdentifier>
+                           </msDesc>
+                     <msDesc n="estampage-inked" facs="#fac5">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo.n1897.jpg">n. 1897</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-inked" facs="#fac6">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo.n1898.jpg">n. 1898</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-inked" facs="#fac7">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo.n1899.jpg">n. 1899</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     </surrogates>
+               </additional>
+               <!-- AG: Can we handle stretches of multiple estampages like this in a smnarter way? -->
+                  </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version 
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampages</catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-07-11+07:00" who="TRE" xml:lang="en">generated template from inventory spreadsheet data</change>
+         <change when="2012-04-18" who="AG">filled in most of the contents</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0123_1_TVA.jpg">
+         <desc>Photograph of the rock bearing inscription <ptr target="#inv-general"/>. Taken by Trương Văn Ẩn, before 2009. Reproduced by permission.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n1894.jpg">
+         <desc>Photograph of EFEO estampage n. 1894.</desc>
+      </graphic>
+      <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n1895.jpg">
+         <desc>Photograph of EFEO estampage n. 1895.</desc>
+      </graphic>
+      <graphic xml:id="fac4" url="../images/inscriptions/EFEOB-est.n1896.jpg">
+         <desc>Photograph of EFEO estampage n. 1896.</desc>
+      </graphic>
+      <graphic xml:id="fac5" url="../images/inscriptions/EFEOB-est.n1897.jpg">
+         <desc>Photograph of EFEO estampage n. 1897.</desc>
+      </graphic>
+      <graphic xml:id="fac6" url="../images/inscriptions/EFEOB-est.n1898.jpg">
+         <desc>Photograph of EFEO estampage n. 1898.</desc>
+      </graphic>
+      <graphic xml:id="fac7" url="../images/inscriptions/EFEOB-est.n1899.jpg">
+         <desc>Photograph of EFEO estampage n. 1899.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>Translated without publication of text in <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>57-58</biblScope></bibl>; whence <bibl><ptr target="cic-bibl:majumdar-1927"/>: 216-217</bibl> and <bibl><ptr target="cic-bibl:golzio-2004"/>: 189</bibl>. The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>470-472</biblScope></bibl>.</ab>
+         </div>        
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+            <ab>
+            <lb n="1"/> <g type="quatrefoil"/> <g type="fleuron"/> <pc>|</pc> svasti <pc>||</pc> pu pom̃ tana rayā inravarmma pu cim̃ śrīharideva pu pom̃ ku kāla dṛm̃ nā<lb break="no" n="2"/>ma pom̃ pu lyam̃ śrī yuvarāja vloṁ rai mak· panrām̃ tmum̃ di śaka 1171 tam̃l· ndok· rājya dṛm̃ rājanāma yām̃ pom̃ 
+            <lb n="3"/> ku śrī jaya siṅhavarmmadeva rai mak· panrām̃ tmum̃ di śaka 1179 <pc>|</pc> tam̃l· punaḥ rājābhiṣeka jem̃ pu pom̃ tana 
+            <lb n="4"/> rayā inravarmma rai mak· panrām̃ tmum̃ di śaka 1188 kṣama karuṇā śānti pasraum̃ jīva pak· rajan· sarvvadaṇda
+            </ab>
+         </div>         
+         <div type="apparatus">
+            <p>
+               <app loc="4">
+                  <lem>pasraum̃</lem>
+                  <rdg resp="Aymonier">papraum̃</rdg>
+                  <note>Aymonier's reading is inferred from his translation. The estampage favors reading <foreign>sr</foreign> rather than <foreign>pr</foreign>, and a form derived from the base <foreign>sraum̃</foreign> (<bibl><ptr target="cic-bibl:AC-1906"/>: <biblScope type="pp">497</biblScope></bibl>: <quote><foreign>vivre, demeurer, sauver</foreign></quote>) seems to fit better in the context (since <foreign>jīva</foreign> means 'life, spirit' in Sanskrit).</note>
+               </app>
+               <!-- A: how/where to encode this note? The point is that the resp denotes not an actual edition, but an inference from a published translation.
+                  CHECK http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TC.html#TCTR
+               -->
+            </p>
+         </div>
+      <!--   <div type="commentary">
+            <p>FILL ME IN</p> 
+       </div>-->
+         <div type="translation" xml:lang="en">
+            <ab>
+               Hail! The P.P.T.R. Indravarman, prince Śrī Harideva P.P.K., when he bore the name milord P.P.L. Śrī Heir Apparent, had not yet (<foreign>vloṃ</foreign>) gone to take Panrāṅ, in order to enjoy it (<foreign>tmum̃</foreign>). In 1171 Śaka, it came to pass (<foreign>tam̃l</foreign>) that he claimed the kingdom. Bearing the royal name of Y.P.K. Śrī Jaya Siṃhavarmadeva, he went to take Panrāṅ, in order to enjoy it, in 1179 Śaka. The royal consecration took place later (<foreign>punaḥ</foreign>), and he became P.P.T.R. Indravarman, “He who had gone to take Panrāṅ, in order to enjoy it”, in 1188 Śaka. Forgiveness, grace, peace. Enlivening the spirit, without carrying out all the punishment.
+            </ab>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <ab>Salut ! Le P. P. T. R. Indravarman, prince Śrī Harideva, P. P. K., lorsqu’il portait le nom de P. P. L. Śrī Dauphin, n’était pas encore (<foreign>vloṃ</foreign>) allé s’emparer de Panrāṅ, pour en jouir (<foreign>tmum̃</foreign>). En 1171 śaka, il se passa (<foreign>tam̃l</foreign>) qu’il réclama le royaume. Portant le nom royal de Y. P. K. Śrī Jaya Siṃhavarmadeva, il alla s’emparer de Panrāṅ, pour en jouir, en 1179 śaka. La consécration royale se passa plus tard (<foreign>punaḥ</foreign>), et il devint P. P. T. R. Indravarman, “celui qui était allé s’emparer de Panrāṅ, pour en jouir”, en 1188 śaka. Clémence, grâce, paix. Revivifiant l’esprit, sans effectuer toutes les punitions.
+         </ab></div>
+         <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl><ptr target="cic-bibl:finot-1903"/>: 640.</bibl>
+               <bibl><ptr target="cic-bibl:finot-1915b"/>: 51.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

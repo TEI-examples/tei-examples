@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doorjamb from Lamngâ</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Amandine Lepoutre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0007</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>EFEO</institution>
+                  <idno xml:id="inv-general">C. 7</idno>
+                  <altIdentifier type="majumdar-nr">
+                     <idno xml:id="majumdar-nr">No. 91</idno>
+                  </altIdentifier>
+                  <altIdentifier type="museum-inventory">
+                     <settlement>Hanoi</settlement>    
+                     <repository>BTLS-QG</repository>
+                     <idno xml:id="inv-btls-qg">LSb 21167</idno>
+                  </altIdentifier>
+                  <altIdentifier type="museum-inventory-former">
+                     <settlement>Hanoi</settlement>
+                     <repository>EFEO Museum</repository>
+                     <idno xml:id="inv-efeo-hanoi">B 2, 14</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note>Two texts; the first covering four, the second eleven, for a total of fifteen lines on one face; both texts</note>
+                  <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang> 
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Doorjamb</objectType>; <material>sandstone</material>; <dimensions unit="cm">
+                               <height>144</height>
+                              <width>34</width>
+                              <depth>43</depth>
+                           </dimensions>.
+                           </p>                        
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace type="location">
+                        <placeName ref="cic-geo:lamnga">Lamngâ</placeName>
+                     </origPlace>
+                     <origDate>
+                        <date calendar="Śaka">End of the 12<hi rend="superscript">th</hi> century</date>
+                        <date calendar="Julian" notBefore="1200" notAfter="1254">13<hi rend="superscript">th</hi> century</date>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" notAfter="1888">
+                     <ab>This doorjamb was found before 1888, when it was first mentioned in the literature, by <bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>92</biblScope></bibl>. This author informs us that it was found <quote>à l'embouchure de la rivière de Phanrang. La stèle avait été transportée là pour servir de borne entre deux villages. Depuis, elle a été enlevée par les missionnaires qui l'ont placée dans la chrétienté</quote>.
+                     </ab>
+                  </provenance>
+                  <provenance type="observed" notAfter="1909"> 
+                     <ab>Between the end of the 19<hi rend="superscript">th</hi> century and the first decade of the 20<hi rend="superscript">th</hi> century, it was observed at the <placeName xml:id="origin" type="modern" ref="campa-geo:phan-rang">Phan Rang</placeName> residence (<bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>79-81</biblScope></bibl>). Like the architectural elements bearing <ref target="C0003.xml">C. 3</ref>, <ref target="C0004.xml">C. 4</ref>, <ref target="C0005.xml">C. 5</ref> and <ref target="C0006.xml">C. 6</ref>, this one was later identified as belonging to a group of vestiges, found in the rice-fields of the Catholic Mission, to which the designation <quote>sanctuaire de Svayamutpanna</quote> was applied (<bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>77</biblScope></bibl>).</ab>
+                  </provenance>
+                  <provenance type="observed" when="1910">
+                     <ab>When the inscriptions of Campā were moved from the Saigon Museum to the EFEO Museum in Hanoi in 1910, the collection was completed by other inscriptions regarded as being of outstanding importance for the history of Campā. The doorjamb bearing C. 7 was one of them (<bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>2</biblScope></bibl>).</ab>
+                  </provenance>
+                  <provenance type="observed" when="1915">
+                     <ab>Its inventory number <ptr target="#inv-efeo-hanoi"/> at the Museum was published in <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>10</biblScope></bibl>; whence, in the inventory of Campā inscriptions published in 1923, this local number was included under the entry <ptr target="#inv-general"/> (<ptr target="cic-bibl:coedes-1923"/>).</ab>
+                  </provenance>
+                  <provenance type="observed" notBefore="2009">
+                     <ab>We identified the stone in the Bảo Tàng Lịch Sử Việt Nam (National Museum of Vietnamese History) at Hanoi in 2009 and following years, as the one bearing inventory number <ptr target="#inv-btls-qg"/>. The Museum assumed the new name Bảo Tàng Lịch Sử Quốc Gia (National Museum of History) in 2011, but this did not entail a change in the inventory number.</ab>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>BnF</repository>
+                           <idno xml:id="BnF-est-392-44">392 (44)</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-5">5</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-inked" facs="#fac2"> 
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-n142-jpg">n. 142</idno>
+                        </msIdentifier>
+                        </msDesc> 
+                     </surrogates>
+               </additional>
+                  </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version 
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampages</catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="20120815" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+         <change when="20120922" who="AL" xml:lang="en">corrections of the initial encoding</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0007_AG_2009.jpg">
+         <desc>Photograph, with scale, of inscription <ptr target="#inv-general"/>. Taken in the Hanoi Museum by Arlo Griffiths on <date when="20090917"></date>.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0142.jpg">
+         <desc>Photograph of EFEO estampage under n. 142.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>A few words were read in <bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>192</biblScope></bibl>; some more in <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>52-53</biblScope></bibl>; partially summarised in English, in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>209</biblScope></bibl>, whence <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>183</biblScope></bibl>. It was studied in <bibl><ptr target="cic-bibl:jacques-1977"/>: <biblScope>1079-1080</biblScope></bibl> but was integrally published for the first time in <bibl><ptr target="cic-bibl:ECIC-IV"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>, which publication is reproduced here.</ab>
+         </div>        
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+            <div type="textpart" n="1">
+            <ab>
+            <lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>damayā <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">jāk· ṅan·</supplied> 
+            <lb n="2"/> <supplied reason="lost">ta</supplied>nd<unclear>o</unclear>m̃ laṅguv· māḥ <unclear>bho</unclear><supplied reason="lost">ga</supplied> 30 thil· p<unclear>i</unclear>rak<supplied reason="lost">·</supplied>
+            <lb n="3"/> <supplied reason="lost">bh</supplied><unclear>o</unclear>ga 300 thil· kvi<supplied reason="lost">r</supplied>· ja<supplied reason="lost">v</supplied>ā laum̃ vukāṃ sya<unclear>ṃ</unclear> 
+            <lb n="4"/> <num><gap reason="lost" quantity="1" unit="character"/></num>3 drim̃ śvam̃l· m<unclear>auk·</unclear> madrim̃ 4 drim̃ mauk· vuṅā
+            </ab> 
+            </div>
+            <div type="textpart" n="2">
+            <ab>
+            <lb n="5"/> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">yām̃</supplied> pom̃ ku śrī jayaparam<unclear>e</unclear>śvaravarmmad<unclear>e</unclear>va <unclear>ud</unclear>yā
+            <lb break="no" n="6"/>na nau <unclear>n</unclear>dvā <gap reason="lost" quantity="2" unit="character"/>ha yām̃ pom̃ k<unclear>u</unclear> śrī <supplied reason="lost">ca</supplied>mpeśvara <unclear>v</unclear>u<supplied reason="lost">ḥ</supplied> <gap reason="lost" quantity="2" unit="character"/> pa
+            <lb break="no" n="7"/>jem̃ vana<supplied reason="lost">m̃</supplied>k· <supplied reason="lost">s</supplied>yā<unclear>ṃ</unclear> k<supplied reason="lost">v</supplied>ac· ravaum̃ pā<unclear>k·</unclear> humā śrī vī<supplied reason="lost">ra<supplied reason="lost"><g type="C"/></supplied></supplied>u<unclear>k</unclear>·<!-- AG: I think there is a problem here, due to the first </supplied> being placed too late. Should it not come right after ra?--> <!-- AL: no -->dī śa
+            <lb break="no" n="8"/>ka nī <gap reason="lost" quantity="2" unit="character"/> śiśī <supplied reason="lost">bh</supplied><unclear>ū</unclear> humā nan· sā sthāna vuḥ pa
+            <lb break="no" n="9"/>k· yā<unclear>m̃ po</unclear>m̃ ku sva<unclear>ya</unclear>mu<unclear>tpa</unclear>nna ṅan· <unclear>yā</unclear>m̃ <unclear>p</unclear>om̃ ku 
+            <lb n="10"/> śrīpa<supplied reason="lost">t</supplied><unclear>ī</unclear><supplied reason="lost">ś</supplied>va<unclear>ra</unclear> gaḥ pūrv<supplied reason="lost">v</supplied>a ta<supplied reason="lost">m̃l·</supplied> kanvā gaḥ dak<supplied reason="lost">ṣ</supplied><unclear>i</unclear>ṇa
+            <lb n="11"/> gnam̃ḥ pyā kr<unclear>aum̃</unclear> tam̃l· humā nagara gaḥ dakṣiṇa tam̃l·
+            <lb n="12"/> humā pu lyam̃ im̃śānavarmma humā yām̃ hu<unclear>mā</unclear> mu
+            <lb break="no" n="13"/>la gaḥ paścima tam̃l· humā di rumaḥ gaḥ uttara tam̃
+            <lb break="no" n="14"/>l· ravaum̃ rayā atam̃ danrāk· klum̃ kanvā 500 jāk·
+            <lb n="15"/> ṅan· tandom̃ laṅguv· <pc>||</pc>
+            </ab>
+            </div>
+         </div>
+         <div type="apparatus">
+            <ab>
+               <app loc="1">
+                  <lem><supplied reason="lost">jāk· ṅan·</supplied></lem>
+                  <note>this restitution is based on the analysis of the term <foreign>tandoṅ laṅguv</foreign> (see note in <bibl><ptr target="cic-bibl:ECIC-IV"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>).</note>
+               </app>
+               <app loc="4">
+                  <lem><num><gap reason="lost" quantity="1" unit="character"/></num>3 drim̃</lem>
+                  <note>the fact that five ethnic groups are nammed in the previous line suggests that another digit needs to be restored in front of the figure <foreign>3</foreign>.</note>
+               </app>
+               <app loc="7">
+                  <lem>pā<unclear>k·</unclear></lem>
+                  <rdg resp="Aymonier">rok</rdg>
+               </app>
+               <app loc="8">
+                  <lem>śiśī <supplied reason="lost">bh</supplied><unclear>ū</unclear></lem>
+                  <note>read <foreign>śaśī bhū</foreign></note>
+               </app>
+               <app loc="12-13">
+                  <lem>mula</lem>
+                  <note>read <foreign>mūla</foreign></note>
+               </app>
+               <app loc="13">
+                  <lem>rumaḥ gaḥ</lem>
+                  <rdg resp="Bergaigne">ruma nagara</rdg> 
+               </app>
+            </ab>
+         </div>
+<div type="translation" xml:lang="en">
+         <div type="textpart" n="1">
+            <p>... <foreign>jāk</foreign> with <foreign>tamdom̃ laṅguv</foreign>.</p>
+            <p>Gold as property: 30 <foreign>thil</foreign>; silver as property: 300 <foreign>thil</foreign>;</p>
+            <p>Khmers, Javanese, <seg rend="check">Chinese (?)</seg>, Paganese, Siamese: #3 persons. Family of <foreign>mauk</foreign> Madrim̃: 4 persons; of <foreign>mauk</foreign> Vuṅā...</p>
+         </div> 
+         <div type="textpart" n="2">
+             <p>... Y.P.K. Śrī Jaya Parameśvaravarmadeva went out [in order to] go and divide up ... Y.P.K. Śrī Campeśvara. He offered ... made good dams, cleaned the canals of Śrī VīraCuk's rice-fields in this Śaka [year] ..., (1) moon, (1) earth (i.e. in 11## Śaka)
+                this rice-field [is] a unit offered to Y.P.K. Svayamutpanna and Y.P.K. Śrīpatīśvara [delimited] on the Eastern side by the ramp; on the Southern side <foreign>gnam̃ḥ pyā</foreign> river by the rice-fields of the country; on the Southern side by P.L. Iśānavarman's rice-fields, the gods' rice-fields, the rice-fields [constituting] the capital; on the Western side by the rice-fields near the edifices; on the Northern side by the great canal; three <foreign>atam̃ danrāk</foreign>; 500 <foreign>jāk</foreign> with <foreign>tandom̃ laṅguv</foreign> [of] uneven [lands].</p>
+          </div>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <div type="textpart" n="1">
+               <p>... <foreign>jāk</foreign> avec <foreign>tamdom̃ laṅguv</foreign></p>
+               <p>De l'or pour les biens : 30 <foreign>thil</foreign> ; de l'argent pour les biens : 300 <foreign>thil</foreign> ; </p>
+               <p>Des Khmers, des Javanais, des Chinois (?), des Paganais, des Siamois : #3 personnes. Famille de <foreign>mauk</foreign> Madrim̃ : 4 personnes ; de <foreign>mauk</foreign> Vuṅā...</p>
+            </div>
+            <div type="textpart" n="2">
+               <p>... Y.P.K. Śrī Jaya Parameśvaravarmadeva sortit [pour] aller diviser ... Y.P.K. Śrī Campeśvara. Il offrit ... fit de bons barrages, cura les canaux pour les rizières de Śrī VīraCuk en cette [année] Śaka 11## (##, 1 [lune], 1 [terre])
+                  cette rizière [est] un emplacement offert à Y.P.K. Svayamutpanna et Y.P.K. Śrīpatīśvara [délimitée] du côté est par la dénivéllation ; du côté sud <foreign>gnam̃ḥ pyā</foreign> fleuve par les rizières du pays ; du côté sud par les rizières du P.L. Iśānavarman, les rizières des dieux, les rizières [constituant] le capital ; du côté ouest par les rizières près des édifices ; du côté nord par le grand canal ; trois <foreign>atam̃ danrāk</foreign> ; 500 <foreign>jāk</foreign> avec <foreign>tandom̃ laṅguv</foreign> [de terres] dénivelées.</p>
+            </div>
+         </div>
+  <div type="commentary"> 
+            <!-- <p>Concerning <foreign>tandom̃ laṅguv</foreign> (also occurred in <ref target="C0005.xml">C. 5</ref>), see the discussion in <bibl><ptr target="cic-bibl:ECIC-IV"/>: <check><biblScope>forthcoming</biblScope></check></bibl>.</p>
+               <p>We do not really know if <foreign>javā</foreign> refered to the indonesian Java, see <bibl><ptr target="cic-bibl:ferlus-2010"/></bibl>.</p>  -->
+            <p>The term <foreign>laum̃</foreign> (= <foreign>lauv</foreign> or <foreign>lov</foreign>, also occuring in <ref target="C00030B1.xml">C. 30 B1</ref>) is recorded in the available dictionaries and translated there as 'Chinese'. However, it it possible that, originally, this word (identical to the Thai word used to name the modern state of Laos) suggests Thai-speaking populations. The possibility that the term <foreign>lauv</foreign> used in these inscriptions could designate a Lao population should be kept in mind.</p>
+            <!-- <p><bibl><ptr target="cic-bibl:luce-1969-70"/>: <biblScope>8</biblScope></bibl> informs us that <quote>The oldest mentions of Pagán by name, curiously enough, are in two Cham inscription of Phan-Rang (Pāṇḍuraṅga), the Pô-Nagar and the Lom-ngö pillars, anterior to 1050 A.D. In the former the name is written <foreign>Pukam</foreign>, in the latter <foreign>Pukām</foreign></quote>. These two inscriptions are <ref target="C0030B2.xml">C. 30 B2</ref> (one of the inscriptions 
+               from Po Nagar at Nha Trang, which is still<foreign>in situ</foreign>) and C. 7. However, those two inscriptions are not endowed with the oldest mentions of the name of Pagan as there were engraved at the beginning of the 13<hi rend="superscript">th</hi> century, under the reign of Jaya Parameśvaravarman. About the wrong dating of these two inscriptions and the mention of Paganese in Cam inscriptions, see <bibl><ptr target="cic-bibl:ECIC-IV"/>: <check><biblScope>forthcoming</biblScope></check></bibl> and <bibl><ptr target="cic-bibl:griffiths-lepoutre-2013"/>: <check><biblScope>forthcoming</biblScope></check>.</bibl></p>
+            <p>Concerning <foreign>śvam̃l</foreign> (also occurred in <ref target="C0005.xml">C. 5</ref>), see the discussion in <bibl><ptr target="cic-bibl:ECIC-IV"/>: <check><biblScope>forthcoming</biblScope></check></bibl>.</p>
+            <p>Concerning <foreign>mauk</foreign> (also occurred in <ref target="C0005.xml">C. 5</ref> and <ref target="C0006.xml">C. 6</ref>), see the discussion in <bibl><ptr target="cic-bibl:ECIC-IV"/>: <check><biblScope>forthcoming</biblScope></check></bibl>.</p>
+            <p>the word <foreign>ndvā</foreign> is not repertoried in dictionnaries. This hypothetical translation is based on the idea it could be a verb formed with the figure <foreign>dvā</foreign> "two" and the prefix <foreign>n</foreign>-.</p>
+            <p>One could also find <foreign>pyā</foreign> in <ref target="C0011.xml">C. 11</ref> A, l. 16 <foreign>vik pyā</foreign>. <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>72</biblScope></bibl> translated <foreign>vik pyā</foreign> as <quote>une limite  partant (de)</quote> with a footnote saying that it is an hypothetical translation and that he could not link these two words with other modern words. In the present state of knowledge, we can not give any translation, see <bibl><ptr target="cic-bibl:ECIC-IV"/>: <check><biblScope>forthcoming</biblScope></check></bibl>.</p>
+            <p>The words <foreign>atam̃</foreign> and <foreign>danrāk</foreign> are recorded in <bibl><ptr target="cic-bibl:AC-1906"/></bibl>, but without translation.</p>
+            <p><foreign>mam̃</foreign> is an epheretic form of <foreign>rumam̃</foreign> also found in <ref target="C0030B4.xml">C. 30 B4</ref>.</p>
+            <p>The word <foreign>truḥ</foreign> (and its causative form <foreign>patruḥ</foreign>, see <ref target="C0089.xml">C. 89</ref>) is linked to the malay word <foreign>terus</foreign>. It is an auxiliary verb expressing the accomplishment.</p>  -->
+         </div>
+         <div type="bibliography" subtype="secondary">
+         <listBibl>
+            <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>79-81</biblScope>.</bibl>
+            <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>2 and 10</biblScope>.</bibl>
+            <bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>77</biblScope>.</bibl> 
+            <bibl><ptr target="cic-bibl:griffiths-lepoutre-2013"/>: <biblScope><seg type="check">forthcoming</seg></biblScope>.</bibl>
+         </listBibl>
+         </div> 
+      </body>
+   </text>
+</TEI>

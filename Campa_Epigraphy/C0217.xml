@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Stela inscription of Phươc Thiện</title>
+                <editor>Arlo Griffiths</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0217</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 217</idno>
+                        <altIdentifier type="majumdar-nr">
+                            <idno xml:id="majumdar-nr">(none)</idno>
+                            <!-- AG: do you approve of this way of encoding the fact that this inscription does not figure in Majumdar's list? -->
+                        </altIdentifier>
+                        <altIdentifier type="museum-inventory">
+                            <settlement>Phan Rang</settlement>
+                            <repository>BTNT</repository>
+                            <idno xml:id="inv-btnt">1440/Đ.13</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>The stela is engraved on two faces. Face A bears an incipit and 12 lines; face B also bears 12 lines. Both faces are </note> 
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem> 
+                       <!-- <msItem n="A">
+                            <locus target="#A"/>
+                            <note>Invocation + 12 lines</note>
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem>
+                        <msItem n="B">
+                            <locus target="#B"/>
+                            <note>12 lines</note>
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem> -->
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Stela</objectType>; <material>sandstone</material>; 
+                                        <dimensions unit="cm">
+                                    <height>78.5</height>
+                                    <width>44.5</width>
+                                    <depth>12</depth>
+                                        </dimensions>.
+                                    </p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName type="modern" ref="cic-geo:phuoc-thien">Phươc Thiện</placeName>
+                            </origPlace>
+                            <origDate>
+                               <date calendar="Śaka">10 waxing Śuci (= Jyeṣṭha), 705</date>
+                                <date calendar="Julian" when="7830516">16 May, 783</date>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" notBefore="1992">
+                            <ab>According to our earlier publication <bibl><ptr target="cic-bibl:ECIC-I"/>: 351</bibl> (where we based ourselves on the volume title of the publication of <bibl><ptr target="cic-bibl:nguyen-duy-ty-le-minh-phong-1993"/></bibl>), the stela was discovered in 1993, in a rice field belonging to the village (<foreign>thôn</foreign>) of Phước Thiện, near the commune (<foreign>xã</foreign>) presently known as Phước Sơn, in the district (<foreign>huyện</foreign>) of Ninh Phước, at about 10 KM North-West of the town of Phan Rang. But according to the museum's registers, which were not yet known to us at the time, it was acquired by the BTNT on <date when="19921015"/>. In this light, we must correct our previous statement.</ab>
+                            <!-- AG: all this geo detail presumably to be fetched automatically from geo file. -->
+                            </provenance>
+                        <provenance type="observed"> 
+                            <ab>The stela was first observed at the BTNT in 1993, as mentioned in <bibl><ptr target="cic-bibl:nguyen-duy-ty-le-minh-phong-1993"/></bibl>, which is also the first scholarly publication on this inscription,</ab>
+                            </provenance>
+                        <provenance type="observed" when="2004">
+                            <ab> and it was observed there again by William A. Southworth in 2004</ab>                            
+                        </provenance>
+                        <provenance type="observed" when="2008">
+                            <ab> as well as by Bertrand Porte in 2008 (cf. <bibl><ptr target="cic-bibl:ECIC-I"/>: 351</bibl>).</ab>                            
+                        </provenance>
+                        <!-- AG: maintain narrative connection between the events like this? -->
+                        <provenance type="observed" notBefore="2009">
+                        <ab>We identified the stela in the store room of the museum in 2009, as the one bearing inventory number <ptr target="#inv-btnt"/> (see <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>466</biblScope></bibl>).</ab>                     </provenance>
+                    </history>   
+                    <additional>
+                        <surrogates>                       
+                            <msDesc n="estampage-inked" facs="#fac2">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n1883">n. 1883</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-inked" facs="#fac3">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n1884">n. 1884</idno>
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>         
+                    </additional>
+                 </msDesc>                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">French</language>
+                <language ident="en">English</language>
+                <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                    according to the conventions of the project Corpus of the Inscriptions of
+                    Campā.</language>
+                <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                    according to the conventions of the project Corpus of the Inscriptions of
+                    Campā.</language>
+                <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2011-06-02" who="TRE" xml:lang="en">initial encoding of provenance information</change>
+            <change when="2011-07" who="AG" xml:lang="en">pasted text into div edition</change>
+            <change when="2012-04-19" who="AG" xml:lang="en">adjustments of encoding</change>
+            <change when="2012-05-02" who="AG" xml:lang="en">finished basic encoding of all data</change>
+            <change when="2012-10-21" who="AG" xml:lang="en">made modifications re. msItem and date</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0217_1_BP_2008.jpg">
+            <desc>Photograph showing face A of inscription <ptr target="#inv-general"/>. Taken in the Phan Rang Museum by Bertrand Porte on <date when="20080128"/>. Reproduced by permission.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n1883_A.jpg">
+            <desc>Photograph of EFEO estampage n. 1883.</desc>
+        </graphic>
+        <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n1884_B.jpg">
+            <desc>Photograph of EFEO estampage n. 1884.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <ab>First published in <ptr target="cic-bibl:ECIC-I"/>, whence the present edition, with one correction based on our publication <bibl><ptr target="cic-bibl:ECIC-III"/></bibl>.</ab>
+            </div>
+            <div type="edition" xml:lang="sa-Latn-x-CI" xml:space="preserve">
+                <div type="textpart" xml:id="A" n="A" rend="break-verse-lines">
+                    <head xml:lang="en">Face A.</head>
+                        <ab type="invocation">oṃ</ab>
+                        <!-- A: we have the convention of not counting the lines of invocations. I thought it might be useful to mark the kind of <ab> explicitly. We want this kind of <ab> at the center line. -->
+                        <ab><lb n="1"/>
+                            <g type="siddham"/></ab>
+                       <lg met="Anuṣṭubh" n="I">
+                            <l>śrīvṛddheśvaranāthasya saśryutpanneśvarasya ca</l>
+                            <l><lb n="2"/>sthāpanobhayakośasya kṛtā śrīsatyavarmmaṇā <pc>||</pc></l>                       
+                       </lg>
+                        <lg met="Anuṣṭubh" n="II">
+                           <l><lb n="3"/>sā śryādidevanāthasya liṅgasaṃsthāpanākarot</l>
+                           <l><lb n="4"/>kṛtā tena <unclear>śa</unclear>raccandramayūkhavimalaṃ yaśaḥ <pc>||</pc></l>
+                   </lg>
+                        <lg met="Indravajrā" n="III">        
+                            <l><lb n="5"/>śrīsatyadeveśvaranātham eṣa</l>
+                            <l>śrīsatyavarmmā śarakhādripūrṇṇe</l>
+                            <l><lb n="6"/>śāke śuceś śukladaśāhayukte </l>
+                            <l>śrāddhaḥ pratiṣṭhāpitavān subhaktyā <pc>||</pc></l>
+                    </lg>
+                        <lg met="Śārdūlavikrīḍita" n="IV">                       
+                     <l><lb n="7"/>trailokyan tanubhis tanoti sakalaṃ sūkṣmo pi yo jo <w part="I">ṣṭabhi</w></l><lb
+             n="8" break="no"/><l><w part="F">r</w> ggīrvvāṇāḥ parameṣṭhyajaprabhṛtayo yan te
+                            rccayanti prabhum</l>
+                            <l><lb n="9"/>yaḥ krodhena tamālapatrapadabhūnetrāgnilakṣmījahā</l>
+                            <l><lb n="10"/>śrīmān adbhutaceṣṭitas sa jayati śrīsatyadeveśvaraḥ <pc>||</pc></l>
+                        </lg>
+                    <lg met="Anuṣṭubh" n="V">                       
+                     <l><lb n="11"/>śrīsatyavarmmaṇo rājño bhūmau vikasitaṃ yaśaḥ</l>
+                            <l><lb n="12"/>atiśete nṛpān anyāñ jyotir indor <choice><reg>uḍūn</reg><orig>udūn</orig></choice> iva <pc>||</pc> </l>                        
+                    </lg>
+                <!-- AG: a correction is made here with <reg>. Do we not want to do such corrections in apparatus? See also another <reg> below. -->
+                    </div>
+                <div type="textpart" xml:id="B" n="B" rend="break-none">
+                    <head xml:lang="en">Face B.</head>
+                     <p>
+                            <lb n="1"/>anekasvaguṇabhūṣaṇabharaparimantharitaramyā 
+                            <lb n="2" break="no"/>paghanaḥ ghanāghana iva svavikramavaśīkṛtasakalabhuvanas tri 
+                            <lb n="3" break="no"/>bhuvanapatir iva sakalalokapālanatacaraṇasaroruhaḥ saroru 
+                            <lb n="4" break="no"/>hāsana iva sakalajagaddhitakāraṇo mahāyajñahutavahaśikhābhuja 
+                            <lb n="5" break="no"/>sahasrasamutkhātaduss<unclear>v</unclear>āntāhitajanaḥ
+                            janapadamaryyādāsaṃpadāspa 
+                            <lb n="6" break="no"/><supplied reason="lost">da</supplied>m apagatadoṣāṃ
+                            jalanidhijalataraṅgamekhalāṃ rājanvatīṃ vasuma 
+                            <lb n="7" break="no"/><supplied reason="lost">t</supplied>īm anurañjayan·
+                            praṇatajanabhaktiphalasaṃpatpradāyī śrīsa 
+                            <lb n="8" break="no"/><supplied reason="lost">tyava</supplied>rmmā
+                            trailokyanagarārambhamūlastambham aśeṣabhuvanamaṇda 
+                            <lb n="9" break="no"/><supplied reason="lost">lasyā</supplied>bhyudayakāriṇaṃ
+                            kṛtasvarggā<choice><reg>rohaṇa</reg><orig>rohana</orig></choice>saupānaṃ bhagavantan tu 
+                            <lb n="10"/> śrīmukhaliṅgaṃ saha śrīkuṭhāravāsinyā punaḥ 
+                            pratiṣṭhāpitavān<supplied reason="lost">·</supplied>
+                            <pc>||</pc> 
+                        </p>
+                        <p>
+                            <lb n="11"/><gap reason="lost" quantity="1" unit="character"/>ṅ·koṣṭhāgāraṃ
+                            devapurakoṣṭhāgāraṃ tañjokoṣṭhāgāraṃ
+                            <lb n="12"/> śrīsatyavarmmā śrīsatyadeveśvarāya dattavān tad ye haranti 
+                            narake patantu
+                        </p>
+                    </div>
+                   </div>
+       <div type="apparatus">
+           <p>
+               <app loc="V">
+                <lem>udūn</lem>
+                <note>read <foreign>uḍūn</foreign>.</note>
+               </app>
+           <app loc="9">
+               <lem>°rohana°</lem>
+               <note>read <foreign>°rohaṇa°</foreign>.</note>
+           </app>
+           </p>
+           <!-- AG: these <app>s may need to be split up by textpart. -->
+         </div>
+            <div type="translation" xml:lang="en">
+                <p>I. The installation of a sheath for both of them, Śrī Vṛddheśvaranātha and Śrī
+                    Utpanneśvara, has been carried out by Śrī Satyavarman.</p>
+                <p>II. This installation of the liṅga of the Primordial God (Śiva), carried out by
+                    him (Satyavarman), has produced glory immaculate like the rays of the moon in
+                    autumn.</p>
+                <p>III. This pious Śrī Satyavarman has, with great devotion, established Śrī
+                    Satyadeveśvaranātha in the elapsed (<foreign>pūrṇa</foreign>) Śaka [year] 705 (5
+                    [arrows], 0 [ether], 7 [mountains]), on the tenth day of the waxing [fortnight]
+                        (<foreign>śukladaśāhayukte</foreign>) of [the month] Śuci.</p>
+                <p>IV. The Un-born (Śiva), who spans the totality of the triple world with his eight
+                    bodies, even though he is subtle; the lord (<foreign>prabhu</foreign>) to whom
+                    the gods (<foreign>gīrvāṇa</foreign>) — the Supreme (Viṣṇu) and the Un-born
+                    (Brahmā) and so forth — render homage; he who has killed in wrath the son of
+                    Lakṣmī (i.e. Kāma) with the fire of his eye that is situated at the place of
+                    the <foreign>tilaka</foreign> (<foreign>tamālapatra-pada-bhū</foreign>); this
+                    illustrious Śrī Satyadeveśvara, whose workings are miraculous, is
+                    victorious.</p>
+                <p>V. The glory of the king Śrī Satyavarman, spread out over the earth, surpasses
+                [that of] other kings, as the light of the moon [that of] the stars.</p>
+                <p>Just as the Cloud (i.e. Indra), his beautiful limbs are rendered very slow by the weight of the ornaments which are his numerous vitues; like the Lord of the Three World (i.e. Viṣṇu as Trivikrama), he has subdued the entire world by his valor (<foreign>vikrama</foreign>); like the one whose seat is a lotus (i.e. Brahmā), he has lotus-feet to which all kings bow down;
+                 he is the benefactor of the entire world; he has radically exterminated (<foreign>samutkhāta</foreign>), with the thousand arms that are the flames (<foreign>hutavaha-śikhā</foreign>) of the great sacrifices (that he had performed), the ennemies (<foreign>ahita-jana</foreign>) of evil heart (<foreign>duḥsvānta</foreign>); he causes joy to the Earth, abode of the abundance [which is the result] of the customs of the land [being carefully observed], whose defaults have fled (when he threatened them), who has for belt the waves of the ocean, being governed by a good king; he grants to those who bow before him the abundance of fruits of their devotion; [this] Śrī Satyavarman has also (<foreign>tu</foreign>) reinstalled, with the Lady who abides in Kuṭhāra, the Lord Śrī Mukhaliṅga, who was the base-pillar at the beginning [of the construction] of the City of the Three World, who provides the prosperity of the entire circle of worlds, and who has created a ladder to climb to heaven.
+                </p>
+                <p>
+                   Śrī Satyavarman has given to Śrī Satyadeveśvara the silo of [?]ṅ, the silo of Devapura, the silo of Tañjo. May those who steal it fall in hell!
+                </p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <div type="textpart">
+                    <p>I. L’installation d’un étui pour les deux, Śrī Vṛddheśvaranātha et Śrī
+                        Utpanneśvara, a été exécutée par Śrī Satyavarman.<note>Suivant la correction
+                            proposée dans <bibl><ptr target="cic-bibl:ECIC-III"/>: 298</bibl>.
+                            Notre traduction de 2007 était: "L’installation de Śrī Vṛddheśvaranātha
+                            avec Śrī Utpanneśvara, [et] d'un étui pour chacun d'eux, a été exécutée
+                            par Śrī Satyavarman."</note></p>
+                    <p>II. Cette installation du linga du Dieu Primordial (Siva), exécutée par lui
+                        (Satyavarman), a produit une gloire immaculée comme les rayons de la lune en
+                        automne.</p>
+                    <p>III. Ce pieux Śrī Satyavarman a établi, avec une grande dévotion, Śrī
+                        Satyadeveśvaranātha en [l’an] évolu (<foreign>pūrṇa</foreign>) śaka 705 (5 [flèches], 0
+                        [éther], 7 [monts]), le dixième jour [de la quinzaine] claire
+                        (<foreign>śukladaśāhayukte</foreign>) [du mois] de Suci.</p>
+                    <p>IV. Le Non-né (Siva), qui étend l’intégralité du triple monde avec ses huit
+                        corps, bien qu’il soit subtil ; le maître (<foreign>prabhu</foreign>) à qui ces dieux
+                        (<foreign>gīrvāṇaḥ</foreign>) — à commencer par le Suprême (Viṣṇu) et le Non-né (Brahmā) —
+                        rendent hommage ; lui qui, en fureur, a tué le fils de Lakṣmī (c.-à-d. Kāma)
+                        par le feu de son oeil qui se trouve à l’endroit du tilaka
+                        (<foreign>tamālapatra-pada-bhū</foreign>) ; ce fortuné Śrī Satyadevesvara, à la geste
+                        merveilleuse, est victorieux.</p>
+                    <p>V. La gloire du roi Śrī Satyavarman, épanouie sur la terre, dépasse [celle
+                        des] autres rois, comme la lumière de la lune [celle des] étoiles.</p>
+                </div>
+                <div type="textpart">
+                    <p>Tel le Nuage (c.-à-d. Indra), ses beaux membres sont rendus très lents par le
+                        poids des ornements que sont ses multiples vertus ; tel le Seigneur des
+                        Trois Mondes (c.-à-d. Viṣṇu en tant que Trivikrama), il a soumis le monde
+                        entier par sa valeur (<foreign>vikrama</foreign>) ; tel Celui dont le Siège est un lotus
+                        (c.-à-d. Brahmā), il a des poids-lotus devant lesquels tous les rois se
+                        prosternent ; il est le bienfaiteur du monde entier ; il a exterminé
+                        radicalement (<foreign>samutkhāta</foreign>), avec les mille bras que sont les flammes
+                        (<foreign>hutavaha-śikhā</foreign>) des grands sacrifices (qu’il faisait exécuter), les ennemis
+                        (<foreign>ahita-jana</foreign>) au coeur mauvais (<foreign>duḥsvānta</foreign>) ; il gratifie la terre, demeure de
+                        la plénitude [qui est le résultat] des moeurs du pays, [la terre] dont les
+                        défauts se sont enfuis (quand il les menaçait), qui a pour ceinture les
+                        vagues de l’océan, qui est gouvernée par un bon roi ; il accorde à ceux qui
+                        se prosternent [devant lui] la plénitude des fruits de leur dévotion ; [ce]
+                        Śrī Satyavarman a également (tu) réinstallé, avec la Dame qui demeure à
+                        Kuṭhāra, le Seigneur Śrī Mukhaliṅga qui était le pilier de base lors du
+                        début [de la construction] de la Ville des Trois Mondes, qui fait la
+                        prospérité du cercle entier des terres et qui a créé une échelle pour monter
+                        au ciel.</p>
+                </div>
+                <div type="textpart">
+                    <p>Śrī Satyavarman a donné à Śrī Satyadevesvara le silo de [?]n, le silo de
+                        Devapura, le silo de Tañjo. Que ceux qui s’en saisissent tombent dans
+                        l’enfer.</p>
+                </div>
+            </div>
+           
+            <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <bibl><ptr target="cic-bibl:nguyen-duy-ty-le-minh-phong-1993"/>.</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

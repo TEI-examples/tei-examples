@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Southern doorjamb of the main shrine of Po Nagar</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Amandine Lepoutre</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0030B1</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>EFEO</institution>
+                  <idno xml:id="inv-general">C. 30 B1</idno>
+                  <altIdentifier type="bergaigne-aymonier-nr">
+                     <idno xml:id="bergaigne-aymonier-nr">409 B, 1</idno>
+                  </altIdentifier>
+                  <altIdentifier type="majumdar-nr">
+                     <idno xml:id="majumdar-nr">No. 88</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                  <note>The five first lines on the anterior face of the Southern doorjamb of the entrance to the main shrine.</note>
+                  <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang> 
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><objectType>Doorjamb</objectType>; <material>sandstone</material>.<!-- AL:; <dimensions unit="cm">
+                               <height></height>
+                              <width></width>
+                              <depth></depth>
+                              </dimensions>.-->
+                              <!-- AG: in due course, introduce below a section <layoutDesc>, and in it use the tags for <layout>, as described at <http://www.stoa.org/epidoc/gl/dev/supp-desctext.html>, to give the dimensions of the surface inscrite. -->
+                              <!-- AG: PARMENTIER GIVES DIMENSIONS -->
+                           </p>                        
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace type="location">
+                        <placeName ref="cic-geo:po-nagar-nha-trang">Po Nagar at Nha
+                           Trang</placeName> 
+                     </origPlace>
+                     <origDate>
+                        <date calendar="Śaka">1155</date>
+                        <date calendar="Julian" notBefore="1233" notAfter="1234">1233/4</date>
+                     </origDate>
+                  </origin>
+                  <provenance type="found" notAfter="1888">
+                     <ab>This inscription was found <foreign>in situ</foreign> before 1888, when it was first mentioned in the literature (<bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>88</biblScope></bibl>).</ab>
+                  </provenance>
+                  <provenance type="observed" notAfter="2009">
+                     <ab>We identified the inscription on the temple site in 2009.</ab>    
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>BnF</repository>
+                           <idno xml:id="BnF-est-409-60">409 (60)</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-uninked">
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-20">20</idno>
+                        </msIdentifier>
+                     </msDesc>
+                     <msDesc n="estampage-inked" facs="#fac2"> 
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-n228-jpg">n. 228</idno>
+                        </msIdentifier>
+                        <ab><note>There are several estampages under the number n. 228.</note></ab>
+                        </msDesc> 
+                     </surrogates>
+               </additional>
+                  </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version 
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampages</catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="20120815" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0030B1_AL_2012.jpg">
+         <desc>Photograph of inscription <ptr target="#inv-general"/>. Taken at Po Nagar by Amandine Lepoutre on <date when="20120527"></date>.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0228_B1.jpg">
+         <desc>Photograph of EFEO estampage under n. 228.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>A few words were read in <bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>88</biblScope></bibl>; partially published, with French translation, in <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>48-49</biblScope></bibl>; whence, with translation into English, in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>207</biblScope></bibl> and <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>179-180</biblScope></bibl>; whence again, with  French translation, in <bibl><ptr target="cic-bibl:schweyer-2005a"/>: <biblScope>94</biblScope></bibl>. The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-IV"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl> where we have re-edited the text from the inked EFEO estampage and the stone.</ab>
+         </div>        
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+            <ab>
+            <lb n="1"/> <g type="quatrefoil"/> puṇaḥ yām̃ pom̃ ku śrī jayaparameśvaravarmmadeva pu pom̃ ku 
+            <lb n="2"/> vuḥ di yām̃ pu nagara ṅan· vraḥ rūpa di śakarāja nī 1155 nī humā di kumvyām̃l·
+            <lb n="3"/> sā sthāṇa anan· humā samṛddhījaya 400 jāk· kvir· si vuḥ di hajai nan· <unclear>la</unclear>
+            <lb break="no" n="4"/>kim̃ krumvim̃ 10 drim̃ humā vanūk· nī dharmmathateḥ 1800 jāk· humā vanūk· ni pu
+            <lb n="5"/> auk· 1500 jāk· kvir· campa lov· syaṃ vukāṃ lakim̃ krumvim̃ 45 drim̃ 
+            </ab>  
+         </div>
+         <div type="apparatus">
+            <ab>
+               <app loc="1">
+                  <lem><g type="quatrefoil"/> puṇaḥ</lem>
+                  <rdg resp="Schweyer">|| puṇaḥ</rdg>
+               </app>
+               <app loc="2">
+                  <lem>ṅan</lem>
+                  <rdg resp="Schweyer">ṅgan</rdg>
+               </app>
+               <app loc="2">
+                  <lem>nī</lem>
+                  <rdg resp="Schweyer">dī</rdg>
+               </app>
+               <app loc="2">
+                  <lem>nī</lem>
+                  <rdg resp="Schweyer">| nī</rdg>
+               </app>
+               <app loc="2">
+                  <lem>kumvyām̃l</lem>
+                  <rdg resp="Schweyer">kumvyāl</rdg>
+               </app>
+               <app loc="3">
+                  <lem>sthāṇa</lem>
+                  <rdg resp="Schweyer">sthāna</rdg>
+               </app>
+               <app loc="4">
+                  <lem>nī</lem>
+                  <rdg resp="Schweyer">di</rdg>
+               </app>
+               <app loc="4">
+                  <lem>dharmmathateḥ</lem>
+                  <rdg resp="Schweyer">dharmmathataiḥ</rdg>
+               </app>
+               <app loc="4">
+                  <lem>1800</lem>
+                  <rdg resp="Schweyer">1900</rdg>
+               </app>
+               <app loc="4">
+                  <lem>ni</lem>
+                  <rdg resp="Schweyer">di</rdg>
+               </app>
+               <!-- <app loc="5">
+                  <lem>lov</lem>
+                  <note>this word also occurs in <ref target="C0007.xml">C. 7</ref>.</note>
+               </app>
+               -->
+               <app loc="5">
+                  <lem>drim̃</lem>
+                  <rdg resp="Schweyer">driy ||</rdg>
+               </app>
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Furthermore, Y.P.K. Śrī Jayaparameśvaravarmadeva, the P.P.K., offered to Yām̃ Pu Nagara and the Holy Form in this year of the Śaka king 1155:
+             rice-field at Kumvyām̃l, one unit. In this place, the rice-field of great abundance; 400 <foreign>jāk</foreign>. Khmers who are given to this domain: 10 men and women;
+            this rice-field <foreign>vanūk</foreign> at Dharmmathateḥ: 1800 <foreign>jāk</foreign>; this rice-field <foreign>vanūk</foreign> at Pu Auk: 1500 <foreign>jāk</foreign>; Khmers, Cams, <seg rend="check">Chinese (?)</seg>, Siamese, Paganese: 45 men and women.</p>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <p>En outre, Y.P.K. Śrī Jayaparameśvaravarmadeva, le P.P.K., offrit à Yām̃ Pu Nagara et à la Sainte apparence en cette année du roi des Śaka 1155 :
+               la rizière de Kumvyām̃l, un emplacement. En ce lieu, la rizière de grande abondance : 400 <foreign>jāk</foreign>. Des Khmers qui sont donnés à ce domaine : 10 hommes et femmes ;
+               cette rizière <foreign>vanūk</foreign> de Dharmmathateḥ : 1800 <foreign>jāk</foreign> ; cette rizière <foreign>vanūk</foreign> de Pu Auk : 1500 <foreign>jāk</foreign> ; ses Khmers, des 
+               Cams, des <seg rend="check">Chinois (?)</seg>, des Siamois, des Paganais : 45 hommes et femmes.</p>
+         </div>
+   <div type="commentary"> 
+      <p>The difficult sequence <foreign>humā di kumvyām̃l· sā sthāṇa anan· humā samṛddhījaya</foreign> may be compared with <ref target="C0005.xml">C. 5</ref>, ll. 9-10 and 14-15.</p>
+            <p>Concerning the translation of the term <foreign>lauv</foreign> as 'Chinese', see our commentary in <ref target="C0007.xml">C. 7</ref>. Schweyer translated it as "Lao".</p>
+         </div> 
+         <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>131</biblScope>.<note>Parmentier erroneously speaks of 6 lines and wrongly includes the date 1148 under this text; he seems to have read <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>48</biblScope></bibl> too quickly.</note></bibl>
+            </listBibl> 
+         </div>
+      </body>
+   </text>
+</TEI>

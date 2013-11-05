@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rock in the riverbed at Thạch Bích</title>
+            <editor>Dominic Goodall</editor>
+            <editor>Arlo Griffiths</editor>
+            </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0135</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+<sourceDesc>
+   <msDesc>
+      <msIdentifier>
+         <institution>EFEO</institution>
+         <idno xml:id="inv-general">C. 135</idno> 
+         <altIdentifier type="majumdar-nr">
+            <idno xml:id="majumdar-nr">No. 10</idno>
+         </altIdentifier>
+      </msIdentifier>
+      <msContents>
+         <msItem>
+            <note>Two lines</note>
+            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+         </msItem>
+      </msContents>
+      <physDesc>
+         <objectDesc>
+            <supportDesc>
+               <support>
+                  <p>Natural <objectType>rock</objectType> of                       <material><seg type="check">unknown</seg> type</material>; <!-- AG: Tom, check html result of following lines -->each line approximately measuring
+                      <dimensions unit="cm">
+                         <height precision="low" unit="cm" quantity="15"/>
+                         <width precision="low" unit="cm" quantity="200"/>
+                      </dimensions> (<bibl><ptr target="cic-bibl:huber-1911"/>: <biblScope>261</biblScope></bibl>).</p>
+               </support>
+            </supportDesc>
+            <!-- AG: <layoutDesc><layout>THE DIMENSIONS CITED ABOVE RATHER BELONG HERE</layout></layoutDesc>  -->
+         </objectDesc>
+      </physDesc>
+      <history>
+         <origin>
+            <origPlace type="location">
+               <placeName type="modern" ref="cic-geo:thach-bich">Thạch Bích</placeName>
+             </origPlace>
+            <origDate>
+               <date calendar="Śaka">6th</date>
+               <date calendar="Julian">7th</date>
+            </origDate>
+         </origin>
+         <provenance type="found" notAfter="1911">
+            <ab>This piece was found by <persName type="explorer">V. Rougier</persName> at <placeName type="modern" ref="cic-geo:thach-bich">Thạch Bích</placeName> before 1911, when its existence was reported and its text was published.<note>If we may rely on a note in pencil on the envelope containing the photograph kept with EFEO estampage <ptr target="#est-efeo-n260"/>, stating <quote>remis par le P. Cadière 4-10-08</quote>, the date of discovery of the inscription can be pushed back to 1908 or earlier.</note></ab>
+         </provenance>
+         <provenance type="observed" when="2003">
+            <ab><persName type="collaborator">Trần Kỳ Phương</persName> observed and photographed the inscription on <date when="20030305"/>.</ab>
+         </provenance>
+      </history>
+      <additional>
+         <surrogates> 
+            <msDesc n="estampage-inked" facs="#fac3-4">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-n260">n. 260</idno>
+               </msIdentifier>
+               <ab><note>This number is according to the documentation of the EFEO library supposed to comprise three leaves, but we have found only two.</note></ab>
+            </msDesc>
+            </surrogates>
+      </additional>
+   </msDesc>
+</sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage"/></catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+                  <!-- ARLO: don't think there will be any -->
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="20120930" who="AG" xml:lang="en">first attempt at porting all the relevant data for this inscription into xml format</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/EFEO-n0260leg.jpg">
+         <desc>Photograph kept with EFEO estampage <ptr target="#est-efeo-n260"/> showing the rock wall bearing inscription <ptr target="#inv-general"/>, just above the water level.
+         </desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/C0135_1_TKP_2003.jpg">
+         <desc>Photograph showing the rock wall bearing inscription <ptr target="#inv-general"/>, taken by Trần Kỳ Phương on <date when="20030305"/>.
+      </desc>
+      </graphic>
+      <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n0260_ga.jpg">
+         <desc>Photograph of a leaf under EFEO estampage n. 260.</desc>
+      </graphic>
+      <graphic xml:id="fac4" url="../images/inscriptions/EFEOB-est.n0260_dr.jpg">
+         <desc>Photograph of a leaf under EFEO estampage n. 260.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>First published, with French translation, in <bibl><ptr target="cic-bibl:huber-1911"/>: <biblScope>261</biblScope></bibl>; whence, with English translation, in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>15</biblScope></bibl>, whence <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>10</biblScope>.</bibl> Re-edited from the inked EFEO estampages and available photos, with new translation, in <bibl><ptr target="cic-bibl:ECIC-V"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>, whence the present edition.</ab>
+         </div>  
+         <div type="edition" xml:lang="sa-Latn-x-CI" xml:space="preserve" rend="break-verse-lines">
+            <lg met="Āryā">
+            <l><lb n="1"/>śrīcampeśvaravijayī <unclear>m</unclear>ahāmatiś śrī<lb n="2" break="no"/>prakāśadharmmeti</l> 
+            <l>sthāpitavān amareśa<unclear>ṃ</unclear> mahā<gap reason="illegible" extent="4-5" unit="character"></gap></l>
+            </lg>
+         </div>
+         <div type="apparatus">
+            <ab>
+               <app loc="a">
+                  <lem>śrīcampeśvara°</lem>
+                  <rdg resp="Huber">śrī campeśvaro</rdg>
+               </app>
+               <app loc="b">
+                  <lem><unclear>m</unclear>ahāmatiś śrī°</lem>
+                  <rdg resp="Huber">mahīpati ... śrī</rdg>
+               </app> 
+               <app loc="b">
+                  <lem>amareśa<unclear>ṃ</unclear> mahā<gap reason="illegible" extent="4-5" unit="character"></gap></lem>
+                  <rdg resp="Huber">amareśam iha ...</rdg>
+               </app> 
+            </ab>
+         </div>         
+         <div type="translation" xml:lang="en">
+            <p>The illustrious conqueror, king of Campā, of great wisdom, called Śrī Prakāśadharman, has established Amareśa, the great...</p>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <p>L'illustre conquérant, roi du Campā, de grande sagesse, appelé Śrī Prakāśadharman, a établi Amareśa, le grand ...</p>
+         </div>
+         <div type="commentary">
+            <p>It was not recognized by Huber that the inscription is metrical. Insufficient materials are at our disposal at this time to establish the whole text, but what is clear is that it concerns the erection of Amareśa, no doubt a <foreign>liṅga</foreign> of Śiva. Cf. <bibl><ptr target="cic-bibl:bisschop-2006"/>: <biblScope>33 with n. 79</biblScope>.</bibl></p>
+         </div>
+         <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>439 and 587</biblScope>.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+   
+</TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Slab from Tĩnh Yên</title>
+                <editor>Arlo Griffiths</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0198</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 198</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>Two lines on two faces</note>
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang> 
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+  <!-- Base or bali-pīṭha (Parmentier: “dalle énigmatique”) found in c… by Mr. Thân Vinh Lộc in the Miếu Thằng Gù, thôn Tinh Yên, xã Duy Xuyên, bearing inscription C. 198.
+    Dimensions: 88.5 x 86 w., 22.5 (engraved edge 10 cm high)
+    Photos: 473-477   -->
+                                    <p>Square <objectType>slab</objectType> in
+                                        <material>sandstone</material>, with lotus ornament at its center;
+                                         <dimensions unit="cm">
+                                            <height>22.5</height>
+                                            <width>88.5</width>
+                                             <depth>86</depth>
+                                            </dimensions>; the engraved edge is 10 cm in height.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName type="modern" ref="cic-geo:mieu-thang-gu">Miếu Thằng Gù</placeName>
+                                <!-- Latitude: 15°46’32.9”	Longitude: 108°02’43.1” -->
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">9th</date>
+                                <date calendar="Julian" notBefore="0875" notAfter="0975">9th-10th</date>
+                            </origDate>
+                        </origin>
+                    <provenance type="found" notAfter="1909">
+                        <ab>The <quote>énigmatique dalle</quote> on which this inscription is engraved was found at the <quote>petite pagode</quote> near the <quote>vestiges à Tĩnh Yên</quote> first reported in <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>285</biblScope></bibl>, which must be identifiable with the shrine <placeName xml:id="findspot" type="modern" ref="cic-geo:mieu-thang-gu">Miếu Thằng Gù</placeName> that we visited on <date when="20111126"/>. Its general shape, and particularly its lotus ornament, were described, with drawings in side and top view, in <bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>243</biblScope>, fig. 247</bibl>. In neither of these publications does Parmentier mention the inscription.
+                        </ab>
+                    </provenance>
+                        <provenance type="observed" notBefore="1942">
+                            <ab>The existence of the inscription was first mentioned in the second supplement to the inventory of Campā inscriptions published in 1942 (<ptr target="cic-bibl:coedes-1937-1966"/>, vol. II, p. 208), where the type of object was wrongly stated to be a socle, and the language of the inscription was misidentified as Sanskrit.</ab>
+                        </provenance>
+                       <provenance type="observed" notBefore="2011">
+                           <ab>We found the slab behind the building of the Bảo Tàng Văn Hóa Sa Huỳnh-Champa Duy Xuyên (Duy Xuyên Museum of Sa Huỳnh-Champa Culture) on <date when="20111114"/>, and were able to identify it as <ptr target="#inv-general"/> a few days later. It then bore no local inventory number. We were informed on <date when="20111123"/> that the object had been found by a Mr. Thân Vinh Lộc in the <placeName type="modern" ref="cic-geo:mieu-thang-gu">Miếu Thằng Gù</placeName>.</ab> 
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <msDesc n="estampage-inked" facs="#fac2-3">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno>n. 1154</idno>
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                    <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                       </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                        <!-- ARLO: don't think there will be any -->
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2012-11-27" who="AG">basic mark-up of all data</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0198_AG_2011.jpg">
+            <desc>Photograph of the slab with lotus ornament bearing inscription <ptr target="#inv-general"/>. Taken at the Duy Xuyên Museum by Arlo Griffiths on <date when="20111114"/>.</desc>
+        </graphic>
+            <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n1154_ant.jpg">
+          <desc>Photograph of one sheet under EFEO estampage n. 1154 (1/2), showing the anterior face of C. 198.</desc>
+            </graphic>
+        <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n1154_lat.jpg">
+            <desc>Photograph of one sheet under EFEO estampage n. 1154 (2/2), showing the lateral face of C. 198.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <p>This inscription is edited here for the first time.</p>
+            </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines"> 
+                <head xml:lang="en">Anterior</head>
+                <ab> 
+        <lb n="1"/> po[m̃] ku śrī <unclear>i</unclear>ndravarmma dauk<unclear>·</unclear> d<unclear>i</unclear> dandan<unclear>·</unclear> pov· <seg type="check">klesa añcov·</seg> maninum· <seg type="check">śakra pu(ṣ)ya disāk· pat· si X X gotra X</seg>
+        <lb n="2"/> yāṅ· vihāra kā pu yāṅ· sūk· suvāk· <seg type="check">tamā riṃ śodha tañā</seg> urāṅ· <seg type="check">rar· X X X X X dasuXḥ dri yiXy· X </seg>pu po<unclear>m̃</unclear> ku <seg type="check">X X</seg>
+                </ab>
+            </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines">
+                <head xml:lang="en">Lateral</head>
+                <ab>Virtually unreadable.</ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>                </p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>   </p>
+             </div> 
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography" subtype="secondary">
+                <listBibl>
+              <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>285</biblScope>.</bibl>  
+              <bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>243</biblScope>.</bibl> 
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

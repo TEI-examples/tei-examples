@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bottom part of architectural crown from Khánh Lễ</title>
+                <editor>Arlo Griffiths</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0175</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 175</idno>
+                        <altIdentifier type="museum-inventory">
+                            <settlement>Đà Nẵng</settlement>    
+                            <repository>BTC</repository>
+                            <idno xml:id="inv-ĐN">ĐN 1190</idno>
+                        </altIdentifier>
+                        <altIdentifier type="museum-inventory-former">
+                            <settlement>Đà Nẵng</settlement>
+                            <repository>Musée Parmentier</repository>
+                            <idno xml:id="inv-musee-parmentier">33,16</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>One line on eight petal-shaped antefixes in a row, </note>
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Bottom part of an <objectType>architectural crown</objectType>; <material>sandstone</material>; <dimensions unit="cm">
+                                        <dim type="circumference" quantity="226"/>
+                                            <height>36</height>
+                                            </dimensions>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName type="modern" ref="cic-geo:khanh-le">Khánh Lễ</placeName>
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">9th or 10th century</date>
+                                <date calendar="Julian" notBefore="0850" notAfter="0950">between late 9th and early 10th century</date>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" when="1928">
+              <ab>According to the first supplement to Cœdès’ inventory,
+                                the object bearing this unique inscription was found at Khánh Lễ in Bình Định province
+                                (see <bibl><ptr target="cic-bibl:coedes-1937-1966"/>, <biblScope>vol. I [1937], p.
+                                        273</biblScope></bibl>). The only published reference listed there is
+                                    <bibl>BEFEO 28, p. 601</bibl>, which is the starting page of a report on a survey of
+                                the Khánh Lễ site, part of a larger <hi rend="italic">Chronique</hi> on archaeological
+                                research carried out in the year 1928 (<bibl><ptr target="cic-bibl:claeys-1928"/></bibl>). In
+                                    the list of <quote>briques et poteries sculptées extraites des fouilles dont nous
+                                        avons fait transporter plusieurs exemplaires, parmi les mieux conservés, au
+                                        Musée de
+                                        Tourane<!--  bricks and sculptured terracotta taken from the excavation, of which we have had moved several examples among those best preserved to the Museum of Tourane --></quote>,
+                                    on p. 603, there is mention of <quote>une sorte de couronnement en ogive à corps de
+                                        feuilles, bordé, d'un décor
+                                    lancéolé</quote><!-- “a kind of lancet crown with a body of leaves, surrounded by lanceolated ornaments”-->,
+                                37 cm in height. This seems to be the object Cœdès intended with his reference to BEFEO
+                                28, p. 601,<note>Note the agreement of the height with the height we have recorded for
+                                    the object under discussion.</note> although the list of objects removed from the
+                                Khánh Lễ site was supposedly a list of brick artefacts.</ab> 
+                        </provenance>
+                       <provenance type="observed" notBefore="2009">
+ <ab>We observed the inscription at the Museum of Cham Sculpture at Đà Nẵng in 2009, and identified it as <ptr target="#inv-general"/> during our next visit, in 2010.</ab>     
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <msDesc n="estampage-inked" facs="#fac2-9">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n512">n. 512</idno>
+                                </msIdentifier>
+               <ab><note>Eight numbered leaves, to be read in the order 3-2-1-8-7-6-5-4.</note></ab>
+                            </msDesc>
+                        </surrogates>
+                    </additional>    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="20120929" who="AG" xml:lang="en">initial encoding in EpiDoc</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0175_1_AG_2010.jpg">
+            <desc>General view of the object bearing inscription <ptr target="#inv-general"/>. Taken at the Museum of Cham Sculpture by Arlo Griffiths on <date when="20101203"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/C0175_2_AG_2010.jpg">
+            <desc>Segment (1/8) of inscription <ptr target="#inv-general"/>. Taken at the Museum of Cham Sculpture by Arlo Griffiths on <date when="20101203"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac3" url="../images/inscriptions/C0175_3_AG_2010.jpg">
+            <desc>Segment (2/8) of inscription <ptr target="#inv-general"/>. Taken at the Museum of Cham Sculpture by Arlo Griffiths on <date when="20101203"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac4" url="../images/inscriptions/C0175_4_AG_2010.jpg">
+            <desc>Segment (3/8) of inscription <ptr target="#inv-general"/>. Taken at the Museum of Cham Sculpture by Arlo Griffiths on <date when="20101203"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac5" url="../images/inscriptions/C0175_5_AG_2010.jpg">
+            <desc>Segment (4/8) of inscription <ptr target="#inv-general"/>. Taken at the Museum of Cham Sculpture by Arlo Griffiths on <date when="20101203"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac6" url="../images/inscriptions/C0175_6_AG_2010.jpg">
+            <desc>Segment (5/8) of inscription <ptr target="#inv-general"/>. Taken at the Museum of Cham Sculpture by Arlo Griffiths on <date when="20101203"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac7" url="../images/inscriptions/C0175_7_AG_2010.jpg">
+            <desc>Segment (6/8) of inscription <ptr target="#inv-general"/>. Taken at the Museum of Cham Sculpture by Arlo Griffiths on <date when="20101203"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac8" url="../images/inscriptions/C0175_8_AG_2010.jpg">
+            <desc>Segment (7/8) of inscription <ptr target="#inv-general"/>. Taken at the Museum of Cham Sculpture by Arlo Griffiths on <date when="20101203"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac9" url="../images/inscriptions/C0175_9_AG_2010.jpg">
+            <desc>Segment (8/8) of inscription <ptr target="#inv-general"/>. Taken at the Museum of Cham Sculpture by Arlo Griffiths on <date when="20101203"></date>.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <ab>First published in <bibl><ptr target="cic-bibl:CatDaNang"/>: <biblScope>245-246</biblScope></bibl>, whence the present edition.</ab>
+           </div>
+            <div type="edition" xml:lang="sa-Latn-x-CI" xml:space="preserve" rend="break-verse-lines">
+                    <ab>☉<!-- AG: or use ⦿? -->oṃ </ab>
+                   <lg met="Anuṣṭubh">
+                      <l>jaimaniñ ca samantañ ca vaiśampāyanam eva ca <pc>|</pc></l>
+                      <l>yatra nāmāni likhitāni na tatrāśavipātanaṃ</l></lg>
+                <ab>svāhaḥ <g type="fleuron"/></ab>
+            </div>
+            <div type="apparatus">
+                <ab>
+                    <app loc="a">
+                        <lem>samantañ</lem>
+                        <note>correct <foreign>sumantuñ</foreign></note>
+                    </app> 
+                    <app loc="d">
+                        <lem>tatrāśavipātanaṃ</lem>
+                        <note>correct <foreign>tatrāśivapātanaṃ</foreign></note>
+                    </app> 
+                    <app loc="explicit">
+                        <lem>svāhaḥ</lem>
+                        <note>correct <foreign>svāhā</foreign></note>
+                    </app> 
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>Om! [I inscribe the names of] Jaimani, Sumantu and Vaiśampāyana. Wherever [these] names have been inscribed, there nothing evil will occur. Hail!</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>Om! [J'inscris les noms de] Jaimani, [de] Sumantu et [de] Vaiśampāyana. Où [ces] noms sont inscrits, ne se passera pas du mal. Salut!</p>
+            </div> 
+            <div type="commentary">
+                <p>Enclosed between the elements <foreign>oṃ</foreign> and <foreign>svāhaḥ</foreign> (for <foreign>svāhā</foreign>), which are commonly used throughout the Hindu and Buddhist world to mark that the text enclosed is a mantra, we find a not entirely successful Anuṣṭubh stanza, which is not only metrically deficient but also grammatically awkward, with three names in the accusative case where we would rather expect nominative forms, although the meaning is clear. Our translation implies the minimal emendation of three words, as indicated. It would be easy to solve the mentioned grammatical akwardness by emending less conservatively: <foreign>jaimaniś ca sumantuś ca vaiśampāyana eva ca</foreign>. The metrical problem can be circumvented by accepting the license that the sequence of two short syllables in <foreign>likhitāni</foreign> be pronounced as one long syllable.
+                </p>
+                <p>For the mythological background of this inscription, we refer to our printed publication.</p>
+            </div>
+            <!-- <div type="bibliography" subtype="secondary">
+                <listBibl>
+                </listBibl>
+                </div> -->
+        </body>
+    </text>
+</TEI>

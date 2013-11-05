@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Statue of a male figure from Đại Hữu</title>
+                <editor>-</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0128</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 128</idno>
+                        <altIdentifier type="museum-inventory">
+                            <settlement>Hồ Chí Minh City</settlement>
+                            <repository>BTLS-HCMC</repository>
+                            <idno xml:id="inv-btls-hcmc">BTLS 24408</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>Statue of a male figure bearing the om̐<!-- AL : om en italiques --> sign on his mitre and an invocation on his back which should have had to be engraved. Intended to be</note>
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Statue</objectType>; <material>sandstone</material>; we have not recorded dimensions.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName ref="cic-geo:dai-huu">Đại Hữu</placeName> 
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">End of the 14th Century- beginning of the 15th century</date>
+                                <date calendar="Julian">15th century</date>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1909">
+                            <ab>The statue was found in Đại Hữu and was presented in <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>213-214</biblScope></bibl>.</ab>
+                        </provenance>
+                        <provenance type="observed" when="2008">
+                            <ab>In <bibl><ptr target="cic-bibl:schweyer-2008a"/>: <biblScope>228</biblScope></bibl>, the statue is said to be dissapeared.</ab>
+                        </provenance>
+                        <provenance type="observed" when="2009">
+                            <ab>We found the statue on display at the history Museum of Hồ Chí Minh City in 2009. According to the staff Museum, the statue had been seized by the Vietnamese customs and was integrated in the collection of the History Museum on <date when="20041111"></date>. Its inventory number is <ptr target="#inv-btls-hcmc"/>.</ab>
+                        </provenance>
+                    </history>   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2012-08" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0128_1_AG_2009.jpg">
+            <desc>Photograph of the sculptural stela from Đại Hữu <ptr target="#inv-general"/>. Taken in the Hồ Chí Minh Museum by Arlo Griffiths on <date when="20091006"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/C0128_2_AG_2009.jpg">
+            <desc>Photograph of the back of the sculptural stela from Đại Hữu <ptr target="#inv-general"/>. Taken in the Hồ Chí Minh Museum by Arlo Griffiths on <date when="20091006"></date>.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <ab>Previously unpublished.</ab>
+           </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none"> 
+                 <ab type="invocation">om̐</ab>
+                 <ab type="invocation">namaśivāya</ab>
+                <ab> 
+                    <lb n="1"/> svasti
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p> <foreign>Om</foreign>. Homage to Śiva. Hail!</p> 
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p> <foreign>Om</foreign>. Hommage à Śiva. Salut!</p>
+            </div> 
+            <div type="commentary">
+                <ab>This is not the only instance of an unfinished inscription, see <ref target="C0224.xml">C. 224</ref>.</ab>
+            </div>
+            <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <bibl><ptr target="cic-bibl:boisselier-1963"/>: <biblScope>384-385</biblScope>.</bibl>
+                    <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>475 and 476</biblScope>.</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

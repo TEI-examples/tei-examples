@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Stela inscription of Hoà Lai</title>
+                <editor>Arlo Griffiths</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0216</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 216</idno>
+                        <altIdentifier type="majumdar-nr">
+                            <idno xml:id="majumdar-nr">(none)</idno>
+                            <!-- AG: do you approve of this way of encoding the fact that this inscription does not figure in Majumdar's list? -->
+                        </altIdentifier>                        
+                        <altIdentifier type="museum-inventory">
+                            <settlement>Phan Rang</settlement>
+                            <repository>BTNT</repository>
+                            <idno xml:id="inv-btnt">1444/Đ.25</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>The stela itself is engraved on three faces, and the socle is inscribed as well. Principal face A bears an incipit and 19 lines; lateral face b bears 11 lines; principal face C bears 15 lines; the socle bears 2 lines on two edges. All are</note> 
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                            <note>Together, these lines represent two chronologically distinct but textually intertwined inscriptions. The original inscription (C. 216.1) comprised 18 lines on the first, and 15 on the second principal face. The second inscription (C. 216.2) was subsequently inserted into the former, by adding a 19th line on face A, which was then continued onto the lateral face with three lines, after which the reader was to resume on the posterior face; presumably on the same occasion, extra text was added on the socle.</note>
+                        </msItem> 
+                        <!-- <msItem n="A1">
+                            <locus target="#A1"/>
+                            <note>Invocation + 19 lines</note>
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem>
+                        <msItem n="A2">
+                            <locus target="#A2"/>
+                            <note>1 line</note>
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem>
+                        <msItem n="b">
+                            <locus target="#b"/>
+                            <note>3 lines</note>
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem>
+                        <msItem n="C">
+                            <locus target="#C"/>
+                            <note>15 lines</note>
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem>
+                        <msItem n="d">
+                            <locus target="#d"/>
+                            <note>2 lines on two faces</note>
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem> -->
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Stela</objectType>; <material>sandstone</material>;
+                                    dimensions of the stela (excluding the tenon): <dimensions unit="cm">
+                                        <height>92</height>
+                                        <width>60</width>
+                                        <depth>13</depth>
+                                    </dimensions> (the tenon adds <height unit="cm">16.5</height>, bringing the total height to <height unit="cm">108.5</height>); dimensions of the surviving part of the socle: 
+                                    <dimensions unit="cm">
+                                        <height>25.5</height>
+                                        <width>69</width>
+                                        <depth>46</depth>
+                                    </dimensions>.</p>
+                                    <!-- TE: is the above adequate, or do you feel a need to be able to do queries against dimensions that might come out wrong if we don't programmatically link the various options for height up? -->
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName type="modern" ref="cic-geo:hoa-lai"/>
+                            </origPlace>
+                            <origDate>
+                                Text 1:<date calendar="Śaka">5 waxing Vaiśākha, 700</date> 
+                                <date calendar="Julian" when="7780406">6 April, 778</date>;
+                                Text 2: <date calendar="Śaka">7 waning Puṣya, 760</date>
+                                <date calendar="Julian" when="8390110">10 January, 839</date>
+                            </origDate>
+                            <!-- <origDate>
+                                <locus target="????"/> -->
+                     <!-- TE: is it possible to put an xml:id on a <div type="textpart"> below that encompasses the relevant text? -->
+                           <!--    <date calendar="Śaka">5 waxing Vaiśākha, 700</date> 
+                               <date calendar="Julian" when="7780406">6 April, 778</date>.
+                            </origDate>
+                            <origDate>
+                                <locus target="????"/>
+                                <date calendar="Śaka">7 waning Puṣya, 760</date>
+                                <date calendar="Julian" when="8390110">10 January, 839</date>
+                                </origDate> -->          
+                        </origin>
+                        <provenance type="found" when="2006">
+                            <ab>The stela was discovered in 2006.</ab>
+                            </provenance>
+                        <provenance type="observed" when="2009">
+                        <ab>We found the stela in the store room of the museum in 2009, as the one bearing inventory number <ptr target="#inv-btnt"/> (see <bibl><ptr target="cic-bibl:ECIC-II"/>: <biblScope>275-276</biblScope></bibl>).</ab>  
+                        </provenance>
+                    </history>       
+                    <additional>
+                        <surrogates>                       
+                            <msDesc n="estampage-inked" facs="#fac3">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n1900">n. 1900</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-inked" facs="#fac4">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n1901">n. 1901</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-inked" facs="#fac5">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n1902">n. 1902</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-inked" facs="#fac6">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n1903">n. 1903</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-inked" facs="#fac7">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n1904">n. 1904</idno>
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>         
+                    </additional>
+                </msDesc>                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">French</language>
+                <language ident="en">English</language>
+                <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                    according to the conventions of the project Corpus of the Inscriptions of
+                    Campā.</language>
+                <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                    according to the conventions of the project Corpus of the Inscriptions of
+                    Campā.</language>
+                <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2011-06-02" who="TRE" xml:lang="en">initial encoding of provenance information</change>
+            <change when="2012-05-03" who="AG" xml:lang="en">first stab at encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0216_1_AG_2009.jpg">
+            <desc>Photograph, with scale, showing face C of inscription <ptr target="#inv-general"/>. Taken in the Phan Rang Museum by Arlo Griffiths on <date when="20091012"/>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/C0216_2_AG_2009.jpg">
+            <desc>Photograph, with scale, showing the socle (face "d") of inscription <ptr target="#inv-general"/>. Taken in the Phan Rang Museum by Arlo Griffiths on <date when="20091012"/>.</desc>
+        </graphic>
+        <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n1900_A.jpg">
+            <desc>Photograph of EFEO estampage n. 1900.</desc>
+        </graphic>
+        <graphic xml:id="fac4" url="../images/inscriptions/EFEOB-est.n1901_b.jpg">
+            <desc>Photograph of EFEO estampage n. 1901.</desc>
+        </graphic>
+        <graphic xml:id="fac5" url="../images/inscriptions/EFEOB-est.n1902_C.jpg">
+            <desc>Photograph of EFEO estampage n. 1902.</desc>
+        </graphic>
+        <graphic xml:id="fac6" url="../images/inscriptions/EFEOB-est.n1903_d.jpg">
+            <desc>Photograph of EFEO estampage n. 1903.</desc>
+        </graphic>
+        <graphic xml:id="fac7" url="../images/inscriptions/EFEOB-est.n1904_d.jpg">
+            <desc>Photograph of EFEO estampage n. 1904.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <ab>First published in <bibl><ptr target="cic-bibl:ECIC-II"/></bibl>, whence the present edition.</ab>
+            </div>
+          <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve">
+                <div type="textpart" n="A">
+                <div type="textpart" xml:id="A1" n="A1" rend="break-verse-lines">
+                    <head xml:lang="en">Face A.</head>
+                        <ab type="invocation">oṃ</ab>
+                        <!-- A: we have the convention of not counting the lines of invocations. I thought it might be useful to mark the kind of <ab> explicitly. We want this kind of <ab> at the center line. -->
+                        <ab><lb n="1"/>
+                            <g type="siddham"/>  svasti namaś śivāya śrīvr̥ddheśvarāya</ab>
+                       <lg met="Śārdūlavikrīḍita" n="I">
+                           <l><lb n="2"/>yo lokaprabhavasthitipralayavid digbhāgaviśvaprabhur</l>
+                           <l>yyo datvā ja<lb n="3" break="no"/>gatām varaṃ praṇayinām vīrarṣibhis sthāpitaḥ</l>
+                           <l>bahner mmūrttimayaiś śatārddhatanubhi<lb n="3" break="no"/>r ddīptorjjitenātmanā</l>
+                            <l>pāyād bhūḥ kila pāṇḍaraṅgaviṣaye  śrīmān sa vr̥ddheśvaraḥ <g type="fleuron" subtype="tobedefined"/>
+                            </l>                       
+                       </lg>
+                        <lg met="Sragdharā" n="II">
+                           <l><lb n="5"/> <w part="I">śuddhāṅśabrahmavaryyaprathitakulaśarannirmmalākāśadeśa</w></l>
+                           <l><w part="F">prādurbhbhūto</w><!-- AG: spelling rbhbh may need to be encoded with <choice><reg><orig> -->  vanīndravya<lb n="6" break="no"/>pamalaśaśabhr̥c chrīkalākāntimān yaḥ</l>
+                            <l>śatruddhvāntāni jitvā sukr̥takaracayais to<lb n="7" break="no"/>ṣayitvātmabhr̥tyān</l>
+                            <l>eṣa śrīsatyavarmmā bhuvi divi vibabhau  śakravad dīptatejāḥ <g type="fleuron" subtype="tobedefined"/></l>
+                        </lg>
+                    </div>
+                    <div type="textpart" xml:id="A2" n="A2" rend="break-none">
+                        <div type="textpart" n="A2a">
+        <p><lb n="8"/> tena vijayinā <choice><reg>satyavāksvabhāvatayā</reg><orig>satyavāgsvabhāvatayā</orig></choice> <!-- Hugh: the difference between reg and orig affects just one letter right in the middle of this long compound word which, by Sanskrit standards, is still quite short. Is there any reason, from the point of view of search, to prefer putting such tags around whole 'words' (defined as united delimited by spaces, which for Sanskrit may not be a very handy definition) above putting them only around the smallest segment of letters concerned? --> satyeneva mūrttimatā śrīsatyavarmmaṇā satya<lb n="9" break="no"/>lokāt tribhuvanaikanāthena śambhunāvanitale punaravatāritena śrīvr̥ddheśvarāt sa<lb n="10" break="no"/>madhigatarājyasaṃpadā sakalasādhujanapurohitāgrāsāmātyagaṇaiḥ parivr̥tena pu<lb n="11" break="no"/>ñjitāśeṣasuragaṇair iva devendreṇa śrīśākarāje gagaṇāmvarādriyamite <lb n="12"/> vaiśākhasitapañcamakṣapāgrye śubhatithikaraṇamuhūrttanakṣatradivasalagnādiyoga<lb n="13" break="no"/>saṃpanne  yajñātiśayamaṅgalāyāṃ  bhūmau śrīmān ādideveśvaraḥ kṣitisalilāna<lb n="14" break="no"/>lānilākāśadīkṣitarajanikaradivākaramūrttis sakalasurāsurendrādigaṇanataca<lb n="15" break="no"/>raṇayugasaroruhas saha bhagavatyā śrīdurggādevyā nānāpsarogaṇārccitacaraṇā<lb n="16" break="no"/>ravindayā vibhavadāyinyā sakalajagatān tvayi bhaktimatāṃ bhaktyā sthāpitaḥ <g type="fleuron" subtype="tobedefined"/></p>   
+                        </div>
+                        <div type="textpart" n="A2b">
+        <p><lb n="17"/>tasmai śryādideveśvarāya sāntaḥpuravilāsinīdāsadāsīgomahiṣakṣetrā<lb n="18" break="no"/>di yat sarvvadravyaṃ vīrapurakoṣṭhāgāraṃ drais·koṣṭhāgāraṃ raprāp·koṣṭhāgāram· pi<lb n="19" break="no"/>laur·kṣetraṃ paliy·bharuv·kṣetraṃ rājñā śrīsatyavarmmaṇā yuktyā parikalpya </p></div>
+            <div type="textpart" n="A2c">
+            <p><lb n="20"/> paliy·h(r̥)lāṅkoṣṭhāgāram· kamraiṅkoṣṭhāgāram· kmauñ·koṣṭhāgāram·</p>
+            </div>
+        <!-- AG: not sure how to deal with text-parts, for various different factors are involved. We must discuss live. Perhaps milestone must be used here. -->
+                    </div>
+         <div type="textpart" xml:id="b" n="b" rend="break-none">
+<head xml:lang="en">Face b (lateral).</head>
+<p> <lb n="1"/> nāgeśvarakṣetram· <lb n="2"/> hajaikṣetram· <lb n="3"/> pradhānakṣetram<unclear>·</unclear></p>
+         </div>
+           <div type="textpart" xml:id="C" n="C">
+<head xml:lang="en">Face C.</head>         
+                    <div type="textpart" n="C1" rend="break-none">
+                        <p><lb n="1"/> dattaṃ tac ca ye śrāddhās santo numanyante te yathepsitasukhino bhavantu ye <lb n="2"/> ke cit punar llobhād īrṣyayā narakanirbhbhayā<supplied reason="omitted">ḥ</supplied> pāpakarmmāṇo narādhamās  tad  dhari<lb n="3" break="no"/>ṣyanti te py ubhayataḥ pitros triṅśat pūrvvais triṅśat paraiḥ kulasantānais saha rauravama<lb n="4" break="no"/>hārauravātirauravāvīcīkālasūtratr̥ṇapatāpanaśūlasandaṅśayamaparvvatavaitaraṇī<lb n="5" break="no"/>tyevamādiṣu mahānarakeṣu <!-- Hugh: the next is a case of a long compound, again only one letter affected by <choice>. Here I have just selected the word inside the compound (the same selection is made in <div type="apparatus>. But I could have tagged just the letter itself. --><choice><reg>tāḍana</reg><orig>tādana</orig></choice>cchedanabhedanalikhanaviśasanādibhir  upatāpaiḥ <lb n="6"/> paritapyamānās tadakuśalakarmmaparipakvaphalam anubhavanto yāvaj jagati sūryyacandrama<lb break="no" n="7"/>sau stas tāvad atighoreṣu nivaseyur iti <pc>||</pc> uktaṃ hi <pc>◦</pc></p>
+</div>
+<div type="textpart" n="C2" rend="break-verse-lines">
+     <lg met="Anuṣṭhub" n="III">        
+           <l>satrāṇāṃ prākpravr̥ttānāṃ <lb n="8"/> bhedanaṃ yaḥ karoti ca</l>
+           <l>sa pāpakr̥t pāpataraḥ pākabhedo nigadyate <pc>||</pc></l>
+     </lg>
+    <lg met="Anuṣṭhub" n="IV">        
+           <l><lb n="9"/> pākabhedaḥ kr̥taghnaś ca bhūmiharttā ca te trayaḥ</l>
+           <l><choice><reg>narakān na</reg><orig>narakāt<!-- Hugh: and here's another one. --> na</orig></choice> nivarttante <lb n="10"/> yāvat somadivākarau <pc>||</pc></l>
+    </lg>
+    <lg met="Āryā" n="V">        
+           <l>sakr̥d api yasyāṅghrinatiś śubhāśvamedhebhya <lb n="11"/> eva sātiśayā</l>
+           <l>śamayann avanataduritaṃ sa ādideveśvaro jayati <pc>||</pc></l>
+         </lg>
+    </div>
+          <div type="textpart" n="C3" rend="break-none">
+              <p><lb n="12"/> śrīsvayamutpanneśvarasthāne  dvijaśālā vividhayuvatividagdharūpalāvanyalalito<lb n="13"/>paśobhitā  sakedāragomahiṣadāsadāsīkulakr̥topabhogā punar api <lb n="14"/> śrīsaṅkarṣaṇadevasthāne dvijaśālā sarvvopakaraṇasamr̥ddhā śrīsatyavarmmaṇā <lb n="15"/> rājñā kr̥tā <pc>◦</pc> śrīvr̥ddheśvarasya rājatakośaṃ suhemāsyaṃ rājā pratiṣṭhāpitavān· <pc>||</pc></p>
+              </div>
+     <div type="textpart" xml:id="d" n="d" rend="break-verse-lines">
+<head xml:lang="en">Face d (socle).</head>      
+    <lg met="Śārdūlavikrīḍita" n="VI">       
+           <l>⎽ ⎽ ⎽ ⏑ ⏑ ⎽ ⏑ ⎽ ⏑ ⏑ ⎽ ⎽ ⎽ ⏑ ⎽ ⎽ ⏑ ⎽</l>
+    <!-- AG: we will finally have to tackle how to encode such lost metrical sequences, if only to avoid having to fight with font problems as the encoding stage: the breve and macron signs are not easily available in most font. -->
+    <l>⎽ ⎽ ⎽ ⏑ ⏑ ⎽ ⏑ ⎽ ⏑ ⏑ ⏑ ⎽ ⎽ ⎽ d viśī<unclear>r</unclear>ṇṇan tadā </l>
+    <l>puṣyasyāmvaraṣaṇnage śakapatau citre kavau śrāddhayā</l>
+           <l>kr̥ṣne  saptadine marov·giricaran tu śryādidevāya tam· <pc>||</pc></l>
+    </lg>    
+         <lg met="Indravajrā" n="VII">        
+                            <l>ye saṃhariṣyanty adhamāḥ kr̥taghnāḥ</l>
+             <l>⎽ ⎽ ⏑ ⎽ ⎽ ⏑ ⏑ ⎽ ⏑ ⎽ ⎽</l>
+             <l>⎽ ⎽ ⏑ ⎽ ⎽ <supplied reason="lost">nipata</supplied>nty avīcyāṃ </l>
+                            <l>tasmāt pitr̥bhyāṃ narakādhamāyām· <pc>||</pc></l>
+                    </lg>
+     </div>
+           </div>
+                </div>
+            </div> <!-- end of <div type="edition"> -->
+               <div type="apparatus">
+                   <ab>
+                      <app loc="Id">
+                          <lem>pāṇḍaraṅga</lem><note>correct <foreign>pāṇḍuraṅga°</foreign>? On this problem, see <bibl><ptr target="cic-bibl:ECIC-II"/>: 285-288</bibl>.</note>
+                      </app> 
+                       <app loc="IIb">
+                           <lem>°prādurbhbhūto</lem><note>the spelling with <foreign>rbhbh</foreign> for expected <foreign>rbbh</foreign> is not abnormal in the epigraphy of Campā. Among many other examples cf. <ref target="C0024.xml">C. 24</ref>, face A, st. IXc, and <foreign>narakanirbhbhayāḥ</foreign> in the present text (face B, l. 2).</note>
+                       </app>
+                       <app loc="IIb">
+                           <lem>°śaśabhr̥c chrīkalākāntimān yaḥ</lem><note>there is another possibility for breaking the words: <foreign>°śaśabhr̥cchrīkalākāntimānyaḥ</foreign>. The same unusal shape of the ligature <foreign>cch</foreign> is seen in <ref target="C0025.xml">C. 25</ref> face B, l. 18 (<bibl><ptr target="cic-bibl:ISCC"/>, pl. 19</bibl>). In the word <foreign>gacchet</foreign> in face C, l. 5 of our inscription, we see the element <foreign>ch</foreign> in its normal position.</note>
+                       </app>
+                       <app loc="IId">
+                           <lem>bhuvi divi vibabhau</lem><note>Cf. <ref target="C0025.xml">C. 25</ref>, face A, l. 2 <foreign>ddivi bhuvi vibhavair</foreign>, a comprable stylistic figure.</note>
+                       </app>C
+                       <app loc="A8">
+                           <lem>°vāgsva°</lem><note>corr. <foreign>°vāksva°</foreign>.</note>
+                       </app>
+                       <app loc="C5">
+                           <lem>tādana°</lem><note>read <foreign>tāḍana°</foreign>.</note>
+                       </app>
+                       <app loc="IVc">
+                           <lem>narakāt na</lem><note>correct <foreign>narakān na</foreign>. The same erroneous sandhi reoccurs when this same complete stanza is cited in <ref target="C0024.xml">C. 24</ref>, face B, st. III, and when this same pāda is reused in <ref target="C0025.xml">C. 25</ref>, face B, st. XIV.</note>
+                       </app>
+                      </ab>
+               </div>
+    <!--   <div type="commentary">
+            <p>FILL ME IN</p>
+            
+            <p>A20: kamraiṅ: cf. C. 211 </p>
+         </div>
+         -->
+         <div type="translation" xml:lang="en">
+             <ab><seg type="check">FILL ME IN</seg></ab>
+            </div>
+         <div type="translation" xml:lang="fr">
+              
+        <p>Om. Siddham. Bien-être ! Hommage à Śiva Śrī Vr̥ddheśvara !</p>
+        <p>I. Cet illustre Vr̥ddheśvara, qui [seul] sait [procurer] l’origine, la stabilité et la destruction du monde, tout-puissant dans [toutes] les directions, et qui, ayant donné sa faveur aux êtres qui sont ses dévots, fut installé par des sages héroïques, puisse-t-il certes, avec son propre être enflammé et fortifié par les cinquante corps qui ont la forme du feu, protéger les terres dans le territoire de Pāṇḍuraṅga !</p>
+        <p>II. Ce Śrī Satyavarman, qui était une [véritable] lune immaculée parmi les rois, pourvu de richesse, de créativité et de beauté (ou, portant sur la lune : pourvu de beauté de ses illustres doigts), apparu dans l’espace céleste immaculé de l’automne qu’est [sa] lignée, célèbre pour ses excellents brahmanes de nature pure, ayant vaincu les ténèbres que sont ses ennemis et satisfait ses propres serviteurs par des monceaux de bienfaits et des impôts raisonnables, resplendissait sur terre de son énergie éclatante tel Indra dans le ciel.</p>
+	<p>(A, l. 8-16) Par ce victorieux Śrī Satyavarman, qui, par sa parole naturellement vraie,  était comme la Vérité incarnée, que Śambhu, le seigneur des trois mondes avait fait descendre à nouveau du monde de la vérité sur la surface de la terre ; qui avait obtenu par la grâce de Śrī Vr̥ddheśvara le succès pour son règne ; qui était entouré de groupes entiers de gens de bien, de chapelains, de ceux qui ont droit aux premiers sièges (agrāsa)  et de ministres, comme Devendra l’est par des groupes entiers et denses de dieux — quand le roi illustre des Śāka était indiqué par l’espace (vide), par le firmament (vide) et par les (sept) montagnes (c.-à-d. en 700 śaka), au cinquième (tithi) de la [quinzaine] claire de vaiśākha, commençant la nuit (kṣapāgrya), dont tithi, karaṇa, muhūrta, maison lunaire, jour civil, ascendant etc. étaient en conjonction favorable — fut installé avec dévotion, sur un terrain extrêmement propice pour [l’exécution] de vénérations (yajña), l’illustre Ādideveśvara, qui incarne [les huit formes de Śiva, c.-à-d.] la terre, l’eau,  le feu, le vent, l’éther, l’initié, la lune et le soleil ; dont la paire de lotus que sont les pieds est saluée par les groupes entiers des rois des dieux et des démons ; accompagné de la dame Śrī Durgādevī, dont les lotus que sont les pieds sont honorés par toutes sortes de nymphes et qui accorde la fortune à tous les êtres emplis de dévotion envers … toi  !</p>
+	<p>(A, l. 17-C, l. 7) Et toutes ces richesses, comprenant, entre autres, des courtisanes, des esclaves hommes et femmes, des bœufs, des buffles et des rizières — le silo de Vīrapura, le silo de Drais, le silo de Raprāp ; la rizière de Pilaur, la rizière de Paliy Bharuv (A, l. 20 et b ajoutent : le silo de Paliy Hr̥lāṅ, le silo de Kamraiṅ, le silo de Kmauñ ; la rizière de Nāgeśvara, la rizière de Hajai, la rizière de Pradhāna) — qui furent donnés à ce Śrī Ādideveśvara par Śrī Satyavarman, après qu’il eut pris les dispositions appropriées, ceux qui, fidèles, respectent ce don, qu’ils obtiennent les plaisirs qu’ils désirent, quels qu’ils soient ! Par contre, les viles personnes, qui, malfaisantes et sans peur de l’enfer, le déroberont, par avidité ou par jalousie, puissent-elles habiter les pires [des enfers], aussi longtemps que le soleil et la lune seront présents dans le monde, avec les membres de leur famille, du côté de l’un et de l’autre de leurs parents, jusqu’à trente [générations] antérieures et postérieures, subissant des tortures telles que la fustigation, le démembrement, le percement, la flétrissure et le découpage (du corps), dans les grands enfers tels que le Raurava, le Mahāraurava, l’Atiraurava, l’Avīcī, le Kālasūtra, le Tr̥ṇapatāpana, le Śūlasaṃdaṃśa, le Yamaparvata et la Vaitaraṇī, goûtant [ainsi] le fruit mûr de leur comportement ignoble. On dit en effet :</p>
+	<p>III. Et celui qui cause la destruction d’hospices (satra) préalablement institués, ce pécheur très peccable, on l’appelle le destructeur de nourriture cuite.</p>
+	<p>IV. Le destructeur de nourriture cuite, le corrupteur de [bien]faits  et le voleur de terre,  ces trois-là ne quittent pas l’enfer, aussi longtemps que dureront la lune et le soleil.</p>
+	<p>V. Il est victorieux, (cet) Ādideveśvara aux pieds duquel une seule prosternation surpasse même les Aśvamedha de bon augure, tant il apaise le malheur de celui qui se prosterne.</p>
+	<p>(C, l. 12-15) Dans le sanctuaire de Śrī Svayamutpanneśvara, le roi Śrī Satyavarman a établi un hospice (śālā) pour brahmanes, dont la beauté et la grâce subtiles de diverses jeunes filles était l’ornement délicieux, avec les revenus tirés de [ces] champs, bœufs, buffles et familles d’esclaves hommes et femmes. En outre, dans le sanctuaire de Śrī Saṅkarṣaṇadeva, [il a établi] un hospice pour brahmanes, abondamment pourvu de toutes les facilités. Le roi a installé pour Śrī Vr̥ddheśvara un étui (de liṅga)  fait d’argent et avec un visage en or.</p>
+	<p>VI. …, alors, quand le roi des Śaka [valait] l’espace [vide], six, les [sept] montagnes (c.-à-d. en 760 śaka), le septième jour (dina) de [la quinzaine] sombre de puṣya, avec Caitra [comme maison lunaire], le vendredi (kavau), avec fidélité ce Montagnard (ou : cet éléphant sauvage) de Marov, endommagé, pour Śrī Ādideva.</p>
+           <p>VII. … les pires des corrupteurs de [bien]faits qui le déroberaient, … à cause de cela ils tombent avec leurs deux parents dans le pire des enfers, l’Avīcī.</p>
+             </div>
+          <!--  <div type="bibliography" subtype="secondary">
+                <listBibl>
+                   <bibl>EMPTY</bibl>
+                </listBibl>
+            </div> -->
+        </body>
+    </text>
+</TEI>

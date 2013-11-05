@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pedestal from Trà Kiệu</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Dominic Goodall</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0173</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>EFEO</institution>
+                  <idno xml:id="inv-general">C. 173</idno>
+                  <altIdentifier type="majumdar-nr">
+                     <idno xml:id="majumdar-nr">(none)</idno>
+                     <!-- AG: do you approve of this way of encoding the fact that this inscription does not figure in Majumdar's list? -->
+                  </altIdentifier>
+                  <altIdentifier type="museum-inventory">
+                     <settlement>Hanoi</settlement>
+                     <repository>BTLS-QG</repository>
+                     <idno xml:id="inv-btls-qg">LSb 42277</idno>
+                  </altIdentifier>
+                  <altIdentifier type="museum-inventory-former">
+                     <settlement>Hanoi</settlement>
+                     <repository>EFEO Museum</repository>
+                     <idno xml:id="inv-efeo-hanoi">B 2, 38</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                   <msItem>
+                  <note>The inscription runs over two lines along two of the four vertical faces of the object. The sequence is face A (“left”, two lines), face B (“right”, two lines).</note>
+               <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                   </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Low <objectType>pedestal</objectType>; <material>sandstone</material>; <dimensions unit="cm">
+                              <height>54</height>
+                              <width>54</width>
+                              <depth>12</depth>
+                           </dimensions>.</p>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace type="location">
+                        <placeName type="modern" ref="cic-geo:tra-kieu">Trà Kiệu</placeName>
+                        <note>See BEFEO 27 (1927), Chronique, p. 478:
+                           <quote rend="block">
+                              <ab>De même, servant de seuil dans le réduit d'une maison annamite située à l'angle des murailles de l'Ouest et du Sud, une pierre inscrite fut trouvée. Elle porte quatre lignes de sanskrit en écriture du VII<hi rend="superscript">e</hi> siècle, commémorant l'érection d'un temple en l'honneur de Vālmīki. L'inscription occupe deux faces latérales, en angle droit d'une pierre carrée de 0 m. 54 × 0 m. 54 × 0 m. 12. Chaque ligne a 0 m. 50 de long. </ab>
+                              <ab>Voici les renseignements qui ont été recueillis concernant son origine : il y a cinquante ou soixante ans, pour construire le groupe de maisons qui occupe cet angle des remparts, un tas de briques chames situé sur le versant Est du point A fut acquis pour 150 ligatures de sapèques. Ce prix élevé indique que la masse de briques était importante. Elle fut transportée au lieu où devaient s'élever les maisons. Parmi les briques se trouvaient quelques pierres. L'origine de la pierre inscrite est donc vraisemblablement le point A, si cette tradition est exacte.</ab>                              
+                           </quote>
+                        </note>
+                     </origPlace>
+                     <origDate>
+                        <date calendar="Śaka">6th</date>
+                        <date calendar="Julian">7th</date>
+                     </origDate>
+                  </origin>
+                     <provenance type="found" when="1927">
+                        <ab>This piece was found by J.Y. <persName type="explorer">Claeys</persName> at
+                           <placeName type="modern" ref="cic-geo:tra-kieu">Trà Kiệu</placeName>
+                           in 1927 (see <bibl><ptr target="cic-bibl:claeys-1927"/></bibl>).</ab>
+                        </provenance>
+                        <provenance type="observed" notBefore="1927" notAfter="1937">
+                           <ab>We have not found any information on the question when it entered the EFEO Museum in Hanoi, but by the time the inscription was inventoried, as part of Cœdès' first supplement, in 1937 (<bibl><ptr target="cic-bibl:coedes-1937-1966"/> vol. I, p. 273</bibl>), it had been registered there as <ptr target="#inv-efeo-hanoi"/>.</ab>
+                     </provenance>
+                     <provenance type="observed" notBefore="2009">
+                        <ab>We identified the stone in the Bảo Tàng Lịch Sử Việt Nam (National Museum of Vietnamese History) at Hanoi in 2009 and following years. While the stone was unnumbered when we first observed it (see <bibl><ptr target="cic-bibl:ECIC-III"/>: 447</bibl>), the museum staff subsequently assigned a new number to it so that in March 2012 we were able to record the current inventory number <ptr target="#inv-btls-qg"/>.</ab>
+                     </provenance>                 
+               </history>
+               <additional>
+                  <surrogates> 
+                     <msDesc n="estampage-inked" facs="#fac3-5">
+                        <!-- AG: we are showing multiple photos of one item. Is #fac3-5 the right way to encode this? -->
+                        <msIdentifier>
+                           <repository>EFEO</repository>
+                           <idno xml:id="est-efeo-n508">n. 508</idno>
+                        </msIdentifier>
+                        <ab><note>A photo print of the estampage n. 508 is kept with the estampage in the EFEO library. It has been digitized under the file-name EFEO-n508lég.jpg.</note></ab>
+                     </msDesc>
+                  </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage"/></catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-07-09+09:00" who="TRE" xml:lang="en">generated template from inventory spreadsheet data</change>
+         <change when="2011-07" who="AG" xml:lang="en">first attempt at porting the relevant data into xml format</change>
+         <change when="2012-05-04" who="AG" xml:lang="en">adjustments to our new format</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0173_1_AG_2009.jpg">
+         <desc>Photograph, with scale, showing the stone bearing inscription <ptr target="#inv-general"/> in three-quarter view. Taken in the Hanoi Museum by Arlo Griffiths on <date when="20090917"/>.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/C0173_2_AG_2009.jpg">
+         <desc>Photograph, with scale, of face A of inscription <ptr target="#inv-general"/>. Taken in the Hanoi Museum by Arlo Griffiths on <date when="20090917"/>.</desc>
+      </graphic>
+      <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n0508.jpg">
+         <desc>Photograph of EFEO estampage n. 508.</desc>
+      </graphic>
+      <graphic xml:id="fac4" url="../images/inscriptions/EFEOB-est.n0508_ga.jpg">
+         <desc>Photograph of the left half of EFEO estampage n. 508.</desc>
+      </graphic>
+      <graphic xml:id="fac5" url="../images/inscriptions/EFEOB-est.n0508_dr.jpg">
+         <desc>Photograph of the right half of EFEO estampage n. 508.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <bibl>First published, with French translation, by <ptr target="cic-bibl:mus-1928"/>; whence, translated into English, <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>11-12</biblScope>.</bibl> Re-edited from the EFEO estampage, with new translation, in <bibl><ptr target="cic-bibl:ECIC-V"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>, whence the present edition.</bibl>
+         </div>
+         <div type="edition" xml:lang="sa-Latn-x-CI" xml:space="preserve" rend="break-verse-lines">
+            <div type="textpart" subtype="face" n="A">
+               <head xml:lang="en">Face A.</head>
+            <ab><lb n="1"/> 
+               <g type="siddham"></g></ab>
+            <lg met="Anuṣṭubh" n="I">
+               <l> yasya śokāt samutpannaṃ ślokaṃ brahmābhipū<unclear>jati</unclear></l>
+               <l> <supplied reason="lost">vi</supplied><unclear>ṣṇoḥ</unclear> puṅsaḥ purāṇasya manu<unclear>jasyā</unclear>tmarūpiṇaḥ</l>
+            </lg>
+            <lg met="Anuṣṭubh" n="II">
+               <l><lb n="2"/> <supplied reason="lost">rāmasya</supplied> <unclear>ca</unclear>ritaṃ kṛts<supplied reason="lost">n</supplied>aṃ kṛtaṃ <unclear>yenābhisādhanaṃ</unclear></l>
+               <l> kaver ādyasya maharṣṣer vv<unclear>ā</unclear>lmīkeś cāvaner iha</l>
+            </lg> 
+            </div>
+            <div type="textpart" subtype="face" n="B">
+                <head xml:lang="en">Face B.</head>
+               <lg met="Anuṣṭubh" n="III">
+                  <l><lb n="1"/> <unclear>pūjāsthānaṃ</unclear> punas tasya kṛta ⎼ Cy ⏓ ⏑ ⎼ ⏑ ⎼ </l>
+                  <l> prakāśadharmmanṛpatis sarvvārigaṇasūdanaḥ </l>
+               </lg>
+               <lg met="Anuṣṭubh" n="IV">
+                  <l><lb n="2"/>
+            vidyāśaktikṣamālakṣ<unclear>m</unclear>īkīrttidhairyya<supplied reason="lost">guṇā</supplied>n<unclear>v</unclear>i<unclear>taḥ</unclear></l>
+      <l>
+         <unclear>jaya</unclear>ty eṣa jagatkāntaś śārade ntarite <supplied reason="lost">v</supplied>i<supplied reason="lost">dhau</supplied>
+         </l>
+               </lg>            
+            </div>
+         </div>
+         <div type="apparatus">
+            <p>
+               <app loc="Ib">              
+                  <lem>ślokaṃ</lem><rdg resp="Mus">ślokam</rdg>
+               </app> 
+            <app loc="Ic">
+               <lem>puṅsaḥ</lem><rdg resp="Mus">pumsaḥ</rdg><note>Doubtless a printing error for <foreign>puṃsaḥ</foreign>.</note>
+            </app>
+           <app loc="Id">
+               <lem>manu<unclear>jasyā</unclear>tma°</lem><rdg resp="Mus">mānuṣasyātma°</rdg>
+            </app>
+            <app loc="IIa"><lem><supplied reason="lost">rāmasya</supplied> <unclear>ca</unclear>ritaṃ kṛts<supplied reason="lost">n</supplied>aṃ</lem><rdg resp="Mus">x x x x ritaṃ kṛtyaṃ</rdg><note>Our reading presupposes that this <foreign>pāda</foreign> is directly based on <ref>Vālmīki's Rāmāyaṇa</ref> 1.2.30a.</note>
+            </app>
+            <app loc="IIb"><lem><unclear>yenābhisādhanaṃ</unclear></lem><rdg resp="Mus">yenābhiṣecanaṃ</rdg></app>
+               <app loc="IId"><lem>cāvaner iha</lem><rdg resp="Mus">śru ⏑ ⎼ r iha</rdg>
+            <!-- <note>Our reading is merely an attempt to render what we see, and implies no understanding. The vowel before <foreign>r</foreign> seems to be an <foreign>e</foreign>, and there seems to be no space for <foreign>ai</foreign> or <foreign>o</foreign>. Perhaps one can read <foreign>cumaner</foreign> and emend this to <foreign>ca muner</foreign>; or perhaps one can read <foreign>cāvaner</foreign></note> -->
+               </app>
+               <app loc="IIIa"> <lem>sthānaṃ</lem><rdg resp="Mus">°sthānam</rdg><note>The word <foreign>pūjāsthāna</foreign> is attested in two other dedication inscriptions of the same king, viz. <ref target="C0079.xml">C. 79</ref> and <ref target="C0136.xml">C. 136</ref></note></app>
+               <app loc="IIIb"><lem>kṛta ⎼ Cy ⏓ ⏑ ⎼ ⏑ ⎼</lem><rdg resp="Mus">kṛta x x y ⏑ ⎼ ⏑ ⎼</rdg><note>Compared to Mus, we assume one akṣara less before and one more after the one bearing a subscript <foreign>y</foreign>, on the supposition that we may restore something like <foreign>kṛta<supplied reason="lost">vān</supplied> ya ...</foreign>.</note></app>
+            <app loc="IIId"><lem>sarvvāri°</lem><rdg resp="Mus">sarvāri°</rdg></app>     
+           <app loc="IVc"><lem><unclear>jaya</unclear>ty eṣa</lem><rdg resp="Mus">x x ty eṣa </rdg></app>     
+            <app loc="IVd"><lem><supplied reason="lost">v</supplied>i<supplied reason="lost">dhau</supplied></lem><rdg resp="Mus"><supplied reason="lost">r</supplied>i<supplied reason="lost">pau</supplied></rdg><note>It seems unlikely that the enemy would be equated with the autumn, as Mus' reading implies. This is precisely the season associated with beauty of the moon (<foreign>vidhu</foreign>) due to its proverbial clear skies. The idea rather seems to be that the autumn moon itself would be eclipsed by the king.</note>
+            </app>     
+            </p>
+         </div>
+         <div type="translation">
+            <p>Having restored here the place of worship for the primordial poet and great[est] sage  of the earth, Vālmīki, from whose anguish was born the verse that Brahmā praised, (and) who has composed the complete, ... (<foreign>abhisādhana</foreign>?) acts of Rāma, the human own/bodily form of the ancient male, Viṣṇu, this king Prakāśadharman, who subdues all (worldly and internal) foes, who is cherished by the world (or: the goddess Earth), being endowed with the virtues of knowledge, power, forbearance, wealth, fame, and patience, is victorious as the beloved of [all] creatures, the autumnal moon having been eclipsed (by his glory)!</p>
+         </div>
+         <div type="commentary">
+            <p>The text alludes to, and even directly replicates phrases from, the Bālakāṇḍa of <ref><seg type="check">Vālmīki's Rāmāyaṇa</seg></ref>. See the observations of <bibl><ptr target="cic-bibl:mus-1928"/></bibl>. The new reading of stanza II presented here adds significantly to the extent of our poet's dependence on Vālmīki, and simultaneously removes the need to presume, as did Mus, that Vālmīki is being identified as Viṣṇu. For the significance of the expression <foreign>arigaṇa</foreign>, see the commentary on <ref target="C0137.xml">C. 137</ref>. Since the word <foreign>pūjāsthāna</foreign> in the inscriptions of Prakāśadharman seems to refer each time either to the inscribed pedestal itself or to the place where that pedestal was installed, we cannot follow the reasoning in <ptr target="cic-bibl:tkp-2000"/> identifying this ‘place of worship’ as the different and more famous pedestal from Trà Kiệu that is decorated with elaborate sculptural reliefs.</p>
+            <p>If <foreign>abhisādhanaṃ</foreign> is indeed the correct reading, perhaps it can be understood either as an adjective with the sense 'propitiating' (cf. Monier-Williams s.v. <foreign>abhisidh</foreign>) or as a noun, 'propitiation', in apposition to <foreign>caritaṃ</foreign>. We therefore tentatively propose interpreting this quarter-verse to mean: 'who composed, [as an act of] worship/propitiation, the complete Acts of Rāma'.</p>
+         </div>
+         <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl xml:id="claeys-1927"><ptr target="cic-bibl:claeys-1927"/>: <biblScope>478</biblScope>.</bibl>
+               <bibl xml:id="BCAI"><seg type="check">BCAI</seg> 1917-30, 56.</bibl>
+               <bibl xml:id="tkp-2000"><ptr target="cic-bibl:tkp-2000"/>: 55-56.</bibl>
+               <!-- <bibl xml:id="ECIC-III"><ptr target="cic-bibl:ECIC-III"/>: 447.</bibl> -->
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

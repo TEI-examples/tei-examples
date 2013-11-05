@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lintel from Phan Rang</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Amandine Lepoutre</editor>
+            </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0003</idno>
+            <!-- AG: c'est un cas où on pourrait penser à faire deux fichiers indépendants pour les deux inscriptions inscrites sur l'objet, mais pour le moment, moi aussi j'ai maintenu la règle "un no. C, un fichier". A revoir plus tard avec Tom. -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+<sourceDesc>
+   <msDesc>
+      <msIdentifier>
+         <institution>EFEO</institution>
+         <idno xml:id="inv-general">C. 3</idno>                  
+            <altIdentifier type="majumdar-nr">
+               <idno xml:id="majumdar-nr">No. 89</idno>
+            </altIdentifier>
+         <altIdentifier type="museum-inventory">
+            <settlement>Hà Nội</settlement>
+            <repository>BTLS-QG</repository>
+            <idno xml:id="inv-btls-qg">LSb 21164</idno>
+         </altIdentifier>
+         <altIdentifier type="museum-inventory-former">
+            <settlement>Hanoi</settlement>
+            <repository>EFEO Museum</repository>
+            <idno xml:id="inv-efeo-hanoi">B 2, 17</idno>
+         </altIdentifier>
+      </msIdentifier>
+      <msContents>
+         <msItem>
+            <note> There are two distinct inscriptions on this stone: the first one was inscribed on two faces when the stone was used as a doorjamb (C. 3.1). When it was prepared to be re-used as a lintel, the original inscription was partially leveled and replaced by a new inscription (C. 3.2). The stone preserves the remains of 8 lines (front face) and 10 lines (right face) of the original inscription (C. 3.1). The new one (C.3.2) comprises 3 lines. Both text are </note> 
+            <textLang mainLang="x-OldCam-latn-CI">Old Cam in Old Cam script</textLang>
+</msItem>                                                                                                                                      
+      </msContents>
+      <physDesc>
+         <objectDesc>
+            <supportDesc>
+               <support>
+                  <p><objectType>Lintel</objectType>; <material>sandstone</material>;
+                     <dimensions unit="cm">
+                        <height>26</height>
+                        <width>203</width>
+                        <depth>55</depth>
+                     </dimensions>.</p>
+               </support>
+            </supportDesc>
+         </objectDesc>
+      </physDesc>
+      <history>
+         <origin>
+            <origPlace type="location">
+               <placeName ref="cic-geo:phan-rang">Phan Rang</placeName>
+             </origPlace>
+            <origDate>
+               Text 1: <date extent="C.3.1" calendar="Śaka">10<hi rend="superscript">th</hi> century</date>; 
+               Text 2: <date extent="C.3.2" calendar="Śaka" >1155</date>
+               <date extent="C.3.2" calendar="Julian" notBefore="1233" notAfter="1234">1233/4</date>
+               <!-- AG: is faudra ici distinguer les dates des deux inscriptions sur cet objet. Mais selon Tom, notre système d'encodage doit subir une nouvelle réflexion pour ces parties <msContents>, et <origDate>. --> 
+            </origDate>
+         </origin>
+         <provenance type="found" notAfter="1888">
+            <ab>This lintel was found before 1888, when it was first mentioned in the literature (<bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>88-89</biblScope></bibl>). According to this source, it was buried about 1 km from <placeName xml:id="findspot" type="modern" ref="campa-geo:cho-dinh-nt"><seg type="check">Cho Dinh</seg></placeName>, 
+               the principal market of Phan Rang along with the inscription <ref target="C0004.xml">C. 4</ref> (the same information was repeated in <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>57-58</biblScope></bibl>). In the absence of any other vestiges of a temple, 
+               <bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>91</biblScope></bibl> presumed these fragments to have been moved.</ab>
+            </provenance>
+         <provenance type="observed" notAfter="1909"> 
+            <ab>At the beginning of the 20<hi rend="superscript">th</hi> century, it was observed at the <placeName xml:id="origin" type="modern" ref="campa-geo:phan-rang">Phan Rang</placeName> residence (<bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>79-80</biblScope></bibl>). Like the architectural elements bearing <ref target="C0004.xml">C. 4</ref>, <ref target="C0005.xml">C. 5</ref>, <ref target="C0006.xml">C. 6</ref> and <ref target="C0007.xml">C. 7</ref>, this one was later identified as belonging to a group of vestiges, found in the rice-fields of the Catholic Mission, to which the designation <quote>sanctuaire de Svayamutpanna</quote> was applied (<bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>77</biblScope></bibl>).</ab>
+         </provenance> 
+         <provenance type="observed" when="1910">
+            <ab>When the inscriptions of Campā were moved from the Saigon Museum to the EFEO Museum in Hanoi in 1910, the collection was completed by other inscriptions regarded as being of outstanding importance for the history of Campā. The lintel bearing C. 3 was one of them (<bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>2</biblScope></bibl>).</ab>
+              </provenance> 
+         <provenance type="observed" when="1915">
+            <ab>Its inventory number <ptr target="#inv-efeo-hanoi"/> at the Museum was published in <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>10</biblScope></bibl>;
+               whence, in the inventory of Campā inscriptions published in 1923, this local number was
+               included under the entry <ptr target="#inv-general"/> (<ptr target="cic-bibl:coedes-1923"/>).</ab>
+              </provenance>
+         <provenance type="observed" notBefore="2009">
+            <ab>We identified the stone in the Bảo Tàng Lịch Sử Việt Nam (National Museum of Vietnamese History) at Hanoi in 2009 and following years, as the one bearing inventory number <ptr target="#inv-btls-qg"/>. The Museum assumed the new name Bảo Tàng Lịch Sử Quốc Gia (National Museum of History) in 2011, but this did not entail a change in the inventory number.</ab>
+         </provenance>
+      </history>
+      <additional>
+         <surrogates>
+            <msDesc n="estampage-uninked">
+               <msIdentifier>
+                  <repository>BnF</repository>
+                  <idno xml:id="BnF-est-382-43">382 (43)</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc n="estampage-uninked">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-1">1</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc n="estampage-inked" facs="#fac2-4">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-n145">n. 145</idno>
+               </msIdentifier>
+               <ab><note>There are three estampages under the number n. 145.</note></ab>
+            </msDesc>
+         </surrogates>
+      </additional>
+   </msDesc>
+</sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage"/></catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="20120815" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+         <change when="20120830" who="AG" xml:lang="en">comments on initial encoding</change>
+         <change when="20120922" who="AL" xml:lang="en">corrections and comments on the encoding</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0003_1_AG_2009.jpg">
+         <desc>Photograph, with scale, of inscription <ptr target="#inv-general"/>. Taken in the Hanoi Museum by Arlo Griffiths on <date when="20090917"></date>.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0145_bis_1_A.jpg">
+         <desc>Photograph of an EFEO estampage under n. 145 (1/3), showing the upper part of C. 3.1.</desc>
+      </graphic>
+      <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n0145_bis_1_B.jpg">
+         <desc>Photograph of an EFEO estampage under n. 145 (2/3), showing the lower part of C. 3.1 and the left part of C. 3.2.</desc>
+      </graphic>
+      <graphic xml:id="fac4" url="../images/inscriptions/EFEOB-est.n0145_2.jpg">
+         <desc>Photograph of an EFEO estampage under n. 145 (3/3), showing C. 3.2.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>A few words were read in <bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>88-89</biblScope></bibl> and translated into French in <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>57-58</biblScope></bibl>. The inscription was studied in <bibl><ptr target="cic-bibl:jacques-1976"/>: <biblScope>989-991</biblScope></bibl>, but was integrally published for the first time <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>443-445</biblScope></bibl> (cited in <bibl><ptr target="cic-bibl:ECIC-IV"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>), whence the present edition.</ab>
+         </div>
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines">
+            <div type="textpart" n="1A">
+               <head xml:lang="en">C. 3.1 A</head>
+               <ab>
+<lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/> tā niy· tuy·
+<lb n="2"/> <gap reason="lost" extent="unknown" unit="character"/> hajai 'yā ri cā
+<lb n="3"/> <gap reason="lost" extent="unknown" unit="character"/> manrauṅ· sā ha
+<lb n="4"/> <gap reason="lost" extent="unknown" unit="character"/> <unclear>hu</unclear>luv· kraum̃
+<lb n="5"/> <gap reason="lost" extent="unknown" unit="character"/> naḥ luvaiḥ pau 
+<!--  <lb n="6"/> <gap reason="lost" quantity="1" unit="line"/> -->
+<lb n="6 through -3"/> <gap reason="lost" quantity="14" unit="line"></gap>
+<lb n="-2"/> <gap reason="lost" extent="unknown" unit="character"/> ntāna nai <unclear>ugra</unclear>
+<lb n="-1"/> <gap reason="lost" extent="unknown" unit="character"/> jma manataḥ ya
+            </ab>
+            </div>
+         </div>
+         <div type="apparatus">
+         <head xml:lang="en">C. 3.1 A</head> <!-- AL: It does not appear on the htmls version but if we manage to get the apparatus under each part of the text, no need.-->
+            <ab>
+               <app loc="2">
+                  <lem>'yā</lem>
+                  <note>as far as we know, this is the only attestation in the epigraphical corpus of the word with the idiosyncratic spelling <foreign>'yā</foreign>, meaning 'water', that is preserved also in later Cam manuscripts (see <bibl><ptr target="cic-bibl:GRC-1977"/>: <biblScope>250</biblScope></bibl>).
+                     <!-- AG: why is an extra period inserted in transform here? -->
+                     <!-- ADD IN A GENERAL INTRODUCTION : Here, without prejudice to the phonetic value of this ligature, we adopt the notation apostrophe + consonant used by the CIK program for the same ligature very common in the Khmer corpus (see: <bibl><ptr target="cic-bibl:Griffiths-2005"/>: <biblScope>15-16</biblScope></bibl>).-->
+                     <!-- AG: I have removed this because it is the kind of observation that needs to be made in a general introduction, and anyhow the reader can look up our printed edition. --></note> 
+               </app>
+            </ab>
+         </div>
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines">
+            <div type="textpart" n="1B"> 
+               <head xml:lang="en">C. 3.1 B</head>
+            <ab>
+<lb n="1"/> <pc type="circle-in-circle">⦾</pc> na <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/> dre<choice><unclear>g</unclear><unclear>bh</unclear></choice>ya<choice><unclear>ḥ</unclear><unclear>na</unclear></choice><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/> nāpa <unclear>mam̃</unclear><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="4"/> ṅyak· <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5"/> thun· <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6 through -6"/> <gap reason="lost" quantity="12" unit="line"></gap>              
+<!-- <lb n="-6"/> <gap reason="illegible" quantity="1" unit="line"/>  -->
+<lb n="-5"/> ya rāja di <unclear>na</unclear><supplied reason="lost">gara</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="-4"/> dunan· mam̃ <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="-3"/> tva<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="-2"/> ru<unclear>pa</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+<lb n="-1"/> niy<unclear>·</unclear> <gap reason="lost" extent="unknown" unit="character"/>            
+            </ab>
+            </div>
+             </div>
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+             <div type="textpart" n="2">
+                <head xml:lang="en">C. 3.2</head>
+             <ab>
+<lb n="1"/> <g type="quatrefoil"/> svasti <g type="quatrefoil"/> yām̃ pom̃ ku śrī jaya parameśvaravarmmadeva dunan· yaḥ senāpatī yām̃ pu rāmadeva pu pom̃ tana rayā nan· rajan· sthāpanā                    
+<lb n="2"/> rūpa pak· yām̃ pov· ku svayamutpanna nī prayojana bhanaktī dadam̃n· kāla <pc><unclear>|</unclear></pc>
+                śakarāja <date>1155</date> vuḥ kvir· 9 drim̃ syaṃ 22 drim̃ pukāṃ sā līmā
+<lb break="no" n="3"/>n· lakiy· sā ṅan· kvir· icauv· sā bhaṇḍāra glai trya drim̃ ñaum̃ mahendrapura | yām̃ <unclear>n</unclear>ī nāma yām̃ pom̃ ku śrīpa<unclear>t</unclear>īśvara   
+             </ab> 
+             </div> 
+            </div>
+            <div type="apparatus">
+               <head xml:lang="en">C. 3.2</head>
+            <ab>
+               <app loc="2">
+                  <lem>kāla <pc><unclear>|</unclear></pc></lem>
+                  <note>instead of a punctuation mark, one could read here the <foreign>visarga</foreign> sign. But the almost exact parallel in <ref target="C0092.xml">C. 92</ref>, face A, ll. 8–10 (<foreign>urām̃ ya bhakti sadākāla ... ni prayojana samr̥ddhi bhanakti dadam̃n· kāla</foreign>|, we have checked the text from the EFEO estampage n. 340) leads us to favor reading the <foreign>daṇḍa</foreign> sign. It also seems to offer, with <foreign>urām̃ ya bhakti sadākāla</foreign> 'man who is devoted at all times', a gloss of the expression <foreign>bhanakti dadam̃n· kāla</foreign>, found in those two inscriptions.</note>
+                   </app>
+               <app loc="3">
+                  <lem>tryā drim̃</lem>
+                  <note>we initially read <foreign>tryam̃ dri</foreign>, but if we read <foreign>anusvāra-ardhacandra</foreign> on the second syllable, we at least obtain one known word.</note>
+               </app>
+               <app loc="3">
+                  <lem>śrīpa<unclear>t</unclear>īśvara</lem>
+                  <note>judging by the inked estampage, it would seem that there is a character between <foreign>pa</foreign> and <foreign><unclear>t</unclear>ī</foreign>, and indeed <bibl><ptr target="cic-bibl:jacques-1976"/>: <biblScope>989</biblScope></bibl> has read Saratīśvara. But based on our inspection of the stone, we are certain that nothing is inscribed here.</note>
+               </app>
+            </ab>
+         </div>    
+         <div type="translation" xml:lang="en">
+            <div type="textpart" n="2"> <!-- AL: I've added  <div type="textpart"> to center the head-->
+            <head xml:lang="en">C. 3.2</head>
+            <ab>Hail ! Y.P.K. Śrī Jaya Parameśvaravarmadeva, while he was still (<foreign>dunan yaḥ</foreign>?) general, the illustrious Rāmadeva, this P.P.T.R. has carried out the installation of an image for Y.P.K Svayamutpanna, to the benefit of devotees at various times. [In the year] of the Śaka king 1155: 
+               he has offered Khmers, 9 persons; Siamese, 22 persons; a Paganese; a male elephant with a Khmer as master; a forest property <foreign>trya ; person-soak-Mahendrapura</foreign>. This god is called Y.P.K. Śrīpatīśvara.</ab>  
+             </div>
+         </div>
+         <div type="translation" xml:lang="fr">
+            <div type="textpart" n="2">
+            <head xml:lang="fr">C. 3.2</head>
+            <ab>Salut ! Y.P.K. Śrī Jaya Parameśvaravarmadeva, alors qu’il était encore (<foreign>dunan yaḥ</foreign>?) général, l’illustre Rāmadeva, ce P.P.T.R. a effectué l’érection d’une image pour Y.P.K. Svayamutpanna, pour le profit des dévots à diverses époques. [En l’année] 1155 du roi des Śaka : [il] a donné des Khmers, 9 personnes ; des Siamois, 22 personnes ; un Paganais  ; un éléphant mâle avec un Khmer comme maître ; un domaine de forêt <foreign>trya ; personne-tremper-Mahendrapura</foreign>. Ce dieu s’appelle Y.P.K. Śrīpatīśvara.</ab>
+         </div>
+         </div>
+         <div type="commentary">
+            <ab>The estimation of the number of lost lines is based on calculation of an average of 9 cm per line; 103 cm between the top of the l. 6 and the one called -5 (C. 3.1 B).</ab>
+            <ab>this estimation of 14 missing lines on C. 3.1 A is based on calculation of an average of 8 cm height per line from lines 1 to 5, and of a 114 cm space between the top of the l. 6 and the top of the first bottom line. As the exact number of lost lines in uncertain, bottom lines are numbered negatively.</ab>
+         </div>
+         <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>79-80</biblScope>.</bibl>
+               <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>2 and 10</biblScope>.</bibl>
+               <bibl><ptr target="cic-bibl:parmentier-1918"/>: <biblScope>77</biblScope>.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

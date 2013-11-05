@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stela at Po Gha cave</title>
+                <editor>Arlo Griffiths</editor>
+                <editor>Amandine Lepoutre</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0223</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 223</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>While the lateral face shows only two sequences of numbers, the principal face of the stela is engraved with five lines</note>
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Small <objectType>stela</objectType>; <material>sandstone</material>; we have not recorded its dimensions.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName ref="cic-geo:po-gha">Po Gha</placeName>
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">1170</date>
+                                <date calendar="Julian" notBefore="1248" notAfter="1249">1248/9</date>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1992">
+                            <ab>The stela was found before 1992, with <ref target="C0221.xml">C. 221</ref> and <ref target="C0222.xml">C. 222</ref>.</ab>
+                        </provenance>
+                        <provenance type="observed" when="2009">
+                            <ab>In 2009, we observed it still <foreign>in situ</foreign> (see <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>466-475</biblScope></bibl>).</ab>
+                        </provenance>
+                    </history> 
+                    <additional>
+                        <surrogates>
+                            <msDesc n="estampage-inked" facs="#fac2">
+                                <msIdentifier >
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo.n1888">n. 1888</idno>
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2012-08" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0223_AG_2009.jpg">
+            <desc>Photograph of the stela bearing inscription <ptr target="#inv-general"/>. Taken at the Po Gha cave by Arlo Griffiths on <date when="20091014"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n1888.jpg">
+            <desc>Photograph of EFEO estampage n. 1888.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <ab>The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>473</biblScope></bibl>.</ab> 
+           </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines"> 
+                <head xml:lang="en">Anterior</head>
+                <ab> 
+                    <lb n="1"/> <pc>◦</pc> pom̃ pañca aum̃ 
+                    <!-- AG I had replaced ◦ by ◯, but the latter is really too big. -->
+                    <lb n="2"/> raghujaḥ urām̃ pāṇḍu
+                    <lb break="no" n="3"/>rāṅgeśvara 
+                    pajem̃ guhā
+                    <lb n="4"/> niy· kāla śakarā
+                    <lb break="no" n="5"/><unclear>ja</unclear>
+                    1170
+                </ab>
+            </div>
+            <!-- AG: I think simply a new textpart should be enough here, within one <div type="edition">. Do we need to repeat that? -->
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines">
+                <head xml:lang="en">Lateral</head>
+                <ab>
+                    <lb n="1"/>1169
+                    <lb n="2"/>1170
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p> Lord <foreign>pañca</foreign> Mr. Raghujaḥ, man of Pāṇḍuraṅgeśvara, has established this cave. In [the year of the] Śaka king 1170.</p> 
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p> Le seigneur <foreign>pañca</foreign> monsieur Raghujaḥ, homme de Pāṇḍuraṅgeśvara, a établi cette grotte. En [l'année] 1170 du roi des Śaka.</p>
+            </div> 
+            <div type="commentary">
+                <p>We assume that the numbers engraved on the lateral face, of which the second seems to correspond to the one on the principal face, are trials by the lapicide.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

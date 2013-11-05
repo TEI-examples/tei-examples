@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Southern wall of the vestibule of the northwestern tower of Po Nagar</title>
+                <editor>Arlo Griffiths</editor>
+                <editor>Amandine Lepoutre</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0037</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 37</idno>
+                        <altIdentifier type="majumdar-nr">
+                            <idno xml:id="majumdar-nr">No. 25</idno>
+                        </altIdentifier>
+                        <altIdentifier type="site-inventory">
+                            <settlement>Po Nagar</settlement>                            
+                            <idno xml:id="inv-po-nagar">Inscription engraved on the southern wall of the hall of the northwestern tower.</idno> <!-- AL: there is no number. Do you think it is necessary to add this here or we just skip this part? -->
+                        </altIdentifier>    
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>Eleven lines engraved on the southern wall of the vestibule of the northwestern tower of Po Nagar temple.</note>
+                            <textLang mainLang="sa-x-OldCam">Old Cam in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Wall</objectType>;
+                                        <material>brick</material>.</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs type="execution" key="scalpro">Inscribed</rs> on a surface measuring
+                                    <dimensions unit="cm"> 
+                                        <height>83</height>
+                                        <width>55.5</width> 
+                                    </dimensions>.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName ref="cic-geo:po-nagar-nha-trang">Po Nagar at Nha
+                                    Trang</placeName> 
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">935</date>
+                                <date calendar="Julian" notBefore="1013" notAfter="1014">1013/4</date>
+                            </origDate>
+                        </origin>
+                    <provenance type="found" notAfter="1888">
+                        <ab>This inscription was found <foreign>in situ</foreign> before 1888, when it was first mentioned in <bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>76-77</biblScope></bibl>.</ab>
+                            </provenance>
+                       <provenance type="observed" notAfter="2009">
+                           <ab>We identified the inscription on the temple site in 2009.</ab>   
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>     
+                            <msDesc n="estampage-uninked">
+                                <msIdentifier>
+                                    <repository>BnF</repository>
+                                    <idno xml:id="BnF-est-410-46">410 (46)</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-uninked">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-23">23</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-inked" facs="#fac2">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n0238">n. 238</idno>
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                    <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                       </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="20120815" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0037_AG_2009.jpg">
+            <desc>Photograph of brick wall bearing inscription <ptr target="#inv-general"/>. Taken at Po Nagar by Arlo Griffiths on <date when="20091009"/>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0238_bis.jpg">
+            <desc>Photograph of EFEO estampage under n. 238.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <p>Figures have been read in <bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>76-77</biblScope></bibl>; partially translated into French, in <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>23-24</biblScope></bibl>; whence, summarized in English, in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>61</biblScope></bibl>; whence <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>52</biblScope></bibl> and again with French translation in <bibl><ptr target="cic-bibl:schweyer-2005a"/>: <biblScope>116</biblScope></bibl>. The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>462-463</biblScope></bibl> where we have re-edited the text from the inked EFEO estampage.</p>
+            </div>
+            <div type="edition" xml:lang="sa-Latn-x-CI" xml:space="preserve" rend="break-none">
+            <ab>
+     <lb n="1-4"/> <gap reason="lost" quantity="4" unit="line"/>
+     <lb n="5"/> di śakarāja 935 nī
+     <lb n="6"/> niy· kāla rāja yām̃ pov ku vijaiya śrī
+     <lb n="7"/> harivarmmadeva putau di nagar· caṃpā ma
+     <lb break="no" n="8"/>ṅ· rūlauy· patam̃l· ādipurvva senāpatī
+     <lb n="9"/> pam̃r· rauṅ· dauk· jā paliy· manicya
+     <lb n="10"/> sanā dauk· di panrāṅ· punaḥ ca
+     <lb break="no" n="11"/>patī vuḥ pu pov<unclear>·</unclear> an<unclear>ai</unclear>ḥ           
+            </ab>
+            </div>
+            <div type="apparatus">
+                <ab>
+                    <app loc="5">
+                        <lem>935</lem>
+                        <rdg resp="Schweyer">735.</rdg>
+                    </app>
+                    <app loc="5-6">
+                        <lem>nī niy·</lem>
+                        <note>as suggested by the text of C. 125 (edition and traslation in <bibl><ptr target="cic-bibl:schweyer-2005a"/>: <biblScope>116</biblScope></bibl>), which is almost entirely identical, the notation <foreign>nī niy·</foreign> is probably a kind of dittography.</note>
+                    </app>
+                    <app loc="6">
+                        <lem>kāla</lem>
+                        <rdg resp="Schweyer">kala</rdg>
+                        <note>perhaps a typo.</note>
+                    </app>
+                    <app loc="6">
+                        <lem>pov ku vijaiya</lem>
+                        <rdg resp="Schweyer">poṅ ciyei viśajaya</rdg>
+                        <note>with regards to the shape of the writing <foreign>ai</foreign>, which A.-V. Schweyer did not recognized, see C. 3.1 part A, ll. 2, 5 and -2 and l. 11 of the present inscription.</note>
+                    </app>
+                    <app loc="8">
+                        <lem>maṅ·</lem>
+                        <rdg resp="Schweyer">mad</rdg>
+                        <note>the use of the synonym <foreign>nariy</foreign> "since" in the parallel inscription C. 125 confirms what is graphically clear, namely that the reading must be <foreign>maṅ</foreign>.</note> 
+                    </app>
+                    <app loc="8">
+                        <lem>patam̃l· ādipurvva</lem>
+                        <rdg resp="Schweyer">patāl ādi pūrvva</rdg>
+                    </app>
+                    <app loc="9">
+                        <lem>pam̃r· rauṅ·</lem>
+                        <rdg resp="Schweyer">pārrauṅ</rdg>
+                    </app>
+                    <app loc="10">
+                        <lem>sanā</lem>
+                        <rdg resp="Schweyer"><supplied reason="lost">di nagara</supplied>sanā</rdg>
+                        <note>in front of <foreign>sanā</foreign>, one can see some marks of letters diligently released. Concerning the word <foreign>sanā</foreign>, we speculate that it corresponds to the Malay word <foreign>sana</foreign> "there" (written <foreign>sāna</foreign> in Old Malay, see: <bibl><ptr target="cic-bibl:vikør-1988"/>: <biblScope>69 and 82</biblScope></bibl>). Given the possible presence of an <foreign>anusvāra-candra</foreign> above <foreign>nā</foreign>, one can also read <foreign>sanām̃</foreign> "glad, pleased" (<bibl><ptr target="cic-bibl:AC-1906"/>: <biblScope>474</biblScope></bibl>).</note>
+                    </app>
+                    <app loc="10-11">
+                        <lem>capatī</lem>
+                        <rdg resp="Schweyer"><supplied reason="lost">se</supplied>nāpatī</rdg>
+                        <note>line 10, we do not see any signs before <foreign>patī</foreign>; the last visible sign line 10, neglected by Schweyer, seems to be a <foreign>ca</foreign>.</note>
+                    </app>
+                    <app loc="11">
+                        <lem>pov<unclear>· </unclear>an<unclear>ai</unclear>ḥ</lem>
+                        <rdg resp="Schweyer">pāv <supplied reason="lost">·</supplied> janaḥ</rdg>
+                        <note><bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>76</biblScope></bibl> had read at the end of the text <quote>une addition postérieure avec trois chiffres, apparemment encore une date, que je lis 824</quote>. After Bergaigne, researchers considered that there is no addition, and we are of the same opinion.</note>
+                    </app>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>In [the year] of the Śaka king 935. This was the time when Y.P.K the victorious Śrī Harivarmadeva ruled the country of Campā from Rūlauy to the Far East; where Paṅrauṅ; where Paṅrauṅ (native) of Dauk Jā in the area (<foreign>paliy</foreign>) of Manicya was general there; where (the latter) was at Panrāṅ: where he restored (<foreign>punaḥ</foreign>) the <foreign>capatī</foreign> and gave (the image of) his highness the little [goddess].</p> 
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>En [l'année] 935 du roi des Śaka. Ceci fut le temps où Y.P.K. le victorieux Śrī Harivarmadeva régnait dans le pays du Campā depuis Rūlauy jusqu'à l'extrême-orient; où Paṅrauṅ (originaire) de Dauk Jā dans l'agglomération (<foreign>paliy</foreign>) de Manicya fut général là-bas; où (ce dernier) siégeait à Panrāṅ: où il a restitué (<foreign>punaḥ</foreign>) le <foreign>capatī</foreign> et donné (l'image de) son altesse la petite [déesse].</p>
+                            </div> 
+            <div type="commentary">
+                <p>Due to paleographical reasons, and others link to the kind of formulary it uses, it seems impossible that the commonly accepted date (735 <foreign>Śaka</foreign>), which correspond to the first quarter of the 9th century AD, is correct (see <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>481-487</biblScope></bibl>).</p>
+                <p>Our inpertretation of Dauk Jā as a toponym is based on parallel with the sanskrit inscription C. 31 C2 (engraved not on the hall's south wall <bibl><ptr target="cic-bibl:schweyer-2005a"/>: <biblScope>104</biblScope></bibl> but on the interior face of the north doorjamb of Po Nagar temple's main tower in Nha Trang), l. 9: <foreign>daukjāmahāgrāme</foreign>.</p>
+                <p>In order to find out which object <foreign>capatī</foreign> designates, one note that C. 125 and C, 37 are parallels, except for the (purpose of) the registred deed. Following <bibl><ptr target="cic-bibl:schweyer-2005a"/>: <biblScope>116</biblScope></bibl>, the latter is <foreign>vuḥ kalañ niy</foreign> in C. 125. This reading reminds her an architectural term <foreign>kalan</foreign> (<bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>17</biblScope></bibl>). 
+                    Then, she translated <quote>je donne cette tour [<foreign>kalan</foreign>]</quote>, assimilating <foreign>kalan</foreign> with <foreign>kalañ</foreign>. As we read <foreign>vuḥ kalañca niy·</foreign>, there is no reason to believe that <foreign>capatī</foreign> is un architectural element. Hypothetically, one can attempt to correlate (either by changing the reading or by implying a linguistic change in the History of Cham language (where fluctuations of <foreign>t</foreign>/<foreign>k</foreign> at the end of a word are known) between this word and <foreign>capak</foreign>/<foreign>cāpak</foreign> "betel box" in modern Cham (<bibl><ptr target="cic-bibl:AC-1906"/>: <biblScope>124</biblScope></bibl>).The donation/restitution of such an object, used for the deity cult, is wellknown in the epigraphy of South and Southeast Asia. Potentially, <foreign>kalañca</foreign> evokes the sanskrit word <foreign>kalaśa</foreign> "ewer", but we will not getting into this identification.</p>
+            </div>
+        <!--   <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <bibl><ptr target="cic-bibl:schweyer-2005b"/>: <biblScope>39 and 41</biblScope>.</bibl>
+                </listBibl> 
+              </div>     -->
+        </body>
+    </text>
+</TEI>

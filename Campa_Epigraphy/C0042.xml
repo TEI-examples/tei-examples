@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Statue of Śiva mounted on his Bull from Drang Lai</title>
+            <editor>Arlo Griffiths</editor>
+            <editor>Amandine Lepoutre</editor>
+            </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0042</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+<sourceDesc>
+   <msDesc>
+      <msIdentifier>
+         <institution>EFEO</institution>
+         <idno xml:id="inv-general">C. 42</idno>  
+         <altIdentifier type="majumdar-nr">
+            <idno xml:id="majumdar-nr">No. 118</idno>
+            </altIdentifier>
+         <altIdentifier type="museum-inventory">
+            <settlement>Boston</settlement>
+            <repository>Museum of Fine Art</repository>
+            <idno xml:id="inv-MFA">acc. nr. 1986.331</idno>
+         </altIdentifier>
+         <altIdentifier type="museum-inventory-former">
+            <settlement>Tourane</settlement>
+            <repository>EFEO Museum</repository>
+            <idno xml:id="inv-tourane">3,16</idno>
+         </altIdentifier>
+      </msIdentifier>
+      <msContents>
+         <msItem>
+            <note>Fourteen lines on one face</note>
+            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+         </msItem>
+      </msContents>
+      <physDesc>
+         <objectDesc>
+            <supportDesc>
+               <support>
+                  <p>Back of a <objectType>sculptural stela</objectType> of Śiva seated on his Bull; <material><seg type="check">sandstone</seg></material>; we have not had occasion to record dimensions, but <bibl><ptr target="cic-bibl:parmentier-1909"/>: 563</bibl> recorded:
+                     <dimensions unit="cm">
+                        <height>57</height>
+                        <width>60</width>
+                        <!-- <depth>...</depth>   hauteur, 0 m. 57; lon-gueur, 0 m. 60;-->
+                     </dimensions>.</p>
+               </support>
+            </supportDesc>
+         </objectDesc>
+      </physDesc>
+      <history>
+         <origin>
+            <origPlace type="location">
+               <placeName type="modern" ref="cic-geo:drang-lai">Drang Lai</placeName>
+             </origPlace>
+            <origDate>
+               <date calendar="Śaka">1331</date>
+               <date calendar="Julian" notBefore="1409" notAfter="1410">1409/10</date>
+            </origDate>
+         </origin>
+         <provenance>
+            <p>The first publications referring to this inscription mention it at a place called Cheo Reo, which then fell administratively in Phú Yên. Cheo Reo is the old name for the town (<foreign>thị xã</foreign>) of Ayun Pa, in the modern province of Gia Lai. While Finot referred to it as “inscription of Cheo Reo”, and was followed in this by several subsequent authors, the inscription has also been known as the Yang Mum stela, after the more famous shrine to which it was moved after it was discovered. But Prosper Odend’hal ascertained from local informants that the inscription had been moved to that shrine from another one, called Drang Lai. The inscription must properly be named after its original provenance.</p>
+         </provenance>
+         <provenance type="found" notAfter="1901">
+            <ab>The inscription was first mentioned in a report, based on observations of <quote>an annamite</quote>, from missionary J.-B. Guerlach cited in BEFEO 1 (1901), p. 413.</ab>
+         </provenance>
+         <provenance type="observed" when="1902">
+            <ab>It was observed again by a certain Stenger (see BEFEO and 2 (1902), p. 227); presence at “Cheo Reo” described by <bibl><ptr target="cic-bibl:parmentier-1902"/>: 282</bibl>; proper provenance ascertained by Prosper Odend’hal in 1903 (see <bibl><ptr target="cic-bibl:finot-1904b"/>: 535</bibl>). The stela was described in <bibl><ptr target="cic-bibl:parmentier-1909"/>: 562-563</bibl>.<note>Two published photographs show the stela when it was placed at the temple of Yang Mum: fig. 129 on <bibl><ptr target="cic-bibl:parmentier-1909"/>: 561</bibl> and photo 181 in <bibl><ptr target="cic-bibl:ghesquiere-2005"/></bibl>.</note></ab>
+         </provenance>
+         <provenance type="observed" when="1927">
+        <ab>It was received at the EFEO Museum in Tourane in 1927, as reported in BEFEO 27, p. 460.<note><quote>Le Musée a reçu par les soins du Résident de Kontum les sculptures et inscriptions provenant de Draṅ-lai et de Yaṅ Mum qui avaient été groupées à la Résidence. C’est ainsi que la grande statue de Çiva qui trônait sur l’autel du temple de Yaṅ Mum (<hi rend="italic">IC.</hi>, I, p. 561), le Çiva sur Nandin, le petit Çiva assis devant un chevet inscrit au dos, et la stèle inscrite sur trois faces (<hi rend="italic">ibid.</hi>, p. 562, Liste Cœdès, C. 42-43), ces trois dernières pièces provenant de Draṅ-lai, ont trouvé au Musée un asile plus sûr que celui qu’il avait été possible de leur assurer jusqu’ici.</quote></note>
+            </ab>
+            </provenance>
+         <provenance type="observed" when="1986">
+            <ab>The stela was removed from the Museum under unknown circumstances at an unknown point of time, no doubt during the turbulent period between WW II and Vietnamese reunification in 1975. It resurfaced when it was acquired by the Museum of Fine Art in Boston (USA) in 1986, where it was recorded under <ptr target="#inv-MFA"/>.</ab> </provenance>
+      </history>
+      <additional>
+         <surrogates>                       
+            <msDesc n="estampage-uninked">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-266">266</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc n="estampage-inked" facs="#fac3">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-n509">n. 509</idno>
+               </msIdentifier>
+            </msDesc>
+         </surrogates>         
+      </additional>
+   </msDesc>
+</sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage"/></catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+                  <!-- ARLO: don't think there will be any -->
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <!-- ARLO: note that I have modified the name of the project. Can we copy this to all pre-filled-in files in the future? -->
+            <!-- T: of course -->
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2012-05-25" who="AG" xml:lang="en">first attempt at porting all the relevant
+            data for this inscription into xml format</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/SC274531.jpg">
+         <desc>Photograph of the sculptural stela whose back bears inscription <ptr target="#inv-general"/>. Provided by the Museum of Fine Arts in 2012. Reproduced by permission.</desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/SC274532.jpg">
+         <desc>Photograph of inscription <ptr target="#inv-general"/>. Provided by the Museum of Fine Arts in 2012. Reproduced by permission.</desc>
+      </graphic>
+      <graphic xml:id="fac3" url="../images/inscriptions/EFEOB-est.n0509.jpg">
+         <desc>Photograph of EFEO estampage n. 509.</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>Mentioned by <bibl><ptr target="cic-bibl:majumdar-1927"/>: 223, no. 118</bibl>, whence by <bibl><ptr target="cic-bibl:golzio-2004"/>: 199</bibl>.<note>The information published by Golzio is at least eight decades outdated with regard to the location of the inscription, and even his source Majumdar was already wrong in stating that the inscription is <quote>mutilated</quote>. In fact the inscription is very well preserved.</note> About half of the text was edited, without translation, in <bibl><ptr target="cic-bibl:schweyer-2008a"/>: 227</bibl>. This first complete reading of the inscription was done from photographs provided by the Museum of Fine Art and the EFEO estampage.<note>This estampage has been reproduced as fig. 8 (p. 43) in <bibl><ptr target="cic-bibl:schweyer-2005b"/></bibl>.</note>
+            </ab>  
+         </div>  
+         <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines">
+                <ab>
+<lb n="1"/> sidaḥ yām̃ pov ku śrī bhṛ
+<lb break="no" n="2"/> ṣuviṣṇujāt<unclear>t</unclear>i vīrabhadravṛrmmadeva ā
+<lb break="no" n="3"/> dīnāma pom̃ cim̃ <seg type="check">ṇan·</seg> thām̃ amā pu pom̃ ku
+<lb n="4"/> urām̃ paramapūra ṅauk· glaum̃ vijaya pajaḥ parok·
+<lb n="5"/> glai hayāv· pavam̃k· kraum̃ hayāv· parok· glai ṅap· jem̃
+<lb n="6"/> humā <seg type="check">bhām̃</seg> ya doṃ yvan· si pu pom̃ ku mak di nagara yvan<unclear>·</unclear> vā
+<lb n="7"/> rai vuḥ <seg type="check">papamṛm̃m̃</seg> yām̃ pu inā ja siddhi pu pom̃ ku yvā vrim̃ kire
+<lb break="no" n="8"/> ndra dvā pluḥ kukum̃ ka pu pom̃ ku gvac· <pc>|</pc> ṅan· ya doṃ mahnākire
+<lb break="no" n="9"/>ndra vukam̃n· ya syāṃ rūpa ka pu pom̃ ku gvac· madā do<supplied reason="lost">ṃ</supplied> pramānna
+<lb n="10"/> pada<unclear>m̃</unclear>ṅ· rumaḥ vrim̃ nāma śrīsamṛm̃ddhipurī <seg type="check">pakṛ<unclear>m̃</unclear></seg>tta kutī dakṣinā
+<lb break="no" n="11"/> gni harmya nan· vrim̃ śilpakāra <pc>|</pc> rijan· śivaprathimānna pyauḥ bha
+<lb break="no" n="12"/> nakti prathidinna di loka ṅan· paraloka dudim̃ nau <pc>|</pc> mayvā di pu p
+<lb break="no" n="13"/> om̃ tana rayā dudim̃ ya dṛm̃ṅ· rāja jmai paliṅyak· rājadharmma
+<lb n="14"/> 1331
+                </ab>
+            </div>
+   <!--      <div type="apparatus">
+            <ab>
+              TO BE FILLED IN
+              </ab>
+         </div> -->
+         <div type="translation" xml:lang="en">
+            <p> It is Y.P.K. Śrī Bṛṣuviṣṇujāti Vīrabhadravarmadeva. The original name of that (<foreign>ṇan</foreign>?) prince, like his father, P.P.K., is Man of Paramapūra Ṅauk Glauṅ Vijaya. 
+               He cleared and cut down the forest of Hayāv (‘Fish’?). He dammed the Hayāv river. He cut down the forest. He made the ricefields become dry (<foreign>bhaṅ</foreign>?). All the Viets whom P.P.K. captured in the land of the Viets, he brought [them] here and gave [them] as <foreign>papamṛm̃</foreign> (cf. Old Khmer <foreign>pamre</foreign>?) to Milady the Mother who is successful. P.P.K. as guest (yvā?) gave twenty <foreign>kirendra</foreign> (‘montagnards’? correct <foreign>mahnākirendra</foreign>?) which/who(m) (<foreign>kukum̃ = kum̃</foreign>?) to P.P.K. <foreign>gvac</foreign> <seg type="check">(ignore the punctuation |)</seg> together with all the other mahnākirendras who were beautiful in appearance to P.P.K. <foreign>gvac</foreign> present <seg type="check">in</seg> all provinces. He erected a palace giving it the name Śrīsamṛddhipurī. He had made (<foreign>pakṛm̃tta = pa-kṛta</foreign>, causative prefix on Sanskrit form kṛta meaning ‘made’?) a chamber for the south fire of that stronghold. He instructed an artisan to make a statue (<foreign>prathimānna = pratimā</foreign>?) of Śiva. 
+               [He admonished the population:] Let there be worship every day, with a view to (the prosperity of all and sunder in) the world [here] and later in the next world! Go <seg type="check">(ignore the punctuation |)</seg> as guests to their majesties in the future who will hold the kingdom (<foreign>rāja = rājya</foreign>)! Do not destroy the king’s foundation. 
+               [Engraved in the Śaka year] 1331.
+            </p>
+         </div>
+         <div type="commentary">
+            <p>The punctuation sign | apparently has to be ignored in order properly to break down the text. Comparison with the opening of inscriptions such as <ref target="C0030A.xml">C. 30A1</ref>, <ref target="C0030B.xml">C. 30B4</ref>, <ref target="C0047.xml">C. 47</ref>, <ref target="C0086.xml">C. 86.1</ref>, <ref target="C0089.xml">C. 89</ref> (face B) and <ref target="C0225.xml">C. 225</ref> strongly suggests that at least one, possibly two lines of text would, in the original state of the inscribed sculpture, have preceded the text as we have it now. Given the limited amount of space that would have been available between tapering margins, one expects little more that what we read e.g. in <ref target="C0086.xml">C. 86.1</ref>, lines 1-2: <foreign> <g type="fleuron"/> madā pu pom̃ tana rayā sidaḥ yām̃ pom̃ ku śrī jayaparameśvaravarmmadeva ...</foreign>, or perhaps a shorter version of what we see in <ref target="C0225.xml">C. 225</ref>, l. 1-3: <foreign><supplied reason="lost">|</supplied> <g type="fleuron"/> <pc>|</pc> svasti <pc>|</pc> jaya ni trā madā paramarājādhirāja sidaḥ yām̃ pom̃ ku śrī vraṣuviṣṇujāt<unclear>t</unclear>i vīrabhadravarmmadeva ...</foreign> . So the line-numbers adopted in this edition are off by 1 or 2 from the original state of the text.</p>
+         </div>
+         <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl><ptr target="cic-bibl:parmentier-1909"/>: 562-563.</bibl>
+               <bibl>BEFEO 28 (1928), p. 604.</bibl>
+               <bibl><ptr target="cic-bibl:dournes-1970"/>: 146, 151.</bibl>
+               <bibl>See photo 181 in Missions archéologiques françaises au Vietnam.</bibl>
+               <bibl xml:id="ECIC-III"><ptr target="cic-bibl:ECIC-III"/>: 448.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+   
+</TEI>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stone beam of Rồn in Quảng Bình</title>
+                <editor>Arlo Griffiths</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0150</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 150</idno>
+                        <altIdentifier type="majumdar-nr">
+                            <idno xml:id="majumdar-nr">No. <seg type="check">???</seg></idno>
+                        </altIdentifier>
+                        <altIdentifier type="museum-inventory">
+                            <settlement>Đà Nẵng</settlement>    
+                            <repository>BTC</repository>
+                            <idno xml:id="inv-ĐN"><seg type="check">none</seg></idno>
+                        </altIdentifier>
+                        <altIdentifier type="museum-inventory-former">
+                            <settlement>Đà Nẵng</settlement>
+                            <repository>Musée Parmentier</repository>
+                            <idno xml:id="inv-musee-parmentier">1,6</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>Four lines on one face</note>
+                            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Roughly prepared <objectType>beam</objectType> or <objectType>frieze</objectType>; <material>granite (?)</material>; <dimensions unit="cm">
+                                        <height>32</height><!-- AG: check whether h. = 32 and w. = 38, or vice versa -->
+                                        <width>148</width>
+                                        <depth>38</depth>
+                        </dimensions>.
+                        </p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">A site, on the northern bank of the 
+                                <placeName type="modern" ref="cic-geo:cua-ron">Cửa Rồn</placeName>, called
+                                <placeName type="modern" ref="cic-geo:bac-ha">Bac Hạ</placeName>
+                                <!-- AG: check how this is handled. -->
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Julian" notBefore="0700" notAfter="0900">possibly the early 9<hi rend="superscript">th</hi> century</date><note>The inscription is undated, and the claim of <bibl><ptr target="cic-bibl:boisselier-1963"/>: <biblScope>118</biblScope></bibl> that it dates to 889 CE must be based on some kind of confusion. Its script resembles that of the inscriptions issued by a king Vikrāntavarman in Southern Campā, which date between the first quarter and the middle of the 9th century. Some aspects of the contents too seem to agree with the inscriptions issued under this king Vikrāntavarman in Pāṇḍuraṅga and Kuṭhāra, e.g. the problematic word <foreign>draṃ</foreign>, which is found in equally problematic context in the inscription added by Vikrāntavarman on the base of the stela from the temple of Po Nagar at Nha Trang (<ref target="C0038.xml">C. 38</ref>).</note>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1908">
+                            <ab>The beam or frieze was discovered by Charles-B. Maybon, as reported in JA 1908/2, p. 31; it was inventoried and its findspot described by <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>550</biblScope></bibl>.</ab>
+                             </provenance>
+                        <provenance type="observed" when="1923">
+                            <ab>The inscription was moved to the Tourane Museum at some point between the publication of <bibl><ptr target="cic-bibl:parmentier-1919"/></bibl> (where it is not mentioned) and 1923, when its inventory number <ptr target="#inv-musee-parmentier"/> there was published in <bibl><ptr target="cic-bibl:coedes-1937-1966"/></bibl>.
+                            </ab>
+                        </provenance>
+                       <provenance type="observed" notBefore="2010">
+                           <ab>We identified the inscription at the same museum, now called Bảo tàng Điêu khắc Chăm Đà Nẵng (Museum of Cham Sculpture at Đà Nẵng) in 2010 (<bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>449</biblScope></bibl>).</ab>     
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>                       
+                            <msDesc n="estampage-uninked">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-843">843</idno>
+                                </msIdentifier>
+                            </msDesc>
+                            <msDesc n="estampage-inked" facs="#fac2">
+                                <msIdentifier>
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo-n2070.jpg">n. 2070</idno>
+                                    <!-- illustrated in Da Nang Catalog -->
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="20121020" who="AG" xml:lang="en">initial encoding in EpiDoc</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0150_AG_2010.jpg">
+            <desc>Photo of the beam bearing inscription <ptr target="#inv-general"/>. Taken at the Museum of Cham Sculpture by Arlo Griffiths on <date when="20101202"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n2070.jpg">
+            <desc>Photograph of EFEO estampage n. 2070.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <ab>First published, with French translation, in <bibl><ptr target="cic-bibl:huber-1911"/>: <biblScope>267</biblScope></bibl>;  whence, with English translation, in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>225-226</biblScope></bibl>, whence <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>77</biblScope>.</bibl> Newly edited in <bibl><ptr target="cic-bibl:CatDaNang"/>: <biblScope>235-236</biblScope></bibl>, whence the present edition.</ab>
+            </div>
+            <div type="edition" xml:lang="sa-Latn-x-CI" xml:space="preserve" rend="break-physical-lines">
+  <ab> 
+<lb n="1"/> om̐ tasmai bhagavate śrī ḍamareśvarāya tilvit·kṣetraṃ vāṅkṣetraṃ dv<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2"/>kos·ruluṅ·kṣetraṃ etat sarvvaṃ draṃvihāradravyaṃ dvīśatamāṇaṃ pañcāśadadhika<supplied reason="lost">ṃ</supplied> śrī<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/>rājena pitṛsadbhaktimatā dattam iti <pc>||</pc> ye rakṣanti ca tad <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ga</supplied>
+<lb break="no" n="4"/>cchantu surālayam· ye nāśayan<supplied reason="lost">t</supplied>i <gap reason="lost" extent="unknown" unit="character"/>
+  </ab>
+                </div>
+            <div type="apparatus">
+                <ab>
+                    <app loc="1">
+                        <lem>om̐</lem>
+                        <rdg resp="Huber">namaḥ</rdg>
+                    </app> 
+                    <app loc="1">
+                        <lem>bhagavate</lem>
+                        <rdg resp="Huber">bhāgavate</rdg>
+                    </app>
+                    <app loc="1">
+                        <lem>ḍamareśvarāya</lem>
+                        <rdg resp="Huber">ḍāmareśvarāya</rdg>
+                    </app>
+                    <app loc="1">
+                        <lem>vāṅkṣetraṃ dv<supplied reason="lost">i</supplied></lem>
+                        <rdg resp="Huber">pãrkṣetraṃ tradvaḥ</rdg>
+                        <note>There definitely is no repetition of the syllable <foreign>tra</foreign> at the end of the line, as Huber seems to have supposed.</note>
+                    </app>
+                     <app loc="2">
+                        <lem>kos·ruluṅ·kṣetraṃ</lem>
+                        <rdg resp="Huber">... kṣetram</rdg>
+                         <note>Huber reads only the last element, and inaccurately represents the <foreign>anusvāra</foreign>.</note>
+                    </app>
+                    <app loc="2">
+                        <lem>draṃ</lem>
+                        <rdg resp="Huber">vraḥ</rdg>
+                    </app>
+                    <app loc="2">
+                        <lem>dvīśatamāṇaṃ</lem>
+                        <note>Huber's note <quote>Corr. mānam</quote> in line 1 was probably inserted in the wrong place by the typesetter, and should be attributed to this word.</note>
+                    </app>
+                     <app loc="3">
+                        <lem>rājena pitṛsadbhaktimatā</lem>
+                        <rdg resp="Huber">rājena ... bhaktimatā</rdg>
+                     </app>
+                    <app loc="3-4">
+                        <lem>rakṣanti ca tad<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ga</supplied>cchantu surālayam· ye</lem>
+                        <rdg resp="Huber">rakṣanti ... ye</rdg>
+                    </app>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p><foreign>Om</foreign>. 'To the lord Śrī Ḍamareśvara was given, by the king ..., who was full of pure
+devotion for his parents: the field Tilvit, the field Vāṅ ..., the field Kos Ruluṅ, all that property of the Dram monastery, two hundred plus fifty.' [Therefore]: 'They who protect that ... will go to heaven. They who destroy ...'.</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p><seg type="check">TO BE SUPPLIED</seg></p>
+            </div> 
+            <div type="commentary">
+                <p>The text records a donation of land in favor of the otherwise unknown figure Ḍamareśvara. The name, meaning 'Lord of Riots', would at first sight seem to evoke Śiva. According to Huber, who cites no source, this is a name of Avalokiteśvara, but we know no evidence to support this identification. We tentatively assume the name is a Sanskritisation of a Cam name, and that we see the same again, in slightly different guise, in the name <foreign>draṃvihāra</foreign>, which may mean 'Monastery of Dram'. Huber presumably thought of a Buddhist cult figure because the text mentions the word <foreign>vihāra</foreign>, which can indeed denote a Buddhist monastery, but can denote a Śaiva one as well: cf. <ref target="C0211.xml">C. 211</ref>.
+                </p>
+            </div>
+            <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <bibl><ptr target="cic-bibl:chutiwongs-2002"/>: 295.</bibl>
+                    </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

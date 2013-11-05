@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+   xmlns:cic-bibl="./biblio.xml#"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pedestal from Dưỡng Mông</title>
+            <editor>Dominic Goodall</editor>
+            <editor>Arlo Griffiths</editor>
+            </titleStmt>
+         <publicationStmt>
+            <authority>École française d'Extrême-Orient (EFEO)</authority>
+            <idno type="filename">C0136</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Arlo Griffiths.</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+<sourceDesc>
+   <msDesc>
+      <msIdentifier>
+         <institution>EFEO</institution>
+         <idno xml:id="inv-general">C. 136</idno> 
+         <altIdentifier type="majumdar-nr">
+            <idno xml:id="majumdar-nr">No. 11</idno>
+         </altIdentifier>
+         <altIdentifier type="museum-inventory">
+            <settlement>Hanoi</settlement>
+            <repository>BTLS-QG</repository>
+            <idno xml:id="inv-btls-qg">LSb 21181</idno>
+         </altIdentifier>
+         <altIdentifier type="museum-inventory-former">
+            <settlement>Hanoi</settlement>
+            <repository>EFEO Museum</repository>
+            <idno xml:id="inv-efeo-hanoi">B 2, 32</idno>
+         </altIdentifier>
+      </msIdentifier>
+      <msContents>
+         <msItem>
+            <note>Two lines on one face</note>
+            <textLang mainLang="sa-x-OldCam">Sanskrit in Old Cam script</textLang>
+         </msItem>
+      </msContents>
+      <physDesc>
+         <objectDesc>
+            <supportDesc>
+               <support>
+                  <p>Low <objectType>pedestal</objectType>;
+                        <material>sandstone</material>; 
+                      <dimensions unit="cm">
+                        <height>12</height>
+                        <width>49</width>
+                        <depth>49</depth>
+                     </dimensions>.</p>
+               </support>
+            </supportDesc>
+         </objectDesc>
+      </physDesc>
+      <history>
+         <origin>
+            <origPlace type="location">
+               <placeName type="modern" ref="cic-geo:duong-mong">Dưỡng Mông</placeName>
+             </origPlace>
+            <origDate>
+               <date calendar="Śaka">6th</date>
+               <date calendar="Julian">7th</date>
+            </origDate>
+         </origin>
+         <provenance type="found" notAfter="1911">
+            <ab>This piece was found by <persName type="explorer">V. Rougier</persName> at <placeName type="modern" ref="cic-geo:duong-mong">Dưỡng Mông</placeName> before 1911, when it entered the EFEO Museum in Hanoi. There is uncertainty about the correct spelling of the place name. The French publications spell Dương-mong, but according to Trần Kỳ Phương, the correct spelling should be Dưỡng Mông, and Federico Barocco has confirmed that this is found on an American map.</ab>
+            <!-- 1:250.000 map prepared on 1972 by the Defense Mapping Agency Hydrographic/Topographic Center, Washington D.C., in cooperation with the National Geographic Directorate of Vietnam.  Đưỡng Mông belong to Xã Quế Xuân , Huyện Quế Sơn , tỉnh Quảng Nam. -->
+         </provenance>
+         <provenance type="observed" notBefore="1915">
+            <ab>Its inventory number <ptr target="#inv-efeo-hanoi"/> at the Museum was published in <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>18</biblScope></bibl>;
+               whence, in the inventory of Campā inscriptions published in 1923, this local number was included under the entry <ptr target="#inv-general"/> (<ptr
+                  target="cic-bibl:coedes-1923"/>).</ab>
+         </provenance>
+         <provenance type="observed" notBefore="2009">
+            <ab>We identified the stone in the Bảo Tàng Lịch Sử Việt Nam (National Museum of Vietnamese History) at Hanoi in 2009 and following years, as the one bearing inventory number <ptr target="#inv-btls-qg"/>. The Museum assumed the new name Bảo Tàng Lịch Sử Quốc Gia (National Museum of History) in 2011, but this did not entail a change in the inventory number.</ab>
+         </provenance>
+      </history>
+      <additional>
+         <surrogates>                       
+            <msDesc n="estampage-uninked">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-693">693</idno>
+               </msIdentifier>
+            </msDesc>
+            <msDesc n="estampage-inked" facs="#fac2">
+               <msIdentifier>
+                  <repository>EFEO</repository>
+                  <idno xml:id="est-efeo-n160">n. 160</idno>
+               </msIdentifier>
+            </msDesc>
+         </surrogates>
+      </additional>
+   </msDesc>
+</sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+         <classDecl>
+            <taxonomy xml:lang="en">
+               <category xml:id="photo">
+                  <catDesc>Digital or digitized photographs</catDesc>
+               </category>
+               <category xml:id="photo-estampage">
+                  <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage"/></catDesc>
+               </category>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+                  <!-- ARLO: don't think there will be any -->
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+               according to the conventions of the project Corpus of the Inscriptions of
+               Campā.</language>
+            <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+               script.</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-07-09+09:00" who="TRE" xml:lang="en">generated template from inventory
+            spreadsheet data</change>
+         <change when="2012-05-06" who="AG" xml:lang="en"> first attempt at porting all the relevant data for this inscription into xml format</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="fac1" url="../images/inscriptions/C0136_1_AG_2009.jpg">
+         <desc>Photograph, with scale, showing the stone bearing inscription <ptr target="#inv-general"/> in three-quarter view. Taken in the Hanoi Museum by Arlo Griffiths on <date when="20090917"/>.
+           <!-- AG: this manner of noting <date> does not yet do what we want. --> 
+         </desc>
+      </graphic>
+      <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n0160.jpg">
+            <desc>Photograph of EFEO estampage n. 160.</desc>
+         </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="edition">
+            <ab>First published, with French translation, in <bibl><ptr target="cic-bibl:huber-1911"/>: <biblScope>262</biblScope>;</bibl> whence, with English translation, in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>15</biblScope></bibl>; whence <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>10-11</biblScope>.</bibl> Re-edited from the inked EFEO estampage, with new translation, in <bibl><ptr target="cic-bibl:ECIC-V"/>: <biblScope><seg type="check">forthcoming</seg></biblScope></bibl>, whence the present edition.</ab>
+         </div>  
+         <div type="edition" xml:lang="sa-Latn-x-CI" xml:space="preserve" rend="break-none">
+            <ab>
+               <lb n="1"/>idaṃ bhagavata<unclear>ḥ</unclear> puruṣottamasya viṣṇor 
+anādinidhanasyāśeṣabhuvana<lb break="no" n="2"/>guroḥ pūjāsthānam· śrīprakāśadharmmaṇā kāritam· <pc>||</pc> <g type="fleuron"/>
+             </ab>
+           </div>
+         <div type="apparatus">
+            <p>
+               <app loc="2">
+                  <lem>°sthānam·</lem>
+                  <rdg resp="Huber">°sthānaṃ</rdg>
+               </app>
+            </p>
+         </div>
+
+         <div type="translation">
+              <p>This place of worship of lord Viṣṇu, the Puruṣottama, without beginning or end, who is the teacher of all worlds, has been made to the order of Śrī Prakāśadharman.</p>
+         </div>
+
+         <div type="commentary">
+            <p>The inscription is in prose. It seems to be the only prose inscription issued under Vikrāntavarman-Prakāśadharman. The epithets of Viṣṇu seen here may he compared to those seen in <ref target="C0173.xml">C. 173</ref>.</p>
+         </div>
+         <div type="bibliography" subtype="secondary">
+            <listBibl>
+               <bibl><ptr target="cic-bibl:finot-1915a"/>: <biblScope>17</biblScope>.</bibl>
+               <bibl><ptr target="cic-bibl:parmentier-1919"/>: <biblScope>587</biblScope>.</bibl>
+               <bibl xml:id="ECIC-III"><ptr target="cic-bibl:ECIC-III"/>: 447.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+   
+</TEI>

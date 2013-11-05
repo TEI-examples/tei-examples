@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stela from Po Gha cave</title>
+                <editor>Arlo Griffiths</editor>
+                <editor>Amandine Lepoutre</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0222</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 222</idno>
+                        <altIdentifier type="museum-inventory">
+                            <settlement>Phan Rang</settlement>
+                            <repository>BTNT</repository>
+                            <idno xml:id="inv-btnt">BTNT 1650/Đ.28 (1)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>The principal face of the stela in engraved with an invocation and three lines of text; as we were about to leave the Museum in 2010,
+                                we realized that the lateral face of this stela is engraved with letters in low relief, seemingly dating from more recent times than those on the anterior face. We have not had the time to examine and document it;</note>     
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                            <!-- This section <msItem>, which gives "Text" in the html, is always very short. See the other examples. We should probably keep it short here too, and just say: "Three lines of text on the principal face in <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>; some writing also on a posterior face." 
+                                Then move the more detailed explanation somewhere else? I've decided to write an email to TE. Let's see how he answers.
+                            --> <!-- AL: Ok, let 's wait for Tom's answer. -->
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Small <objectType>stela</objectType>; <material>sandstone</material>; 
+                                         <dimensions unit="cm">
+                                            <height>59.5</height>
+                                             <width>26</width>
+                                             <depth>13</depth>
+                                            </dimensions>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName ref="cic-geo:po-gha">Po Gha</placeName>
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">11<hi rend="superscript">th</hi>-12<hi rend="superscript">th</hi> century</date>  <!-- AL: supercripts don't work on the htmls version -->
+                                <date calendar="Julian">12<hi rend="superscript">th</hi>-13<hi rend="superscript">th</hi> century</date>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1992">
+                            <ab>The stela was found before 1992, together with <ref target="C0221.xml">C. 221</ref> and <ref target="C0223.xml">C. 223</ref>. It was moved to the Ninh Thuận Museum by Mr. Bá Văn Bổn on <date when="19931210"></date>.</ab>
+                        </provenance>
+                        <provenance type="observed" when="2009">
+                            <ab>We found the stela in 2009 at the Ninh Thuận Museum as the object bearing the inventory number <ptr target="#inv-btnt"/> (see <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>466-475</biblScope></bibl>).</ab>
+                        </provenance>
+                    </history>   
+                    <additional>
+                        <surrogates>
+                            <msDesc n="estampage-inked" facs="#fac2">
+                                <msIdentifier >
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo.n1889">n. 1889</idno>
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2012-08" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0222_AG_2009.jpg">
+            <desc>Photograph of the stela bearing inscription <ptr target="#inv-general"/>. Taken in the Ninh Thuận Museum by Arlo Griffiths on <date when="20091013"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n1889.jpg">
+            <desc>Photograph of EFEO estampage n. 1889.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <ab>The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>473</biblScope></bibl>.</ab>
+           </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines"> 
+                <ab type="textpart" n="anterior face">&#160;</ab>
+                <ab type="invocation">om̐</ab>
+                <ab> 
+                    <lb n="1"/> <pc>◦</pc> svasti <pc>◦</pc> namaś śivāya
+                    <lb n="2"/> umāmaheśvarassyādisarvvasi
+                    <lb break="no" n="3"/>ddhipra<unclear>d</unclear>āye mahanirvighnam astu <pc>◦</pc>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <ab>
+                    <app loc="3"> 
+                        <lem>maha°</lem>
+                        <note><foreign>mahā°</foreign> seems to be intended.</note>
+                    </app>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p> <foreign>Om</foreign>. Hail! Homage to Śiva – Umāmaheśvara etc. (?) – who gives every success! May there be not (?) the slighest obstacle! </p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p> <foreign>Om</foreign>. Salut ! Hommage à Śiva – Umāmaheśvara etc (?) – qui donne tout succès ! Qu'il n'y ait le moindre (?) obstacle !</p>
+            </div> 
+            <!-- AG add sec. bibliogr. --> <!-- AL: que voudrais-tu y mettre? -->
+        </body>
+    </text>
+</TEI>

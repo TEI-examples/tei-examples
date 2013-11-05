@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Censer</title>
+                <editor>Arlo Griffiths</editor>
+                <editor>Amandine Lepoutre</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0208</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 208</idno>
+                        <altIdentifier type="museum-inventory">
+                            <settlement>Hồ Chí Minh City</settlement>    
+                            <repository>BTLS-HCMC</repository>
+                            <idno xml:id="inv-btls-hcmc">LSb 24202</idno> 
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>One line engraved around the base of a censer</note>
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Censer</objectType>; <material>bronze</material>; 
+                                         <dimensions unit="cm"> 
+                                            <height>18.5</height>
+                                            <dim type="diameter">15</dim>
+                              <dim type="circumference" scope="top">47.5</dim> 
+                                 <dim type="circumference" scope="base">36</dim> 
+                                         </dimensions>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">Unknown.</origPlace>
+                            <origDate>
+                                <date calendar="Śaka">1052</date>
+                                <date calendar="Julian" notBefore="1130" notAfter="1131">1130/1</date>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1999">
+                            <ab>It seems that this piece was part of the private collection of Mr. Vũ Kim Lộc in Hồ Chí Minh City at least until 1999, when Anne-Valérie Schweyer published a study of other objects in the same collection (<ref target="C0205.xml">C. 205</ref>, <ref target="C0206.xml">C. 206</ref>, <ref target="C0207.xml">C. 207</ref>) although without mentioning the present item and <ref target="C0209.xml">C. 209</ref>.</ab>
+                            </provenance>
+                        <provenance type="observed" notBefore="2009">
+                            <ab>We identified the object at the Hồ Chí Minh City History Museum in 2009, as the one bearing inventory number <ptr target="#inv-btls-hcmc"/>. It is still kept there today.</ab>  
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2012-08" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0208_1_VKL_2009.jpg">
+            <desc>Photograph 1/7 of inscription <ptr target="#inv-general"/>. Taken by Vũ Kim Lộc, before 2009. Reproduced by permission.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/C0208_2_VKL_2009.jpg">
+            <desc>Photograph 2/7 of inscription <ptr target="#inv-general"/>. Taken by Vũ Kim Lộc, before 2009. Reproduced by permission.</desc>
+        </graphic>
+        <graphic xml:id="fac3" url="../images/inscriptions/C0208_3_VKL_2009.jpg">
+            <desc>Photograph 3/7 of inscription <ptr target="#inv-general"/>. Taken by Vũ Kim Lộc, before 2009. Reproduced by permission.</desc>
+        </graphic>
+        <graphic xml:id="fac4" url="../images/inscriptions/C0208_4_VKL_2009.jpg">
+            <desc>Photograph 4/7 of inscription <ptr target="#inv-general"/>. Taken by Vũ Kim Lộc, before 2009. Reproduced by permission.</desc>
+        </graphic>
+        <graphic xml:id="fac5" url="../images/inscriptions/C0208_5_VKL_2009.jpg">
+            <desc>Photograph 5/7 of inscription <ptr target="#inv-general"/>. Taken by Vũ Kim Lộc, before 2009. Reproduced by permission.</desc>
+        </graphic>
+        <graphic xml:id="fac6" url="../images/inscriptions/C0208_6_VKL_2009.jpg">
+            <desc>Photograph 6/7 of inscription <ptr target="#inv-general"/>. Taken by Vũ Kim Lộc, before 2009. Reproduced by permission.</desc>
+        </graphic>
+        <graphic xml:id="fac7" url="../images/inscriptions/C0208_7_VKL_2009.jpg">
+            <desc>Photograph 7/7 of inscription <ptr target="#inv-general"/>. Taken by Vũ Kim Lộc, before 2009. Reproduced by permission.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <p>The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>477-480</biblScope></bibl>.</p>
+            </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-none">
+                <ab>
+                    <pc>||</pc> yām̃ po ku di yām̃ ciy· pam̃ṅ· pu dhiḥ urām̃ rupaṅ· anāk· pu lyam̃ śrī devarāja vuḥ asaṅ· nī pak· yām̃ paramaśvarīrūpan· kāla śākarāja <date>1052</date> <g type="fleuron"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <ab>
+                    <app>
+                        <lem>nī pak·</lem>
+                        <note>one could also read <foreign>ni pak·</foreign>.</note>
+                    </app>
+                    <app>
+                        <lem >°rūpan·</lem>
+                        <note>corr. <foreign>°rūpa nī</foreign>.</note>
+                    </app> 
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>Majesty among majesties, the Prince Paṅ, Sire Dhiḥ, man of Rupaṅ, son of P.L. Devarāja has offered this [incense-]burner to this image of Parameśvarī in [the year of the] Śaka king 1052.</p>
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p>Majesté d'entre les majestés, le prince Paṅ, sieur Dhiḥ, homme de Rupaṅ, fils de P.L. Devarāja, a offert ce porte[-encens] à cette image de Parameśvarī en [l'année] 1052 du roi des Śaka.</p>
+            </div> 
+            <div type="commentary"> 
+                <p>Concerning titulatures of the text and the word <foreign>asaṅ</foreign>, see <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>478-480</biblScope></bibl>.</p>
+            </div>
+            <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <bibl> <ptr target="cic-bibl:schweyer-1999b"/>: <biblScope>348-350</biblScope>.</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

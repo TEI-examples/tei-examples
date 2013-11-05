@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Stela inscription of Cek Yang</title>
+                <!-- AG: the spelling needs to be modernized, if possible -->
+                <editor>Arlo Griffiths</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0026</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 26</idno>
+                        <altIdentifier type="majumdar-nr">
+                            <idno xml:id="majumdar-nr">No. 102</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>Seven lines on one face of a stela</note>
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Small <objectType>stela</objectType>; <material>sandstone</material>; according to <bibl><ptr target="cic-bibl:ISCC"/>: <biblScope>291</biblScope></bibl> it measures 
+                                         <dimensions unit="cm">
+                                             <height>39</height>
+                                             <width>31</width>
+                                            </dimensions>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">A cave on the <placeName ref="cic-geo:cek-yang">Cek Yang</placeName>, supposedly situated northeast of Phan Rang.
+                   <!-- AG: this is still not handled properly by transform -->
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">1175</date>
+                                <date calendar="Julian" notBefore="1253" notAfter="1254">1253/4</date>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1888">
+                            <ab>This stela was found before 1888, when it was first mentioned in the literature (<bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>99</biblScope></bibl>).</ab>
+                        </provenance>
+                        <provenance type="non-observed" when="1903">
+                            <ab><bibl><ptr target="cic-bibl:finot-1903"/>: <biblScope>635</biblScope></bibl> reported that the stela, as also the mount Čơk Yaṅ (modernized spelling: Cek Yang), 'mount of the gods', where it was supposed to originate, had not been found back.</ab>
+                        </provenance>
+                        <provenance type="non-observed" when="2009">
+                            <ab>We have not yet been able to find it back either, since we started our fieldwork in 2009.</ab>
+                        </provenance>
+                    </history> 
+                    <additional>
+                        <surrogates>
+                            <msDesc n="estampage-uninked"  facs="#fac1">
+                              <msIdentifier>
+                               <repository>BnF</repository>
+                               <idno xml:id="BnF-est-390-44">390 (44)</idno>
+                             </msIdentifier>
+                           </msDesc>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+           <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="20120815" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+            <change when="20120928">modifications</change>
+        </revisionDesc>
+    </teiHeader>
+     <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/BnF_390_44_ISCC_XXXV.jpg">
+        <desc>Scan of <bibl><biblScope>plate XXXV</biblScope> in <ptr target="cic-bibl:ISCC"/></bibl> showing BnF estampage <ptr target="#BnF-est-390-44"/>.</desc>
+        </graphic> 
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <ab>A few words were read in <bibl><ptr target="cic-bibl:bergaigne-1888"/>: <biblScope>99</biblScope></bibl> and translated in <bibl><ptr target="cic-bibl:aymonier-1891"/>: <biblScope>55</biblScope></bibl>; partially published in <bibl><ptr target="cic-bibl:ISCC"/>: <biblScope>291</biblScope></bibl>; whence, with translation into English, in <bibl><ptr target="cic-bibl:majumdar-1927"/>: <biblScope>215-216</biblScope></bibl> and <bibl><ptr target="cic-bibl:golzio-2004"/>: <biblScope>186</biblScope></bibl>. The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>468-469</biblScope></bibl>.</ab>
+           </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines"> 
+                 <ab type="invocation">om̐</ab>
+                <ab>
+                    <lb n="1"/><pc type="circle">◦</pc> <pc>|||</pc> <pc type="circle">◦</pc> <pc>||</pc> <pc type="circle">◦</pc> svasti jaya siddhi
+                    <lb n="2"/> om̃ namaś śivāya paramapādaśarvvā
+                    <lb break="no" n="3"/>ya ūrddhvamūrddhne ahanam astu sadā
+                    <lb n="4"/> pom̃ pañca aum̃ suryyaputra urām̃ 
+                    <lb n="5"/> vāripura pajem̃ guhā nīy· kāla
+                    <lb n="6"/> śam̃kkarāja niy· <pc type="circle">◦</pc> <pc>|</pc>
+                    <lb n="7"/> 1175
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="2">
+                        <lem>paramapāda°</lem>
+                        <rdg resp="Bergaigne">paramadāna°</rdg>
+                        <note>, with note explaining that the reading <foreign>°dāna°</foreign> is uncertain. It is certainly wrong.</note>
+                    </app>
+                    <app loc="3">
+                        <lem>ahanam astu</lem>
+                        <rdg resp="Bergaigne">aha namas tu</rdg>
+                        <note>The parallel with the Po Gha inscription <ref target="C0222.xml">C. 222</ref> suggests that we may emend here <foreign>avighnam astu</foreign>. This idea underlies our translation.</note>
+                    </app>
+                    <app loc="6">
+                        <lem>śam̃kkarāja niy·</lem>
+                        <rdg resp="Bergaigne">śam̃kkarājanīya</rdg>
+                        <note>, p. 291.</note>
+                    </app>
+                    <app loc="7">
+                        <lem>1175</lem>
+                        <rdg resp="Bergaigne">1185</rdg>
+                        <note>, p. 291.</note>
+                    </app>
+                </p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p> <foreign>Om</foreign>. Hail! Victory! Success! <foreign>Om</foreign>. Homage to Śiva, to his supreme highness Śarva, who holds his head up high! May there never be any obstacles! Lord <foreign>pañca</foreign> Mr. Sūryaputra, man of Vāripura, has established this cave. This is the time [in the era] of the Śaka king: 1175.
+                </p></div>
+            <div type="translation" xml:lang="fr">
+                <p> <foreign>Om</foreign>. Salut ! Victoire ! Succès ! <foreign>Om</foreign>. Hommage à Śiva, à sa suprême altesse Śarva, qui a la tête en haut ! Qu'il n'y ait jamais d'obstacles ! Le seigneur <foreign>pañca</foreign> monsieur Sūryaputra, homme de Vāripura, a établi cette grotte. Lors [de l'année] du roi des Śaka : 1175.</p>
+            </div> 
+            <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <!-- <bibl><ptr target="cic-bibl:finot-1903"/>: <biblScope>635</biblScope>.</bibl>  -->
+                    <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>110</biblScope>.</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

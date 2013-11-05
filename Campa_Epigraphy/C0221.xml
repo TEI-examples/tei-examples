@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boulder from Po Gha cave</title>
+                <editor>Arlo Griffiths</editor>
+                <editor>Amandine Lepoutre</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0221</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 221</idno>
+                        <altIdentifier type="museum-inventory">
+                            <settlement>Phan Rang</settlement>
+                            <repository>BTNT</repository>
+                            <idno xml:id="inv-btnt">BTNT 1650/Đ.28 (2)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>Two line on one face of a boulder</note>
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Small conical standing <objectType>boulder</objectType>; <material>sandstone</material>; 
+                                         <dimensions unit="cm">
+                                            <height scope="top">44</height>
+                                             <dim type="circumference" scope="max">76</dim>
+                                             <dim type="circumference" scope="top">55</dim>
+                                            </dimensions>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">
+                                <placeName ref="cic-geo:po-gha">Po Gha</placeName>
+                            </origPlace>
+                            <origDate>
+                                <date calendar="Śaka">1053</date>
+                                <date calendar="Julian" notBefore="1131" notAfter="1132">1131/2</date>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1992">
+                            <ab>The boulder was found with <ref target="C0222.xml">C. 222</ref> and <ref target="C0223.xml">C. 223</ref> before 1992, when Mr. Bá Văn Bổn moved it to the Ninh Thuận Museum.</ab>
+                        </provenance>
+                        <provenance type="observed" when="2009">
+                            <ab>We found the boulder in 2009 at the Ninh Thuận Museum as the object bearing the inventory number <ptr target="#inv-btnt"/> (<bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>466-475</biblScope></bibl>).</ab>
+                        </provenance>
+                    </history> 
+                    <additional>
+                        <surrogates>
+                            <msDesc n="estampage-inked" facs="#fac2">
+                                <msIdentifier >
+                                    <repository>EFEO</repository>
+                                    <idno xml:id="est-efeo.n1890">n. 1890</idno>
+                                </msIdentifier>
+                            </msDesc>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+                        <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>  
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2012-08" who="AL" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AL</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/C0221_AG_2009.jpg">
+            <desc>Photograph of the boulder bearing inscription <ptr target="#inv-general"/>. Taken in the Ninh Thuận Museum by Arlo Griffiths on <date when="20091013"></date>.</desc>
+        </graphic>
+        <graphic xml:id="fac2" url="../images/inscriptions/EFEOB-est.n1890.jpg">
+            <desc>Photograph of EFEO estampage n. 1890.</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <ab>The present edition and translation after <bibl><ptr target="cic-bibl:ECIC-III"/>: <biblScope>472</biblScope></bibl>.</ab>
+           </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines">
+                <ab type="invocation">om̐</ab>
+                <ab> 
+                    <lb n="1"/> <pc type="encircled-dot">⦿</pc> aum̃ li re panrām̃
+                    <lb n="2"/> śakarāja 1053
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p> <foreign>Om</foreign>. Mr. Li, man (?) of Panrāṅ, [in the year of] the Śaka king 1053.</p> 
+            </div>
+            <div type="translation" xml:lang="fr">
+                <p> <foreign>Om</foreign>. M. Li, homme (?) de Panrāṅ, [en l'année] 1053 du roi des Śaka.</p>
+            </div> 
+        </body>
+    </text>
+</TEI>

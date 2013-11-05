@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cic-bibl="./biblio.xml#"
+    xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Grinding stone from Ban Metruot</title>
+                <!-- AG: the spelling needs to be modernized, if possible -->
+                <editor>Arlo Griffiths</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>École française d'Extrême-Orient (EFEO)</authority>
+                <idno type="filename">C0117</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Arlo Griffiths &amp; Amandine Lepoutre.</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>EFEO</institution>
+                        <idno xml:id="inv-general">C. 117</idno>
+                        <altIdentifier type="majumdar-nr">
+                            <idno xml:id="majumdar-nr">nil</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>One short line on a griding stone</note>
+                            <textLang mainLang="x-oldcam-Latn-CI">Old Cam in Old Cam script</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><objectType>Grinding stone</objectType>; probably <material>sandstone</material>; measurements unknown.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="location">The settlement <placeName ref="cic-geo:ban-metruot">Ban Metruot</placeName>,  situated about 30 km north of Buôn Ma Thuột in <placeName ref="cic-geo:dak-lak">Đắk Lắk</placeName> province.
+                            </origPlace>
+                            <origDate>
+                                 <date calendar="Julian" notBefore="1000" notAfter="1300">1000-1300</date>
+                            </origDate>
+                        </origin>
+                        <provenance type="found">
+                            <ab>According to <bibl><ptr target="cic-bibl:finot-1904c"/>: <biblScope>678</biblScope></bibl>, this object was reportedly found by a farmer in the middle of the 19th century; he brought it home and subsequently discarded it. It was found again by a Laotian and through him reached Adhémar Leclerc, resident of Kratie (in Cambodia). It was supposed by Finot to be held in the <hi rend="italic">résidence</hi> in 1904.</ab>
+                            <!-- CHECK also Notes et mélanges of BEFEO 4, referred to by Finot -->
+                        </provenance>
+                         <provenance type="non-observed" notBefore="2009">
+                            <ab>We have not yet been able to locate it.</ab>
+                        </provenance>
+                    </history> 
+<!--                    <additional>
+                        <surrogates>
+                            <msDesc n="estampage-uninked" facs="#fac1">
+                              <msIdentifier>
+                               <repository>BnF</repository>
+                               <idno xml:id="BnF-est-390-44">390 (44)</idno>
+                             </msIdentifier>
+                           </msDesc>
+                        </surrogates>
+                    </additional>
+                    -->
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+            </p>
+            <classDecl>
+                <taxonomy xml:lang="en">
+                    <category xml:id="photo">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="photo-estampage">
+           <catDesc>Digital or digitized photographs of estampage <ptr target="#efeo-estampage-inked"/></catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                    <language ident="fr">French</language>
+                    <language ident="en">English</language>
+                    <language ident="x-oldcam-Latn-CI">Old Cam language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-Latn-x-CI">Sanskrit language, transliterated into Roman script
+                        according to the conventions of the project Corpus of the Inscriptions of
+                        Campā.</language>
+                    <language ident="sa-x-OldCam">Sanskrit language, written in the Old Cam
+                    script.</language>
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="20131001" who="AG" xml:lang="en">initial encoding in EpiDoc on the basis of materials provided by AG</change>
+        </revisionDesc>
+    </teiHeader>
+<!--      <facsimile>
+        <graphic xml:id="fac1" url="../images/inscriptions/BEFEO_04_fig4.jpg">
+        <desc>Scan of <bibl><biblScope>fig. 4</biblScope> in <ptr target="cic-bibl:BEFEO"/> 4 (1904) </bibl> showing the grinding stone.</desc>
+        </graphic> 
+        <graphic xml:id="fac1" url="../images/inscriptions/BEFEO_04_fig5bis.jpg">
+        <desc>Scan of an eye-copy on p. <bibl><biblScope>679</biblScope> in <ptr target="cic-bibl:BEFEO"/> 4 (1904) </bibl> showing the grinding stone.</desc>
+        </graphic> 
+</facsimile>  -->
+    <text>
+        <body>
+            <div type="bibliography" subtype="edition">
+                <ab>Read and interpreted in <bibl><ptr target="cic-bibl:finot-1904c"/>: <biblScope>679</biblScope></bibl>, whence the present edition.</ab>
+           </div>
+            <div type="edition" xml:lang="x-oldcam-Latn-CI" xml:space="preserve" rend="break-physical-lines"> 
+                 <ab>pu vyā</ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>Her majesty the queen
+                </p></div>
+            <div type="translation" xml:lang="fr">
+                <p>Sa majesté la reine</p>
+            </div> 
+            <div type="bibliography" subtype="secondary">
+                <listBibl>
+                    <!-- <bibl><ptr target="cic-bibl:finot-1903"/>: <biblScope>635</biblScope>.</bibl>  -->
+                    <bibl><ptr target="cic-bibl:parmentier-1909"/>: <biblScope>556</biblScope>.</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
