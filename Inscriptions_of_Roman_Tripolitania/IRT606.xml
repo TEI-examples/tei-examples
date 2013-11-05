@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT606" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for a pantomime dancer</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT606</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <material>marble</material> 
+                              <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">1.10</width>
+                                 <height unit="metre">1.45</height>
+                                 <depth unit="metre">1.11</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.64</width>
+                              <height unit="metre">0.62</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Capitals of a form unusual at Lepcis: 
+               <height unit="metre" atLeast="0.045" atMost="0.035">0.045-0.035</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Findspot</p>
+                     <origDate cert="low" evidence="reign">211-217 A.D. (reign)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db756">Theatre</rs> -  in situ in the portico behind it.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+               <term xml:lang="grc-Latn">
+                  <rs type="textType">munera</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Caputo</author>, <ptr target="rivital"/>, <biblScope>XV:10</biblScope>
+               </bibl>
+               </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Septimius">Septimio</name> <name type="gentilicium" nymRef="Aurelius">Aurelio</name> <name type="cognomen" nymRef="Agrippa">Agrippae</name>
+               <lb n="2"/>
+               <persName type="emperor"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name type="gentilicium" nymRef="Aurelius">Aureli</name> <name type="gentilicium" nymRef="Antoninus">Antonini</name> <name type="cognomen" nymRef="Pius">Pii</name> <name type="cognomen" nymRef="Felix">Felicis</name> 
+               <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName></persName>  
+               <w lemma="libertus"><expan><abbr>lib</abbr><ex>erto</ex></expan></w>
+               <lb n="3"/><w lemma="pantomimus">pantomimo</w> <w lemma="tempus">temporis</w> <w lemma="se">sui</w> <w lemma="primus">primo</w>
+               <lb n="4"/><placeName nymRef="Roma">Romae</placeName> <w lemma="adulescens">adulescentium</w> <w lemma="produco">productorum</w>
+               <lb n="5"/><w lemma="condiscipulus">condiscipulo</w> <w lemma="ad">ad</w> <placeName nymRef="Italia">Italiae</placeName> <w lemma="spectaculum">spectacula</w>
+               <lb n="6"/><w lemma="ab">a</w> <w lemma="dominus">domino</w> <w lemma="noster">nostro</w> <persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <w lemma="proueho">prouecto</w>
+               <lb n="7"/><w lemma="decurionalis">decurionalibus</w> <w lemma="ornamentum">ornamentis</w> <placeName nymRef="Verona">Verona</placeName>
+               <lb n="8"/><w lemma="et">et</w> <placeName nymRef="Vicetia">Vicetia</placeName> <w lemma="orno">ornato</w> <placeName nymRef="Mediolanum">Mediolano</placeName> 
+               <w lemma="inter">in<lb n="9" type="inWord"/>ter</w> <w lemma="iuuenis">iuuenes</w> <w lemma="recepto">recepto</w> <w lemma="in">in</w> <placeName nymRef="Africa">Africa</placeName>
+               <lb n="10"/><placeName nymRef="Lepcis Magna">Lepci <w lemma="magnus"><expan><abbr>Mag</abbr><ex>na</ex></expan></w></placeName> 
+               <w lemma="ab">a</w> <w lemma="dominus">domino</w> <w lemma="noster">nostro</w> <persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+               <lb n="11"/><w lemma="ordino">ordinato</w> <persName type="attested"><name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name type="gentilicium" nymRef="Albucius">Albucius</name> <name type="cognomen" nymRef="Apollonius">Apollonius</name></persName>
+               <lb n="12"/><placeName type="ethnic" nymRef="Mediolanensis">Mediolanensis</placeName> <w lemma="ex">ex</w> <placeName nymRef="Italia">Italia</placeName> <w lemma="amico">amico</w> <w lemma="rarus">rari</w>
+               <lb n="13"/><w lemma="exemplum">exempli</w> <w lemma="permitto">permissu</w> <w lemma="splendidus">splendidissimi</w> 
+               <w lemma="ordo"><expan><abbr>ord</abbr><ex>inis</ex></expan></w> 
+               <w lemma="pono"><expan><abbr>p</abbr><ex>osuit</ex></expan></w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Marcus Septimius Aurelius Agrippa, freedman of Marcus Aurelius Antoninus Pius Felix Augustus, foremost pantomime of his time, a fellow-pupil of the ?educated young men at Rome, promoted by our lord Augustus, decorated with the insigna of a civic councillor at Verona and Vicetia, at Milan accepted as a member of the youth organization, in Africa, at Lepcis Magna, enrolled by our lord Augustus as a city councillor; Publius Albucius Apollonius of Milan, from Italy, erected <supplied reason="subaudible">this</supplied> to a friend of a rare kind, by permission of the most splendid city council.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 2. M. Aurelius Antoninus Pius Felix Augustus. 
+               From 198, but Felix does not appear regularly among Caracalla's titles before 211.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0795"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 752 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

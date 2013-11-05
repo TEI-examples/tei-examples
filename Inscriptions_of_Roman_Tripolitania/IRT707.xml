@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT707" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragments</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT707</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Series of <rs type="objectType">block</rs>s
+               (lengths varying <dimensions>
+                                 <width unit="metre">0.45</width>
+                                 <height unit="metre">0.52</height>
+                              </dimensions>) of <material>grey limestone</material>,
+               some complete and some broken, from a monumental inscription; all with rectangular beam-sockets at the top back. </p>
+                           <p>a.i) 5 blocks, total length, <height unit="metre">4.02</height>.</p>
+                           <p>a.ii) 2 blocks, together <height unit="metre">1.42</height>.</p>
+                           <p>b+g) 1 block, length <height unit="metre">1.50</height>.</p>
+                           <p>c) 1 block, length <height unit="metre">0.50</height>.</p>
+                           <p>d) 1 block, length <height unit="metre">0.70</height>. </p>
+                           <p>e) 1 block, length <height unit="metre">0.79</height>.</p>
+                           <p>f) 1 block, length <height unit="metre">0.80</height>, probably from the right-hand of the text.</p>
+                           <p>h) 1 block, length <height unit="metre">0.80</height>. </p>
+                           <p>i) 2 blocks, length <height unit="metre">1.05</height>.</p>
+                           <p>j) 1 block, length <height unit="metre">0.82</height>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>The inscription was cut on the frieze and probably occupied a space of c. 18.74.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lapidary capitals: <height unit="metre">0.16</height>; from top of block, 
+               l. 1, <height unit="metre" atLeast="0.06" atMost="0.22">0.06-0.22</height>; 
+               to bottom, <height unit="metre" atLeast="0.22" atMost="0.45">0.22-0.45</height>. Letter sizes and spacing are variable, but on average there are 7 letters per metre, so that 45 letters can reasonably be supplied in a reconstruction of the text; words are distinguished by <rs type="decoration">ivy leaf</rs> stops.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0001" notAfter="0200" evidence="lettering">First to second centuries A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db742">Regio IV</rs>, insula  11, beside a building to which they probably belong, opposite the Severan Basilica.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="block" n="ai" type="textpart"><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/><w lemma="ab" part="F">a</w> <w lemma="et">et </w> <w lemma="amplus">amplius</w> <w lemma="adicio">adiectis</w> 
+              <w lemma="sestertius"><expan><abbr><am><g type="sestertius"/></am></abbr><ex>sestertiis</ex></expan></w>
+               <num value="72500"><hi rend="supraline">LXXII</hi>D</num><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div><div subtype="block" n="aii" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w lemma="de">de</w> <w lemma="suus">suo</w> <w part="I">are</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="block" n="b+g" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">alis</w> <w lemma="legatus">legatis</w> <w part="I">iu</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="block" n="c" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="M">men</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="block" n="d" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/> <w lemma="heres">heres</w> <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="block" n="e" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="M">arata</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="block" n="f" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/> <w lemma="facio">fecit</w>
+               </ab></div><div subtype="block" n="h" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">ollini</w> <w part="I">e</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="block" n="i" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w lemma="ab" part="F">a</w> <persName type="attested"><name type="cognomen" nymRef="Gaetul"><seg part="I">Gaetul</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="block" n="j" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <w lemma="sestertius"><expan><abbr><am><unclear><g type="sestertius"/></unclear></am></abbr><ex>sestertios</ex></expan></w> <num value="200">CC</num> 
+                  <w lemma="tu" part="I">te</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>a.i</note><gap reason="lost"/> with a further sum of seventy-two thousand and five hundred  sesterces added <gap reason="lost"/></p><p><note>a.ii</note> <gap reason="lost"/> from his/her own resources <gap reason="lost"/></p><p><note>b</note> <gap reason="lost"/> with <gap reason="lost"/> bequeathed <gap reason="lost"/></p><p><note>d</note><gap reason="lost"/> heir <note>nominative</note><gap reason="lost"/></p><p><note>f</note> <gap reason="lost"/>he/she made <supplied reason="subaudible">it</supplied>.</p><p><note>h</note> <gap reason="lost"/> ?to Apollo <gap reason="lost"/></p><p><note>i</note><gap reason="lost"/> Gaetulus/a <note>or</note> Gaetulicus <note>case unknown</note> <gap reason="lost"/></p><p><note>j</note> <gap reason="lost"/>? two hundred thousands sesterces <gap reason="lost"/> </p><p>Hypothetical reconstruction: To the god Apollo, at a cost of two hundred thousand sestrces bequeathed in the will; ?Junia Parata, daughter of Gaetulus/a <note>Gaetulicus/a</note>, heiress, <gap reason="lost"/> and with seventy-two thousand, five hundred sesterces added further from her own funds, ?paved the area.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>The inscribed stones of this text were re-examined when the facade of the building to which it probably belonged was measured by Mr. Gareth Slater in summer 1953.</p>
+            <p>It is possible to attempt a reconstruction on the following lines: <foreign xml:lang="la">[?Deo Ap]ollini e[x H]S CC te[sta]men[to .. ? ..]alis legatis Iu[?ni]a Gaetul[ici ? f(ilia) ? P]arata heres [..?..]a et amplius adiectis HS LXXII D [.. ? ..] de suo are[am ? stratam] fecit</foreign>.</p>
+            <p>a.i) 72,500. </p>
+            <p>a.i0 Presumably the description of the building. The site has not been excavated and its precise character is obscure: walls enclosing an open courtyard (cf. the area ? strata of the text) are the only certain features. A term with the sense of <foreign xml:lang="la">peristylia</foreign> might be suggested, although this is in fact too long for the space available.</p>
+            <p>a.i-ii) An ivy leaf after D indicates that the figure is complete; but the beam-holes seem to show that the block containing <foreign xml:lang="la">de suo</foreign> did not follow immediately.</p>
+            <p>b) -alis: The name of the testator, e.g. Vitalis.</p>
+            <p>d) Another block containing, e.g., the words <foreign xml:lang="la">uxor</foreign> (<foreign xml:lang="la">coniunx</foreign>) et might intervene before <foreign xml:lang="la">heres</foreign>.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0897"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 258 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0898"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 254 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0899"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 253 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0901"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 257 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0902"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 256 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0900"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 255 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0898"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 254 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0899"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 253 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0901"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 257 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0902"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 256 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0900"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 255 Lastre)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

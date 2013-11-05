@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT839" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT839</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Two re-used <rs type="objectType">paving-slab</rs>s of <material>grey limestone</material> (<dimensions>
+                                 <width unit="metre">0.77</width>
+                                 <height unit="metre">0.92</height>
+                              </dimensions> and <dimensions>
+                                 <width unit="metre">0.77</width>
+                                 <height unit="metre">0.56</height>
+                              </dimensions>). </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <height unit="metre" atLeast="0.12" atMost="0.14">0.12-0.14</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Findspot</p>
+                     <origDate notAfter="0600" notBefore="0501" evidence="context">Fifth century A.D. (context)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db720">Forum Vetus</rs>, in situ in the small cemetery against the North wall of the apse of Church II. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Bartoccini</author>, <ptr target="rivarchcrist"/> 
+                  <biblScope>VIII:44</biblScope>, no.2, fig. 10.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><g type="crux"/> <w lemma="bonus"><expan><abbr>B</abbr><ex>onae</ex></expan></w> 
+               <w lemma="memoria"><expan><abbr>m</abbr><ex>emoriae</ex></expan></w> <persName type="attested"><name type="cognomen" nymRef="Iuliana">Iuliana</name>
+               <lb n="2"/><w lemma="filia">filia</w> <persName type="attested"><name type="cognomen" nymRef="Stefanus">Stefani</name></persName></persName>
+               <lb n="3"/>
+               <w lemma="locus"><expan><abbr>lok</abbr><ex>i</ex></expan></w> <w lemma="seruator"><expan><abbr>serb</abbr><ex>atoris</ex></expan></w> 
+               <w lemma="uiuo"><expan><abbr>uix</abbr><ex>it</ex></expan></w>
+               <lb n="4"/>
+               <w lemma="in">in</w> <w lemma="pax"><expan><abbr>p</abbr><ex>ace</ex></expan></w> <date when-iso="PY1M3"><w lemma="annus"><expan><abbr>ann</abbr><ex>um</ex></expan></w> 
+               <w lemma="unus"><expan><abbr>unu</abbr><ex>m</ex></expan></w>
+               <lb n="5"/>
+               <w lemma="mensis"><expan><abbr>m</abbr><ex>enses</ex></expan></w> <w lemma="tres">tres</w></date> <w lemma="defungor"><expan><abbr>def</abbr><ex>uncta</ex></expan></w>
+               <lb n="6"/>
+               <w lemma="dies">di<surplus>a</surplus>e</w> <w lemma="dominicus"><expan><abbr>dominicia</abbr><ex>e</ex></expan></w>
+               <lb n="7"/>
+               <w lemma="mensis"><expan><abbr>men</abbr><ex>se</ex></expan></w> 
+               <rs type="month" key="Martius"><w lemma="Martius">Mar<lb n="8" type="inWord"/>tio</w></rs> <w lemma="indictio"><expan><abbr>ind</abbr><ex>ictione</ex></expan></w> 
+               <num value="8">VIII</num>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>Cross.</note> To her good memory. Juliana, daughter of Stephanus, the guardian of this place, lived in peace for one year and three months and died on the day of the Lord (Sunday) in the month of March, in the eighth indiction.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l.3, serbator: 
+     see also <ref type="inscription">834</ref>, <ref type="inscription">835</ref>, <ref type="inscription">840</ref>, <ref type="inscription">843</ref>.</p>
+            <p>For the date see <ref type="inscription">835</ref> and comment there.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1032"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XVI.6)</head>
+               </figure>
+               <figure>
+                  <graphic url="1037"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. B. 1542)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT193" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT193</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Re-used <rs type="objectType">paving-slab</rs>
+               (<dimensions>
+                                 <width unit="metre">0.40</width>
+                                 <height unit="metre">0.64</height>
+                              </dimensions>) of <material>grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on surviving face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Fifth-sixth century A.D.<height unit="metre" atLeast="0.045" atMost="0.07">0.045-0.07</height>; uncial Q. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate evidence="context">Fifth-sixth century A.D. (context)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:  In situ in the <rs type="monuList" key="db868">cemetery in the South Forum Portico</rs>. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="basiliche"/>, <biblScope>no. 4.</biblScope>
+               </bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><foreign xml:lang="grc">Α<g type="tau-rho"/>Ω</foreign> <w lemma="bonus"><expan><abbr>Bon</abbr><ex>a</ex><abbr>e</abbr></expan></w> 
+               <w lemma="memoria">me<lb n="2" type="inWord"/>moriae</w>
+               <lb n="3"/><persName type="attested"><name type="cognomen" nymRef="Angela">Angelas</name></persName>
+               <lb n="4"/>
+               <w lemma="uiuo"><expan><abbr>bix</abbr><ex>it</ex></expan></w> 
+               <w lemma="in"><supplied reason="lost">i</supplied>n</w> <w lemma="pax">pace</w>
+               <lb n="5"/>
+               <date when-iso="PY13"><w lemma="annus"><expan><abbr>an</abbr><ex>n</ex><abbr>os</abbr></expan></w> <num value="13">XIII</num></date>
+               <lb n="6"/>
+               <w lemma="multus"><expan><abbr>pl</abbr><ex>us</ex></expan></w> 
+               <w lemma="paruus"><expan><abbr>m</abbr><ex>inus</ex></expan></w> 
+               <w lemma="requiesco">requie<lb n="7" type="inWord"/>bit</w> <w lemma="dies">die</w> <w lemma="calendae"><expan><abbr>cal</abbr><ex>endas</ex></expan></w> 
+              <rs type="month" key="Aprilis"><w lemma="aprilis">Ap<lb n="8" type="inWord"/>riles</w></rs> <g type="spray"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Alpha and Omega <note>for "the first and the last" </note>on either side of a monogram cross.</p><p> To the good memory of Angela; she lived in peace for approximately 13 years and went to rest on the first of April.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0227"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.VIII.35)</head>
+               </figure>
+               <figure>
+                  <graphic url="0228"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.VIII.35)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

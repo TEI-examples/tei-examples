@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT608" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">honours<certainty match=".." locus="value"/>
+               </rs>
+            </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT608</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Fragments of a moulded <material>marble</material> 
+                              <rs type="objectType">base</rs>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed within a recessed panel.
+               a) Above the die.
+               b) On the die (l. 1, truncated).
+               c) Fragment of the remainder (<dimensions>
+                              <width unit="metre">0.30</width>
+                              <height unit="metre">0.27</height>
+                              <depth unit="metre">0.08</depth>
+                           </dimensions>).
+            </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century A.D. lettering: l. 1, 
+               <height unit="metre">0.05</height>; remainder, 
+               <height unit="metre">0.035</height> approx.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0301" notAfter="0400" precision="low" evidence="lettering">Fourth century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db729">Punic Market</rs>, South side.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="fragment" n="a" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested"><name type="signum" nymRef="Amelius">Amelii</name></persName>
+               </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>o<unclear>i</unclear>nt</orig><gap reason="lost" quantity="1" unit="character"/><orig>interus<unclear>ie</unclear>r</orig><gap reason="lost" quantity="1" unit="character"/><orig>atis</orig><orig>principio</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="c" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>r</orig><gap reason="lost" atLeast="3" atMost="4" unit="character"/><w lemma="aetas"><supplied reason="lost">a</supplied>etate</w> 
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">nito</w> <w lemma="pater">patri</w> <w part="I">re</w><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="3"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <w lemma="innocentia"><supplied reason="lost">in</supplied>nocentiae</w> <w part="I">co<unclear>i</unclear></w><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="4"/>
+                  <gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name type="gentilicium" nymRef="Vibius">Vibio</name> <name type="cognomen" nymRef="Annianus">Annia<supplied reason="lost">no</supplied></name></persName>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="5"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <w lemma="pontifex"><expan><abbr><supplied reason="lost">p</supplied>ont</abbr><ex>ifici</ex></expan></w> 
+                  <w lemma="praefectus"><expan><abbr>praef</abbr><ex>ecto</ex></expan></w> <w part="I">o</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="5">
+                  <note>Perhaps <expan>
+                        <abbr>praef</abbr>
+                        <ex>ecto</ex>
+                     </expan> omnium sacrorum..., see 
+                     <ref type="inscription">567</ref>, l. 11. </note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>a</note> <supplied reason="subaudible">In honour</supplied> of Aemilius.</p><p><note>b</note> Not usefully translatable.</p><p>c.<gap reason="lost"/> ? in the age <gap reason="lost"/> to the father <gap reason="lost"/> of <note>or to</note> innocence <gap reason="lost"/> to <note>or by</note> Vibius Annianus <gap reason="lost"/> pontifex <note>priest</note>, prefect <gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p> l. 4. Vibius Annianus. Also in <ref type="inscription">578</ref>.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0797"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXIV.24)</head>
+               </figure>
+               <figure>
+                  <graphic url="0798"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="0799"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 384 Lastre)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

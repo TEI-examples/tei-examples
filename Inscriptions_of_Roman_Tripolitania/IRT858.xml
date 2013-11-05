@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT858" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT858</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Round-headed <rs type="objectType">stele</rs>
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed within a border, much battered.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Irregular capitals: size not recorded.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db666">Western Djebel</placeName>:
+                  <rs type="monuList" key="db881">Ain el-Auenia</rs> near Jefren (map ref. U 785720).
+                  Seen and photographed by Beguinot in <date type="foundDate">1923</date>
+                           </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot (1923)</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208791/yafran.html">Yafran</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription from photograph (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <w lemma="deus"><expan><abbr>D</abbr><ex>is</ex></expan></w> 
+               <w lemma="manes"><expan><abbr>m</abbr><ex>anibus</ex></expan></w> 
+               <supplied reason="lost" cert="low"><w lemma="sacer"><expan><abbr>s</abbr><ex>acrum</ex></expan></w></supplied>
+               <lb n="2"/><persName type="attested"><name type="gentilicium" nymRef="Antistius"><seg part="I">Anti</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="3"/><persName type="attested"><name type="cognomen" nymRef="Valer-"><seg part="I">Vale<unclear>r</unclear></seg></name></persName><supplied reason="lost">i</supplied>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost"><w lemma="uiuo">uixit</w></supplied> <date when-iso="PY25M9"><supplied reason="lost"><w lemma="annus">annos</w></supplied>
+               <lb n="4"/>
+               <num value="25">XXV</num> <w lemma="mensis">m<supplied reason="lost">enses</supplied></w>
+               <lb n="5"/>
+               <num value="9">VIIII</num></date> <w lemma="dies">di<supplied reason="lost">es</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="6"/><persName type="attested"><name type="gentilicium" nymRef="Iulius">Iulius</name></persName> <gap reason="lost" extent="unknown" unit="character"/><lb n="7" type="inWord"/><persName type="attested"><name type="cognomen"><seg part="F">nus</seg></name> 
+                  <name><seg part="I">T</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost" cert="low">Sacred</supplied> to the gods below of Anti<gap reason="lost"/> Valerius <gap reason="lost"/> <supplied reason="lost">; he lived for</supplied> twenty-five <supplied reason="lost">years</supplied>, nine months ands <gap reason="lost"/> days <gap reason="lost"/> Julius <gap reason="lost"/>nus T<gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1052"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. A. 563)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

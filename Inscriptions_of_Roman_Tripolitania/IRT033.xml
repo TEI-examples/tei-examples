@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT033" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Testamentary</rs> 
+               <rs type="textType">dedication</rs> to Septimius Severus by Caecilius </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT033</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Three <rs type="objectType">block</rs>s (each <dimensions>
+                                 <width unit="metre">0.51</width>
+                                 <height unit="metre">1.08</height>
+                                 <depth unit="metre">0.36</depth>
+                              </dimensions>) of hard <material>brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: a) line 1, <height unit="metre">0.15</height>; line 2, <height unit="metre">0.135</height>; line 3, <height unit="metre">0.105</height>;</handNote>
+                     <handNote>b) line1, <height unit="metre">0.10</height>; line 2, <height unit="metre">0.12</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate cert="low" when="0202" evidence="titulature-as-restored">A.D. 202 (titulature, as restored).</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>: 
+                  The <rs type="monuList" key="db848">Justinian church</rs>, between the Forum and the sea. Found re-used in the construction of the church, along with many plain and moulded blocks, 
+                  all of which belonged originally to a large base, possibly for a quadriga (<dimensions>
+                                 <width unit="metre">8.84</width>
+                                 <height unit="metre">7.34</height>
+                              </dimensions>), 
+                  the remains of which have been identified at a cross-roads to the W of the Theatre.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="fragment" n="a" type="textpart"><ab>
+                  <lb n="1"/><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w></supplied> 
+                  <persName type="emperor"><supplied reason="lost"><name type="cognomen" nymRef="Caesar">Caesari</name> 
+                     <name type="praenomen" nymRef="Lucius">Lucio</name> <name type="gentilicium" nymRef="Septimius">Septimio</name> <name type="cognomen" nymRef="Seuerus">Seuero</name></supplied>
+                     <name type="cognomen" nymRef="Pius"><supplied reason="lost">Pi</supplied>o</name> 
+                     <name type="cognomen" nymRef="Pertinax">Pert<supplied reason="lost">ina</supplied>ci</name> 
+                     <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name> 
+                     <name>Ar<supplied reason="lost">abico</supplied></name>
+                     <lb n="2"/><supplied reason="lost"><name type="cognomen" nymRef="Adiabenicus">Adiabenico</name> <name type="cognomen" nymRef="Parthicus">Parthico</name> 
+                        <w lemma="magnus">maximo</w></supplied></persName> 
+                  <supplied reason="lost"><w lemma="pontifex">pontifici</w></supplied>
+                     <w lemma="magnus"><supplied reason="lost">maxi</supplied>mo</w>
+                     <w lemma="tribunicius">tribun<supplied reason="lost">ici</supplied>ae</w> 
+                     <w lemma="potestas">potes<supplied reason="lost">tatis</supplied></w>
+                     <supplied reason="lost"><num><gap reason="lost" atLeast="1" atMost="4" unit="character"/></num></supplied>
+                     <lb n="3"/><supplied reason="lost"><w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> <num><gap reason="lost" atLeast="1" atMost="4" unit="character"/></num>
+                        <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w>
+                        <num><gap reason="lost" atLeast="1" atMost="4" unit="character"/></num></supplied> 
+                     <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+                     <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w>
+                  </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+                  <lb n="1"/><w lemma="ex">ex</w> <w lemma="testamentum">testam<supplied reason="lost">ento</supplied></w><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/><persName type="attested"><name><seg part="I"><expan><abbr>Q</abbr><ex>uint-</ex></expan></seg></name> 
+                  <name type="gentilicium" nymRef="Caecilius"><seg part="I">Caeci<supplied reason="lost">li</supplied></seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="a 2">
+                  <note>Parthicus maximus from 198. The restoration of these titles is required by the length of the line.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="a 2">
+                  <note>Perhaps, from the relative lengths of lines 1 and 2, trib. pot. X, 10 Dec. 201-9 Dec. 202.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="b 3">
+                  <note> Perhaps, from the relative size of the lettering, not the testator but the dedicating proconsul.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. <supplied reason="lost">To Emperor Caesar Lucius Septimus Severus</supplied> Pius Pertinax Augustus, Victor in Arabia, 
+               <supplied reason="lost">Victor in Adiabene, greatest Victor in Parthia</supplied>,
+               chief <supplied reason="lost">priest</supplied>, holding tribunician power 
+               <supplied reason="lost">for the  ?  time, acclaimed Victor ? times, consul for the ? time</supplied> father of the country</p><p> b.  <note>Set up</note> in accordance with the will <supplied reason="lost">of</supplied><gap reason="lost"/> 
+               Quintus Caecilius <note> case unknown</note> <gap reason="lost"/> </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0048"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="0049"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.III.4)</head>
+               </figure>
+               <figure>
+                  <graphic url="0050"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.VI.30)</head>
+               </figure>
+               <figure>
+                  <graphic url="0051"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.VII.35)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

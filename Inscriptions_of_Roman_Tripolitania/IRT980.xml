@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT980" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT980</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>,
+<title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>,
+<title level="j">Proceedings of the British School at Rome</title>
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>,
+   no. S.8.</bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Double <rs type="objectType">stele</rs> (<dimensions>
+                                 <width unit="metre">0.45</width>
+                                 <height unit="metre">1.87</height>
+                                 <depth unit="metre">0.45</depth>
+                              </dimensions>) of coarse <material>brown limestone</material>,
+               culminating in two triangular points, inscribed on one face within two adjacent moulded panels
+               (each <dimensions>
+                                 <width unit="metre">0.16</width>
+                                 <height unit="metre">0.38</height>
+                              </dimensions>). 
+               On the right side of the stele is a lightly incised <rs type="decoration">rectangle</rs> with the upper short end rounded,
+               and above it, slightly to the left, a <rs type="decoration">crude disc</rs> in relief;
+               above this, and appearing to stand on the top of the stele, an <rs type="decoration">8-spoked wheel</rs>  in high relief.
+               On the left side, opposite the wheel, is a <rs type="decoration">funerary urn</rs> in high relief. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within two adjacent moulded panels, with one line of the left-hand text being cut below its panel.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Irregular late capitals: (a) l. 1, <height unit="metre">0.04</height>;
+               l. 2, <height unit="metre">0.047</height>;
+               l. 3, <height unit="metre">0.049</height>;
+               l. 4, <height unit="metre">0.05</height>;
+               ll. 5-7, <height unit="metre">0.04</height>;
+               l. 8, <height unit="metre">0.055</height>.
+               (b) l. 1, <height unit="metre">0.035</height>;
+               ll. 2-5, <height unit="metre">0.04</height>;
+               l. 6, <height unit="metre">0.036</height>;
+               l. 7, <height unit="metre">0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db790">East gate</rs>; Found <date type="foundDate">1953</date> by Mr. John Cassels within the circuit of the first century wall, near the presumed site of the gate, at a depth of c. 5 ft.</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>. .</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="fragment" n="a" type="textpart"><ab>
+             <lb n="1"/><w lemma="deus"><expan><abbr>D</abbr><ex>is</ex></expan></w> <w lemma="sacer"><expan><abbr>s</abbr><ex>acrum</ex></expan></w> <w lemma="manes"><expan><abbr>m</abbr><ex>anibus</ex></expan></w>
+             <lb n="2"/><persName type="attested"><name type="gentilicium" nymRef="Claudius">Claudius</name>
+             <lb n="3"/><name type="cognomen" nymRef="Stiddin"><unclear>St</unclear>iddin</name></persName> 
+             <w lemma="monumentum">m<lb n="4" type="inWord"/>onimentu<lb n="5" type="inWord"/>m</w><w lemma="facio"> fecit</w>
+             <lb n="6"/><w lemma="se">se</w> <w lemma="uiuo">uiuo</w> <w lemma="posterius">po<lb n="7" type="inWord"/>sterius</w>  
+             <lb n="8"/><w lemma="se">suis</w>
+          </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+               <lb n="1"/><w lemma="deus"><expan><abbr>D</abbr><ex>is</ex></expan></w> <w lemma="sacer"><expan><abbr>s</abbr><ex>acrum</ex></expan></w> <w lemma="manes"><expan><abbr>m</abbr><ex>anibus</ex></expan></w>
+               <lb n="2"/><persName type="attested"><name type="gentilicium" nymRef="Claudius">Claudius</name>
+               <lb n="3"/><name type="cognomen" nymRef="Ladas"><unclear>L</unclear>adas</name></persName> <w lemma="monumentum">mon<lb n="4" type="inWord"/>imentum</w>  
+               <lb n="5"/><w lemma="facio">fecit</w> <w lemma="se">se</w> <w lemma="uiuo">ui<lb n="6" type="inWord"/>uo</w> <w lemma="posterus">poster<lb n="7" type="inWord"/>isque</w> <w lemma="se">suis</w>
+            </ab></div></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="a 4">
+                  <note>sic</note>
+               </app>
+            </p>
+            <p>
+               <app loc="a 7">
+                  <note>sic</note>
+               </app>
+            </p>
+            <p>
+               <app loc="b 4">
+                  <note>sic</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a Sacred to the gods below; Claudius Stiddin had the monument made in his lifetime for his descendants.</p><p>b Sacred to the gods below; Claudius Ladas had the monument made in his life time <supplied reason="subaudible">for himself</supplied> and for his descendants.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>a.1, b.1: . A rare order for the words of this formula; see also, however, <title level="m">CIL</title> VIII, 3828.</p>
+            <p>Both cognomina appear to be of Libyan origin. For Stiddin see also <ref type="inscription">219</ref>,
+   <ref type="inscription">236</ref>,
+               <ref type="inscription">875</ref>, and, probably, <ref type="inscription">892</ref>, and
+   <ref type="inscription">988</ref>; Ladas is not otherwise known. The initial letters of
+               the name read as Stiddin are cut as S with crossbar. This
+               letter-form has been found in a number of Latino-Libyan inscriptions in Tripolitania and
+               has sometimes been read as F, more recently as Z (see R. Goodchild, 'The Latino-Libyan
+               Inscriptions of Tripolitania', <title level="j">The Antiquaries Journal</title>, (1950) 137). Here
+               S with crossbar is clearly distinguished from F; and since there can be
+               little doubt that the name intended is Stiddin (as also in <ref type="inscription">892</ref>, where the initial
+               letters are also written as S with crossbar) it would seem reasonable to suppose that the form
+               regularly represents ST in ligature. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT978" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment</title>
+            <editor>J. M. Reynolds</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT978</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>,
+<title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>,
+<title level="j">Proceedings of the British School at Rome</title>
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>,
+               no. S.6.</bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Fragment from the left-hand side of a <rs type="objectType">base</rs> of <material>grey marble</material> (<dimensions>
+                                 <width unit="metre">0.24</width>
+                                 <height unit="metre">0.43</height>
+                                 <depth unit="metre">0.135</depth>
+                              </dimensions>)
+              </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel, from which a previous inscription has been erased  (<dimensions>
+                              <width unit="metre">0.153</width>
+                              <height unit="metre">0.285</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century capitals:
+               l. 1, <height unit="metre">0.055</height>;
+               ll. 2, 3, <height unit="metre">0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0301" notAfter="0350" evidence="lettering-titulature">Early fourth century A.D. (lettering, titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db719">Forum Severianum</rs>. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Now in one of the tabernae of the East Portico of the Forum Severianum.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+               <lb n="1"/><gap reason="lost" quantity="2" unit="character"/><orig><unclear>V</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> <w lemma="perficio"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w> <w lemma="ago">age<supplied reason="lost">nti</supplied></w> <w lemma="uicis"><supplied reason="lost">uices</supplied></w>
+               <lb n="3"/><w lemma="praefectus"><expan><abbr>praef</abbr><ex>ectorum</ex></expan></w> <w lemma="praetorius"><supplied reason="lost">praetorio</supplied></w>
+               <lb n="4"/><w lemma="ob">ob</w> <w lemma="in" part="I">in</w><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="5"/><gap reason="lost" quantity="2" unit="character"/><w part="M"><unclear>pa</unclear></w><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To <gap reason="lost" extent="unknown" unit="character"/> excellent man<supplied reason="explanation"> of equestrian status</supplied>, acting as a deputy for the praetorian prefects, on account of <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>Material and lettering closely resemble those of <ref type="inscription">651</ref>, but there appear to be slight differences in the moulding of the two fragments.</p>
+            <p>l.3. <foreign xml:lang="la">PRAEFF</foreign>; the upper part only of the sixth letter survives, but <foreign xml:lang="la">praefe[ctorum</foreign>... is improbable in view of the likely line-length calculated from l. 2.  Since this <foreign xml:lang="la">uicarius</foreign> is <foreign xml:lang="la">u.p</foreign>. not <foreign xml:lang="la">u.c</foreign>. the date must be early in the fourth century: see Introductions: General introduction, Section 4.</p>
+            <p>l.4. <foreign xml:lang="la">Innocentiam</foreign> or <foreign xml:lang="la">integritatem</foreign> would fit the space available; but a phrase such as <foreign xml:lang="la">ob insignia meritorum</foreign>..., running on to the next line, is also possible.</p>
+            <p>l.5. For P it would be possible to read B or R; for A, N or V.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

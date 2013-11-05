@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT863" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">christian</rs> inscriptions</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT863</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>A number of <rs type="objectType">block</rs>s and fragments of blocks: (all originally <height unit="metre">0.53</height>
+                              <depth unit="metre" atLeast="0.42" atMost="0.48">0.42-48</depth>, varying width).  
+a) Fragments of 7 blocks. Fragments 6 and 7 are wrongly conflated as a single text by <title>CIL</title>, followed by Diehl, <title>Inscr. lat. christ. vet.</title> 2468 (erroneously attributed to Rumia). Not seen.
+b) Fragments of 16 lintels and wall-panels. To these must be added a lintel fragment, containing the central part of text 2, seen and photographed by Bartoccini c.1925, re-used as part of a column in an unidentified mosque near Msufiin.
+1. Complete lintel (<dimensions>
+                                 <width unit="metre">1.41</width>
+                              </dimensions>), found in situ over doorway V.
+2. Three fragments of a lintel (<dimensions>
+                                 <width unit="metre" precision="low">3.00</width>
+                              </dimensions>)
+3. Left half of a lintel (<dimensions>
+                                 <width unit="metre" precision="low">1.12</width>
+                              </dimensions>, width incomplete)
+               4. Left half of a lintel (<dimensions>
+                                 <width unit="metre">0.70</width>
+                              </dimensions>, width incomplete)
+5. Wall-panel (<dimensions>
+                                 <width unit="metre">0.60</width>
+                              </dimensions>)
+6. Wall-panel (<dimensions>
+                                 <width unit="metre">0.60</width>
+                              </dimensions>)
+7. Wall-panel (<dimensions>
+                                 <width unit="metre">2.00</width>
+                              </dimensions>)
+8. Fragment (<width unit="metre">0.75</width>; width incomplete; left-hand margin only)
+9. Fragment (<width unit="metre">0.44</width>; left-hand margin only)
+10. Fragment (<dimensions>
+                                 <height unit="metre">0.45</height>
+                              </dimensions>, width incomplete; left-hand margin only)
+11. Fragment (<width unit="metre">0.68</width>, width incomplete; left-hand margin only)
+12. Fragment (<width unit="metre">0.23</width>, width incomplete; left-hand margin only)
+13. Fragment (<width unit="metre">1.10</width>, width incomplete; right-hand margin only)
+14. Fragment (<width unit="metre">0.80</width>, width incomplete; right-hand margin only)
+15. Fragment (<width unit="metre">0.40</width>, width incomplete; right-hand margin only)
+16. Fragment (<width unit="metre">0.32</width>, width incomplete; neither lateral margin surviving)</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>These blocks belong to a series of inscriptions, all of similar form and content, which appear to have formed a continuous course along the outer face or faces of the building.  Some of the blocks served also as lintels of doorways, and in these the text is interrupted by a central <rs type="decoration">Chi-rho monogram</rs>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Well cut lapidary capitals: <height unit="metre" atLeast="0.095" atMost="0.10">0.095-0.10</height>.  The text is cut in three lines within a frame of continuous horizontal incised lines (double between ll.1 and 2, and ll.2 and 3), with vertical lines marking the left and right-hand margins of the individual panels.
+               There is a fourth line, below the frame, on some blocks; on the lintels this part of the stone is cut away.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db666">Western Djebel</placeName>: 
+                  From <rs type="monuList" key="db885">Henscir Taglissi</rs>, a ditched ruin on the right bank of the Wadi en-Nzasat, , 500 m. South West of the village of el-Msufiin (map ref. Q 297777).a) Recorded by Rothmann in <date type="foundDate">1773</date>, four of them then still apparently in situ. With the possible exception of fragments 5 and 7, these are now lost.
+               b) found by Goodchild in <date type="foundDate">1949</date> on the surface and in the course of partial excavation. 
+               b.2:  The central fragment photographed by Bartocini in <date type="foundDate">1925</date>, the other two found in <date type="foundDate">1949</date>.</p>
+                        </event>
+                        <event type="observed">
+                           <p> Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="http://www.geonames.org/2214332/wadi-an-niz%CC%A7amat.html">Wādī an Niz̧āmāt</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>a) Recorded by Rothman in 1773: <bibl>
+                  <ptr target="cil"/>, <biblScope>VIII:10969</biblScope>
+               </bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Previous publications and  transcriptions (Bartoccini, Goodchild, Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="section" n="a" type="textpart"><div subtype="fragment" n="1" type="textpart"><ab>
+                     <lb n="1"/> <w lemma="deus">Dei</w> <w lemma="dominus">domi<lb n="2" type="inWord"/>ni</w> <w lemma="iustitia">iusti<lb n="3" type="inWord"/>tia</w>
+                  </ab></div><div subtype="fragment" n="2" type="textpart"><ab>
+                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>sun</orig>
+                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">litas</w>
+                     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="felicitas"><supplied reason="lost">fe</supplied>licitas</w>
+                  </ab></div><div subtype="fragment" n="3" type="textpart"><ab>
+                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="dominus"><supplied reason="lost">do</supplied>mini</w>
+                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">tati</w>
+                  </ab></div><div subtype="fragment" n="4" type="textpart"><ab>
+                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> 
+                     <w lemma="dominus">dom<supplied reason="lost">in</supplied></w><gap reason="lost" extent="unknown" unit="character"/> 
+                  </ab></div><div subtype="fragment" n="5" type="textpart"><ab>
+                     <lb n="1"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><orig>bona</orig><gap reason="lost" extent="unknown" unit="character"/>      
+                  </ab></div><div subtype="fragment" n="6" type="textpart"><ab>
+                     <lb n="1"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><w lemma="dominus"><supplied reason="lost">d</supplied>o<supplied reason="lost">mi</supplied>ni</w>
+                     <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">tas</w>
+                     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ca</orig>
+                  </ab></div><div subtype="fragment" n="7" type="textpart"><ab>
+                     <lb n="1"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><w lemma="laus"><supplied reason="lost">la</supplied>udes</w> <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="2"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><orig>a</orig><gap reason="lost" extent="unknown" unit="character"/>      
+                  </ab></div></div><div subtype="section" n="b" type="textpart"><div subtype="fragment" n="1" type="textpart"><div subtype="text" n="i" type="textpart"><ab>
+                     <lb n="1"/><w lemma="deus">Dei</w> <w lemma="dominus">domini</w> 
+<figure><graphic url=""/><head>monogram</head></figure> 
+                     <w lemma="omnipotens">omnipo<lb n="2" type="inWord"/>tentis</w> <w lemma="et">et</w> 
+<figure><graphic url=""/><head>monogram</head></figure> 
+                     <w lemma="is">eius</w> <w lemma="pietas">pieta<lb n="3" type="inWord"/>s</w> <w lemma="et">et</w> 
+                     <w lemma="misericordia">miseri
+<figure><graphic url=""/><head>monogram</head></figure>cordia</w>
+                  </ab></div><div subtype="monogram" n="ii" type="textpart"><ab>
+                        <lb n="1"/><foreign xml:lang="grc">Α<g type="chi-rho"/>Ω</foreign>   
+                     </ab></div></div><div subtype="fragment" n="2" type="textpart"><div subtype="text" n="i" type="textpart"><ab>
+                        <lb n="1"/><w lemma="laus"><supplied reason="lost">L</supplied>audes</w> <w lemma="dominus"><supplied reason="lost">do</supplied>mino</w> 
+                        <w lemma="omnipotens">om
+<figure><graphic url=""/><head>monogram</head></figure><supplied reason="lost">nipote</supplied>nti</w> <w lemma="deus">Deo</w> <w lemma="et">et</w> <g type="chi-rho"/>
+                        <w lemma="is">ei<lb n="2" type="inWord"/><supplied reason="lost">us</supplied></w> <w lemma="qui">cuiu<supplied reason="lost">s</supplied></w>
+                        <w lemma="aspiratio">aspiration 
+<figure><graphic url=""/><head>monogram</head></figure> <supplied reason="lost">e</supplied></w> 
+                        <supplied reason="lost"><w lemma="et">et</w></supplied> <w lemma="praestantia"><supplied reason="lost">prae</supplied>stantia</w> 
+                        <persName type="attested"><name type="cognomen" nymRef="Aemilianus">Ae<lb n="3" type="inWord"/><supplied reason="lost">mil</supplied>ian<supplied reason="lost">u</supplied>s</name></persName> 
+                        <w lemma="dispono">disposuit</w> 
+                        
+<figure><graphic url=""/><head>monogram</head></figure> <w lemma="instituo">i<supplied reason="lost">nstitui</supplied>t</w> <w lemma="et">et</w> <w lemma="perficio">perfecit</w>
+                     </ab></div><div subtype="monogram" n="ii" type="textpart"><ab>
+                        <lb n="1"/><foreign xml:lang="grc">Α<g type="chi-rho"/>Ω</foreign>   
+                     </ab></div></div><div subtype="fragment" n="3" type="textpart"><div subtype="text" n="i" type="textpart"><ab>
+                        <lb n="1"/><w lemma="deus">Dei</w> <w lemma="dominus">domini</w> 
+<figure><graphic url=""/><head>monogram</head></figure> <supplied reason="lost"><w lemma="omnipotens">omnipotentis</w></supplied>
+                        <lb n="2"/><w lemma="opulentia">oppulentia</w> 
+<figure><graphic url=""/><head>monogram</head></figure> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><w lemma="abundantia">abundantia</w> 
+<figure><graphic url=""/><head>monogram</head></figure> <gap reason="lost" extent="unknown" unit="character"/>
+                     </ab></div><div subtype="monogram" n="ii" type="textpart"><ab>
+                        <lb n="1"/><foreign xml:lang="grc">Α<g type="chi-rho"/>Ω</foreign>   
+                     </ab></div></div><div subtype="fragment" n="4" type="textpart"><ab>
+                     <lb n="1"/><w lemma="omnipotens"><supplied reason="lost">Om</supplied>nipoten<supplied reason="lost">ti</supplied></w>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="2"/>
+                     <gap reason="lost" quantity="1" unit="character"/><orig>eto</orig> <w lemma="immortalitas">inmort<supplied reason="lost">alitas</supplied></w>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="3"/>
+                     <orig>isauariorum</orig><gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="29"/><orig>pe</orig>
+                  </ab></div><div subtype="fragment" n="5" type="textpart"><ab>
+                     <lb n="1"/><w lemma="dominus">Domini</w> <lb n="2"/><w lemma="prosperitas">prospe<lb n="3" type="inWord"/>ritas</w>
+                  </ab></div><div subtype="fragment" n="6" type="textpart"><ab>
+                     <lb n="1"/><w lemma="deus">De<supplied reason="lost">i</supplied></w>
+                     <w lemma="dominus"><supplied reason="lost">d</supplied>omin<lb n="2" type="inWord"/><supplied reason="lost">i</supplied></w><gap reason="lost" quantity="3" unit="character"/><orig>tapr</orig>
+                     <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>o</orig>
+                     <lb n="4"/><w lemma="bonus">bona</w>
+                  </ab></div><div subtype="fragment" n="7" type="textpart"><ab>
+                     <lb n="1"/><w lemma="dominus">Domini</w> <w lemma="omnipotens">omnipotentis</w> <w lemma="honorificentia">ho<lb n="2" type="inWord"/>norificentia</w> <w lemma="prudentia">prudentia</w> 
+                     <w lemma="scientia">s<lb n="3"/><unclear>c</unclear><supplied reason="lost">ientia</supplied></w> <w lemma="recordatio"><supplied reason="lost">rec</supplied>ordatio</w>
+                  </ab></div><div subtype="fragment" n="8" type="textpart"><ab>
+                     <lb n="1"/>
+                     <w lemma="dominus"><supplied reason="lost">Do</supplied>mini</w> <w lemma="omnipotens">o<supplied reason="lost">mnipotentis</supplied></w>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <w lemma="inuictus"><supplied reason="lost">in</supplied><lb n="2" type="inWord"/>uictissim<supplied reason="lost">i</supplied></w>
+                     <gap reason="lost" extent="unknown" unit="character"/><lb n="3" type="inWord"/><w part="F">itas</w> <w lemma="iustitia">iust<supplied reason="lost">itia</supplied></w>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                  </ab></div><div subtype="fragment" n="9" type="textpart"><ab>
+                     <lb n="1"/><w lemma="deus">Dei</w> <w lemma="dominus">dom<supplied reason="lost">ini</supplied></w>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="2"/><w lemma="caritas">kar<supplied reason="lost">itas</supplied></w>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
+                  </ab></div><div subtype="fragment" n="10" type="textpart"><ab>
+                     <lb n="1"/><w lemma="dominus">Dom<supplied reason="lost">ini</supplied></w>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="2"/><orig>po</orig><gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
+                  </ab></div><div subtype="fragment" n="11" type="textpart"><ab>
+                     <lb n="1"/><w lemma="deus">Dei</w> <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>
+                     <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
+                  </ab></div><div subtype="fragment" n="12" type="textpart"><ab>
+                  <lb n="1"/><orig>d</orig><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/><orig>r</orig><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="3"/><orig>d</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div><div subtype="fragment" n="13" type="textpart"><ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w part="I"><supplied reason="lost">o</supplied>mnipoten</w><lb n="2" type="inWord"/><gap reason="lost" extent="unknown" unit="character"/><orig>uitaefidi</orig>
+               <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="auctoritas"><supplied reason="lost">au</supplied>ctoritas</w> <w lemma="ex">ex</w>
+               <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>tio</orig>
+            </ab></div><div subtype="fragment" n="14" type="textpart"><ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost">omnipote</supplied>nti<gap reason="lost" quantity="3" unit="character"/>      
+               <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>oapatr</orig><gap reason="lost" quantity="3" unit="character"/>
+               <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="humanitas">humanitas</w>
+            </ab></div><div subtype="fragment" n="15" type="textpart"><ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>sta</orig>
+               <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>nos</orig>
+               <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>t</orig>
+               <g type="palm"/>
+            </ab></div><div subtype="fragment" n="16" type="textpart"><ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="dominus"><supplied reason="lost">do</supplied>mini</w> 
+               <w lemma="omnipotens">o<supplied reason="lost">mnipotentis</supplied></w>
+               <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>umb</orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. 1. The justice of the Lord God; 2. <gap reason="lost"/>felicity;  3. <gap reason="lost"/> of the
+   Lord <supplied reason="lost">God</supplied> <gap reason="lost"/>;
+   4. <gap reason="lost"/>of the Lord <supplied reason="lost">God</supplied> <gap reason="lost"/>;
+   5. <gap reason="lost"/>?good things<gap reason="lost"/>of the Lord <supplied reason="lost">God</supplied> 
+   <gap reason="lost"/></p><p>b. 1. Of the omnipotent Lord God and his ?justice and mercy.
+      <note>Alpha and Omega on either side of a chi-rho monogram</note>;
+      2. Praises to the omnipotent Lord God and his Christ, by whose ?breath and excellence Aemilianus organised,
+      constructed and completed <supplied reason="subaudible">this</supplied>
+      <note>Alpha and Omega on either side of a chi-rho monogram</note>;
+      3. Of the Lord God the omnipotent the wealth <gap reason="lost"/>, the riches <gap reason="lost"/>
+      <note>Alpha and Omega on either side of a monogram cross</note>;
+      4. <supplied reason="lost">To</supplied> the omnipotent God <gap reason="lost"/> immortality
+      <note>case unknown</note>; 5. of the prosperity of the Lord;
+      6. <supplied reason="lost">Of</supplied> the Lord God <gap reason="lost"/> good things;
+      7. Of the omnipotent Lord, the honour, the prudence, the knowledge, the remembrance.
+      8. Of the <supplied reason="lost">omnipotent</supplied> Lord <gap reason="lost"/> wholly unconquered
+      <supplied reason="lost">the</supplied> <gap reason="lost"/>, the justice<gap reason="lost"/>;
+      9. Of the Lord God <gap reason="lost"/> the love <gap reason="lost"/>;
+      10. Of the Lord <supplied reason="lost">God</supplied> <gap reason="lost"/>;
+      11. Of God <gap reason="lost"/>;
+      12. <note>Not usefully translatable.</note>
+      13. <gap reason="lost"/> omnipotent <note>probably genitive</note> <gap reason="lost"/>
+      authority from <gap reason="lost"/>;
+      14.<gap reason="lost"/> ?of the omnipotent <supplied reason="lost">God</supplied> <gap reason="lost"/>
+      the humanity;
+      15. <note>Not usefully translatable.</note>
+      16. <gap reason="lost"/> of the <supplied reason="lost">omnipotent</supplied> Lord <gap reason="lost"/>.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1056"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. B. 1993)</head>
+               </figure>
+               <figure>
+                  <graphic url="1072"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1073"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1074"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1075"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1059"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. B. 1993)</head>
+               </figure>
+               <figure>
+                  <graphic url="1060"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1061"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1062"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1058"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1063"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1064"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1065"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1066"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1067"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1068"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1069"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1070"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="1071"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

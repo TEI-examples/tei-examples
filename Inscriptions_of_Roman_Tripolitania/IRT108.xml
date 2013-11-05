@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT108" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for L. Munatius Dexter</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT108</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material>Marble</material> 
+                              <rs type="objectType">panel</rs> (<dimensions>
+                                 <width unit="metre">0.12</width>
+                                 <height unit="metre">0.15</height>
+                                 <depth unit="metre">0.04</depth>
+                              </dimensions>), bevelled on the inner face and pierced with vertical holes at top and bottom of the bevel. There is a square recess 5 mm. deep in the centre of the inscribed face.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Third century A.D. capitals with some Rustic forms: <height unit="metre" atLeast="0.01" atMost="0.015">0.01-0.015</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0201" notAfter="0300" precision="low" evidence="lettering">Third century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:  
+                  Found in the cemetery area near the Christian <rs type="monuList" key="db833">Catacomb to the E of the Theatre</rs>
+                           </p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db660">Sabratha Museum</rs>. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="deus">Dis</w> <w lemma="manes"><expan><abbr>manib</abbr><ex>us</ex></expan></w>
+               <lb n="2"/><w lemma="sacer"><expan><abbr>sac</abbr><ex>rum</ex></expan></w> 
+               <persName type="attested"><name type="cognomen" nymRef="Varigata">Varigata</name></persName>
+                <lb n="3"/><persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name type="gentilicium" nymRef="Munatius">Munatius</name>
+               <lb n="4"/><name type="cognomen" nymRef="Dexter">Dexter</name></persName> <rs type="military"><w lemma="ueteranus"><expan><abbr>uet</abbr><ex>eranus</ex></expan></w></rs> 
+               <lb n="5"/><w lemma="pius">pius</w> <w lemma="uiuo">uixit</w>
+               <lb n="6"/><date when-iso="PY55">annis <num value="55">LV</num></date>
+               <lb n="7"/>
+               <w lemma="os"><expan><abbr>o</abbr><ex>ssa</ex></expan></w> 
+               <w lemma="tu"><expan><abbr>t</abbr><ex>ibi</ex></expan></w> 
+               <w lemma="bene"><expan><abbr>b</abbr><ex>ene</ex></expan></w> 
+               <w lemma="quiesco"><expan><abbr>q</abbr><ex>uiescant</ex></expan></w> 
+               <w lemma="terra"><expan><abbr>t</abbr><ex>erra</ex></expan></w> 
+               <w lemma="tu"><expan><abbr>t</abbr><ex>ibi</ex></expan></w> 
+               <w lemma="leuis"><expan><abbr>l</abbr><ex>euis</ex></expan></w> 
+               <w lemma="sum"><expan><abbr>s</abbr><ex>it</ex></expan></w>
+               <lb n="8"/>
+               <w lemma="hic"><expan><abbr>h</abbr><ex>ic</ex></expan></w> 
+               <w lemma="sino"><expan><abbr>s</abbr><ex>itus</ex></expan></w> 
+               <w lemma="sum"><expan><abbr>e</abbr><ex>st</ex></expan></w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Sacred to the gods below; Varigata; Lucius Munatius Dexter, veteran soldier; he lived conscientiously for 55 years; may your bones rest quietly; may the earth lie lightly on you. He is laid here. </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0143"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DTV 389)</head>
+               </figure>
+               <figure>
+                  <graphic url="0144"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DTV 390)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT468" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> inscription under Constantine I and Licinius</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT468</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Part of a <material>marble</material> 
+                              <rs type="objectType">panel</rs> (<dimensions>
+                                 <width unit="metre">1.48</width>
+                                 <height unit="metre">0.68</height>
+                                 <depth unit="metre">0.02</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century A.D. capitals: av. <height unit="metre">0.05</height>; 1. 12, <height unit="metre">0.02</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0317" notAfter="0323" evidence="reigns">A.D. 317-323 (reigns)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db729">Punic Market</rs>, more than 50 fragments found.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Now recomposed in <rs type="monuList" key="db654">Lepcis Museum</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Aurigemma</author>,<ptr target="attipontac"/> 
+                  <biblScope>XV:117</biblScope> ff.<title/>, fig, 6</bibl>;
+               <bibl>
+                  <ptr target="ae"/> 
+                  <biblScope>1948:40</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="qui">Quod</w> <w lemma="inter">inter</w> <w lemma="ceter">cetera</w> <w lemma="ciuitas">ciuitatis</w> <placeName type="ethnic" nymRef="Lepcimagnensis">Lepcimagnensium</placeName> 
+               <lb n="2"/><w lemma="moenia">moenia</w> <w lemma="qui">quae</w> <w lemma="cum">cum</w> <w lemma="se">sui</w> <w lemma="magnitudo">magnitudine</w> <w lemma="et">et</w> <w lemma="splendor">splendo<lb n="3" type="inWord"/>re</w> 
+               <w lemma="concordo">concordant</w> <w lemma="etiam">etiam</w> <w lemma="porticus">porticuum</w> <w lemma="macellum">macelli</w> <w lemma="in">in</w> <w lemma="ruina">rui<lb n="4" type="inWord"/>nam</w> 
+               <w lemma="labes"><supplied reason="lost">la</supplied><unclear>b</unclear>emque</w> <w lemma="conuersus">conuersam</w> <w lemma="remaneo">remanere</w> <w lemma="nudus">nudam</w>
+               <lb n="5"/>
+               <w part="I">ult</w><gap reason="lost" quantity="15" unit="character" precision="low"/><w part="F"><unclear>e</unclear>neret</w> <w lemma="qui">quod</w> <w lemma="sum">esset</w> <w lemma="in">in</w> <w lemma="usus">usu</w>
+               <lb n="6"/><w lemma="atque">ac</w> <w part="I">f</w><gap reason="lost" quantity="20" unit="character" precision="low"/> 
+               <w lemma="horto">hort<supplied reason="lost">a</supplied>nte</w> 
+               <w lemma="clemens">clemen<lb n="7" type="inWord"/><unclear>tia</unclear></w> <gap reason="lost" quantity="9" unit="character" precision="low"/>
+               <w lemma="dominus"><supplied reason="lost"><expan><abbr>d</abbr><ex>ominorum</ex></expan></supplied></w> 
+               <w lemma="noster"><expan><abbr>n</abbr><ex>ostrorum</ex></expan></w> <w lemma="et">et</w> 
+               <persName type="emperor"><name type="gentilicium" nymRef="Flauius"><expan><abbr>F<supplied reason="lost">l</supplied></abbr><supplied reason="lost"><ex>aui</ex></supplied></expan></name>
+               <name type="cognomen" nymRef="Constantinus">Cons<supplied reason="lost">t</supplied>antini</name> 
+               <w lemma="magnus"><expan><abbr>max</abbr><ex>imi</ex></expan></w></persName>
+               <lb n="8"/>
+               <persName type="emperor"><supplied reason="lost"><w lemma="et">et</w> <persName type="emperor"><name type="gentilicium" nymRef="Valerius"><expan><abbr>Val</abbr><ex>eri</ex></expan></name> <name type="gentilicium" nymRef="Licinius">Licini</name></persName> <w lemma="et">et</w> 
+                  <name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>aui</ex></expan></name></supplied> <name type="cognomen" nymRef="Crispus"><supplied reason="lost">Cri</supplied>spi</name></persName> <w lemma="et">et</w> 
+               <persName type="emperor"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>aui</ex></expan></name> 
+               <name type="gentilicium" nymRef="Claudius"><supplied reason="lost">Cl</supplied>aud<supplied reason="lost">i</supplied></name> <name type="cognomen" nymRef="Constantinus"><supplied reason="lost">Con</supplied>stantini</name></persName>
+               <lb n="9"/><w lemma="et">et</w> <persName type="emperor"><name type="gentilicium" nymRef="Flauius"><expan><abbr>F<supplied reason="lost">l</supplied></abbr><supplied reason="lost"><ex>aui</ex></supplied></expan></name> 
+                  <supplied reason="lost"><name type="gentilicium" nymRef="Valerius"><expan><abbr>Val</abbr><ex>eri</ex></expan></name> <name type="gentilicium" nymRef="Licinius">Licini</name></supplied></persName> 
+               <w lemma="nobilis"><expan><abbr><supplied reason="lost">no</supplied>b</abbr><ex>i</ex><abbr>l</abbr><ex>ium</ex></expan></w> 
+               <persName type="emperor"><name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>arum</ex></expan></name></persName>  
+               <gap reason="lost" quantity="9" unit="character"/><w lemma="tu" part="F">te</w> <w lemma="atque">ac</w> <w lemma="dedico">dedicante</w>
+               <lb n="10"/><persName type="attested"><name type="gentilicium" nymRef="Laenatius">Laenatio</name> <name type="cognomen" nymRef="Romulus">Romulo</name></persName>
+               <supplied reason="lost"><w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+                  <w lemma="perficio"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w> 
+                  <w lemma="praeses"><expan><abbr>p</abbr><ex>raeside</ex></expan></w> 
+                  <w lemma="prouincia"><expan><abbr>p</abbr><ex>rouinciae</ex></expan></w> 
+                  <placeName type="ethnic" nymRef="Tripolitanus"><expan><abbr>Tripol</abbr><ex>itanae</ex></expan></placeName></supplied>
+               <lb n="11"/>
+               <gap reason="lost" quantity="7" unit="character"/>
+               <w lemma="amplus"><supplied reason="lost">amp</supplied>liorem</w> 
+               <gap reason="lost" quantity="11" unit="character"/><w part="F">am</w> <w lemma="gratia">gratiam</w> <w lemma="et">et</w> 
+               <w lemma="pulchritudo">pulchritu<lb n="12" type="inWord"/><supplied reason="lost">dinem</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/> 
+               <w lemma="sumptus"><expan><abbr>sum</abbr><ex>p</ex><abbr>ti</abbr><supplied reason="lost">bus</supplied></expan></w>
+               <gap reason="lost" quantity="11" unit="character"/>
+               <w lemma="administro"><supplied reason="lost">admin</supplied>istra<supplied reason="lost">t</supplied>is</w>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="7">
+                  <note>
+                     <supplied reason="lost">DDDD</supplied> NNNN or <supplied reason="lost">DDDDD N</supplied>NNNN. 
+                     The inscription must have been cut between 317 and 323, when there were two Augusti and three Caesares; see Aurigemma. op. cit. </note>
+               </app>
+            </p>
+            <p>
+               <app loc="9">
+                  <note>
+                     <supplied reason="lost">NO</supplied>BLL CAESS.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Because among other affairs of the city of the Lepcimagnensians the walls which  ?are appropriate to its size and splendour, also the portico of the market <supplied reason="lost">fallen</supplied> into ruin and destruction to remain bare <gap reason="lost"/> which was in use and <gap reason="lost" quantity="20" unit="character" precision="low"/> with encouragement from the clemency <gap reason="lost" quantity="9" unit="character"/> of our <supplied reason="lost">lords Flavius</supplied> Constantinus the very great <supplied reason="lost">and Valerius Licinius and Flavius</supplied> Crispus and Flavius Claudius Constantinus and Flavius <supplied reason="lost">Valerius Licinius</supplied> noble Caesars; <gap reason="lost"/> and dedicating Laenatius Romulus <supplied reason="lost">excellent man  <note> i.e. equestrian</note>, governor of the province of Tripolitania</supplied><gap reason="lost"/> fuller <supplied reason="lost" cert="low">and</supplied> grace and beauty <gap reason="lost"/> ? with the costs <gap reason="lost"/> having been administered.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 10. Laenatius Romulus. Also in <ref type="inscription">101</ref>, ll. 1-8; <ref type="inscription">467</ref>, l. 7; <ref type="inscription">574</ref>, ll. 1-12.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0604"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 764)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

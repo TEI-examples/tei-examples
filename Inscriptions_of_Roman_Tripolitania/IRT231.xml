@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT231" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Liber Pater </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT231</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <rs type="objectType">base</rs> carved in one block with an Attic base 
+               (<dimensions>
+                                 <width unit="metre">0.44</width>
+                                 <height unit="metre">0.72</height>
+                                 <depth unit="metre">0.44</depth>
+                              </dimensions>) of 
+               <material>coarse grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face
+               (die, <dimensions>
+                              <width unit="metre">0.32</width>
+                              <height unit="metre">0.36</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rustic capitals: <height unit="metre" atLeast="0.025" atMost="0.04">0.025-0.04</height> 
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>Unknown</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="http://atlantides.org/batlas/oea-35-f2" key="db657">Oea</placeName>:
+                  An Arab house in the <rs type="monuList" key="db820">Tripoli Oasis</rs>. Found re-used.</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db662">Tripoli Castle</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2210247/tripoli.html">Tripoli</placeName>
+               </term>
+               <term>
+                  <rs type="textType">Animals</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cil"/>,  <biblScope>VIII:10488</biblScope> = <biblScope>VIII:11001</biblScope>
+               </bibl>; 
+               <bibl>
+                  <ptr target="attilincei"/>, <biblScope>XXIX:376</biblScope> ff.</bibl>:  
+               <bibl>
+                  <ptr target="ae"/>, <biblScope>1922:110</biblScope>
+               </bibl>, 
+               <bibl>
+                  <ptr target="afrital"/>, <biblScope>VII:80</biblScope> ff., fig. 16</bibl>; 
+               <bibl>
+                  <ptr target="ae"/>, <biblScope>1942- 3:3</biblScope>
+               </bibl>. 
+               <bibl xml:id="guey1952">
+                  <author>Jean Guey</author>, <title level="j">Rev. Afr.</title>, <biblScope>XCVI: 32</biblScope>
+               </bibl>, 
+               cited by<bibl>
+                  <author>A. Degrassi</author>, <ptr target="quaderni"/>, III (1954)</bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="divine"><name nymRef="Liber">Liber</name> 
+                  <w lemma="pater">Pater</w></persName> 
+               <w lemma="sancio">s<supplied reason="lost">a</supplied>nctissime</w>
+               <lb n="2"/>
+               <w lemma="arx">arcem</w> 
+               <w lemma="hic"><supplied reason="lost">hanc</supplied></w> 
+               <w lemma="qui"><supplied reason="lost">q</supplied>u<unclear>i</unclear></w> 
+               <w lemma="possideo"><unclear>p</unclear>ossides</w>
+               <lb n="3"/>
+               <w lemma="et"><supplied reason="lost">e</supplied>t</w> 
+               <w lemma="ad">ad</w> 
+               <w lemma="sacer">s<supplied reason="lost">acram</supplied></w>
+               <w lemma="ara"><supplied reason="lost">a</supplied>ram</w>
+               <lb n="4"/>
+               <w lemma="urbs">u<supplied reason="lost">r</supplied>bis</w> 
+               <gap reason="lost" quantity="8" unit="character" precision="low"/><w part="I">ugis</w>
+               <lb n="5"/>
+               <w lemma="et">et</w> 
+               <w lemma="hic">hi<supplied reason="lost">c</supplied></w>
+               <gap reason="lost" quantity="4" unit="character" precision="low"/> 
+               <w lemma="uotum">uotum</w> <w lemma="dico">dico</w>
+               <lb n="6"/>
+               <w lemma="dens">dentes</w> 
+               <w lemma="duo">duos</w> 
+               <placeName type="ethnic" nymRef="Luca">Lucae</placeName>
+               <w lemma="bos">bouis</w>
+            </ab></div>
+         <div type="edition" subtype="reconstruction" xml:lang="la" xml:space="preserve"><note>Jean Guey regards the text as a verse in Iambic dimeters and restores as follows:</note><lg><l n="1"><lb n="1"/>Liber pa<supplied reason="lost">t</supplied>er <supplied reason="lost">sa</supplied>nctissime</l><l n="2"><lb n="2"/>arcem <supplied reason="lost">meam qui p</supplied>ossides</l><l n="3"><lb n="3"/>et ad s<supplied reason="lost">acellum uoue</supplied>ram</l><l n="4"><lb n="4"/>u<supplied reason="lost">r</supplied>bis <supplied reason="lost">tuum et coni</supplied>ugis</l><l n="5"><lb n="5"/>et hi<supplied reason="lost">c tibi</supplied> uotum dico</l><l n="6"><lb n="6"/>dentes duos Lucas bouis</l></lg></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Most holy Father Liber, who are the master of my citadel, I had vowed at your shrine ?in the city <supplied reason="lost" cert="low">also for my wife</supplied>  and here  I dedicate to you what I promised, two elephant tusks.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>Line 6 <foreign xml:lang="la">Lucae bouis</foreign> is an elephant; also in <ref type="inscription">295</ref>, line 11.</p>
+            <p>The restorations proposed in ll. 2 and 4 are acceptable on epigraphic grounds and surviving traces of letters are compatible.
+               They are more difficult in l. 3 where there seems to be insufficient space for <foreign xml:lang="la">s<supplied reason="lost">acellum</supplied>
+               </foreign>, 
+               and l. 5 where there appear to be traces of S after <foreign xml:lang="la">HI<supplied reason="lost">C</supplied>
+               </foreign>
+            </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0286"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DTV 676 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

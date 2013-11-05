@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT987" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscription.</title>
+            <editor>J. M. Reynolds</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT987</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>,
+<title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>,
+<title level="j">Proceedings of the British School at Rome</title>
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>,
+               no. S.15.</bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Fragment of a re-used <material>marble</material> 
+                              <rs type="objectType">panel</rs> (maximum <dimensions>
+                                 <width unit="metre">0.253</width>
+                                 <height unit="metre">0.335</height>
+                              </dimensions>) very roughyl rounded at
+               the top to form a funerary <rs type="objectType">stele</rs>; the right-hand lower corner has been broken off and
+               rejoined to the rest in the museum, the upper edges are chipped away;. The great part of the inscribed face is occupied
+               by an elaborate but crudely painted <rs type="decoration">Latin cross</rs> (α, ω) with <rs type="decoration">forked terminals</rs>, each
+               fork ending in a small circle; on the lower vertical arm the forks are continued
+               beyond the <rs type="decoration">circles</rs> and end in <rs type="decoration">spirals</rs>;
+               there may have been similar ornament on theupper vertical arm, but if so it has been broken or worn away;
+               at the centre of the cross is an open circle containing a small plain cross; between each pair of arms are
+               two painted lines radiating from the centre, forming apparently a χ; along the bottom
+               edge of the panel is a <rs type="decoration">spiral design</rs>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face in red paint, badly faded. The inscription is written above, below, and
+               on either side of the cross.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rough Greek lettering, capitals and cursive forms mixed; 
+               <height unit="metre">0.01</height>. In some cases ου
+               is written with the upsilon placed above the omicron.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0500" notAfter="0700" evidence="style-of-cross">Sixth or seventh century A.D. (style of cross)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="...">The Western Djebel</placeName>:<rs type="monuList" key="db882">Asàbaa</rs> (map ref. Q 143782)</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db662">Tripoli Castle</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2220153/al-asabi%60ah.html">Al Aşābi`ah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds)</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="fragment" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <persName type="attested"><name><expan><abbr>
+                        <unclear>Ι</unclear></abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan></name>
+                  <name nymRef="Χριστός"><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan></name></persName>
+                  <lb n="2"/>
+                  <gap reason="lost" quantity="4" unit="character" precision="low"/>
+               </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" quantity="4" unit="character" precision="low"/><w part="F"><unclear>ας</unclear></w>
+                  <lb n="2"/><gap reason="lost" quantity="4" unit="character" precision="low"/><supplied reason="lost"><persName type="divine"><w lemma="κύριος"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w></persName></supplied>
+                  <lb n="3"/><w lemma="βοηθέω"><supplied reason="lost">βοή</supplied><unclear>θ</unclear>η</w> <w lemma="ὁ">τ<lb n="4" type="inWord"/>οῦ</w> <w lemma="δοῦλος">δού<lb n="5" type="inWord"/>λου</w> <w lemma="σύ" part="I">σου</w><lb n="6" type="inWord"/><gap reason="lost" quantity="5" unit="character" precision="low"/><w part="F"><unclear>ου</unclear></w>
+                  <lb n="7"/><gap reason="lost" quantity="3" unit="character" precision="low"/>
+                  <persName type="attested"><name nymRef="Πλούτηνος"><unclear>Πλ</unclear>ου<lb n="8" type="inWord"/><supplied reason="lost">τή</supplied><unclear>ν</unclear>ου</name></persName>
+                  <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><w part="M">ν</w><gap reason="lost" atLeast="1" atMost="2" unit="character"/>
+                  <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><w part="M"><unclear>κ</unclear></w><gap reason="lost" atLeast="1" atMost="2" unit="character"/>
+                  <lb n="10a"/><gap reason="lost" quantity="8" unit="line" precision="low"/>
+               </ab></div><div subtype="fragment" n="c" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" quantity="6" unit="character" precision="low"/>
+                  <lb n="2"/><gap reason="lost" quantity="6" unit="character" precision="low"/>
+                  <lb n="3"/><persName type="divine"><w lemma="κύριος"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w></persName>
+                  <w lemma="βοηθέω"><unclear>βο</unclear><lb n="4" type="inWord"/>ήθη</w> <w lemma="ὁ">τ<lb n="5" type="inWord"/>οῦ</w> <w lemma="δοῦλος">δούλου</w><lb n="6" type="inWord"/><w lemma="σύ">σου</w> <persName type="attested"><name nymRef="Πλούτηνος">Πλουτή<lb n="7" type="inWord"/>νου</name></persName>
+                  <w part="I">πη</w><gap reason="lost" atLeast="1" atMost="2" unit="character"/>
+                  <lb n="8"/><w part="I">τηκ</w><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="9"/><w part="F">ου</w> <w lemma="σύν">σὺν</w> 
+                  <lb n="10"/><w lemma="ὁ">τοῦ</w> <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="11"/><w part="M">αυτ<lb n="12" type="inWord"/>ου</w> <gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>λ</unclear>ω</w> <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/><w part="M">γη</w><gap reason="lost" atLeast="1" atMost="2" unit="character"/>
+                  <lb n="14"/><w part="I">π</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="d" type="textpart"><ab>
+                  <lb n="1"/>
+                  <orig>του<unclear>νω</unclear></orig>
+                  <lb n="2"/>
+                  <orig>ηχ</orig>
+                  <gap reason="lost" quantity="2" unit="character"/>
+                  <orig>ην</orig>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="c 9">
+                  <note>Perhaps another name.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="c 12">
+                  <note>At this point the arrangement of letters in straight lines fails; in the present
+               state of preservation of the letters it is difficult, if not impossible, to decide
+               which are to be taken together.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>a</note> Jesus Christ <gap reason="lost" extent="unknown" unit="character"/> <note>Cross</note></p><p><note>b</note> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Lord</supplied> help your servant <gap reason="lost" extent="unknown" unit="character"/> of Ploutenos <gap reason="lost" extent="unknown" unit="character"/></p><p><note>c</note> <gap reason="lost" extent="unknown" unit="character"/> Lord help your servant Ploutenos <gap reason="lost" extent="unknown" unit="character"/> with his <gap reason="lost" extent="unknown" unit="character"/> <note>Line five might include a reference to generations</note>.</p><p><note>d</note> Not usefully translatable.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>The type of cross with forked terminals ending in a small circle is certainly not
+               earlier than the sixth century.</p>
+            <p>b.2, c.3: The formula Κ(ύρι)ε βοήθη is found also at Lepcis, see <ref type="inscription">829</ref> and <ref type="inscription">984</ref>.</p>
+            <p>See also <ref type="inscription">861</ref>, and for a description of the church on this site, J.B. Ward
+               Perkins and R.G. Goodchild, '<title level="a">The Christian Antiquities of Tripolitania'</title>,
+               <title level="j">Archaeologia</title>, xcv (1953) 35 ff. and 58. The church seems to have been built before
+               the Byzantine reconquest of Africa; but a baptistery of Byzantine type was added
+               later. The inscription, which is certainly later than the Byzantine reconquest,
+               affords valuable evidence of contact between the coast and the interior in this
+               period. It is the only Greek inscription so far found in the interior of
+               Tripolitania.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT876" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT876</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <rs type="objectType">Block</rs> (<dimensions>
+                                 <width unit="metre">0.80</width>
+                                 <height unit="metre">0.49</height>
+                                 <depth unit="metre">0.13</depth>
+                              </dimensions>) of <material>brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a recessed <rs type="decoration">tabella ansata</rs> (die, <dimensions>
+                              <width unit="metre">0.50</width>
+                              <height unit="metre">0.46</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Local fourth to fifth centuries A.D. capitals, between horizontal guide-lines: av. <height unit="metre" precision="low">0.045</height>.  For the unusual form of the G ( J) see also <ref type="inscription">255</ref> and <ref type="inscription">261</ref> (39).</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0301" notAfter="0500" precision="low" evidence="lettering">Fourth to fifth centuries A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db650">Eastern Djebel</placeName>: 
+                  From the ruins of a ditched tower at <rs type="monuList" key="db685">Sidi bu Laaba</rs>, near Bir et-Tuta, 3 km. North East of Breviglieri village (map ref, M 036195)</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2209826/bi-r-at-tutah.html">Bi'r at Tūtah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="attested"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auius</ex></expan></name> <name type="cognomen" nymRef="Gaudentius">Gaudentius</name></persName>
+               <lb n="2"/><w lemma="bonus">bono</w> <w lemma="tuus">tuo</w> <w lemma="procedo">proce<lb n="3" type="inWord"/>das</w> <w lemma="et">et</w> 
+               <w lemma="in"><expan><abbr>i</abbr><ex>n</ex></expan></w> <w lemma="nomen">nomine</w>
+               <lb n="4"/>
+               <persName type="divine"><name nymRef="Christus"><expan><ex>C</ex>hristi</expan></name></persName> <w lemma="omnis">omnes</w> <w lemma="genus">genus</w>
+               <lb n="5"/><persName type="attested"><name type="cognomen" nymRef="Seberus">Seberi</name></persName> <w lemma="bibo">bibant</w> <foreign xml:lang="grc">Ω<g type="tau-rho"/>Α</foreign> 
+               <w lemma="ualeo"><expan><abbr>ua</abbr><ex>le</ex></expan></w>
+               <lb n="6"/><w lemma="hic">hec</w> <w lemma="turris">turis</w> <w lemma="fabrico">fabric<lb n="7" type="inWord"/>ata</w> <w lemma="sum">est</w> 
+               <orig>anotap</orig> <orig>lsa</orig>
+               <lb n="8"/>
+               <orig>etraulihord</orig> <w lemma="et">et</w> <w lemma="follis"><expan><abbr>fol</abbr><ex>les</ex></expan></w> 
+               <num value="30">XXX</num>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="5">
+                  <note> The second E of Seberi is a later insertion.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="7">
+                  <lem>
+                     <orig>lsa</orig>
+                  </lem>
+                  <note>Or LGA. The beginning of l. 5 and the ends of ll. 4 and 6 are inscribed on the ansae; the end of l. 8 on the border.  
+                     The position in relation to the rest of the text of the three letters here shown at the end of l.7 is not certain.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Flavius Gaudentius, may you proceed in your good fortune; and in the name of Christ may the whole family of Severi live <note>omega and alpha on either side of a monogram cross</note>; farewell. This tower was built<supplied reason="undefined"> at a cost of</supplied><gap reason="lost" extent="unknown" unit="character"/> and 30 folles.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1094"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.XVIII.30)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

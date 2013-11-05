@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT571" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">honours</rs> for Flavius Vivus Benedictus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT571</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Eight fragments of a moulded <material>marble</material> 
+                              <rs type="objectType">base</rs>, found scattered and recomposed, and since again scattered 
+               (together, <dimensions>
+                                 <width unit="metre">0.95</width>
+                                 <height unit="metre">0.62</height>
+                              </dimensions>). </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face: l. 1, on the upper edge: ll. 2-3, on one of the upper mouldings; ll. 4-14, within a moulded panel (die, <dimensions>
+                              <height unit="metre">0.43</height>
+                           </dimensions> wide)
+               from which a previous text has been erased; l. 15, below the die.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century A.D. capitals: l. 1, <height unit="metre">0.045</height>; ll. 2-3, <height unit="metre">0.02</height>: ll. 4-14, <height unit="metre" atLeast="0.04" atMost="0.05">0.04-0.05</height>; l. 15, <height unit="metre">0.02</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0378" evidence="consuls">A.D. 378. consuls.</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:  
+                  <rs type="monuList" key="db719">Forum Severianum</rs>, East Portico. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl xml:id="degrassi1954">
+                  <author>A. <name>Degrassi</name>
+                  </author>, <ptr target="quaderni"/>, <biblScope>III <date>1954</date>
+                  </biblScope>
+               </bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="attested"><name type="signum" nymRef="Benedictus"><supplied reason="lost">Be</supplied>nedictii</name></persName>
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iri</ex></expan></w> 
+               <w lemma="perficio"><expan><abbr><unclear>p</unclear></abbr><ex>erfectissimi</ex></expan></w> 
+               <lb n="2"/><w lemma="dedico"><supplied reason="lost">Ded</supplied>icata</w> <w lemma="dies">die</w> <w lemma="nouem">nouem</w> <rs type="month" key="Iunius"><w lemma="Iunius">Iuniarum</w></rs>
+               <w lemma="dominus"><expan><abbr>d</abbr><ex>ominis</ex></expan></w> 
+               <w lemma="noster"><expan><abbr>n</abbr><ex>ostris</ex></expan></w> 
+               <persName type="emperor"><name type="cognomen" nymRef="Valens">Valente</name></persName> <num value="6">VI</num> <w lemma="et">et</w>
+               <lb n="3"/><persName type="emperor"><name type="cognomen" nymRef="Valentinianus">Valentiniano</name></persName> <num value="2">II</num> 
+               <persName type="emperor"><name type="emperor" nymRef="Augustus"><expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan></name></persName> 
+               <w lemma="consul"><expan><abbr>cons<am>s</am></abbr><ex>ulibus</ex></expan></w> 
+               <lb n="4"/><persName type="attested"><name type="gentilicium" nymRef="Flauius"><supplied reason="lost">Flaui</supplied>o</name> <name type="gentilicium" nymRef="Viuius">Viuio</name> 
+               <name type="cognomen" nymRef="Benedictus"><supplied reason="lost">Ben</supplied>edi<supplied reason="lost">cto</supplied></name></persName> 
+                  <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+                  <w lemma="perficio"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w>
+               <lb n="5"/><w lemma="praeses"><supplied reason="lost">p</supplied>raesidi</w> 
+               <w lemma="prouincia"><expan><abbr>pro<supplied reason="lost">uinc</supplied></abbr><supplied reason="lost"><ex>iae</ex></supplied></expan></w>
+               <placeName type="ethnic" nymRef="Tripolitanus"><supplied reason="lost"><expan><abbr>Tripol</abbr><ex>itanae</ex></expan></supplied></placeName>
+               <lb n="6"/><w lemma="tenax">te<supplied reason="lost">n</supplied>aci</w> <w lemma="iustitia">iustitia<supplied reason="lost">e</supplied></w> <w lemma="interpres"><supplied reason="lost">in</supplied>
+               <lb n="7"/>terpraeti</w>  <w lemma="ius">iur<supplied reason="lost">is</supplied></w>
+               <w lemma="innocens"><supplied reason="lost">i</supplied>nno<lb n="8" type="inWord"/>ce<supplied reason="lost">n</supplied>tium</w> 
+               
+               <w lemma="fautor"><supplied reason="lost">f</supplied>autori</w>
+               <lb n="9"/><w lemma="uindex">uindici</w> <w lemma="libertas">liber<supplied reason="lost">t</supplied>atis</w> 
+               <w lemma="noxius">no<lb n="10" type="inWord"/>xiorum</w> <w lemma="omnis">omnium</w> <w lemma="percussor"><supplied reason="lost">pe</supplied>rcuss
+                
+               <lb n="11"/>sori</w> <w lemma="ordo">ordo</w> 
+               <w lemma="splendidus"><expan><abbr>splen<supplied reason="lost">did</supplied></abbr><supplied reason="lost"><ex>issimus</ex></supplied></expan></w> <w lemma="civitas"><expan><abbr>civit</abbr><ex>atis</ex></expan>
+               
+               </w><lb n="12"/><placeName type="ethnic" nymRef="Lepcimagnensis">Lepcima<supplied reason="lost">gnensium</supplied></placeName> 
+              <w lemma="patronus">patro<lb n="13" type="inWord"/>no</w> <w part="I"><unclear>c</unclear></w><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/><orig>po<unclear>i</unclear>gav</orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/> 
+               <w part="I"><expan><abbr>dign</abbr><ex cert="low"/></expan></w> <w lemma="et">et</w> <w part="I"><expan><abbr>patr</abbr><ex cert="low"/></expan></w> 
+               <orig><unclear>vfi</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="edition" subtype="reconstruction" xml:space="preserve"><ab>
+               <note>Degrassi, loc cit., ll. 7-13</note>:
+               <lb n="6"/>te<supplied reason="lost">n</supplied>aci iustitia<supplied reason="lost">e in</supplied>
+               <lb n="7"/>ter<supplied reason="lost">p</supplied>raeti inno
+               <lb n="8"/>ce<supplied reason="lost">n</supplied>tium <supplied reason="lost">ciuium f</supplied>autori
+               <lb n="9"/>uindici liber<supplied reason="lost">t</supplied>atis no
+               <lb n="10"/>xiorum omnium <supplied reason="lost">pe</supplied>rcusso
+               <lb n="11"/>ri ordo <expan><abbr>splend<supplied reason="lost">id</supplied></abbr>issimus</expan> <expan><abbr><supplied reason="lost">ciui</supplied>t</abbr><ex>atis</ex></expan>
+               <lb n="12"/>Lepcima<supplied reason="lost">gensium</supplied>
+            </ab><ab>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               
+            
+               
+               <app>
+                  <note>Degrassi, loc cit., ll. 7-13:
+               <lb n="6"/>te<supplied reason="lost">n</supplied>aci iustitia<supplied reason="lost">e in</supplied>
+                     <lb n="7"/>ter<supplied reason="lost">p</supplied>raeti inno
+               <lb n="8"/>ce<supplied reason="lost">n</supplied>tium <supplied reason="lost">ciuium f</supplied>autori
+               <lb n="9"/>uindici liber<supplied reason="lost">t</supplied>atis no
+               <lb n="10"/>xiorum omnium <supplied reason="lost">pe</supplied>rcusso
+               <lb n="11"/>ri ordo <expan>
+                        <abbr>splend<supplied reason="lost">id</supplied>
+                        </abbr>issimus</expan> 
+                     <expan>
+                        <abbr>
+                           <supplied reason="lost">ciui</supplied>t</abbr>
+                        <ex>atis</ex>
+                     </expan>
+                     <lb n="12"/>Lepcima<supplied reason="lost">gensium</supplied>.
+            Degrassi was right to question the IRT reading, which was made before the fragments of the monument had been reassembled. The stone has been re-examined by Mr. Goodchild, whose reading (used here) modifies Degrassi's proposals, particularly ll. 8 and 9.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="subaudible">In honour</supplied> of Benedictius, excellent man <note>of equestrian status</note>. Dedicated on the ninth day of June, in the consulship of our lords the Augusti, Valens for the sixth time, Valentinian for the second. To Flavius Vivius Benedictus, excellent man <note>of equestrian status</note>, governor of the province of Tripolitania, steadfast in justice, interpreter of the  law, supporter of the innocent, defender of freedom, scourge of all criminals,  the most splendid city-council <gap reason="lost"/> of the Lepcimagnensians, to their patron <gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 1, 4. Flavius Vivius Benedictus, <title level="m">PW</title> III, 271; also in <ref type="inscription">103</ref>; <ref type="inscription">476</ref>, ll. 6-7. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0751"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 81)</head>
+               </figure>
+               <figure>
+                  <graphic url="0752"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT754" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscriptions</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT754</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Series of small coffin-shaped <rs type="objectType">cinerary urn</rs>s, of <material>grey and grey-brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed in rough capitals.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>1) On the body: <height unit="metre">0.05</height>.</handNote>
+                     <handNote>
+2)On the body, a fragment only: <height unit="metre">0.055</height>.</handNote>
+                     <handNote>
+3) On the body: <height unit="metre" atLeast="0.03" atMost="0.04">0.03-0.04</height>.</handNote>
+                     <handNote>
+4)On the two faces of the lid: <height unit="metre">0.05</height>.</handNote>
+                     <handNote>
+5) On the body: l.1, <height unit="metre">0.035</height>; l.2, <height unit="metre">0.04</height>; l.3, <height unit="metre">0.045</height>. </handNote>
+                     <handNote>
+6) On the body: <height unit="metre">0.07</height>. </handNote>
+                     <handNote>
+7) On the body: <height unit="metre">0.05</height>. </handNote>
+                     <handNote>
+8) On the body: <height unit="metre">0.055</height>. </handNote>
+                     <handNote>
+9) On the body.</handNote>
+                     <handNote>
+10) On the lid: <height unit="metre">0.10</height>.</handNote>
+                     <handNote>
+11) On the lid: <height unit="metre">0.05</height> 
+                     </handNote>
+                     <handNote>
+12) On the body: <height unit="metre">0.035</height>
+                     </handNote>
+                     <handNote>
+13) On the lid: <height unit="metre">0.05</height> 
+                     </handNote>
+                     <handNote>
+14) On the lid: <height unit="metre">0.04</height>. </handNote>
+                     <handNote>
+15) On the body: <height unit="metre">0.05</height>. </handNote>
+                     <handNote>
+16) On the body: <height unit="metre" atLeast="0.035" atMost="0.04">0.035-0.04</height>. </handNote>
+                     <handNote>
+17) On the body: <height unit="metre">0.06</height>. </handNote>
+                     <handNote>
+18) On the body.</handNote>
+                     <handNote>
+               19) On the body (not earlier than third century A.D.): <height unit="metre">0.045</height> 
+                     </handNote>
+                     <handNote>
+               20) On the body (not earlier than third century A.D.): <height unit="metre">0.08</height>. </handNote>
+                     <handNote>
+21) On the lid: <height unit="metre">0.035</height>. </handNote>
+                     <handNote>
+22) On the body: <height unit="metre">0.04</height>. </handNote>
+                     <handNote>
+23) On the lid: <height unit="metre">0.03</height>. </handNote>
+                     <handNote>
+24) On the body: <height unit="metre">0.07</height>. </handNote>
+                     <handNote>
+25) On a fragment: <height unit="metre" atLeast="0.05" atMost="0.06">0.05-0.06</height>.</handNote>
+                     <handNote>
+               26) On the body (not earlier than third century A.D.): <height unit="metre">0.04</height>. </handNote>
+                     <handNote>
+  </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0201" notAfter="0500" precision="low" evidence="lettering">19, 20, 26: Not earlier than third century A.D. (lettering); others unknown.</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  3, 4, 7, 12, 13, 15-19, 21, 23-26: findspots unrecorded.
+                  
+                  1) Found in the <rs type="monuList" key="db720">Forum Vetus</rs>; 
+                  2) Found <rs type="monuList" key="db696">Cisterns near Wadi Lebda</rs>;
+                  5) Found in the <rs type="monuList" key="db720">Forum Vetus</rs> behind the Church; 
+                  6) From the <rs type="monuList" key="db719">Forum Severianum</rs>; 
+                  8) Found in the <rs type="monuList" key="db720">Forum Vetus</rs>; 
+                  9) Found in the <rs type="monuList" key="db719">Forum Severianum</rs>; 
+                  10) Found in the <rs type="monuList" key="db720">Forum Vetus</rs>; 
+                  11) Found in the <rs type="monuList" key="db735">Port area</rs> (Bartoccini MS notes); 
+                  14) Found in the <rs type="monuList" key="db735">Port area</rs>; 
+                  20) In the Portico behind the <rs type="monuList" key="db756">Theatre</rs> (Temple of Di Augusti); 
+                  22) Found in the <rs type="monuList" key="db751">Street running North East from the North angle of the Market</rs>. 
+</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                  1-8, 10-17, 19, 21, 23-26: Now in <rs type="monuList" key="db654">Lepcis Museum</rs>.
+                  9) Present location not known. Not seen. 
+                  18) Present location unknown.  Known only from a photograph, Sopr. CLM 743.
+                  20) In the Portico behind the Theatre (Temple of Di Augusti). 
+                   22) Found in the Street running North East from the North angle of the Market.
+                 </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>1) <bibl>
+                  <ptr target="relscav"/> 
+                  <biblScope>24.12.30</biblScope>
+               </bibl>
+               5) <bibl>
+                  <ptr target="relscav"/> 
+                  <biblScope>25.11.34</biblScope>
+               </bibl>
+               6) <bibl>
+                  <ptr target="relscav"/> 
+                  <biblScope>24.2.35</biblScope>
+               </bibl>
+               8)  <bibl>
+                  <ptr target="relscav"/> 
+                  <biblScope>4.1.31</biblScope>
+               </bibl>
+               9) <bibl>
+                  <ptr target="relscav"/> 
+                  <biblScope>3.2.35</biblScope>
+               </bibl>
+               10)  <bibl>
+                  <ptr target="relscav"/> 
+                  <biblScope>4.1.31</biblScope>
+               </bibl>
+               22) <bibl>
+                  <ptr target="relscav"/> 
+                  <biblScope>13.7.30</biblScope>
+               </bibl> 
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Bartoccini MS notes; Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="series" n="1" type="textpart"><ab>
+                 <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Ammon">Ammonis</name></persName>
+              </ab></div><div subtype="series" n="2" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Anno-"><seg part="I">Anno</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/></ab></div><div subtype="series" n="3" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Ano-"><seg part="I">Ano</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/></ab></div><div subtype="series" n="4" type="textpart"><ab><lb n="1"/><persName type="attested"><name><seg part="I">A</seg></name><gap reason="lost" extent="unknown" unit="character"/>
+            <lb n="2"/><name type="cognomen" nymRef="Amo">Amo</name></persName></ab></div><div subtype="series" n="5" type="textpart"><ab> <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Aquilius">Aquili</name><lb n="2"/><name type="cognomen" nymRef="Aquilianus">Aquiliani</name>
+            <lb n="3"/><name type="cognomen" nymRef="Tyra">Tyra</name></persName>
+            </ab></div><div subtype="series" n="6" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Arisu">Arisu</name></persName></ab></div><div subtype="series" n="7" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Arrisut">Arrisut</name></persName></ab></div><div subtype="series" n="8" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Balbilla">Balbilla</name></persName></ab></div><div subtype="series" n="9" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Capito">Capito</name> <lb n="2"/><name type="cognomen" nymRef="Cesalo">Cesalo</name></persName></ab></div><div subtype="series" n="10" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Ceria">Ceria</name></persName></ab></div><div subtype="series" n="11" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="C-"><orig>C</orig></name> <name type="cognomen" nymRef="Copria">Copria</name></persName></ab></div><div subtype="series" n="12" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Demetria">Dem<unclear>e</unclear><supplied reason="lost">tri</supplied><unclear>a</unclear></name></persName></ab></div><div subtype="series" n="13" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Dicar">Dicar</name></persName></ab></div><div subtype="series" n="14" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Hedone">Hedone</name></persName></ab></div><div subtype="series" n="15" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Imilcho">Imilcho</name><gap reason="lost" extent="unknown" unit="character"/><lb n="2"/><name type="cognomen" nymRef="Ra-">Ra<gap reason="lost" quantity="2" unit="character"/>th</name></persName></ab></div><div subtype="series" n="16" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Momus">Momi</name></persName></ab></div><div subtype="series" n="17" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Orfitus">Orfiti</name> <name type="cognomen" nymRef="Min">Min</name></persName></ab></div><div subtype="series" n="18" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Mythunibal">Mythunibal</name></persName></ab></div><div subtype="series" n="19" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Peticius">Peti<unclear>c</unclear>ii</name> <name type="cognomen" nymRef="Pefus">P<unclear>e</unclear>fus</name></persName></ab></div><div subtype="series" n="20" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Salviane">Salviane</name></persName> <lb n="2"/><w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w></ab></div><div subtype="series" n="21" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Septimia">Septimia</name> <name type="cognomen" nymRef="Marcilla">Marcilla</name></persName></ab></div><div subtype="series" n="22" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <name type="cognomen" nymRef="Seuerosus"><unclear>S</unclear>everosi</name></persName></ab></div><div subtype="series" n="23" type="textpart"><ab><lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Zabda">Zabda</name></persName></ab></div><div subtype="series" n="24" type="textpart"><ab><lb n="1"/><gap reason="lost" quantity="1" unit="character"/><persName type="attested"><name type="gentilicium"><seg part="F"><unclear>a</unclear>icila</seg></name> <lb n="2"/><name type="cognomen" nymRef="Bal-"><seg part="I">Bal</seg></name></persName></ab></div><div subtype="series" n="25" type="textpart"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name type="cognomen"><seg part="M">obal</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/></ab></div><div subtype="series" n="26" type="textpart"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name type="cognomen"><orig>rs<unclear>ef</unclear>bac</orig></name></persName></ab></div></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="5 1">
+                  <note> There was possibly another letter at the beginning of l. 1</note>
+               </app>
+            </p>
+            <p>
+               <app loc="5 2">
+                  <note>See also <ref type="inscription">666</ref>.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="19 1">
+                  <note>Or <foreign xml:lang="la">Petilii</foreign>. C and L have been cut, one above the other. </note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>1</note> Of Ammon  ; <note>2</note> Anno<gap reason="lost"/>  ;   <note>3</note> Ano<gap reason="lost"/>  ;  <note>4</note> A<gap reason="lost"/>amo <note>?misread for Anno</note>  ;  <note>5</note> Of Aquilius Aquilianus ? from Tyre <note>or Tyra set this up</note>   ;  <note>6</note> Arisu   ; <note>7</note> Arrisut   ; <note>8</note> Balbilla   ; <note>9</note> Capito Cesalo   ; <note>10</note> Ceria   ; <note>11</note> C(?) Copria   ; <note>12</note> Demetria   ; <note>13</note> Dicar   ; <note>14</note> Hedone   ; <note>15</note> Imilcho <gap reason="lost"/> Ra<gap reason="lost"/>th    ; <note>16</note> Momus   ; <note>17</note> Of Orfitus, Min<gap reason="lost"/>   ; <note>18</note> Mythunibal    ; <note>19</note> Of Peticius, Pefus    ; <note>20</note> Salviane ? Daughter    ; <note>21</note> Septimia Marcilla    ; <note>22</note> Of Publius Severosus    ; <note>23</note> Zabda    ; <note>24</note> <gap reason="lost"/>aicila ? <supplied reason="subaudible" cert="low">daughter of</supplied> Bal(?)   ; <note>25</note> <gap reason="lost"/>obal<gap reason="lost"/>   ; <note>26</note> Not usefully translateable.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0937"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XVI.21)</head>
+               </figure>
+               <figure>
+                  <graphic url="0939"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 743)</head>
+               </figure>
+               <figure>
+                  <graphic url="0940"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XVI.22)</head>
+               </figure>
+               <figure>
+                  <graphic url="0938"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXIV.9)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

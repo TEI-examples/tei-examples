@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT320" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Augustus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT320</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.785</width>
+                                 <height unit="metre">0.39</height>
+                                 <depth unit="metre">0.465</depth>
+                              </dimensions>) of <material>grey limestone</material>,
+               with four <rs type="decoration">sockets</rs> on the upper surface. 
+               </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>inscribed on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.63</width>
+                              <height unit="metre">0.24</height>
+                           </dimensions>). 
+               Uniform with <ref type="inscription">328</ref>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Irregular capitals: <height unit="metre" atLeast="0.045" atMost="0.035">0.045- 0.035</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="-0002">2 B.C.</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db756">Theatre</rs>, in the vaults below the stage. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="emperor"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> <name type="cognomen" nymRef="Caesar">Caesari</name> 
+                  <persName type="emperor"><w lemma="diuus">Diui</w></persName>
+               <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w> 
+               <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+               <lb n="2"/><w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w> 
+               <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> 
+               <w lemma="designo"><expan><abbr>desig</abbr><ex>nato</ex></expan></w>
+   <num value="13">XIII</num>
+               <lb n="3"/><w lemma="tribunicius">tribunicia</w>
+   <w lemma="potestas">po<supplied reason="lost">t</supplied>estate</w> <num value="21">XXI</num>
+               <lb n="4"/><persName type="attested"><name type="gentilicium" nymRef="Fuluius">Fuluii</name>
+                  <placeName type="ethnic" nymRef="Lepcitanus"><w lemma="Lepcitanus">Lepc<supplied reason="lost">itani</supplied></w></placeName></persName> 
+               <w lemma="conservator"><supplied reason="lost">c</supplied><unclear>on</unclear>s<supplied reason="lost">er</supplied><unclear>ua</unclear>tori</w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Emperor Caesar Augustus, son of the deified <supplied reason="subaudible">Caesar</supplied>, chief priest, designated consul for the thirteenth time, holding tribunician power for the twenty-first; the Fulvii of Lepcis <supplied reason="subaudible">set this up</supplied> to their saviour.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 3. trib. pot. XIII - 1 July 3 B.C. - 30 June 2 B.C. Augustus was cos. XIII on 1 Jan. 2 B.C. </p>
+            <p>l. 4. Fuluii Lepcitani. See also <ref type="inscription">328</ref> , l. 3 ;  <ref type="inscription">596</ref> , l. 1. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0393"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 1624 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

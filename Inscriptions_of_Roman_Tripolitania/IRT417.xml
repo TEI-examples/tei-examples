@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT417" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Septimia Octavilla</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT417</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <rs type="objectType">base</rs> 
+               (<dimensions>
+                                 <width unit="metre">0.52</width>
+                                 <height unit="metre">0.83</height>
+                                 <depth unit="metre">0.50</depth>
+                              </dimensions>) of <material>brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel 
+               (die, <dimensions>
+                              <width unit="metre">0.34</width>
+                              <height unit="metre">0.62</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: <height unit="metre" atLeast="0.05" atMost="0.045">0.05-0.045</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0198" notAfter="0210" evidence="titulature">A.D. 198-210 (titulature)</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:  
+                  <rs type="monuList" key="db756">Theatre</rs>, at the foot of the central stair, near <ref type="inscription">541</ref>.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Aurigemma</author>, <ptr target="quaderni"/> I (1950) 73</bibl>; <bibl>
+                  <ptr target="ae"/> 
+                  <biblScope>1950:161</biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="emperor"><name type="gentilicium" nymRef="Septimia">Septimiae</name> <name type="cognomen" nymRef="Octauilla">Octauillae</name></persName>
+               <lb n="2"/><w lemma="soror">sorori</w>
+               <lb n="3"/><persName type="emperor"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></w> 
+               <name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> 
+               <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name type="gentilicium" nymRef="Septimius">Septimi</name>
+               <lb n="4"/><name type="cognomen" nymRef="Seuerus">Seueri</name> <name type="cognomen" nymRef="Pius">Pii</name> <name type="cognomen" nymRef="Pertinax"> Pertina<lb n="5" type="inWord"/>cis</name>
+                  <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> 
+               <name><expan><abbr>Arab</abbr><ex>ici</ex></expan></name> 
+               <name type="cognomen" nymRef="Adiabenicus"><expan><abbr>Adiab</abbr><ex>enici</ex></expan></name>
+               <lb n="6"/><name type="cognomen" nymRef="Parthicus">Par<supplied reason="lost">t</supplied>hici</name> <w lemma="magnus"><expan><abbr>max</abbr><ex>imi</ex></expan></w></persName>
+               <lb n="7"/><w lemma="clarus"><expan><abbr>c</abbr><ex>larissimae</ex></expan></w> 
+               <w lemma="memoria"><expan><abbr>m</abbr><ex>emoriae</ex></expan></w> 
+               <w lemma="femina"><expan><abbr>f</abbr><ex>eminae</ex></expan></w>
+               <lb n="8"/><w lemma="curia">Curiae</w><w lemma="tres"> tres</w> <w lemma="Iulius">Iulia</w> <w lemma="et">et</w>
+               <lb n="9"/><w lemma="Germanicus">Germanica</w> <w lemma="et">et</w>
+               <lb n="10"/><w lemma="Marcianus">Marciana</w> <w lemma="pono"><expan><abbr>posuer</abbr><ex>unt</ex></expan></w> 
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Septimia Octavilla, sister of emperor Caesar Lucius Septimius Severus Pius Pertinax Augustus, victor in Arabia, victor in Adiabene, greatest victor in Parthia, a woman <note>of senatorial rank</note>; the three Curiae, Julia, Germanica and Marciana, set this up. </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 6. Parthicus maximus from 198.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0538"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 287 Lastre)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

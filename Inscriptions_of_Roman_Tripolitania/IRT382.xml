@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT382" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication</rs> to Commodus </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT382</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Two fragments from a <rs type="objectType">panel</rs> of <material>cream marble</material> (width incomplete, <dimensions>
+                                 <width unit="metre">0.19</width>
+                                 <height unit="metre">0.22</height>
+                                 <depth unit="metre">0.30</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: l. 1, <height unit="metre">0.14</height>; l. 2, <height unit="metre">0.09</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0175" notAfter="0192">A.D. 175-192 (titulature)</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:  <rs type="monuList" key="db756">Theatre</rs>.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="emperor"><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+                  <name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> 
+                  <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name></supplied> 
+               <name type="gentilicium" nymRef="Aelius">Aelio</name> <name type="gentilicium" nymRef="Aurelius">A<supplied reason="lost">urelio</supplied></name> <supplied reason="lost"><name type="cognomen" nymRef="Commodus">Commodo</name> 
+                  <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></supplied> 
+               <lb n="2"/>
+               <supplied reason="lost"><name type="cognomen" nymRef="Pius">Pio</name> <name type="cognomen" nymRef="Germanicus"><expan><abbr>Germ</abbr><ex>anico</ex></expan></name></supplied> 
+               <name type="cognomen" nymRef="Sarmaticus"><expan><abbr>Sar</abbr><ex>matico</ex></expan></name></persName>      
+               <w lemma="pontifex"><supplied reason="lost">p</supplied>on<supplied reason="lost">tifici</supplied></w> <supplied reason="lost"><w lemma="magnus">maximo</w></supplied>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost"> To emperor Caesaar Lucius</supplied> Aelius A<supplied reason="lost">urelius Commodus Augustus Pius, victor in Germany,</supplied> victor in Sarmatia, <supplied reason="lost">chief</supplied> priest <gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p> l. 2. Sarmaticus. From 175. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0489"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 1672 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

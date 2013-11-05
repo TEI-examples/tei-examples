@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT046" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Maximinus </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT046</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Fragment of a <material>marble</material> 
+                              <rs type="objectType">panel</rs> (<dimensions>
+                                 <width unit="metre">0.20</width>
+                                 <height unit="metre">0.13</height>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Third century capitals: <height unit="metre">0.045</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0236" evidence="titulature">A.D. 236 (titulature).</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>: 
+                  <rs type="monuList" key="db863">The street which leads from the Byzantine Gate to the Forum</rs>, ("Via della Ninfa ", MS note on a tracing in the Superintendency Archives)</p>
+                        </event>
+                        <event type="observed">
+                           <p> 
+                              <rs type="monuList" key="db660">Sabratha Museum</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w></supplied> 
+               <persName type="emperor"><supplied reason="lost"><name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> 
+                  <name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aio</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Iulius">Iulio</name> <name type="cognomen" nymRef="Verus">Vero</name> <name type="cognomen" nymRef="Maximinus">Maximino</name> <name type="cognomen" nymRef="Pius"><expan><abbr>P</abbr><ex>io</ex></expan></name> 
+                  <name type="cognomen" nymRef="Felix"><expan><abbr>F</abbr><ex>elici</ex></expan></name> 
+                  <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></supplied> 
+               <lb n="2"/><supplied reason="lost"><w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w> 
+                  <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w></supplied> 
+               <name type="cognomen" nymRef="Germanicus"><expan><abbr><supplied reason="lost">G</supplied>erm</abbr><ex>anico</ex></expan></name> 
+               <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+               <name type="cognomen" nymRef="Dacicus"><unclear>D</unclear><supplied reason="lost">acico</supplied></name> 
+               <supplied reason="lost"><w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+                  <name type="cognomen" nymRef="Sarmaticus"><expan><abbr>Sarm</abbr><ex>atico</ex></expan></name></supplied></persName> 
+               <supplied reason="lost"><w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w></supplied>
+               <lb n="3"/><supplied reason="lost"><w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w></supplied>
+               <w lemma="potestas"><expan><abbr><supplied reason="lost">p</supplied>ot</abbr><ex>estate</ex></expan></w> 
+               <num value="2">II</num> 
+               <w lemma="consul"><expan><abbr>co</abbr><supplied reason="lost"><ex>n</ex></supplied><abbr><supplied reason="lost">s</supplied></abbr><supplied reason="lost"><ex>uli</ex></supplied></expan></w> 
+               <supplied reason="lost"><w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> 
+               <num><gap reason="lost" atLeast="1" atMost="4" unit="character"/></num> 
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> 
+                  <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+                  <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w></supplied>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="4"/><gap reason="lost" quantity="10" unit="character" precision="low"/> 
+               <num value="3">III</num> 
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost">To the Emperor Caesar Caius Julius Verus Maximinus, Pius, Felix, Augustus, chief priest, 
+               greatest</supplied> Victor in Germany, greatest Victor in Dacia, <supplied reason="lost">greatest Victor in Sarmatia, holding tribunician</supplied> power for the second time, consul, 
+               <supplied reason="lost">acclaimed victor ? times,
+               proconsul, father of the country<gap reason="lost"/></supplied>III<gap reason="lost"/> </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 3. trib. pot. II. 10 Dec. 235 - 9 Dec. 236.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0058"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XVIII.32)</head>
+               </figure>
+               <figure>
+                  <graphic url="0059"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DS 828 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

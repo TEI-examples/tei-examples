@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT310" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication</rs> to Sarapis </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT310</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>,
+                  <pubPlace>Rome</pubPlace>: <publisher>British School at Rome</publisher>,
+                     <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material>Marble</material> 
+                              <rs type="objectType">base</rs> 
+               (<dimensions>
+                                 <width unit="metre">0.31</width>
+                                 <height unit="metre">0.315</height>
+                                 <depth unit="metre">0.045</depth>
+                              </dimensions>) in the form of a low table, bevelled below, with a
+               <rs type="decoration">circular, grooved recess</rs> in the centre of the upper face; inscribed consecutively on
+               the front and on the right- hand edge, and separately on the left-hand edge.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the surviving faces.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lettering <height unit="metre">0.013</height>:</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>Unknown</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: Findspot unrecorded</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl xml:id="robert1953">
+                  <author>L. <name>Robert</name>
+                  </author>, <title level="j">Rev. Et. Gr.</title>, LXVI (1953) 203-4.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="section" n="a" type="textpart"><div type="textpart"><note> On front edge, continued on to the right-hand edge: </note><ab>
+                     <lb n="1"/><persName type="divine"><name nymRef="Iuppiter">Διὶ</name> <w lemma="μέγας">μεγάλῳ</w>
+                        <name nymRef="Sarapis">Σαράπιδι</name></persName>
+                     <persName type="attested"><name nymRef="Πόπλιος"><expan><abbr>Π</abbr><ex>όπλιος</ex></expan></name>
+                     <name type="gentilicium" nymRef="Servius"><expan><abbr>Σέρ</abbr><ex>ουιος</ex></expan></name>
+                     <name type="cognomen"><seg part="I"><orig>η</orig></seg><gap reason="lost" atLeast="4" atMost="5" unit="line"/></name></persName><w part="F">οχοος</w> </ab></div><div type="textpart"><note>On front bevel:</note><ab>
+                     <lb n="2"/><w lemma="ἀπό">ἀπὸ</w> <w lemma="κοινωνία">κοινωνίας</w> <w lemma="εὐχή">εὐχὴν</w>
+                     <w lemma="ἀνατίθημι"><expan><abbr>ἀ</abbr><ex>νέθηκε</ex></expan></w>
+                     <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w lemma="ἀποδίδωμι">ἀποδω</w>
+                  </ab></div></div><div subtype="section" n="b" type="textpart"><note>On left-hand edge </note><ab>
+                  <lb n="1"/><w part="F">τύχους</w> <w lemma="σύν">σὺν</w> <w lemma="λύχνος">λύχνοις</w> <w lemma="δύο">δυσί</w> </ab></div></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="a 1">
+                  <rdg resp="robert1953">ΣΕΡΗ might be taken together giving, e.g., Σερή<supplied reason="lost">νιος χρυσ</supplied>οχόος</rdg>
+                  <note>.  There is in fact a stop after ΣΕΡ so that H must be the first letter of the
+                     cognomen. The number of letters (4 or 5) given (in 1952) as missing between H and
+                     ΟΧΟΟΣ was calculated without allowing for the possibility of ligatures, which
+                     are fairly freely used in this inscription: it could in fact be 7 or 8. Even so
+                     the cognomen must have been a short one, if space must be allowed for ΧΡΥΣ as well. </note>
+               </app>
+            </p>
+            <p>
+               
+               <app loc="a 2">
+                  <lem>ἀποδω</lem>
+                  <note>Perhaps for <foreign xml:lang="grc">ἀπέδωκεν</foreign> or <foreign xml:lang="grc">ἀποδίδωσι</foreign>. </note>
+               </app>
+            </p>
+            <p>
+               <app loc="b 1">
+                  <rdg resp="robert1953">
+                     <supplied reason="lost">τοὺς (or τὰς) διπ (or
+                     τριπ)</supplied> τύχους</rdg>
+                  <note>. The stone is chipped before ΤΥΧΟΥΣ. It would be just possible to fit in two letters here - perhaps, but with difficulty, three; but not more. There is no room for another line.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>a</note> To Zeus the great god Sarapis; Publius Servius <gap reason="lost"/>ochoos dedicated and <supplied reason="subaudible">set up</supplied> his offering from the ?common stock .</p><p><note>b</note>. . . ?with two lamps.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0373"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XIII.30)</head>
+               </figure>
+               <figure>
+                  <graphic url="0374"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXIV.31)</head>
+               </figure>
+               <figure>
+                  <graphic url="0375"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XIII.29)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

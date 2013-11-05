@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT725" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">honours<certainty match=".." locus="value"/>
+               </rs>
+            </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT725</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <rs type="objectType">base</rs>(<dimensions>
+                                 <width unit="metre">0.60</width>
+                                 <height unit="metre">1.50</height>
+                                 <depth unit="metre">0.60</depth>
+                              </dimensions>) of <material>brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a <rs type="decoration">moulded panel</rs>, 
+               (die, <dimensions>
+                              <width unit="metre">0.31</width>
+                              <height unit="metre">0.59</height>
+                           </dimensions>); 
+               the surface badly damaged. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Capitals, third or fourth  century A.D.:
+               <height unit="metre" atLeast="0.03" atMost="0.035">0.03-0.035</height>;
+               last line: <height unit="metre">0.05</height> 
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0201" notAfter="0400" precision="low" evidence="lettering">Third or fourth century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db725">Hadrianic Baths</rs>, in the palestra in front of the main entrance. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/><w lemma="uita" part="M">uita</w><gap reason="lost" quantity="3" unit="character"/> 
+               <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/><persName type="attested"> 
+               <name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name type="gentilicium" nymRef="Marcius">Marci<lb n="3" type="inWord"/><supplied reason="lost">o</supplied></name><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+               
+               <name type="cognomen" nymRef="Asper">Asper<unclear>o</unclear></name></persName> 
+               <lb n="4"/><w part="I">po</w><gap reason="lost" quantity="4" unit="character"/><orig><unclear>r</unclear>on</orig><gap reason="lost" quantity="1" unit="character"/> 
+               <lb n="5"/><w part="I">pa</w><gap reason="lost" quantity="3" unit="character"/><w part="F">issim<supplied reason="lost">o</supplied></w>
+               <lb n="6"/>
+               <gap reason="lost" extent="unknown" unit="character"/><orig>d</orig><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+               
+               <lb n="7"/>
+               <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap><orig>m</orig><gap reason="lost" quantity="1" unit="character"/><orig>n</orig>
+               <lb n="8"/>
+               <gap reason="lost" quantity="1" unit="character"/><orig>o</orig><gap reason="lost" quantity="3" unit="character"/><orig>s</orig> <w lemma="suus">sua</w> 
+               <lb n="9"/><w lemma="pecunia">p<unclear>e</unclear>cunia</w> <w lemma="pono">po<lb n="10" type="inWord"/>suerunt</w></ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><gap reason="lost"/> to Quintus Marcius <gap reason="lost"/> Asper <gap reason="lost"/> to a most dutiful fa<supplied reason="lost">ther</supplied><gap reason="lost"/> erected <note>subject plural</note> at their own expense.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0915"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XVI.6)</head>
+               </figure>
+               <figure>
+                  <graphic url="0916"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XVI.5)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

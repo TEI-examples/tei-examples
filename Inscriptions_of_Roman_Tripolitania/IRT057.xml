@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT057" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Valentian</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT057</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Rectangular <rs type="objectType">base</rs> 
+               (<width>0.56</width>
+                              <height>1.15</height>
+                              <depth>0.53</depth>) of 
+               <material>grey limestone</material>. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel. (<dimensions>
+                              <width>0.52</width>
+                              <height>1.00</height>
+                           </dimensions>)</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century capitals: <height unit="metre">0.06</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0364" notAfter="0367" evidence="reign">A.D. 364-367 (reign).</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:  
+                  <rs type="monuList" key="db843">Forum</rs>, in situ within the SW angle of the Curia.  
+                  Uniform with <ref type="inscription">58</ref> and closely related to <ref type="inscription">472</ref>, 
+                  <ref type="inscription">473</ref>.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Bartoccini</author>, <ptr target="quaderni"/> 
+                  <biblScope>I:32</biblScope>
+               </bibl>;
+               <bibl>
+                  <ptr target="ae"/> 
+                  <biblScope>1950:148</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="iustitia">Iustitia</w> <w lemma="pariter">pariter</w> <w lemma="atque">ac</w>
+               <lb n="2"/><w lemma="pietas">pietate</w> <w lemma="caelestis">caelesti</w> <w lemma="atque"><expan><abbr>adq</abbr><ex>ue</ex></expan></w>
+               <lb n="3"/><placeName type="ethnic" nymRef="Romanus"><w lemma="Romanus">Romanae</w></placeName> <w lemma="felicitas">felicitatis</w>
+               <lb n="4"/><w lemma="perpetuus">perpetuo</w> <w lemma="fundator">fundatori</w>
+               <lb n="5"/><w lemma="dominus"><expan><abbr>d</abbr><ex>omino</ex></expan></w> <w lemma="noster"><expan><abbr>n</abbr><ex>ostro</ex></expan></w> <persName type="emperor"><name type="cognomen" nymRef="Valentinianus">Valentiniano</name> 
+              <w lemma="uictoriosus">vic<lb n="6" type="inWord"/>toriossimo</w> <w lemma="atque">ac</w> <w lemma="totus">totius</w>
+               <lb n="7"/><w lemma="orbis">orbis</w> <name type="emperor" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>  <persName type="attested"><name type="gentilicium" nymRef="Antonius">Antonius</name>
+               <lb n="8"/><name type="cognomen" nymRef="Dracontius">Dracontius</name></persName> <w lemma="uir"><expan><abbr>u</abbr><ex>ir</ex></expan></w> <w lemma="clarus"><expan><abbr>c</abbr><ex>larissimus</ex></expan></w> <w lemma="ago">agens</w>
+               <lb n="9"/><w lemma="uicis">uicem</w> <w lemma="praefectus">praefectorum</w> <w lemma="praetorius">prae<lb n="10" type="inWord"/>torio</w> <w lemma="per">per</w> <placeName type="ethnic" nymRef="Africanus">Africanas</placeName> 
+               <w lemma="prouincia">pro<lb n="11" type="inWord"/>uincias</w> <w lemma="numen">numini</w> <w lemma="et">et</w>
+               <lb n="12"/><w lemma="maiestas">maiestati</w> <w lemma="is">eius</w> <w lemma="semper">semper</w>
+               <lb n="13"/><w lemma="dico">dicatissimus</w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To one who is in justice and sense of duty alike heavenly, and perpetual founder of Roman good fortune, 
+   our lord Valentinian, most victorious, and Augustus of the whole world; Antonius Dracontius, outstanding man
+   <note>i.e. member of the Roman Senate</note>, deputy for the praetorian prefects throughout the African
+   provinces, always most devoted to his divine power and majesty.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>1. Augustus: after the association of Valens with Valentinian (28 March 364) and before that of 
+      Gratian (25 August 367); see  <ref type="inscription">58</ref>, 
+      <ref type="inscription">472</ref> and <ref type="inscription">473</ref>.</p>
+            <p>2. Dracontius: <title>PW</title> V, 1635, 3, vicarius 364-367; also in  <ref type="inscription">58</ref>, 11. 8-14;
+      <ref type="inscription">472</ref>, ll. 8-12; <ref type="inscription">473</ref>, ll.8-12.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0085"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.V.22)</head>
+               </figure>
+               <figure>
+                  <graphic url="0086"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.VII.24)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT700" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Testamentary</rs> 
+               <rs type="textType">dedication<certainty match=".." locus="value"/>
+               </rs>
+            </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT700</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Rectangular <rs type="objectType">base</rs>
+               (<dimensions>
+                                 <width unit="metre">0.52</width>
+                                 <height unit="metre">0.96</height>
+                                 <depth unit="metre">0.52</depth>
+                              </dimensions>) 
+               of rather coarse <material>grey limestone</material>.
+               </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a <rs type="decoration">moulded panel</rs> 
+               (die, <dimensions>
+                              <width unit="metre">0.28</width>
+                              <height unit="metre">0.70</height>
+                           </dimensions>). </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Irregular capitals with Rustic forms (probably third century A.D.):
+               av. <height unit="metre" atLeast="0.03" atMost="0.035">0.03-0.035</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0201" notAfter="0300" precision="low" evidence="lettering">Probably third century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db743">Regio V</rs>, insula  6, opposite the South East entrance to the Market.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="illegible" quantity="7" unit="line"><desc>First seven lines illegible</desc></gap>
+               <lb n="8"/><w lemma="et">et</w> <persName type="attested"><name type="gentilicium" nymRef="Flauius">Flau<supplied reason="lost">iu</supplied>s</name> 
+               <name type="cognomen" nymRef="Capito"><supplied reason="lost">Ca</supplied><lb n="9" type="inWord"/>pito</name></persName> <w lemma="statua">statuas</w>
+               <lb n="10"/><w lemma="quattuor">quatuor</w> <gap reason="lost" atLeast="2" atMost="3" unit="character"/>
+               
+               <lb n="11"/><w lemma="denarius"><expan><abbr><am><g type="denarius"/></am></abbr><ex>denarios</ex></expan></w> 
+               <num value="8000"><hi rend="supraline">VIII</hi></num>
+               <w lemma="adicio">ad<supplied reason="lost">iec</supplied>tis</w>
+               <lb n="12"/><w lemma="amplus">amplius</w> <w lemma="de">d<supplied reason="lost">e</supplied></w>
+               <lb n="13"/><w lemma="suus"><supplied reason="lost">s</supplied>uo</w> 
+               
+   <w lemma="denarius"><expan><abbr><am><g type="denarius"/></am></abbr><ex>denariis</ex></expan></w>
+               <num value="5000">ↀ V</num>
+               <w lemma="heres">he<lb n="14" type="inWord"/>r<supplied reason="lost">e</supplied>des</w> <w lemma="pono">posu<lb n="15" type="inWord"/>erunt</w> </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="11">
+                  <note>i.e. <foreign xml:lang="la">denarios octo milia</foreign>.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="13">
+                  <note>i.e. <foreign xml:lang="la">denariis mille quinque</foreign>.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><gap reason="lost"/> and Flavius Capito, his heirs, set up four statues at a cost of eight thousand denarii, adding one thousand five hundred denarii of their own.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 8-9. Flauius Capito. Perhaps also in <ref type="inscription">701</ref>.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0890"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 317)</head>
+               </figure>
+               <figure>
+                  <graphic url="0891"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XI.5)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

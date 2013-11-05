@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT596" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Donation</rs>  by M. Fuluius Saturninus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT596</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Parts of two uniform rectangular <rs type="objectType">base</rs>s of <material>grey limestone</material>.
+               a) <dimensions>
+                                 <width unit="metre">0.91</width>
+                                 <height unit="metre">0.23</height>
+                                 <depth unit="metre">0.38</depth>
+                              </dimensions> surviving.
+               b) Right-hand side. Surviving <dimensions>
+                                 <width unit="metre">0.35</width>
+                                 <height unit="metre">0.25</height>
+                                 <depth unit="metre">0.19</depth>
+                              </dimensions> surviving.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lapidary capitals: l. 1, <height unit="metre">0.055</height>; l. 2, <height unit="metre">0.045</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0001" notAfter="0200" evidence="lettering">First to second century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db720">Forum Vetus</rs>, a) lying on the South wall of the Temple of Rome and Augustus,  b) in the Temple of Magna Mater.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="fragment" n="a" type="textpart"><ab>
+               <lb n="1"/><persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name type="gentilicium" nymRef="Fuluius">Fuluius</name> <name type="cognomen" nymRef="Saturninus">Saturninus</name></persName>
+               <lb n="2"/><w lemma="flamen">flamen</w> 
+               <persName type="emperor"><name type="praenomen" nymRef="Tiberius"><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name type="cognomen" nymRef="Caesar">Caesaris</name> 
+               <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+               <w lemma="dono"><expan><abbr>d</abbr><ex>ono</ex></expan></w> 
+               <w lemma="do"><expan><abbr>d</abbr><ex>edit</ex></expan></w> 
+              </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+              <lb n="1"/><persName type="attested"><supplied reason="lost"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> 
+                 <name type="gentilicium" nymRef="Fuluius">Fuluius</name></supplied> <name type="cognomen" nymRef="Saturninus"><supplied reason="lost">Satu</supplied>rninus</name></persName>
+                <lb n="2"/><supplied reason="lost"><w lemma="flamen">flamen</w></supplied> 
+                  <persName type="emperor"><supplied reason="lost"><name type="praenomen" nymRef="Tiberius"><expan><abbr>Ti</abbr><ex>beri</ex></expan></name></supplied> <name type="cognomen" nymRef="Caesar"><supplied reason="lost">Caesa</supplied>ris</name> 
+               <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+               <w lemma="dono"><expan><abbr>d</abbr><ex>ono</ex></expan></w> 
+               <w lemma="do"><expan><abbr>d</abbr><ex>edit</ex></expan> </w>
+            </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>a</note>Marcus Fulvius Saturninus, flamen of Tiberius Caesar Augustus, gave <supplied reason="subaudible">this</supplied> as a gift. <note>b</note><supplied reason="lost">Marcus Fulvius Satu</supplied>rninus, <supplied reason="lost">flamen of Tiberius Caesa</supplied>r Augustus, gave <supplied reason="subaudible">this</supplied> as a gift </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0781"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XV.33)</head>
+               </figure>
+               <figure>
+                  <graphic url="0782"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XII.21)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

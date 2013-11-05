@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT624" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">honours</rs> 
+            </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT624</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Two <rs type="objectType">block</rs>s of <material>grey limestone</material>; the first one 
+               (<dimensions>
+                                 <width unit="metre">0.84</width>
+                                 <height unit="metre">0.50</height>
+                                 <depth unit="metre" precision="low">0.50</depth>
+                              </dimensions>) 
+               is badly weathered. The second one (<dimensions>
+                                 <width unit="metre">0.70</width>
+                                 <height unit="metre">0.51</height>
+                                 <depth unit="metre">0.51</depth>
+                              </dimensions>), discovered since 1951, 
+               adjoins the previously found stone of this text at the left-hand end. There is a shallow cut-away on 
+               the right side at the back.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Each block is inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>First block: Lapidary capitals: from top of block, 
+               <height unit="metre">0.02</height>; l. 1, 
+               <height unit="metre" atLeast="0.02" atMost="0.105">0.02-0.105</height>; l. 2, 
+               <height unit="metre" atLeast="0.14" atMost="0.23">0.14-0.23</height>; l. 3, 
+               <height unit="metre" atLeast="0.255" atMost="0.34">0.255-0.34</height>; l. 4, 
+               <height unit="metre" atLeast="0.37" atMost="0.455">0.37-0.455</height>; to bottom, 
+               <height unit="metre">0.50</height>.
+            Second block: Lapidary capitals: from top of block, l. 1, 
+               <height unit="metre" atLeast="0.02" atMost="0.11">0.02-0.11</height>; l. 2, 
+               <height unit="metre" atLeast="0.135" atMost="0.225">0.135-0.225</height>; l. 3, 
+               <height unit="metre" atLeast="0.25" atMost="0.34">0.25-0.34</height>; l. 4, 
+               <height unit="metre" atLeast="0.365" atMost="0.455">0.365-0.455</height>; to bottom, 
+               <height unit="metre">0.51</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notAfter="0200" notBefore="0001" evidence="lettering">First to second century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                 <rs type="monuList" key="db754">Temple of Rome and Augustus</rs>. The first block was found behind the Forum Vetus, West of the Byzantine Wall, near the sea-shore. 
+                  The second block was found half-buried in sand between the same temple and the Byzantine sea-wall, in which it had probably been re-used.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Robinson</author>, <ptr target="aja"/>, <biblScope>XVII:188</biblScope>
+               </bibl>
+               <bibl>
+                  <ptr target="ae"/>, <biblScope>1913, 149</biblScope>
+               </bibl>
+               <bibl>
+                  <ptr target="cagnatmerlin1923"/>, <biblScope>1 h</biblScope>
+               </bibl>
+               </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/><w part="F">o</w> <persName type="attested"><name type="cognomen" nymRef="Fronto">Fron<unclear>t</unclear><supplied reason="lost">o</supplied>ni</name></persName>
+               <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/> <w lemma="pontifex"><supplied reason="lost">p</supplied>ontifici</w> <w lemma="colonia"><unclear>c</unclear><supplied reason="lost">ol</supplied>oniae</w>
+               <lb n="3"/>
+               <gap reason="lost" extent="unknown" unit="character"/><w part="F"/></ab><ab><w part="F">nus</w> <w lemma="fero">lato</w> <w lemma="clauus"><unclear>c</unclear><supplied reason="lost">la</supplied>uo</w> <w lemma="dono">donauit</w>
+               <lb n="4"/>
+               <gap reason="lost" extent="unknown" unit="character"/> <w lemma="diuus">diui</w> <persName type="emperor"><name type="cognomen" nymRef="Traianus">Traia<supplied reason="lost">n</supplied>i</name> <name type="cognomen" nymRef="Parthicus">Parthici</name></persName></ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app>
+                  <note>The reconstruction proposed by Robinson (loc. cit.) is impossible; there are considerable 
+                     differences in the size of the lettering in the various fragments used.  </note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><gap reason="lost"/> to <gap reason="lost"/> Fronto <gap reason="lost"/> pontifex <note>priest</note> of the colony <gap reason="lost"/> he <note>probably Trajan</note> gave the broad purple band <gap reason="lost"/> of deified Trajan, victor in Parthia </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>Presumably Lepcis. Fronto has not been identified; but he  appears to be the earliest known Senator of 
+               Lepcitanian origin.</p>
+            <p>Perhaps <foreign xml:lang="la">hunc diuus Traianus lato clauo donauit</foreign>. If the donor had been 
+               Domitian, it is unlikely that his name would have been given; if Vespasian, we should have to suppose a 
+               very considerable gap in Fronto's ealr carrer, since the space vacant before 
+               <foreign xml:lang="la">diui Traiani Parthici</foreign> in l. 4 cannot be long enough to hold the record of 
+               much activity.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0815"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XV.28)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

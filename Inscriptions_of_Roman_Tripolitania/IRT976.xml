@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT976" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Marcus Aurelius</title>
+            <editor>J. M. Reynolds</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT976</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>,
+<title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>,
+<title level="j">Proceedings of the British School at Rome</title>
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>,
+               no. S.4.</bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <material>marble</material> 
+                              <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.26</width>
+                                 <height unit="metre">0.36</height>
+                                 <depth unit="metre">0.26</depth>
+                              </dimensions>) </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel (<dimensions>
+                              <width unit="metre">0.19</width>
+                              <height unit="metre">0.28</height>
+                           </dimensions>): there is a circular depression on the top.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Second century capitals with some Rustic forms,
+               ll. 1-5, <height unit="metre">0.034</height>;
+               l. 6, <height unit="metre">0.018</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0139" notAfter="0161" evidence="reign">139-161 A.D. (reign).</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db768">shore</rs>:
+                  west of the Temple of Neptune. Found in <date type="foundDate">1953</date> by Mr. Duncan Black.</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="emperor"><name type="gentilicium" nymRef="Aurelius">Aurelio</name> <lb n="2"/><name type="cognomen" nymRef="Caesar">Caesari</name> <lb n="3"/><name type="gentilicium" nymRef="Antoninus">Antonini</name></persName> <lb n="4"/><persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <name type="cognomen" nymRef="Pius">Pii</name></persName> <expan><abbr>f</abbr><ex>ilio</ex></expan>
+               <lb n="5"/><w lemma="uitalis">Vitalis</w> <w part="I">
+<abbr>lib</abbr></w><lb n="6" type="inWord"/><w lemma="uerna">uerna</w> <w lemma="ab" part="I">
+<abbr>a</abbr></w>
+               <num value="10">X</num>
+               <w part="I">
+<abbr>mo</abbr></w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Aurelius Caesar, son of Antoninus Augustus Pius, <supplied reason="subaudible">set up by</supplied> Vitalis, freed home-born slave, ?in charge of claims for ships with capacity for ten thousand measures <supplied reason="subaudible">of corn</supplied>.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 1-2.  Marcus Aurelius, Caesar from 139 to 161.</p>
+            <p>l.5. <foreign xml:lang="la">Lib(ertus)</foreign> or <foreign xml:lang="la">lib(rarius)</foreign>: <foreign xml:lang="la">Liberti</foreign> are sometimes described also as <foreign xml:lang="la">uernae</foreign>, see
+               e.g. <title level="j">L'Ann. Ep.</title> 1941, 161 <foreign xml:lang="la">uernae et liberto incomparibili</foreign>: but in view of the order of
+               words here and of the context a term descriptive of the man's function might be
+               preferable. For slave <foreign xml:lang="la">librarii</foreign> see <title level="m">CIL</title> VIII, 12165-9.</p>
+            <p>l.6. Written A. X. M. with a small O above the M. There are identical sigla in <title level="m">CIL</title> XIV,
+               4319 at Ostia (a dedication to the <foreign xml:lang="la">numen domus Augusti</foreign> by <foreign xml:lang="la">Victor et Hedistus uern(ae)
+               disp(ensatores) cum Traiano Aug(usti) lib(erto) A. X. M. O.</foreign> (with O above the M),
+               except that in the Ostian text there is a bar above the <foreign xml:lang="la">X</foreign>. The lettering of the
+               Ostian text and the name <foreign xml:lang="la">Traianus</foreign> suggest that it was cut in the middle to late
+               second century, and is in fact roughly contemporary with the Lepcitanian one. (I am
+               indebted to Prof. G. Barbieri for a photograph of the Ostian text). </p>
+            <p> The explanation of the Ostian text given in <title level="m">CIL</title> loc. cit. - <foreign xml:lang="la">a(nno) (decimo)
+               m(agistro)</foreign> (sc. of a <foreign xml:lang="la">collegium</foreign> in whose <foreign xml:lang="la">scola</foreign> it is supposed to have been dedicated)
+               - cannot stand now that another instance of the abbreviation has been found: nor does
+               an earlier suggestion made by Dessau in <title level="j">Eph. Ep.</title> IX, 437 - <foreign xml:lang="la">a(eris) (sc. stipendii)
+               (decimi) mo</foreign>(?) seem to help. It would be reasonable to suppose that the letters refer
+               to a branch of the imperial financial service and perhaps specifically one concerned
+               with financial administration arising in ports. For this the precise findspots of the
+               two texts offer some confirmation - the Ostian text was found in the Piazzale delle
+               Corporazioni, and the Lepcitanian text on the seashore near <ref type="inscription">302</ref>, which mentions a
+               <foreign xml:lang="la">seruus</foreign> in the office of the <foreign xml:lang="la">IIII p.A.</foreign> at Lepcis and suggests the proximity of that
+               office. But I am unable to offer any satisfactory expansion of the letters. M with O
+               above is a standard abbreviation for <foreign xml:lang="la">modius</foreign>.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="BSR_53_III_40"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 53 III 40)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

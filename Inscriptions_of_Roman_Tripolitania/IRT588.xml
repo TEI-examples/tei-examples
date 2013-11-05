@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT588" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for L. Aemilius Quintus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT588</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> The right-hand face of <ref type="inscription">561</ref>.  Moulded <rs type="objectType">base</rs> of <material>marble</material> 
+               (<dimensions>
+                                 <width unit="metre">0.65</width>
+                                 <height unit="metre">1.25</height>
+                                 <depth unit="metre">0.65</depth>
+                              </dimensions>). </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.30</width>
+                              <height unit="metre">0.52</height>
+                           </dimensions>) from the centre of which a circular object has been erased. 
+               The first line is cut above the die; there are <rs type="decoration">formal sprays</rs> at the end of lines 4 and 10. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century A.D. capitals: <height unit="metre" atLeast="0.03" atMost="0.05">0.03-0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0383" notAfter="0388" precision="low" evidence="prosopography">383-388 A.D. (prosopography).</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db719">Forum Severianum</rs>, East Portico. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p> 
+               <bibl>
+                  <author>Bartoccini</author>, <ptr target="quaderni"/> 
+                  <biblScope>I:36</biblScope>
+               </bibl>; <bibl>
+                  <ptr target="ae"/> 
+                  <biblScope>1950:150</biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="attested"><name type="signum" nymRef="Quintius">Quintii</name></persName> 
+               <w lemma="flamen"><expan><abbr>fl</abbr><ex>aminis</ex></expan></w> 
+               <w lemma="perpetuus"><expan><abbr>p</abbr><ex>er</ex><abbr>p</abbr><ex>etui</ex></expan></w>
+               <w lemma="sacerdotalis"><expan><abbr>sac</abbr><ex>erdotalis</ex></expan></w>
+               <lb n="2"/><w lemma="ob">Ob</w> <w lemma="mereo">meritum</w> 
+               <w lemma="labor">labo<lb n="3" type="inWord"/>ris</w> <w lemma="et">et</w> <w lemma="legatio">legationis</w>
+               <lb n="4"/><w lemma="perficio">perfectae</w>
+               <lb n="5"/><persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name type="gentilicium" nymRef="Aemilius">Aemilio</name> <name type="cognomen" nymRef="Quintus">Quinto</name></persName> 
+               <w lemma="flamen"><expan><abbr>fl</abbr><ex>amini</ex></expan></w> 
+               <w lemma="perpetuus"><expan><abbr>p</abbr><ex>er</ex><abbr>p</abbr><ex>etuo</ex></expan></w>
+               <lb n="6"/><w lemma="sacerdotalis">sacerdotali</w>
+               <lb n="7"/><w lemma="ordo">ordo</w> 
+               <w lemma="splendidus">splendidis<lb n="8" type="inWord"/>simus</w> <w lemma="ciuitas">ciuitatis</w>
+               <lb n="9"/><placeName type="ethnic" nymRef="Lepcimagnensis">Lepcimagnensium</placeName>
+               <lb n="10"/><w lemma="do">dedit</w></ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>In honour of Quintius, perpetual flamen <note>priest</note>, priest. On account of the merit of his public service and of his successfully completed embassy, to Lucius Aemilius Quintus, perpetual flamen <note>priest</note>, priest; the most splendid council of the city of the Lepcimagnensians gave <supplied reason="subaudible">this</supplied>. </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>
+               ll.1, 5: Quintii, L. Aemilius Quintus:
+                     also in <title>CIL</title> VIII, 27, dated between 383 and 388, and in <ref type="inscription">111</ref>. 
+                  
+            </p>
+            <p>
+               ll.2-4: See also <title>CIL</title> VIII, 27, ll. 6-8, on <foreign xml:lang="la">meritum magnific(a)e legationis quam pro uoto totius prouinciae executus est</foreign>; and <ref type="inscription">111</ref>, ll. 2-7.  
+            </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0771"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 25)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

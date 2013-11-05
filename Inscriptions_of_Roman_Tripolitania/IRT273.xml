@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT273" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to divine emperors</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT273</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Nine <rs type="objectType">block</rs>s of <material>grey limestone</material>. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed within a moulded border (together, <dimensions>
+                              <width unit="metre">9.56</width>
+                              <height unit="metre">0.52</height>
+                              <depth unit="metre">0.57</depth>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>First century A.D. lapidary capitals: l. 1, <height unit="metre">0.13</height>;
+               l. 2, <height unit="metre">0.12</height>;
+               l. 3, <height unit="metre">0.08</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0042" notAfter="0043" precision="low" evidence="prosopography">42-43 A.D. (prosopography)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  From the frieze of the temple in the portico behind the <rs type="monuList" key="db756">Theatre</rs>
+                           </p>
+                        </event>
+                        <event type="observed">
+                           <p>Now recomposed and standing in the portico.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Caputo</author>, <ptr target="dioniso"/>, <biblScope>VII: 93</biblScope>;
+               <author>Aurigemma</author>, <ptr target="afrital"/>, <biblScope>VIII:16</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+
+               <lb n="1"/><persName type="divine"><w lemma="deus">Dis</w> <name type="cognomen" nymRef="Augustus">Augustis</name></persName>
+               <lb n="2"/>
+               <persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name type="gentilicium" nymRef="Marcius">Marcius</name> 
+               <persName type="attested"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aii</ex></expan></name> </persName>
+               <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w> <name type="cognomen" nymRef="Barea">Barea</name></persName> 
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> <num value="15">XV</num>uir 
+               <w lemma="sacer"><expan><abbr>s</abbr><ex>acris</ex></expan></w> 
+               <w lemma="facio"><expan><abbr>f</abbr><ex>aciundis</ex></expan></w> <w lemma="fetialis">fetialis</w> 
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+               <num value="2">II</num> <w lemma="patronus">patronus</w> <w lemma="dedico">dedicauit</w>
+               <lb n="3"/><persName type="attested"><name type="cognomen" nymRef="Iddibal">Iddibal</name> <persName type="attested"><name type="cognomen" nymRef="Mago">Magonis</name></persName> <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w> 
+                  <name type="cognomen" nymRef="Tapapius">Tapapius</name></persName> <placeName type="ethnic" nymRef="Lepcitanus">Lepcitanus</placeName> <w lemma="de">de</w> <w lemma="suus">sua</w> <w lemma="pecunia">pecunia</w> <w lemma="facio">fecit</w> </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To the Augustan gods. Quintus Marcius Barea, son of Caius, consul, member of the commitee of fifteen for sacred rites <note>at Rome</note>, fetial <note>Roman priest</note>, proconsul for a second year, patron, dedicated <supplied reason="subaudible">this</supplied>; Iddibal Tapapius, son of Mago, of Lepcis, had it built at his own expences.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 2. Q. Marcius Barea. Cos. suff. 34, procos. Africae 42, = <title level="m">PW</title> XIV, 1549, no. 37. Not previously known to have been proconsul for two years.</p>
+            <p>l. 3. Tapapius. For this family see  <ref type="inscription">319</ref> .</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0323"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 936 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

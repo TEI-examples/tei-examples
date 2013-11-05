@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT274" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragments</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT274</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Five fragments of a <material>marble</material> 
+                              <rs type="objectType">panel</rs> (the largest (a) <dimensions>
+                                 <width unit="metre">0.45</width>
+                                 <height unit="metre">0.46</height>
+                              </dimensions>; (a) and (e) from the lower edge, the remainder no edges surviving).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Capitals. Probably third century A.D.: <height unit="metre" atLeast="0.06" atMost="0.07">0.06-0.07</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0201" notAfter="0300" cert="low" precision="low"
+                               evidence="lettering">Probably third century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  Found in the <rs type="monuList" key="db720">Forum Vetus</rs>, between the Temples of Rome and Augustus and of Liber Pater.</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="relscav"/>, <biblScope>21.1.34</biblScope>
+               </bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="fragment" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig><unclear>r</unclear>op</orig><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w lemma="de" part="F">de</w> <w part="I">frat</w><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="3"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">o</w> 
+                  <persName type="attested"><name type="cognomen" nymRef="Pausanias"><seg part="I">Pausania</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="4"/>
+                  <gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name type="gentilicium" nymRef="Valerius"><seg part="I">Valeriu</seg></name></persName>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="5"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><w lemma="deus">diis</w></supplied> 
+                  <w lemma="inferior"><expan><abbr><supplied reason="lost">infe</supplied>riorib</abbr><ex>us</ex></expan></w> <w lemma="et">et</w> 
+                  <w lemma="superus"><expan><abbr>superiorib</abbr><ex>us</ex></expan></w> 
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig><unclear>c</unclear>ir</orig><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/> 
+                  <persName type="attested"><name type="gentilicium" nymRef="Vibia"><seg part="I">Vibia</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="3"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <persName type="attested"><name type="cognomen" nymRef="Pausanias"><seg part="I"><supplied reason="lost">P</supplied>ausania</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/> 
+               </ab></div><div subtype="fragment" n="c" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>ano</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="d" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>ua</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="e" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>am<unclear>m</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a.<gap reason="lost"/> ? concerning ?his brother <gap reason="lost"/> Pausanias <note>nominative or ablative</note> <gap reason="lost"/> Valerius <note>nominative or accusative</note><gap reason="lost"/> to the gods below and those above <gap reason="lost"/> </p><p>b. <gap reason="lost"/>  Vibia <gap reason="lost"/> Pausanias <gap reason="lost"/> <note>cases not known</note> </p><p><note>c.-e.</note> Not usefully translatable.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0324"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.X.30)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

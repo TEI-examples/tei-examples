@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT886" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscriptions, partly <rs type="textType">Libyan</rs>
+            </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT886</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Series of rectangular funerary <rs type="objectType">stelae</rs> of <material>brown limestone</material> (<dimensions>
+                                 <width unit="metre" atLeast="0.22" atMost="0.35">0.22-0.35</width>
+                                 <height unit="metre" atLeast="0.50" atMost="1.55">0.50-1.55</height>
+                              </dimensions>)</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the faces. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Inscribed in Latin characters (<height unit="metre" atLeast="0.02" atMost="0.04">0.02-0.04</height>).</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db655">Middle Lower Sofeggin Basin</placeName>:
+                  <rs type="monuList" key="db774">Bir ed-Dreder</rs>: Surveyed in situ, in the Libyan cemetery, by Goodchild in <date type="foundDate">1949</date>.</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db662">Tripoli Castle</rs>?</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2217718/bi-r-duraydir.html">Bi'r Duraydir</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>.
+               a) <bibl xml:id="belardinelli1935">
+                  <author>Belardinelli</author>, <title level="m">La Ghibla</title> (Govemo della Tripolitania, Studi e Monografie Coloniali, 3, Tripoli, <date>1935</date>) plate opp. p. 13</bibl>;
+                  <bibl xml:id="beguinot1949">
+                  <author>Beguinot</author>, <title level="j">Rivista degli Studi Orentali</title>, <biblScope>XXIV:14-15</biblScope>
+               </bibl>;
+                  <bibl xml:id="goodchild1950">
+                  <author>Goodchild</author>, <title level="j">Antiquaries Journal</title>, <biblScope>XXX:138</biblScope> ff. and pl. XVI b. h</bibl>)
+              </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Two of the texts, a) and h) have been incompletely published previously and are here reproduced from facsimiles by Goodchild;
+               the remainder will shortly be published in full, with facsimiles, by Goodchild and recognisable names and titles only are here recorded.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="stele" n="a" type="textpart"><note>Not transcribed, see image.</note></div><div subtype="stele" n="b" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Iullus">Iullus</name> <name type="cognomen" nymRef="Masthalul">Masthalul</name></persName>
+               </ab></div><div subtype="stele" n="c" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Flabius"><supplied reason="lost">Fla</supplied>bius</name> 
+                  <name type="cognomen" nymRef="Macarcum">Mac<supplied reason="lost">a</supplied>rcu<supplied reason="lost">m</supplied></name>
+                  <lb n="2"/><name type="cognomen" nymRef="Macarcum">Macarcum</name></persName> <w lemma="tribunus">tribunus</w>
+               </ab></div><div subtype="stele" n="d" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Masigama"><seg part="I">Ma<foreign xml:lang="grc">Σ</foreign>igama</seg></name></persName><gap reason="lost" quantity="3" unit="character"/><w lemma="tribunus">tribunus</w>
+               </ab></div><div subtype="stele" n="e" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Iulius">Iulius</name></persName> <gap reason="lost" quantity="3" unit="character"/>
+                  <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap><persName type="attested"><name type="cognomen"><seg part="F">ibitua</seg></name></persName>
+               </ab></div><div subtype="stele" n="f" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Iulius">Iulius</name> <name type="cognomen" nymRef="Nasif">Nasif</name></persName> <w lemma="tribunus">tribunus</w>   
+               </ab></div><div subtype="stele" n="g" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name type="cognomen"><seg part="F">imnus</seg></name> <name type="cognomen" nymRef="Nimira">Nimira</name></persName>
+               </ab></div><div subtype="stele" n="h" type="textpart"><note>Not transcribed, see image.</note></div><div subtype="stele" n="j" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Flabius">Flabius</name> <name type="cognomen" nymRef="Masinthan">Masin<supplied reason="lost">th</supplied>an</name></persName> <w lemma="tribunus">tribunus</w>   
+               </ab></div><div subtype="stele" n="k" type="textpart"><ab>
+                  <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Flauius">Flabius</name> <name type="cognomen" nymRef="Isiguari">Isiguari</name></persName> <w lemma="tribunus">tribunus</w> 
+               </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>a</note> ?Of Flavius Saicham, son of Macarcum <gap reason="lost" extent="unknown"/></p><p><note>b</note> Iullus Masthalul.</p><p><note>c</note> Flavius Macarcum. Macarcum, tribune.</p><p><note>d</note> Masigama <gap reason="lost" extent="unknown"/>, tribune.</p><p><note>e</note> Julius <gap reason="lost" extent="unknown"/></p><p><note>f</note> Julius Nasif, tribune.</p><p><note>g</note>. <gap reason="lost" extent="unknown"/>imnus Nimira.</p><p><note>h</note> Myriraban, son of Isicuar <gap reason="lost" extent="unknown"/></p><p><note>j</note> Flavius Masinthan, tribune.</p><p><note>k</note> Flavius, ?son of Isignas, tribune.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>The body of each text is in the Libyan language, but many of them include recognisable names and titles. </p>
+            <p>a) l. 1. For lulius; see e) and f).</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1111"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="Sketch886a"/>
+                  <head>Sketch of a. from a squeeze (from IRT p. 218)</head>
+               </figure>
+               <figure>
+                  <graphic url="Sketch886h"/>
+                  <head>Sketch of h. from a squeeze (from IRT p. 218)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT368" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Antoninus Pius </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT368</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Five fragments of a <material>white marble</material> 
+                              <rs type="objectType">panel</rs>, 
+               one from the upper edge (<dimensions>
+                                 <width unit="metre">0.235</width>
+                                 <height unit="metre">0.215</height>
+                              </dimensions>) 
+               and four with no edges surviving (the largest, <dimensions>
+                                 <width unit="metre">0.29</width>
+                                 <height unit="metre">0.335</height>
+                              </dimensions>). </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Second century lapidary capitals: l. 1, <height unit="metre">0.10</height>, remainder, <height unit="metre">0.09</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0139" evidence="titulature">A.D. 139 (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db720">Forum Vetus</rs>.</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl xml:id="degrassi1954">
+                  <author>A. <name>Degrassi</name>
+                  </author>, <ptr target="quaderni"/>, III</bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="emperor"><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+                  <name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></name></supplied> 
+                  <persName type="emperor"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Hadrianus">Had<supplied reason="lost">riani</supplied></name></persName> 
+               <supplied reason="lost"><w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w></supplied>
+                  <lb n="2"/><persName type="emperor"><supplied reason="lost"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Traianus">Traiani</name></supplied> 
+                  <name type="cognomen" nymRef="Parthicus"><supplied reason="lost">Pa</supplied>rthic<supplied reason="lost">i</supplied></name></persName> 
+               <supplied reason="lost"><w lemma="nepos"><expan><abbr>n</abbr><ex>epoti</ex></expan></w></supplied> 
+               <lb n="3"/>
+                  <supplied reason="lost"><persName type="emperor"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Nerua">Neruae</name></persName></supplied>
+               <w lemma="abnepos"><supplied reason="lost">ab</supplied><expan><abbr>n</abbr><ex>epoti</ex></expan></w> 
+               <name type="praenomen" nymRef="Titus"><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name type="gentilicium" nymRef="Aelius">A<supplied reason="lost">elio</supplied></name>
+               <lb n="4"/>
+               <name type="cognomen" nymRef="Hadrianus"><supplied reason="lost">Hadrian</supplied>o</name>
+               <name type="gentilicium" nymRef="Antoninus">A<supplied reason="lost">ntonino</supplied></name> 
+               <supplied reason="lost"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name> 
+                  <name type="cognomen" nymRef="Pius">Pio</name></supplied></persName>
+               <lb n="5"/>
+               <w lemma="pontifex"><expan><abbr><supplied reason="lost">pon</supplied>t</abbr><ex>ifici</ex></expan></w> 
+               <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+               <w lemma="tribunicius"><expan><abbr>tr<supplied reason="lost">ib</supplied></abbr><supplied reason="lost"><ex>unicia</ex></supplied></expan></w> 
+               <w lemma="potestas"><expan><abbr><supplied reason="lost">p</supplied>ot</abbr><ex>estate</ex></expan></w>
+               <num value="2">II</num>
+               <lb n="6"/>
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <num value="2">II</num>       
+               <supplied reason="lost"><w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+                  <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w></supplied> 
+               <lb n="7"/>
+               <placeName type="ethnic" nymRef="Lepcitanus"><supplied reason="lost">Lep</supplied>citan<supplied reason="lost">i</supplied></placeName> <supplied reason="lost"><w lemma="publice">publice</w></supplied>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="6">
+                  <rdg resp="degrassi1954">cos II <supplied reason="lost">desig. II p p</supplied>
+                  </rdg>
+                  <note>: the lettering in l. 6 is very much more widely spaced than in l. 5 or, indeed, in any other line in this inscription: 
+                  COS II in fact occupies space for half a line. The proposed reading would produce asymmetry and cannot therefore be accepted.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost">To emperor Caesar</supplied> Titus A<supplied reason="lost">elius Hadrian</supplied>us A<supplied reason="lost">ntoninus Augustus Pius son of</supplied> deified Hadrian, <supplied reason="lost">grandson of deified Trajan</supplied> victor in Parthia, great grandson of <supplied reason="lost"> deified Nerva</supplied>, chief <supplied reason="lost">priest</supplied>, holding tribunician power for the second time, consul twice, <supplied reason="lost"> father of the country</supplied>; the Lepcitanians <supplied reason="lost">publicly</supplied></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 5. trib. pot. II - 10 Dec. 138 - 9 Dec. 139.</p>
+            <p>l. 6. cos. II - 1 Jan 139. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0469"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.X.35)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

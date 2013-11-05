@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT601" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Decree</rs> of <rs type="textType">honours</rs> for Plautius Lupus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT601</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rectangular <rs type="objectType">base</rs> 
+               (<dimensions>
+                                 <width unit="metre">0.50</width>
+                                 <height unit="metre">0.89</height>
+                                 <depth unit="metre">0.51</depth>
+                              </dimensions>) of <material>white marble</material>.
+a) Front face, surface badly damaged (die not measurable):
+   1. Fragment from the top, towards the right-hand edge
+   2. Fragment, ll. 20-22 approx. 
+   3. Bottom right-hand corner.
+b) Left-hand face
+c) Right-hand face </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on three faces within recessed panels.
+               b) (die, 
+               <dimensions>
+                              <width unit="metre">0.43</width>
+                              <height unit="metre">0.80</height>
+                           </dimensions>).
+               c) (die, <dimensions>
+                              <width unit="metre">0.42</width>
+                              <height unit="metre">0.80</height>
+                           </dimensions>).
+            </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Capitals with some Rustic forms, probably third century A.D.</handNote>
+                     <handNote>a) <height unit="metre">0.02</height>.</handNote>
+                     <handNote>b) <height unit="metre" atLeast="0.015" atMost="0.025">0.015-0.025</height>.</handNote>
+                     <handNote>c) <height unit="metre">0.03</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0201" notAfter="0300" precision="low" evidence="lettering">Third century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db749">Severan harbour</rs>, West side.</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+               <term xml:lang="grc-Latn">
+                  <rs type="textType">testamentary</rs>
+               </term>
+               <term xml:lang="grc-Latn">
+                  <rs type="textType">building</rs>s</term>
+               <term xml:lang="grc-Latn">
+                  <rs type="textType">munera</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="face" n="a" type="textpart"><div subtype="fragment" n="1" type="textpart"><ab>
+                     <lb n="1"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <w lemma="flamen"><supplied reason="lost">flam</supplied>ini</w> 
+                     <w lemma="pontifex"><unclear>p</unclear>on<supplied reason="lost">tifici</supplied></w>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="2"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <w lemma="uniuersus"><supplied reason="lost">uniuers</supplied>us</w> <w lemma="ordo">ordo</w> 
+                     <w lemma="qui" part="I">qua</w><gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="3"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><w part="F">uas</w> <w lemma="ob">ob</w> 
+                     <w lemma="munificentia">mun<unclear>i</unclear><supplied reason="lost">ficentiam</supplied></w>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="4"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><w part="F">uit</w> <w lemma="in">in</w> <w lemma="uerbum">uerba</w> 
+                     <w lemma="is" part="I"><unclear>i</unclear>s</w><gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="5"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><w part="F">nus </w><w lemma="ex">ex</w> 
+                     <w lemma="testamentum">testam<supplied reason="lost">ento</supplied></w>
+                     <lb n="6"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <w lemma="de"><supplied reason="lost">d</supplied><unclear>e</unclear></w> 
+                     <w lemma="suus">suo</w> <gap reason="lost" extent="unknown" unit="character"/>
+                  </ab></div><div subtype="fragment" n="2" type="textpart"><ab>
+                     <lb n="1"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><orig>qa<unclear>c</unclear>a</orig><gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="2"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <w lemma="inter"><supplied reason="lost">i</supplied>nter</w> <w lemma="ceter">ceteras</w> <gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="3"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><w part="F">m</w> 
+                     <orig>t<unclear>ii</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                     <lb n="4"/>
+                     <gap reason="lost" extent="unknown" unit="line"/>
+                  </ab></div><div subtype="fragment" n="3" type="textpart"><ab>
+                     <lb n="1"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><w part="F">adit</w>
+                     <lb n="2"/>
+                        <gap reason="lost" extent="unknown" unit="character"/> <w lemma="sum">sint</w> <w lemma="qui">quo</w>
+                     <lb n="3"/>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <w lemma="sententia"><supplied reason="lost">sententia</supplied>m</w> <w lemma="dico">dixit</w> <w lemma="fides">fide</w>      
+                  </ab></div></div><div subtype="face" n="b" type="textpart"><ab>
+                  <lb n="1"/>
+                  <w lemma="qui"><supplied reason="lost">Q</supplied>uod</w> <w lemma="expostulo">expostulantibus</w> <w lemma="uniuersus">uniuersis</w> 
+                  <rs type="military"><w lemma="decurio">decurio<lb n="2" type="inWord"/>nibus</w></rs> <w lemma="uti">uti</w> <persName type="attested"><name type="gentilicium" nymRef="Plautius">Plautio</name> <name type="cognomen" nymRef="Lupus">Lupo</name></persName> 
+                  <w lemma="bonus"><expan><abbr>o</abbr><ex>ptimo</ex></expan></w> 
+                  <w lemma="ordo"><expan><abbr>o</abbr><ex>rdinis</ex></expan></w> 
+                  <w lemma="nos"><expan><abbr>n</abbr><ex>ostri</ex></expan></w> 
+                  <w lemma="uir"><expan><abbr>uir</abbr><ex>o</ex></expan></w> <w lemma="biga">biga</w> <w lemma="de">de</w> <w lemma="publicus"><expan><abbr>pub</abbr><ex>lico</ex></expan></w>
+                  <lb n="3"/><w lemma="colloco">collocetur</w> 
+                  <w lemma="quis"><expan><abbr>q</abbr><ex>uid</ex></expan></w> 
+                  <w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+                  <w lemma="is"><expan><abbr>e</abbr><ex>a</ex></expan></w> 
+                  <w lemma="res"><expan><abbr>r</abbr><ex>e</ex></expan></w> 
+                  <w lemma="fio"><expan><abbr>f</abbr><ex>ieri</ex></expan></w> 
+                  <w lemma="placeo"><expan><abbr>p</abbr><ex>laceret</ex></expan></w> 
+                  <w lemma="censeo"><expan><abbr>c</abbr><ex>ensentis</ex></expan></w> 
+                  <persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name type="gentilicium" nymRef="Cassius">Cassi</name> <name type="cognomen" nymRef="Longinus">Longini</name></persName> 
+                  <num value="2">II</num><lb n="4" type="inWord"/><w lemma="uir"><expan><abbr>uir</abbr><ex>i</ex></expan></w> 
+                  <w lemma="designo"><expan><abbr>desig</abbr><ex>nati</ex></expan></w> 
+                  <w lemma="quis"><expan><abbr>q</abbr><ex>uid</ex></expan></w> 
+                  <w lemma="placeo"><expan><abbr>p</abbr><ex>laceret</ex></expan></w>
+                  <w lemma="circa"><expan><abbr>c</abbr><ex>irca</ex></expan></w>
+                  <w lemma="is"><expan><abbr>i</abbr><ex>d</ex></expan></w> 
+                  <w lemma="fio"><expan><abbr>f</abbr><ex>ieri</ex></expan></w> 
+                  <rs type="military"><w lemma="decurio"><expan><abbr>dec</abbr><ex>uriones</ex></expan></w></rs> 
+                  <w lemma="ita"><expan><abbr>i</abbr><ex>ta</ex></expan></w> 
+                  <w lemma="censeo"><expan><abbr>c</abbr><ex>ensuerunt</ex></expan></w> <w lemma="cum">Cum</w> <persName type="attested"><name type="gentilicium" nymRef="Plautius">Plautius</name> <name type="cognomen" nymRef="Lupus">Lupus</name></persName>
+                  <lb n="5"/>
+                  <w lemma="bonus"><expan><abbr>o</abbr><ex>ptimus</ex></expan></w> 
+                  <w lemma="ordo"><expan><abbr>o</abbr><ex>rdinis</ex></expan></w> 
+                  <w lemma="nos"><expan><abbr>n</abbr><ex>ostri</ex></expan></w> <w lemma="uir">uir</w> <w lemma="cum">cum</w> <w lemma="flamonium">flamonium</w> <w lemma="consensus">consensu</w>
+                  <lb n="6"/><w lemma="omnis">omnium</w> <w lemma="se">sibi</w> <w lemma="defero">delatum</w> <w lemma="libenter">libenter</w> 
+                  <w lemma="suscipio">suscepis<lb n="7" type="inWord"/>set</w> 
+                  <w lemma="opulens">opulentissimos</w> <w lemma="ludus">ludos</w> <w lemma="edo">ediderit</w> 
+                  <w lemma="singulariter"><expan><abbr>sing<lb n="8" type="inWord"/>u</abbr><ex>lariter</ex><abbr>q</abbr><ex>ue</ex></expan></w>
+                  <w lemma="magnificus">magnificentissima</w> <w lemma="liberalitas">liberalitate</w> <w lemma="pro">pro<lb n="9" type="inWord"/></w>meruerit
+                  <w lemma="in">in</w> <w lemma="duouiratus">IIuiratus</w> 
+                  <w lemma="quoque"><expan><abbr>quoq</abbr><ex>ue</ex></expan></w> <w lemma="honor">honore</w>
+                  <w lemma="omnis">om<lb n="10" type="inWord"/>nia</w> <w lemma="secundus">secundum</w> <w lemma="splendor">splendorem</w> <w lemma="natalis">natalium</w>
+                  <lb n="11"/>
+                  <w lemma="suus"><supplied reason="lost">s</supplied>uorum</w> <w lemma="dignitas"><expan><abbr>dignitatemq</abbr><ex>ue</ex></expan></w> 
+                  <w lemma="colonia"><expan><abbr>col</abbr><ex>oniae</ex></expan></w> 
+                  <w lemma="noster"><expan><abbr>n</abbr><ex>ostrae</ex></expan></w> <w lemma="ago">egerit</w> <w lemma="et">et</w>
+                  <lb n="12"/>
+                  <w lemma="effundo"><supplied reason="lost">e</supplied>ffusissimis</w> <w lemma="affectus">adfectibus</w> <w lemma="iterum">iterum</w> 
+                  <w lemma="splendidus">splen<lb n="13" type="inWord"/>didissimos</w> <w lemma="ludus">ludos</w> <w lemma="edo">ediderit</w> <w lemma="neque">nec</w> <w lemma="contentus">contentus</w>
+                  <lb n="14"/><w lemma="hic">his</w> <w lemma="liberalitas">liberalitatibus</w> <w lemma="cella">cellam</w> <w lemma="thermae"><expan><abbr>thermar</abbr><ex>um</ex></expan></w>
+                  <lb n="15"/>
+                  <w lemma="marmor"><expan><abbr>marmorib</abbr><ex>us</ex></expan></w> <placeName type="ethnic" nymRef="Numidicus">Numidicis</placeName> <w lemma="et">et</w> <w lemma="opus">opere</w> <w lemma="museum">musaeo</w> 
+                  <w lemma="exorno">ex<lb n="16" type="inWord"/>ornauerit</w> <w lemma="omnis">omni</w> <w lemma="deinde">deinde</w> <w lemma="occasio">occasione</w> 
+                  <w lemma="singulariter"><expan><abbr>singu<unclear>l</unclear></abbr><ex>ariter</ex></expan></w>
+                  <lb n="17"/><w lemma="promereo"><supplied reason="lost">p</supplied>romeruerit</w> <w lemma="et">et</w> <w lemma="proxime">proxime</w> <w lemma="cum">cum</w> <w lemma="ad">ad</w> <w lemma="munus">munus</w>
+                  <w lemma="publicus"><expan><abbr>publ</abbr><ex>icum</ex></expan></w>
+                  <lb n="18"/>
+                  <w lemma="ex"><supplied reason="lost">e</supplied>x</w> <w lemma="testamentum"><expan><abbr>t</abbr><ex>estamento</ex></expan></w> <persName type="attested"><name type="gentilicium" nymRef="Iunius">Iuni</name> <name type="cognomen" nymRef="Afer">Afri</name></persName>
+                  <w lemma="clarus"><expan><abbr>c</abbr><ex>larissimae</ex></expan></w> 
+                  <w lemma="memoria"><expan><abbr>m</abbr><ex>emoriae</ex></expan></w> 
+                  <w lemma="uir">uiri</w> <w lemma="edo">edendum</w> <w lemma="curator">curator</w> 
+                  <w lemma="eligo">e<lb n="19" type="inWord"/>le<supplied reason="lost">c</supplied>tus</w> <w lemma="sum">esset</w> <w lemma="sollicitudo">sollicitudini</w> 
+                  <w lemma="labor"><expan><abbr>laboriq</abbr><ex>ue</ex></expan></w> <w lemma="suus">suo</w> <w lemma="non">non</w> 
+                  <w lemma="parco">pe<lb n="20" type="inWord"/>percerit</w> <w lemma="et">et</w> <w lemma="observo">obseruata</w> <w lemma="amplus">amplissimi</w> <w lemma="senatus">senatus</w>
+                  <lb n="21"/><w lemma="uoluntas">uoluntate</w> <w lemma="splendidus">splendidissime</w> <w lemma="munus">munus</w> <w lemma="edo">edi</w> <w lemma="curo">curaueri<supplied reason="lost">t</supplied></w>
+                  <lb n="22"/><w lemma="debeo">debentque</w> <w lemma="huiusmodi">huiusmodi</w> <w lemma="afficio">adfectus</w>
+                  <lb n="23"/><w lemma="remuneror">remunerari</w> <w lemma="ut">ut</w> <w lemma="relinquus">reliqui</w> <w lemma="quoque">quoque</w> <w lemma="ad">ad</w> <w lemma="idem">eamdem</w> 
+                  <w lemma="uoluptas">uolup<lb n="24" type="inWord"/><supplied reason="lost">tat</supplied>em</w> 
+                  <w lemma="sollicito">sollicitari</w> <w lemma="possum">possint</w> <w lemma="placeo">placere</w> <persName type="attested"><name type="gentilicium" nymRef="Plautius">Plautio</name> <name type="cognomen" nymRef="Lupus">Lupo</name></persName>
+                  <lb n="25"/>
+                  <w lemma="bonus"><expan><abbr>o</abbr><ex>ptimo</ex></expan></w> 
+                  <w lemma="ordo"><expan><abbr>o</abbr><ex>rdinis</ex></expan></w> 
+                  <w lemma="nos"><expan><abbr>n</abbr><ex>ostri</ex></expan></w> 
+                  <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+                  <w lemma="biga"><supplied reason="lost">bi</supplied>gam</w> <w lemma="de">de</w> 
+                  <w lemma="publicus"><expan><abbr>publ</abbr><ex>ico</ex></expan></w> 
+                  <w lemma="ubi">ubi</w> <w lemma="uolo">uolet</w> <w lemma="colloco">collocari</w> 
+                  <w lemma="possum">pos<lb n="26" type="inWord"/><supplied reason="lost">se</supplied></w> <persName type="attested"><name type="gentilicium" nymRef="Plautius"><supplied reason="lost">Plau</supplied>tiu</name>s <name type="cognomen" nymRef="Lupus">Lupus</name></persName> <w lemma="de">de</w> <w lemma="suus">suo</w> <w lemma="colloco">collocaturum</w> <w lemma="se">se</w> <w lemma="dico">dixit</w>
+               </ab></div><div subtype="face" n="c" type="textpart"><ab>
+                  <lb n="1"/>
+                  <supplied reason="lost"><w lemma="qui">Quod</w></supplied><w lemma="expostulo"> <supplied reason="lost">expost</supplied>ulantibus</w> 
+                  <w lemma="uniuersus">uni<lb n="2" type="inWord"/><supplied reason="lost">uersis</supplied></w> <rs type="military"><w lemma="decurio"><supplied reason="lost">dec</supplied>urionibus</w></rs> <w lemma="uti">uti</w> 
+                  <persName type="attested"><name type="gentilicium" nymRef="Plautius">Plau<lb n="3" type="inWord"/><supplied reason="lost">tio</supplied></name> <name type="cognomen" nymRef="Lupus"><supplied reason="lost">Lupo</supplied></name></persName>
+                  <w lemma="duouir"><expan><abbr><supplied reason="lost"><num value="2">II</num>ui</supplied>r</abbr><ex>o</ex></expan></w> 
+                  <w lemma="annus">anni</w> <w lemma="praetereo">praeteriti</w> <w lemma="ob">ob</w>
+                  <lb n="4"/><w lemma="singularis">si<supplied reason="lost">ngu</supplied>larem</w> <w lemma="integritas">integritatem</w> <w lemma="et">et</w> 
+                  <w lemma="modestia">mod<lb n="5" type="inWord"/>es<supplied reason="lost">tiam</supplied></w> <w lemma="simul"><supplied reason="lost">s</supplied>imulque</w> <w lemma="ob">ob</w> <w lemma="munificentia">munificentiam</w>
+                  <lb n="6"/><w lemma="is">ei<supplied reason="lost">us</supplied></w> <w lemma="proximus"><supplied reason="lost">p</supplied>roximam</w> <w lemma="biga">bigam</w> <w lemma="is">ei</w> <w lemma="de">de</w> 
+                  <w lemma="publicus"><expan><abbr>publ</abbr><ex>ico</ex></expan></w>
+                  <w lemma="pono">po<lb n="7" type="inWord"/>n<supplied reason="lost">eret</supplied>ur</w> <persName type="attested"><name type="gentilicium" nymRef="Acilius">Acilius</name> <name type="cognomen" nymRef="Pompeianus">Pompeianus</name></persName>
+                  <w lemma="duouir">IIuir</w>
+                  <lb n="8"/>
+                  <w lemma="uerbum"><expan><abbr>u</abbr><ex>erba</ex></expan></w> 
+                  <w lemma="facio"><expan><abbr>f</abbr><ex>ecit</ex></expan></w> 
+                  <w lemma="quis"><expan><abbr>q</abbr><ex>uid</ex></expan></w> 
+                  <w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+                  <w lemma="is"><expan><abbr>e</abbr><ex>a</ex></expan></w> 
+                  <w lemma="res"><expan><abbr>r</abbr><ex>e</ex></expan></w> 
+                  <w lemma="fio"><expan><abbr>f</abbr><ex>ieri</ex></expan></w> 
+                  <w lemma="placeo"><expan><abbr>p</abbr><ex>laceret</ex></expan></w> <w lemma="cum">Cum</w> <persName type="attested"><name type="gentilicium" nymRef="Plautius">Plautius</name> <name type="cognomen" nymRef="Lupus">Lupus</name></persName> 
+                  <w lemma="secundus">secundu<supplied reason="lost">m</supplied></w>
+                  <lb n="9"/><w lemma="uerecundia">u<supplied reason="lost">ere</supplied>c<supplied reason="lost">u</supplied>ndiam</w> <w lemma="suus">suam</w> 
+                  <w lemma="uerbum"><expan><abbr>u</abbr><ex>erba</ex></expan></w> 
+                  <w lemma="facio"><expan><abbr>f</abbr><ex>ecerit</ex></expan></w> <w lemma="ne">ne</w> 
+                  <w lemma="onero">onerare<lb n="10" type="inWord"/>t</w> <w lemma="urbs">urbem</w> <w lemma="qui">c<unclear>u</unclear>ius</w> <w lemma="pubes">pubes</w>
+                  <w lemma="fides"><expan><abbr>fid</abbr><ex>em</ex></expan></w> <w lemma="studium">studium</w>
+                  <lb n="11"/><w lemma="in" part="I">in</w><gap reason="lost" quantity="3" unit="character"/>
+                  <rs type="military"><w lemma="decurio"><supplied reason="lost">d</supplied>ecurionum</w></rs> <w lemma="adoro">adoraret</w>
+                  <lb n="12"/><w lemma="contentus"><expan><abbr>co<supplied reason="lost">n</supplied><unclear>t</unclear>entumq</abbr><ex>ue</ex></expan></w> <w lemma="auctoritas">auctoritate</w>
+                  <lb n="13"/><w lemma="ipse">ip<supplied reason="lost">s</supplied>orum</w> <w lemma="de">de</w> <w lemma="suus">suo</w> <w lemma="si">si</w> 
+                  <w lemma="permitto">permit<lb n="14" type="inWord"/>t<supplied reason="lost">er</supplied>ent</w> <w lemma="pono">positurum</w>
+                  <w lemma="atque"><expan><abbr>adq</abbr><ex>ue</ex></expan></w> <w lemma="ita">ita</w> <w lemma="in">in</w>
+                  <lb n="15"/><w lemma="sententia">s<supplied reason="lost">e</supplied><unclear>n</unclear>tentiam</w> 
+                  <persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name type="cognomen" nymRef="Rufus">Rufi</name></persName> 
+                  <w lemma="flamen">flam<lb n="16" type="inWord"/><unclear>i</unclear><supplied reason="lost">ni</supplied>s</w> 
+                  <w lemma="perpetuus">perpetui</w> <w lemma="quis"><expan><abbr>q</abbr><ex>uid</ex></expan></w> 
+                  <w lemma="placeo"><expan><abbr>p</abbr><ex>laceret</ex></expan></w> 
+                  <w lemma="circa"><expan><abbr>c</abbr><ex>irca</ex></expan></w> 
+                  <w lemma="is"><expan><abbr>i</abbr><ex>d</ex></expan></w> 
+                  <w lemma="fio"><expan><abbr>f</abbr><ex>ieri</ex></expan></w> 
+                  <rs type="military"><w lemma="decurio"><expan><abbr>dec</abbr><ex>uriones</ex></expan></w></rs> 
+                  <w lemma="censeo">ce<supplied reason="lost">n</supplied><lb n="17" type="inWord"/>s<supplied reason="lost">u</supplied>erunt</w> <w lemma="ut">ut</w> <persName type="attested"><name type="gentilicium" nymRef="Plautius">Plautius</name> 
+                  <name type="cognomen" nymRef="Lupus">Lu<lb n="18" type="inWord"/>pus</name></persName> <w lemma="se">sibi</w> <w lemma="biga">bigam</w> <w lemma="qui">quo</w> <w lemma="locus">loco</w>
+                  <lb n="19"/><w lemma="uolo">uellet</w> <w lemma="de">de</w> <w lemma="suus">suo</w> <w lemma="pono">poneret</w>
+               </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>a. 1</note>To <gap reason="lost"/> flamen <note>priest</note>, pontifex <note>priest</note> <gap reason="lost"/> the whole city council <gap reason="lost"/> ? statues on account of his munificence <gap reason="lost"/> ?into words <gap reason="lost"/>nus in accordance with the will <gap reason="lost"/><supplied reason="lost" cert="low">set this up</supplied> at his own expense <gap reason="lost"/> <note>a. 2</note> <gap reason="lost"/> among others <note>feminine</note> things <gap reason="lost"/> <note>a. 3</note> <gap reason="lost"/><note>l.2</note> ? by which <gap reason="lost"/> he spoke his opinion in good faith.</p><p><note>b</note> Since all members of the city council are demanding that a two-horse chariot be set up at public expense to Plautius Lupus, one of the best men of our city council, Lucius Cassius Longinus, duovir designate, proposed that action should be taken in this matter and the decision of the city councillors on the actions to be taken in this matter is: Since Plautius Lupus, one of the best men of our city council, willingly undertook the flaminate <note>priesthood</note> which was offered to him by universal agreement, and gave very splendid games, and, most remarkably, also served with magnificent liberality in the office of the duumvirate in accordance with the splendid tradition of his family and the status of our colony, and with lavish disposition again gave most splendid games; moreover, not content with this generosity, he ornamented the bathhouse cella with Numidian marbles and mosaic work; subsequently on every occasion he was unusually meritorious, and most recently, when he had been elected as a curator to give a public show in accordance with the bequest of Junius Afer, deceased, splendid man <note>of senatorial status</note>, he was unsparing of his care and omitted no effort, and having observed the wishes of the honorable council, ensured that the games given were of the most splendid; and since behaviours of this kind ought to be rewarded so that others too could be stimulated to <supplied reason="subaudible">give</supplied> the same pleasure we decided that a two-horse chariot shall be erected to Plautius Lupius, one of the best men of our city council at a place which he chooses.</p><p><note>c</note> Given that everyone of the city councillors is calling for a two-horse chariot appropriate to him to be set up at public expense in honour of Plautius Lupus, duumvir last year, on account of his outstanding integrity and modesty and also because of his munificence, Acilius Pompeianus, duumvir, made the proposal:Ssince Plautius Lupus has said, in accordance with his modesty, that he would not burden the city whose people and good faith, and the zeal of the city counsellors, for him, he loved; and content with their decision, if they would allow it, he would set it up at his own expense; the city councillors decided thus in accordance with the proposal of Marcius Rufus, perpetual flamen <note>priest</note>, that Plautius Lupus should erect the two-horse-chariot in his honour in whatever place he wished, at his own expense.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>b) l. 2. Plautius Lupus. Also in <ref type="inscription">593</ref>, ll. 7, 8; 
+               <ref type="inscription">632</ref>, ll. 6. 7; 
+               <ref type="inscription">634</ref>, ll. 5, 6. </p>
+            <p>b) l. 18. Iunius ?Afer. Perhaps also in <ref type="inscription">716</ref>.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0787"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 324)</head>
+               </figure>
+               <figure>
+                  <graphic url="0788"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 304)</head>
+               </figure>
+               <figure>
+                  <graphic url="0789"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 305)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT489" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment from imperial titulature</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT489</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>,
+                  <pubPlace>Rome</pubPlace>: <publisher>British School at Rome</publisher>,
+                     <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Two <rs type="objectType">block</rs>s of <material>grey limestone</material> (<dimensions>
+                                 <width unit="metre">0.95</width>
+                                 <height unit="metre">0.50</height>
+                              </dimensions>, depth not measurable), with traces of
+               moulding above.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: from top of block, <height unit="metre" atLeast="0.33" atMost="0.49">0.33-0.49</height>; to bottom, <height unit="metre">0.50</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0001" notAfter="0150" precision="low"
+                               evidence="lettering-titulature">First to second centuries A.D. (lettering, titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db707">Byzantine sea-wall</rs>; built into the wall, near the Temple of Augustus, and recently re-exposed.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cagnatmerlin1923"/> 
+                  <biblScope>I(d)</biblScope>
+               </bibl>;
+               <bibl>
+                  <ptr target="romanelli1925"/>, <biblScope>132</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="tribunicius"><expan><abbr><supplied reason="lost">tri</supplied>b</abbr><ex>unicia</ex></expan></w>
+               <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w>
+               <num value="2">II</num>
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>erator</ex></expan></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="1">
+                  <note>There is a long space after IMP. Since the spacing of the other words is
+                  uneven, an interval here, with a figure cut upon the next stone, is not
+                  impossible; or space may have been left for a figure to be added when the cutter
+                  had ascertained the correct number of imperial salutations (see <ref type="inscription">914</ref>). If no
+                  figure was intended because the emperor concerned had only received the initial
+                  salutations, the subject might be Gaius (March 38-March 39), Trajan (Dec. 97-Dec.
+                  98), Hadrian (Dec. 117-Dec. 118) or Antoninus Pius (Feb. 139-Feb. 140)-lettering
+                  and material make a later date improbable: the balance is in favour of a first century
+                  emperor, since, in the second century, lists of imperial titles do not normally include
+                  imperial salutations until the second has been received.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><gap reason="lost"/> holding tribunician power for the second time, acclaimed victor <note>case unknown</note> <gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0632"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXIV.28)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

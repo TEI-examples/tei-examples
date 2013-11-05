@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT300" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">building</rs> 
+               <rs type="textType">dedication</rs> by Q. Manlius Ancharius Tarquitius Saturninus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT300</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Two courses of <rs type="objectType">block</rs>s of <material>grey limestone</material>
+               a) Upper course: of the eight original blocks, six survive, nos. 1-3 (together, <dimensions>
+                                 <width unit="metre">2.45</width>
+                                 <height unit="metre">0.43</height>
+                              </dimensions>), followed by a missing block (<dimensions>
+                                 <width unit="metre">1.16</width>
+                                 <height unit="metre" precision="low">0.43</height>
+                              </dimensions>),  followed  by nos. 5-7 (together, <dimensions>
+                                 <width unit="metre">3.22</width>
+                                 <height unit="metre">0.43</height>
+                              </dimensions>). 
+               The last block (<dimensions>
+                                 <width unit="metre">0.70</width>
+                                 <height unit="metre" precision="low">0.43</height>
+                              </dimensions>) is missing.
+               b) Lower course: of the ten (probably) original blocks, nos. 2-4 (together, <dimensions>
+                                 <width unit="metre">2.37</width>
+                                 <height unit="metre">0.52</height>
+                              </dimensions>) survive followed by a gap (length not calculable), followed by  two blocks, 
+               of which the right-hand end of the second is broken (together, <dimensions>
+                                 <width unit="metre">1.37</width>
+                                 <height unit="metre">0.52</height>
+                              </dimensions>). 
+               The right- hand end of the course is missing.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel (together, <dimensions>
+                              <width unit="metre">7.56</width>
+                              <height unit="metre" precision="low">0.95</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: l.1, <height unit="metre">0.14</height>;
+               l. 2, <height unit="metre">0.11</height>:
+               l. 3, <height unit="metre">0.09</height>;
+               l. 4, <height unit="metre">0.065</height>;
+               l. 5, <height unit="metre">0.06</height>. The longitudinal spacing is erratic.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0072" evidence="titulature">A.D. 72 (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  From the facade of the <rs type="monuList" key="db753">Temple of Magna Mater</rs> in the Forum Vetus</p>
+                        </event>
+                        <event type="observed">
+                           <p> Now recomposed nearby. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cil"/>, <biblScope>VIII:22671</biblScope>
+               </bibl>
+               <bibl>
+                  <ptr target="romanelli1925&gt;"/>, 129</bibl>
+               <bibl>
+                  <author>Bartoccini</author>
+                  <ptr target="rivarchcrist"/> 
+                  <biblScope>VIII:26</biblScope>, <biblScope>VIII:29</biblScope>
+               </bibl>
+              <bibl>
+                  <ptr target="ae"/>, <biblScope>1934:171</biblScope>. (All publications are of scattered blocks only).</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="emperor"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></w> <name type="cognomen" nymRef="Caesar">Caesare</name> <name type="cognomen" nymRef="Vespasianus">Vespasiano</name> 
+               <supplied reason="lost"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></supplied></persName>
+               <supplied reason="lost"><w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifice</ex></expan></w></supplied>
+               <w lemma="magnus"><expan><abbr><supplied reason="lost">m</supplied>ax</abbr><ex>imo</ex></expan></w> 
+               <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> 
+               <w lemma="potestas"><expan><abbr>potest</abbr><ex>ate</ex></expan></w> <num value="3">III</num> 
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratore</ex></expan></w> <num value="10">X</num> 
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></w> <num value="4">IIII</num> 
+               <w lemma="designo"><expan><abbr>des<supplied reason="lost">ig</supplied></abbr><supplied reason="lost"><ex>nato</ex></supplied></expan></w> 
+               <supplied reason="lost"><num value="5">V</num> 
+                  <w lemma="pater"><expan><abbr>p</abbr><ex>atre</ex></expan></w> <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w></supplied> 
+               <lb n="2"/>
+               <persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name type="gentilicium" nymRef="Manlius">Manlius</name> <name type="gentilicium" nymRef="Ancharius">Ancharius</name> 
+               <name type="gentilicium" nymRef="Tarquitius">Tarq<supplied reason="lost">uitius</supplied></name> <name type="cognomen" nymRef="Saturninus"><supplied reason="lost">Saturni</supplied>nus</name></persName> 
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> <w lemma="patronus">patronus</w> 
+               <w lemma="dedico">d<supplied reason="lost">edicauit</supplied></w> 
+               <lb n="3"/>
+               <gap reason="lost" quantity="1" unit="character"/> 
+               <persName type="attested"><name type="gentilicium" nymRef="Volumnius">Volumnius</name> <name type="cognomen" nymRef="Memor">Memor</name> <name type="cognomen" nymRef="Felix">Felix</name></persName> 
+               <supplied reason="lost"><w lemma="legatus">legatus</w></supplied> <w lemma="pro">pro</w> <w lemma="praetor">pr<supplied reason="lost">aetore</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="4"/><persName type="attested"><name type="cognomen" nymRef="Iddibal">Iddibal</name> <persName type="attested"><name type="cognomen" nymRef="Balsillec">Balsillecis</name></persName> 
+               <supplied reason="lost"><w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w></supplied> 
+               <persName type="attested"><name type="cognomen" nymRef="Annobal">Annobalis</name></persName> 
+               <w lemma="nepos"><expan><abbr>n</abbr><ex>epos</ex></expan></w> 
+               <persName type="attested"><name type="cognomen" nymRef="Asmun">Asmunis</name></persName> <w lemma="pronepos">pro<supplied reason="lost">nepos</supplied></w></persName>
+               <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap><w part="F">us</w> 
+               <w lemma="templum">templum</w> <persName type="divine"><name nymRef="Mater">Matris</name> <w lemma="magnus">Magna<supplied reason="lost">e</supplied></w></persName>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="5"/> <w lemma="et">et</w> <w lemma="exorno">exor<supplied reason="lost">nauit</supplied></w> <w lemma="ex"><supplied reason="lost">e</supplied>x</w> 
+               <w lemma="sestertius"><expan><abbr><am><g type="sestertius"/></am></abbr><ex>sestertiis</ex></expan></w> <num value="200">CC</num> 
+               <w lemma="mille"><expan><abbr>m</abbr><ex>ilibus</ex></expan></w> 
+               <w lemma="nummus"><expan><abbr>n</abbr><ex>ummum</ex></expan></w> 
+               <w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+               <w lemma="suus"><expan><abbr>s</abbr><ex>ua</ex></expan></w> 
+               <w lemma="pecunia"><expan><abbr>p</abbr><ex>ecunia</ex></expan></w> 
+               <w lemma="do"><expan><abbr>d</abbr><ex>edit</ex></expan></w>
+               <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap><w lemma="is" part="F">is</w> <w lemma="et">et</w> 
+               <persName type="attested"><name type="cognomen" nymRef="Passienus">Passienus</name> <name type="cognomen" nymRef="Maris">Maris</name></persName> <w part="I"><expan><abbr>e</abbr><ex cert="low"/></expan></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>When emperor Caesar Vespasian <supplied reason="lost">Augustus was</supplied> Chief <supplied reason="lost">priest</supplied>, holding tribunician power for the third time, had been acclaimed victor ten times, was consul for the fourth time and designated <supplied reason="lost">for a fifth, father of the country</supplied>, Quintus Manlius Ancharius Tarq<supplied reason="lost">uitius Saturni</supplied>nus proconsul, patron, d<supplied reason="lost">edicated</supplied><supplied reason="subaudible"> this</supplied>, <gap reason="lost"/> Volumnius Memor Felix, his <supplied reason="lost">legate</supplied> holding propraetorian powers <supplied reason="lost">being present too</supplied>. Iddibal, <supplied reason="lost">son</supplied> of Balsillac, grandson of Annobal, great grandson of Asmun <gap reason="lost"/><supplied reason="lost">built</supplied> the temple of Mater Magna <gap reason="lost"/> and adorned it at a cost of 200,000 sesterces given from his own funds <gap reason="lost"/> and Passienus Maris <note> or ? son of Mar</note> from <gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 1. trib. pot. III -  1 July 71 - 30 June 7, cos. iiii - 1 January 72. </p>
+            <p>Line 2:  Probably <foreign xml:lang="la">Q. Manlius Tarquitius Saturninus</foreign>, cos. an. inc. under Nero (Pugliese Carratelli, <title>Parola del Passato</title>,  vol 1 (1946) 381). Not otherwise recorded as <foreign xml:lang="la">procos. Africae</foreign>. </p>
+            <p>l. 3. <foreign xml:lang="la">Volumnius Memor Felix</foreign>. Otherwise unknown; but see <title level="m">ILS</title> 6675 for a <foreign xml:lang="la">C. Volumnius Memor</foreign> and 8086 for a <foreign xml:lang="la">P. Volumnius Felix</foreign>.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0354"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 1567 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="0355"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 1567 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="0356"/>
+                  <head>Ward-Perkins Archive, BSR (Photo RGG)</head>
+               </figure>
+               <figure>
+                  <graphic url="0357"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XVII.26)</head>
+               </figure>
+               <figure>
+                  <graphic url="0358"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XIV.7)</head>
+               </figure>
+               <figure>
+                  <graphic url="0359"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XIV.8)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT986" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for L. Clodius Clodianus</title>
+            <editor>J. M. Reynolds</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT986</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>,
+<title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>,
+<title level="j">Proceedings of the British School at Rome</title>
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>,
+               no. S.14.</bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <rs type="objectType">Block</rs> of <material>limestone</material> (<dimensions>
+                                 <width unit="metre">0.93</width>
+                                 <height unit="metre">0.50</height>
+                                 <depth unit="metre">0.31</depth>
+                              </dimensions>)</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face, which is badly weathered.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Capitals (probably third century): l. 1, <height unit="metre">0.055</height>;
+               l. 2, <height unit="metre">0.035</height>;
+               ll. 3-6, <height unit="metre">0.045</height>;
+               l. 7, <height unit="metre">0.03</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0201" notAfter="0300" cert="low" precision="low"
+                               evidence="lettering">Probably third century (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db666">The Western Djebel</placeName>:
+                              <rs type="monuList" key="db881">Ain el-Auenia</rs> (map ref. U 785, 720).</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db662">Tripoli Castle</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="http://www.geonames.org/2209068/wadi-al-%60uwayniyah.html">Abyār al `Uwaynīyah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="incomparabilis"><supplied reason="lost">In</supplied>comparabilis</w> <w lemma="uirtus">uirtutis</w> <w lemma="et">et</w> 
+               <lb n="2"/><w lemma="innocentia">innoc<unclear>e</unclear><supplied reason="lost">nt</supplied>ia<supplied reason="lost">e</supplied></w> <w lemma="uir">uiro</w> 
+               <lb n="3"/><persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>
+                     <unclear>L</unclear>
+                  </abbr><ex>ucio</ex></expan></name> <name type="gentilicium" nymRef="Clodius">Clodio</name> <name type="cognomen" nymRef="Clodianus">Clodiano</name></persName> <w lemma="ueteranus"><expan><abbr>uet</abbr><ex>erano</ex></expan></w> <w lemma="ex">ex</w> <w lemma="decurio"><expan><abbr>dec</abbr><ex>urione</ex></expan></w>
+               <lb n="4"/><w lemma="qui">qui</w> <w lemma="uiuo"><expan><abbr>u</abbr><ex>ixit</ex></expan></w>
+               <w lemma="annus"><expan><abbr>a</abbr><ex>nnis</ex></expan></w>
+               <num value="49">XLVIIII</num>
+               <w lemma="mensis"><expan><abbr>mensib</abbr><ex>us</ex></expan></w>
+               <num value="8">VIII</num>
+               <lb n="5"/><persName type="attested"><name type="gentilicium" nymRef="Valeria">Valeria</name> <name type="cognomen" nymRef="Processa">Processa</name></persName> <w lemma="uxor">uxor</w> <w lemma="et">et</w> <lb n="6"/><persName type="attested"><name type="gentilicium" nymRef="Clodius"><supplied reason="lost" cert="low">Clodius</supplied></name> <name type="cognomen" nymRef="Victor">Victor</name> <name type="cognomen" nymRef="Clodianus">Clodianus</name> <name type="cognomen" nymRef="Processus">Processus</name></persName> <lb n="7"/><gap reason="lost" quantity="4" unit="character" precision="low"/><w part="M"><unclear>u</unclear></w><gap reason="lost" quantity="1" unit="character"/> <w lemma="emereo">emeritus</w> <w lemma="pater">patri</w>
+               <w lemma="pius">piissimo</w> </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="3">
+                  <note>DI ligatured.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="3">
+                  <note>DE ligatured.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="7">
+                  <note>Perhaps [fili]<unclear>u</unclear>[s].</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To a man of incomparable virtue and innocence, Lucius Clodius Clodianus Processus, veteran soldier, <supplied reason="subaudible">who</supplied> ?joined the army after sitting on the city council, who lived for forty-nine years and eight months; Valeria Processa his wife and <supplied reason="lost" cert="low">Clodius</supplied> Victor Clodianus Processus <supplied reason="lost" cert="low">his son</supplied>, time-expired soldier, <note>set this up</note> to a most dutiful father.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>This inscription is to be published more fully by Professor E. Vergara in <title level="m">Reports and
+               Monographs</title>, III. </p>
+            <p>If the inscription is, as the letter-forms suggest, of the third century, the
+               presence of this family of soldiers in the interior of Tripolitania might be
+               interpreted as the result of veteran settlements of the type presumed at this time by
+               R.G. Goodchild and J.B. Ward Perkins, 'The Limes Tripolitanus in the Light of Recent
+               Discoveries', <title level="j">JRS</title>, xxxix (1949) 93. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT223" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>  Fragmentary <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT223</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Fragment of <material>grey limestone</material> 
+               (surviving inscribed surface, <dimensions>
+                                 <width unit="metre">0.16</width>
+                                 <height unit="metre">0.57</height>
+                              </dimensions>), 
+               part of a <rs type="objectType">tomb</rs> inscription.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <height unit="metre" atLeast="0.05" atMost="0.06">0.05-0.06</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Findspot</p>
+                     <origDate notAfter="0600" notBefore="0401" evidence="context">Fifth-sixth century A.D. (context)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:
+                  <rs type="monuList" key="db836">Cemetery east of Church I</rs> In situ. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p> 
+               <bibl>
+                  <ptr target="basiliche"/>, <biblScope>20</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="annus"><supplied reason="lost">annos</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="multus"><supplied reason="lost">plu</supplied>s</w> 
+               <w lemma="paruus">m<supplied reason="lost">inus</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost"><w lemma="et">et</w> 
+                  <w lemma="in">in</w></supplied> 
+               <persName type="divine"><name><expan><abbr><am>ΧΡ</am></abbr><ex>Christ</ex><abbr>o</abbr></expan></name></persName> 
+               <w lemma="requiesco"><expan><abbr>req</abbr><ex>uieuit</ex></expan></w> 
+               <w lemma="sub"><expan><abbr>s</abbr><ex>ub</ex></expan></w> 
+               <w lemma="dies"><expan><abbr>d</abbr><ex>ie</ex></expan></w> 
+               <num value="10">X</num> 
+               <w lemma="kalendae"><expan><abbr>k</abbr><ex>a</ex><abbr>l</abbr><ex>endas</ex></expan></w>
+                <rs type="month" key="Aprilis"><w lemma="aprilis"><expan><abbr>Ap</abbr><ex>riles</ex></expan> </w></rs>
+               <w lemma="indictio"><expan><abbr>ind</abbr><ex>ictione</ex></expan></w>
+               <num value="4">IIII</num>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><gap reason="lost"/><supplied reason="lost">he/she lived</supplied> approximately <supplied reason="lost">? years, ?months, ?days and</supplied> went to rest in Christ on the 22nd March in the fourth indiction.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0271"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.VIII.24)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

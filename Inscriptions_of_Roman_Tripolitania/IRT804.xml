@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT804" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Greek <rs type="textType">mason's marks</rs>
+            </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT804</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material>Cipollino</material> 
+                              <rs type="objectType">column</rs>s; c) <dimensions>
+                                 <height unit="metre">0.28</height>
+                              </dimensions>
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+            a) On the under surface of a column
+            b) Upside down on the apophyge of a column
+            c) On the drum of a column
+            d) On the drum, just above the foot
+            e) On the drum, just above the foot
+            f) On a column
+            g) On the under surface of a column
+            h) On the under surface of a column
+            </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> a) <height unit="metre">0.12</height>.</handNote>
+                     <handNote>b) <height unit="metre" atLeast="0.025" atMost="0.04">0.025-0.04</height>.</handNote>
+                     <handNote>c) <height unit="metre">0.08</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  In the <rs type="monuList" key="db748">Severan Forum</rs> and <rs type="monuList" key="db712">Colonnaded Street</rs>.
+                  a) North portico of the Forum.
+                  b) Main South entrance to the Forum.
+                  c) Colonnaded Street, from the foot.
+                  d) Severan Temple to the North, and on one of the columns of the corresponding hall to the South
+                  e) Gallery which flanks the Basilica to the East
+                  f) adjoning e, similarly placed
+                  g) South of the portico of the Forum
+                  h) North-West chapel of the Basilica Severiana.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="part" n="a" type="textpart"><ab><lb n="1"/><orig>Φι</orig></ab></div><div subtype="part" n="b" type="textpart"><ab><lb n="1"/><orig>Φι</orig></ab></div><div subtype="part" n="c" type="textpart"><ab><lb n="1"/><orig>μ</orig></ab></div><div subtype="part" n="d" type="textpart"><ab><lb n="1"/><orig>π</orig></ab></div><div subtype="part" n="e" type="textpart"><ab><lb n="1"/><orig>πο</orig></ab></div><div subtype="part" n="f" type="textpart"><ab><lb n="1"/><orig>ζο</orig></ab></div><div subtype="part" n="g" type="textpart"><ab><lb n="1"/><orig>α</orig></ab></div><div subtype="part" n="h" type="textpart"><ab><lb n="1"/><orig>κο</orig></ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>a</note> Phi( ?)</p><p>  <note>b</note> Phi( ?)</p><p> <note>c</note> M( ?) </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0993"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 49.I.44)</head>
+               </figure>
+               <figure>
+                  <graphic url="0994"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 51.I.4)</head>
+               </figure>
+               <figure>
+                  <graphic url="0995"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 51.I.29)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

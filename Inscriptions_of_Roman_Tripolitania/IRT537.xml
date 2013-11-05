@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT537" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> inscription by Q. Pomponius Rufus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT537</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Five <rs type="objectType">block</rs>s (each, height. 
+               <height unit="metre">0.52</height>; together, total length, 
+               <height unit="metre">4.04</height>) of <material>grey limestone</material>,
+               comprising the greater part of an inscription which stood on the South West face of the arch of Trajan; 
+               see also <ref type="inscription">353</ref>, <ref type="inscription">523</ref>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face; there is a <rs type="decoration">cornice moulding</rs> above the inscription. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lapidary capitals: l.1, <height unit="metre">0.08</height>; l.2, 
+               <height unit="metre">0.06</height>; l.3, <height unit="metre">0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0109" notAfter="0110" evidence="proconsulate">109-110 A.D. (proconsulate).</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db703">Arch of Trajan</rs>. On the South West face, across the Main Street at the angle
+                  of Regio  IV, ins 2 and 3, and Regio  V, insula  1 and 3.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cil"/> 
+                  <biblScope>VIII:13</biblScope> (first two blocks only); <biblScope>22670</biblScope>, ll. 6-10</bibl>; 
+              <bibl> 
+                  <author>Romanelli</author>, <ptr target="afrital"/> 
+                  <biblScope>VII:99</biblScope> ff., figs. 10-11</bibl>; <ptr target="ae"/> 
+               <bibl>1948:3</bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+      
+               <lb n="1"/><persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Pomponius">Pomponius</name> <name type="cognomen" nymRef="Rufus">Rufus</name></persName>
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w>
+               <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifex</ex></expan></w> 
+               <w lemma="sodalis"><expan><abbr>sodal</abbr><ex>is</ex></expan></w> 
+               <w lemma="Flavialis"><expan><abbr>Fla</abbr><ex>uialis</ex></expan></w> 
+               <w lemma="curator"><expan><abbr>cur</abbr><ex>ator</ex></expan></w> 
+               <w lemma="opus"><expan><abbr>oper</abbr><ex>um</ex></expan></w> 
+               <w lemma="publicus"><expan><abbr>publicor</abbr><ex>um</ex></expan></w> 
+               <w lemma="legatus"><expan><abbr>leg</abbr><ex>atus</ex></expan></w> 
+               <persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+               <lb n="2"/><w lemma="pro">pro</w> <expan><abbr>pr</abbr><ex>aetore</ex></expan> 
+               <w lemma="prouincia"><expan><abbr>prouinc</abbr><ex>iarum</ex></expan></w> 
+               <placeName type="ethnic" nymRef="Moesia"><supplied reason="lost">M</supplied>oesiae</placeName> 
+               <placeName type="ethnic" nymRef="Dalmatia"><expan><abbr>Dalmat</abbr><ex>iae</ex></expan></placeName> 
+               <placeName type="ethnic" nymRef="Hispania"><expan><abbr>Hisp</abbr><ex>aniae</ex></expan></placeName> 
+               <rs type="military"><w lemma="legatus"><expan><abbr>leg</abbr><ex>atus</ex></expan></w> 
+                  <rs type="military"><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num value="5"> V</num></rs></rs> 
+               <rs type="military"><w lemma="praefectus"><expan><abbr>prae</abbr><ex>fectus</ex></expan></w> <w lemma="ora">orae</w> 
+               <w lemma="maritimus"><expan><abbr>marit</abbr><ex>imae</ex></expan></w> 
+               <placeName nymRef="Hispania Citerior"><expan><abbr>Hispan</abbr><ex>iae</ex></expan> <expan><abbr>Citer</abbr><ex>ioris</ex></expan></placeName> 
+               <placeName nymRef="Gallia Narbonensis">Gallia<supplied reason="lost">e</supplied>
+                  <lb n="3"/><expan><abbr>N<supplied reason="lost">a</supplied>rbon</abbr><ex>ensis</ex></expan></placeName></rs>
+               <w lemma="bellum">bello</w> <w lemma="qui">qu<supplied reason="lost">od</supplied></w> 
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>erator</ex></expan></w> 
+               <persName type="emperor"><name type="cognomen" nymRef="Galba">G<supplied reason="lost">a</supplied>lba</name></persName> <w lemma="pro">pro</w> 
+               <w lemma="republica"><supplied reason="lost">re <expan><abbr>p</abbr><ex>ublica</ex></expan></supplied></w> <w lemma="gero">gessit</w> 
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w>
+               <w lemma="prouincia"><expan><abbr>prouinc</abbr><ex>iae</ex></expan></w> <placeName type="ethnic" nymRef="Africus">Africae</placeName> <w lemma="per">per</w> 
+               <persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucium</ex></expan></name> 
+               <name type="gentilicium" nymRef="Asinius">Asinium</name> <name type="cognomen" nymRef="Rufus">Ru<supplied reason="lost">fum</supplied></name></persName> 
+              <lb n="4"/><supplied reason="lost"><w lemma="legatus"><expan><abbr>leg</abbr><ex>atum</ex></expan></w></supplied> <w lemma="pro"><supplied reason="lost">p</supplied>ro</w> 
+               <w lemma="praetor"><supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="1">
+                  <lem>
+                     <expan>
+                        <abbr>Fla</abbr>
+                        <ex>uialis</ex>
+                     </expan>
+                  </lem>
+                  <rdg> 
+                     <note>or</note> 
+                     <expan>
+                        <abbr>fla</abbr>
+                        <ex>men</ex>
+                     </expan>
+                  </rdg>
+                  <note>There is a space after sodal(is).</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Quintus Pomponius Rufus, consul, priest, member of the priestly college for cult of the Flavians, curator of public works, imperial legate with propraetorian powers in the provinces of Moesia, Dalmatia and Hispania, commander of Legion Five, prefect of the coasts of nearer Spain, and Gallia Narbonensis in the war which Emperor Galba fought for the <supplied reason="lost">Republic</supplied>, proconsul of the province of Africa, through the agency of Lucius Asinius Rufus, propraetorian legate <gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 1. Q. Pomponius Rufus was Cos. suff. 95 (Calza, <title>Epigraphica</title> I (1939) 157); = PIR (1) P 561. His career is discussed at length by Romanelli, op. cit.</p>
+            <p>ll. 2-3. This epigraphical reference to Galba's campaign against Nero is unique: but the reading given appears to be certain, although the lower part of the letters is broken away and some of them are completely lost, as marked in the text. 
+            See <title>CIL</title> VIII, 22670, ll. 6-l0, which is clearly derived from scattered blocks of this inscription, seen when they were better preserved.</p>
+            <p>l. 3. <foreign xml:lang="la">Procos. provinciae Africae</foreign>. 109-110; see also <ref type="inscription">353</ref>, n. 1.</p>
+            <p>l. 3. L. Asinius Rufus. Perhaps PIR (2) A 1248 and/or 1250. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0698"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 932)</head>
+               </figure>
+               <figure>
+                  <graphic url="0699"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 930)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

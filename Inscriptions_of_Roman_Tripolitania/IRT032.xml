@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT032" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication<certainty match=".." locus="value"/>
+               </rs> to Marcus Aurelius or Commodus </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT032</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Fragment of a <material>marble</material> 
+                              <rs type="objectType">panel</rs> (<dimensions>
+                                 <width unit="metre">0.18</width>
+                                 <height unit="metre">0.15</height>
+                              </dimensions>, no edges surviving). </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Second to third century lapidary capitals: line l, <height unit="metre">0.045</height>; line 2, <height unit="metre">0.04</height>.  </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate cert="low" evidence="titulature-titulature">A.D. 175 (titulature if M. Aurelius) or A.D. 186 (titulature if Commodus)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:
+                  <rs type="monuList" key="db832">Capitolium</rs>, found in the vaults; see note on <ref type="inscription">1</ref>.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> 
+               <persName type="emperor"><name><seg part="I"><expan><abbr>Germ</abbr><supplied reason="lost"><ex>anic</ex></supplied></expan></seg></name></persName>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="imperator" part="I"><expan><abbr><supplied reason="lost">i</supplied>mp</abbr><ex>erator</ex></expan></w>
+               <num value="8">VIII</num>
+               <w lemma="consul" part="I"><expan><abbr><unclear>c</unclear><supplied reason="lost">o</supplied></abbr><supplied reason="lost"><ex>n</ex></supplied><abbr><supplied reason="lost">s</supplied></abbr><supplied reason="lost"><ex>ul</ex></supplied></expan></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><gap reason="lost"/> Victor in Germany, <gap reason="lost"/>, acclaimed victor eight times, consul <note> case unknown</note> <gap reason="lost"/> </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>Probably M. Aurelius, Germanicus in June 175, imp. VIII in autumn 175; or Commodus, Germanicus in 175, imp. VIII in 186.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0047"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DS 762 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="0157"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr CS 274 bis)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

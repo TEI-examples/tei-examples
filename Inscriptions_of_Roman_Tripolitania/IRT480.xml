@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT480" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Ortygius</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT480</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.56</width>
+                                 <height unit="metre">1.20</height>
+                                 <depth unit="metre">0.56</depth>
+                              </dimensions>) of coarse <material>brown limestone</material>, with <rs type="decoration">volutes</rs> at the upper angles.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face, the first word cut above the die; there are formal <rs type="decoration">sprays</rs> at the beginning of ll. 2 and 7 and the end of ll. 2 and 3, and
+               <rs type="decoration">ivy leaves</rs> at the end of ll. 4 and 7.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century A.D. capitals: <height unit="metre" atLeast="0.03" atMost="0.05">0.03-0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0408" notAfter="0423" precision="low" evidence="reign">A.D. 408-423 (reign)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db719">Forum Severianum</rs>, South East angle.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl xml:id="degrassi1954">
+                  <author>A. <name>Degrassi</name>
+                  </author>, <ptr target="quaderni"/>, <biblScope>III <date>1954</date>
+                  </biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="attested"><name type="signum" nymRef="Ortygius">Ortygii</name></persName>
+               <lb n="2"/><w lemma="floreo">florentissimis</w> <w lemma="saeculum">saeculis</w>
+               <lb n="3"/>
+               <w lemma="dominus"><expan><abbr>d</abbr><ex>ominorum</ex></expan></w> 
+               <w lemma="noster"><expan><abbr>n</abbr><ex>ostrorum</ex></expan></w> <persName type="emperor"><name type="cognomen" nymRef="Honorius">Honori</name></persName> <w lemma="et">et</w> <persName type="emperor"><name type="cognomen" nymRef="Theodosius">Theodosii</name></persName>
+               <lb n="4"/>
+               <w lemma="pater"><expan><abbr>p</abbr><ex>atrum</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> <w lemma="semper">semper</w> <persName type="emperor"><name type="cognomen" nymRef="Augustus">Augustorum</name></persName>
+               <lb n="5"/>
+               <persName type="attested"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auio</ex></expan></name> <name type="cognomen" nymRef="Ortygius">Ortygio</name></persName>
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+               <w lemma="clarus"><expan><abbr>c</abbr><ex>larissimo</ex></expan></w> 
+               <orig>sppo</orig> 
+               <w lemma="comes"><expan><abbr>com</abbr><ex>iti</ex></expan></w> <w lemma="et">et</w> <w lemma="duco">duci</w> <w lemma="prouincia"><expan><abbr>p</abbr><ex>rouinciae</ex></expan></w> 
+               <placeName type="ethnic" nymRef="Tripolitanus"><expan><abbr>T</abbr><ex>ripolitanae</ex></expan></placeName>
+               <lb n="6"/><w lemma="ob">ob</w> <w lemma="insignis">insignia</w> <w lemma="mereo">meritorum</w> <w lemma="et">et</w> <w lemma="labor"><expan><abbr>labore</abbr><ex>m</ex></expan></w>
+               <lb n="7"/><w lemma="fides">fidemque</w> <w lemma="exhibeo">exhibitam</w>
+               <lb n="8"/><placeName type="ethnc" nymRef="Austurianus">Austurianorum</placeName> <w lemma="rabies">rabie</w> <w lemma="reprimo">repressa</w> 
+               <lb n="9"/><w lemma="ordo">ordo</w> <w lemma="splendidus">splendidissimus</w> <w lemma="et">et</w> <w lemma="populus">populus</w>
+               <lb n="10"/>
+               <placeName type="ethnic" nymRef="Lepcimagnensis"><expan><abbr>Lepcimag</abbr><ex>nensis</ex></expan></placeName> 
+               <w lemma="ciuitas"><unclear>ciuita</unclear><supplied reason="lost">tis</supplied></w> <w lemma="publice"><unclear>publice</unclear></w>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="3">
+                  <note> DD NN.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="8">
+                  <note resp="IRT.">Perhaps: Austurianorum <gap reason="lost" quantity="1" unit="character"/>
+                     <orig>ab<unclear>afru</unclear>praessa</orig> 
+                  </note>
+               </app>
+            </p>
+            <p>
+               <app loc="8">
+                  <rdg resp="degrassi1954">Austurianorum rabie repressa.</rdg>
+                  <note> citing U. Ciotti: this is correct.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>In honour</note> of Ortygius.  </p><p>In the flourishing times of our lords Honorius and Theodosius, father of the country, always Augusti, to Flavius Ortygius, splendid man <note>of senatorial status</note>, SPPO <note>not understood</note>, count and governor of the province of Tripolitania, on account of the outstanding character of his deserts and effort and good faith shown in  the suppressing of the rage of the Austuriani; the most splendid city council and the people of the city of Lepcis Magna <supplied reason="subaudible">set this up</supplied> publicly.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 2. Honorius and Theodosius: Augusti 408-423.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0622"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 750)</head>
+               </figure>
+               <figure>
+                  <graphic url="0623"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XVIII.42)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

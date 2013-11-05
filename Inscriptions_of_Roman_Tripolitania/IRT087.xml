@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT087" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to late third/fourth century emperor </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT087</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Three fragments of a <material>marble</material> 
+                              <rs type="objectType">panel</rs>. 
+               a) <dimensions>
+                                 <width>0.23</width>
+                                 <height unit="metre">0.14</height>
+                              </dimensions>, upper edge.
+               b) <dimensions>
+                                 <width>0.17</width>
+                                 <height unit="metre">0.16</height>
+                              </dimensions>, no edges surviving.
+               c) <dimensions>
+                                 <width>0.26</width>
+                                 <height unit="metre">0.34</height>
+                              </dimensions>, no edges surviving.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Late third to fourth centuries lettering: <height unit="metre" atLeast="0.06" atMost="0.055">0.06-0.055</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0285" notAfter="0400" precision="low" evidence="lettering">Third to fourth centuries A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:  
+                  <rs type="monuList" key="db832">Capitolium</rs>, found in the vaults; see note on <ref type="inscription">1</ref>
+                           </p>
+                        </event>
+                        <event type="observed">
+                           <p> Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2009-01-14" who="NU">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="fragment" n="a" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">ui</w> 
+                  <w lemma="et">et</w> 
+                  <w part="I">sal</w><gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> 
+                  <w lemma="publicus">publicar<supplied reason="lost">um</supplied></w>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="tribunicius"><expan><supplied reason="lost"><abbr>t</abbr></supplied><abbr>rib</abbr><ex>unicia</ex></expan></w> 
+               <w lemma="potestas">p<supplied reason="lost">otestate</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>e<unclear>i</unclear>as
+               <unclear>i</unclear>v</orig><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div><div subtype="fragment" n="c" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ns</orig>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+                  <w lemma="praesto"><supplied reason="lost">p</supplied>raes<unclear>ta</unclear><supplied reason="lost">nt</supplied></w>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> 
+                  <w lemma="is"><unclear>e</unclear>ius</w> <w lemma="semper">sem<supplied reason="lost">per</supplied></w>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>a</unclear>mo</w> <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+                  <w lemma="perficio"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w><w part="I"> f</w><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. <gap reason="lost"/> ? in <gap reason="lost"/> and well being <gap reason="lost"/> of public ?
+   affairs <gap reason="lost"/>; </p><p>b. <gap reason="lost"/> tribunician power <gap reason="lost"/></p><p>c. <gap reason="lost"/>  outstanding <note>or they stand e.g. in charge</note>
+   <gap reason="lost"/> of him always <gap reason="lost"/><supplied reason="lost">to <note>or
+   by</note></supplied><gap reason="lost"/>amus, an excellent man <supplied reason="explanation">of
+      equestrian status </supplied><gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0077"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DS 799 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="0117"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CS 217)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

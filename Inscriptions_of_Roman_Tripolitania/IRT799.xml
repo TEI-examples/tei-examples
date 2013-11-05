@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT799" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Greek <rs type="textType">mason's marks</rs>
+            </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT799</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Mason's marks on the under surfaces of the Pentelic <material>white marble</material> 
+                              <rs type="decoration">locust-and-acanthus</rs> capitals of the forum porticoes and of the engaged orders in the East portico and in the tabernae opening off the East portico.
+            No. i) is no longer visible and has been read from a cast in the Superintendency.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Mason's marks</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <height unit="metre" atLeast="0.02" atMost="0.11">0.02-0.11</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db719">Forum Severianum</rs>,  the forum-porticoes and of the engaged orders in the East portico and in the tabernae opening off the East portico.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="fragment" n="a" type="textpart"><ab><lb n="1"/><orig>αιμενιου</orig></ab></div><div subtype="fragment" n="b" type="textpart"><ab><lb n="1"/><orig>απολ</orig></ab></div><div subtype="fragment" n="c" type="textpart"><ab><lb n="1"/>
+               <orig>αρισ</orig>
+              </ab></div><div subtype="fragment" n="d" type="textpart"><ab><lb n="1"/>
+               <orig>αρισ</orig>
+               </ab></div><div subtype="fragment" n="e" type="textpart"><ab><lb n="1"/>
+               <orig>αριστο</orig></ab></div><div subtype="fragment" n="f" type="textpart"><ab><lb n="1"/><orig>δ</orig><gap reason="lost" quantity="2" unit="character"/><orig>υ</orig></ab></div><div subtype="fragment" n="g" type="textpart"><ab><lb n="1"/><orig>ερμ</orig></ab></div><div subtype="fragment" n="h" type="textpart"><ab> <lb n="1"/><orig>ευπ</orig> <orig><hi rend="superscript">η<unclear>α</unclear></hi></orig></ab></div><div subtype="fragment" n="ι" type="textpart"><ab><lb n="1"/><orig>π<supplied reason="lost">αρα</supplied>σίο<supplied reason="lost">υ</supplied></orig></ab></div><div subtype="fragment" n="j" type="textpart"><ab><lb n="1"/><orig>π<unclear>ρ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+              </ab></div><div subtype="fragment" n="k" type="textpart"><ab><lb n="1"/><orig>π<unclear>ρ</unclear>ω</orig></ab></div><div subtype="fragment" n="l" type="textpart"><div n="i" subtype="column" type="textpart"><ab><lb n="1"/><orig>σα<unclear>σ</unclear></orig><gap reason="lost" quantity="3" unit="character"/><orig>νιου</orig><lb n="2"/><orig>σοφανου</orig></ab></div><div n="ii" subtype="column" type="textpart"><ab><lb n="1"/> <orig>ελ</orig><gap reason="lost" quantity="1" unit="character"/><lb n="2"/><orig>σοφ</orig></ab></div></div><div subtype="fragment" n="m" type="textpart"><ab> <lb n="1"/><orig>σιν</orig><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="n" type="textpart"><ab><lb n="1"/><orig>σοφ</orig>
+               </ab></div><div subtype="fragment" n="o" type="textpart"><ab><lb n="1"/><orig>σοφια</orig></ab></div><div subtype="fragment" n="p" type="textpart"><ab> <lb n="1"/><orig>σω</orig>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+              </ab></div><div subtype="fragment" n="q" type="textpart"><ab><lb n="1"/><orig>χαρμι</orig></ab></div><div subtype="fragment" n="r" type="textpart"><ab><lb n="1"/>
+              
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>ω</orig>   <orig>νεωτέρου</orig>
+               <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>θ<unclear>ε</unclear>οσεν</orig></ab></div><div subtype="fragment" n="s" type="textpart"><ab><lb n="1"/>
+              
+                  <gap reason="lost" extent="unknown" unit="character"/><orig>σισ</orig></ab></div><div subtype="fragment" n="t" type="textpart"><ab> <lb n="1"/><orig>αρισ</orig></ab></div><div subtype="fragment" n="u" type="textpart"><ab> <lb n="1"/><orig>αρτ</orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><orig>νεω</orig><gap reason="lost" extent="unknown" unit="character"/></ab></div><div subtype="fragment" n="v" type="textpart"><ab> <lb n="1"/><orig>π</orig><gap reason="lost" extent="unknown" unit="character"/></ab></div><div subtype="fragment" n="w" type="textpart"><ab><lb n="1"/><orig>σ</orig><gap reason="lost" extent="unknown" unit="character"/></ab></div><div subtype="fragment" n="x" type="textpart"><ab><lb n="1"/><orig>σισ</orig><gap reason="lost" extent="unknown" unit="character"/></ab></div><div subtype="fragment" n="y" type="textpart"><ab><lb n="1"/><orig>σω</orig><gap reason="lost" extent="unknown" unit="character"/></ab></div><div subtype="fragment" n="z" type="textpart"><ab><lb n="1"/><orig>σωτη</orig></ab></div><div subtype="fragment" n="aa" type="textpart"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ασιου</orig></ab></div><div subtype="fragment" n="ab" type="textpart"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ε</orig></ab></div><div subtype="fragment" n="ac" type="textpart"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ολ</orig></ab></div><div subtype="fragment" n="ad" type="textpart"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>τ</orig></ab></div><div subtype="fragment" n="ae" type="textpart"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ω</orig></ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>a</note> Of Aimenios  </p><p><note>b</note> Apol( ?)</p><p><note>c</note> Aris( ?)</p><p><note>d. </note> Aris( ?)</p><p><note>e</note> Aristo( ?)</p><p><note>f</note> Of D<supplied reason="lost">io</supplied>s</p><p><note>g</note> Herm( ?)</p><p><note>h. </note> Eup( ?)<note>with superscript EA or ED</note></p><p><note>i</note> Of Parasios</p><p><note>j</note> Pr<gap reason="lost"/></p><p><note>k</note> Pro( ? )</p><p><note>l i and ii</note> Of Sas<gap reason="lost"/>nios. Sophanos <supplied reason="subaudible">and</supplied> El<gap reason="lost"/> of Soph(anos?)</p><p><note>m</note> Sin( ?) </p><p><note>n</note> Soph(?anos)</p><p><note>o</note> Sophia( ?)</p><p><note>p</note> So<gap reason="lost"/></p><p><note>q</note> Of Charmi(des)</p><p><note>r</note> <gap reason="lost"/>o Neoteros <note>name or the younger</note> <gap reason="lost"/>theos Er(?)</p><p>              <note>s</note> <gap reason="lost"/>sis </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>A series of personal names, some clearly in the genitive case, many abbreviated and not certanly identifiable</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0980"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXXI.5)</head>
+               </figure>
+               <figure>
+                  <graphic url="0976"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 51.XV.26)</head>
+               </figure>
+               <figure>
+                  <graphic url="0978"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 51.II.10)</head>
+               </figure>
+               <figure>
+                  <graphic url="0973"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 51.XIX.30)</head>
+               </figure>
+               <figure>
+                  <graphic url="0974"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 51.VII.38)</head>
+               </figure>
+               <figure>
+                  <graphic url="0980"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXXI.5)</head>
+               </figure>
+               <figure>
+                  <graphic url="0979"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XV.27)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

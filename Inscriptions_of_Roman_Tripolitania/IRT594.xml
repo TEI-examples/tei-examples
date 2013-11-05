@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT594" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">honours<certainty match=".." locus="value"/>
+               </rs>
+            </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT594</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Rectangular <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">1.00</width>
+                                 <height unit="metre">0.585</height>
+                                 <depth unit="metre">0.47</depth>
+                              </dimensions>, broken at the right side) of <material>grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lettering: ll. 1-2 (lapidary capitals), <height unit="metre">0.075</height>; l. 3 (rustic capitals), <height unit="metre">0.07</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0101" notAfter="0233" precision="low" evidence="lettering">Second to early third centuries A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db756">Theatre</rs>, built into one of the late piers of the West dressing-room. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name type="gentilicium" nymRef="Cornelius">Cornelio</name> 
+               <name type="cognomen" nymRef="Va-"><seg part="I">Va</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><w lemma="curator">curatori</w> <w part="I">mun</w><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="3"/><persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name type="gentilicium" nymRef="Cornelius">Cornelius</name> <name type="cognomen" nymRef="Amicus">Amicus</name></persName> 
+               <w lemma="filius">filio</w> <w lemma="pius">piissimo</w> <w lemma="pono">po<supplied reason="lost">suit</supplied></w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Quintus Cornelius Va<gap reason="lost"/> curator <supplied reason="lost" cert="low">of the municipium</supplied>; Marcus Cornelius Amicus set this up to a most dutiful son.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 3. M. Cornelius Amicus. Perhaps also in <ref type="inscription">592</ref>, l. 1.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0779"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 594 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="0780"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XIII.19)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

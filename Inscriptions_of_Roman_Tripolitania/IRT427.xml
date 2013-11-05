@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT427" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> 
+               <rs type="textType">Building</rs> inscription of the Basilica</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT427</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Inscribed <rs type="objectType">block</rs>s  (lengths varying, <height unit="metre">0.59</height>; total inscription, 
+               <dimensions>
+                                 <width unit="metre">5.92</width>
+                                 <height unit="metre">4.2</height>
+                              </dimensions>) of <material>brown limestone</material>.  There were originally 36 blocks, of which 22 survive complete and 1 in part; many are badly weathered. The text is identical with that of <ref type="inscription">428</ref> from the interior of the Basilica. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lapidary capitals: <height unit="metre">0.15</height>; 
+               l. 11, <height unit="metre">0.225</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0216" evidence="titulature">A.D. 216 (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db704">Basilica Severiana</rs>, from the external back wall.</p>
+                        </event>
+                        <event type="observed">
+                           <p>found fallen and since replaced in position.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p> 
+               <bibl>
+                  <author>
+                     <name>Guidi</name>
+                  </author>, <ptr target="afrital"/> 
+                  <biblScope>II:231</biblScope> ff., plate A, figs. 1, 2</bibl>; 
+               <bibl>
+                  <ptr target="ae"/> 
+                  <biblScope>1930:1</biblScope>
+               </bibl> 
+               <bibl xml:id="degrassi1954">A. <name>Degrassi</name>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>erator</ex></expan></w></supplied> 
+               <persName type="emperor"><supplied reason="lost"><name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ar</ex></expan></name> 
+                  <name type="praenomen" nymRef="Lucius">Lucius</name> <name type="gentilicium" nymRef="Septimius">Septimius</name> 
+                  <name type="cognomen" nymRef="Seuerus">Seuerus</name> <name type="cognomen" nymRef="Pius">Pius</name>
+                  <name type="cognomen" nymRef="Pertinax">Pertinax</name> 
+                  <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustus</ex></expan></name></supplied>
+               <lb n="2"/><supplied reason="lost"><name>Arabicus</name><name type="cognomen" nymRef="Adiabenicus"> Adiabenicus</name><name type="cognomen" nymRef="Parthicus">Parthicus</name> <w lemma="magnus">maximus</w></supplied>
+                  <name type="cognomen" nymRef="Britannicus"><supplied reason="lost">Britann</supplied><lb n="3" type="inWord"/>icus</name> <w lemma="magnus">maximus</w></persName>
+               <w lemma="pontifex">po<supplied reason="lost">ntifex</supplied></w> <supplied reason="lost"><w lemma="magnus">maximus</w></supplied> 
+               <w lemma="tribunicius">tribuniciae</w> <w lemma="potestas">pote<lb n="4" type="inWord"/>statis</w> <w lemma="decem">decem</w> 
+               <w lemma="et"><supplied reason="lost">e</supplied>t</w> <w lemma="octiens">oct<supplied reason="lost">ies</supplied></w> <supplied reason="lost"><w lemma="imperator">imperator</w></supplied>
+               <w lemma="duodecies"><supplied reason="lost">duo</supplied>decies</w> <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w>
+               <lb n="5"/><w lemma="ter"><supplied reason="lost">ter</supplied></w> <w lemma="pater"><supplied reason="lost">pat</supplied>e<supplied reason="lost">r</supplied></w> 
+               <w lemma="patria">patriae</w> <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+               <w lemma="coepio">coepit</w> <w lemma="et">et</w> <w lemma="ex">ex</w> <w lemma="magnus">maio<supplied reason="lost">re</supplied></w> 
+               <w lemma="pars"><supplied reason="lost">par<lb n="6" type="inWord"/>te</supplied></w> 
+               <w lemma="perficio"><supplied reason="lost">perfec</supplied>it</w> 
+               <w lemma="imperator"> <expan><abbr>Im<supplied reason="lost">p</supplied></abbr><ex>erator</ex></expan></w> 
+               <persName type="emperor"><name type="cognomen" nymRef="Caesar"><expan><abbr>C<supplied reason="lost">a</supplied>es</abbr><ex>ar</ex></expan></name>
+              <persName type="emperor"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Septimius">Septimi</name> <name type="cognomen" nymRef="Seuerus">Seueri</name> <name type="cognomen" nymRef="Pius">Pii</name> 
+              <name> Arabi<supplied reason="lost">ci</supplied></name> 
+               <name type="cognomen" nymRef="Adiabenicus"><supplied reason="lost">Adia</supplied><lb n="7" type="inWord"/><supplied reason="lost">benici</supplied></name>
+                 <supplied reason="lost"><name type="cognomen" nymRef="Parthicus">Parthici</name></supplied> <w lemma="magnus">maxim<supplied reason="lost">i</supplied></w> 
+                 <name type="cognomen" nymRef="Britannicus">Britannici</name> <w lemma="magnus">maximi</w></persName></persName> <w lemma="filius">filius</w> <persName type="emperor"><w lemma="diuus">diui</w>
+               <lb n="8"/><name type="praenomen" nymRef="Marcus">Marci</name> <name type="gentilicium" nymRef="Antoninus">Anto<supplied reason="lost">ni</supplied>ni</name>
+               <name type="cognomen" nymRef="Germanicus">G<supplied reason="lost">ermani</supplied>ci</name> <name type="cognomen" nymRef="Sarmaticus">Sarmatici</name></persName> <w lemma="nepos">nepos</w>
+               <persName type="emperor"><w lemma="diuus">diui</w>
+               <lb n="9"/><supplied reason="lost"><name type="gentilicium" nymRef="Antoninus">Antonini</name> <name type="cognomen" nymRef="Pius">Pii</name></supplied></persName> <supplied reason="lost">pronepos</supplied> 
+              <persName type="emperor"><w lemma="diuus"><supplied reason="lost">diui</supplied></w> <name type="cognomen" nymRef="Hadrianus">Hadriani</name></persName> <w lemma="abnepos">ab<supplied reason="lost">nepos</supplied></w> 
+               <lb n="10"/><persName type="emperor"><supplied reason="lost"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Traianus">Traiani</name></supplied> 
+               <name type="cognomen" nymRef="Parthicus"><supplied reason="lost">Part</supplied><unclear>h</unclear>ic<supplied reason="lost">i</supplied></name></persName> 
+              <w lemma="et"><supplied reason="lost">et</supplied></w> <persName type="emperor"><w lemma="diuus"><supplied reason="lost">d</supplied>iui</w>
+               <name type="cognomen" nymRef="Nerua">Neruae</name></persName> <w lemma="adnepos">ad<supplied reason="lost">nepos</supplied></w>
+               <lb n="11"/><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>erator</ex></expan></w></supplied>
+               <persName type="emperor"><supplied reason="lost"><name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ar</ex></expan></name></supplied> 
+                  <name type="praenomen" nymRef="Marcus"><supplied reason="lost">M</supplied>arcus</name> <name type="gentilicium" nymRef="Aurellius">Aurellius</name> <name type="gentilicium" nymRef="Antoninus">Antoninus</name> 
+                  <name type="cognomen" nymRef="Pius">Pius</name> <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustus</ex></expan></name>
+               <lb n="12"/><supplied reason="lost"><name type="cognomen" nymRef="Parthicus">Parthicus</name></supplied> 
+              <w lemma="magnus">m<supplied reason="lost">a</supplied><expan><abbr>x</abbr><ex>imus</ex></expan></w> 
+               <name type="cognomen" nymRef="Britannicus">B<supplied reason="lost">ritannicus</supplied></name> <w lemma="magnus"><supplied reason="lost">maximus</supplied></w> 
+               <name type="cognomen" nymRef="Germanicus"><supplied reason="lost">Ge</supplied>rm<supplied reason="lost">anicus</supplied></name>
+               <lb n="13"/><w lemma="magnus"><supplied reason="lost">maximu</supplied>s</w></persName> 
+               <w lemma="pontifex">po<supplied reason="lost">ntifex</supplied></w> <w lemma="magnus"><supplied reason="lost">maximus</supplied></w> 
+               <w lemma="tribunicius"><supplied reason="lost">tribuni</supplied>c<supplied reason="lost">iae</supplied></w>
+               <w lemma="potestas"><supplied reason="lost">pote</supplied><lb n="14" type="inWord"/>s<supplied reason="lost">tatis</supplied></w> 
+                  <w lemma="decem"><supplied reason="lost">de</supplied>c<supplied reason="lost">e</supplied>m</w> 
+               <w lemma="nouem"><supplied reason="lost">nouies</supplied></w> 
+               <supplied reason="lost"><w lemma="imperator"><expan><abbr>imp</abbr><ex>erator</ex></expan></w> <w lemma="ter">ter</w> 
+                  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> <w lemma="quater">quater</w></supplied> 
+                  <w lemma="pater"><supplied reason="lost">pat</supplied>er</w>
+               <lb n="15"/><w lemma="patria">pa<supplied reason="lost">tria</supplied>e</w>
+               <supplied reason="lost"><w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+                  <w lemma="perficio">perfici</w> <w lemma="curo">curauit</w></supplied>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="2">
+                  <rdg resp="degrassi1954">
+                     <supplied reason="lost">Britan</supplied>nicus</rdg>
+                  <note>This is correct.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost">The emperor Caesar Lucius Septimius Severus Pius Pertinax Augustus, victor in Arabia, victor in Adiabene, greatest victor in Parthia,</supplied> greatest <supplied reason="lost">victor in Britannia, chief</supplied> priest, holding tribunician power for the eighteenth time, acclaimed victor twelve times, consul <supplied reason="lost">three times, father</supplied> of the country, proconsul, began and <supplied reason="lost">substantially completed</supplied> <supplied reason="subaudible">this</supplied>; emperor Caesar, son of deified Septimius Severus Pius, victor in Arabia, victor in <supplied reason="lost">Adiabene</supplied>, greatest victor in <supplied reason="lost">Parthia</supplied>, greatest victor in Britannia, grandson of deified Marcus Antonius, victor in Germany, victor in Sarmatia, great grandson of deified <supplied reason="lost">Antoninus Pius, great great grandson of deified</supplied> Hadrian, great great great grandson of <supplied reason="lost">deified Trajan victor in Parthia</supplied> and of deified Nerva, <supplied reason="lost">emperor Caesar M</supplied>arcus Aurellius Antoninus Pius Augustus, greatest victor in <supplied reason="lost">Parthia</supplied>, <supplied reason="lost">greatest victor in Britannia, greatest</supplied>,  victor in Germany, <supplied reason="lost">chief priest, holding tribunician power</supplied> for the <supplied reason="lost">nineteenth time, acclaimed victor three times, consul four times, father</supplied> of the country, <supplied reason="lost">proconsul arranged for its completion</supplied>.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 4. trib. pot. XVIII. 10 Dec. 209 - 9 Dec. 210.</p>
+            <p>ll. 13-14. trib. pot. XVIIII. 10 Dec. 215 - 9 Dec. 216.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0551"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XI.17)</head>
+               </figure>
+               <figure>
+                  <graphic url="0552"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 310)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

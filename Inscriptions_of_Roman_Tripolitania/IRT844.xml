@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT844" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT844</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Re-used <rs type="objectType">paving-slab</rs> (<dimensions>
+                                 <width unit="metre">1.00</width>
+                                 <height unit="metre">0.50</height>
+                              </dimensions>) of <material>grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Very crudely inscribed, with many ligatures.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> l. 1, <height unit="metre">0.12</height>; l. 2, <height unit="metre">0.10</height>; l. 3, <height unit="metre">0.08</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Findspot</p>
+                     <origDate notAfter="0600" notBefore="0501" evidence="context">Fifth century A.D. (context)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db720">Forum Vetus</rs>, in situ between the Severan exedra and the Baptistry.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><g type="crux"/>
+               <w lemma="bonus"><expan><abbr>Bon</abbr><ex>a</ex><abbr>e</abbr></expan></w> 
+               <w lemma="memoria"><expan><abbr>mem</abbr><ex>oriae</ex></expan></w> 
+               <persName type="attested"><name type="cognomen" nymRef="Sergius"><expan><abbr>Serg</abbr><ex>i</ex></expan></name></persName>
+               <lb n="2"/>
+               <persName type="attested"><name type="cognomen" nymRef="Maria"><expan><abbr>Mari</abbr><ex>ae</ex></expan></name></persName> 
+               biuerunt <num><gap reason="lost" atLeast="1" atMost="4" unit="character"/></num> <date when-iso="PY70M9"><w lemma="annus"><expan><abbr>an</abbr><ex>nos</ex></expan></w> 
+               <w lemma="multus">plus</w>
+               <lb n="3"/><w lemma="paruus">minus</w> 
+               <w lemma="septuaginta"><expan><abbr>sep</abbr><ex>t</ex><abbr>u</abbr><supplied reason="lost">a</supplied><abbr><unclear>g</unclear></abbr><ex>inta</ex></expan></w> 
+               <w lemma="mensis"><expan><abbr>m</abbr><ex>ense</ex><abbr><unclear>s</unclear></abbr></expan></w> 
+               <num value="9">IX</num></date> 
+               <g type="crux"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>Cross</note> To the good memory of Sergius <supplied reason="subaudible">and</supplied> Maria. They lived for approximately seventy years and nine months <note>Cross</note> </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1038"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 760)</head>
+               </figure>
+               <figure>
+                  <graphic url="1039"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XV.34)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

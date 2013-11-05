@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT338" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> 
+               <rs type="textType">dedication</rs> of the Forum to Claudius</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT338</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <rs type="objectType">Stele</rs> 
+               (<dimensions>
+                                 <width unit="metre">0.855</width>
+                                 <height unit="metre">2.36</height>
+                                 <depth unit="metre">0.30</depth>
+                              </dimensions>) of fine- grained <material>grey limestone</material>, one of four which stood in pairs on shallow moulded plinths in the Forum Vetus. 
+               Fragments of one of the other stelae, with an identical text, and of two plinths, are preserved.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the face in letters of bronze, since removed, within a <rs type="decoration">moulded panel</rs> 
+               (die, <dimensions>
+                              <width unit="metre">0.67</width>
+                              <height unit="metre">2.14</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Capitals: <height unit="metre">0.065-0.05</height>. Four lines of Neo-Punic follow the Latin text (Neo- Punic 31: see commentary below).</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0053" evidence="titulature">A.D. 53 (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db720">Forum Vetus</rs>, in front of the <rs type="monuList" key="db754">Temple of Rome and Augustus</rs>. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Aurigemma</author>, <ptr target="afrital"/> 
+                  <biblScope>VIII:35</biblScope>ff., figs. 20, 21 and 22</bibl>; 
+               <bibl>
+                  <ptr target="ae"/>  
+                  <biblScope>1948:17</biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+              <lb n="1"/>
+               <persName type="emperor"><name type="praenomen" nymRef="Tiberius"><expan><abbr>Ti</abbr><ex>berio</ex></expan></name> <name type="gentilicium" nymRef="Claudius">Claudio</name>
+               <lb n="2"/><persName type="emperor"><name type="praenomen" nymRef="Drusus">Drusi</name></persName> <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w> 
+                  <name type="cognomen" nymRef="Caesar">Cae<lb n="3" type="inWord"/>sari</name> <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name> 
+                  <name type="cognomen" nymRef="Germanicus">Ger<lb n="4" type="inWord"/>manico</name></persName> 
+               <w lemma="pontifex"><expan><abbr>pon<lb n="5" type="inWord"/><supplied reason="lost">tif</supplied></abbr><supplied reason="lost"><ex>ici</ex></supplied></expan></w>
+               <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+               <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w>
+                <lb n="6"/>
+               <w lemma="potestas"><expan><abbr>potest</abbr><ex>ate</ex></expan></w> <num value="13">XIII</num>
+               <lb n="7"/>
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> <num value="17">XVII</num> 
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w>
+               <lb n="8"/><num value="5">V</num> 
+               <w lemma="censor"><expan><abbr>cens</abbr><ex>ori</ex></expan></w> 
+               <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w>
+              <lb n="9"/>
+               <persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name type="gentilicium" nymRef="Pompeius">Pompeius</name> <name type="cognomen" nymRef="Siluanus">Silua<lb n="10" type="inWord"/>nus</name> 
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+               <num value="15">XV</num><w lemma="uir">uir</w> 
+               <w lemma="sacer"><expan><abbr>s</abbr><ex>acris</ex></expan></w> 
+               <w lemma="facio"><expan><abbr>f</abbr><ex>aciundis</ex></expan></w> 
+               <lb n="11"/>
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+               <w lemma="patronus"><expan><abbr>patron</abbr><ex>us</ex></expan></w></persName>
+                <lb n="12"/><w lemma="dedico">dedicauit</w>
+               <lb n="13"/>
+               <persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name type="gentilicium" nymRef="Cassius">Cassio</name> <name type="cognomen" nymRef="Gratus">Grato</name></persName> 
+               <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> 
+               <lb n="14"/>
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></w> <placeName nymRef="Creta">Cretae</placeName> <w lemma="et">et</w> 
+               <lb n="15"/><placeName nymRef="Cyrenae">Cyrena<supplied reason="lost">ru</supplied>m</placeName> <w lemma="legatus"><expan><abbr>leg</abbr><ex>ato</ex></expan></w>
+               <lb n="16"/><w lemma="pro">pro</w> <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> <placeName nymRef="Africa">Africae</placeName>
+                <lb n="17"/><persName type="attested"><name type="cognomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> 
+                 <persName type="attested"><name type="cognomen" nymRef="Anno">Annonis</name></persName> <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w></persName>
+               <w lemma="nomen">nomi<lb n="18" type="inWord"/>ne</w>
+             <persName type="attested"><name type="cognomen" nymRef="Caius"><supplied reason="lost"><expan><abbr>C</abbr><ex>ai</ex></expan></supplied></name> 
+                  <persName type="attested"><name type="cognomen" nymRef="Anno">Annonis</name></persName> <w lemma="filius"><expan><abbr>f</abbr><ex>ilii</ex></expan></w> 
+               <w lemma="nepos"><expan><abbr>n</abbr><ex>epotis</ex></expan></w></persName>
+               <lb n="19"/><w lemma="se">sui</w> <w lemma="columna">columnas</w> <w lemma="cum">cum</w>
+               <lb n="20"/><w lemma="superficies">superficie</w> <w lemma="et">et</w> <w lemma="forum">forum</w>
+               <lb n="21"/>
+ <w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+               <w lemma="suus"><expan><abbr>s</abbr><ex>ua</ex></expan></w> 
+               <w lemma="pecunia"><expan><abbr>p</abbr><ex>ecunia</ex></expan></w> 
+               <w lemma="do"><expan><abbr>d</abbr><ex>edit</ex></expan></w> 
+               <lb n="22"/><persName type="attested"><name type="cognomen" nymRef="Balitho">Balitho</name> <persName type="attested"><name type="cognomen" nymRef="Anno">Annonis</name>
+               <lb n="23"/><name type="cognomen" nymRef="Macer">Macri</name></persName> <w lemma="filius"><expan><abbr>f</abbr><ex>ilius</ex></expan></w> <name type="cognomen" nymRef="Commodus">Commodus</name></persName> 
+               <lb n="24"/><w lemma="testamentum">testamento</w> <w lemma="adopto">adopta<lb n="25" type="inWord"/>tus</w> <w lemma="facio"><expan><abbr>f</abbr><ex>aciendum</ex></expan></w> 
+               <w lemma="curo"><expan><abbr>c</abbr><ex>urauit</ex></expan></w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Tiberius Claudius Caesar Augustus Germanicus, son of Drusus, chief priest, holding tribunician power for the thirteenth time, acclaimed victor seventeen times, consul five times, censor, father of the country; Marcus Pompeius Silvanus, consul, member of the committee of fifteen for sacred affairs <note>at Rome</note>, proconsul, patron, dedicated <supplied reason="subaudible">this</supplied>, Quintus Cassius Gratus praetor, proconsul of Crete and Cyrene, being his legate with pro praetorian authority in Africa; Caius son of Anno, in the name of Caius, son of Anno, his grandson, gave the columns with what is above them and the forum from his own funds. Balitho Commodus, son of Anno Macer, by adoption in his will, saw to it that the work was carried out. </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>The provisional translation of theNeo-Punic text (31) given by Levi Della Vida in <title level="j">Afr.Ital. </title>VIII (1940) 42 is superseded by a definitive discussion and translation, 
+               published by the same author in  <title level="j">Rend. Acc. Linc.</title>  IV (1949) 400-404. 
+               The latter. rendered literally, reads: &lt;&lt; G. `y by ben Hanno, in the name of G`y his grandson by (his son) M'qr, covered (paid for ?. presented ?) 
+               the columns and the space and paved the forum at his own expense as the work required. Ba'alyaton Q.m.d`, who entered in as son by M`qr 
+               through the writing of the affairs of the family (i.e. through the will) of G'y ben Hanno, had this work executed and brought it to completion &gt;&gt;. </p>
+            <p>l. 6. trib. pot. XIII - 25 Jan. 53 - 24 Jan. 54. </p>
+            <p>l. 10. Marcus Pompeius Siluanus. PIR1P 495, cos. suff.. 45.</p>
+            <p>l. 17. C. Annonis filius. See also in  <ref type="inscription">615</ref>; ll. 2- 3, 7 and note 1. </p>
+            <p> l. 23. Balitho Annonis Commodus. See above on Neo-Punic text. Also <ref type="inscription">615</ref> , II.3- 5.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0421"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 728)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

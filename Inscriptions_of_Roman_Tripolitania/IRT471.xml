@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT471" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Constantius II</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT471</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <material>marble</material> 
+                              <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.90</width>
+                                 <height unit="metre">1.10</height>
+                                 <depth unit="metre">0.55</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.53</width>
+                              <height unit="metre">0.36</height>
+                           </dimensions>), from which an earlier inscription may have been erased; a formal <rs type="decoration">spray</rs> follows the text.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century A.D. capitals: av. <height unit="metre">0.03</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0337" notAfter="0361" precision="low" evidence="reign">A.D. 337-361 (reign)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db719">Forum Severianum</rs>, North side.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Bersanetti</author>, <ptr target="epigraphica"/> 
+                  <biblScope>VII:39</biblScope>
+               </bibl>;
+               <bibl>
+                  <ptr target="ae"/> 
+                  <biblScope>1947:62</biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="pietas">Pietate</w> <w lemma="insignis">insigni</w> <w lemma="praeditus">praedito</w> <w lemma="atque">ac</w> <w lemma="lex">legum</w>
+               <lb n="2"/><w lemma="omnis">omnium</w> <w lemma="iustus">iustissimo</w> <w lemma="moderator">moderatori</w>
+               <lb n="3"/><w lemma="dominus"><expan><abbr>d</abbr><ex>omino</ex></expan></w> 
+               <w lemma="noster"><expan><abbr>n</abbr><ex>ostro</ex></expan></w> <persName type="emperor"><name type="gentilicium" nymRef="Flauius">Flauio</name> <name type="gentilicium" nymRef="Iulius">Iulio</name> <name type="cognomen" nymRef="Constantius">Constantio</name> 
+               <w lemma="uictoriosus">uicto<lb n="4" type="inWord"/>riosissimo</w> <w lemma="semper">semper</w> <name type="cognomen" nymRef="Augustus">Augusto</name></persName>
+               <lb n="5"/><persName type="attested"><name type="praenomen" nymRef="Marcus">Marcus</name> <name type="gentilicium" nymRef="Nicentius">Nicentius</name></persName>
+               <w lemma="uir"><expan><abbr>u</abbr><ex>ir</ex></expan></w> 
+               <w lemma="perficio"><expan><abbr>p</abbr><ex>erfectissimus</ex></expan></w> <w lemma="praeses">praeses</w>
+               <lb n="6"/><w lemma="prouincia">prouinciae</w> <placeName type="ethnic" nymRef="Tripolitanus">Tripolitanae</placeName> <w lemma="dico">dicauit</w>
+               <lb n="7"/><w lemma="numen">numini</w> <w lemma="maiestas">maiestatique</w> <w lemma="is">eius</w> <w lemma="cum">cum</w>
+               <placeName type="ethnic" nymRef="Lepcimagnensis">Lepci<lb n="8" type="inWord"/>magnensibus</placeName> <w lemma="deuoueo">deuotus</w> </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To one endowed with remarkable piety, and moreover most just moderator of all laws, our lord Flavius Julius Constantius, most victorious, always Augustus; Marcus Nicentius, excellent man <note>i.e. equestrian</note> governor of the province of Tripolitania, dedicated <supplied reason="subaudible">this</supplied> along with the Lepcitanians to his divine power and majesty, being devoted <supplied reason="subaudible">to him</supplied>.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 4. Constantius II: Augustus 337-361.</p>
+            <p>l. 5. There are two Nicentii known in this period, <title level="m">PW</title> XVII, 172, 1 and 2.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0608"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 586)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

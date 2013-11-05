@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT481" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> inscription  by Caecilius Diodorus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT481</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Three <rs type="objectType">block</rs>s of grey limestone from a trilingual monumental inscription. The Neo-Punic text (Neo-Punic 11) is very uncertain.
+               Block a), <dimensions>
+                                 <width unit="metre">0.95</width>
+                                 <height unit="metre">0.36</height>
+                              </dimensions>; block b), <dimensions>
+                                 <width unit="metre">0.67</width>
+                                 <height unit="metre">0.30</height>
+                                 <depth unit="metre">0.41</depth>
+                              </dimensions>; block c), transcribed by Romanelli, is no longer visible. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Latin text, lapidary capitals, <height unit="metre">0.05</height>; Greek text, <height unit="metre">0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate precision="low">Unknown</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:  
+                  <rs type="monuList" key="db738">Ras el-Hammam</rs>, 4 km South East of Lepcis, found used in the late fort. </p>
+                        </event>
+                        <event type="observed">
+                           <p> Block a) is still in position by the main entrance; block b) is now in <rs type="monuList" key="db654">Lepcis Museum</rs>; c) no longer visible</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="romanelli1925"/>, <biblScope>170</biblScope>
+               </bibl>; <bibl>
+                  <ptr target="seg"/> 
+                  <biblScope>IX:802</biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins); block c), transcribed by Romanelli, but not seen. </p>
+         </div>
+         <div type="edition" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="block" n="a" type="textpart"><ab xml:lang="la">
+                  <lb n="1"/> <persName type="attested"><name type="gentilicium" nymRef="Caecilius">C<supplied reason="lost">a</supplied>ecil<supplied reason="lost">i</supplied>us</name> <name type="cognomen" nymRef="Diodorus">Diodorus</name>
+                  <gap reason="lost" extent="unknown" unit="character"/></persName>
+                  <lb n="2"/><persName type="emperor"><name type="cognomen" nymRef="Caesar">Caesaris</name></persName> <w lemma="delubrum"><expan><abbr>delu<unclear>br</unclear></abbr><ex>um</ex></expan></w> 
+                  <w lemma="ab" part="I">a</w><gap reason="lost" extent="unknown" unit="character"/></ab><ab xml:lang="grc"><lb n="3"/><persName type="attested"><name type="gentilicium" nymRef="Caecilius">Καικίλιος</name> <name type="cognomen" nymRef="Διόδωρος">Διόδωρος</name></persName> <w lemma="ἅμα">ἅμα</w>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="4"/><w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <w lemma="ἴδιος">ἰδίων</w> <w lemma="εὔχομαι">εὔξατο</w> <w part="I"><unclear>θ</unclear></w><gap reason="lost" extent="unknown" unit="character"/></ab></div><div subtype="block" n="b" type="textpart"><ab xml:lang="la">
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/><w part="F">dium</w> <w lemma="murus">murum</w> 
+                  <w lemma="supra"><supplied reason="lost">s</supplied>u<supplied reason="lost">p</supplied>r<supplied reason="lost">a</supplied></w>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <w lemma="tribunicius"><supplied reason="lost">t</supplied><unclear>r</unclear>ibunicia</w> <w lemma="potestas">potestat<supplied reason="lost">e</supplied></w>
+                  <gap reason="lost" extent="unknown" unit="character"/></ab><ab xml:lang="grc"><lb n="3"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><w part="F">υς</w> <w lemma="μόνος">μόνος</w> <w lemma="ὁ">τὸν</w> <w lemma="ναός">ναὸν</w>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="4"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><w part="F">δεων</w> 
+                  <w part="I">αὐτοκράτο<supplied reason="lost">ρ</supplied></w><gap reason="lost" extent="unknown" unit="character"/></ab></div><div subtype="block" n="c" type="textpart"><ab>
+                  <lb n="1"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <lb n="2"/>
+                  <gap reason="lost" extent="unknown" unit="character"/> 
+                  <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> <w part="I">su</w><gap reason="lost" extent="unknown" unit="character"/></ab><ab xml:lang="grc"><lb n="3"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸ</w> <w lemma="πρόναον">πρόν<supplied reason="lost">αον</supplied></w>
+                     <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/></ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. Caecilius Diodorus <gap reason="lost"/> of Caesar the shrine <gap reason="lost"/>. </p><p>Caecilius Diodorus at the same time <gap reason="lost"/> at his own expense vowed <gap reason="lost"/></p><p>b. <gap reason="lost"/> wall above <gap reason="lost"/> holding tribunician power <gap reason="lost"/> </p><p><gap reason="lost"/> alone <note>nominative</note> the temple <note>accusative</note><gap reason="lost"/> emperor <note>case unknown</note><gap reason="lost"/> </p><p>c. <gap reason="lost"/> greatest <note>masculine or neuter, dative singular</note><gap reason="lost"/> </p><p><gap reason="lost"/>and the foretemple <note>nominative or accusative</note><gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0624"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.XVIII.33)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

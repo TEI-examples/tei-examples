@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT579" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Aemilia Lychnis Clementilla</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT579</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.58</width>
+                                 <height unit="metre">1.81</height>
+                                 <depth unit="metre">0.61</depth>
+                              </dimensions>), tall and unusually slender, of <material>brown limestone</material>, with rudimentary acroteria.  </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.36</width>
+                              <height unit="metre">0.56</height>
+                           </dimensions>).  </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: <height unit="metre">0.035</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0101" notAfter="0233" precision="low" evidence="lettering">Second to early third centuries A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db729">Punic Market</rs>, in the North East Portico. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="attested"><name type="gentilicium" nymRef="Aemilia">Aemiliae</name> <name type="cognomen" nymRef="Lychnidi">Lychnidi</name>
+               <lb n="2"/><name type="cognomen" nymRef="Clementilla">Clementillae</name></persName> <persName type="attested"><name type="gentilicium" nymRef="Aemilius">Aemili</name>
+               <lb n="3"/><name type="cognomen" nymRef="Arrianus">Arriani</name> <name type="cognomen" nymRef="Caecilianus">Caeciliani</name></persName> 
+               <w lemma="duouiralis">duo<lb n="4" type="inWord"/>uiralici</w> 
+               <w lemma="pontifex"><expan><abbr>pontif</abbr><ex>icis</ex></expan></w> <w lemma="filia">filiae</w>
+               <lb n="5"/><persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name type="gentilicium" nymRef="Volusius">Volusius</name> <name type="cognomen" nymRef="Gallus">Gallus</name></persName> 
+               <w lemma="eques"><expan><abbr>eq</abbr><ex>ues</ex></expan></w> 
+               <placeName type="ethnic" nymRef="Romanus"><expan><abbr>R</abbr><ex>omanus</ex></expan></placeName>
+               <lb n="6"/><w lemma="pontifex">pontifex</w> <w lemma="duouiralis">duoviralis</w>
+               <lb n="7"/><w lemma="flamen"><expan><abbr>fl</abbr><ex>amen</ex></expan></w> 
+               <w lemma="perpetuus"><expan><abbr>p</abbr><ex>er</ex><abbr>p</abbr><ex>etuus</ex></expan></w> <w lemma="ob">ob</w> <w lemma="insignis">insignem</w> 
+               <w lemma="affectio">adfec<lb n="8" type="inWord"/>tionis</w> <w lemma="castitas">castitatem</w> <w lemma="mater">matri</w>
+               <lb n="9"/><persName type="attested"><name type="gentilicium" nymRef="Volusius">Volusiorum</name> <persName type="attested"><name type="cognomen" nymRef="Appianilla">Appianillae</name></persName>
+               <lb n="10"/><persName type="attested"><name type="cognomen" nymRef="Bassus">Bassi</name></persName> <w lemma="et">et</w> <persName type="attested"><name type="cognomen" nymRef="Cerealis">Cerealis</name></persName></persName> 
+               <w lemma="filius"><expan><abbr>fil<am>l</am></abbr><ex>iorum</ex></expan></w> 
+               <w lemma="suus">suo<lb n="11" type="inWord"/>rum</w> <w lemma="permitto">permissu</w> 
+               <w lemma="splendidus"><expan><abbr>s</abbr><ex>plendidissimi</ex></expan></w> 
+               <w lemma="ordo"><expan><abbr>o</abbr><ex>rdinis</ex></expan></w> <w lemma="pono">posuit</w></ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="10">
+                  <lem>FILL</lem>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Aemilia Lychnis Clementilla, daughter of Aemilius Arrianus Caecilianus, ex-duumvir and pontifex <note>priest</note>; Lucius Volusius Gallus, Roman knight, pontifex <note>priest</note>, ex-duumvir, perpetual flamen <note>priest</note>, set this up on account of the outstanding morality of her disposition, mother of the Volusii Appianilla, Bassus and Cerialis, her children, with permission of the most splendid city-council.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>
+               l.10: Cerealis:
+                     For other members of this family see <ref type="inscription">543</ref>, ll.1,2; 544, 1.1; also <title>CIL</title> VI, 1554. 
+                  
+            </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0763"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 1605 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

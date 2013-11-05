@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT310a" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> 
+               <rs type="textType">Dedication</rs> to Sarapis</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT310a</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <material>marble</material> 
+                              <rs type="objectType">base</rs> 
+               (<dimensions>
+                                 <width unit="metre">0.62</width>
+                                 <height unit="metre">0.95</height>
+                                 <depth unit="metre">0.29</depth>
+                              </dimensions>) with a socket above.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a shallow recess 
+               (die, <dimensions>
+                              <width unit="metre">0.44</width>
+                              <height unit="metre">0.45</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lettering <height unit="metre">0.045</height>. The lettering shows the influence of second century. Rustic forms.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0101" notAfter="0200" precision="low" evidence="lettering">Probably second century (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                 Findspot unrecorded. Presumed to have come from Lepcis Magna, together with one block of <ref type="inscription">342</ref> and <ref type="inscription">693</ref> and a number of architectural fragments, which were presented to King George IV. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Now forming part of an ornamental ruin at
+                  <rs type="monuList" key="db903">Virginia Water</rs>, Surrey, along with one block of
+                  <ref type="inscription">342</ref> and <ref type="inscription">693</ref>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cig"/> 
+                  <biblScope>4962</biblScope>
+               </bibl>; 
+               <bibl xml:id="berksbucksoxaj">
+                  <title level="j">Berkshire, Buckinghamshire and Oxfordshire Archaeological Journal</title> IX (1903) 48 ff.</bibl>;
+               <bibl xml:id="tod1941">
+                  <author>Tod</author>, <title level="j">Journal of Hellenic Studies</title>, LXI (1941) 39.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="divine"><name nymRef="Iuppiter">Διὶ</name> <name nymRef="Sol">ἡλίῳ</name> <w lemma="μέγας">μεγάλωι</w>
+               <lb n="2"/><name nymRef="Sarapis">Σαράπιδι</name></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῖς</w>
+               <lb n="3"/><w lemma="σύνναος">συννάοις</w> <w lemma="θεός">θεοῖς</w>
+               <lb n="4"/><persName type="attested"><name type="praenomen" nymRef="Publius"><expan><abbr>Π</abbr><ex>όπλιος</ex></expan></name>
+                  <name type="gentilicium" nymRef="Aurelius">Αὐρήλιος</name> <name type="cognomen" nymRef="Διόσκορος">Διόσκορος</name></persName>
+               <lb n="5"/><w lemma="ἀνατίθημι">ἀνέθηκεν</w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Zeus, the sun, the great Sarapis, and the gods who dwell in his temple; Publius Aurelius Dioscoros dedicated <supplied reason="subaudible">this</supplied>.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1181"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
