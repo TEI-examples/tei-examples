@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT749" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for Theuduta.</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT749</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Part of a round-topped <rs type="objectType">stele</rs> 
+               (surviving, <dimensions>
+                                 <width unit="metre">0.33</width>
+                                 <height unit="metre">0.28</height>
+                                 <depth unit="metre">0.04</depth>
+                              </dimensions>) of <material>sandstone</material> broken at the base. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the surviving face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <height unit="metre" atLeast="0.05" atMost="0.02">0.05-0.02</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0001" notAfter="0500" evidence="terminology">First to fifth century A.D. (terminology)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db719">Forum Severianum</rs>
+                           </p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl xml:id="stroppa1912">
+                  <author>
+                     <name>Stroppa</name>
+                  </author>, <title level="m">Lebda (Leptis Magna)</title>, Vercelli, <date>1912</date>, <biblScope>75</biblScope>
+               </bibl>;
+               <bibl xml:id="robert1953">
+                  <author>L. <name>Robert</name>
+                  </author>, <title level="m">Rev. Et. Gr.</title>, <date>1953</date>, <biblScope>LXVI:202</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="grc" xml:space="preserve"><head xml:lang="en">Text</head><ab> 
+               <lb n="1"/> <w lemma="μνημεῖον">μνημ<lb n="2" type="inWord"/>εῖον</w> 
+               <persName type="attested"><name type="cognomen" nymRef="Θεύδυτα">Θευδύ<lb n="3" type="inWord"/>τας</name></persName> <w lemma="θυγάτηρ">θυγατρὸς</w><lb n="4"/><persName type="attested"><name type="cognomen" nymRef="Αἰγλανώρ">Αἰγλάνο<supplied reason="lost">ρο</supplied>ς</name> <w lemma="ὁ">τοῦ</w>
+                  <lb n="5"/><name type="cognomen" nymRef="Τειμοκράτης">Τειμοκράτους</name></persName>
+               <lb n="6"/><w lemma="τελευτάω">ἐτελε<unclear>ύ</unclear><supplied reason="lost">τησεν</supplied></w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Memorial of Theudyta, daughter of Aiglanor the son of Timocrates; she died <supplied reason="subaudible">here</supplied> </p></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="2-3">
+                  <rdg resp="robert1953">Θευλύτας</rdg>
+                  <note>: The stone, which has been re-examined, certainly reads <foreign xml:lang="grc">Θευλύτας</foreign>;
+            there may have been a cutter's error, but for the form <foreign xml:lang="grc">Θευδυ[... </foreign>, see also SEG IX, 726.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="4">
+                  <rdg resp="robert1953">Αἰγλάνο<supplied reason="lost">ρο</supplied>ς τοῦ</rdg>
+                  <note>
+               : Faintly surviving traces of the letters in square brackets are consistent with this reading, which should be accepted.</note>
+               </app>
+            </p>
+         </div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>Robert asked whether this stone might not have been brought from Cyrene to Lepcis; its material (sandstone) and findspot (Forum Severianum) make this most improbable. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0934"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 1543 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

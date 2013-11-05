@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT101" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Laenatius Romulus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT101</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Left-hand side of a moulded <material>marble</material> 
+                              <rs type="objectType">base</rs>, (<dimensions>
+                                 <width>0.21</width>
+                                 <height unit="metre">1.05</height>
+                                 <depth unit="metre">0.53</depth>
+                              </dimensions>), 
+               the mouldings of which have been trimmed flush. Width not complete.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face, die, <dimensions>
+                              <width unit="metre">0.21</width>
+                              <height unit="metre">0.83</height>
+                           </dimensions>). Width not complete.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <date type="textDate" notBefore="0301" notAfter="0400" precision="low">Fourth century A.D.</date>. Capitals: <height unit="metre" atLeast="0.04" atMost="0.05">0.04-0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0301" notAfter="0400" precision="low"
+                               evidence="lettering-prosopography">Fourth century A.D. (lettering, prosopography)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:  
+                  Found re-used as an architrave in the <rs type="monuList" key="db851">Mosque of Sidi Iàhia ben Dbàbesc</rs>.</p>
+                        </event>
+                        <event type="observed">
+                           <p> 
+                              <rs type="monuList" key="db660">Sabratha Museum</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p> 
+               <bibl>
+                  <author>Aurigemma</author>, <ptr target="attipontac"/> 
+                  <biblScope>XV:115</biblScope> ff., fig. 3 </bibl>;
+               <bibl>
+                  <ptr target="ae"/> 
+                  <biblScope>1948:39</biblScope>.</bibl> 
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="militia">Militi<supplied reason="lost">ae</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/><lb n="2" type="inWord"/><w part="F">tiae</w> <w part="I">o</w><gap reason="lost" extent="unknown" unit="character"/><lb n="3" type="inWord"/><w part="F">nto</w> <w part="I">e</w><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="4"/><w lemma="annus">annis</w> <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+               <w lemma="iustitia"><supplied reason="lost">ius</supplied><lb n="5" type="inWord"/>titiae</w> <w lemma="ab" part="I">a</w><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="6"/><w lemma="integritas">integr<supplied reason="lost">itatis</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="7"/><persName type="attested"><name type="gentilicium" nymRef="Laenatius">Laenat<supplied reason="lost">io</supplied></name> 
+               <name type="cognomen" nymRef="Romulus"><supplied reason="lost">Romulo</supplied></name></persName>
+               <lb n="8"/>
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+               <w lemma="perficio"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w>
+                  <w lemma="praeses"><expan><abbr>pra<supplied reason="lost">es</supplied></abbr><supplied reason="lost"><ex>idi</ex></supplied></expan></w> 
+               <supplied reason="lost"><w lemma="prouincia"><expan><abbr>prou</abbr><ex>inciae</ex></expan></w></supplied>
+               <supplied reason="lost"><placeName type="ethnic" nymRef="Tripolitanus"><expan><abbr>Trip</abbr><ex>olitanae</ex></expan></placeName></supplied> 
+               <lb n="9"/><w lemma="ordo">ordo</w> <supplied reason="lost"><w lemma="populus">populusque</w></supplied> 
+               <lb n="10"/> 
+                  <placeName type="ethnic" nymRef="Sabrathensis"><expan><abbr>Sabra<supplied reason="lost">thens</supplied></abbr><supplied reason="lost"><ex>ium</ex></supplied></expan></placeName> 
+               <supplied reason="lost"><w lemma="patronus"><expan><abbr>pat</abbr><ex>rono</ex></expan></w></supplied>
+               <lb n="11"/><w lemma="dignus">dignis<supplied reason="lost">simo</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="12"/><w lemma="curo">curan<supplied reason="lost">te</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="13"/><persName type="attested"><name type="gentilicium" nymRef="Leontius">Leont<supplied reason="lost">io</supplied></name></persName>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost" cert="low">In honour of a man</supplied> of ?military service <gap reason="lost"/> in the years <gap reason="lost"/>, of justice <gap reason="lost"/>, integrity <gap reason="lost"/>, Laenatius <supplied reason="lost">Romulus</supplied>, excellent man <supplied reason="explanation">of equestrian status</supplied>, governor <supplied reason="lost">of the province of Tripolitania;</supplied> the city council <supplied reason="lost">and the people</supplied> of the Sabrathans <supplied reason="lost">to a patron</supplied><supplied reason="subaudible">who is</supplied> most worthy. Leontius <gap reason="lost"/> took charge <supplied reason="lost">of its erection</supplied></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 7. Laenatio Romulo. Also in <ref type="inscription">467</ref>, l. 7; <ref type="inscription">468</ref>, l. 10; <ref type="inscription">574</ref>. ll. 1-12. Praeses c. <ref type="inscription">317</ref>, see Aurigemma, loc. cit.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0130"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DS 862 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

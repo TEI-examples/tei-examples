@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT694" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT694</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <material>marble</material> 
+                              <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.60</width>
+                                 <height unit="metre">1.50</height>
+                                 <depth unit="metre">0.76</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face with an honorary inscription, the greater part of the text of which has later been erased to make way for that of <ref type="inscription">529</ref>.
+             
+                  a) Above the die: l. 1, on the upper edge within a tabella ansata, l. 2, on the upper cyma moulding between formal sprays.</layout>
+                        <layout>
+                  b) On the face, within a recessed panel (die, <dimensions>
+                              <width unit="metre">0.53</width>
+                              <height unit="metre">0.79</height>
+                           </dimensions>). Text completely erased.</layout>
+                        <layout>
+                  c) Vertically, on the two side-margins of the die; there are formal sprays between the words.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century A.D. capitals: <height unit="metre" atLeast="0.035" atMost="0.04">0.035-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0301" notAfter="0400" precision="low" evidence="lettering">Fourth century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db719">Forum Severianum</rs>, East side. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="section" n="a" type="textpart"><ab>
+                  <lb n="1"/>
+                  <w part="I">D</w><del rend="erasure"><gap reason="lost" quantity="6" unit="character" precision="low"/></del>
+                  <lb n="2"/>
+                     <del rend="erasure">
+                        <gap reason="lost" quantity="11" unit="character" precision="low"/>
+                     </del>
+                  </ab></div><div subtype="section" n="b" type="textpart"><ab>
+               <note>Text completely erased.</note>
+               </ab></div><div subtype="section" n="c" type="textpart"><div subtype="margin" n="l" type="textpart"><note>Left margin.</note><ab>
+                     <lb n="1"/>
+                     <gap reason="lost" atLeast="2" atMost="3" unit="character"/><w part="F">thi</w> <persName type="attested"><name type="cognomen" nymRef="Presbytus">Presbyti</name></persName>
+                  </ab></div><div subtype="margin" n="r" type="textpart"><note>Right margin.</note><ab>
+                     <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Gerontius">Geronti</name> <name type="cognomen" nymRef="Euphrasius">Euphrasi</name></persName>
+                  </ab></div></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>a and b</note> not usefully translatable.  <note>c</note> of <gap reason="lost"/> Presbytus, Gerontius Euphrasius.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0673"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 19bis)</head>
+               </figure>
+               <figure>
+                  <graphic url="0674"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 741bis)</head>
+               </figure>
+               <figure>
+                  <graphic url="0675"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 85bis)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

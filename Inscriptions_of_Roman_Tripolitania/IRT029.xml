@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT029" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Commodus by Messius Rufinus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT029</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Nine fragments of the <material>marble</material> 
+                              <rs type="objectType">architrave</rs> of 
+               the portico surrounding the Temple of Hercules, Regio  V, insula  7.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>a) - d) Lapidary capitals: <height unit="metre">0.11</height>. </handNote>
+                     <handNote>e) - g) Lapidary capitals: <height unit="metre">0.11</height>, erased. </handNote>
+                     <handNote>h) - i) Lapidary capitals: <height unit="metre">0.095</height>, 
+               reinscribed above a partially erased inscription.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0186" notAfter="0192" evidence="titulature">After A.D. 186 (titulature)</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:
+                  <rs type="monuList" key="db860">Temple of Hercules</rs>, Regio  V, insula  7
+</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="fragment" n="a and b" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="ad">ad</w> <w lemma="consumatio">cons<supplied reason="lost">um</supplied>ationem</w><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="c" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
+                  <persName type="attested"><name type="gentilicium" nymRef="Messius">Messius</name> 
+                     <name type="cognomen" nymRef="Rufinus"><supplied reason="lost">R</supplied>ufinus</name></persName> 
+                  <w lemma="clarus"><expan><abbr>c</abbr><ex>larissimae</ex></expan></w> 
+                  <w lemma="memoria"><expan><abbr>m</abbr><ex>emoriae</ex></expan></w> 
+                  <supplied reason="lost"><w lemma="uir"><expan><abbr>u</abbr><ex>ir</ex></expan></w></supplied><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="d" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">uerat</w>
+               </ab></div><div subtype="fragment" n="e" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><del rend="erasure"><w part="F">rus</w> <w part="I">iu</w></del><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="f" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><del rend="erasure"><w lemma="deus" part="M">di</w></del><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="g" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
+                  <w lemma="imperator" part="I"><expan><abbr><supplied reason="lost">im</supplied>p</abbr><ex>erator</ex></expan></w> 
+                  <num value="8">VIII</num> <w lemma="consul" part="I"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+                  <num value="5">V</num> 
+                  <w part="I"><expan><abbr><unclear>p</unclear></abbr><supplied reason="lost"><ex>at</ex></supplied></expan></w> 
+                  <supplied reason="lost"><w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w></supplied><gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="h" type="textpart"><ab>
+                  <lb n="1"/>
+                  <subst><del rend="erasure"><w lemma="imperator" part="I"><expan><abbr>Im<unclear>p</unclear></abbr><ex>erator</ex></expan></w></del><add place="above"><w lemma="imperator" part="I"><expan><abbr>Imp</abbr><ex>erator</ex></expan></w></add></subst>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div><div subtype="fragment" n="i" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>
+                  <subst><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del><add place="above">
+                        <persName type="emperor"><name><seg part="I"><expan><abbr><supplied reason="lost">M</supplied></abbr><supplied reason="lost"><ex>arc</ex></supplied></expan></seg></name>
+                        <name type="gentilicium" nymRef="Aurelius"><seg part="I">Aur<supplied reason="lost">eli</supplied></seg></name></persName>
+                     </add></subst>
+                 <gap reason="lost" extent="unknown" unit="character"/>
+               </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p> a. + b. <gap reason="lost"/> with a view to ? accomplishing <gap reason="lost"/> </p><p> c. <gap reason="lost"/> Messius Rufinus, a man of outstanding memory <note>i.e. a deceased Roman senator</note> <gap reason="lost"/></p><p> d. -  f. Not usefully translateable </p><p> g. <gap reason="lost"/> acclaimed victor eight times, consul five times, father <supplied reason="lost">of the country</supplied> <gap reason="lost"/></p><p> h. Emperor <gap reason="lost"/> <note>or</note> acclaimed victor <gap reason="lost"/> <note>Repeated in recut text</note></p><p> i. <gap reason="lost"/> <supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan></supplied> Aurelius <gap reason="lost"/> 
+               <note>case unknown</note></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>c) l. 1. Messius Rufunus. Perhaps to be identified with  <title level="m">PW</title>  XV, 1286, 12.</p>
+            <p>g) Commodus who was imp VIII, cos V from 186.</p>
+            <p>h) - i) probably recut under Septimius Severus.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

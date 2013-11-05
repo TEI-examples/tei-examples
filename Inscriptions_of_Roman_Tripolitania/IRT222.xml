@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT222" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Fragment of <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT222</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <rs type="objectType">Tomb-slab</rs> (measurements not recorded) of local <material>sandstone</material>. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on a plaster surface, which was much damaged when found and appears since completely to have perished.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lettering (mixed capitals and uncials): size not recorded.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notAfter="0650" notBefore="0401" evidence="context-form">Fifth-seventh century A.D. (context, form)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:
+                  <rs type="monuList" key="db838">Church III</rs>. Found nearby. The text is known from a photograph only.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcribed from the photograph (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <w lemma="bonus"><supplied reason="lost">Bonae</supplied></w> 
+               <w lemma="memoria"><supplied reason="lost">me</supplied><lb n="2" type="inWord"/><supplied reason="lost">moriae</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/> 
+               <lb n="3"/>
+               <persName><w part="F">di</w></persName> 
+               <w lemma="qui">q<supplied reason="lost">ui</supplied></w> 
+               <lb n="4"/><w lemma="uiuo">bixi<supplied reason="lost">t</supplied></w> 
+               <lb n="5"/>
+               <w lemma="in">in</w> 
+               <w lemma="pax">pac<supplied reason="lost">e</supplied></w>
+               <lb n="6"/>
+               <w lemma="annus">an<supplied reason="lost">nos</supplied></w>
+               <lb n="7"/><gap reason="lost" quantity="2" unit="character"/> 
+               <w lemma="mensis"><unclear>m</unclear><supplied reason="lost">enses</supplied></w>
+               <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="9"/>
+               <w lemma="sub"><expan><abbr>su</abbr><ex>b</ex></expan></w> 
+               <w lemma="dies"><expan><abbr>d</abbr><ex>ie</ex></expan></w> 
+               <num value="13">XIII</num> 
+               <w lemma="mensis"><expan><abbr>men<supplied reason="lost">s</supplied></abbr><ex>is</ex></expan></w> 
+               <lb n="10"/>
+               <rs type="month" key="October"><w lemma="October"><supplied reason="lost">Oc</supplied><unclear>t</unclear><supplied reason="lost">ob</supplied><unclear>r</unclear><supplied reason="lost">is</supplied></w></rs>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost">Of good memory</supplied><gap reason="lost"/>dus who lived in peace for <gap reason="lost"/> years, <supplied reason="lost">? months, ?days and went to rest</supplied> on the 13th day of October.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0270"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CS 371)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

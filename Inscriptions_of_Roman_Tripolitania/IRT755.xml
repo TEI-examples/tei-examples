@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT755" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT755</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <rs type="objectType">Block</rs> of <material>marble</material>, resembling a base 
+               (height recorded as <height unit="metre">0.30</height>, an obvious error).
+               Seen with <ref type="inscription">662</ref> in 1895, lying half-buried  (see <ref type="inscription">729</ref>). Not seen. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed within a moulded panel, (length of line of text <height unit="metre">0.34</height>),
+               damaged at the upper left-hand corner; l. 1 is cut above the die, ll. 12-13 below it.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No description.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0001" notAfter="0500" evidence="terminology">First to fifth century A.D. (terminology)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db722">Gasr ed-Doueirat</rs>. Seen in <date type="foundDate">1895</date> beside the remains of a mausoleum 20 minutes south. Not seen again.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot (1895)</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cil"/>, <biblScope>VIII: 22675</biblScope>
+               </bibl>, 
+               after <bibl>
+                  <author>Clermont-Ganneau</author>, <ptr target="cracad"/> 
+                  <date>1903</date>, <biblScope>342</biblScope>
+               </bibl> (with sketch).</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Previous publications</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <orig>NVM</orig> 
+               <orig>DE</orig>
+               <gap reason="lost" quantity="1" unit="character"/>
+               <lb n="2"/>
+               <gap reason="lost" quantity="1" unit="line"/>
+               <lb n="3"/>
+               <gap reason="lost" quantity="1" unit="line"/>
+               <lb n="4"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <orig>NB</orig>
+               <gap reason="lost" quantity="2" unit="character"/>
+               <lb n="5"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <orig>MORI</orig>
+               <lb n="6"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <orig><unclear>A</unclear>OGE</orig>
+               <lb n="7"/>
+               <gap reason="lost" extent="unknown" unit="character"/><w part="F">ntiano</w>
+               <lb n="8"/>
+               <gap reason="lost" extent="unknown" unit="character"/><w part="F">nis</w> <w lemma="annuus">annui</w>
+               <lb n="9"/>
+               <w lemma="longus"><supplied reason="lost">l</supplied>onga</w> <w lemma="generositas"><expan><abbr>gaeneros</abbr><ex>i</ex></expan>
+               <lb n="10"/>tate</w> <w lemma="orno">ornati</w> <w lemma="qui">qui</w> <w lemma="uiuo"><expan><abbr>uix</abbr><ex>it</ex></expan></w>
+               <lb n="11"/>
+               <date when-iso="PY22M3"><expan><abbr>ann</abbr><w lemma="os"><ex>os</ex></w></expan> 
+               <num value="22">XXII</num>
+                  <w lemma="mensis"><expan><abbr>m</abbr><ex>enses</ex></expan></w> 
+               <num value="3">III</num></date> <w lemma="et">et</w>
+               <lb n="12"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <orig>BE<unclear>LLL</unclear></orig>
+               <gap reason="lost" quantity="3" unit="character" precision="low"/>
+               <orig>SSV</orig>
+               <gap reason="lost" quantity="2" unit="character"/>
+               <lb n="13"/><w part="F">ium</w> <w lemma="ciuis">ciuium</w> <w lemma="suus">suo<supplied reason="lost">rum</supplied></w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><gap reason="lost"/><note>l.7</note> <note>to, from or by</note><gap reason="lost"/>ntianus <gap reason="lost"/> of annual <gap reason="lost"/> adorned with long-standing generosity, who lived twenty-two years, three months and <supplied reason="lost">? days</supplied><gap reason="lost"/> of his fellow-citizens.  </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

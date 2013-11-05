@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT677" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription  by C. Calpurnius Trachalus Dosides</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT677</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <rs type="objectType">Block</rs> (<dimensions>
+                                 <width unit="metre">0.76</width>
+                                 <height unit="metre">0.51</height>
+                                 <depth unit="metre">0.21</depth>
+                              </dimensions>) of <material>grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.30</width>
+                              <height unit="metre">0.34</height>
+                           </dimensions>), set between plain pilasters. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Capitals with some Rustic forms: <height unit="metre">0.035</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0101" notAfter="0300" evidence="lettering">Second to third century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db760">Wadi Lebdah</rs>; Probably found on the West bank (Aurigemma MS notes). Formerly in Homs Museum</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Aurigemma MS notes; Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="deus">Diis</w> <w lemma="manes">manibus</w>
+               <lb n="2"/>
+               <persName type="attested"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name type="gentilicium" nymRef="Calpurnius">Calpurnius</name> 
+               <name type="cognomen" nymRef="Trachalus">Tracha<lb n="3" type="inWord"/>lus</name> <name type="cognomen" nymRef="Dosides">Dosides</name></persName> 
+               <persName type="attested"><name type="gentilicium" nymRef="Calpurnius">Calpurni<lb n="4" type="inWord"/>is</name> <w lemma="frater">fratribus</w> <w lemma="carus"><expan><abbr>carissim</abbr><ex>is</ex></expan></w>
+               <lb n="5"/><persName type="attested"><name type="cognomen" nymRef="Zena">Zenae</name></persName> <w lemma="et">et</w> <persName type="attested"><name type="cognomen" nymRef="Aristo">Aristoni</name></persName> <w lemma="et">et</w> 
+               <persName type="attested"><name type="cognomen" nymRef="Vibis">V<lb n="6" type="inWord"/><unclear>i</unclear>bi</name></persName></persName> <w lemma="monumentum">monumentum</w> <w lemma="et">et</w>
+               <lb n="7"/><w lemma="sepulcrum">sepulchrum</w> <w lemma="facio">fecit</w> </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To the gods below. Caius Calpurnius Trachalus Dosides had the monument and tomb made for his beloved brothers the Calpurnii Zenas and Aristo and Vibis.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0313"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="0314"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="0868"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XV.13)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

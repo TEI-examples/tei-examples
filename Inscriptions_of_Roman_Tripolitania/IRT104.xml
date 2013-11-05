@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT104" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for a fourth century official</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT104</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <rs type="objectType">base</rs> (<dimensions>
+                                 <width>0.60</width>
+                                 <height>1.30</height>
+                                 <depth>0.75</depth>
+                              </dimensions>) of <material>brown limestone</material>, much damaged.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a recessed panel (die, <dimensions>
+                              <width>0.45</width>
+                              <height>0.75</height>
+                           </dimensions>). The first two lines are cut above the die.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <date type="textDate" notBefore="0301" notAfter="0400" precision="low">Fourth century A.D.</date> capitals: l.1, <height>0.07</height>; remainder, av. <height>0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0301" notAfter="0400" precision="low" evidence="lettering">Fourth century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:
+                  <rs type="monuList" key="db844">Forum area</rs>, forum, at the E end of the S portico.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w part="F"><unclear>t</unclear>ii</w> <w lemma="uir"><expan><abbr>u</abbr><ex>iri</ex></expan></w> 
+               <w lemma="perficio"><expan><abbr>p</abbr><ex>erfectissimi</ex></expan></w> 
+               <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="integritas"><supplied reason="lost">integ</supplied>ritatis</w> <w lemma="religio">religione</w> 
+               <lb n="3"/>
+               <gap reason="lost" extent="unknown" unit="character"/><orig><unclear>n</unclear>ti<unclear>f</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="se" part="M">se</w>
+               <lb n="5"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+               <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><w part="M">u</w>
+               <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ob">ob</w>
+               <lb n="8"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+               <lb n="9"/><gap reason="lost" extent="unknown" unit="line"><certainty match=".." locus="name"/></gap>
+               <lb n="10"/>
+               <supplied reason="lost"><w lemma="ordo">ordo</w> <w lemma="et">et</w></supplied>
+               <w lemma="populus"><supplied reason="lost">popu</supplied>lus</w> <w lemma="colonia">colo<supplied reason="lost">niae</supplied></w>
+               <supplied reason="lost"><placeName nymRef="Sabrathensis"><expan><abbr>Sabr</abbr><ex>athensis</ex></expan></placeName></supplied> 
+               <lb n="11"/><gap reason="lost" quantity="4" unit="character" precision="low"/>
+               <w lemma="publice"><supplied reason="lost">publi</supplied>ce</w> <w lemma="pono">posuit</w><gap reason="lost" quantity="7" unit="character" precision="low"/>
+               <lb n="12"/>
+               <gap reason="lost" quantity="1" unit="character"/>
+               <w lemma="curo"><supplied reason="lost">cur</supplied>ante</w> 
+               <persName type="attested"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aio</ex></expan></name> 
+               <name type="gentilicium" nymRef="Aurelius">Aurelio</name> <name type="cognomen" nymRef="Felicianus">Felici<unclear>ano</unclear></name>
+               <lb n="13"/>
+               <name type="cognomen" nymRef="Damasius"><unclear>D</unclear><supplied reason="lost">a</supplied>masio</name></persName> 
+               <w lemma="flamen"><expan><abbr>fl</abbr><ex>amine</ex></expan></w> 
+               <w lemma="perpetuus"><expan><abbr>p</abbr><ex>er</ex><abbr>p</abbr><ex>etuo</ex></expan></w> 
+               <w lemma="sacerdos"><expan><abbr>sac</abbr><ex>erdote</ex></expan></w> <persName type="divine" nymRef="Hercules"><w lemma="deus">dei</w> <name type="cognomen" nymRef="Hercules">Herculis</name></persName>
+               <lb n="14"/><w lemma="quinquennalis"><expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennale</ex></expan></w> <w lemma="curator">curatore</w> <w lemma="res">rei</w> <w lemma="publicus">publicae</w>
+               <lb n="15"/><w lemma="feliciter">feliciter</w></ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost">In honour</supplied> of <gap reason="lost"/>tius, excellent man <supplied reason="explanation">of
+      equestrian status </supplied>, <gap reason="lost"/> of integrity, with <note>or by</note> conscientiousness, <gap reason="lost"/>; <note>l.10</note><supplied reason="lost">the city council and the</supplied> people of the colony <supplied reason="lost">of Sabratha</supplied><gap reason="lost"/> set this up publicly <gap reason="lost"/>; Caius Aurelius Felicianus Damasius, perpetual flamen <note>priest</note>, priest of the god Hercules, duovir in a fifth year, curator of the public affairs. With good fortune.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0137"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XI.21)</head>
+               </figure>
+               <figure>
+                  <graphic url="0138"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XI.20)</head>
+               </figure>
+               <figure>
+                  <graphic url="0139"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.VII.27)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

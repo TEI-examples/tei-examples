@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT442" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication</rs> to ?Geta</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT442</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Part of the left-hand side of a <material>marble</material> 
+                              <rs type="objectType">base</rs> 
+               (surviving measurements, <dimensions>
+                                 <width unit="metre">0.43</width>
+                                 <height unit="metre">0.75</height>
+                                 <depth unit="metre">0.19</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed within a prepared panel 
+               (die, surviving <dimensions>
+                              <width unit="metre">0.30</width>
+                              <height unit="metre">0.75</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: <height unit="metre" atLeast="0.04" atMost="0.05">0.04-0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0210" evidence="titulature-consulship">A.D. 210 (titulature and consulship)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db719">Forum Severianum</rs>, South portico.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><del rend="erasure"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+                  <persName type="emperor"><name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> 
+                  <name type="praenomen" nymRef="Lucius"><expan><abbr><unclear>L</unclear></abbr><ex>ucio</ex></expan></name> <name type="gentilicium" nymRef="Septimius">Septim<supplied reason="lost">io</supplied></name> 
+                     <supplied reason="lost"><name type="cognomen" nymRef="Geta">Getae</name> <name type="cognomen" nymRef="Pius">Pio</name> 
+                        <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></supplied> 
+               <lb n="2"/><name type="cognomen" nymRef="Brittanicus">Brittanico</name> <name>Arab<supplied reason="lost">ico</supplied></name></persName> 
+                  <gap reason="lost" quantity="7" unit="character" precision="low"/>
+                  <w lemma="tribunicius"><supplied reason="lost">tri</supplied><lb n="3" type="inWord"/>buniciae</w> <w lemma="potestas">pot<supplied reason="lost">estatis</supplied></w></del>
+               <lb n="4"/><num value="2">II</num>  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <num value="2">II</num>
+               <lb n="5"/><del rend="erasure"><placeName type="ethnic" nymRef="Lepcitanus"><w lemma="Lepcitanus">Lepcitani</w> 
+                  <name type="cognomen" nymRef="Septimianus">S<supplied reason="lost">eptimiani</supplied></name></placeName>
+                  <lb n="6"/><w lemma="publice">public<supplied reason="lost">e</supplied></w><gap reason="lost" extent="unknown" unit="character"/></del>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p> To emperor Caesar Lucius Septimius <supplied reason="lost">Geta Pius Augustus</supplied>, victor in Britain, victor in Arabia, <gap reason="lost"/> holding tribunician power for the second time, consul twice, the Septimian Lepcitanians publicly <gap reason="lost"/><note>almost all erased</note> </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 1. Augustus. Presumably Geta, although he is not otherwise known to have held the title Arabicus; erased after damnatio in 212.</p>
+            <p>l. 2. Geta was Britannicus in 210.</p>
+            <p>ll. 2-4. trib. pot. II. 10 Dec. 209 - 9 Dec. 210. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0567"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 51.II.22)</head>
+               </figure>
+               <figure>
+                  <graphic url="0568"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 577)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

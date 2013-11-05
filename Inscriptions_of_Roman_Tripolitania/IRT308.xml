@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT308" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Title</rs>  and <rs type="textType">dedication</rs> for an image of Augusta Salutaris</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT308</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <rs type="objectType">Panel</rs> (<dimensions>
+                                 <width unit="metre">4.56</width>
+                                                  <height unit="metre">0.69</height>
+                                                  <depth unit="metre">0.25</depth>
+                              </dimensions>) 
+               and fragment from the left end of similar <rs type="objectType">panel</rs> (<dimensions>
+                                 <width unit="metre">1.24</width>
+                                                  <height unit="metre">0.65</height>
+                                                  <depth unit="metre">0.27</depth>
+                              </dimensions>), both of <material>grey limestone</material>, inscribed within a <rs type="decoration">moulded border</rs> 
+               (die of complete panel, <dimensions>
+                                 <width unit="metre">4.35</width>
+                                 <height unit="metre">0.48</height>
+                              </dimensions>). 
+               The first letter of l. 2 of the fragment is set <height unit="metre">0.98</height> from the border, as against <height unit="metre">0.11</height> on the complete panel, but in all other respects they seem to have been identical. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the surviving faces.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lapidary capitals: l.1, <height unit="metre">0.25</height>: l. 2, <height unit="metre">0.16</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate cert="low" when="0030" evidence="prosopography">A.D. 30 (prosopography)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:  
+                  <rs type="monuList" key="db728">Decumanus maximus</rs>. Both found beside the base of a formal arch, which spans the street between Regio  II, insula  1 and Regio  III, ins 1. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="divine"><name type="cognomen" nymRef="Augusta">Augusta</name> <name nymRef="Salutaris">Salutaris</name></persName>
+               <lb n="2"/><persName type="attested"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name type="gentilicium" nymRef="Vibius">Vibius</name> 
+                  <name type="cognomen" nymRef="Marsus">Marsus</name> <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr><supplied reason="lost">s</supplied></abbr><supplied reason="lost"><ex>ul</ex></supplied></expan></w></persName>
+               <num value="3"><supplied reason="lost">I</supplied>II</num> <w lemma="dedico">dedicauit</w> </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="2">
+                  <lem>
+                     <num value="3">III</num>
+                  </lem>
+                  <note>The superscript bar shows that a figure is lost.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Augusta Salutaris. Caius Vibius Marsus, proconsul for the third year dedicated <supplied reason="subaudible">this</supplied>.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 2. C. Vibius Marsus. Cos. suff. 17 - PIR (1) V 388. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0369"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.XXI.28)</head>
+               </figure>
+               <figure>
+                  <graphic url="0371"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 817)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

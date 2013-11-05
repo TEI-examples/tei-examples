@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT721" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">building</rs> inscription for a <rs type="textType">funerary</rs> monument</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT721</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>No description.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>No description.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No description</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0001" notAfter="0300" precision="low" evidence="nomenclature">First to third centuries A.D. (nomenclature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: seen and described by several travellers between 1803 and 1845; since lost. Not seen again</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cil"/> 
+                  <biblScope>VIII:21</biblScope> and p.979; =10995</bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Previous publications.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/><w part="F">s</w> 
+               <persName type="attested"><name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <name type="gentilicium" nymRef="Lucretius">Lucreti</name> <name type="cognomen" nymRef="Rogatianus">Rogatiani</name></persName> 
+               <w lemma="filius"><expan><abbr>fil</abbr><ex>ius</ex></expan></w>
+               <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="monumentum"><supplied reason="lost">monumentum</supplied></w> <w lemma="qui">quod</w> <w lemma="opus">opere</w> <w lemma="signinus">signino</w> <w lemma="pater">pater</w>
+               <lb n="3"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="facio"><supplied reason="lost">f</supplied>ecerat</w> <w lemma="se">sibi</w> 
+               <w lemma="posterus"><expan><abbr>posterisq</abbr><ex>ue</ex></expan></w> <w lemma="se">suis</w>
+               <lb n="4"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="restituo"><supplied reason="lost">restit</supplied>uit</w> <w lemma="et">et</w> <w lemma="ab">a</w> <w lemma="fundamentum">fundamento</w> <w lemma="erigo">erexit</w>
+               <lb n="5"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="ex"><supplied reason="lost">ex</supplied></w> 
+               <w lemma="sestertius"><expan><abbr><am><g type="sestertius"/></am></abbr><ex>sestertiis</ex></expan></w>
+               <num value="80">LXXX</num> 
+               <w lemma="mille"><expan><abbr>milib</abbr><ex>us</ex></expan></w> 
+               <w lemma="nummus"><expan><abbr>n</abbr><ex>ummum</ex></expan></w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><gap reason="lost"/>s, son of Publius Lucretius Rogatianus <gap reason="lost"/> the <supplied reason="lost">monument</supplied> in opus signinum which his father <gap reason="lost"/> had made for himself and his descendants <gap reason="lost"/> he restored and erected from the foundations <gap reason="lost"/> at a cost of eighty thousand sesterces.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 1. P. Lucretius Rogatianus. See also <ref type="inscription">720</ref>, ll. 5-6. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

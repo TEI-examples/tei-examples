@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT927" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Milestone</rs>. Mile XVIII or XVIIII. Gallienus.</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT927</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <rs type="objectType">Milestone</rs>. Mile <num value="18">XVIII</num> or <num value="19">XVIIII</num>. 1. Worn <material>sandstone</material> column 
+               (<dimensions>
+                                 <dim unit="metre" type="diameter">0.35</dim>
+                                 <height unit="metre">1.20</height>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the shaft.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <height unit="metre" atLeast="0.03" atMost="0.05">0.03-0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0264" evidence="titulature">A.D. 264. (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db648">Coast Road: Oea-Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db671">Henscir ben-Gedian</rs>;  Found re-used in a ruined Christian building, near Wadi Gherrim,
+                  a little North of the modern Tripoli-Homs road at Kilo. 90 (Corradini village)</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2213353/wadi-qirrim.html">Wādī Qirrīm</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="goodchild1948"/>, <biblScope>24</biblScope>, no. 38, and 29, n. 1</bibl>;
+              <bibl>
+                  <ptr target="bartoccini1948"/>, <biblScope>155</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Previous publications and transcription, by Goodchild.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="emperor"><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></w> 
+                  <name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>are</ex></expan></name> 
+                  <name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name type="gentilicium" nymRef="Licinius">Licinio</name></supplied> <name type="gentilicium" nymRef="Egnatius">Egnatio</name><lb n="2"/><name type="cognomen" nymRef="Galienius">Galienio</name>  <name type="cognomen" nymRef="Pius">Pio</name> <name type="cognomen" nymRef="Felix">Felice</name></persName>                    <note>sic</note>
+    <lb n="3"/>
+               <persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usto</ex></expan></name> <name type="cognomen" nymRef="Germanicus">Germanico</name> <w lemma="magnus"><supplied reason="lost">maximo</supplied></w>
+               <lb n="4"/>
+               <name type="cognomen" nymRef="Dacicus"><supplied reason="lost">Dacic</supplied>o</name> <w lemma="magnus"><expan><abbr>maxim</abbr><ex>o</ex></expan></w> <name type="cognomen" nymRef="Persicus">Pe<supplied reason="lost">rsico</supplied></name></persName> <w lemma="magnus"><supplied reason="lost">maximo</supplied></w>
+               <lb n="5"/>
+               <w lemma="pontifex"><supplied reason="lost">pontifice</supplied></w> <w lemma="magnus"><supplied reason="lost">maxi</supplied>ma</w> <w lemma="tribunicia"><expan><abbr>tribunic</abbr><add place="overstrike">ic</add>
+<abbr>i</abbr><ex>a</ex><abbr>e</abbr></expan></w>           <note>sic</note>  
+                          
+               <lb n="6"/><w lemma="potestas">potestatis</w> <num value="12">XII</num>
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratore</ex></expan></w> 
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></w> <num value="5">V</num>
+               <lb n="7"/>
+               <w lemma="pater"><expan><abbr>p</abbr><ex>atre</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> 
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></w> <w lemma="et">et</w>
+               <lb n="8"/>
+               <persName type="emperor"><name type="cognomen" nymRef="Salonina"><supplied reason="lost">Saloni</supplied>n<supplied reason="lost">ae</supplied></name> <w lemma="coniunx">coniugis</w> <persName type="emperor"><name type="cognomen" nymRef="Galenus">Galeno</name></persName></persName>           <note>sic</note>
+               <lb n="9"/>
+               <w lemma="miliarium"><expan><abbr>m</abbr><ex>iliarium</ex></expan></w> 
+               <num value="19">XVIIII</num>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="8">
+                  <note>Bartoccini reads &lt;&lt;Gallenio&gt;&gt;. </note>
+               </app>
+            </p>
+            <p>
+               <app loc="9">
+                  <note> 
+     Goodchild reads &lt;&lt;XVIII&gt;&gt; or possibly &lt;&lt;XVIIII&gt;&gt;; Bartoccini reads &lt;&lt;XVIIII&gt;&gt; certainly. 
+  </note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost">When emperor Caesar Publius Licinius</supplied> Egnatius Gallienus Pius, Felix Augustus, <supplied reason="lost">greatest</supplied> victor in Germany, greatest victor in <supplied reason="lost">Dacia</supplied>, greatest victor in Persia, <supplied reason="lost">chief priest</supplied>, held tribunician power for the twelfth time, acclaimed victor, consul five times, father of the country, proconsul, and to <supplied reason="lost">Salonina</supplied>, wife of Gal<supplied reason="omitted">li</supplied>enus. Milestone nineteen.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

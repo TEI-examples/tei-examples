@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT056" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to?Constantius II and  Gallus </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT056</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Two fragments of a <material>marble</material> 
+                              <rs type="objectType">base</rs> 
+               (each 
+               <dimensions>
+                                 <width>0.15</width> 
+                                 <height>0.85</height>
+                              </dimensions>) 
+               which has been cut vertically to make paving slabs for the sixth century repaving of Church I. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the surviving face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century capitals: <height unit="metre" atLeast="0.05" atMost="0.06">0.05-0.06</height>; 1. 4, <height unit="metre">0.07</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0351" notAfter="0354" evidence="reigns">A.D. 351-354 (reigns).</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>: 
+                  <rs type="monuList" key="db837">Church I</rs>, within the former Basilica</p>
+                        </event>
+                        <event type="observed">
+                           <p>Now standing loose nearby. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">simo</w><gap reason="lost" quantity="3" unit="character"/><w lemma="is">ea</w>
+               <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">es</w> <w lemma="et">et</w><gap reason="lost" quantity="3" unit="character"/>ume
+               <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="aeternus"><supplied reason="lost">aete</supplied>rnae</w> <w lemma="uirtus"><supplied reason="lost">uir</supplied>tutis</w>
+   <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><unclear>i</unclear> <persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Au<supplied reason="lost">g</supplied></abbr><supplied reason="lost"><ex>usto</ex></supplied> </expan></name></persName>
+               <lb n="5"/><supplied reason="lost"><w lemma="et">et</w></supplied><gap reason="lost" extent="unknown" unit="character"/>
+               <persName type="emperor"><name type="gentilicium" nymRef="Flauius"><supplied reason="lost"><expan><abbr>Fl</abbr><ex>auio</ex></expan></supplied></name> <name type="gentilicium" nymRef="Claudius"><supplied reason="lost">Clau</supplied>dio</name> <name type="cognomen" nymRef="Constantius">Co<supplied reason="lost">nst</supplied>antio</name></persName> 
+               <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="ordo"><supplied reason="lost">ordo</supplied></w> <w lemma="splendidus"><supplied reason="lost">spl</supplied>endid<supplied reason="lost">iss</supplied>imus</w> 
+               <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <placeName type="ethnic" nymRef="Sabrathensis"><supplied reason="lost">Sabrath</supplied>ensiu<supplied reason="lost">m</supplied></placeName> <w lemma="deuoueo">deuo<lb n="8" type="inWord"/><supplied reason="lost">tus</supplied></w> <w lemma="numen"><supplied reason="lost">num</supplied>ini</w> <w lemma="maiestas">m<supplied reason="lost">aie</supplied>stati<lb n="9" type="inWord"/><supplied reason="lost">que</supplied></w> <w lemma="is">eorum</w>
+               <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> 
+               <persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Cae-"><seg part="I">Cae</seg><gap reason="lost" quantity="3" unit="character"/></name></persName> <w lemma="pro"><unclear>p</unclear>ro</w> 
+               <lb n="11"/><gap reason="lost" quantity="1" unit="line"/>
+            
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app>
+                  <note>Line 4:  Presumably Constantius II, Augustus 337-361.</note>
+               </app>
+            </p>
+            <p>
+               <app>
+                  <note>Line 5:  Constantius Gallus 351-354 . </note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To <gap reason="lost"/><supplied reason="lost" cert="low">example</supplied> of eternal virtue, <gap reason="lost"/> Augustus and <gap reason="lost"/> Flavius Claudius Constantius; the most splendid <supplied reason="lost">city council</supplied> of the Sabrathans, devoted to their divine will and majesty; Marcus Cae<gap reason="lost"/> on behalf of <gap reason="lost"/> </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0082"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.IV.30)</head>
+               </figure>
+               <figure>
+                  <graphic url="0083"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XII.14)</head>
+               </figure>
+               <figure>
+                  <graphic url="0084"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DS 904 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

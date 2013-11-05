@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT746" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT746</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <rs type="objectType">Block</rs> (<dimensions>
+                                 <width unit="metre">0.24</width>
+                                 <height unit="metre">0.46</height>
+                                 <depth unit="metre">0.41</depth>
+                              </dimensions>) of rather coarse <material>grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel, (die, <dimensions>
+                              <width unit="metre">0.70</width>
+                              <height unit="metre">0.31</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Lettering: l. 1 (lapidary capitals), <height unit="metre">0.085</height>;
+               ll. 2-4 (irregular capitals), <height unit="metre">0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0001" notAfter="0200" evidence="lettering">First to second century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db771">Road near Lepcis</rs>;   Beside an ancient cistern. Seen by Kallenberg (CIL VIII, 23);
+               probably removed to Tripoli in the XIX century by the British Consul, on the site of whose garden
+               (now the Uaddan Hotel) it was re-discovered</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db662">Tripoli Castle</rs>
+                           </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cil"/>, <biblScope>VIII:23</biblScope>
+               </bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="attested"><name type="praenomen" nymRef="Lucius"><supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan></supplied></name> 
+               <name type="gentilicium" nymRef="Tettius">Tettius</name> <name type="cognomen" nymRef="Eutychus"><unclear>E</unclear>u<lb n="2" type="inWord"/><supplied reason="lost">tychus</supplied></name></persName>
+               <gap reason="lost" atLeast="6" atMost="7" unit="character"/><w part="F"><unclear>m</unclear></w> 
+               <w lemma="se"><unclear>s</unclear>ib<supplied reason="lost">i</supplied></w> <w lemma="et">et</w>
+               <lb n="3"/>
+               <gap reason="lost" quantity="13" unit="character" precision="low"/><w part="F"><unclear>t</unclear>ice</w> <w lemma="uxor">uxori</w>
+               <lb n="4"/>
+               <w lemma="cura"><supplied reason="lost">cura</supplied></w> <persName type="attested"><name type="praenomen" nymRef="Lucius"><supplied reason="lost"><expan><abbr>L</abbr><ex>uci</ex></expan></supplied></name> <name type="gentilicium" nymRef="Tettius"><supplied reason="lost">T</supplied>etti</name> <name type="cognomen" nymRef="Comus"><unclear>Co</unclear>mi</name></persName> <w lemma="libertus"><expan><abbr>lib</abbr><ex>erti</ex></expan></w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="lost"> Lucius </supplied> Tettius Eutychus <supplied reason="lost">had this made</supplied> for himself and for <gap reason="lost"/>tica his wife; <supplied reason="lost">work overseen by Lucius</supplied> Tettius Comus, freedman.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 1-2. L. Tettius Eutychus.  Also in <ref type="inscription">314</ref>, l. 1. </p>
+            <p>l. 4. L. Tettius Comus. Also in <ref type="inscription">314</ref>, l. 3 </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0932"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DTV 680 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

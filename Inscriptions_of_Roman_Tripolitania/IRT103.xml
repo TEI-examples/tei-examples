@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT103" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Flavius Vivus Benedictus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT103</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <rs type="objectType">altar</rs> (<dimensions>
+                                 <width unit="metre">0.65</width>
+                                 <height unit="metre">1.13</height>
+                                 <depth unit="metre">0.45</depth>
+                              </dimensions>) of <material>grey limestone</material>, re-used upside down as a base.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>The front face is re-inscribed within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.41</width>
+                              <height unit="metre">0.80</height>
+                           </dimensions>) from which a previous inscription has been erased; 
+               one line was cut above the die on the damaged border of the upper moulding. Right side, below, <rs type="decoration">a knife and axe in relief within a moulded panel</rs>; above three lines inscribed on the border of the upper margin in the same style as the inscription on the front. Left side, <rs type="decoration">a jug in relief within a moulded panel</rs>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> a) On the front face. <date type="textDate" notBefore="0301" notAfter="0400" precision="low">Fourth century A.D.</date> capitals: l. 1, <height>0.045</height>; ll. 2- 19, <height>0.03</height>; l. 20, <height>0.045</height>.</handNote>
+                     <handNote> b) On top right border. <date type="textDate" notBefore="0301" notAfter="0400" precision="low">Fourth century A.D.</date>: <height>0.02</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0378" evidence="reign-titulature">A.D. 378 (reign, titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:
+                  <rs type="monuList" key="db830">Basilica</rs>, found in the sixth century paving of the later church. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Standing near the Basilica.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div n="a" type="textpart"><ab>
+               <lb n="1"/> 
+               <supplied reason="lost"><persName type="attested"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>aui</ex></expan></name> <name type="gentilicium" nymRef="Viuius">Viui</name> <name type="cognomen" nymRef="Benedictus">Benedicti</name></persName> 
+                  <w lemma="uir"><expan><abbr>u</abbr><ex>iri</ex></expan></w></supplied> 
+               <w lemma="perficio"><expan><abbr><unclear>p</unclear></abbr><ex>erfectissimi</ex></expan></w> 
+               <lb n="2"/><w lemma="totus">totius</w> <w lemma="integritas">integritatis</w> 
+               <w lemma="moderatio">modera<lb n="3" type="inWord"/>tionis</w> <w lemma="iustitia">iustitiae</w> <w lemma="prouisio">prouisionis</w>
+               <lb n="4"/><w lemma="fides">fidei</w> <w lemma="benignitas">benignitatis</w> <w lemma="fortitudo">fortitudinis</w>
+               <lb n="5"/><w lemma="atque">ac</w> <w lemma="beneficentia">beneficentiae</w> <w lemma="uir">uiro</w> 
+               <persName type="attested"><name type="gentilicium" nymRef="Flauius"><expan><abbr>Fl</abbr><ex>auio</ex></expan></name> <name type="gentilicium" nymRef="Viuius">Viuio</name>
+               <lb n="6"/><name type="cognomen" nymRef="Benedictus">Benedicto</name></persName> 
+               <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+               <w lemma="perficio"><expan><abbr>p</abbr><ex>erfectissimo</ex></expan></w> 
+               <w lemma="praeses">praesidi</w> 
+               <w lemma="prouincia"><expan><abbr>prou</abbr><ex>inciae</ex></expan></w> 
+               <placeName type="ethnic" nymRef="Tripolitanus"><expan><abbr>Tripol</abbr><ex>itanae</ex></expan></placeName>
+               <lb n="7"/><w lemma="inter">inter</w> <w lemma="ceter">cetera</w> <w lemma="beneficium">beneficia</w> <w lemma="suus">sua</w> <w lemma="qui">quibus</w>
+               <lb n="8"/><w lemma="omnis">omnem</w> <w lemma="prouincia">prouinciam</w> <w lemma="compendium">conpendiis</w> 
+               <w lemma="remedium">re<lb n="9" type="inWord"/>mediis</w> <w lemma="et">et</w> <w lemma="uirtus">uirtutibus</w> <w lemma="foueo">fouit</w> 
+               <w lemma="subleuo">suble<lb n="10"/>uabit</w> <w lemma="erigo">erexit</w> <w lemma="etiam">etiam</w> <w lemma="ob">ob</w> <w lemma="is">ea</w> <w lemma="qui">quae</w> <w lemma="se">sibi</w>
+               <lb n="11"/><w lemma="specialiter">specialiter</w> <w lemma="confero">conlata</w> <w lemma="sum">sunt</w> <w lemma="ciuitas">ciuitas</w>
+               <lb n="12"/><placeName type="ethnic" nymRef="Sabrathensis">Sabrathensis</placeName> <w lemma="exsulto">exsultans</w> <w lemma="qui">quod</w> 
+               <w lemma="post">po<lb n="13"/>st</w> <w lemma="ruina">ruinam</w> <w lemma="et">et</w> <w lemma="abnego">abnegatum</w> 
+               <w lemma="thermae">therma<lb n="14" type="inWord"/>rum</w> <w lemma="populus">populo</w> <w lemma="exercitium">exercitium</w> <w lemma="citra">citra</w> <w lemma="ullus">ullius</w>
+               <lb n="15"/><w lemma="dispendium">dispendium</w> <w lemma="ornamentum">ornamentis</w> <w lemma="patria">patriae</w>
+               <lb n="16"/><w lemma="reuoco">reuocauit</w> <w lemma="ordo">ordo</w> <w lemma="populus">populusque</w>
+               <lb n="17"/><w lemma="concino">concinentibus</w> <w lemma="omnis">omnibus</w> 
+               <w lemma="uotum">uo<lb n="18" type="inWord"/>tis</w> <w lemma="statua">statuam</w> <w lemma="patronus">patrono</w> 
+               <w lemma="praesto"><expan><abbr>pr</abbr><ex>a</ex><abbr>estan</abbr></expan><lb n="19" type="inWord"/>tissimo</w> <w lemma="grator">gratanti</w> <w lemma="studium">studio</w>
+               <lb n="20"/><w lemma="conloco">conlocauit</w>
+            </ab></div><div n="b" type="textpart"><ab>
+               <lb n="1"/> <w lemma="dedico">Dedicata</w>
+               <lb n="2"/><w lemma="consul"><expan><abbr>cons</abbr><ex>ulum</ex></expan></w> 
+               <persName type="emperor"><w lemma="dominus"><expan><abbr>d</abbr><ex>ominorum</ex></expan></w> 
+               <w lemma="noster"><expan><abbr>n</abbr><ex>ostrorum</ex></expan></w>
+               <name type="cognomen" nymRef="Valens">Valentis</name> <num value="6">VI</num> <w lemma="et">et</w> <name type="cognomen" nymRef="Valentinianus">Valent<supplied reason="omitted">in</supplied>iani</name> <num value="2">II</num> 
+               <name type="cognomen" nymRef="Augustus"><expan><abbr>A<supplied reason="lost">ug</supplied></abbr><ex>ustorum</ex></expan></name>
+               </persName><lb n="3"/><w lemma="dies">die</w> <num value="5">V</num> <w lemma="kalendae"><expan><abbr>kal</abbr><ex>endas</ex></expan></w> 
+               <w lemma="Augusta"><expan><abbr>Aug</abbr><ex>ustas</ex></expan></w> 
+               </ab></div></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="b 2">
+                  <note>CONSS. DD. NN. </note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. <supplied reason="lost">In honour of Flavius Vivius Benedictus,</supplied> excellent <supplied reason="lost">man</supplied> <supplied reason="explanation"> of equestrian status</supplied>. To a man of complete integrity, moderation, justice, foresight, good faith, generosity, courage and beneficence, Flavius Vivus Benedictus, excellent man<supplied reason="explanation"> of equestrian status</supplied>, governor of the province of Tripolitania; among the other generous acts by which he cherished, assisted and improved the whole province, the city of Sabratha honours him also on account of those specifically conferred on itself; they are delighted that, when the Baths had fallen down so that the people could not use them he restored them without expense to anyone, and they are now among the ornaments of the country. The city-council and people, voting unanimously, set up the statue to an outstanding patron with enthusiastic gratitude. </p><p><note>b</note> Dedicated on the 28th July, when our lords the Augusti were consuls, Valens for the sixth time and Valentinian for the second. </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>Flavius Vivius Benedictus: <title level="m">PW</title> III, 271; also in <ref type="inscription">476</ref>, ll. 6,7 and <ref type="inscription">571</ref>.</p>
+            <p>a. 12-13: post ruinam:  erhaps since the sack of the city by the Austuriani, c. 363-5 (Introduction - Sabratha, Section 3).</p>
+            <p>b.3 28th July 378.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0132"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. B. 1587)</head>
+               </figure>
+               <figure>
+                  <graphic url="0133"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.VI.33)</head>
+               </figure>
+               <figure>
+                  <graphic url="0134"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.VII.22)</head>
+               </figure>
+               <figure>
+                  <graphic url="0135"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+               <figure>
+                  <graphic url="0136"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DS 791 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

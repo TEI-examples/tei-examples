@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT399" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication</rs> to Septimius Severus </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT399</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Moulded <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.60</width>
+                                 <height unit="metre">1.20</height>
+                                 <depth unit="metre">0.57</depth>
+                              </dimensions>) of <material>brown limestone</material>, the lower part broken;
+                the surface of which is much abraded. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.10</width>
+                              <height unit="metre">0.65</height>
+                           </dimensions>),</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rustic capitals: <height unit="metre" atLeast="0.045" atMost="0.05">0.045-0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0198" notAfter="0210" evidence="reign">A.D. 198-210 (reign)</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db756">Theatre</rs>. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="romanelli1925"/>, <biblScope>135-6</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="emperor"><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+                  <name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> 
+                  <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name></supplied> <name type="gentilicium" nymRef="Septimius">Septimio</name> 
+               <lb n="2"/>
+               <name type="cognomen" nymRef="Seuerus"><supplied reason="lost">S</supplied>euero</name> <name type="cognomen" nymRef="Pius">Pio</name>
+               <lb n="3"/>
+               <name type="cognomen" nymRef="Pertinax"><supplied reason="lost">Per</supplied>t<supplied reason="lost">i</supplied>nac<supplied reason="lost">i</supplied></name> 
+               <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name>
+               <lb n="4"/>
+               <supplied reason="lost"><name><expan><abbr>Arab</abbr><ex>ico</ex></expan></name></supplied> 
+                  <name type="cognomen" nymRef="Adiabenicus"><supplied reason="lost">Adiab</supplied>en<lb n="5" type="inWord"/><supplied reason="lost">ico</supplied></name> 
+                  <supplied reason="lost"><name type="cognomen" nymRef="Parthicus"><expan><abbr>Parth</abbr><ex>ico</ex></expan></name></supplied> <w lemma="magnus">maximo</w></persName>
+               <lb n="6"/>
+               <supplied reason="lost"><w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w> 
+                  <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w></supplied> 
+               <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w>
+               <lb n="7"/><supplied reason="lost"><w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w></supplied>
+               <num><gap reason="lost" atLeast="1" atMost="4" unit="character"/></num>
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> <num value="11">XI</num>
+               <lb n="8"/>
+               <supplied reason="lost"><w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w></supplied>
+               <num><gap reason="lost" atLeast="1" atMost="4" unit="character"/></num>
+               <w lemma="proconsul"><expan><abbr><supplied reason="lost">p</supplied>roco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w>
+               <lb n="9"/>
+               <placeName type="ethnic" nymRef="Lepcitanus"><supplied reason="lost">Lep</supplied>c<unclear>ita</unclear>n<supplied reason="lost">i</supplied></placeName>
+               <lb n="10"/>
+               <gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="7">
+                  <note> Imp. XI, 198; imp. XII is a possible reading. </note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To <supplied reason="lost">Emperor Caesar Lucius</supplied> Septimius Severus Pius Pertinax Augustus, 
+         <supplied reason="lost">victor in Arabia, victor in Adiab</supplied>en<supplied reason="lost">e, </supplied>, greatest <supplied reason="lost">victor in Parthia, 
+            chief priest</supplied>, holding tribunician <supplied reason="lost">power for the</supplied> <gap reason="lost"/> <supplied reason="lost">time</supplied>, 
+         acclaimed victor eleven <note>?twelve</note> times, <supplied reason="lost">consul</supplied> <gap reason="lost"/> <supplied reason="lost">times</supplied>, 
+         proconsul; the Lepcitanians <gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0515"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 342 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

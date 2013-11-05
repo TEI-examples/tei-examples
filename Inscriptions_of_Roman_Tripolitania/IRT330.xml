@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT330" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Building</rs> 
+               <rs type="textType">dedication</rs> to Tiberius for road paving</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT330</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Monumental inscription 
+               (<dimensions>
+                                 <width unit="metre">4.75</width>
+                                 <height unit="metre">0.50</height>
+                              </dimensions>) cut on each of the two faces of a simple 
+               <rs type="objectType">arch</rs> of <material>grey limestone</material>.
+               The text is identical with <ref type="inscription">331</ref>.
+               a) South West Face
+               b) North East Face</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Cut on each of the two faces</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rather irregular lapidary capitals: South West face,
+               l. 1, <height unit="metre">0.115</height>; 
+               l. 2, <height unit="metre">0.105</height>; 
+               remainder, <height unit="metre">0.08</height>. 
+               North East face, l. 1, <height unit="metre">0.12</height>;
+               l. 2, <height unit="metre">0.105</height>; 
+               remainder, <height unit="metre">0.08</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Findspot</p>
+                     <origDate notBefore="0035" notAfter="0036" evidence="reign-titulature">A.D. 35-36 (reign, titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db728">Decumanus maximus</rs>.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Replaced in position across the Main Street at the angle of Regio  IV, insula  3 and 4, and Regio  V, insula  3 and 4.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2009-12-09" who="GB">Fixed spacing in name</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Romanelli</author>, <ptr target="afrital"/> 
+                  <biblScope>VII:87</biblScope>ff., figs. 2, 3</bibl>;
+               <bibl>
+                  <ptr target="ae"/> 
+                  <biblScope>1948:1</biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="face" n="a" type="textpart"><ab>
+                  <lb n="1"/><persName type="emperor"><name type="praenomen" nymRef="Tiberius"><expan><abbr>Ti</abbr><ex>berio</ex></expan></name>
+                     <name type="cognomen" nymRef="Caesar">Caesari</name> 
+                     <persName type="emperor"><w lemma="diuus">diui</w>
+                        <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+                  <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w> <name type="cognomen" nymRef="Augustus">Augusto</name> 
+                     <persName type="emperor"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Iulius">Iuli</name></persName>
+                     <w lemma="nepos"><expan><abbr>n</abbr><ex>epoti</ex></expan></w></persName> 
+                  <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w> 
+                  <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+                  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr><supplied reason="lost">s</supplied></abbr><supplied reason="lost"><ex>uli</ex></supplied></expan></w> 
+                  <supplied reason="lost"><num value="5">V</num></supplied>
+                  <lb n="2"/><w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> <num value="8">VIII</num> 
+                  <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> 
+                  <w lemma="potestas"><expan><abbr>potest</abbr><ex>ate</ex></expan></w> <num value="37">XXXVII</num>
+                  <lb n="3"/><persName type="attested"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> 
+                     <name type="gentilicium" nymRef="Rubellius">Rubellius</name> <name type="cognomen" nymRef="Blandus">Blandus</name></persName>
+   <w lemma="quaestor"><expan><abbr>q</abbr><ex>uaestor</ex></expan></w> 
+                  <persName type="emperor"><w lemma="diuus">diui</w>
+                     <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+                  <w lemma="tribunus"><expan><abbr>tr</abbr><ex>ibunus</ex></expan></w> 
+                  <w lemma="plebs"><expan><abbr>pl</abbr><ex>ebis</ex></expan></w> 
+                  <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetor</ex></expan></w> 
+                  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+                  <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w> 
+                  <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifex</ex></expan></w>
+   <w lemma="patronus">patr<supplied reason="lost">onus</supplied></w>
+                  <lb n="4"/><w lemma="ex">ex</w> <w lemma="reditus">reditibus</w> <w lemma="ager">agrorum</w> <w lemma="qui">quos</w>
+   <placeName type="ethnic" nymRef="Lepcitanus">Le<supplied reason="lost">pc</supplied>itanis</placeName>
+   <w lemma="restituo">resti<supplied reason="lost">tui</supplied>t</w> 
+                  <w lemma="uia">ui<supplied reason="lost">a</supplied>s</w> <w lemma="omnis">om<supplied reason="lost">nis</supplied></w>
+                  <lb n="5"/><w lemma="ciuitas">ciuitatis</w> <placeName type="ethnic" nymRef="Lepcitanus">Lepcitanae</placeName>
+   <w lemma="sterno">ster<supplied reason="lost">nend</supplied>as</w> <w lemma="silex">silic<supplied reason="lost">e</supplied></w> <w lemma="curo"><supplied reason="lost">curauit</supplied></w>
+                  <lb n="6"/><persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name>
+                     <name type="gentilicium" nymRef="Etrilius">Etr<supplied reason="lost">i</supplied>liu<supplied reason="lost">s</supplied></name> 
+                     <name type="cognomen" nymRef="Lupercus"><supplied reason="lost">L</supplied>upercus</name></persName>
+   <w lemma="legatus"><expan><abbr>leg</abbr><ex>atus</ex></expan></w> <w lemma="pro">pro</w> 
+                  <w lemma="praetor"><expan><abbr><supplied reason="lost">p</supplied>r</abbr><ex>aetore</ex></expan></w> 
+                  <w lemma="patronus">patronus</w> <w lemma="sub">sub</w>
+   <rs type="military"><w lemma="hasta">h<supplied reason="lost">asta</supplied></w></rs> 
+                  <w lemma="facio"><supplied reason="lost"><expan><abbr>f</abbr><ex>aciendum</ex></expan></supplied></w>  
+                  <w lemma="loco"><supplied reason="lost"><expan><abbr>l</abbr><ex>ocauit</ex></expan></supplied></w>
+               </ab></div><div subtype="face" n="b" type="textpart"><ab>
+                  <lb n="1"/><persName type="emperor"><name type="praenomen" nymRef="Tiberius"><expan><abbr><supplied reason="lost">T</supplied>i</abbr><ex>berio</ex></expan></name> 
+                     <name type="cognomen" nymRef="Caesar">Caesari</name> <persName type="emperor"><w lemma="diuus">diui</w>
+                        <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>  
+                  <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w> <name type="cognomen" nymRef="Augustus">Augusto</name> 
+                     <persName type="emperor"><w lemma="diuus"><supplied reason="lost">diu</supplied>i</w>
+                        <name type="gentilicium" nymRef="Iulius">Iuli</name></persName> 
+                     <w lemma="nepos"><expan><abbr>n</abbr><ex>epoti</ex></expan></w></persName> 
+                  <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w> 
+                  <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+                  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <num value="5">V</num>
+                  <lb n="2"/><w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> <num value="8">VIII</num> 
+                  <w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> 
+                  <w lemma="potestas"><expan><abbr>potest</abbr><ex>ate</ex></expan></w> <num value="37">XXXVII</num> 
+                  <lb n="3"/><persName type="attested"><name type="praenomen" nymRef="Caius"><expan><abbr><supplied reason="lost">C</supplied></abbr><supplied reason="lost"><ex>aius</ex></supplied></expan></name> 
+                     <name type="gentilicium" nymRef="Rubellius"><supplied reason="lost">Rub</supplied><unclear>el</unclear><supplied reason="lost">l</supplied><unclear>i</unclear>us</name> <name type="cognomen" nymRef="Blandus">Blandus</name></persName> 
+                  <w lemma="quaestor"><expan><abbr>q</abbr><ex>uaestor</ex></expan></w>  
+                  <persName type="emperor"><w lemma="diuus">diui</w>
+                     <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> 
+                  <w lemma="tribunus"><expan><abbr>tr</abbr><ex>ibunus</ex></expan></w>  
+                  <w lemma="plebs"><expan><abbr>pl</abbr><ex>ebis</ex></expan></w> 
+                  <w lemma="praetor"><expan><abbr><supplied reason="lost">p</supplied>r</abbr><ex>aetor</ex></expan></w>  
+                  <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w>     
+                  <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w>     
+                  <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifex</ex></expan></w> <w lemma="patronus">patronus</w>
+                  <lb n="4"/><w lemma="ex"><supplied reason="lost">ex</supplied></w>
+   <w lemma="reditus"><supplied reason="lost">reditib</supplied>us</w> <w lemma="ager"><supplied reason="lost">a</supplied>grorum</w>
+   <w lemma="qui">quos</w> <placeName type="ethnic" nymRef="Lepcitanus">Lepcitanis</placeName> 
+                  <w lemma="restituo">res<unclear>t</unclear><supplied reason="lost">i</supplied>tuit</w> <w lemma="uia">uias</w>
+   <w lemma="omnis">omnis</w>
+                  <lb n="5"/><w lemma="ciuitas"><supplied reason="lost">ci</supplied>uitat<unclear>is</unclear></w>
+   <placeName type="ethnic" nymRef="Lepcitanus"><name>Lep<supplied reason="lost">citanae</supplied></name></placeName> 
+                  <w lemma="sterno">s<supplied reason="lost">te</supplied>rnendas</w> <w lemma="silex">silic<supplied reason="lost">e</supplied></w>
+   <w lemma="curo">curauit</w>
+                  <lb n="6"/><persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name>
+                     <name type="gentilicium" nymRef="Etrilius">Etr<supplied reason="lost">il</supplied>ius</name> 
+                     <name type="cognomen" nymRef="Lupercus">Luperc<supplied reason="lost">us</supplied></name></persName> 
+                  <w lemma="legatus"><expan><abbr><supplied reason="lost">le</supplied>g</abbr><ex>atus</ex></expan></w> 
+                  <w lemma="pro">pro</w> <w lemma="praetor"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> 
+                  <w lemma="patronus">patronus</w> <w lemma="sub">sub</w>
+   <rs type="military"><w lemma="hasta">h<supplied reason="lost">asta</supplied></w></rs>
+   <w lemma="facio"><supplied reason="lost"><expan><abbr>f</abbr><ex>aciendum</ex></expan></supplied></w> 
+                  <w lemma="loco"><supplied reason="lost"><expan><abbr>l</abbr><ex>ocauit</ex></expan></supplied></w>
+               </ab></div></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="b 3">
+                  <note>&lt;&lt; cos &gt;&gt; was originally omitted and inserted later.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. To Tiberius Caesar Augustus, son of the deified Augustus, grandson of deified Julius, chief priest, consul <supplied reason="lost">for the fifth time</supplied>, acclaimed victor for the eighth, holding tribunician power for the thirty-seventh; Caius Rubellius Blandus, quaestor of deified Augustus, tribune of the people, praetor, consul, proconsul, priest, patron, using the income from land which he restored to the people of Lepcis, <supplied reason="lost">saw to it</supplied> that all the streets of the city of Lepcis were paved with silex. Marcus Etrilius Lupercus, his legate <note>senatorial assistant</note> and civic patron <supplied reason="lost">let the contracts for the work</supplied>. </p><p>b.To Tiberius Caesar Augustus, son of the deified Augustus, grandson of deified Julius, chief priest, consul <supplied reason="lost">for the fifth time</supplied>, acclaimed victor for the eighth, holding tribunician power for the thirty-seventh;<supplied reason="lost"> Caius Rub</supplied>ellius Blandus, quaestor of deified Augustus, tribune of the people, praetor, consul, proconsul, priest, patron, using the <supplied reason="lost">income</supplied> from land which he restored to the people of Lepcis, saw to it that all the streets of the city of Lepcis were paved with silex. Marcus Etrilius Lupercus, his legate <note>senatorial assistant</note> and civic patron <supplied reason="lost">let the contracts for the work.</supplied></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>a) l. 1 trib. pot. XXXVII - July 35 - 30 June 36.</p>
+            <p>a) l. 2. C. Rubellius Blandus. Cos. suff. 18 = <title level="m">PW</title> I A 1158, no. 5; also in  <ref type="inscription">331</ref> , l. 3 ;  <ref type="inscription">540</ref>, l. 1; 
+               <ref type="inscription">269</ref> , l. 2. </p>
+            <p>a) l. 4. Perhaps an aftermath of the war with Tacfarinas.</p>
+            <p>a) l. 6. M. Etrilius Lupercus. PIR 2 E 103; also in  <ref type="inscription">331</ref> , l. 6;  <ref type="inscription">540</ref> , l. 2.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0407"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 315)</head>
+               </figure>
+               <figure>
+                  <graphic url="0408"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 102 Lastre)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

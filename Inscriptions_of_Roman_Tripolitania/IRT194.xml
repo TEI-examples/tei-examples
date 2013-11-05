@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT194" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT194</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <material>Marble</material> 
+                              <rs type="objectType">panel</rs> 
+               (<dimensions>
+                                 <width unit="metre">0.35</width>
+                                 <height unit="metre">0.030</height>
+                                 <depth unit="metre">0.02</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the surviving face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Fourth century A.D.: <height unit="metre" atLeast="0.03" atMost="0.045">0.03-0.045</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notAfter="0400" notBefore="0301" evidence="lettering">Fourth century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:  
+                  From the <rs type="monuList" key="db833">Catacomb to the E of the Theatre</rs>
+                           </p>
+                        </event>
+                        <event type="observed">
+                           <p> 
+                              <rs type="monuList" key="db660">Sabratha Museum</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><g type="chi-rho"/> <w lemma="spiritus">spiritus</w> <persName type="attested"><name type="cognomen" nymRef="Athica">Athica</name></persName> <g type="chi-rho"/> 
+               <lb n="2"/><w lemma="bonus">bonae</w> <w lemma="memoria"><expan><abbr>memoria</abbr><ex>e</ex></expan></w> <w lemma="dulcis">dulcis</w>
+               <lb n="3"/><w lemma="nomen">nomen</w> <w lemma="anima">anima</w> <w lemma="melleus">mellea</w>
+               <lb n="4"/><w lemma="peto">petimus</w> <w lemma="oratio">orationibus</w> <w lemma="tuus">tuis</w>
+               <lb n="5"/><w lemma="exaudio">exaudiat</w> <w lemma="nos"><expan><abbr>n</abbr><ex>os</ex></expan></w>
+               <w lemma="uiuo"><expan><abbr>uix</abbr><ex>it</ex></expan></w> <g type="chi-rho"/> 
+               <date when-iso="PY67"><w lemma="annus"><expan><abbr>an</abbr><ex>nos</ex></expan></w> <num value="67">LXVII</num></date>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note><foreign xml:lang="la">Chi-Rho</foreign></note> The Soul of Athica <note><foreign xml:lang="la">Chi-Rho</foreign></note>. Of good memory, dear name, a honey-sweet spirit. We ask that by your prayers Christ <note><foreign xml:lang="la">Chi-Rho</foreign></note> may hear us. She lived 67 years.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0229"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DS 858 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

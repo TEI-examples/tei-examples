@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT595" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for T. Flauius Vibianus Iunior</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT595</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> On the reverse face of <ref type="inscription">476</ref>. <material>Marble</material> 
+                              <rs type="objectType">base</rs> 
+                              <dimensions>
+                                 <height unit="foot" precision="low">4</height>
+                              </dimensions>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No description.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0101" notAfter="0233" precision="low" evidence="prosopography">Second to early third centuries A.D. (prosopography)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: recorded at Lepcis in <date type="foundDate">1691</date> and again in <date type="foundDate">1731</date>
+                           </p>
+                        </event>
+                        <event type="observed">
+                           <p>Lost</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+               <term>
+                  <rs type="textType">munera</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cil"/> 
+                  <biblScope>VIII:14</biblScope> = <biblScope>22673</biblScope>; see also 10994</bibl>. </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Previous publications</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="attested"><name type="signum" nymRef="Heraclius">Heraclii</name></persName>
+               <lb n="2"/><w lemma="dignus">Dignissimo</w> <w lemma="principalis">principali</w>
+               <lb n="3"/><w lemma="innocens">innocentissimo</w> <w lemma="puer">puero</w>
+               <lb n="4"/><persName type="attested"><name type="praenomen" nymRef="Titus"><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name type="gentilicium" nymRef="Flauius">Flauio</name> <name type="cognomen" nymRef="Vibianus">Vibiano</name> <name type="cognomen" nymRef="Iunior">Iuniori</name></persName>
+               <lb n="5"/><w lemma="pontifex">pontifici</w> 
+               <w lemma="duouir"><expan><abbr>du</abbr><ex>u</ex><abbr>muiro</abbr></expan></w> <w lemma="filius">filio</w>
+               <lb n="6"/><w lemma="atque">ac</w>
+               <w lemma="collega"><expan><abbr>colleg</abbr><ex>a</ex><abbr>e</abbr></expan></w> 
+               <persName type="attested"><name type="praenomen" nymRef="Titus"><expan><abbr>T</abbr><ex>iti</ex></expan></name> <name type="gentilicium" nymRef="Flauius">Flaui</name> <name type="cognomen" nymRef="Frontinus">Frontini</name>
+               <lb n="7"/><name type="cognomen" nymRef="Heraclius">Heraclii</name></persName> <w lemma="in">in</w> <w lemma="paruus">paruulis</w> <w lemma="annus">annis</w>
+               <lb n="8"/><w lemma="exhibeo">exibenti</w> <w lemma="aequaliter">aequaliter</w>
+               <lb n="9"/><w lemma="uoluptas">uoluptatum</w> <w lemma="genus">genera</w> <w lemma="pater">patris</w>
+               <lb n="10"/><w lemma="se">sui</w> <w lemma="studium">studiis</w> <w lemma="populus">populi</w> <w lemma="suffragium">suffragio</w>
+               <lb n="11"/><w lemma="et">et</w> <w lemma="decerno">decreto</w> <w lemma="ordo">ordinis</w>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="subaudible">In honour</supplied> of Heraclius.</p><p> To a most worthy citizen, a most innocent youth, Titus Flavius Vibianus Junior, pontifex <note>priest</note>, duumvir, son and colleague of Titus Flavius Frontinus Heraclius, presenting when still a child, the kinds of delightful shows, no less than his father; set up by the vote of the people and decree of the city council.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 6-7. T. Flauius Frontinus Heraclius. Also in <ref type="inscription">564</ref> and probably <ref type="inscription">652</ref>. For other members of the same family see <ref type="inscription">567</ref>, <ref type="inscription">568</ref>.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT894a" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">Christian</rs> 
+               <rs type="textType">building<certainty match=".." locus="value"/>
+               </rs> inscription </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT894a</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Monolithic <rs type="objectType">archivolt</rs> (<dimensions>
+                                 <width unit="metre">1.37</width>
+                                 <height unit="metre">0.82</height>
+                              </dimensions>), the arch outlined with <rs type="decoration">a cable moulding and a <rs type="decoration">rosette</rs> in each of the spandrels</rs>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the flat surface above the head of the arch. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Capitals, including late forms: ll. 1-3, <height unit="metre">0.07</height>; l. 4, <height unit="metre">0.05</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db655">Middle Lower Sofeggin Basin </placeName>:
+                  <rs type="monuList" key="db777">Gasr Giasia</rs>; seen and recorded by De Lisle in <date type="foundDate">1949</date>, loose beside the well outside (east) in the Wadi Mimum Darragh, 10 km. East of Bir Dufan (map ref. R 8901). </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot (1949)</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215016/wadi-maymun.html">Wādī Maymūn</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (De Lisle)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="Lauratianus">Lauratianus</name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><w lemma="fundamentum">fundament<unclear>a</unclear></w> <w lemma="instituo">instituerunt</w>
+               <lb n="3"/><orig>ionpleante</orig> <w lemma="filius">filibus</w> <w lemma="nepos">nepotibus</w><w lemma="que">que</w>
+               <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">to</w> 
+               <w part="I">fortun</w><gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="adaugeo">adauget</w> <w lemma="faveo">fabente</w> <w lemma="deus">Deo</w> </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="3">
+                  <note>So read by De Lisle; perhaps <foreign xml:lang="la">conpleante</foreign> (sic) for <foreign xml:lang="la">complentibus</foreign>.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Lauratianus<supplied reason="lost"> and</supplied><gap reason="lost" extent="unknown"/> established the foundations with his sons and grandsons <gap reason="lost" extent="unknown"/> ?fortune <note>case unknown</note> <gap reason="lost" extent="unknown"/> increases with God favouring <supplied reason="subaudible">?us</supplied>.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1125"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT051" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Claudius Gothicus or Probus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT051</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> The reverse face of <ref type="inscription">62</ref>, q.v., turned side to top 
+               (<dimensions>
+                                 <width unit="metre">0.30</width>
+                                 <height unit="metre">0.34</height>
+                              </dimensions>).
+</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Third century capitals: <height unit="metre" atLeast="0.065" atMost="0.055">0.065-0.055</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0268" notAfter="0270" evidence="either-Claudius-Gothicus-or-Probus">A.D. 268-270 or A.D. 276-282 (either Claudius Gothicus or Probus).</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>: 
+                  <rs type="monuList" key="db832">Capitolium</rs>, found in the vaults; see note on <ref type="inscription">1</ref>.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot
+</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Bartoccini</author>, <ptr target="quaderni"/> 
+                  <biblScope>I:52</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/> 
+               <w lemma="restitutor">restitutor<supplied reason="lost">i</supplied></w> 
+               <w lemma="orbis"><supplied reason="lost">orbis</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/>
+               <persName type="emperor"><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w></supplied> 
+                  <name type="cognomen" nymRef="Caesar"><supplied reason="lost">Caesa</supplied>ri</name> <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Aurelius">Aureli<supplied reason="lost">o</supplied></name>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="3"/>
+               <name type="cognomen" nymRef="Pius"><supplied reason="lost">Pio</supplied></name> <name type="cognomen" nymRef="Felix"><supplied reason="lost">Feli</supplied>ci</name> <w lemma="inuictus">inuicto</w> 
+                  <name type="cognomen" nymRef="Augustus"><expan><abbr>A<supplied reason="lost">ug</supplied></abbr><ex>usto</ex></expan></name>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="4"/>
+               <gap reason="lost" atLeast="7" atMost="8" unit="character"/> <name>Gothico</name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app>
+                  <note> 
+Either Claudius Gothicus, Augustus 268-270, or Probus, Augustus 276-282.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><gap reason="lost"/> to <supplied reason="lost">the</supplied> restorer of the world <supplied reason="lost"><gap reason="lost"/> 
+               Emperor</supplied> Caesar Marcus Aurelius <supplied reason="lost"><gap reason="lost"/>, Pius,</supplied> Felix, unconquered, Augustus, 
+               <gap reason="lost"/> conqueror of the Goths<gap reason="lost"/> </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0073"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DS 800 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="0117"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CS 217)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

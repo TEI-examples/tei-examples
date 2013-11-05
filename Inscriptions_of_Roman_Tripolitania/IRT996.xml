@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT996" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Libyan</rs> text</title>
+            <editor>J. M. Reynolds</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT996</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>,
+<title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>,
+<title level="j">Proceedings of the British School at Rome</title>
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>,
+               no. S.24.</bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <rs type="objectType">Block</rs> of coarse <material>limstone</material> lying
+               beside a ruined mausoleum in the Wadi Umm el-Agerem near <ref type="inscription">906</ref>. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a roughly moulded <rs type="decoration">tabella
+               ansata</rs>, which is flanked on either side by a <rs type="decoration">flower</rs>
+               in high relief.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rought capitals cut between faintly incised guide-lines: there appear to be stops
+               between some of the words: insufficient space was left for l. 5, which is in much
+               smaller lettering.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db899">Wadi Zemzem</placeName>: <rs type="monuList" key="db786">Wadi Umm el-Agerem</rs>. Seen and photographed by
+                  Mrs. Olwen Brogan in summer 1953.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208638/wadi-zamzam.html">Wādī Zamzam</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><orig>masavchanvy sy<hi rend="ligature">st</hi>an</orig>
+               <lb n="2"/><orig>fely</orig> <orig>la<unclear>b</unclear>vnom</orig> <orig>iyllvl</orig>
+               <lb n="3"/><orig>bvnem<gap reason="lost" extent="unknown" unit="character"/>milth<gap reason="lost" extent="unknown" unit="character"/>vyari</orig>
+               <lb n="4"/><orig>vnom anobal b<supplied reason="lost">v</supplied>ne m</orig><gap reason="lost" atLeast="1" atMost="2" unit="character"/>
+               <lb n="5"/><orig>chan ch<gap reason="lost" quantity="1" unit="character"/><unclear>ar</unclear>os<unclear>s</unclear></orig>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="1">
+                  <note> Presumably for <foreign>systan</foreign>, with S with crossbar for ST ligature
+               as in <ref type="inscription">980</ref>.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="2">
+                  <note>
+                     <foreign>Fely</foreign> probably = made, see <ref type="inscription">906</ref>, n.
+               1. </note>
+               </app>
+            </p>
+            <p>
+               <app loc="3">
+                  <note>
+                     <foreign>Bune</foreign> = son of, see <ref type="inscription">906</ref>
+                  </note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Not usefully translatable.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>The following are certainly names: MASAVCHANVY; IYLLVL BVNE M[.]MILTH[?.]?VY (it is
+               not clear where this word ends); ANOBAL BVNE M[..1 or 2..]CHAN; perhaps also SYSTAN.</p>
+            <p>Some
+               of these names recur in <ref type="inscription">906</ref> - Iyllul (Iylul), Anobal
+               (Annobal), and Masauchan without the final letters -uy which appear here. Vy,
+               apparently as a suffix to names, appears in several Libyan inscriptions, cf.
+               Thychlethuy in <ref type="inscription">906</ref> and Masiranuy in <ref type="inscription">992</ref>; it is possible that it may indicate feminine
+               gender.</p>
+            <p>Presumably the persons recorded here are of the same families as those in the closely
+               associated <ref type="inscription">906</ref>, the principals here being apparently
+               of the older generation, as is also suggested by the rather better lettering and more
+               ambitious ornament on this stone. It seems possible to construct three family trees,
+               but the relation between the three is obscure.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

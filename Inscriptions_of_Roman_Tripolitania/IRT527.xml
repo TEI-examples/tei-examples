@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT527" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">honours</rs>
+            </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT527</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <rs type="objectType">Block</rs> 
+               (<dimensions>
+                                 <width unit="metre">1.05</width>
+                                 <height unit="metre">0.52</height>
+                                 <depth unit="metre">0.51</depth>
+                              </dimensions>) of <material>grey limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face; apparently uniform with <ref type="inscription">528</ref>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Irregular capitals: from top of block, l.1, <height unit="metre" atLeast="0.03" atMost="0.12">0.03-0.12</height>; l.2, <height unit="metre" atLeast="0.15" atMost="0.23">0.15-0.23</height>; l.3, <height unit="metre" atLeast="0.27" atMost="0.33">0.27-0.33</height>; l.4, <height unit="metre" atLeast="0.35" atMost="0.40">0.35-0.40</height>; l.5, <height unit="metre" atLeast="0.42" atMost="0.47">0.42-0.47</height>; to bottom, <height unit="metre">0.51</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0081" notAfter="0094" cert="low" evidence="titulature-prosopography">After A.D. 81, before A.D. 94 (titulature, prosopography)</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db720">Forum Vetus</rs>, near the Baptistry.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w part="F"><unclear>i</unclear>ani</w> <w lemma="prouincia">prouinciae</w>
+               <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+                <rs type="military"><w lemma="tribunus"><supplied reason="lost"><expan><abbr>trib</abbr><ex>uno</ex></expan></supplied></w> 
+               <w lemma="miles"><supplied reason="lost"><expan><abbr>mil</abbr><ex>itum</ex></expan></supplied></w>
+               <rs type="military"><supplied reason="lost"><w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> 
+                  <num value="5">V</num></supplied>
+                  <w lemma="Alauda"><supplied reason="lost">A</supplied>laudae</w></rs></rs>  
+               <num value="4">IIII</num><w lemma="uir"><expan><abbr>uir</abbr><ex>o</ex></expan></w> <w lemma="uia"><expan><abbr>uiar</abbr><ex>um</ex></expan></w>
+               <lb n="3"/><supplied reason="lost"><w lemma="curo"><expan><abbr>cur</abbr><ex>andarum</ex></expan></w></supplied>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost"><rs type="military"><w lemma="praefectus"><expan><abbr>praef</abbr><ex>ecto</ex></expan></w> 
+                  <w lemma="auxilium">auxiliorum</w> <w lemma="omnis">omnium</w></rs> <w lemma="aduersus">aduersus</w></supplied> 
+               <placeName type="ethnic" nymRef="Germanus"><supplied reason="lost">Germ</supplied>anos</placeName> <w lemma="donum">donis</w> <w lemma="dono">donato</w>
+               <lb n="4"/><supplied reason="lost"><w lemma="ab">ab</w> 
+                  <w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></w> 
+                  <persName type="emperor"><name type="cognomen" nymRef="Vespasianus">Vespasiano</name> <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <w lemma="et">et</w> 
+                  <persName type="emperor"><name type="praenomen" nymRef="Titus"><expan><abbr>T</abbr><ex>ito</ex></expan></name> 
+                     <persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                     <w lemma="filius"><expan><abbr>f</abbr><ex>ilio</ex></expan></w></persName></supplied>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <rs type="military"><w lemma="hasta"><supplied reason="lost">hastis</supplied></w> <w lemma="purus"><supplied reason="lost">puri</supplied>s</w></rs> 
+               <w lemma="duo">duabus</w> <rs type="military"><w lemma="uexillum">uexillis</w></rs> <w lemma="duo"><expan><abbr>duob</abbr><ex>us</ex></expan></w>
+               <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>
+               <w lemma="allecto"><supplied reason="lost">adlecto</supplied></w> <w lemma="inter">inter</w> <w lemma="patricius">patricios</w>
+               <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><gap reason="lost"/> <supplied reason="lost">the</supplied><gap reason="lost"/>iani of the province. To <gap reason="lost"/> <supplied reason="lost">, military tribune of legion V</supplied> Alaudae, member of the committee of four in charge of road maintenance <supplied reason="subaudible">in Italy</supplied> <gap reason="lost"/> <supplied reason="lost">prefect of all the auxiliary troops assembled against the Germ</supplied>ans, awarded military honours <supplied reason="lost">by Emperor Vespasian Augustus and Titus son of Augustus,</supplied> <gap reason="lost"/> two <supplied reason="lost">silver spears</supplied>, two banners, <gap reason="lost"/> <supplied reason="lost">adlected</supplied> into patrician status <gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 1-2. The military tribune is possibly Cn. Domitius Lucanus, cos. suff. unattested, procos. Africae not long before 94, <title>PIR</title> (2) D 152. 
+               Note however the discrepancy in the number of <foreign xml:lang="la">hastae purae</foreign> and <foreign xml:lang="la">vexilla</foreign> attributed to him here and in <title>ILS</title> 990. 
+               In <title>PIR</title>, loc. cit., it is suggested that fragments published in <title>Riv. Trip</title>. II (1925-6) 69, <title>L'Ann. Ep.</title> 1926, 155 and <title>CIL</title> VIII, 8 may refer to Lucanus or his brother Tullus. In fact these all belong to <ref type="inscription">342</ref> and the Cn. Domitius concerned is Cn. Domitius Ponticus.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0670"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 757)</head>
+               </figure>
+               <figure>
+                  <graphic url="0671"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.XIV.22)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT318" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">dedication</rs> of an altar</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT318</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Octagonal <rs type="objectType">altar</rs> of <material>grey limestone</material>, comprising three separate pieces: 
+               a square, moulded plinth (<dimensions>
+                                 <width unit="metre">0.77</width>
+                                 <height unit="metre">0.77</height>
+                                 <depth unit="metre">0.28</depth>
+                              </dimensions>) with a <rs type="decoration">circular socket</rs> in the centre of the upper face; 
+               an octagonal shaft,  from face to opposite face; <dimensions>
+                                 <width unit="metre">0.45</width>
+                                 <height unit="metre">0.80</height>
+                              </dimensions>), moulded at the foot and mortised into the socket of the plinth; 
+               and an octagonal cornice-block, now much damaged (<dimensions>
+                                 <height unit="metre">0.30</height>
+                              </dimensions>), of which <dimensions>
+                                 <height unit="metre">0.55</height>
+                              </dimensions>, below the mouldings, is flush with, and forms part of, the face of the shaft below.
+              </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on three faces of the octagonal shaft, on the front and right- hand faces in Latin, and on the left- hand face in Neo-Punic. 
+               Texts b) and c) are closely related to <ref type="inscription">347</ref>, inscribed on the parapet which bounds the platform.
+               a) On the front (die, <dimensions>
+                              <width unit="metre">0.19</width>
+                              <height unit="metre">0.68</height>
+                           </dimensions>). l. 1, carved on the upper block, is missing, and ll. 2,3 and 6 overlap on to the adjacent face.
+               b) On the right- hand face (die,<dimensions>
+                              <width unit="metre">0.185</width>
+                              <height unit="metre">0.33</height>
+                           </dimensions>; about half of the text missing).
+               c) On the left- hand face, Neo-Punic 32. The Neo-Punic text is a faithful transcription of the Latin of <ref type="inscription">318</ref> and <ref type="inscription">347</ref>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>a) Capitals with incipient Rustic forms: <height unit="metre" atLeast="0.05" atMost="0.045">0.05-0.045</height>.</handNote>
+                     <handNote>b) Capitals with incipient Rustic forms: <height unit="metre" atLeast="0.035" atMost="0.018">0.035-0.018</height>.</handNote>
+                     <handNote>c) Neo-Punic </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Findspot</p>
+                     <origDate when="0092" evidence="context">Probably A.D. 92 (context)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:  
+                  The plinth was found in position in the <rs type="monuList" key="db756">Theatre</rs>, 
+                  near the centre of the raised limestone paving of the Orchestra, and the shaft and cornice, dispersed in late antiquity, have been recomposed in position. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Caputo</author>, <ptr target="dioniso"/> 
+                  <biblScope>XII:83- 91</biblScope>, pls. I, II</bibl>; 
+               <bibl>
+                  <ptr target="ae"/> 
+                  <biblScope>1949:159,160</biblScope>
+               </bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div n="a" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+                  <lb n="2"/><persName type="emperor"><name type="cognomen" nymRef="Augustus"><supplied reason="lost">Augu</supplied>sto</name></persName>
+                  <lb n="3"/><w lemma="sacer"><supplied reason="lost">sac</supplied>rum</w>
+                  <lb n="4"/><persName type="attested"><name type="cognomen" nymRef="Asprenas"><unclear>Asp</unclear><supplied reason="lost">r</supplied>enas</name></persName>
+                  <lb n="5"/><w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w>
+                  <lb n="6"/><w lemma="dedico">dedicauit</w>
+               </ab></div><div n="b" type="textpart"><ab>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/> 
+                  <lb n="2"/><w lemma="ornator">orna<unclear>tor</unclear></w> <w lemma="patria"><unclear>pat</unclear><supplied reason="lost">riae</supplied></w>
+                  <lb n="3"/><w lemma="amator">amator </w> 
+                  <w lemma="concordia">concor<lb n="4" type="inWord"/>diae</w> <w lemma="qui">cui</w> <w lemma="primus">primo</w>
+                  <lb n="5"/><w lemma="ordo">ordo</w> <w lemma="et">et</w> <w lemma="populus">populus</w>
+                  <lb n="6"/><w lemma="ob">ob</w> <w lemma="mereo">merita</w> 
+                  <w lemma="magnus">maio<lb n="7" type="inWord"/>rum</w> <w lemma="is">eius</w> <w lemma="et">et</w> <w lemma="ipse">ipsius</w>
+                  <lb n="8"/><w lemma="fero">lato</w> <w lemma="clauus">clauo</w> 
+                  <w lemma="semper">sem<lb n="9" type="inWord"/>per</w> <w lemma="uti">uti</w> <w lemma="concedo">concessit</w>
+                  <lb n="10"/><w lemma="ara">aram</w> <w lemma="et">et</w> <w lemma="podium"><expan><abbr>podi</abbr><ex>um</ex></expan></w>
+                  <lb n="11"/><w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+                  <w lemma="suus"><expan><abbr>s</abbr><ex>ua</ex></expan></w> 
+                  <w lemma="pecunia"><expan><abbr>p</abbr><ex>ecunia</ex></expan></w> 
+                  <w lemma="facio"><expan><abbr>f</abbr><ex>acienda</ex></expan></w> 
+                  <w lemma="curo"><expan><abbr>c</abbr><ex>urauit</ex></expan></w> 
+               </ab></div><div n="c" type="textpart"><note xml:lang="en">Neo-punic</note></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. Sacred to <gap reason="lost"/> Augustus; Asprenas, proconsul, dedicated <supplied reason="subaudible">this</supplied>
+                              </p><p>b. <gap reason="lost"/> adorner of his country, lover of concord, the first person whom the town council and the people allowed to wear the broad band permanently, on account of his merit and those of his ancestors. He organised the making of the altar and the paved base at his own expense.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>a) l. 4. There is no indication that the altar is earlier than the paving (dated to 92, see <ref type="inscription">347</ref>) on which it stands; 
+            Asprenas is therefore presumably to be distinguished from L. Nonius Asprenas, procos. Africae in 82- 3 (<ref type="inscription">346</ref>).</p>
+            <p>b) l. 1. Ti. Claudius Sestius, see  <ref type="inscription">347</ref>. The surviving text is identical with that of  <ref type="inscription">347</ref>, dated in 92, with the exception of the order of the words in l. 9.  </p>
+            <p>b) l. 9. Referring presumably to the raised limestone paving on which the altar stood. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0382"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 259 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="0383"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 260 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="0384"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 261 Leica)</head>
+               </figure>
+               <figure>
+                  <graphic url="0385"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXI.25)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

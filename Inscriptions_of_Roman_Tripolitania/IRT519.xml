@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT519" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Caeclius Severus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT519</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <rs type="objectType">base</rs> 
+               (<dimensions>
+                                 <width unit="metre">0.81</width>
+                                 <height unit="metre">1.30</height>
+                                 <depth unit="metre">0.75</depth>
+                              </dimensions>) of <material>brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel 
+               (die, <dimensions>
+                              <width unit="metre">0.28</width>
+                              <height unit="metre">0.595</height>
+                           </dimensions>), from which a previous inscription may have been erased. The first word is cut above the die, and the last line below it. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century A.D. capitals: <height unit="metre" atLeast="0.03" atMost="0.04">0.03-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0301" notAfter="0400" precision="low" evidence="lettering">Fourth century A.D. (lettering).</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db704">Severan Basilica</rs>, East Passage.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="attested"><name type="signum" nymRef="Elpidius">Elpidii</name></persName>
+               <lb n="2"/><w lemma="omnis">Omnium</w> <w lemma="uirtus">uir<lb n="3" type="inWord"/>tutum</w> 
+               <w lemma="praedicabilis">praedi<lb n="4" type="inWord"/>cabili</w> <w lemma="uir">uiro</w> <w lemma="et">et</w> 
+               <w lemma="supra">su<lb n="5" type="inWord"/>pra</w> <w lemma="documentum">documenta</w>
+               <lb n="6"/><w lemma="bonitas">bonitatis</w> <w lemma="insignis">insigni</w>
+               <lb n="7"/><w lemma="atque">adque</w> <w lemma="magnificus">magnifico</w>
+               <lb n="8"/><persName type="attested"><name type="gentilicium" nymRef="Caecilius">Caecilio</name> <name type="cognomen" nymRef="Seuerus">Seuero</name></persName> <w lemma="uir"><expan><abbr>u</abbr><ex>iro</ex></expan></w> 
+               <w lemma="clarus"><expan><abbr>c</abbr><ex>larissimo</ex></expan></w>  
+               <lb n="9"/><w lemma="ago"><expan><abbr>a</abbr><ex>genti</ex></expan></w> 
+               <w lemma="uicis"><expan><abbr>u</abbr><ex>ices</ex></expan></w> 
+               <w lemma="praefectus"><expan><abbr>praef</abbr><ex>ectorum</ex></expan></w>  <w lemma="praetorius">praetorio</w>
+               <lb n="10"/><w lemma="ob">ob</w> <w lemma="multiformis">multiformem</w>
+               <lb n="11"/><w lemma="iudicium">iudiciorum</w> <w lemma="is">eius</w> <w lemma="in">in</w>
+               <lb n="12"/><w lemma="se">se</w> <w lemma="moderatio">moderationem</w>
+               <lb n="13"/><w lemma="ex">ex</w> <w lemma="decerno">decreto</w> <w lemma="et">et</w> 
+               <w lemma="suffragium">sufra<lb n="14" type="inWord"/>gio</w> 
+               <gap reason="lost" quantity="15" unit="character" precision="low"/> 
+               <lb n="15"/><placeName type="ethnic" nymRef="Lepcitanus"><w lemma="Lepcitanus">Lepcitani</w></placeName> <w lemma="publice">publice</w>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="9">
+                  <note>PRAEFF. </note>
+               </app>
+            </p>
+            <p>
+               <app loc="13-14">
+                  <lem>sufragio</lem>
+                  <note>sic</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="subaudible">In honour</supplied> of Elpidius. To a man deserving praise for all virtues, distinguished and magnificent for goodness beyond documentation, Caecilius Severus, splendid man<note> of senatorial status</note>, acting as deputy for the praetorian prefects; the Lepcitanians <supplied reason="subaudible">set this up</supplied> publicly on account of the manifold moderation of his judgments in their cases, and in accordance with a decree and a vote <gap reason="lost" extent="unknown" unit="character" precision="low"/>  </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 1. Elpidius. Perhaps to be identified with <title level="m">PW</title> VIII, 206, 1 and if so <foreign xml:lang="la">vicarius</foreign> in 321. See also <title>ILS</title> 8730. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0660"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 1524 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

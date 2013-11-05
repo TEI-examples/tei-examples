@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT871" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">Libyan</rs> text</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT871</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Two <rs type="objectType">block</rs>s of <material>limestone</material> (<dimensions>
+                                 <width unit="metre">0.70</width>
+                              </dimensions> and <dimensions>
+                                 <width unit="metre">0.96</width>
+                                 <height unit="metre">0.60</height>
+                                 <depth unit="metre">0.33</depth>
+                              </dimensions> 
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed within a <rs type="decoration">tabella ansata</rs>(die, <dimensions>
+                              <width unit="metre">0.90</width>
+                              <height unit="metre">0.40</height>
+                           </dimensions>, width incomplete)
+               of which the right-hand end, on a third block, is missing. The inscribed surface is badly damaged.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rough capitals: <height unit="metre" atLeast="0.035" atMost="0.04">0.035-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db650">Eastern Djebel</placeName>: 
+                  beside the ruins of a small ditched gasr at <rs type="monuList" key="db684">Sidi Sames</rs> (map ref. L 660010), 8 km. North East of Ain Wif, close to the Garian-Tarhuna track. Seen and transcribed in <date type="foundDate">1948</date> by Goodchild and Ward Perkins</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot (1948)</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="http://www.geonames.org/2211468/jami%60-sidi-as-samis.html">Jāmi` Sīdī as Sāmis</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Goodchikd and Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="ber-Latn" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="lost" quantity="10" unit="character" precision="low"/><orig>e<unclear>p</unclear></orig><gap reason="lost" quantity="2" unit="character"/><orig>c<unclear>ii</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><orig>n</orig><gap reason="lost" quantity="18" unit="character" precision="low"/><orig>ni</orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="3"/>
+               <orig>ni</orig><gap reason="lost" quantity="2" unit="character"/><orig>sarorum</orig><gap reason="lost" quantity="2" unit="character"/><orig>vg</orig> <unclear>IIIII</unclear>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="4"/><orig>i<unclear>n</unclear>pinsisi<unclear>n</unclear></orig><gap reason="lost" quantity="16" unit="character" precision="low"/><orig><unclear>p</unclear>isf</orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="5"/>
+               <gap reason="lost" extent="unknown" unit="line"/>
+               <lb n="6"/>
+               <gap reason="lost" extent="unknown" unit="line"/>
+               <lb n="7"/><orig>l<unclear>ini</unclear></orig><gap reason="lost" quantity="2" unit="character"/><orig>imi</orig><gap reason="lost" quantity="2" unit="character"/><orig>riusc<unclear>o</unclear></orig><gap reason="lost" quantity="2" unit="character"/><orig>n</orig><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Not usefully translatable, but may be from the word <foreign xml:lang="la">noster</foreign>, our.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+                     
+               <figure>
+                  <graphic url="1084"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XII.28)</head>
+               </figure>
+                     
+               <figure>
+                  <graphic url="1085"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XII.29)</head>
+               </figure>
+                     
+               <figure>
+                  <graphic url="1086"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XII.30)</head>
+               </figure>
+                  </p>
+         </div>
+      </body>
+   </text>
+</TEI>

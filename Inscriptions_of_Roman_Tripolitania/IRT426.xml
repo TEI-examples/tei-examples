@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT426" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to ?Caracalla</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT426</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <material>Marble</material> 
+                              <rs type="objectType">block</rs> 
+               (<dimensions>
+                                 <width unit="metre">0.51</width>
+                                 <height unit="metre">0.34</height>
+                                 <depth unit="metre">1.42</depth>
+                              </dimensions>) inscribed on the two end faces; see also <ref type="inscription">591</ref>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Rustic capitals: <height unit="metre">0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0198" notAfter="0210" evidence="titulature">A.D. 198-210 (titulature)</origDate>
+                     <precision match="//origDate/"/>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db719">Forum Severianum</rs>, at the angle of the East and South Porticoes.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="0"/>
+               <gap reason="lost" quantity="1" unit="line"/>
+               <lb n="1"/><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></w> 
+               <persName type="emperor"><name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> 
+               <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name type="gentilicium" nymRef="Septimius">Septimi</name>  <name type="cognomen" nymRef="Seuerus">Seueri</name> <name type="cognomen" nymRef="Pius">Pii</name>
+               <lb n="2"/><name type="cognomen" nymRef="Pertinax">Pertinacis</name> <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <name>Arabici</name>
+               <lb n="3"/><name type="cognomen" nymRef="Adiabenicus">Adiabenici</name> <name type="cognomen" nymRef="Parthicus">Parthici</name> <w lemma="magnus">ma<lb n="4" type="inWord"/>ximi</w> </persName>
+               <w lemma="felix">felicissimi</w> <w lemma="pater"><expan><abbr>p</abbr><ex>atris</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w>
+               <lb n="5"/><w lemma="filius">filio</w></ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><gap reason="lost"/> son of emperor Caesar Lucius Septimius Severus Pius Pertinax Augustus, victor in Arabia, victor in Adiabene, greatest victor in Parthia, most fortunate, father of the country.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l.5: Presumably Caracalla, from 198.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0548"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM 231 Lastre)</head>
+               </figure>
+               <figure>
+                  <graphic url="0549"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 51.III.39)</head>
+               </figure>
+               <figure>
+                  <graphic url="0550"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

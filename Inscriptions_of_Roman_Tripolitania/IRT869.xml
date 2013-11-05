@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT869" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">building</rs> inscription </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT869</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <rs type="objectType">Block</rs> of <material>yellow limestone</material> (<dimensions>
+                                 <width unit="metre">0.70</width>
+                                 <height unit="metre">0.31</height>
+                                 <depth unit="metre">0.14</depth>
+                              </dimensions>), the right-hand edge of which appears to have been incorporated in a later building. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Capitals: <height unit="metre">0.025</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db650">Eastern Djebel</placeName>:  
+                  From <rs type="monuList" key="db677">Ain Wif</rs> (map ref. Q 643965 see 868), from  the ruins of a bath-house beside the spring.</p>
+                        </event>
+                        <event type="observed">
+                           <p> </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208839/%60ayn-wif.html">`Ayn Wīf</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p> 
+               <bibl>
+                  <author>Goodchild and Ward Perkins</author>, <ptr target="jrs"/>, <biblScope>XXXIX: 86-8</biblScope>, pi. XI, 2</bibl>: 
+              <bibl>
+                  <ptr target="ae"/>, <biblScope>1950:127</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="attested"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name type="gentilicium" nymRef="Coelius">Coeli<supplied reason="lost">us</supplied></name>
+               <gap reason="lost" quantity="16" unit="character" precision="low"/><lb n="2" type="inWord"/><name type="cognomen"><seg part="F">ninus</seg></name></persName>  <gap reason="lost" quantity="12" unit="character" precision="low"/>
+               <lb n="3"/><w lemma="balnea">balneum</w> 
+               <w lemma="uetustas">u<supplied reason="lost">etustate</supplied></w> 
+               <w lemma="corrumpo"><supplied reason="lost">corrup</supplied><lb n="4" type="inWord"/>tum</w> 
+               <w lemma="restituo">restituendum</w> <supplied reason="lost"><w lemma="curo">curauit</w></supplied>
+               <lb n="5"/><w lemma="idem">eidem</w> <w lemma="assus">assam</w> <w lemma="cella">cellam</w> <w lemma="ab">a</w> <w lemma="solum">so<supplied reason="lost">lo</supplied></w>
+               <lb n="6"/><w lemma="facio">fecit</w> <w lemma="et">et </w><w lemma="cylisterium">cylisterium</w> <w lemma="instituo">institu<lb n="7" type="inWord"/>it</w> 
+               <w lemma="curo">curante</w> <persName type="attested"><name type="gentilicium" nymRef="Iunius">Iunio</name> <name type="cognomen" nymRef="Sucessus">Sucesso</name></persName> <note>sic</note>
+               <lb n="8"/>
+               <rs type="military"><w lemma="centurio"><expan><abbr>c</abbr><ex>enturione</ex></expan></w></rs> <w lemma="princeps">principe</w></ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="2">
+                  <lem>-ninus</lem>
+                  <note>Or <foreign xml:lang="la">Ninus</foreign>; but the <rs type="decoration">ivy leaf</rs> at the beginning of the line is probably decorative rather than a stop.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Marcus Coelius <gap reason="lost"/>ninus<note> or Ninus</note> <gap reason="lost"/> saw to the restoration of the bath, which was in bad condition as a result of its age. He also built the sweating-chamber from its foundations and instituted an exercise-room,. Junius Successus, centurion of the principes, was in charge <supplied reason="subaudible">of the work</supplied>.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1080"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DTV 402)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

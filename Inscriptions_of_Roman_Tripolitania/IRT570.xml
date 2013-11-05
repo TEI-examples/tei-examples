@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT570" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary <rs type="textType">honours</rs> for Flavius Victorinus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT570</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Rectangular <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.56</width>
+                                 <height unit="metre">0.85</height>
+                                 <depth unit="metre">0.50</depth>
+                              </dimensions>) of coarse <material>brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.27</width>
+                              <height unit="metre">0.57</height>
+                           </dimensions>); the first word is cut above the die. 
+               The text is very lightly cut on a rough surface from which a previous inscription has been completely erased. Decipherment is therefore extremely difficult.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Fourth century A.D. capitals: <height unit="metre" atLeast="0.02" atMost="0.04">0.02-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0301" notAfter="0400" precision="low" evidence="lettering">Fourth century A.D. (lettering).</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db719">Forum Severianum</rs>, North Portico. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><gap reason="lost" quantity="1" unit="character"/><persName type="attested"><name type="signum"><seg part="F">allom<unclear>et</unclear>is</seg></name></persName>
+               <lb n="2"/><w lemma="praedicabilis">Praedicabilis</w>
+               <w lemma="integritas">in<lb n="3" type="inWord"/>tegritatis</w> <w lemma="et">et</w> <w lemma="beneuolus">beniuoli</w>
+               <lb n="4"/><w lemma="uigor">uigoris</w> <w lemma="iustitia">iustitiae</w> 
+               <w lemma="singularis">singu<lb n="5" type="inWord"/>laris</w>
+               <persName type="attested"><name type="gentilicium" nymRef="Flauius">Flauio</name> <name type="cognomen" nymRef="Victorianus">Victori<unclear>ano</unclear></name></persName>
+               <lb n="6"/><w lemma="comes">com<unclear>i</unclear>t<unclear>i</unclear></w> <orig><unclear>c</unclear>e<unclear>si</unclear></orig> 
+                <placeName nymRef="Africa">Afric<unclear>ae</unclear></placeName>
+               <lb n="7"/><w lemma="qui">quod</w> <w lemma="defateor">defesso</w> <w lemma="territorium">territo<unclear>rio</unclear></w>
+               <lb n="8"/><w lemma="nimium">nimia</w> <w lemma="incursatio">in<unclear>curs</unclear>atione</w> <w lemma="barbarus">ba<supplied reason="lost">r</supplied>
+               <lb n="9"/>barorum</w> <w part="I">sequens</w><gap reason="lost" atLeast="6" atMost="7" unit="character"/>
+               <lb n="10"/><w part="I">excubia</w><gap reason="lost" extent="unknown" unit="character"/><w lemma="moderatio">m<unclear>o</unclear><lb n="11" type="inWord"/>deratione</w><w lemma="iudex"> iu<supplied reason="lost">dici</supplied></w> <gap reason="lost" extent="unknown" unit="character"/><lb n="12" type="inWord"/><w part="I">am</w> <w part="I">public</w><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="13"/><w lemma="qui">quam</w> <w part="I">pr</w> 
+               <gap reason="lost" extent="unknown" unit="character"/><lb n="14"/> <gap reason="lost" extent="unknown" unit="character"/>
+               <placeName type="ethnic" nymRef="Lepcimagnensis">Lepcim<lb n="15" type="inWord"/><supplied reason="lost">agnenses</supplied></placeName>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app>
+                  <note>On further examination of the photographs of this base since 1951, more of the inscription has been read.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="6">
+                  <note>It would be possible to read <foreign xml:lang="la">
+                        <expan>
+                           <abbr>com</abbr>
+                           <ex>iti</ex>
+                        </expan>
+                     </foreign> et or <foreign xml:lang="la">
+                        <expan>
+                           <abbr>comit</abbr>
+                           <ex>i</ex>
+                        </expan>
+                     </foreign> at the beginning of the line. The word which follows is difficult to read-<foreign xml:lang="la">diocesis</foreign> would give sense, but the first four letters would have to be very cramped to fit into the space available.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="7">
+                  <rdg>
+                     quod de<unclear>fe</unclear>ss<gap reason="lost" extent="unknown" unit="character"/>
+                  </rdg>
+                  <note>Perhaps quod defess[...</note>
+               </app>
+            </p>
+            <p>
+               <app loc="3">
+                  <lem>beniuoli</lem>
+                  <note>sic</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><supplied reason="subaudible">In honour</supplied> of <gap reason="lost"/>allometis <note>or <gap reason="lost"/>allomes</note>. To <supplied reason="subaudible">a man of</supplied> praiseworthy integrity, benevolent energy and remarkable justice, Flavius Victorianus, count <supplied reason="lost" cert="low">of the province</supplied> of Africa, because he restored to a land wearied by excessive barbarian invasion, following <gap reason="lost" extent="6-7" unit="character"/> of keeping watch <gap reason="lost" quantity="14" unit="character" precision="low"/> by the moderation of his judgments <gap reason="lost" quantity="6" unit="character" precision="low"/> the <gap reason="lost"/> both of the city and private persons also <gap reason="lost" quantity="12" unit="character" precision="low"/> the Lepcimagnensians <supplied reason="lost">set this up </supplied><gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>Flavius Victorianus was <foreign xml:lang="la">comes Africae</foreign> between 375 and 378, see <title>CIL</title> VIII, 10937. the activities for which he is honoured in this inscription are clearly part of the aftermath of the Austurian invasion of Tripolitania c. 363-5, see Amm. Marc. XXVIII 6 and especially <ref type="inscription">476</ref>, <ref type="inscription">526</ref>, and <ref type="inscription">571</ref>, of approximately the same date as this text.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0750"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 1006)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT002" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Caelestis for health of emperors</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT002</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Moulded <material>marble</material> 
+                              <rs type="objectType">base</rs>
+               (<dimensions>
+                                 <width unit="metre">0.59</width>
+                                 <height unit="metre">1.04</height>
+                                 <depth unit="metre">0.66</depth>
+                              </dimensions>) with socket for statue on top.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face 
+               (die, <dimensions>
+                              <width unit="metre">0.44</width>
+                              <height unit="metre">0.55</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Second century capitals: <height unit="metre">0.03</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0177" notAfter="0180" evidence="reign">A.D. 177-180 (reign).</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:
+                  <rs type="monuList" key="db854">Port area</rs>
+                           </p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db660">Sabratha Museum</rs>. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2009-11-03" who="GB">Cleaned up abbreviations</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cil"/> 
+                  <biblScope>VIII:22689</biblScope>
+               </bibl>;
+               <bibl>
+                  <author>Aurigemma</author>,  <ptr target="notizarch"/> 
+                  <biblScope>I:241</biblScope> ff. and fig.</bibl>;
+               <bibl>
+                  <ptr target="afrital"/>, <biblScope>VII:134</biblScope>, fig. 2</bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="divine"><w lemma="dominus"><supplied reason="lost">Do</supplied>minae</w>
+                  <name type="cognomen" nymRef="Caelestis">Caelesti</name></persName> 
+               <lb n="2"/><w lemma="pro"><supplied reason="lost">pro</supplied></w> <w lemma="salus">salute</w> 
+                <w lemma="imperator"><expan><abbr>Imp<am>p</am></abbr><ex>eratorum</ex></expan></w>
+               <lb n="3"/><persName type="emperor"><name type="praenomen" nymRef="Marcus"><supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan></supplied></name> 
+                <name type="gentilicium" nymRef="Aurelius"><supplied reason="lost">A</supplied>ureli</name>
+                  <name type="cognomen" nymRef="Antoninus">Antonini</name></persName> <w lemma="et">et</w> 
+               <lb n="4"/><persName type="emperor"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arci</ex></expan></name>
+                <name type="gentilicium" nymRef="Aurelius">Aureli</name>
+                  <name type="cognomen" nymRef="Commodus">Commodo</name></persName>  <note>sic</note>
+                <lb n="5"/><persName type="emperor"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>ustorum</ex></expan></name></persName>  
+               <del rend="erasure"><supplied reason="lost"><w lemma="et">et</w> 
+                  <persName type="emperor"><name type="cognomen" nymRef="Crispina">Crispinae</name> 
+                   <name type="cognomen" nymRef="Augusta"><expan><abbr>Aug<am>g</am></abbr><ex>ustae</ex></expan></name></persName></supplied></del>
+               <lb n="6"/><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
+               <lb n="7"/><persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name type="gentilicium" nymRef="Aemilius">Aemilius</name> 
+                <name type="cognomen" nymRef="Calpurnianus">Calpurni<lb n="8" type="inWord"/>anus</name>
+                  <name type="cognomen" nymRef="Muse">Muse</name></persName> <w lemma="et">et</w> 
+               <persName type="attested"><name type="gentilicium" nymRef="Mucia">Mucia</name> 
+               <lb n="9"/><name type="cognomen" nymRef="Pudentilla">Pudentilla</name></persName>
+   <w lemma="is">eius</w> 
+               <lb n="10"/><w lemma="ob">ob</w> <w lemma="honor">honorem</w>
+               <lb n="11"/><persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name type="gentilicium" nymRef="Aemilius">Aemili</name> 
+                <name type="cognomen" nymRef="Mucianus">Muciani</name></persName> <w lemma="et">et</w> 
+               <lb n="12"/>
+               <persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Aemilius">Aemili</name> 
+                <name type="cognomen" nymRef="Augurinus">Augurini</name></persName> 
+               <lb n="13"/><w lemma="quondam">quondam</w> <w lemma="filius">filiorum</w>  
+               <lb n="14"/><w lemma="pius">piissimorum</w>
+   <w lemma="do"><expan><abbr>d</abbr><ex>ederunt</ex></expan></w> 
+               <w lemma="dedico"><expan><abbr>d</abbr><ex>edicauerunt</ex></expan></w> 
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="2">
+                  <lem>IMPP.</lem>
+               </app>
+            </p>
+            <p>
+               <app loc="5">
+                  <lem>AVGG.</lem>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Mistress Caelestis, for the welfare of Emperors <supplied reason="lost">Marcus A</supplied>urelius
+            Antoninus and Marcus Aurelius Commodus, Augusti, <del rend="erasure"><supplied reason="lost">and Crispina Augusta</supplied>
+            <gap reason="lost"/></del>; Lucius Aemilius Calpurnianus Muse and his wife, Mucia Pudentilla, gave and
+            dedicated <supplied reason="subaudible">this</supplied> on account of the honours paid to Lucius Aemilius
+            Mucianus and Quintus Aemilius Augurinus, formerly their most dutiful sons.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>Commodus' name (l. 4) was erased after his death in 192 but reinserted later.</p>
+            <p>Commodus was Augustus with his father from 177 to l80. </p>
+            <p>For the lost line 6 Aurigemma, loc. cit., suggests <foreign xml:lang="la">matris castrorum</foreign> or <foreign xml:lang="la">matris senatus</foreign>, titles which are not 
+                     elsewhere attested for Crispina.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0002"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.X.23)</head>
+               </figure>
+               <figure>
+                  <graphic url="0003"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DS 860 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

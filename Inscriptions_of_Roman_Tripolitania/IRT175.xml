@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT175" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT175</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Three pieces of a monumental <material>marble</material> 
+                              <rs type="objectType">panel</rs>.</p>
+                           <p>a) <dimensions>
+                                 <width unit="metre">0.21</width>
+                                 <height unit="metre">0.11</height>
+                              </dimensions>, upper edge. b) <dimensions>
+                                 <width unit="metre">0.54</width>
+                                 <height unit="metre">0.36</height>
+                              </dimensions>, right hand edge. c) <dimensions>
+                                 <width unit="metre">0.74</width>
+                                 <height unit="metre">0.24</height>
+                              </dimensions>, lower edge. See also <ref type="inscription">176</ref>
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the surviving faces.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Second century, lapidary capitals, <height unit="metre">0.13</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0101" notAfter="0200" precision="low" evidence="lettering">Second century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:
+                  <rs type="monuList" key="db832">Capitolium</rs>, found in the vaults; see note on <ref type="inscription">1</ref>.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="fragment" n="a" type="textpart"><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/> <w part="I">c</w><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div><div subtype="fragment" n="b" type="textpart"><ab>
+              <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/><orig>m<unclear>o</unclear></orig><gap reason="lost" quantity="1" unit="character"/> 
+               <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/><w lemma="marmor" part="I"><supplied reason="lost">ma</supplied>rmor</w><lb n="3" type="inWord"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">it</w> <w lemma="et">et</w> <w part="I"><unclear>e</unclear></w>
+               </ab></div><div subtype="fragment" n="c" type="textpart"><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w part="I"><supplied reason="lost">e</supplied>xstrux</w><gap reason="lost" extent="unknown" unit="character"/>
+                  </ab></div></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="b 1">
+                  <note> Or C, G, or Q.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>b. <gap reason="lost"/> marble <gap reason="lost"/></p><p>c. <gap reason="lost"/>he/she/they constructed <gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0046"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXVII.13)</head>
+               </figure>
+               <figure>
+                  <graphic url="0096"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CS 220)</head>
+               </figure>
+               <figure>
+                  <graphic url="0157"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr CS 274 bis)</head>
+               </figure>
+               <figure>
+                  <graphic url="0211"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXVII.13 (part))</head>
+               </figure>
+               <figure>
+                  <graphic url="0212"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr CS 220 (part))</head>
+               </figure>
+               <figure>
+                  <graphic url="0213"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr CS 220 (part))</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

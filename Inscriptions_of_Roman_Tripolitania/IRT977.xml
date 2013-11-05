@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT977" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragmentary  <rs type="textType">building</rs>  inscription</title>
+            <editor>J. M. Reynolds</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT977</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                  (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+                  <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>,
+<title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>,
+<title level="j">Proceedings of the British School at Rome</title>
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>,
+   no. S.5.</bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Fragment, possibly from the lower part, of a <material>marble</material> 
+                              <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.38</width>
+                                 <height unit="metre">0.27</height>
+                                 <depth unit="metre">0.19</depth>
+                              </dimensions>)
+              </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face (surviving surface, <dimensions>
+                              <width unit="metre">0.29</width>
+                              <height unit="metre">0.25</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Late second or early third century; rustic capitals, closely resembling those of <ref type="inscription">525</ref>: l. 1, not measurable;
+               l. 2, 3, <height unit="metre">0.048</height>;
+               l. 4, <height unit="metre">0.045</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0267" notAfter="0233" evidence="lettering">Late second or early third century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:
+                  <rs type="monuList" key="db719">Forum Severianum</rs>. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Now in one of the tabernae of the East Portico of the Forum
+                  Severianum.2</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName type="emperor"><w lemma="imperator"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator-</ex></expan></supplied></w>
+               <name type="cognomen" nymRef="Caesar"><expan><abbr><supplied reason="lost">C</supplied><unclear>ae</unclear>s</abbr><ex>ar-</ex></expan></name>
+               <name><seg part="I"><unclear>M</unclear><supplied reason="lost">arc</supplied></seg></name><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><name type="cognomen" nymRef="Augustus"><seg part="I"><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>ust</ex></expan></seg></name></persName> 
+               <w lemma="et">et</w> <persName type="attested"><name type="cognomen" nymRef="Caecilianus"><seg part="I">Caecilia</seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><rs type="military"><supplied reason="lost"><w part="I"><expan><abbr>trib</abbr><ex>un-</ex></expan></w>
+                  <w lemma="miles"><expan><abbr>mil</abbr><ex>itum</ex></expan></w></supplied>
+               <del rend="erasure">
+                  <w lemma="cohors"><expan><abbr>coh</abbr><ex>ortis</ex></expan></w>
+               </del>
+               <num value="2">II</num>
+               
+                  <del rend="erasure"><w lemma="miliarius"><expan><abbr>mil</abbr><ex>iariae</ex></expan></w><w lemma="Montanus" part="I">
+               
+               <seg part="I">
+<abbr><unclear>M</unclear>on</abbr></seg></w></del></rs><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><w part="F">atiae</w>
+                  <w lemma="facio" part="I">fec</w><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">emperor</supplied> Caesar Marcus <note>case unknown</note> <gap reason="lost" extent="unknown" unit="character"/> Augusti <note>case unknown but probably genitive</note> and Caecilia <note>?Caecilianus; case unknown but quite probably nominative</note> <gap reason="lost" extent="unknown" unit="character"/> military tribune of cohort II miliaria Mon<supplied reason="lost" cert="low">tanorum</supplied><gap reason="lost" extent="unknown" unit="character"/> had it made <gap reason="lost" extent="unknown" unit="character"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l.2: <foreign xml:lang="la">AVGG</foreign>. The lettering is of the late second or early third century; the emperors
+               might therefore be M. Aurelius and Verus, M. Aurelius and Commodus, Septimius Severus
+               and Caracalla, Caracalla and Geta; but if Commodus or Geta were involved in the
+               second G of <foreign xml:lang="la">AVGG</foreign> would probably have been erased. On grounds of lettering, Septimius
+               Severus and Caracalla seem the most likely pair.</p>
+            <p>l.3: Presumably <foreign xml:lang="la">Mon(tanorum)</foreign>; otherwise unknown. .</p>
+            <p>It seems possible that the inscription records the erection of a monument (see
+               fec[?erunt] in l. 4) by two men, each of whom had followed careers in the imperial
+               services. The first, whose name is entirely lost, would appear to have reached a rank
+               such as <foreign xml:lang="la">procurator Augustorum</foreign>. The second, perhaps named Caecilia[nus], had passed
+               through the <foreign xml:lang="la">militia equestris</foreign> and possibly proceeded to an office, presumably as
+               procurator, in a province whose name ends -<foreign xml:lang="la">atia</foreign> (e.g. Galatia or Dalmatia).</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

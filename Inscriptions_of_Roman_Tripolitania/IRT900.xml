@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT900" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription of M. Fydel and F. Thesylgum</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT900</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>
+            </bibl>
+            <bibl xml:id="reynolds1955">
+               <author>J. M. Reynolds</author>, <title level="a">Inscriptions of Roman Tripolitania: A Supplement</title>, <title level="j">Proceedings of the British School at Rome</title> 
+               <biblScope type="volume">23</biblScope> (<date>1955</date>), <biblScope type="pages">124-147</biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <rs type="objectType">Block</rs> of <material>limestone</material> originally placed above the door of the second mausoleum in the group nearest the habitations.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a <rs type="decoration">tabella ansata</rs>
+               (surviving <dimensions>
+                              <width unit="metre">0.835</width>
+                              <height unit="metre">0.38</height>
+                           </dimensions>) with plain raised border.
+               Outside the border, on each of the four sides, were two simply moulded <rs type="decoration">volutes</rs>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rough capitals, l. 1, <height unit="metre">0.03</height>;
+               l. 2, <height unit="metre">0.025</height>;
+               ll. 3-5, <height unit="metre">0.03</height>;
+               ll. 6-10, <height unit="metre">0.025</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notAfter="0400" notBefore="0301" evidence="coinage">Fourth century A.D. (coinage)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db899">Wadi Zemzem</placeName>: 
+                  <rs type="monuList" key="db783">Ghirza</rs> (map ref. W 7052), near <ref type="inscription">901</ref>, <ref type="inscription">902</ref>. Seen and described by Denham and Clapperton in <date type="foundDate">1824</date> beside one of the mausolea at Ghirza. 
+               Goodchild identifies the mausoleum as that illustrated by De Mathuisieulx, <title level="j">Nouvelles Archives</title>, XII (1904) pl. VII.
+               The left-hand part was later removed to Istanbul; the right-hand part was rediscovered at Ghirza in <date type="foundDate">1952</date> by Prof. E. Vergara.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Right-hand part in <rs type="monuList" key="db662">Tripoli Castle</rs>; 
+                  left-hand part remains inaccessible in the vaults of the
+                     <rs type="monuList" key="db901">Cinili Kösk, Istanbul</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208638/wadi-zamzam.html">Wādī Zamzam</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="cil"/>, <biblScope>VIII:22661</biblScope>=<biblScope>10970</biblScope>=<biblScope>III:743</biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Previous publications and transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="attested"><name type="cognomen" nymRef="M-"><seg part="I">M</seg></name>
+                  <g type="stop"/> <name type="cognomen" nymRef="Fydel">Fydel</name></persName> <w lemma="et">et</w> 
+               <persName type="attested"><name><seg part="I">F</seg></name> <g type="stop"/>
+                  <name type="cognomen" nymRef="Thesylgum">The<unclear>s</unclear>yl<unclear>g</unclear>um</name></persName>
+               <lb n="2"/><w lemma="pater">pater</w> <w lemma="et">et</w> <w lemma="mater">mater</w> 
+               <persName type="attested"><name type="cognomen" nymRef="M-"><seg part="I">M</seg></name>
+                  <g type="stop"/> <name type="cognomen" nymRef="Metusan">Metusanis</name></persName>
+               <lb n="3"/><note>sic</note>  <w lemma="qui">qui</w> <w lemma="is">eis</w> <w lemma="hic">hec</w>
+   <w lemma="memoria">memoriam</w> <w lemma="facio">fecit</w>
+               <lb n="4"/><w lemma="discutio">discussi</w> <w lemma="ratiocinium">ratiocinio</w> 
+              <w lemma="ad">ad</w> <w lemma="is">ea</w>
+   <w lemma="euoco">erog<lb n="5" type="inWord"/>atum</w>
+               <w lemma="sum">est</w> <w lemma="sumo">sumptos</w> <w lemma="merces">mercedes</w>
+               <lb n="6"/><note>sic</note> <w lemma="in">in</w> <w lemma="nummus">numo</w>
+   <w lemma="follis">follis</w> 
+               <w part="I"><unclear>m</unclear></w><gap reason="lost" quantity="7" unit="character" precision="low"/>
+             <w lemma="mille">milia</w>
+               <lb n="7"/><note>sic</note>  <w lemma="praeter">preter</w> <w lemma="cibaria">cibarias</w> 
+               <w lemma="opero">o<supplied reason="lost">perant</supplied>ibus</w>
+               <lb n="8"/><w lemma="feliciter">feliciter</w>
+   <w lemma="lego">legan<supplied reason="lost">t</supplied></w>
+   <supplied reason="lost"><w lemma="et">et</w></supplied>
+               <w lemma="uisito">uissite<lb n="9" type="inWord"/>nt</w> 
+               <w lemma="filius">filos</w> <w lemma="et">et</w> <w lemma="nepos">nepotes</w>
+   <w lemma="meus">meos</w>
+               <lb n="10"/> <w lemma="et">et</w> <w lemma="talis">tales</w> <w lemma="facio">faciant</w>
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="8">
+                  <lem>uissitent<note>sic</note>
+                  </lem>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Marchius Fydel and Flavia Thesylgum, father and mother of Marchius
+   Metusan who had this memorial made for them, and  have reckoned that there was spent on this, in
+   coin <gap reason="lost" extent="unknown"/> thousand folles, and in addition  the food for the workmen.
+   May my sons and grandsons read <supplied reason="subaudible">this</supplied> in good fortune and
+   build others like it.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>The text of ll. 4-10 may be restored, by comparison 
+            with <ref type="inscription">898</ref>: </p>
+            <p>The names are Libyan; for Fydel see also <ref type="inscription">899</ref>, at Ghirza. For Thesylgum it would be possible to read Thefylgum, neither form being otherwise attested. M. and F. are presumably abbreviations for Marchius, as in <ref type="inscription">898</ref> and <ref type="inscription">899</ref>, and for Flauia.</p>
+            <p>The reference to <foreign xml:lang="la">folles</foreign> shows that the date cannot be earlier than the reign of Diocletian. the mising word may perhaps be <foreign xml:lang="la">
+                  <unclear>n</unclear>
+                  <supplied reason="lost">onaginta</supplied>
+               </foreign>.</p>
+            <p>The text is closely related in form and content to <ref type="inscription">898</ref>, and the ornament on the two stones is also very similar; but, since the workmanship of this one is of rather better quality, it is likely to be the earlier of the two. This accords also with the position of the mausoleum in the group.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

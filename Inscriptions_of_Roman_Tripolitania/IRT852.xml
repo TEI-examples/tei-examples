@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT852" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT852</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <rs type="objectType">Base</rs> (<dimensions>
+                                 <width unit="metre">0.56</width>
+                                 <height unit="metre">1.59</height>
+                              </dimensions>) of hard <material>limestone</material> on the back a <rs type="decoration">crown</rs> and <rs type="decoration">fillet</rs> in relief, on the right side a <rs type="decoration">jug</rs>, on the left a <rs type="decoration">patera</rs>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face. For a graffito in the tomb from which this inscription is presumed to come,
+   see Bartoccini, op. cit.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Not recorded.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate>No indication.</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db649">Sabratha</placeName>: 
+                  Found re-used as an impost block in the mosque of Sidi ben Gammu.  
+                  Apparently from <rs type="monuList" key="db867">Zdu near Zliten</rs> (map ref. M 7818).</p>
+                        </event>
+                        <event type="observed">
+                           <p> Not seen. 
+                  </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author> Bartoccini</author>
+                  <ptr target="afrital"/>,  <biblScope>I:232</biblScope> ff. </bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Previous publications.</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="deus">Dis</w>
+               <lb n="2"/><w lemma="manes">manibus</w>
+               <lb n="3"/><w lemma="sacer">sacrum</w>
+               <lb n="4"/>
+               <persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <name type="gentilicium" nymRef="Licinius">Licini</name>
+               <lb n="5"/><name type="cognomen" nymRef="Piso"><supplied reason="lost">Pi</supplied>sonis</name></persName>
+               <lb n="6"/>
+               <persName type="attested"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name type="gentilicium" nymRef="Licinius">Licinius</name>
+               <lb n="7"/><name type="cognomen" nymRef="Rufus"><unclear>Rufus</unclear></name></persName> <w lemma="filius"><expan><abbr>fil</abbr><ex>ius</ex></expan></w>
+               <lb n="8"/><w lemma="pater">patri</w> <w lemma="carus">carissi<supplied reason="lost">mo</supplied></w>
+               <lb n="9"/><w lemma="ex">ex</w> <w lemma="uotum">uoto</w>
+               <lb n="10"/>
+               <w lemma="de"><expan><abbr>d</abbr><ex>e</ex></expan></w> 
+               <w lemma="suus"><expan><abbr>s</abbr><ex>uo</ex></expan></w> 
+               <w lemma="facio"><expan><abbr>f</abbr><ex>ecit</ex></expan></w> 
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Sacred to the gods below of Qinitus Licinius Piso; Quintus Licinius Rufus had this made, in accordance with a vow, for his very dear father, at his own expense.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>No photographs.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

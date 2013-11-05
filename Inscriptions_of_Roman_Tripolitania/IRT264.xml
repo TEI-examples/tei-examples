@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT264" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Asclepius</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT264</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material>Marble</material> 
+                              <rs type="objectType">stele</rs>
+               (<dimensions>
+                                 <width unit="metre">0.43</width>
+                                 <height unit="metre">0.64</height>
+                                 <depth unit="metre">0.08</depth>
+                              </dimensions>) 
+               in the form of a shrine, with flanking Ionic pilasters, pediment containing a <rs type="decoration">bust of Serapis</rs>,
+               and rudimentary <rs type="decoration">acroteria</rs>; in the central panel, a <rs type="decoration">crested serpent</rs> before a <rs type="decoration">pine cone</rs> upon a moulded stand;
+               the base, the lower left-hand corner of which is missing, consists of a podium moulded at the ends, smooth and inscribed at the centre and, between the ends and the centre, recesses which may have contained inset figures. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed around the border of the pediment, on the two pilasters, and on the central panel of the base. a) On the pediment; b) On the pilasters; c) On the base.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Lettering: on the pediment, Greek, <height unit="metre">0.017</height>;
+               on the pilasters, Latin, rough capitals not earlier than third century A.D., <height unit="metre">0.02</height>;
+               on the base, as on the pilasters, <height unit="metre">0.025.</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0201" notAfter="0300" precision="low" evidence="lettering">Third century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db745">Sahel di Homs</rs>
+                           </p>
+                        </event>
+                        <event type="observed">
+                           <p>Formerly in Homs Museum, 
+                   now in <rs type="monuList" key="db654">Lepcis Museum</rs>. </p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="romanelli1925"/>, fig. 29;</bibl>
+               <bibl>
+                  <ptr target="ae"/>, <biblScope>1926:168</biblScope>;</bibl>
+                 <bibl>
+                  <ptr target="seg"/>, <biblScope>IX:804</biblScope>;</bibl>
+               <bibl>
+                  <author>Ciotti</author>, <ptr target="bullcommarch"/>, <biblScope>LXXI: 35</biblScope> ff.;</bibl>
+               <bibl>
+                  <ptr target="ae"/>, <biblScope>1948:101</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="section" n="a" xml:lang="grc" type="textpart"><note>On the pediment.</note><ab>
+                  <lb n="1"/> <persName type="divine"><w lemma="ἀγαθός">ἀγαθῇ</w> <name nymRef="Fortuna">τύχῃ</name></persName> 
+                  <supplied reason="lost"><w lemma="ὁ">τῶν</w></supplied> <w lemma="κύριος"><supplied reason="lost">κυ</supplied>ρίων</w>
+                  <lb n="2"/><persName type="attested"><name type="cognomen" nymRef="Ἀσσκληπιάδης">Ἀσσκληπιάδης</name></persName> <persName type="divine"><w lemma="θεός">θεῷ</w> 
+                     <lb n="3"/><name nymRef="Aesculapius">Ἀσσκληπιῷ</name></persName> <w lemma="εὐχαριστήριον">εὐχαριστήρ<supplied reason="lost">ι</supplied>ον</w>
+                  </ab></div><div subtype="section" n="b" xml:lang="la" type="textpart"><note>On the pilasters.</note><ab>
+                  <lb n="1"/><w lemma="pro">Pro</w> <w lemma="uictoria">uic<lb n="2" type="inWord"/>toria</w>
+                  <lb n="3"/><w lemma="dominus">domi<lb n="4" type="inWord"/>norum</w>
+                  <lb n="5"/><w lemma="noster">nostro<lb n="8" type="inWord"/>rum</w>
+               </ab></div><div subtype="section" n="c" xml:lang="la" type="textpart"><note>On the base.</note><ab>
+                  <lb n="1"/><name>Aretes</name> <w lemma="causa">cau<lb n="2" type="inWord"/>sa</w> 
+                  <persName type="divine"><w lemma="diuus">dio</w> 
+                  <name nymRef="Aesculapius">Aescu<lb n="3" type="inWord"/>lapio</name></persName> 
+                  <persName type="attested"><name type="cognomen" nymRef="Asclepiades">Ascle<lb n="4" type="inWord"/>piades</name> 
+                  <persName type="attested"><name type="cognomen" nymRef="Asclepiades">Ascle<lb n="5" type="inWord"/><supplied reason="lost">piadis</supplied></name></persName> 
+                  <w lemma="filius"><supplied reason="lost">filiu</supplied>s</w></persName> <w lemma="marmorarius">marmorari<supplied reason="lost">u</supplied>s</w>
+                  <lb n="6"/><placeName nymRef="Nicomedia">Nicome<unclear>d</unclear><supplied reason="lost">ia</supplied></placeName>
+               </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. For the good fortune of our lords; Asclepiades <supplied reason="subaudible">set up</supplied> a thank-offering to the god Asclepius. b. For the victory of our lords. c. Because of his excellence, to the god Asclepius; Asclepiades son of Asclepiades, marble-merchant from Nicomedia.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0310"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. A 775)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

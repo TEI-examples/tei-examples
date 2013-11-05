@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT096" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Avitius Rufus </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT096</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <material>Marble</material> 
+                              <rs type="objectType">panel</rs> 
+               (<dimensions>
+                                 <width>2.41</width>
+                                 <height unit="metre">0.71</height>
+                              </dimensions>, 
+               both ends missing).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>nscribed within a moulded border. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Second century lapidary capitals: lines 1-2, <height unit="metre">0.07</height>; lines 3-5, <height unit="metre">0.06</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0101" notAfter="0200" precision="low" evidence="lettering">Second century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:  
+                  <rs type="monuList" key="db832">Capitolium</rs>, found in the vaults; see note on <ref type="inscription">1</ref>.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2009-01-14" who="NU">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name type="gentilicium" nymRef="Auitius"><supplied reason="lost">A</supplied>uitio</name> <name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> 
+               <w lemma="filius"><expan><abbr>fil</abbr><ex>io</ex></expan></w> <expan><name type="tribe" nymRef="Quirina">
+<abbr>Quir</abbr><ex>ina</ex></name> <w lemma="tribus"><ex>tribu</ex></w></expan> 
+               <name type="cognomen" nymRef="Rufus">Rufo</name></persName> 
+                  <w lemma="tribunus"><expan><abbr>trib</abbr><ex>uno</ex></expan></w> 
+               <w lemma="miles"><expan><abbr>mil</abbr><ex>itum</ex></expan></w> 
+               <w lemma="legio"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num value="7">VII</num>
+               <name type="cognomen" nymRef="Gemina"><expan><abbr>Gem</abbr><ex>inae</ex></expan></name> 
+               <name type="cognomen" nymRef="Felicis"><expan><abbr>F</abbr><supplied reason="lost"><abbr>el</abbr><ex>icis</ex></supplied></expan></name>
+               <lb n="2"/><w lemma="praefectus"><supplied reason="lost"><expan><abbr>praef</abbr><ex>ecto</ex></expan></supplied></w> 
+               <w lemma="cohors"><expan><supplied reason="lost">c</supplied><abbr>oh</abbr><ex>ortis</ex></expan></w> <num value="1">I</num> <w lemma="Augustus"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></w> 
+               <placeName type="ethnic" nymRef="Thrax"><expan><abbr>Thrac</abbr><ex>um</ex></expan></placeName> <w lemma="proximus">proximo</w> <w lemma="tertius">tertiae</w> <w lemma="militia">militiae</w> <orig>II</orig><w lemma="uir">u<supplied reason="lost">iro</supplied></w> 
+               <lb n="3"/><w lemma="decerno"><expan><supplied reason="lost"><abbr>decre</abbr></supplied><abbr>t</abbr><ex>o</ex></expan></w> 
+               <w lemma="ordo"><expan><abbr>ordin</abbr><ex>is</ex></expan></w> <w lemma="ob">ob</w> <w lemma="mereo"><expan><abbr>merit</abbr><ex>a</ex></expan></w> <w lemma="is">eius</w> 
+               <w lemma="erga">erga</w> <w lemma="res">rem</w> <w lemma="publicus">publicam</w> <w lemma="eximius"><unclear>e</unclear>x<supplied reason="lost">imia</supplied></w> 
+               <lb n="4"/><persName type="attested"><name type="praenomen" nymRef="Quintus"><supplied reason="lost"><expan><abbr>Q</abbr><ex>uintus</ex></expan></supplied></name> <name type="gentilicium" nymRef="Auitius"><supplied reason="lost">Aui</supplied>tius</name> <name type="cognomen" nymRef="Lucanus">Lucanus</name></persName> <w lemma="pater">pater</w> <w lemma="titulus">titulo</w><w lemma="et"> et</w> <w lemma="honor">honore</w> <w lemma="contentus"><supplied reason="lost">contentus</supplied></w> 
+               <lb n="5"/> <w lemma="suus"><supplied reason="lost">s</supplied>ua</w> <w lemma="pecunia">pecunia</w> <w lemma="pono">posuit</w> 
+            </ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="1">
+                  <note> Or P(iae) F(elicis).</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>to <gap reason="lost"/> Avitius Rufus, son of Quintus, of the Roman voting tribe Quirina, military tribune in Legion VII Gemina Felix, <supplied reason="lost">prefect</supplied> of cohort I Augusta of Thracians, approaching his third military appointment, duovir; honoured by decree of the city council, on account of his outstanding merits in public affairs; <supplied reason="lost">Quintus</supplied> Auitius Lucanus, his father, was satisfied with the decree and the honour and set <supplied reason="subaudible">this</supplied> up at his own expense. </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0125"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CS 218)</head>
+               </figure>
+               <figure>
+                  <graphic url="0208"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CS 218)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

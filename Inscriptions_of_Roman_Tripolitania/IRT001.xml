@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT001" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Reference to Apollo (?)</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT001</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Fragment from the lower part of a small, <material>white marble</material>
+                              <rs type="objectType">panel</rs>
+               (<dimensions>
+                                 <width unit="metre">0.09</width> 
+                                 <height unit="metre">0.14</height>
+                                 <depth unit="metre">0.02</depth>
+                              </dimensions>; no edges surviving, 
+               but there is a space after 1. 3); 
+               re-used at a later date for an inscription cut in third century capitals, of which the letters 
+               [...]<foreign xml:lang="la">TT</foreign>[...] alone survive. </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the surviving face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Rustic capitals: line 1, <height>0.05</height>; line 2, <height unit="metre">0.04</height>; line 3, <height unit="metre">0.03</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0101" notAfter="0188" precision="low" evidence="lettering">Second to early third centuries A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:
+                  <rs type="monuList" key="db832">Capitolium</rs>, found in the vaults.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div subtype="recording" type="history">
+            <p> When excavated by Bartoccini, these vaults were found to contain a large series of
+      architectural fragments, inscriptions, and burnt debris, deposited almost certainly when
+      the Forum area was cleared after the disastrous sack of the city by the Austuriani,
+      c. 363-5 (see introduction). Other inscriptions in the series are:
+      <ref type="inscription">3</ref>, <ref type="inscription">10</ref>,
+      <ref type="inscription">11</ref>, <ref type="inscription">14</ref>, 
+      <ref type="inscription">17</ref>, <ref type="inscription">19</ref>,
+      <ref type="inscription">20</ref>, <ref type="inscription">24</ref>,
+      <ref type="inscription">25</ref>, <ref type="inscription">26</ref>, <ref type="inscription">28</ref>,
+      <ref type="inscription">30</ref>, <ref type="inscription">32</ref>,
+      <ref type="inscription">34</ref>,<ref type="inscription">38</ref>, <ref type="inscription">39</ref>,
+      <ref type="inscription">42</ref>, <ref type="inscription">44</ref>,
+      <ref type="inscription">48</ref>, <ref type="inscription">50</ref>, 
+      <ref type="inscription">51</ref>, <ref type="inscription">52</ref>,
+      <ref type="inscription">54</ref>, <ref type="inscription">62</ref>,
+      <ref type="inscription">64</ref>, <ref type="inscription">65</ref>, <ref type="inscription">66</ref>,
+      <ref type="inscription">67</ref>, <ref type="inscription">70</ref>,
+      <ref type="inscription">71</ref>, <ref type="inscription">73</ref>, <ref type="inscription">75</ref>,
+      <ref type="inscription">76</ref>, <ref type="inscription">77</ref>,
+      <ref type="inscription">82</ref>, <ref type="inscription">84</ref>, <ref type="inscription">87</ref>,
+      <ref type="inscription">88</ref>, <ref type="inscription">92</ref>,
+      <ref type="inscription">95</ref>, <ref type="inscription">96</ref>,
+      <ref type="inscription">97</ref>, <ref type="inscription">99</ref>, 
+      <ref type="inscription">113</ref>, <ref type="inscription">115</ref>,
+      <ref type="inscription">116</ref>, <ref type="inscription">117</ref>,
+      <ref type="inscription">128</ref>, <ref type="inscription">131</ref>, 
+      <ref type="inscription">133</ref>, <ref type="inscription">137</ref>, 
+      <ref type="inscription">139</ref>, <ref type="inscription">140</ref>,
+      <ref type="inscription">141</ref>, <ref type="inscription">143</ref>, <ref type="inscription">147</ref>, 
+      <ref type="inscription">149</ref>, <ref type="inscription">156</ref>,
+      <ref type="inscription">160</ref>, <ref type="inscription">167</ref>,
+      <ref type="inscription">168</ref>, <ref type="inscription">172</ref>, 
+      <ref type="inscription">175</ref>, <ref type="inscription">190</ref>.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/><w part="M">ecur</w><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/> 
+               <persName type="attested"><name type="cognomen" nymRef="Apolli-"><seg part="I">Apolli<supplied reason="lost">n</supplied></seg></name></persName><gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="3"/>
+               <gap reason="lost" extent="unknown" unit="character"/> 
+               <w part="I">inp</w><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>Not usefully translatable</note></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>There may be a reference to the god Apollo, or part of a personal name (e.g. Apollinaris).</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0001"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 48.XXVII.15)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

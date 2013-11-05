@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT861" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscription</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT861</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Elaborate <rs type="objectType">tomb-slab</rs> (<dimensions>
+                                 <width unit="metre">0.50</width>
+                                 <height unit="metre">1.60</height>
+                                 <depth unit="metre">0.07</depth>
+                              </dimensions>, height incomplete) of soft <material>brown limestone</material>
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Carved and inscribed in low counter-relief.  The inscription (die, <dimensions>
+                              <width unit="metre">0.35</width>
+                              <height unit="metre">0.90</height>
+                           </dimensions>,
+               height incomplete) occupies the lower and taller of two rectangular panels set within a <rs type="decoration">guilloche</rs> border. 
+               Above is a <rs type="decoration">Latin cross, with <rs type="decoration">stars</rs> in the upper corners</rs>; <rs type="decoration">A and Ω and two leaves</rs> in the lower. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Capitals: <height unit="metre">0.065</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Findspot</p>
+                     <origDate>No indication</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot" key="db666">Western Djebel</placeName>: 
+                  Found in situ in the apse of the <rs type="monuList" key="db888">church 1 km. South of Ras el-Uadi</rs> and 3 km. North West of the mudariya of 
+                  El-Asabaa (map ref. Q 143782). </p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db662">Tripoli Castle</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2220153/al-asabi%60ah.html">Al Aşābi`ah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p> 
+               <bibl>
+                  <author>Bartoccini</author>, <ptr target="afrital"/>, <biblScope>II: 84-88</biblScope>, fig. 11.</bibl> 
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><g type="crux"/> <w lemma="deus">Deo</w> 
+               <w lemma="propitius">propi<lb n="2" type="inWord"/>tio</w> <w lemma="hic">hic</w> 
+               <w lemma="pausa">pau<lb n="3" type="inWord"/>sat </w>
+               <w lemma="bonus"><expan><abbr>bon</abbr><ex>a</ex><abbr>e</abbr></expan></w>
+               <lb n="4"/>
+               <w lemma="memoria"><expan><abbr>memori</abbr><ex>a</ex><abbr>e</abbr></expan></w>
+               <lb n="5"/><persName type="attested"><name type="cognomen" nymRef="Turrentius">Turrenti</name></persName>
+               <lb n="6"/><w lemma="presbiter">presbiteri</w>
+               <lb n="7"/><w lemma="qui">qui</w> <w lemma="uiuo">bixit</w>
+               <lb n="8"/><w lemma="in">in</w> <w lemma="pax">pace</w> 
+               <date when-iso="PY47"><w lemma="annus">an<lb n="9" type="inWord"/>nos</w> 
+              <w lemma="quadraginta"><expan><abbr>qu<unclear>a</unclear></abbr><ex>d</ex><abbr><unclear>r</unclear>a</abbr></expan><lb n="10" type="inWord"/>ginta</w> 
+               <w lemma="septem">se<supplied reason="lost">p</supplied><lb n="11" type="inWord"/><unclear>t</unclear><supplied reason="lost">em</supplied></w></date> 
+               <w lemma="multus">plus</w> <w lemma="paruus"><supplied reason="lost">mi</supplied><lb n="12" type="inWord"/><unclear>n</unclear><supplied reason="lost">u</supplied>s</w> 
+               <w lemma="requiesco">r<unclear>e</unclear><supplied reason="lost">qui</supplied><lb n="13" type="inWord"/><supplied reason="lost">eui</supplied>t</w> 
+               <w lemma="in">i<supplied reason="lost">n</supplied></w> <w lemma="pax"><supplied reason="lost">pa</supplied><lb n="14" type="inWord"/><supplied reason="lost">ce</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p><note>Cross</note> With God favourable, here rests Turrentius, presbyter, of good memory, who lived in peace approximately forty-seven years and was laid to rest in peace <gap reason="lost"/></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="1054"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DTV 689 Leica)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

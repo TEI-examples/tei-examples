@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT022" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> of statues to  Marcus Aurelius</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT022</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <material>Marble</material> 
+                              <rs type="objectType">block</rs>
+               (<dimensions>
+                                 <width unit="metre">1.18</width>
+                                 <height unit="metre">0.64</height>
+                                 <depth unit="metre">0.36</depth>
+                              </dimensions>)</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Second century capitals: line 1, <height unit="metre">0.06</height>: remainder, <height unit="metre">0.045</height>. </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0170" evidence="titulature">A.D. 170 (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>:
+                  <rs type="monuList" key="db843">Forum</rs>, in front of the Capitolium. 
+</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Bartoccini</author>, <ptr target="rivtrip"/> 
+                  <biblScope>I:287</biblScope>
+               </bibl>;
+               <bibl>
+                  <ptr target="ae"/> 
+                  <biblScope>1925:102</biblScope>
+               </bibl>.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+               <persName type="emperor"><name type="cognomen" nymRef="Caesar">Caesari</name> <persName type="emperor"><w lemma="diuus">diui</w> <name type="gentilicium" nymRef="Antoninus">Antonini</name></persName> 
+               <w lemma="filius"><expan><abbr>fil</abbr><ex>io</ex></expan></w> 
+               <persName type="emperor"><w lemma="diuus">diui</w>
+               <lb n="2"/><name type="cognomen" nymRef="Verus">Veri</name> <name type="cognomen" nymRef="Parthicus">Parthici</name> 
+               <w lemma="magnus"><expan><abbr>max</abbr><ex>imi</ex></expan></w></persName> <w lemma="frater">fratri</w> 
+               <persName type="emperor"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Hadrianus"><expan><abbr>Hadr</abbr><ex>iani</ex></expan></name></persName> 
+               <w lemma="nepos"><expan><abbr>nep</abbr><ex>oti</ex></expan></w> 
+               <lb n="3"/><persName type="emperor"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Traianus">Traiani</name> <name type="cognomen" nymRef="Parthicus">Parthici</name></persName> 
+               <w lemma="pronepos"><expan><abbr>pronep</abbr><ex>oti</ex></expan></w> <persName type="emperor"><w lemma="diuus">diui</w> <name type="cognomen" nymRef="Nerua">Neruae</name></persName> 
+               <lb n="4"/><w lemma="abnepos">abnepoti</w> 
+               <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Aurelius">Aurelio</name> <name type="gentilicium" nymRef="Antoninus">Antonino</name> 
+               <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> 
+               <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w>
+               <lb n="5"/> <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+               <expan><abbr>trib</abbr><ex>unicia</ex></expan> 
+               <w lemma="potestas"><expan><abbr>potest</abbr><ex>ate</ex></expan></w> <num value="24">XXIIII</num>
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratori</ex></expan></w> <num value="5">V</num>
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w>  <num value="3">III</num>
+               <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w>
+               <lb n="6"/><w lemma="statua">statuas</w> <w lemma="duo">duas</w> <w lemma="qui">quas</w> 
+               <persName type="attested"><name type="gentilicium" nymRef="Anicia">Anicia</name> <name type="cognomen" nymRef="Pudentilla">Pudentilla</name></persName>  <w lemma="codicillus">codicillis</w>
+               <lb n="7"/><w lemma="ex">ex</w> <w lemma="sestertius"><expan><abbr><am><g type="sestertius"/></am></abbr><ex>sestertiis</ex></expan></w> 
+               <num value="30000"><hi rend="supraline">XXX</hi></num> 
+               <w lemma="nummus"><expan><abbr>n</abbr><ex>ummum</ex></expan></w> <w lemma="pono">poni</w> <w lemma="iubeo">iussit</w> 
+               <persName type="attested"><name type="gentilicium" nymRef="Manlia">Manlia</name> <name type="cognomen" nymRef="Macrina">Macrina</name></persName> 
+               <lb n="8"/><w lemma="mater">mater</w> <w lemma="et">et</w> <w lemma="heres">heres</w> <w lemma="adicio">adiectis</w> 
+               <w lemma="ex">ex</w> <w lemma="sestertius"><expan><abbr><am><g type="sestertius"/></am></abbr><ex>sestertiis</ex></expan></w> 
+               <num value="8000"><hi rend="supraline">VIII</hi></num>
+               <w lemma="nummus"><expan><abbr>n</abbr><ex>ummum</ex></expan></w> <w lemma="facio">fecit</w>
+               <lb n="9"/><persName type="attested"><name type="praenomen" nymRef="Caius"><expan><abbr>C</abbr><ex>aio</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Manilius">Manilio</name> <name type="cognomen" nymRef="Manilianus">Maniliano</name></persName> <w lemma="genus">genero</w> <w lemma="curo">curante</w></ab></div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+            <p>
+               <app loc="7">
+                  <note> 30,000 sesterces.</note>
+               </app>
+            </p>
+            <p>
+               <app loc="8">
+                  <note> 8,000 sesterces.</note>
+               </app>
+            </p>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Emperor Caesar, son of deified Antoninus, brother of deified Verus, the greatest victor in Parthia , grandson of deified 
+               Hadrian, great-grandson of deified Trajan the victor in Parthia, great-great-grandson of deified Nerva, Marcus Aurelius 
+               Antoninus Augustus, chief priest, holding tribunician power for the 24th time, acclaimed victor five times, consul three times, 
+               father of the country; the two statues whose erection Anicia Pudentilla ordered in her will at the expenditure of 30,000 
+               sesterces, Manlia Macrina, her mother and heiress, had made at the additional cost of eight thousand sesterces, with 
+               Caius Manilius Manilianus, her son-in-law, in charge <supplied reason="subaudible">of the work</supplied></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 5-6. trib. pot. XXIIII:  10 Dec. 169 - 9 Dec.170.</p>
+            <p>l. 7. Manlia Macrina. Also in  <ref type="inscription">91</ref>, ll. 1-3.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0030"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CS 231)</head>
+               </figure>
+               <figure>
+                  <graphic url="0031"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.VI.16)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT301" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Mars Augustus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT301</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> 
+                              <rs type="objectType">Panel</rs>
+               (<dimensions>
+                                 <width unit="metre">0.86</width>
+                                 <height unit="metre">0.57</height>
+                                 <depth unit="metre">0.30</depth>
+                              </dimensions>) of fine <material>grey limestone</material>, inscribed within a <rs type="decoration">narrow border</rs> (die, <dimensions>
+                                 <width unit="metre">0.79</width>
+                                 <height unit="metre">0.51</height>
+                              </dimensions>). </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the surviving face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Irregular capitals: <height unit="metre">0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0006" evidence="prosopography">A.D. 6 (prosopography)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: Findspot unrecorded</p>
+                        </event>
+                        <event type="observed">
+                           <p> 
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <author>Romanelli</author>, <ptr target="epigraphica"/> 
+                  <biblScope>I: 99</biblScope>ff., fig 9</bibl>;
+               <bibl>
+                  <ptr target="ae"/>, <biblScope>1940:68</biblScope>
+               </bibl>
+               <bibl>
+                  <author>Aurigemma</author>, <ptr target="afrital"/>, <biblScope>VIII:12</biblScope> ff., fig. 7.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="divine"><name type="cognomen" nymRef="Mars">Marti</name> <name type="cognomen" nymRef="Augustus">Augusto</name></persName> <w lemma="sacer">sacrum</w>
+               <lb n="2"/><w lemma="auspicium">auspiciis</w> <persName type="emperor"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></w> <name type="cognomen" nymRef="Caesar">Caesaris</name> <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+               <lb n="3"/><w lemma="pontifex">pontificis</w> <w lemma="magnus">maxumi</w> <w lemma="pater">patris</w>
+               <lb n="4"/><w lemma="patria">patriae</w> <w lemma="duco">ductu</w> <persName type="attested"><name type="praenomen" nymRef="Cossus">Cossi</name> <name type="cognomen" nymRef="Lentulus">Lentuli</name></persName>
+               <lb n="5"/><w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan></w> <num value="15">XV</num><w lemma="uir">uiri</w> <w lemma="sacer">sacris</w> <w lemma="facio">faciundis</w>
+               <lb n="6"/><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <w lemma="prouincia">prouincia</w> <placeName type="ethnic" nymRef="Africus">Africa</placeName>
+               <lb n="7"/><w lemma="bellum">bello</w> <placeName type="ethnic" nymRef="Gaetulicus">Gaetulico</placeName> <w lemma="libero">liberata</w>
+               <lb n="8"/><w lemma="ciuitas">ciuitas</w> <placeName type="ethnic" nymRef="Lepcitanus">Lepcitana</placeName>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>Sacred to Mars Augustus. Under the auspices of the emperor Caesar Augustus, chief priest, father of the country, and the leadership of Cossus Lentulus, consul, member of the committee of the fifteen for religious ceremonies <note>at Rome</note>, proconsul, the province of Africa was freed from the war with the Gaetuli. The city of Lepcis <supplied reason="subaudible">set this up</supplied>.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 4. Cossus Cornelius Lentulus, cos. B.C. 1, procos. Africae c. A.D. 6, = PIR (2) C 1380. </p>
+            <p>l. 7. See Dio Cassius LV, 28, 3- 4.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0360"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 329)</head>
+               </figure>
+               <figure>
+                  <graphic url="0361"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. DLM Lastre)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

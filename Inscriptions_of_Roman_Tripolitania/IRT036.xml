@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT036" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Geta </title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT036</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Impression left by a fragment from the lower part of a lost <material>marble</material> 
+                              <rs type="objectType">panel</rs> 
+               (approx. <dimensions>
+                                 <width unit="metre">0.34</width>
+                                 <height unit="metre">0.39</height>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Original text inscribed within a moulded border. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Capitals: <height unit="metre">0.07</height>.  </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0198-12-10" notAfter="0199-12-09" evidence="titulature">Between 10th Dec. A.D. 198 and 9th Dec. 199. (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>: 
+                  <rs type="monuList" key="db853">Office Baths</rs>, re-used in the fourth century pavement of the S Caldarium. </p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><persName type="emperor"><supplied reason="lost"><name type="praenomen" nymRef="Publius"><expan><abbr>P</abbr><ex>ublio</ex></expan></name> 
+                  <name type="gentilicium" nymRef="Septimius">Septimio</name> <name type="cognomen" nymRef="Geta">Getae</name> <w lemma="nobilis">nobilissimo</w> <name type="cognomen" nymRef="Caesar">Caesari</name></supplied></persName>
+               <lb n="2"/><supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></w></supplied>
+               <persName type="emperor"><supplied reason="lost"><name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> 
+                     <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>uci</ex></expan></name> 
+                     <name type="gentilicium" nymRef="Septimius">Septimi</name> <name type="cognomen" nymRef="Seuerus">Seueri</name> <name type="cognomen" nymRef="Pius">Pii</name> <name type="cognomen" nymRef="Pertinax">Pertinacis</name></supplied>
+               <lb n="3"/><supplied reason="lost"><name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></supplied> 
+                  <name><supplied reason="lost">Arab</supplied>ici</name> 
+               <name type="cognomen" nymRef="Adiabenicus">Ad<supplied reason="lost">iabenici</supplied></name>
+               <supplied reason="lost"><name type="cognomen" nymRef="Parthicus">Parthici</name> <w lemma="magnus">maximi</w></supplied></persName>
+               <lb n="4"/><supplied reason="lost"><w lemma="tribunicius"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> 
+                  <w lemma="potestas"><expan><abbr>pot</abbr><ex>estate</ex></expan></w></supplied> 
+               <num value="7">VII</num> 
+               <w lemma="imperator"><expan><abbr>imp</abbr><ex>eratoris</ex></expan></w>
+               <num value="11">X<supplied reason="lost">I</supplied></num>
+               <supplied reason="lost"><w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan></w> 
+                  <num value="2">II</num> 
+                  <w lemma="pater"><expan><abbr>p</abbr><ex>atris</ex></expan></w> 
+                  <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> 
+                  <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan></w></supplied>
+               <supplied reason="lost"><w lemma="filius">filio</w> <w lemma="et">et</w></supplied> 
+               <supplied reason="lost"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></w></supplied>
+               <lb n="5"/><persName type="emperor"><supplied reason="lost"><name type="gentilicium" nymRef="Antoninus">Antonini</name></supplied> 
+               <name type="cognomen" nymRef="Augustus"><expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>usti</ex></expan></name></persName> 
+               <w lemma="frater">fratri</w> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>
+               <supplied reason="lost">To Publius Septimius Geta, 
+               most noble Caesar, son of Emperor Caesar Lucius Septimius Severus, Pius, Pertinax, Augustus</supplied> Victor in Arabia, 
+               Victor in Adiabene, <supplied reason="lost">greatest Victor in Parthia, 
+               holding tribunician power for the</supplied> seventh time, acclaimed victor <supplied reason="lost">eleven times, consul twice, 
+               father of the country, proconsul and</supplied> brother <supplied reason="lost">of Emperor Antoninus</supplied> Augustus <gap reason="lost"/> </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>l. 4. trib. pot. VII. 10 Dec. 198 to 9 Dec. 199.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0053"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 47.IX.40)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

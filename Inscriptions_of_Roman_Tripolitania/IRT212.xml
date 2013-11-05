@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT212" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Christian</rs> 
+               <rs type="textType">funerary</rs> inscriptions</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT212</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Two re-used <rs type="objectType">paving-slab</rs>s 
+               (<dimensions>
+                                 <width unit="metre">0.445</width>
+                                 <height unit="metre">0.65</height>
+                              </dimensions> and 
+               <dimensions>
+                                 <width unit="metre">0.47</width>
+                                 <height unit="metre">0.42</height>
+                              </dimensions>) of <material>grey limestone</material>,
+               from a tomb in the cemetery to the E of Church I. They are now loose, but 
+               the peculiar form of alpha found in both, but otherwise unique in the 
+               series from this cemetery, renders the association almost certain.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> 
+                        <height unit="metre" atLeast="0.04" atMost="0.065">0.04-0.065</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notAfter="0600" notBefore="0401" evidence="context">Fifth-sixth century A.D. (context)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/abrotonum-sabratha-35-e2"
+                                         key="db659">Sabratha</placeName>: 
+                  <rs type="monuList" key="db836">Cemetery east of Church I</rs>. From a tomb.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2208578/marsa-zawaghah.html">Marsa Zawaghah</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="basiliche"/>, <biblScope>19</biblScope>.</bibl>
+            </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><div subtype="part" n="a" type="textpart"><ab>
+               <lb n="1"/><g type="crux"/>
+               <w lemma="indictio"><expan><abbr>Ind</abbr><ex>ictione</ex></expan></w> 
+               <num value="3">III</num> <g type="crux"/>
+               <lb n="2"/>
+               <w lemma="bonus"><expan><abbr>Bon</abbr><ex>a</ex><abbr>e</abbr></expan></w> 
+               <w lemma="memoria"><expan><abbr>memor<lb n="3" type="inWord"/>i</abbr><ex>a</ex><abbr>e</abbr></expan></w>
+                  <persName type="attested"><name type="cognomen" nymRef="Liberata">Liberatae</name></persName>
+               <lb n="4"/>
+                  <w lemma="uiuo">bixit</w> 
+                  <date when-iso="PY40"><w lemma="annus">annos</w>
+               <lb n="5"/>
+               <num value="40">XL</num> </date>
+               <w lemma="multus"><expan><abbr>pl</abbr><ex>us</ex></expan></w> 
+               <w lemma="paruus"><expan><abbr>m</abbr><ex>inus</ex></expan></w> 
+               <w lemma="paucus">pa<lb n="6" type="inWord"/>uci</w> 
+                  <w lemma="et">et</w> 
+                  <w lemma="malus">mali</w> 
+                  <w lemma="et">et</w>
+               <lb n="7"/>
+                  <w lemma="requiesco">requiebit</w> 
+                  <w lemma="in">in</w>
+               <lb n="8"/>
+               <persName type="divine"><name><expan><abbr><am>ΧΡ</am></abbr><ex>Christ</ex><abbr>o</abbr></expan></name></persName> 
+               <w lemma="mensis"><expan><abbr>men</abbr><ex>se</ex></expan></w> 
+               <w lemma="Iulius">Iu<lb n="9" type="inWord"/>lio</w> 
+               
+<abbr>co<hi rend="supraline">m</hi></abbr> 
+               <num value="8"><hi rend="ligature">VI</hi>II</num> 
+            </ab></div><div subtype="part" n="b" type="textpart"><ab>
+               <lb n="1"/>Audias in 
+               illa<lb n="2" type="inWord"/>die bocem 
+               <expan><abbr>D</abbr><ex>omi</ex><abbr>ni</abbr></expan> 
+               <lb n="3"/>
+               <expan><abbr><am>ΙΗ</am></abbr><ex>Ies</ex><abbr>u</abbr></expan> 
+               <expan><abbr><am>ΧΡ</am></abbr><ex>Christ</ex><abbr>i</abbr></expan> 
+               dicentis
+               <lb n="4"/>remissa sunt
+               <lb n="5"/>tibi unibersa
+               <lb n="16"/>delicta <g type="crux"/>
+            </ab></div></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>a. <note>cross</note> In the third indiction <note>cross</note>. To the good memory of Liberata. She lived approximately 40 years, few and bad, and went to rest in Christ in the month of July, eight <note>?</note> </p><p>b. May you hear on that day the voice of the Lord Jesus Christ saying "all your sins are forgiven". <note>cross</note></p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0256"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.VIII.11)</head>
+               </figure>
+               <figure>
+                  <graphic url="0257"/>
+                  <head>Ward-Perkins Archive, BSR (BSR 46.VIII.12)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

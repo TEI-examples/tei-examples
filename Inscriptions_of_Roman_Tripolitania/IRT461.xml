@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT461" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Dedication</rs> to Carus</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT461</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p> Rectangular <rs type="objectType">base</rs> (<dimensions>
+                                 <width unit="metre">0.45</width>
+                                 <height unit="metre">0.97</height>
+                                 <depth unit="metre">0.45</depth>
+                              </dimensions>) of coarse <material>brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on one face within a moulded panel (die, <dimensions>
+                              <width unit="metre">0.32</width>
+                              <height unit="metre">0.63</height>
+                           </dimensions>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Late form of Rustic capitals: <height unit="metre" atLeast="0.05" atMost="0.06">0.05-0.06</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate when="0283" evidence="titulature">A.D. 281 (titulature)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>:  Findspot unrecorded</p>
+                        </event>
+                        <event type="observed">
+                           <p>
+                              <rs type="monuList" key="db654">Lepcis Museum</rs>.</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Not previously published.</p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/>
+               <persName type="emperor"><w lemma="imperator"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> 
+               <name type="cognomen" nymRef="Caesar"><expan><abbr>Caes</abbr><ex>ari</ex></expan></name>
+               <lb n="2"/>
+               <name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Aurelius">Aurelio</name>
+               <lb n="3"/><name type="cognomen" nymRef="Carus">Caro</name> <name type="cognomen" nymRef="Pius">Pio</name> <name type="cognomen" nymRef="Felix"><expan><abbr>Fel</abbr><ex>ici</ex></expan></name>
+               <lb n="4"/><w lemma="inuictus">inuicto</w> <name type="cognomen" nymRef="Augustus"><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+               <lb n="5"/>
+               <w lemma="pontifex"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w> 
+               <w lemma="magnus"><expan><abbr>max</abbr><ex>imo</ex></expan></w> 
+               <w lemma="tribunicius"><expan><abbr>t</abbr><ex>ribunicia</ex></expan></w> 
+               <w lemma="potestas"><expan><unclear>p</unclear><ex>otestate</ex></expan></w>
+               <lb n="6"/>
+               <num value="2">II</num>  
+               <w lemma="consul"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <num value="2">II</num>
+               <w lemma="pater"><expan><abbr>p</abbr><ex>atri</ex></expan></w> 
+               <w lemma="patria"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> 
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w>
+               <lb n="7"/>
+               <persName type="attested"><name type="praenomen" nymRef="Lucius"><expan><abbr><unclear>L</unclear></abbr><ex>ucius</ex></expan></name> 
+               <name type="gentilicium" nymRef="Iulius"><expan><abbr><unclear>Iul</unclear></abbr><ex>ius</ex></expan></name> <name type="cognomen" nymRef="Paulinus">Paulinus</name></persName>
+               <lb n="8"/>
+               <w lemma="uir"><expan><abbr>u</abbr><ex>ir</ex></expan></w> 
+               <w lemma="clarus"><expan><abbr>c</abbr><ex>larissimus</ex></expan></w>  
+               <w lemma="proconsul"><expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></w>
+               <gap reason="lost" quantity="4" unit="character" precision="low"/>
+               <lb n="9"/>
+               <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To Emperor Caesar Marcus Aurelius Carus, Pius, Felix, unconquered, Augustus, chief priest, holding tribunician power for the second time, consul twice, father of the country, proconsul; Lucius Julius Paulinus, most splendid man <note>i.e. of senatorial status</note>, proconsul <gap reason="lost"/> </p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>ll. 5-6. trib. pot. II - 10 Dec. 282 - 9 Dec. 283.</p>
+            <p>l. 6. cos. II - 1 Jan. 283.</p>
+            <p>l. 8. <expan>
+                  <abbr>u</abbr>
+                  <ex>ir</ex>
+               </expan> 
+               <expan>
+                  <abbr>c</abbr>
+                  <ex>larissimus</ex>
+               </expan>  
+               Perhaps Paulinus cos. 277, PIR1 (P) 126, not otherwise known to have been procos. Africae. </p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0592"/>
+                  <head>Ward-Perkins Archive, BSR</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/8/tei-epidoc.rng"
+      type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IRT603" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Porfyrius</title>
+            <editor>J. M. Reynolds</editor>
+            <editor>J. B. Ward-Perkins</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">IRT603</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0 (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>). </p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://irt.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="irt1952">
+                  <author>J. M. Reynolds</author> and <author>J. B. Ward-Perkins</author>, <title level="m">The Inscriptions of Roman Tripolitania</title>, <pubPlace>Rome</pubPlace>: <publisher>British
+                  School at Rome</publisher>, <date>1952</date>. </bibl>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Tetrapylon statue <rs type="objectType">base</rs> of rough 
+               <material>grey-brown limestone</material>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Inscribed on the front face within a recessed rectangular panel (die, <dimensions>
+                              <width unit="metre">1.18</width>
+                              <height unit="metre">0.36</height>
+                           </dimensions>) 
+               which has been cut into an earlier <rs type="decoration">tabella ansata</rs>.  
+               The sculptured ornament of the tetrapylon belongs to the earlier, erased inscription.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Late form of Rustic capitals, av. <height unit="metre">0.055</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Unknown</p>
+                     <origDate notBefore="0201" notAfter="0350" precision="low" evidence="lettering">Third to fourth century A.D. (lettering)</origDate>
+                  </origin>
+                  <provenance>
+                     <listEvent>
+                        <event type="found">
+                           <p>
+                              <placeName type="ancientFindspot"
+                                         ref="http://atlantides.org/batlas/neapolis-lepcis-magna-35-g2"
+                                         key="db653">Lepcis Magna</placeName>: 
+                  <rs type="monuList" key="db729">Punic Market</rs>, in the courtyard near the limestone market-building.</p>
+                        </event>
+                        <event type="observed">
+                           <p>Findspot</p>
+                        </event>
+                     </listEvent>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="phn-LY">Punic</language>
+            <language ident="ber-Latn">Native Libyan language in Latin script</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                  <geogName type="ancientRegion" key="Tripolitania">Tripolitania</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry" key="LY">Libya</geogName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot" key="http://www.geonames.org/2215692/leptis-magna.html">Leptis Magna</placeName>
+               </term>
+               <term xml:lang="grc-Latn">
+                  <rs type="textType">munera</rs>
+               </term>
+               <term>
+                  <rs type="textType">animals</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2010-08-18" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2008-09-09" who="ZA">converted using CHET-C</change>
+         <change when="2009-05-19" who="RV">Added Figures</change>
+         <change when="2009-08-24" who="RV">Added Figures</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl xml:id="rostovtzev1933">
+                  <author>Rostovtzev</author>, 
+                  <title level="m">Storia Economica e Sociale dell'Impero Romano</title>, 
+                  <date>1933</date>, <biblScope>386, pl. LXVI, 2</biblScope>
+               </bibl>
+               <bibl>
+                  <author>Aurigemma</author>, <ptr target="afrital"/>, <biblScope>VII:82 ff., figs. 17, 18</biblScope>
+               </bibl>
+               <bibl>
+                  <ptr target="ae"/>, <biblScope>1942-43, 4</biblScope>
+               </bibl>
+             </p>
+         </div>
+         <div subtype="text-constituted-from" type="history">
+            <head>Text constituted from</head>
+            <p>Transcription (Reynolds, Ward-Perkins)</p>
+         </div>
+         <div type="edition" xml:lang="la" xml:space="preserve"><head xml:lang="en">Text</head><ab>
+               <lb n="1"/><w lemma="amator">Amatori</w> <w lemma="patria">patriae</w> <w lemma="et">et</w> <w lemma="ciuis">ciuium</w> <w lemma="suus">suor<supplied reason="lost">um</supplied></w> <w lemma="qui"><supplied reason="lost">qu</supplied>od</w> 
+               <w lemma="indulgentia">indul<unclear>genti</unclear>a</w> <w lemma="sacer">sacra</w>
+               <lb n="2"/><w lemma="ciuis">ciuibus</w> <w lemma="se">suis</w> <w lemma="fera">feras</w> <w lemma="dentatus">dentatas</w> <w lemma="quattuor">quattuor</w> <w lemma="uiuo">uiuas</w> <w lemma="dono">donauit</w>
+               <lb n="3"/><w lemma="ex">ex</w> <w lemma="decerno">decreto</w> <w lemma="splendidus">splendidissimi</w> <w lemma="ordo">ordinis</w> <w lemma="biga">bigam</w> 
+               <w lemma="decerno"><expan><abbr>decreu</abbr><ex>eru</ex><abbr>nt</abbr></expan></w>
+               <lb n="4"/><persName type="attested"><name type="cognomen" nymRef="Porfyrius">Porfyri</name> <name type="cognomen" nymRef="Porfyrius">Porfyri</name></persName></ab></div>
+         <div type="translation" xml:space="preserve"><head>Translation</head><p>To a lover of his country and of his fellow-citizens, because by the emperor's concession he presented to his fellow-citizens four living tusked beasts <note>elephants</note>. By decree of the most splendid city council they voted a two-horse chariot. <supplied reason="subaudible">In honour</supplied> of Porfyrius, of Porfyrius.</p></div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>No comment.</p>
+         </div>
+         <div type="figure">
+            <head>Photographs</head>
+            <p>
+               <figure>
+                  <graphic url="0791"/>
+                  <head>Ward-Perkins Archive, BSR (Sopr. CLM 45)</head>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
